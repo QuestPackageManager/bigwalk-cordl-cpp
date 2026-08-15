@@ -1,0 +1,405 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/DrawingSettings.hpp"
+#include "UnityEngine/Rendering/zzzz__DrawRendererFlags_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__PerObjectData_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__SortingSettings_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__DrawingSettings_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__DrawingSettings_def.hpp"
+#include "UnityEngine/Rendering/zzzz__PerObjectData_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
+#include "UnityEngine/Rendering/zzzz__SortingSettings_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer::DrawingSettings__shaderPassNames_e__FixedBuffer(int32_t  FixedElementField) noexcept  {
+this->FixedElementField = FixedElementField;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer::DrawingSettings__shaderPassNames_e__FixedBuffer()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Rendering::ShaderTagId, ::UnityEngine::Rendering::SortingSettings)>(&::UnityEngine::Rendering::DrawingSettings::_ctor)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x1822a8d10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::Rendering::ShaderTagId>(), ::i2c::type_of<::UnityEngine::Rendering::SortingSettings>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_perObjectData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Rendering::PerObjectData)>(&::UnityEngine::Rendering::DrawingSettings::set_perObjectData)> {
+  constexpr static std::size_t size = 0x2630;
+  constexpr static std::size_t addrs = 0x180b9feb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_perObjectData", {}, {::i2c::type_of<::UnityEngine::Rendering::PerObjectData>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_enableDynamicBatching
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(bool)>(&::UnityEngine::Rendering::DrawingSettings::set_enableDynamicBatching)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1822a8ed0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_enableDynamicBatching", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_enableInstancing
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(bool)>(&::UnityEngine::Rendering::DrawingSettings::set_enableInstancing)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1822a8f00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_enableInstancing", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_overrideMaterial
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Material*)>(&::UnityEngine::Rendering::DrawingSettings::set_overrideMaterial)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1822a8f50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_overrideMaterial", {}, {::i2c::type_of<::UnityEngine::Material*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_overrideShader
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::DrawingSettings::set_overrideShader)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1822a8fa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_overrideShader", {}, {::i2c::type_of<::UnityEngine::Shader*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_overrideMaterialPassIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::set_overrideMaterialPassIndex)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181fcace0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_overrideMaterialPassIndex", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_overrideShaderPassIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::set_overrideShaderPassIndex)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18182c930;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_overrideShaderPassIndex", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_mainLightIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::set_mainLightIndex)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181fcaaf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_mainLightIndex", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.set_lodCrossFadeStencilMask
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::set_lodCrossFadeStencilMask)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180cbfd00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_lodCrossFadeStencilMask", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.GetShaderPassName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ShaderTagId (::UnityEngine::Rendering::DrawingSettings::*)(int32_t)>(&::UnityEngine::Rendering::DrawingSettings::GetShaderPassName)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x1822a8b60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"GetShaderPassName", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.SetShaderPassName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawingSettings::*)(int32_t, ::UnityEngine::Rendering::ShaderTagId)>(&::UnityEngine::Rendering::DrawingSettings::SetShaderPassName)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x1822a8c20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"SetShaderPassName", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::ShaderTagId>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawingSettings::*)(::UnityEngine::Rendering::DrawingSettings)>(&::UnityEngine::Rendering::DrawingSettings::Equals)> {
+  constexpr static std::size_t size = 0x600;
+  constexpr static std::size_t addrs = 0x1822a84e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"Equals", {}, {::i2c::type_of<::UnityEngine::Rendering::DrawingSettings>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawingSettings::*)(::System::Object*)>(&::UnityEngine::Rendering::DrawingSettings::Equals)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x1822a83d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DrawingSettings::*)()>(&::UnityEngine::Rendering::DrawingSettings::GetHashCode)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1822a8ae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::DrawingSettings.op_Equality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::DrawingSettings, ::UnityEngine::Rendering::DrawingSettings)>(&::UnityEngine::Rendering::DrawingSettings::op_Equality)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x1822a8e20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"op_Equality", {}, {::i2c::type_of<::UnityEngine::Rendering::DrawingSettings>(), ::i2c::type_of<::UnityEngine::Rendering::DrawingSettings>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::DrawingSettings::setStaticF_maxShaderPasses(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "maxShaderPasses", ::UnityEngine::Rendering::DrawingSettings>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::DrawingSettings::getStaticF_maxShaderPasses()  {
+return ::cordl_internals::getStaticField<int32_t, "maxShaderPasses", ::UnityEngine::Rendering::DrawingSettings>();
+}
+inline void UnityEngine::Rendering::DrawingSettings::_ctor(::UnityEngine::Rendering::ShaderTagId  shaderPassName, ::UnityEngine::Rendering::SortingSettings  sortingSettings)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::Rendering::ShaderTagId>(), ::i2c::type_of<::UnityEngine::Rendering::SortingSettings>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, shaderPassName, sortingSettings);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_perObjectData(::UnityEngine::Rendering::PerObjectData  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_perObjectData", {}, {::i2c::type_of<::UnityEngine::Rendering::PerObjectData>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_enableDynamicBatching(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_enableDynamicBatching", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_enableInstancing(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_enableInstancing", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_overrideMaterial(::UnityEngine::Material*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_overrideMaterial", {}, {::i2c::type_of<::UnityEngine::Material*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_overrideShader(::UnityEngine::Shader*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_overrideShader", {}, {::i2c::type_of<::UnityEngine::Shader*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_overrideMaterialPassIndex(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_overrideMaterialPassIndex", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_overrideShaderPassIndex(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_overrideShaderPassIndex", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_mainLightIndex(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_mainLightIndex", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::DrawingSettings::set_lodCrossFadeStencilMask(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"set_lodCrossFadeStencilMask", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::ShaderTagId UnityEngine::Rendering::DrawingSettings::GetShaderPassName(int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"GetShaderPassName", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ShaderTagId>(*this, ___internal_method, index);
+}
+inline void UnityEngine::Rendering::DrawingSettings::SetShaderPassName(int32_t  index, ::UnityEngine::Rendering::ShaderTagId  shaderPassName)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"SetShaderPassName", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::ShaderTagId>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, shaderPassName);
+}
+inline bool UnityEngine::Rendering::DrawingSettings::Equals(::UnityEngine::Rendering::DrawingSettings  other)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"Equals", {}, {::i2c::type_of<::UnityEngine::Rendering::DrawingSettings>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Rendering::DrawingSettings::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline int32_t UnityEngine::Rendering::DrawingSettings::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::DrawingSettings::op_Equality(::UnityEngine::Rendering::DrawingSettings  left, ::UnityEngine::Rendering::DrawingSettings  right)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::DrawingSettings>(),
+                        {"op_Equality", {}, {::i2c::type_of<::UnityEngine::Rendering::DrawingSettings>(), ::i2c::type_of<::UnityEngine::Rendering::DrawingSettings>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, left, right);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>"
+constexpr  UnityEngine::Rendering::DrawingSettings::operator ::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>*()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>"
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>* UnityEngine::Rendering::DrawingSettings::i___System__IEquatable_1___UnityEngine__Rendering__DrawingSettings_()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "m_SortingSettings", ty: "::UnityEngine::Rendering::SortingSettings", modifiers: "", def_value: Some("{}") }, CppParam { name: "shaderPassNames", ty: "::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PerObjectData", ty: "::UnityEngine::Rendering::PerObjectData", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::DrawRendererFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverrideShaderID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverrideShaderPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverrideMaterialInstanceId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OverrideMaterialPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_fallbackMaterialInstanceId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MainLightIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UseSrpBatcher", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LodCrossFadeStencilMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::DrawingSettings::DrawingSettings(::UnityEngine::Rendering::SortingSettings  m_SortingSettings, ::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer  shaderPassNames, ::UnityEngine::Rendering::PerObjectData  m_PerObjectData, ::UnityEngine::Rendering::DrawRendererFlags  m_Flags, int32_t  m_OverrideShaderID, int32_t  m_OverrideShaderPassIndex, int32_t  m_OverrideMaterialInstanceId, int32_t  m_OverrideMaterialPassIndex, int32_t  m_fallbackMaterialInstanceId, int32_t  m_MainLightIndex, int32_t  m_UseSrpBatcher, int32_t  m_LodCrossFadeStencilMask) noexcept  {
+this->m_SortingSettings = m_SortingSettings;
+this->shaderPassNames = shaderPassNames;
+this->m_PerObjectData = m_PerObjectData;
+this->m_Flags = m_Flags;
+this->m_OverrideShaderID = m_OverrideShaderID;
+this->m_OverrideShaderPassIndex = m_OverrideShaderPassIndex;
+this->m_OverrideMaterialInstanceId = m_OverrideMaterialInstanceId;
+this->m_OverrideMaterialPassIndex = m_OverrideMaterialPassIndex;
+this->m_fallbackMaterialInstanceId = m_fallbackMaterialInstanceId;
+this->m_MainLightIndex = m_MainLightIndex;
+this->m_UseSrpBatcher = m_UseSrpBatcher;
+this->m_LodCrossFadeStencilMask = m_LodCrossFadeStencilMask;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::DrawingSettings::DrawingSettings()   {
+}

@@ -1,0 +1,102 @@
+#pragma once
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Variable.hpp"
+#include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
+#include "MS/Internal/Xml/XPath/zzzz__Variable_def.hpp"
+#include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathResultType_def.hpp"
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Variable._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Variable::*)(::StringW, ::StringW)>(&::MS::Internal::Xml::XPath::Variable::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1803224a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Variable*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Variable.get_Type
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Variable::*)()>(&::MS::Internal::Xml::XPath::Variable::get_Type)> {
+  constexpr static std::size_t size = 0x28d50;
+  constexpr static std::size_t addrs = 0x180feb5f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::MS::Internal::Xml::XPath::Variable*>(),
+                    {::i2c::class_of<::MS::Internal::Xml::XPath::Variable*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Variable.get_ReturnType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Variable::*)()>(&::MS::Internal::Xml::XPath::Variable::get_ReturnType)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x180908b40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::MS::Internal::Xml::XPath::Variable*>(),
+                    {::i2c::class_of<::MS::Internal::Xml::XPath::Variable*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& MS::Internal::Xml::XPath::Variable::__cordl_internal_get__localname()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____localname;
+}
+constexpr ::StringW const& MS::Internal::Xml::XPath::Variable::__cordl_internal_get__localname() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____localname;
+}
+constexpr void MS::Internal::Xml::XPath::Variable::__cordl_internal_set__localname(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____localname = value;
+}
+constexpr ::StringW& MS::Internal::Xml::XPath::Variable::__cordl_internal_get__prefix()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____prefix;
+}
+constexpr ::StringW const& MS::Internal::Xml::XPath::Variable::__cordl_internal_get__prefix() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____prefix;
+}
+constexpr void MS::Internal::Xml::XPath::Variable::__cordl_internal_set__prefix(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____prefix = value;
+}
+inline void MS::Internal::Xml::XPath::Variable::_ctor(::StringW  name, ::StringW  prefix)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Variable*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, prefix);
+}
+inline ::MS::Internal::Xml::XPath::AstNode_AstType MS::Internal::Xml::XPath::Variable::get_Type()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::MS::Internal::Xml::XPath::Variable*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::MS::Internal::Xml::XPath::AstNode_AstType>(this, ___internal_method);
+}
+inline ::System::Xml::XPath::XPathResultType MS::Internal::Xml::XPath::Variable::get_ReturnType()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::MS::Internal::Xml::XPath::Variable*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathResultType>(this, ___internal_method);
+}
+inline ::MS::Internal::Xml::XPath::Variable* MS::Internal::Xml::XPath::Variable::New_ctor(::StringW  name, ::StringW  prefix)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::MS::Internal::Xml::XPath::Variable*>(name, prefix));
+}
+// Ctor Parameters []
+constexpr ::MS::Internal::Xml::XPath::Variable::Variable()   {
+}

@@ -1,0 +1,112 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/ServerObjectReplySink.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__ServerObjectReplySink_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ServerObjectReplySink._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ServerObjectReplySink::*)(::System::Runtime::Remoting::ServerIdentity*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(&::System::Runtime::Remoting::Messaging::ServerObjectReplySink::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181636bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ServerObjectReplySink*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Remoting::ServerIdentity*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::IMessageSink*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ServerObjectReplySink.SyncProcessMessage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (::System::Runtime::Remoting::Messaging::ServerObjectReplySink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Messaging::ServerObjectReplySink::SyncProcessMessage)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18164b640;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ServerObjectReplySink*>(),
+                        {"SyncProcessMessage", {}, {::i2c::type_of<::System::Runtime::Remoting::Messaging::IMessage*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ServerObjectReplySink.AsyncProcessMessage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessageCtrl* (::System::Runtime::Remoting::Messaging::ServerObjectReplySink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(&::System::Runtime::Remoting::Messaging::ServerObjectReplySink::AsyncProcessMessage)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802eb7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ServerObjectReplySink*>(),
+                        {"AsyncProcessMessage", {}, {::i2c::type_of<::System::Runtime::Remoting::Messaging::IMessage*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::IMessageSink*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& System::Runtime::Remoting::Messaging::ServerObjectReplySink::__cordl_internal_get__replySink()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____replySink;
+}
+constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& System::Runtime::Remoting::Messaging::ServerObjectReplySink::__cordl_internal_get__replySink() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____replySink;
+}
+constexpr void System::Runtime::Remoting::Messaging::ServerObjectReplySink::__cordl_internal_set__replySink(::System::Runtime::Remoting::Messaging::IMessageSink*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____replySink = value;
+}
+constexpr ::System::Runtime::Remoting::ServerIdentity*& System::Runtime::Remoting::Messaging::ServerObjectReplySink::__cordl_internal_get__identity()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____identity;
+}
+constexpr ::System::Runtime::Remoting::ServerIdentity* const& System::Runtime::Remoting::Messaging::ServerObjectReplySink::__cordl_internal_get__identity() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____identity;
+}
+constexpr void System::Runtime::Remoting::Messaging::ServerObjectReplySink::__cordl_internal_set__identity(::System::Runtime::Remoting::ServerIdentity*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____identity = value;
+}
+inline void System::Runtime::Remoting::Messaging::ServerObjectReplySink::_ctor(::System::Runtime::Remoting::ServerIdentity*  identity, ::System::Runtime::Remoting::Messaging::IMessageSink*  replySink)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ServerObjectReplySink*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Remoting::ServerIdentity*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::IMessageSink*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, identity, replySink);
+}
+inline ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Messaging::ServerObjectReplySink::SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ServerObjectReplySink*>(),
+                        {"SyncProcessMessage", {}, {::i2c::type_of<::System::Runtime::Remoting::Messaging::IMessage*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessage*>(this, ___internal_method, msg);
+}
+inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* System::Runtime::Remoting::Messaging::ServerObjectReplySink::AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg, ::System::Runtime::Remoting::Messaging::IMessageSink*  replySink)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ServerObjectReplySink*>(),
+                        {"AsyncProcessMessage", {}, {::i2c::type_of<::System::Runtime::Remoting::Messaging::IMessage*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::IMessageSink*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessageCtrl*>(this, ___internal_method, msg, replySink);
+}
+inline ::System::Runtime::Remoting::Messaging::ServerObjectReplySink* System::Runtime::Remoting::Messaging::ServerObjectReplySink::New_ctor(::System::Runtime::Remoting::ServerIdentity*  identity, ::System::Runtime::Remoting::Messaging::IMessageSink*  replySink)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::Messaging::ServerObjectReplySink*>(identity, replySink));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
+constexpr  System::Runtime::Remoting::Messaging::ServerObjectReplySink::operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept {
+return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* System::Runtime::Remoting::Messaging::ServerObjectReplySink::i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept {
+return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Remoting::Messaging::ServerObjectReplySink::ServerObjectReplySink()   {
+}

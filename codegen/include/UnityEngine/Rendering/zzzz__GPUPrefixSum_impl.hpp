@@ -1,0 +1,662 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/GPUPrefixSum.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUPrefixSum_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__IBaseRenderGraphBuilder_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphBuilder_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUPrefixSum_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IComputeCommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__ComputeBuffer_def.hpp"
+#include "UnityEngine/zzzz__ComputeShader_def.hpp"
+#include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs.DivUpGroup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::DivUpGroup)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182011310;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs*>(),
+                        {"DivUpGroup", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs.AlignUpGroup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::AlignUpGroup)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18204d6e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs*>(),
+                        {"AlignUpGroup", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs.CalculateTotalBufferSize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::CalculateTotalBufferSize)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18204d6f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs*>(),
+                        {"CalculateTotalBufferSize", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::DivUpGroup(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs*>(),
+                        {"DivUpGroup", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, value);
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::AlignUpGroup(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs*>(),
+                        {"AlignUpGroup", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::CalculateTotalBufferSize(int32_t  maxElementCount, ::by_ref<int32_t>  totalSize, ::by_ref<int32_t>  levelCounts)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs*>(),
+                        {"CalculateTotalBufferSize", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, maxElementCount, totalSize, levelCounts);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::GPUPrefixSum_ShaderDefs()   {
+}
+// Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "offset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "parentOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_LevelOffsets::GPUPrefixSum_LevelOffsets(uint32_t  count, uint32_t  offset, uint32_t  parentOffset) noexcept  {
+this->count = count;
+this->offset = offset;
+this->parentOffset = parentOffset;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_LevelOffsets::GPUPrefixSum_LevelOffsets()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources.get_output
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::BufferHandle (::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::*)()>(&::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::get_output)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1802d5350;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"get_output", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources.Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources (*)(int32_t, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder, bool)>(&::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Create)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18204cd10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"Create", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources.Initialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::*)(int32_t, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder, bool)>(&::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Initialize)> {
+  constexpr static std::size_t size = 0x310;
+  constexpr static std::size_t addrs = 0x18204d320;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"Initialize", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources.Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources (*)(int32_t, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*, bool)>(&::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Create)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18204ccd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"Create", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources.Initialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::*)(int32_t, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*, bool)>(&::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Initialize)> {
+  constexpr static std::size_t size = 0x5b0;
+  constexpr static std::size_t addrs = 0x18204cd70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"Initialize", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::get_output()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"get_output", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::BufferHandle>(*this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Create(int32_t  newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder  builder, bool  outputIsTemp)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"Create", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(nullptr, ___internal_method, newMaxElementCount, renderGraph, builder, outputIsTemp);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Initialize(int32_t  newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder  builder, bool  outputIsTemp)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"Initialize", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, newMaxElementCount, renderGraph, builder, outputIsTemp);
+}
+inline ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Create(int32_t  newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*  builder, bool  outputIsTemp)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"Create", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(nullptr, ___internal_method, newMaxElementCount, renderGraph, builder, outputIsTemp);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Initialize(int32_t  newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*  builder, bool  outputIsTemp)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(),
+                        {"Initialize", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, newMaxElementCount, renderGraph, builder, outputIsTemp);
+}
+// Ctor Parameters [CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixBuffer0", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixBuffer1", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "totalLevelCountBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "levelOffsetBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "indirectDispatchArgsBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::GPUPrefixSum_RenderGraphResources(int32_t  alignedElementCount, int32_t  maxBufferCount, int32_t  maxLevelCount, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle  prefixBuffer0, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle  prefixBuffer1, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle  totalLevelCountBuffer, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle  levelOffsetBuffer, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle  indirectDispatchArgsBuffer) noexcept  {
+this->alignedElementCount = alignedElementCount;
+this->maxBufferCount = maxBufferCount;
+this->maxLevelCount = maxLevelCount;
+this->prefixBuffer0 = prefixBuffer0;
+this->prefixBuffer1 = prefixBuffer1;
+this->totalLevelCountBuffer = totalLevelCountBuffer;
+this->levelOffsetBuffer = levelOffsetBuffer;
+this->indirectDispatchArgsBuffer = indirectDispatchArgsBuffer;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::GPUPrefixSum_RenderGraphResources()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_SupportResources.get_output
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::GPUPrefixSum_SupportResources::*)()>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::get_output)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"get_output", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_SupportResources.Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUPrefixSum_SupportResources (*)(int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::Create)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18204d9f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"Create", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_SupportResources.Load
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUPrefixSum_SupportResources (*)(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources)>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::Load)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18204dc90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"Load", {}, {::i2c::type_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_SupportResources.Resize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_SupportResources::*)(int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::Resize)> {
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x18204dd80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"Resize", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_SupportResources.LoadFromShaderGraph
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_SupportResources::*)(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources)>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::LoadFromShaderGraph)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x18204db30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"LoadFromShaderGraph", {}, {::i2c::type_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_SupportResources.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_SupportResources::*)()>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::Dispose)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18204da40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_SupportResources._Dispose_g__TryFreeBuffer_15_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GraphicsBuffer*)>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::_Dispose_g__TryFreeBuffer_15_0)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182044b80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"<Dispose>g__TryFreeBuffer|15_0", {}, {::i2c::type_of<::UnityEngine::GraphicsBuffer*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::GraphicsBuffer* UnityEngine::Rendering::GPUPrefixSum_SupportResources::get_output()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"get_output", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::GraphicsBuffer*>(*this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::GPUPrefixSum_SupportResources UnityEngine::Rendering::GPUPrefixSum_SupportResources::Create(int32_t  maxElementCount)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"Create", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(nullptr, ___internal_method, maxElementCount);
+}
+inline ::UnityEngine::Rendering::GPUPrefixSum_SupportResources UnityEngine::Rendering::GPUPrefixSum_SupportResources::Load(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources  shaderGraphResources)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"Load", {}, {::i2c::type_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(nullptr, ___internal_method, shaderGraphResources);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_SupportResources::Resize(int32_t  newMaxElementCount)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"Resize", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, newMaxElementCount);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_SupportResources::LoadFromShaderGraph(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources  shaderGraphResources)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"LoadFromShaderGraph", {}, {::i2c::type_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, shaderGraphResources);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_SupportResources::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_SupportResources::_Dispose_g__TryFreeBuffer_15_0(::UnityEngine::GraphicsBuffer*  resource)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
+                        {"<Dispose>g__TryFreeBuffer|15_0", {}, {::i2c::type_of<::UnityEngine::GraphicsBuffer*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, resource);
+}
+// Ctor Parameters [CppParam { name: "ownsResources", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixBuffer0", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixBuffer1", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "totalLevelCountBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "levelOffsetBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "indirectDispatchArgsBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_SupportResources::GPUPrefixSum_SupportResources(bool  ownsResources, int32_t  alignedElementCount, int32_t  maxBufferCount, int32_t  maxLevelCount, ::UnityEngine::GraphicsBuffer*  prefixBuffer0, ::UnityEngine::GraphicsBuffer*  prefixBuffer1, ::UnityEngine::GraphicsBuffer*  totalLevelCountBuffer, ::UnityEngine::GraphicsBuffer*  levelOffsetBuffer, ::UnityEngine::GraphicsBuffer*  indirectDispatchArgsBuffer) noexcept  {
+this->ownsResources = ownsResources;
+this->alignedElementCount = alignedElementCount;
+this->maxBufferCount = maxBufferCount;
+this->maxLevelCount = maxLevelCount;
+this->prefixBuffer0 = prefixBuffer0;
+this->prefixBuffer1 = prefixBuffer1;
+this->totalLevelCountBuffer = totalLevelCountBuffer;
+this->levelOffsetBuffer = levelOffsetBuffer;
+this->indirectDispatchArgsBuffer = indirectDispatchArgsBuffer;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_SupportResources::GPUPrefixSum_SupportResources()   {
+}
+// Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "input", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportResources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SupportResources", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_DirectArgs::GPUPrefixSum_DirectArgs(bool  exclusive, int32_t  inputCount, ::UnityEngine::GraphicsBuffer*  input, ::UnityEngine::Rendering::GPUPrefixSum_SupportResources  supportResources) noexcept  {
+this->exclusive = exclusive;
+this->inputCount = inputCount;
+this->input = input;
+this->supportResources = supportResources;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_DirectArgs::GPUPrefixSum_DirectArgs()   {
+}
+// Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputCountBufferByteOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputCountBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "input", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportResources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SupportResources", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs::GPUPrefixSum_IndirectDirectArgs(bool  exclusive, int32_t  inputCountBufferByteOffset, ::UnityEngine::ComputeBuffer*  inputCountBuffer, ::UnityEngine::GraphicsBuffer*  input, ::UnityEngine::Rendering::GPUPrefixSum_SupportResources  supportResources) noexcept  {
+this->exclusive = exclusive;
+this->inputCountBufferByteOffset = inputCountBufferByteOffset;
+this->inputCountBuffer = inputCountBuffer;
+this->input = input;
+this->supportResources = supportResources;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs::GPUPrefixSum_IndirectDirectArgs()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum_SystemResources.LoadKernels
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_SystemResources::*)()>(&::UnityEngine::Rendering::GPUPrefixSum_SystemResources::LoadKernels)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x18204e8a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SystemResources>(),
+                        {"LoadKernels", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::GPUPrefixSum_SystemResources::LoadKernels()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SystemResources>(),
+                        {"LoadKernels", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelCalculateLevelDispatchArgsFromConst", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelCalculateLevelDispatchArgsFromBuffer", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelPrefixSumOnGroup", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelPrefixSumOnGroupExclusive", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelPrefixSumNextInput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelPrefixSumResolveParent", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelPrefixSumResolveParentExclusive", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_SystemResources::GPUPrefixSum_SystemResources(::UnityW<::UnityEngine::ComputeShader>  computeAsset, int32_t  kernelCalculateLevelDispatchArgsFromConst, int32_t  kernelCalculateLevelDispatchArgsFromBuffer, int32_t  kernelPrefixSumOnGroup, int32_t  kernelPrefixSumOnGroupExclusive, int32_t  kernelPrefixSumNextInput, int32_t  kernelPrefixSumResolveParent, int32_t  kernelPrefixSumResolveParentExclusive) noexcept  {
+this->computeAsset = computeAsset;
+this->kernelCalculateLevelDispatchArgsFromConst = kernelCalculateLevelDispatchArgsFromConst;
+this->kernelCalculateLevelDispatchArgsFromBuffer = kernelCalculateLevelDispatchArgsFromBuffer;
+this->kernelPrefixSumOnGroup = kernelPrefixSumOnGroup;
+this->kernelPrefixSumOnGroupExclusive = kernelPrefixSumOnGroupExclusive;
+this->kernelPrefixSumNextInput = kernelPrefixSumNextInput;
+this->kernelPrefixSumResolveParent = kernelPrefixSumResolveParent;
+this->kernelPrefixSumResolveParentExclusive = kernelPrefixSumResolveParentExclusive;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_SystemResources::GPUPrefixSum_SystemResources()   {
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__InputBuffer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_InputBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__InputBuffer()  {
+return ::cordl_internals::getStaticField<int32_t, "_InputBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__OutputBuffer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_OutputBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__OutputBuffer()  {
+return ::cordl_internals::getStaticField<int32_t, "_OutputBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__InputCountBuffer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_InputCountBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__InputCountBuffer()  {
+return ::cordl_internals::getStaticField<int32_t, "_InputCountBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__TotalLevelsBuffer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_TotalLevelsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__TotalLevelsBuffer()  {
+return ::cordl_internals::getStaticField<int32_t, "_TotalLevelsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__OutputTotalLevelsBuffer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_OutputTotalLevelsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__OutputTotalLevelsBuffer()  {
+return ::cordl_internals::getStaticField<int32_t, "_OutputTotalLevelsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__OutputDispatchLevelArgsBuffer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_OutputDispatchLevelArgsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__OutputDispatchLevelArgsBuffer()  {
+return ::cordl_internals::getStaticField<int32_t, "_OutputDispatchLevelArgsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__LevelsOffsetsBuffer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_LevelsOffsetsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__LevelsOffsetsBuffer()  {
+return ::cordl_internals::getStaticField<int32_t, "_LevelsOffsetsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__OutputLevelsOffsetsBuffer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_OutputLevelsOffsetsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__OutputLevelsOffsetsBuffer()  {
+return ::cordl_internals::getStaticField<int32_t, "_OutputLevelsOffsetsBuffer", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+inline void UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::setStaticF__PrefixSumIntArgs(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "_PrefixSumIntArgs", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::getStaticF__PrefixSumIntArgs()  {
+return ::cordl_internals::getStaticField<int32_t, "_PrefixSumIntArgs", ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs*>();
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum_ShaderIDs::GPUPrefixSum_ShaderIDs()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(::UnityEngine::Rendering::GPUPrefixSum_SystemResources)>(&::UnityEngine::Rendering::GPUPrefixSum::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x182048090;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::Rendering::GPUPrefixSum_SystemResources>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum.PackPrefixSumArgs
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::GPUPrefixSum::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum::PackPrefixSumArgs)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182048020;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"PackPrefixSumArgs", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum.ExecuteCommonIndirect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::GraphicsBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>, bool)>(&::UnityEngine::Rendering::GPUPrefixSum::ExecuteCommonIndirect)> {
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x182047c90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"ExecuteCommonIndirect", {}, {::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum.DispatchDirect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(::UnityEngine::Rendering::IComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchDirect)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1820477e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"DispatchDirect", {}, {::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum.DispatchDirect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchDirect)> {
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x182047840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"DispatchDirect", {}, {::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum.DispatchIndirect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(::UnityEngine::Rendering::IComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x182047c30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"DispatchIndirect", {}, {::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUPrefixSum.DispatchIndirect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect)> {
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x182047a30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"DispatchIndirect", {}, {::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::GPUPrefixSum::_ctor(::UnityEngine::Rendering::GPUPrefixSum_SystemResources  resources)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::Rendering::GPUPrefixSum_SystemResources>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, resources);
+}
+inline ::UnityEngine::Vector4 UnityEngine::Rendering::GPUPrefixSum::PackPrefixSumArgs(int32_t  a, int32_t  b, int32_t  c, int32_t  d)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"PackPrefixSumArgs", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(*this, ___internal_method, a, b, c, d);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum::ExecuteCommonIndirect(::UnityEngine::Rendering::CommandBuffer*  cmdBuffer, ::UnityEngine::GraphicsBuffer*  inputBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>  supportResources, bool  isExclusive)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"ExecuteCommonIndirect", {}, {::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, inputBuffer, supportResources, isExclusive);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum::DispatchDirect(::UnityEngine::Rendering::IComputeCommandBuffer*  cmdBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>  arguments)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"DispatchDirect", {}, {::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum::DispatchDirect(::UnityEngine::Rendering::CommandBuffer*  cmdBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>  arguments)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"DispatchDirect", {}, {::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect(::UnityEngine::Rendering::IComputeCommandBuffer*  cmdBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>  arguments)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"DispatchIndirect", {}, {::i2c::type_of<::UnityEngine::Rendering::IComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
+}
+inline void UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect(::UnityEngine::Rendering::CommandBuffer*  cmdBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>  arguments)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
+                        {"DispatchIndirect", {}, {::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
+}
+// Ctor Parameters [CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SystemResources", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::GPUPrefixSum::GPUPrefixSum(::UnityEngine::Rendering::GPUPrefixSum_SystemResources  resources) noexcept  {
+this->resources = resources;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUPrefixSum::GPUPrefixSum()   {
+}

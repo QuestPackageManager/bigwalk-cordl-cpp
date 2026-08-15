@@ -1,0 +1,38 @@
+#pragma once
+// IWYU pragma private; include "Cysharp/Threading/Tasks/Triggers/IAsyncOnApplicationFocusHandler.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(IAsyncOnApplicationFocusHandler)
+namespace Cysharp::Threading::Tasks {
+template<typename T>
+struct UniTask_1;
+}
+// Forward declare root types
+namespace Cysharp::Threading::Tasks::Triggers {
+class IAsyncOnApplicationFocusHandler;
+}
+// Write type traits
+MARK_REF_T(::Cysharp::Threading::Tasks::Triggers::IAsyncOnApplicationFocusHandler*);
+DEFINE_IL2CPP_CLASS(::Cysharp::Threading::Tasks::Triggers::IAsyncOnApplicationFocusHandler*, "Cysharp.Threading.Tasks.Triggers", "IAsyncOnApplicationFocusHandler");
+// Dependencies 
+namespace Cysharp::Threading::Tasks::Triggers {
+// Is value type: false
+// CS Name: Cysharp.Threading.Tasks.Triggers.IAsyncOnApplicationFocusHandler
+class CORDL_TYPE IAsyncOnApplicationFocusHandler {
+public:
+// Declarations
+/// @brief Method OnApplicationFocusAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Cysharp::Threading::Tasks::UniTask_1<bool> OnApplicationFocusAsync() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "IAsyncOnApplicationFocusHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IAsyncOnApplicationFocusHandler(IAsyncOnApplicationFocusHandler const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14569};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Cysharp::Threading::Tasks::Triggers

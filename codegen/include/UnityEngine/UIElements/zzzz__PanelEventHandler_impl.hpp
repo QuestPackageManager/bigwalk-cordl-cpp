@@ -1,0 +1,2814 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PanelEventHandler.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
+#include "UnityEngine/zzzz__EventModifiers_impl.hpp"
+#include "UnityEngine/zzzz__PenStatus_impl.hpp"
+#include "UnityEngine/zzzz__Ray_impl.hpp"
+#include "UnityEngine/zzzz__Vector2_impl.hpp"
+#include "UnityEngine/zzzz__Vector3_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelEventHandler_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IMoveHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerMoveHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IScrollHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BlurEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FocusEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IRuntimePanelComponent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationDeviceType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelEventHandler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__PenStatus_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::PanelEventHandler_PointerEventType::PanelEventHandler_PointerEventType(int32_t  value__) noexcept  {
+this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PanelEventHandler_PointerEventType::PanelEventHandler_PointerEventType()   {
+}
+constexpr ::UnityEngine::UIElements::PanelEventHandler_PointerEventType  UnityEngine::UIElements::PanelEventHandler_PointerEventType::Default{static_cast<int32_t>(0x0)};
+constexpr ::UnityEngine::UIElements::PanelEventHandler_PointerEventType  UnityEngine::UIElements::PanelEventHandler_PointerEventType::Down{static_cast<int32_t>(0x1)};
+constexpr ::UnityEngine::UIElements::PanelEventHandler_PointerEventType  UnityEngine::UIElements::PanelEventHandler_PointerEventType::Up{static_cast<int32_t>(0x2)};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_pointerId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_pointerId)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_pointerId", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_pointerId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(int32_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_pointerId)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180378ff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_pointerId", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_pointerType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_pointerType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_pointerType", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_pointerType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::StringW)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_pointerType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_pointerType", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_isPrimary
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_isPrimary)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803a7410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_isPrimary", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_isPrimary
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(bool)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_isPrimary)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803a7480;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_isPrimary", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_button
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_button)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180396ef0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_button", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_button
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(int32_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_button)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180396f00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_button", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_pressedButtons
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_pressedButtons)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803914a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_pressedButtons", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_pressedButtons
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(int32_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_pressedButtons)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803914c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_pressedButtons", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_position
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_position)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1803f2bc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_position", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_position
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_position)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803f2bf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_position", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_localPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_localPosition)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1820131f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_localPosition", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_localPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_localPosition)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18253f600;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_localPosition", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_deltaPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_deltaPosition)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253f560;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_deltaPosition", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_deltaPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_deltaPosition)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18253f5f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_deltaPosition", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_deltaTime
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_deltaTime)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180356140;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_deltaTime", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_deltaTime
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(float_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_deltaTime)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803561c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_deltaTime", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_clickCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_clickCount)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180497940;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_clickCount", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_clickCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(int32_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_clickCount)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180497a90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_clickCount", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_pressure
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_pressure)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046faf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_pressure", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_pressure
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(float_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_pressure)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fb40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_pressure", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_tangentialPressure
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_tangentialPressure)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fb00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_tangentialPressure", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_tangentialPressure
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(float_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_tangentialPressure)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fb50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_tangentialPressure", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_altitudeAngle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_altitudeAngle)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_altitudeAngle", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_altitudeAngle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(float_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_altitudeAngle)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fb20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_altitudeAngle", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_azimuthAngle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_azimuthAngle)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_azimuthAngle", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_azimuthAngle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(float_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_azimuthAngle)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fb10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_azimuthAngle", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_twist
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_twist)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18034f9d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_twist", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_twist
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(float_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_twist)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180474c80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_twist", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_tilt
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_tilt)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180bb89b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_tilt", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_tilt
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_tilt)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x180bb8ae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_tilt", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_penStatus
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PenStatus (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_penStatus)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18051e7a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_penStatus", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_penStatus
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::PenStatus)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_penStatus)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18051e940;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_penStatus", {}, {::i2c::type_of<::UnityEngine::PenStatus>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_radius
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_radius)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803a74e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_radius", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_radius
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_radius)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18253f610;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_radius", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_radiusVariance
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_radiusVariance)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ec4c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_radiusVariance", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_radiusVariance
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_radiusVariance)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180511590;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_radiusVariance", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_modifiers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventModifiers (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_modifiers)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180310fd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_modifiers", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_modifiers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::EventModifiers)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_modifiers)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803f4230;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_modifiers", {}, {::i2c::type_of<::UnityEngine::EventModifiers>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_shiftKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_shiftKey)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18253f5c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_shiftKey", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_ctrlKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_ctrlKey)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181984080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_ctrlKey", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_commandKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_commandKey)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181984090;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_commandKey", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_altKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_altKey)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181984070;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_altKey", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_actionKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_actionKey)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18253f520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_actionKey", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_screenPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_screenPosition)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253f5a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_screenPosition", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_screenPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_screenPosition)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253f640;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_screenPosition", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_screenDelta
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_screenDelta)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253f580;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_screenDelta", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_screenDelta
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_screenDelta)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253f620;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_screenDelta", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_worldRay
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_worldRay)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253f5d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_worldRay", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_worldRay
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::Ray)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_worldRay)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253f660;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_worldRay", {}, {::i2c::type_of<::UnityEngine::Ray>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_document
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::UIDocument> (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_document)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802edc30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_document", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_document
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::UIElements::UIDocument*)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_document)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1803d3a10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_document", {}, {::i2c::type_of<::UnityEngine::UIElements::UIDocument*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_elementTarget
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_elementTarget)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803223b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_elementTarget", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_elementTarget
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_elementTarget)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1803223c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_elementTarget", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.get_elementUnderPointer
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_elementUnderPointer)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803b2f10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_elementUnderPointer", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.set_elementUnderPointer
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_elementUnderPointer)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1813fdbb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_elementUnderPointer", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::UIElements::PanelEventHandler*, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::UIElements::PanelEventHandler_PointerEventType)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::Read)> {
+  constexpr static std::size_t size = 0x460;
+  constexpr static std::size_t addrs = 0x18253f0a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"Read", {}, {::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler*>(), ::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>(), ::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler_PointerEventType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.ComputeTarget
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::ComputeTarget)> {
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x18253ec10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"ComputeTarget", {}, {::i2c::type_of<::UnityEngine::UIElements::BaseRuntimePanel*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent.GetPanelPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UIDocument*, ::UnityEngine::Ray)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::GetPanelPosition)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x18253ef50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"GetPanelPosition", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::UIDocument*>(), ::i2c::type_of<::UnityEngine::Ray>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler_PointerEvent::*)()>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler_PointerEvent._Read_g__InRange_114_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t, int32_t)>(&::UnityEngine::UIElements::PanelEventHandler_PointerEvent::_Read_g__InRange_114_0)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253f500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"<Read>g__InRange|114_0", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__pointerId_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pointerId_k__BackingField;
+}
+constexpr int32_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__pointerId_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pointerId_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__pointerId_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____pointerId_k__BackingField = value;
+}
+constexpr ::StringW& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__pointerType_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pointerType_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__pointerType_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pointerType_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__pointerType_k__BackingField(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____pointerType_k__BackingField = value;
+}
+constexpr bool& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__isPrimary_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isPrimary_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__isPrimary_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isPrimary_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__isPrimary_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isPrimary_k__BackingField = value;
+}
+constexpr int32_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__button_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____button_k__BackingField;
+}
+constexpr int32_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__button_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____button_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__button_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____button_k__BackingField = value;
+}
+constexpr int32_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__pressedButtons_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pressedButtons_k__BackingField;
+}
+constexpr int32_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__pressedButtons_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pressedButtons_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__pressedButtons_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____pressedButtons_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__position_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____position_k__BackingField;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__position_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____position_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__position_k__BackingField(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____position_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__localPosition_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____localPosition_k__BackingField;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__localPosition_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____localPosition_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__localPosition_k__BackingField(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____localPosition_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__deltaPosition_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____deltaPosition_k__BackingField;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__deltaPosition_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____deltaPosition_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__deltaPosition_k__BackingField(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____deltaPosition_k__BackingField = value;
+}
+constexpr float_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__deltaTime_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____deltaTime_k__BackingField;
+}
+constexpr float_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__deltaTime_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____deltaTime_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__deltaTime_k__BackingField(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____deltaTime_k__BackingField = value;
+}
+constexpr int32_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__clickCount_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____clickCount_k__BackingField;
+}
+constexpr int32_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__clickCount_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____clickCount_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__clickCount_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____clickCount_k__BackingField = value;
+}
+constexpr float_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__pressure_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pressure_k__BackingField;
+}
+constexpr float_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__pressure_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pressure_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__pressure_k__BackingField(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____pressure_k__BackingField = value;
+}
+constexpr float_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__tangentialPressure_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____tangentialPressure_k__BackingField;
+}
+constexpr float_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__tangentialPressure_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____tangentialPressure_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__tangentialPressure_k__BackingField(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____tangentialPressure_k__BackingField = value;
+}
+constexpr float_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__altitudeAngle_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____altitudeAngle_k__BackingField;
+}
+constexpr float_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__altitudeAngle_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____altitudeAngle_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__altitudeAngle_k__BackingField(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____altitudeAngle_k__BackingField = value;
+}
+constexpr float_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__azimuthAngle_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____azimuthAngle_k__BackingField;
+}
+constexpr float_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__azimuthAngle_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____azimuthAngle_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__azimuthAngle_k__BackingField(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____azimuthAngle_k__BackingField = value;
+}
+constexpr float_t& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__twist_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____twist_k__BackingField;
+}
+constexpr float_t const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__twist_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____twist_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__twist_k__BackingField(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____twist_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__tilt_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____tilt_k__BackingField;
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__tilt_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____tilt_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__tilt_k__BackingField(::UnityEngine::Vector2  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____tilt_k__BackingField = value;
+}
+constexpr ::UnityEngine::PenStatus& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__penStatus_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____penStatus_k__BackingField;
+}
+constexpr ::UnityEngine::PenStatus const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__penStatus_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____penStatus_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__penStatus_k__BackingField(::UnityEngine::PenStatus  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____penStatus_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__radius_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____radius_k__BackingField;
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__radius_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____radius_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__radius_k__BackingField(::UnityEngine::Vector2  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____radius_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__radiusVariance_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____radiusVariance_k__BackingField;
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__radiusVariance_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____radiusVariance_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__radiusVariance_k__BackingField(::UnityEngine::Vector2  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____radiusVariance_k__BackingField = value;
+}
+constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__modifiers_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____modifiers_k__BackingField;
+}
+constexpr ::UnityEngine::EventModifiers const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__modifiers_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____modifiers_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__modifiers_k__BackingField(::UnityEngine::EventModifiers  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____modifiers_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__screenPosition_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenPosition_k__BackingField;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__screenPosition_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenPosition_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__screenPosition_k__BackingField(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____screenPosition_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__screenDelta_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenDelta_k__BackingField;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__screenDelta_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____screenDelta_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__screenDelta_k__BackingField(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____screenDelta_k__BackingField = value;
+}
+constexpr ::UnityEngine::Ray& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__worldRay_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____worldRay_k__BackingField;
+}
+constexpr ::UnityEngine::Ray const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__worldRay_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____worldRay_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__worldRay_k__BackingField(::UnityEngine::Ray  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____worldRay_k__BackingField = value;
+}
+constexpr ::UnityW<::UnityEngine::UIElements::UIDocument>& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__document_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____document_k__BackingField;
+}
+constexpr ::UnityW<::UnityEngine::UIElements::UIDocument> const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__document_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____document_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__document_k__BackingField(::UnityW<::UnityEngine::UIElements::UIDocument>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____document_k__BackingField = value;
+}
+constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__elementTarget_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____elementTarget_k__BackingField;
+}
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__elementTarget_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____elementTarget_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__elementTarget_k__BackingField(::UnityEngine::UIElements::VisualElement*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____elementTarget_k__BackingField = value;
+}
+constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__elementUnderPointer_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____elementUnderPointer_k__BackingField;
+}
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_get__elementUnderPointer_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____elementUnderPointer_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler_PointerEvent::__cordl_internal_set__elementUnderPointer_k__BackingField(::UnityEngine::UIElements::VisualElement*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____elementUnderPointer_k__BackingField = value;
+}
+inline int32_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_pointerId()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_pointerId", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_pointerId(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_pointerId", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_pointerType()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_pointerType", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_pointerType(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_pointerType", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_isPrimary()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_isPrimary", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_isPrimary(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_isPrimary", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline int32_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_button()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_button", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_button(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_button", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline int32_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_pressedButtons()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_pressedButtons", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_pressedButtons(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_pressedButtons", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_position()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_position", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_position(::UnityEngine::Vector3  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_position", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_localPosition()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_localPosition", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_localPosition(::UnityEngine::Vector3  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_localPosition", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_deltaPosition()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_deltaPosition", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_deltaPosition(::UnityEngine::Vector3  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_deltaPosition", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_deltaTime()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_deltaTime", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_deltaTime(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_deltaTime", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline int32_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_clickCount()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_clickCount", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_clickCount(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_clickCount", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_pressure()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_pressure", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_pressure(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_pressure", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_tangentialPressure()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_tangentialPressure", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_tangentialPressure(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_tangentialPressure", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_altitudeAngle()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_altitudeAngle", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_altitudeAngle(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_altitudeAngle", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_azimuthAngle()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_azimuthAngle", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_azimuthAngle(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_azimuthAngle", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_twist()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_twist", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_twist(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_twist", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_tilt()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_tilt", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_tilt(::UnityEngine::Vector2  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_tilt", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::PenStatus UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_penStatus()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_penStatus", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::PenStatus>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_penStatus(::UnityEngine::PenStatus  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_penStatus", {}, {::i2c::type_of<::UnityEngine::PenStatus>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_radius()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_radius", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_radius(::UnityEngine::Vector2  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_radius", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_radiusVariance()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_radiusVariance", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_radiusVariance(::UnityEngine::Vector2  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_radiusVariance", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::EventModifiers UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_modifiers()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_modifiers", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventModifiers>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_modifiers(::UnityEngine::EventModifiers  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_modifiers", {}, {::i2c::type_of<::UnityEngine::EventModifiers>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_shiftKey()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_shiftKey", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_ctrlKey()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_ctrlKey", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_commandKey()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_commandKey", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_altKey()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_altKey", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_actionKey()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_actionKey", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_screenPosition()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_screenPosition", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_screenPosition(::UnityEngine::Vector3  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_screenPosition", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_screenDelta()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_screenDelta", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_screenDelta(::UnityEngine::Vector3  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_screenDelta", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Ray UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_worldRay()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_worldRay", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Ray>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_worldRay(::UnityEngine::Ray  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_worldRay", {}, {::i2c::type_of<::UnityEngine::Ray>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::UIElements::UIDocument> UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_document()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_document", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UIElements::UIDocument>>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_document(::UnityEngine::UIElements::UIDocument*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_document", {}, {::i2c::type_of<::UnityEngine::UIElements::UIDocument*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_elementTarget()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_elementTarget", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_elementTarget(::UnityEngine::UIElements::VisualElement*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_elementTarget", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::PanelEventHandler_PointerEvent::get_elementUnderPointer()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"get_elementUnderPointer", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::set_elementUnderPointer(::UnityEngine::UIElements::VisualElement*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"set_elementUnderPointer", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::Read(::UnityEngine::UIElements::PanelEventHandler*  self, ::UnityEngine::EventSystems::PointerEventData*  eventData, ::UnityEngine::UIElements::PanelEventHandler_PointerEventType  eventType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"Read", {}, {::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler*>(), ::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>(), ::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler_PointerEventType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, self, eventData, eventType);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler_PointerEvent::ComputeTarget(::UnityEngine::UIElements::BaseRuntimePanel*  panel)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"ComputeTarget", {}, {::i2c::type_of<::UnityEngine::UIElements::BaseRuntimePanel*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, panel);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PanelEventHandler_PointerEvent::GetPanelPosition(::UnityEngine::UIElements::VisualElement*  pickedElement, ::UnityEngine::UIElements::UIDocument*  document, ::UnityEngine::Ray  worldRay)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"GetPanelPosition", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::UIDocument*>(), ::i2c::type_of<::UnityEngine::Ray>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method, pickedElement, document, worldRay);
+}
+inline void UnityEngine::UIElements::PanelEventHandler_PointerEvent::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler_PointerEvent::_Read_g__InRange_114_0(int32_t  i, int32_t  start, int32_t  count)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(),
+                        {"<Read>g__InRange|114_0", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, i, start, count);
+}
+inline ::UnityEngine::UIElements::PanelEventHandler_PointerEvent* UnityEngine::UIElements::PanelEventHandler_PointerEvent::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IPointerEvent"
+constexpr  UnityEngine::UIElements::PanelEventHandler_PointerEvent::operator ::UnityEngine::UIElements::IPointerEvent*() noexcept {
+return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
+constexpr ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::PanelEventHandler_PointerEvent::i___UnityEngine__UIElements__IPointerEvent() noexcept {
+return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PanelEventHandler_PointerEvent::PanelEventHandler_PointerEvent()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.get_panel
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IPanel* (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::get_panel)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_panel", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.set_panel
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::PanelEventHandler::set_panel)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18253c7e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"set_panel", {}, {::i2c::type_of<::UnityEngine::UIElements::IPanel*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.get_selectableGameObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::get_selectableGameObject)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253c7c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_selectableGameObject", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.get_eventSystem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::EventSystems::EventSystem> (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::get_eventSystem)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18253c6c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_eventSystem", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.get_isCurrentFocusedPanel
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::get_isCurrentFocusedPanel)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18253c750;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_isCurrentFocusedPanel", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.get_currentFocusedElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::get_currentFocusedElement)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18253c680;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_currentFocusedElement", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnEnable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::OnEnable)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18253ada0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnDisable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::OnDisable)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18253ad20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.RegisterCallbacks
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::RegisterCallbacks)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x18253bd00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"RegisterCallbacks", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.UnregisterCallbacks
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::UnregisterCallbacks)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x18253c1d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"UnregisterCallbacks", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnPanelDestroyed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::OnPanelDestroyed)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18253af70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPanelDestroyed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnElementFocus
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::UIElements::FocusEvent*)>(&::UnityEngine::UIElements::PanelEventHandler::OnElementFocus)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18253ad30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnElementFocus", {}, {::i2c::type_of<::UnityEngine::UIElements::FocusEvent*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnElementBlur
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::UIElements::BlurEvent*)>(&::UnityEngine::UIElements::PanelEventHandler::OnElementBlur)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnElementBlur", {}, {::i2c::type_of<::UnityEngine::UIElements::BlurEvent*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnSelect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnSelect)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18253b890;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnSelect", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnDeselect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnDeselect)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253ad00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnDeselect", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnPointerMove
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnPointerMove)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x18253b490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerMove", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnPointerUp
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnPointerUp)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x18253b5a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerUp", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnPointerDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnPointerDown)> {
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x18253afd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerDown", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnPointerExit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnPointerExit)> {
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x18253b2b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerExit", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnPointerEnter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnPointerEnter)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x18253b1f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerEnter", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnPointerClick
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnPointerClick)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253afb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerClick", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnSubmit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnSubmit)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x18253b900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnSubmit", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnCancel
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnCancel)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x18253aba0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnCancel", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnMove
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::AxisEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnMove)> {
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x18253adb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnMove", {}, {::i2c::type_of<::UnityEngine::EventSystems::AxisEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.OnScroll
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::OnScroll)> {
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x18253b6d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnScroll", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.SendEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::SendEvent)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18253be10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendEvent", {}, {::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.SendEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Event*)>(&::UnityEngine::UIElements::PanelEventHandler::SendEvent)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18253be70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendEvent", {}, {::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::Event*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.Update
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::Update)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x18253c410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"Update", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.LateUpdate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::LateUpdate)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x18253aae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"LateUpdate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.ProcessImguiEvents
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::PanelEventHandler::ProcessImguiEvents)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x18253ba60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"ProcessImguiEvents", {}, {::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.ProcessKeyboardEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::Event*, ::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::PanelEventHandler::ProcessKeyboardEvent)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18253bb70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"ProcessKeyboardEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.ProcessTabEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::Event*, ::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::PanelEventHandler::ProcessTabEvent)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18253bbf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"ProcessTabEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.SendTabEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::Event*, ::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::PanelEventHandler::SendTabEvent)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x18253c0d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendTabEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::NavigationMoveEvent_Direction>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.SendKeyUpEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::Event*, ::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::PanelEventHandler::SendKeyUpEvent)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x18253bfb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendKeyUpEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.SendKeyDownEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::Event*, ::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::PanelEventHandler::SendKeyDownEvent)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x18253be90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendKeyDownEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.ReadPointerData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::UIElements::PanelEventHandler_PointerEvent*, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::UIElements::PanelEventHandler_PointerEventType)>(&::UnityEngine::UIElements::PanelEventHandler::ReadPointerData)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18253bc50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"ReadPointerData", {}, {::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(), ::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>(), ::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler_PointerEventType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.GetDeviceType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::NavigationDeviceType (::UnityEngine::UIElements::PanelEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::UIElements::PanelEventHandler::GetDeviceType)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18253aa60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"GetDeviceType", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler.UpdateWorldSpacePointers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::UpdateWorldSpacePointers)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x18253c2e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"UpdateWorldSpacePointers", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PanelEventHandler._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelEventHandler::*)()>(&::UnityEngine::UIElements::PanelEventHandler::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x18253c5e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_Panel()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Panel;
+}
+constexpr ::UnityEngine::UIElements::BaseRuntimePanel* const& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_Panel() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Panel;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler::__cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseRuntimePanel*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Panel = value;
+}
+constexpr ::UnityEngine::UIElements::PanelEventHandler_PointerEvent*& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_PointerEvent()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PointerEvent;
+}
+constexpr ::UnityEngine::UIElements::PanelEventHandler_PointerEvent* const& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_PointerEvent() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PointerEvent;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler::__cordl_internal_set_m_PointerEvent(::UnityEngine::UIElements::PanelEventHandler_PointerEvent*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_PointerEvent = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerEventData*>*& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_ContainedPointers()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ContainedPointers;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerEventData*>* const& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_ContainedPointers() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ContainedPointers;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler::__cordl_internal_set_m_ContainedPointers(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerEventData*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ContainedPointers = value;
+}
+constexpr float_t& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_LastClickTime()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LastClickTime;
+}
+constexpr float_t const& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_LastClickTime() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LastClickTime;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler::__cordl_internal_set_m_LastClickTime(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_LastClickTime = value;
+}
+constexpr bool& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_Selecting()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Selecting;
+}
+constexpr bool const& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_Selecting() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Selecting;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler::__cordl_internal_set_m_Selecting(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Selecting = value;
+}
+constexpr ::UnityEngine::Event*& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_Event()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Event;
+}
+constexpr ::UnityEngine::Event* const& UnityEngine::UIElements::PanelEventHandler::__cordl_internal_get_m_Event() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Event;
+}
+constexpr void UnityEngine::UIElements::PanelEventHandler::__cordl_internal_set_m_Event(::UnityEngine::Event*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Event = value;
+}
+inline void UnityEngine::UIElements::PanelEventHandler::setStaticF_s_Modifiers(::UnityEngine::EventModifiers  value)  {
+::cordl_internals::setStaticField<::UnityEngine::EventModifiers, "s_Modifiers", ::UnityEngine::UIElements::PanelEventHandler*>(std::forward<::UnityEngine::EventModifiers>(value));
+}
+inline ::UnityEngine::EventModifiers UnityEngine::UIElements::PanelEventHandler::getStaticF_s_Modifiers()  {
+return ::cordl_internals::getStaticField<::UnityEngine::EventModifiers, "s_Modifiers", ::UnityEngine::UIElements::PanelEventHandler*>();
+}
+inline ::UnityEngine::UIElements::IPanel* UnityEngine::UIElements::PanelEventHandler::get_panel()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_panel", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IPanel*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::set_panel(::UnityEngine::UIElements::IPanel*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"set_panel", {}, {::i2c::type_of<::UnityEngine::UIElements::IPanel*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UIElements::PanelEventHandler::get_selectableGameObject()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_selectableGameObject", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::EventSystems::EventSystem> UnityEngine::UIElements::PanelEventHandler::get_eventSystem()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_eventSystem", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::EventSystems::EventSystem>>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler::get_isCurrentFocusedPanel()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_isCurrentFocusedPanel", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::Focusable* UnityEngine::UIElements::PanelEventHandler::get_currentFocusedElement()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"get_currentFocusedElement", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Focusable*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnEnable()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnDisable()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::RegisterCallbacks()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"RegisterCallbacks", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::UnregisterCallbacks()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"UnregisterCallbacks", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnPanelDestroyed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPanelDestroyed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnElementFocus(::UnityEngine::UIElements::FocusEvent*  e)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnElementFocus", {}, {::i2c::type_of<::UnityEngine::UIElements::FocusEvent*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnElementBlur(::UnityEngine::UIElements::BlurEvent*  e)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnElementBlur", {}, {::i2c::type_of<::UnityEngine::UIElements::BlurEvent*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnSelect(::UnityEngine::EventSystems::BaseEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnSelect", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnDeselect(::UnityEngine::EventSystems::BaseEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnDeselect", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnPointerMove(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerMove", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnPointerUp(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerUp", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnPointerDown(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerDown", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnPointerExit(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerExit", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnPointerEnter(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerEnter", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnPointerClick(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnPointerClick", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnSubmit(::UnityEngine::EventSystems::BaseEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnSubmit", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnCancel(::UnityEngine::EventSystems::BaseEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnCancel", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnMove(::UnityEngine::EventSystems::AxisEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnMove", {}, {::i2c::type_of<::UnityEngine::EventSystems::AxisEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::OnScroll(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"OnScroll", {}, {::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::SendEvent(::UnityEngine::UIElements::EventBase*  e, ::UnityEngine::EventSystems::BaseEventData*  sourceEventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendEvent", {}, {::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, sourceEventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::SendEvent(::UnityEngine::UIElements::EventBase*  e, ::UnityEngine::Event*  sourceEvent)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendEvent", {}, {::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::Event*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, sourceEvent);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::Update()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"Update", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::LateUpdate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"LateUpdate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::ProcessImguiEvents(::UnityEngine::UIElements::Focusable*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"ProcessImguiEvents", {}, {::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, target);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::ProcessKeyboardEvent(::UnityEngine::Event*  e, ::UnityEngine::UIElements::Focusable*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"ProcessKeyboardEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, target);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::ProcessTabEvent(::UnityEngine::Event*  e, ::UnityEngine::UIElements::Focusable*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"ProcessTabEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, target);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::SendTabEvent(::UnityEngine::Event*  e, ::UnityEngine::UIElements::NavigationMoveEvent_Direction  direction, ::UnityEngine::UIElements::Focusable*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendTabEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::NavigationMoveEvent_Direction>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, direction, target);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::SendKeyUpEvent(::UnityEngine::Event*  e, ::UnityEngine::UIElements::Focusable*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendKeyUpEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, target);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::SendKeyDownEvent(::UnityEngine::Event*  e, ::UnityEngine::UIElements::Focusable*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"SendKeyDownEvent", {}, {::i2c::type_of<::UnityEngine::Event*>(), ::i2c::type_of<::UnityEngine::UIElements::Focusable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, target);
+}
+inline bool UnityEngine::UIElements::PanelEventHandler::ReadPointerData(::UnityEngine::UIElements::PanelEventHandler_PointerEvent*  pe, ::UnityEngine::EventSystems::PointerEventData*  eventData, ::UnityEngine::UIElements::PanelEventHandler_PointerEventType  eventType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"ReadPointerData", {}, {::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>(), ::i2c::type_of<::UnityEngine::EventSystems::PointerEventData*>(), ::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler_PointerEventType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pe, eventData, eventType);
+}
+template<typename TPointerEvent>
+inline void UnityEngine::UIElements::PanelEventHandler::UpdatePointerEventTarget(TPointerEvent  e, ::UnityEngine::UIElements::PanelEventHandler_PointerEvent*  eventData)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                    {"UpdatePointerEventTarget", {::i2c::class_of<TPointerEvent>()}, {::i2c::type_of<TPointerEvent>(), ::i2c::type_of<::UnityEngine::UIElements::PanelEventHandler_PointerEvent*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TPointerEvent>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, eventData);
+}
+inline ::UnityEngine::UIElements::NavigationDeviceType UnityEngine::UIElements::PanelEventHandler::GetDeviceType(::UnityEngine::EventSystems::BaseEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"GetDeviceType", {}, {::i2c::type_of<::UnityEngine::EventSystems::BaseEventData*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::NavigationDeviceType>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::UpdateWorldSpacePointers()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {"UpdateWorldSpacePointers", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::PanelEventHandler::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PanelEventHandler*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PanelEventHandler* UnityEngine::UIElements::PanelEventHandler::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::PanelEventHandler*>());
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerMoveHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IPointerMoveHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerMoveHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerMoveHandler"
+constexpr ::UnityEngine::EventSystems::IPointerMoveHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IPointerMoveHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerMoveHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr ::UnityEngine::EventSystems::IPointerUpHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IPointerUpHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+constexpr ::UnityEngine::EventSystems::IPointerDownHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IPointerDownHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
+constexpr ::UnityEngine::EventSystems::ISubmitHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__ISubmitHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::ICancelHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+constexpr ::UnityEngine::EventSystems::ICancelHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__ICancelHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::ICancelHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IMoveHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IMoveHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IMoveHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IMoveHandler"
+constexpr ::UnityEngine::EventSystems::IMoveHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IMoveHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IMoveHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IScrollHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IScrollHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IScrollHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IScrollHandler"
+constexpr ::UnityEngine::EventSystems::IScrollHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IScrollHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IScrollHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::ISelectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+constexpr ::UnityEngine::EventSystems::ISelectHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__ISelectHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::ISelectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IDeselectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
+constexpr ::UnityEngine::EventSystems::IDeselectHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IDeselectHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IDeselectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+constexpr ::UnityEngine::EventSystems::IPointerExitHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IPointerExitHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IRuntimePanelComponent"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::UIElements::IRuntimePanelComponent*() noexcept {
+return static_cast<::UnityEngine::UIElements::IRuntimePanelComponent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IRuntimePanelComponent"
+constexpr ::UnityEngine::UIElements::IRuntimePanelComponent* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__UIElements__IRuntimePanelComponent() noexcept {
+return static_cast<::UnityEngine::UIElements::IRuntimePanelComponent*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
+constexpr  UnityEngine::UIElements::PanelEventHandler::operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+constexpr ::UnityEngine::EventSystems::IPointerClickHandler* UnityEngine::UIElements::PanelEventHandler::i___UnityEngine__EventSystems__IPointerClickHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PanelEventHandler::PanelEventHandler()   {
+}

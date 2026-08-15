@@ -1,0 +1,69 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/JobProcessor.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(JobProcessor)
+namespace System {
+struct IntPtr;
+}
+namespace Unity::Jobs {
+struct JobHandle;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements::UIR {
+class JobProcessor;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::UIR::JobProcessor*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::JobProcessor*, "UnityEngine.UIElements.UIR", "JobProcessor");
+// Dependencies System.Object
+namespace UnityEngine::UIElements::UIR {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.UIR.JobProcessor
+class CORDL_TYPE JobProcessor : public ::System::Object {
+public:
+// Declarations
+/// @brief Method ScheduleConvertMeshJobs, addr 0x182410e80, size 0x30, virtual false, abstract: false, final false
+static inline ::Unity::Jobs::JobHandle ScheduleConvertMeshJobs(::System::IntPtr  buffer, int32_t  jobCount) ;
+
+/// @brief Method ScheduleConvertMeshJobs_Injected, addr 0x182410e70, size 0x10, virtual false, abstract: false, final false
+static inline void ScheduleConvertMeshJobs_Injected(::System::IntPtr  buffer, int32_t  jobCount, ::by_ref<::Unity::Jobs::JobHandle>  ret) ;
+
+/// @brief Method ScheduleCopyMeshJobs, addr 0x182410ec0, size 0x30, virtual false, abstract: false, final false
+static inline ::Unity::Jobs::JobHandle ScheduleCopyMeshJobs(::System::IntPtr  buffer, int32_t  jobCount) ;
+
+/// @brief Method ScheduleCopyMeshJobs_Injected, addr 0x182410eb0, size 0x10, virtual false, abstract: false, final false
+static inline void ScheduleCopyMeshJobs_Injected(::System::IntPtr  buffer, int32_t  jobCount, ::by_ref<::Unity::Jobs::JobHandle>  ret) ;
+
+/// @brief Method ScheduleNudgeJobs, addr 0x182410f00, size 0x30, virtual false, abstract: false, final false
+static inline ::Unity::Jobs::JobHandle ScheduleNudgeJobs(::System::IntPtr  buffer, int32_t  jobCount) ;
+
+/// @brief Method ScheduleNudgeJobs_Injected, addr 0x182410ef0, size 0x10, virtual false, abstract: false, final false
+static inline void ScheduleNudgeJobs_Injected(::System::IntPtr  buffer, int32_t  jobCount, ::by_ref<::Unity::Jobs::JobHandle>  ret) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr JobProcessor() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "JobProcessor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JobProcessor(JobProcessor && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "JobProcessor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JobProcessor(JobProcessor const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4492};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::UIR::JobProcessor) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements::UIR

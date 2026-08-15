@@ -1,0 +1,98 @@
+#pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/IPGlobalProperties.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Net/NetworkInformation/zzzz__IPGlobalProperties_def.hpp"
+//  Writing Method size for method: ::System::Net::NetworkInformation::IPGlobalProperties.GetIPGlobalProperties
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&::System::Net::NetworkInformation::IPGlobalProperties::GetIPGlobalProperties)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181d97420;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(),
+                        {"GetIPGlobalProperties", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::NetworkInformation::IPGlobalProperties.InternalGetIPGlobalProperties
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&::System::Net::NetworkInformation::IPGlobalProperties::InternalGetIPGlobalProperties)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181d97420;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(),
+                        {"InternalGetIPGlobalProperties", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::NetworkInformation::IPGlobalProperties.get_DomainName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::NetworkInformation::IPGlobalProperties::*)()>(&::System::Net::NetworkInformation::IPGlobalProperties::get_DomainName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(),
+                    {::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::NetworkInformation::IPGlobalProperties._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::IPGlobalProperties::*)()>(&::System::Net::NetworkInformation::IPGlobalProperties::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::System::Net::NetworkInformation::IPGlobalProperties* System::Net::NetworkInformation::IPGlobalProperties::GetIPGlobalProperties()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(),
+                        {"GetIPGlobalProperties", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::IPGlobalProperties*>(nullptr, ___internal_method);
+}
+inline ::System::Net::NetworkInformation::IPGlobalProperties* System::Net::NetworkInformation::IPGlobalProperties::InternalGetIPGlobalProperties()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(),
+                        {"InternalGetIPGlobalProperties", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::IPGlobalProperties*>(nullptr, ___internal_method);
+}
+inline ::StringW System::Net::NetworkInformation::IPGlobalProperties::get_DomainName()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Net::NetworkInformation::IPGlobalProperties::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::NetworkInformation::IPGlobalProperties*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Net::NetworkInformation::IPGlobalProperties* System::Net::NetworkInformation::IPGlobalProperties::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::NetworkInformation::IPGlobalProperties*>());
+}
+// Ctor Parameters []
+constexpr ::System::Net::NetworkInformation::IPGlobalProperties::IPGlobalProperties()   {
+}

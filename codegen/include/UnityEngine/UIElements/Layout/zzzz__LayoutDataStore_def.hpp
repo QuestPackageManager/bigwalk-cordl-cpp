@@ -1,0 +1,303 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDataStore.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(LayoutDataStore)
+namespace System {
+class IDisposable;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace Unity::Collections {
+struct MemoryLabel;
+}
+namespace UnityEngine::UIElements::Layout {
+struct ComponentType;
+}
+namespace UnityEngine::UIElements::Layout {
+struct LayoutDataStore_Chunk;
+}
+namespace UnityEngine::UIElements::Layout {
+struct LayoutDataStore_ComponentDataStore;
+}
+namespace UnityEngine::UIElements::Layout {
+struct LayoutDataStore_Data;
+}
+namespace UnityEngine::UIElements::Layout {
+struct LayoutHandle;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements::Layout {
+struct LayoutDataStore;
+}
+namespace UnityEngine::UIElements::Layout {
+struct LayoutDataStore_Chunk;
+}
+namespace UnityEngine::UIElements::Layout {
+struct LayoutDataStore_ComponentDataStore;
+}
+namespace UnityEngine::UIElements::Layout {
+struct LayoutDataStore_Data;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutDataStore);
+MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk);
+MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore);
+MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutDataStore_Data);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutDataStore, "UnityEngine.UIElements.Layout", "LayoutDataStore");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk, "UnityEngine.UIElements.Layout", "LayoutDataStore/Chunk");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, "UnityEngine.UIElements.Layout", "LayoutDataStore/ComponentDataStore");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutDataStore_Data, "UnityEngine.UIElements.Layout", "LayoutDataStore/Data");
+// Dependencies 
+namespace UnityEngine::UIElements::Layout {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.Layout.LayoutDataStore/Chunk
+struct CORDL_TYPE LayoutDataStore_Chunk {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr LayoutDataStore_Chunk() ;
+
+// Ctor Parameters [CppParam { name: "Buffer", ty: "uint8_t*", modifiers: "", def_value: None }]
+constexpr LayoutDataStore_Chunk(uint8_t*  Buffer) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4650};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+
+/// @brief Field Buffer, offset: 0x0, size: 0x8, def value: None
+ uint8_t*  Buffer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk, Buffer) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk) == 0x8, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements::Layout
+// Dependencies Unity.Collections.MemoryLabel
+namespace UnityEngine::UIElements::Layout {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.Layout.LayoutDataStore/ComponentDataStore
+struct CORDL_TYPE LayoutDataStore_ComponentDataStore {
+public:
+// Declarations
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() ;
+
+/// @brief Method Dispose, addr 0x18244cec0, size 0xa0, virtual true, abstract: false, final true
+inline void Dispose() ;
+
+/// @brief Method GetComponentDataPtr, addr 0x18244cf60, size 0x30, virtual false, abstract: false, final false
+inline uint8_t* GetComponentDataPtr(int32_t  index) ;
+
+/// @brief Method ResizeCapacity, addr 0x18244cf90, size 0x250, virtual false, abstract: false, final false
+inline void ResizeCapacity(int32_t  capacity) ;
+
+/// @brief Method .ctor, addr 0x18244d1e0, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(int32_t  size, ::Unity::Collections::MemoryLabel  allocLabel) ;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr LayoutDataStore_ComponentDataStore() ;
+
+// Ctor Parameters [CppParam { name: "MemoryLabel", ty: "::Unity::Collections::MemoryLabel", modifiers: "", def_value: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ComponentCountPerChunk", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ChunkCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Chunks", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*", modifiers: "", def_value: None }]
+constexpr LayoutDataStore_ComponentDataStore(::Unity::Collections::MemoryLabel  MemoryLabel, int32_t  Size, int32_t  ComponentCountPerChunk, int32_t  ChunkCount, ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*  m_Chunks) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4651};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
+
+/// @brief Field MemoryLabel, offset: 0x0, size: 0x10, def value: None
+ ::Unity::Collections::MemoryLabel  MemoryLabel;
+
+/// @brief Field Size, offset: 0x10, size: 0x4, def value: None
+ int32_t  Size;
+
+/// @brief Field ComponentCountPerChunk, offset: 0x14, size: 0x4, def value: None
+ int32_t  ComponentCountPerChunk;
+
+/// @brief Field ChunkCount, offset: 0x18, size: 0x4, def value: None
+ int32_t  ChunkCount;
+
+/// @brief Field m_Chunks, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*  m_Chunks;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, MemoryLabel) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, Size) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, ComponentCountPerChunk) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, ChunkCount) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore, m_Chunks) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore) == 0x28, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements::Layout
+// Dependencies 
+namespace UnityEngine::UIElements::Layout {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.Layout.LayoutDataStore/Data
+struct CORDL_TYPE LayoutDataStore_Data {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr LayoutDataStore_Data() ;
+
+// Ctor Parameters [CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NextFreeIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ComponentCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Versions", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "Components", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*", modifiers: "", def_value: None }]
+constexpr LayoutDataStore_Data(int32_t  Capacity, int32_t  NextFreeIndex, int32_t  ComponentCount, int32_t*  Versions, ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*  Components) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4652};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+
+/// @brief Field Capacity, offset: 0x0, size: 0x4, def value: None
+ int32_t  Capacity;
+
+/// @brief Field NextFreeIndex, offset: 0x4, size: 0x4, def value: None
+ int32_t  NextFreeIndex;
+
+/// @brief Field ComponentCount, offset: 0x8, size: 0x4, def value: None
+ int32_t  ComponentCount;
+
+/// @brief Field Versions, offset: 0x10, size: 0x8, def value: None
+ int32_t*  Versions;
+
+/// @brief Field Components, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*  Components;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_Data, Capacity) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_Data, NextFreeIndex) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_Data, ComponentCount) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_Data, Versions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore_Data, Components) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore_Data) == 0x20, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements::Layout
+// Dependencies Unity.Collections.MemoryLabel
+namespace UnityEngine::UIElements::Layout {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.Layout.LayoutDataStore
+struct CORDL_TYPE LayoutDataStore {
+public:
+// Declarations
+using Chunk = ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk;
+
+using ComponentDataStore = ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore;
+
+using Data = ::UnityEngine::UIElements::Layout::LayoutDataStore_Data;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() ;
+
+/// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T0>
+inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(::by_ref<T0>  component0) ;
+
+/// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T0,typename T1,typename T2,typename T3>
+inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(::by_ref<T0>  component0, ::by_ref<T1>  component1, ::by_ref<T2>  component2, ::by_ref<T3>  component3) ;
+
+/// @brief Method Allocate, addr 0x1824506c0, size 0x1a0, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(uint8_t*  data, int32_t  count) ;
+
+/// @brief Method Dispose, addr 0x182450860, size 0x150, virtual true, abstract: false, final true
+inline void Dispose() ;
+
+/// @brief Method Exists, addr 0x1824509b0, size 0x40, virtual false, abstract: false, final false
+inline bool Exists(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>  handle) ;
+
+/// @brief Method Free, addr 0x1824509f0, size 0x100, virtual false, abstract: false, final false
+inline void Free(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>  handle) ;
+
+/// @brief Method GetComponentDataPtr, addr 0x182450af0, size 0x40, virtual false, abstract: false, final false
+inline void* GetComponentDataPtr(int32_t  index, int32_t  componentIndex) ;
+
+/// @brief Method GetNextFreeIndex, addr 0x182450b30, size 0x20, virtual false, abstract: false, final false
+static inline int32_t GetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*  ptr, int32_t  index) ;
+
+/// @brief Method IncreaseCapacity, addr 0x182450b50, size 0x30, virtual false, abstract: false, final false
+inline void IncreaseCapacity() ;
+
+/// @brief Method ResizeArray, addr 0x182450b80, size 0xd0, virtual false, abstract: false, final false
+static inline void* ResizeArray(void*  fromPtr, int64_t  fromCount, int64_t  toCount, int64_t  size, int32_t  align, ::Unity::Collections::MemoryLabel  label) ;
+
+/// @brief Method ResizeCapacity, addr 0x182450c50, size 0x1d0, virtual false, abstract: false, final false
+inline void ResizeCapacity(int32_t  capacity) ;
+
+/// @brief Method SetNextFreeIndex, addr 0x182450e20, size 0x20, virtual false, abstract: false, final false
+static inline void SetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*  ptr, int32_t  index, int32_t  value) ;
+
+/// @brief Method .ctor, addr 0x182450e40, size 0x230, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::UnityEngine::UIElements::Layout::ComponentType>  components, ::System::ReadOnlySpan_1<::Unity::Collections::MemoryLabel>  labels, int32_t  initialCapacity, ::Unity::Collections::Allocator  allocator) ;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr LayoutDataStore() ;
+
+// Ctor Parameters [CppParam { name: "m_MemoryLabel", ty: "::Unity::Collections::MemoryLabel", modifiers: "", def_value: None }, CppParam { name: "m_Data", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_Data*", modifiers: "", def_value: None }]
+constexpr LayoutDataStore(::Unity::Collections::MemoryLabel  m_MemoryLabel, ::UnityEngine::UIElements::Layout::LayoutDataStore_Data*  m_Data) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4653};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
+
+/// @brief Field k_ChunkSize offset 0xffffffff size 0x4
+static constexpr int32_t  k_ChunkSize{static_cast<int32_t>(0x8000)};
+
+/// @brief Field m_MemoryLabel, offset: 0x0, size: 0x10, def value: None
+ ::Unity::Collections::MemoryLabel  m_MemoryLabel;
+
+/// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Layout::LayoutDataStore_Data*  m_Data;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore, m_MemoryLabel) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutDataStore, m_Data) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutDataStore) == 0x18, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements::Layout

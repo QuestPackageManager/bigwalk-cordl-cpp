@@ -1,0 +1,73 @@
+#pragma once
+// IWYU pragma private; include "System/ComponentModel/TimeSpanConverter.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+CORDL_MODULE_EXPORT(TimeSpanConverter)
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+// Forward declare root types
+namespace System::ComponentModel {
+class TimeSpanConverter;
+}
+// Write type traits
+MARK_REF_T(::System::ComponentModel::TimeSpanConverter*);
+DEFINE_IL2CPP_CLASS(::System::ComponentModel::TimeSpanConverter*, "System.ComponentModel", "TimeSpanConverter");
+// Dependencies System.ComponentModel.TypeConverter
+namespace System::ComponentModel {
+// Is value type: false
+// CS Name: System.ComponentModel.TimeSpanConverter
+class CORDL_TYPE TimeSpanConverter : public ::System::ComponentModel::TypeConverter {
+public:
+// Declarations
+/// @brief Method CanConvertFrom, addr 0x181de7cb0, size 0x70, virtual true, abstract: false, final false
+inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
+
+/// @brief Method CanConvertTo, addr 0x181baa8a0, size 0x70, virtual true, abstract: false, final false
+inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
+
+/// @brief Method ConvertFrom, addr 0x181e0dcc0, size 0x130, virtual true, abstract: false, final false
+inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
+
+/// @brief Method ConvertTo, addr 0x181e0ddf0, size 0x1b0, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
+
+static inline ::System::ComponentModel::TimeSpanConverter* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeSpanConverter() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TimeSpanConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeSpanConverter(TimeSpanConverter && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TimeSpanConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeSpanConverter(TimeSpanConverter const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11747};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::ComponentModel::TimeSpanConverter) == 0x10, "Size mismatch!");
+
+} // namespace end def System::ComponentModel

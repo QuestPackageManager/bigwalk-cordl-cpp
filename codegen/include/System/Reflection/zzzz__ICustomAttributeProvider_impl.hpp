@@ -1,0 +1,71 @@
+#pragma once
+// IWYU pragma private; include "System/Reflection/ICustomAttributeProvider.hpp"
+#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Reflection::ICustomAttributeProvider.GetCustomAttributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::ICustomAttributeProvider::*)(bool)>(&::System::Reflection::ICustomAttributeProvider::GetCustomAttributes)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(),
+                    {::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::ICustomAttributeProvider.GetCustomAttributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::ICustomAttributeProvider::*)(::System::Type*, bool)>(&::System::Reflection::ICustomAttributeProvider::GetCustomAttributes)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(),
+                    {::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::ICustomAttributeProvider.IsDefined
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::ICustomAttributeProvider::*)(::System::Type*, bool)>(&::System::Reflection::ICustomAttributeProvider::IsDefined)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(),
+                    {::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::ArrayW<::System::Object*> System::Reflection::ICustomAttributeProvider::GetCustomAttributes(bool  inherit)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*>>(this, ___internal_method, inherit);
+}
+inline ::ArrayW<::System::Object*> System::Reflection::ICustomAttributeProvider::GetCustomAttributes(::System::Type*  attributeType, bool  inherit)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*>>(this, ___internal_method, attributeType, inherit);
+}
+inline bool System::Reflection::ICustomAttributeProvider::IsDefined(::System::Type*  attributeType, bool  inherit)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::ICustomAttributeProvider*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, attributeType, inherit);
+}

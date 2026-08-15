@@ -1,0 +1,180 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/IPlayerEditorConnectionNative.hpp"
+#include "UnityEngine/zzzz__IPlayerEditorConnectionNative_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+//  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.Initialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IPlayerEditorConnectionNative::*)()>(&::UnityEngine::IPlayerEditorConnectionNative::Initialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(),
+                    {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.DisconnectAll
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IPlayerEditorConnectionNative::*)()>(&::UnityEngine::IPlayerEditorConnectionNative::DisconnectAll)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(),
+                    {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.SendMessage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IPlayerEditorConnectionNative::*)(::System::Guid, ::ArrayW<uint8_t>, int32_t)>(&::UnityEngine::IPlayerEditorConnectionNative::SendMessage)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(),
+                    {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.TrySendMessage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::IPlayerEditorConnectionNative::*)(::System::Guid, ::ArrayW<uint8_t>, int32_t)>(&::UnityEngine::IPlayerEditorConnectionNative::TrySendMessage)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(),
+                    {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.Poll
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IPlayerEditorConnectionNative::*)()>(&::UnityEngine::IPlayerEditorConnectionNative::Poll)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(),
+                    {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.RegisterInternal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IPlayerEditorConnectionNative::*)(::System::Guid)>(&::UnityEngine::IPlayerEditorConnectionNative::RegisterInternal)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(),
+                    {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.UnregisterInternal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IPlayerEditorConnectionNative::*)(::System::Guid)>(&::UnityEngine::IPlayerEditorConnectionNative::UnregisterInternal)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(),
+                    {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.IsConnected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::IPlayerEditorConnectionNative::*)()>(&::UnityEngine::IPlayerEditorConnectionNative::IsConnected)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(),
+                    {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::IPlayerEditorConnectionNative::Initialize()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::IPlayerEditorConnectionNative::DisconnectAll()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::IPlayerEditorConnectionNative::SendMessage(::System::Guid  messageId, ::ArrayW<uint8_t>  data, int32_t  playerId)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, messageId, data, playerId);
+}
+inline bool UnityEngine::IPlayerEditorConnectionNative::TrySendMessage(::System::Guid  messageId, ::ArrayW<uint8_t>  data, int32_t  playerId)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, messageId, data, playerId);
+}
+inline void UnityEngine::IPlayerEditorConnectionNative::Poll()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::IPlayerEditorConnectionNative::RegisterInternal(::System::Guid  messageId)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, messageId);
+}
+inline void UnityEngine::IPlayerEditorConnectionNative::UnregisterInternal(::System::Guid  messageId)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, messageId);
+}
+inline bool UnityEngine::IPlayerEditorConnectionNative::IsConnected()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::IPlayerEditorConnectionNative*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}

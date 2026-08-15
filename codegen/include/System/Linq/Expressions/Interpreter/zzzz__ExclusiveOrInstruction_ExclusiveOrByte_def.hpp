@@ -1,0 +1,56 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ExclusiveOrInstruction_ExclusiveOrByte.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Linq/Expressions/Interpreter/zzzz__ExclusiveOrInstruction_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(ExclusiveOrInstruction_ExclusiveOrByte)
+namespace System::Linq::Expressions::Interpreter {
+class InterpretedFrame;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class ExclusiveOrInstruction_ExclusiveOrByte;
+}
+// Write type traits
+MARK_REF_T(::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrByte*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrByte*, "System.Linq.Expressions.Interpreter", "ExclusiveOrInstruction/ExclusiveOrByte");
+// Dependencies System.Linq.Expressions.Interpreter.ExclusiveOrInstruction
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: System.Linq.Expressions.Interpreter.ExclusiveOrInstruction/ExclusiveOrByte
+class CORDL_TYPE ExclusiveOrInstruction_ExclusiveOrByte : public ::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction {
+public:
+// Declarations
+static inline ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrByte* New_ctor() ;
+
+/// @brief Method Run, addr 0x181b06c30, size 0x130, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExclusiveOrInstruction_ExclusiveOrByte() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrByte", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExclusiveOrInstruction_ExclusiveOrByte(ExclusiveOrInstruction_ExclusiveOrByte && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction_ExclusiveOrByte", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExclusiveOrInstruction_ExclusiveOrByte(ExclusiveOrInstruction_ExclusiveOrByte const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15614};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrByte) == 0x10, "Size mismatch!");
+
+} // namespace end def GlobalNamespace

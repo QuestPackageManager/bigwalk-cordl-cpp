@@ -1,0 +1,385 @@
+#pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/StringEnumConverter.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__StringEnumConverter_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__NamingStrategy_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.get_CamelCaseText
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::StringEnumConverter::*)()>(&::Newtonsoft::Json::Converters::StringEnumConverter::get_CamelCaseText)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18182e840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"get_CamelCaseText", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.set_CamelCaseText
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(bool)>(&::Newtonsoft::Json::Converters::StringEnumConverter::set_CamelCaseText)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18182e880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"set_CamelCaseText", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.get_NamingStrategy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::NamingStrategy* (::Newtonsoft::Json::Converters::StringEnumConverter::*)()>(&::Newtonsoft::Json::Converters::StringEnumConverter::get_NamingStrategy)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"get_NamingStrategy", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.set_NamingStrategy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(::Newtonsoft::Json::Serialization::NamingStrategy*)>(&::Newtonsoft::Json::Converters::StringEnumConverter::set_NamingStrategy)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x180308500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"set_NamingStrategy", {}, {::i2c::type_of<::Newtonsoft::Json::Serialization::NamingStrategy*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.get_AllowIntegerValues
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::StringEnumConverter::*)()>(&::Newtonsoft::Json::Converters::StringEnumConverter::get_AllowIntegerValues)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18037a0f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"get_AllowIntegerValues", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.set_AllowIntegerValues
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(bool)>(&::Newtonsoft::Json::Converters::StringEnumConverter::set_AllowIntegerValues)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803a7530;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"set_AllowIntegerValues", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)()>(&::Newtonsoft::Json::Converters::StringEnumConverter::_ctor)> {
+  constexpr static std::size_t size = 0x5290;
+  constexpr static std::size_t addrs = 0x1812e54a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(bool)>(&::Newtonsoft::Json::Converters::StringEnumConverter::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18182e6e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(::Newtonsoft::Json::Serialization::NamingStrategy*, bool)>(&::Newtonsoft::Json::Converters::StringEnumConverter::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18182e6a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<::Newtonsoft::Json::Serialization::NamingStrategy*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(::System::Type*)>(&::Newtonsoft::Json::Converters::StringEnumConverter::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18182e720;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(::System::Type*, ::ArrayW<::System::Object*>)>(&::Newtonsoft::Json::Converters::StringEnumConverter::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18182e770;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(::System::Type*, ::ArrayW<::System::Object*>, bool)>(&::Newtonsoft::Json::Converters::StringEnumConverter::_ctor)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18182e7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.WriteJson
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::StringEnumConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::StringEnumConverter::WriteJson)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x18182e4d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.ReadJson
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::StringEnumConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::StringEnumConverter::ReadJson)> {
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x18182e190;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::StringEnumConverter.CanConvert
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::StringEnumConverter::*)(::System::Type*)>(&::Newtonsoft::Json::Converters::StringEnumConverter::CanConvert)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18182e140;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::Newtonsoft::Json::Serialization::NamingStrategy*& Newtonsoft::Json::Converters::StringEnumConverter::__cordl_internal_get__NamingStrategy_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____NamingStrategy_k__BackingField;
+}
+constexpr ::Newtonsoft::Json::Serialization::NamingStrategy* const& Newtonsoft::Json::Converters::StringEnumConverter::__cordl_internal_get__NamingStrategy_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____NamingStrategy_k__BackingField;
+}
+constexpr void Newtonsoft::Json::Converters::StringEnumConverter::__cordl_internal_set__NamingStrategy_k__BackingField(::Newtonsoft::Json::Serialization::NamingStrategy*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____NamingStrategy_k__BackingField = value;
+}
+constexpr bool& Newtonsoft::Json::Converters::StringEnumConverter::__cordl_internal_get__AllowIntegerValues_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____AllowIntegerValues_k__BackingField;
+}
+constexpr bool const& Newtonsoft::Json::Converters::StringEnumConverter::__cordl_internal_get__AllowIntegerValues_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____AllowIntegerValues_k__BackingField;
+}
+constexpr void Newtonsoft::Json::Converters::StringEnumConverter::__cordl_internal_set__AllowIntegerValues_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____AllowIntegerValues_k__BackingField = value;
+}
+inline bool Newtonsoft::Json::Converters::StringEnumConverter::get_CamelCaseText()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"get_CamelCaseText", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::set_CamelCaseText(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"set_CamelCaseText", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::Newtonsoft::Json::Serialization::NamingStrategy* Newtonsoft::Json::Converters::StringEnumConverter::get_NamingStrategy()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"get_NamingStrategy", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::NamingStrategy*>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::set_NamingStrategy(::Newtonsoft::Json::Serialization::NamingStrategy*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"set_NamingStrategy", {}, {::i2c::type_of<::Newtonsoft::Json::Serialization::NamingStrategy*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool Newtonsoft::Json::Converters::StringEnumConverter::get_AllowIntegerValues()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"get_AllowIntegerValues", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::set_AllowIntegerValues(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {"set_AllowIntegerValues", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::_ctor(bool  camelCaseText)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, camelCaseText);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::_ctor(::Newtonsoft::Json::Serialization::NamingStrategy*  namingStrategy, bool  allowIntegerValues)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<::Newtonsoft::Json::Serialization::NamingStrategy*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, namingStrategy, allowIntegerValues);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::_ctor(::System::Type*  namingStrategyType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, namingStrategyType);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::_ctor(::System::Type*  namingStrategyType, ::ArrayW<::System::Object*>  namingStrategyParameters)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, namingStrategyType, namingStrategyParameters);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::_ctor(::System::Type*  namingStrategyType, ::ArrayW<::System::Object*>  namingStrategyParameters, bool  allowIntegerValues)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, namingStrategyType, namingStrategyParameters, allowIntegerValues);
+}
+inline void Newtonsoft::Json::Converters::StringEnumConverter::WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
+}
+inline ::System::Object* Newtonsoft::Json::Converters::StringEnumConverter::ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);
+}
+inline bool Newtonsoft::Json::Converters::StringEnumConverter::CanConvert(::System::Type*  objectType)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::StringEnumConverter*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, objectType);
+}
+inline ::Newtonsoft::Json::Converters::StringEnumConverter* Newtonsoft::Json::Converters::StringEnumConverter::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::StringEnumConverter*>());
+}
+inline ::Newtonsoft::Json::Converters::StringEnumConverter* Newtonsoft::Json::Converters::StringEnumConverter::New_ctor(bool  camelCaseText)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::StringEnumConverter*>(camelCaseText));
+}
+inline ::Newtonsoft::Json::Converters::StringEnumConverter* Newtonsoft::Json::Converters::StringEnumConverter::New_ctor(::Newtonsoft::Json::Serialization::NamingStrategy*  namingStrategy, bool  allowIntegerValues)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::StringEnumConverter*>(namingStrategy, allowIntegerValues));
+}
+inline ::Newtonsoft::Json::Converters::StringEnumConverter* Newtonsoft::Json::Converters::StringEnumConverter::New_ctor(::System::Type*  namingStrategyType)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::StringEnumConverter*>(namingStrategyType));
+}
+inline ::Newtonsoft::Json::Converters::StringEnumConverter* Newtonsoft::Json::Converters::StringEnumConverter::New_ctor(::System::Type*  namingStrategyType, ::ArrayW<::System::Object*>  namingStrategyParameters)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::StringEnumConverter*>(namingStrategyType, namingStrategyParameters));
+}
+inline ::Newtonsoft::Json::Converters::StringEnumConverter* Newtonsoft::Json::Converters::StringEnumConverter::New_ctor(::System::Type*  namingStrategyType, ::ArrayW<::System::Object*>  namingStrategyParameters, bool  allowIntegerValues)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::StringEnumConverter*>(namingStrategyType, namingStrategyParameters, allowIntegerValues));
+}
+// Ctor Parameters []
+constexpr ::Newtonsoft::Json::Converters::StringEnumConverter::StringEnumConverter()   {
+}

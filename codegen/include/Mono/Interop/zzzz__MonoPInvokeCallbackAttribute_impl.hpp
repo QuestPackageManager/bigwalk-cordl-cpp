@@ -1,0 +1,33 @@
+#pragma once
+// IWYU pragma private; include "Mono/Interop/MonoPInvokeCallbackAttribute.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
+#include "Mono/Interop/zzzz__MonoPInvokeCallbackAttribute_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::Mono::Interop::MonoPInvokeCallbackAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Interop::MonoPInvokeCallbackAttribute::*)(::System::Type*)>(&::Mono::Interop::MonoPInvokeCallbackAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Interop::MonoPInvokeCallbackAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void Mono::Interop::MonoPInvokeCallbackAttribute::_ctor(::System::Type*  t)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Interop::MonoPInvokeCallbackAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
+}
+inline ::Mono::Interop::MonoPInvokeCallbackAttribute* Mono::Interop::MonoPInvokeCallbackAttribute::New_ctor(::System::Type*  t)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Interop::MonoPInvokeCallbackAttribute*>(t));
+}
+// Ctor Parameters []
+constexpr ::Mono::Interop::MonoPInvokeCallbackAttribute::MonoPInvokeCallbackAttribute()   {
+}

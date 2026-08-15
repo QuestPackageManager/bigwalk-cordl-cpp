@@ -1,0 +1,78 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/SubsystemDescriptor.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(SubsystemDescriptor)
+namespace UnityEngine {
+class ISubsystemDescriptor;
+}
+// Forward declare root types
+namespace UnityEngine {
+class SubsystemDescriptor;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::SubsystemDescriptor*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::SubsystemDescriptor*, "UnityEngine", "SubsystemDescriptor");
+// Dependencies System.Object
+namespace UnityEngine {
+// Is value type: false
+// CS Name: UnityEngine.SubsystemDescriptor
+class CORDL_TYPE SubsystemDescriptor : public ::System::Object {
+public:
+// Declarations
+/// @brief Field <id>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__id_k__BackingField, put=__cordl_internal_set__id_k__BackingField)) ::StringW  _id_k__BackingField;
+
+ __declspec(property(get=get_id)) ::StringW  id;
+
+/// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
+constexpr operator  ::UnityEngine::ISubsystemDescriptor*() noexcept;
+
+static inline ::UnityEngine::SubsystemDescriptor* New_ctor() ;
+
+constexpr ::StringW const& __cordl_internal_get__id_k__BackingField() const;
+
+constexpr ::StringW& __cordl_internal_get__id_k__BackingField() ;
+
+constexpr void __cordl_internal_set__id_k__BackingField(::StringW  value) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_id, addr 0x1802db4a0, size 0x10, virtual true, abstract: false, final true
+inline ::StringW get_id() ;
+
+/// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
+constexpr ::UnityEngine::ISubsystemDescriptor* i___UnityEngine__ISubsystemDescriptor() noexcept;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr SubsystemDescriptor() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SubsystemDescriptor(SubsystemDescriptor && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SubsystemDescriptor(SubsystemDescriptor const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21248};
+
+/// @brief Field <id>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____id_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::SubsystemDescriptor, ____id_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::SubsystemDescriptor) == 0x18, "Size mismatch!");
+
+} // namespace end def UnityEngine

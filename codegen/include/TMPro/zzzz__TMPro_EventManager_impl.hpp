@@ -1,0 +1,352 @@
+#pragma once
+// IWYU pragma private; include "TMPro/TMPro_EventManager.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "TMPro/zzzz__TMPro_EventManager_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "TMPro/zzzz__Compute_DT_EventArgs_def.hpp"
+#include "TMPro/zzzz__FastAction_1_def.hpp"
+#include "TMPro/zzzz__FastAction_2_def.hpp"
+#include "TMPro/zzzz__FastAction_3_def.hpp"
+#include "TMPro/zzzz__FastAction_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_MATERIAL_PROPERTY_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Material*)>(&::TMPro::TMPro_EventManager::ON_MATERIAL_PROPERTY_CHANGED)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1821ef210;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_MATERIAL_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Material*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_FONT_PROPERTY_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_FONT_PROPERTY_CHANGED)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1821ef1c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_FONT_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_SPRITE_ASSET_PROPERTY_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_SPRITE_ASSET_PROPERTY_CHANGED)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1821ef2a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_SPRITE_ASSET_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_TEXTMESHPRO_PROPERTY_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXTMESHPRO_PROPERTY_CHANGED)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1821ef2f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TEXTMESHPRO_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_DRAG_AND_DROP_MATERIAL_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*)>(&::TMPro::TMPro_EventManager::ON_DRAG_AND_DROP_MATERIAL_CHANGED)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1821ef150;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_DRAG_AND_DROP_MATERIAL_CHANGED", {}, {::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Material*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_TEXT_STYLE_PROPERTY_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::TMPro::TMPro_EventManager::ON_TEXT_STYLE_PROPERTY_CHANGED)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1821ef3d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TEXT_STYLE_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_COLOR_GRADIENT_PROPERTY_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_COLOR_GRADIENT_PROPERTY_CHANGED)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1821ef0c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_COLOR_GRADIENT_PROPERTY_CHANGED", {}, {::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_TEXT_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXT_CHANGED)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1821ef390;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TEXT_CHANGED", {}, {::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_TMP_SETTINGS_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMPro_EventManager::ON_TMP_SETTINGS_CHANGED)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1821ef410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TMP_SETTINGS_CHANGED", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_RESOURCES_LOADED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMPro_EventManager::ON_RESOURCES_LOADED)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1821ef260;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_RESOURCES_LOADED", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1821ef340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMPro_EventManager.ON_COMPUTE_DT_EVENT
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::TMPro::Compute_DT_EventArgs*)>(&::TMPro::TMPro_EventManager::ON_COMPUTE_DT_EVENT)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1821ef100;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_COMPUTE_DT_EVENT", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::TMPro::Compute_DT_EventArgs*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void TMPro::TMPro_EventManager::setStaticF_COMPUTE_DT_EVENT(::TMPro::FastAction_2<::System::Object*,::TMPro::Compute_DT_EventArgs*>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_2<::System::Object*,::TMPro::Compute_DT_EventArgs*>*, "COMPUTE_DT_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_2<::System::Object*,::TMPro::Compute_DT_EventArgs*>*>(value));
+}
+inline ::TMPro::FastAction_2<::System::Object*,::TMPro::Compute_DT_EventArgs*>* TMPro::TMPro_EventManager::getStaticF_COMPUTE_DT_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_2<::System::Object*,::TMPro::Compute_DT_EventArgs*>*, "COMPUTE_DT_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_MATERIAL_PROPERTY_EVENT(::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Material>>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Material>>*, "MATERIAL_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Material>>*>(value));
+}
+inline ::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Material>>* TMPro::TMPro_EventManager::getStaticF_MATERIAL_PROPERTY_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Material>>*, "MATERIAL_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_FONT_PROPERTY_EVENT(::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*, "FONT_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*>(value));
+}
+inline ::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>* TMPro::TMPro_EventManager::getStaticF_FONT_PROPERTY_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*, "FONT_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_SPRITE_ASSET_PROPERTY_EVENT(::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*, "SPRITE_ASSET_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*>(value));
+}
+inline ::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>* TMPro::TMPro_EventManager::getStaticF_SPRITE_ASSET_PROPERTY_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*, "SPRITE_ASSET_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_TEXTMESHPRO_PROPERTY_EVENT(::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*, "TEXTMESHPRO_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*>(value));
+}
+inline ::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>* TMPro::TMPro_EventManager::getStaticF_TEXTMESHPRO_PROPERTY_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*, "TEXTMESHPRO_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_DRAG_AND_DROP_MATERIAL_EVENT(::TMPro::FastAction_3<::UnityW<::UnityEngine::GameObject>,::UnityW<::UnityEngine::Material>,::UnityW<::UnityEngine::Material>>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_3<::UnityW<::UnityEngine::GameObject>,::UnityW<::UnityEngine::Material>,::UnityW<::UnityEngine::Material>>*, "DRAG_AND_DROP_MATERIAL_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_3<::UnityW<::UnityEngine::GameObject>,::UnityW<::UnityEngine::Material>,::UnityW<::UnityEngine::Material>>*>(value));
+}
+inline ::TMPro::FastAction_3<::UnityW<::UnityEngine::GameObject>,::UnityW<::UnityEngine::Material>,::UnityW<::UnityEngine::Material>>* TMPro::TMPro_EventManager::getStaticF_DRAG_AND_DROP_MATERIAL_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_3<::UnityW<::UnityEngine::GameObject>,::UnityW<::UnityEngine::Material>,::UnityW<::UnityEngine::Material>>*, "DRAG_AND_DROP_MATERIAL_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_TEXT_STYLE_PROPERTY_EVENT(::TMPro::FastAction_1<bool>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_1<bool>*, "TEXT_STYLE_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_1<bool>*>(value));
+}
+inline ::TMPro::FastAction_1<bool>* TMPro::TMPro_EventManager::getStaticF_TEXT_STYLE_PROPERTY_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_1<bool>*, "TEXT_STYLE_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_COLOR_GRADIENT_PROPERTY_EVENT(::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>*, "COLOR_GRADIENT_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>*>(value));
+}
+inline ::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* TMPro::TMPro_EventManager::getStaticF_COLOR_GRADIENT_PROPERTY_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>*, "COLOR_GRADIENT_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_TMP_SETTINGS_PROPERTY_EVENT(::TMPro::FastAction*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction*, "TMP_SETTINGS_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction*>(value));
+}
+inline ::TMPro::FastAction* TMPro::TMPro_EventManager::getStaticF_TMP_SETTINGS_PROPERTY_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction*, "TMP_SETTINGS_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_RESOURCE_LOAD_EVENT(::TMPro::FastAction*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction*, "RESOURCE_LOAD_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction*>(value));
+}
+inline ::TMPro::FastAction* TMPro::TMPro_EventManager::getStaticF_RESOURCE_LOAD_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction*, "RESOURCE_LOAD_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT(::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*, "TEXTMESHPRO_UGUI_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*>(value));
+}
+inline ::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>* TMPro::TMPro_EventManager::getStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_2<bool,::UnityW<::UnityEngine::Object>>*, "TEXTMESHPRO_UGUI_PROPERTY_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::setStaticF_TEXT_CHANGED_EVENT(::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>*  value)  {
+::cordl_internals::setStaticField<::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>*, "TEXT_CHANGED_EVENT", ::TMPro::TMPro_EventManager*>(std::forward<::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>*>(value));
+}
+inline ::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* TMPro::TMPro_EventManager::getStaticF_TEXT_CHANGED_EVENT()  {
+return ::cordl_internals::getStaticField<::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>*, "TEXT_CHANGED_EVENT", ::TMPro::TMPro_EventManager*>();
+}
+inline void TMPro::TMPro_EventManager::ON_MATERIAL_PROPERTY_CHANGED(bool  isChanged, ::UnityEngine::Material*  mat)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_MATERIAL_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Material*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, isChanged, mat);
+}
+inline void TMPro::TMPro_EventManager::ON_FONT_PROPERTY_CHANGED(bool  isChanged, ::UnityEngine::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_FONT_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, isChanged, obj);
+}
+inline void TMPro::TMPro_EventManager::ON_SPRITE_ASSET_PROPERTY_CHANGED(bool  isChanged, ::UnityEngine::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_SPRITE_ASSET_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, isChanged, obj);
+}
+inline void TMPro::TMPro_EventManager::ON_TEXTMESHPRO_PROPERTY_CHANGED(bool  isChanged, ::UnityEngine::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TEXTMESHPRO_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, isChanged, obj);
+}
+inline void TMPro::TMPro_EventManager::ON_DRAG_AND_DROP_MATERIAL_CHANGED(::UnityEngine::GameObject*  sender, ::UnityEngine::Material*  currentMaterial, ::UnityEngine::Material*  newMaterial)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_DRAG_AND_DROP_MATERIAL_CHANGED", {}, {::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Material*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sender, currentMaterial, newMaterial);
+}
+inline void TMPro::TMPro_EventManager::ON_TEXT_STYLE_PROPERTY_CHANGED(bool  isChanged)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TEXT_STYLE_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, isChanged);
+}
+inline void TMPro::TMPro_EventManager::ON_COLOR_GRADIENT_PROPERTY_CHANGED(::UnityEngine::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_COLOR_GRADIENT_PROPERTY_CHANGED", {}, {::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj);
+}
+inline void TMPro::TMPro_EventManager::ON_TEXT_CHANGED(::UnityEngine::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TEXT_CHANGED", {}, {::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, obj);
+}
+inline void TMPro::TMPro_EventManager::ON_TMP_SETTINGS_CHANGED()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TMP_SETTINGS_CHANGED", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+inline void TMPro::TMPro_EventManager::ON_RESOURCES_LOADED()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_RESOURCES_LOADED", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+inline void TMPro::TMPro_EventManager::ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED(bool  isChanged, ::UnityEngine::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, isChanged, obj);
+}
+inline void TMPro::TMPro_EventManager::ON_COMPUTE_DT_EVENT(::System::Object*  Sender, ::TMPro::Compute_DT_EventArgs*  e)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMPro_EventManager*>(),
+                        {"ON_COMPUTE_DT_EVENT", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::TMPro::Compute_DT_EventArgs*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, Sender, e);
+}
+// Ctor Parameters []
+constexpr ::TMPro::TMPro_EventManager::TMPro_EventManager()   {
+}

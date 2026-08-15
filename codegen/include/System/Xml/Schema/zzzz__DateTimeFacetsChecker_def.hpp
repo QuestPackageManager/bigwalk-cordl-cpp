@@ -1,0 +1,76 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/DateTimeFacetsChecker.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
+CORDL_MODULE_EXPORT(DateTimeFacetsChecker)
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::Xml::Schema {
+class DateTimeFacetsChecker;
+}
+// Write type traits
+MARK_REF_T(::System::Xml::Schema::DateTimeFacetsChecker*);
+DEFINE_IL2CPP_CLASS(::System::Xml::Schema::DateTimeFacetsChecker*, "System.Xml.Schema", "DateTimeFacetsChecker");
+// Dependencies System.Xml.Schema.FacetsChecker
+namespace System::Xml::Schema {
+// Is value type: false
+// CS Name: System.Xml.Schema.DateTimeFacetsChecker
+class CORDL_TYPE DateTimeFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
+public:
+// Declarations
+/// @brief Method CheckValueFacets, addr 0x181d6ffd0, size 0x410, virtual true, abstract: false, final false
+inline ::System::Exception* CheckValueFacets(::System::DateTime  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+
+/// @brief Method CheckValueFacets, addr 0x181d703e0, size 0x80, virtual true, abstract: false, final false
+inline ::System::Exception* CheckValueFacets(::System::Object*  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+
+/// @brief Method MatchEnumeration, addr 0x181d704e0, size 0x120, virtual false, abstract: false, final false
+inline bool MatchEnumeration(::System::DateTime  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+
+/// @brief Method MatchEnumeration, addr 0x181d70460, size 0x80, virtual true, abstract: false, final false
+inline bool MatchEnumeration(::System::Object*  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
+
+static inline ::System::Xml::Schema::DateTimeFacetsChecker* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr DateTimeFacetsChecker() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeFacetsChecker", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DateTimeFacetsChecker(DateTimeFacetsChecker && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeFacetsChecker", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DateTimeFacetsChecker(DateTimeFacetsChecker const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10053};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Xml::Schema::DateTimeFacetsChecker) == 0x10, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema

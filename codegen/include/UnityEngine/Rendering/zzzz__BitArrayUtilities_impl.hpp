@@ -1,0 +1,271 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/BitArrayUtilities.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__BitArrayUtilities_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Get8
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint8_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get8)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18202f920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get8", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint8_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Get16
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint16_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get16)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18202f8a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get16", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Get32
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint32_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get32)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18202f900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get32", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Get64
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint64_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get64)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18202f910;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get64", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Get128
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint64_t, uint64_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get128)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18202f880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get128", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Get256
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint64_t, uint64_t, uint64_t, uint64_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get256)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18202f8c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get256", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Set8
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, ::by_ref<uint8_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set8)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18202fa50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set8", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint8_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Set16
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, ::by_ref<uint16_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set16)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18202f980;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set16", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint16_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Set32
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, ::by_ref<uint32_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set32)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18202fa10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set32", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Set64
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, ::by_ref<uint64_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set64)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18202fa30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set64", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Set128
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, ::by_ref<uint64_t>, ::by_ref<uint64_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set128)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18202f940;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set128", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BitArrayUtilities.Set256
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set256)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18202f9a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set256", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline bool UnityEngine::Rendering::BitArrayUtilities::Get8(uint32_t  index, uint8_t  data)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get8", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint8_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, index, data);
+}
+inline bool UnityEngine::Rendering::BitArrayUtilities::Get16(uint32_t  index, uint16_t  data)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get16", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, index, data);
+}
+inline bool UnityEngine::Rendering::BitArrayUtilities::Get32(uint32_t  index, uint32_t  data)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get32", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, index, data);
+}
+inline bool UnityEngine::Rendering::BitArrayUtilities::Get64(uint32_t  index, uint64_t  data)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get64", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, index, data);
+}
+inline bool UnityEngine::Rendering::BitArrayUtilities::Get128(uint32_t  index, uint64_t  data1, uint64_t  data2)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get128", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, index, data1, data2);
+}
+inline bool UnityEngine::Rendering::BitArrayUtilities::Get256(uint32_t  index, uint64_t  data1, uint64_t  data2, uint64_t  data3, uint64_t  data4)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Get256", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, index, data1, data2, data3, data4);
+}
+inline void UnityEngine::Rendering::BitArrayUtilities::Set8(uint32_t  index, ::by_ref<uint8_t>  data, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set8", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint8_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, data, value);
+}
+inline void UnityEngine::Rendering::BitArrayUtilities::Set16(uint32_t  index, ::by_ref<uint16_t>  data, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set16", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint16_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, data, value);
+}
+inline void UnityEngine::Rendering::BitArrayUtilities::Set32(uint32_t  index, ::by_ref<uint32_t>  data, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set32", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, data, value);
+}
+inline void UnityEngine::Rendering::BitArrayUtilities::Set64(uint32_t  index, ::by_ref<uint64_t>  data, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set64", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, data, value);
+}
+inline void UnityEngine::Rendering::BitArrayUtilities::Set128(uint32_t  index, ::by_ref<uint64_t>  data1, ::by_ref<uint64_t>  data2, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set128", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, data1, data2, value);
+}
+inline void UnityEngine::Rendering::BitArrayUtilities::Set256(uint32_t  index, ::by_ref<uint64_t>  data1, ::by_ref<uint64_t>  data2, ::by_ref<uint64_t>  data3, ::by_ref<uint64_t>  data4, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BitArrayUtilities*>(),
+                        {"Set256", {}, {::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, data1, data2, data3, data4, value);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::BitArrayUtilities::BitArrayUtilities()   {
+}

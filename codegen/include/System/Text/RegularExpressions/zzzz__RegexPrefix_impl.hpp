@@ -1,0 +1,105 @@
+#pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexPrefix.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexPrefix_def.hpp"
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexPrefix._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexPrefix::*)(::StringW, bool)>(&::System::Text::RegularExpressions::RegexPrefix::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181de1ba0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexPrefix.get_CaseInsensitive
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::RegexPrefix::*)()>(&::System::Text::RegularExpressions::RegexPrefix::get_CaseInsensitive)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x180311f90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(),
+                        {"get_CaseInsensitive", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexPrefix.get_Empty
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularExpressions::RegexPrefix (*)()>(&::System::Text::RegularExpressions::RegexPrefix::get_Empty)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181de1be0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(),
+                        {"get_Empty", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexPrefix.get_Prefix
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::RegexPrefix::*)()>(&::System::Text::RegularExpressions::RegexPrefix::get_Prefix)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803ed930;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(),
+                        {"get_Prefix", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Text::RegularExpressions::RegexPrefix::setStaticF__Empty_k__BackingField(::System::Text::RegularExpressions::RegexPrefix  value)  {
+::cordl_internals::setStaticField<::System::Text::RegularExpressions::RegexPrefix, "<Empty>k__BackingField", ::System::Text::RegularExpressions::RegexPrefix>(std::forward<::System::Text::RegularExpressions::RegexPrefix>(value));
+}
+inline ::System::Text::RegularExpressions::RegexPrefix System::Text::RegularExpressions::RegexPrefix::getStaticF__Empty_k__BackingField()  {
+return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::RegexPrefix, "<Empty>k__BackingField", ::System::Text::RegularExpressions::RegexPrefix>();
+}
+inline void System::Text::RegularExpressions::RegexPrefix::_ctor(::StringW  prefix, bool  ci)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, prefix, ci);
+}
+inline bool System::Text::RegularExpressions::RegexPrefix::get_CaseInsensitive()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(),
+                        {"get_CaseInsensitive", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline ::System::Text::RegularExpressions::RegexPrefix System::Text::RegularExpressions::RegexPrefix::get_Empty()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(),
+                        {"get_Empty", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::RegexPrefix>(nullptr, ___internal_method);
+}
+inline ::StringW System::Text::RegularExpressions::RegexPrefix::get_Prefix()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(),
+                        {"get_Prefix", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "_CaseInsensitive_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Prefix_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Text::RegularExpressions::RegexPrefix::RegexPrefix(bool  _CaseInsensitive_k__BackingField, ::StringW  _Prefix_k__BackingField) noexcept  {
+this->_CaseInsensitive_k__BackingField = _CaseInsensitive_k__BackingField;
+this->_Prefix_k__BackingField = _Prefix_k__BackingField;
+}
+// Ctor Parameters []
+constexpr ::System::Text::RegularExpressions::RegexPrefix::RegexPrefix()   {
+}

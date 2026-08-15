@@ -1,0 +1,59 @@
+#pragma once
+// IWYU pragma private; include "Mono/Security/Interface/MonoRemoteCertificateValidationCallback.hpp"
+#include "System/zzzz__MulticastDelegate_impl.hpp"
+#include "Mono/Security/Interface/zzzz__MonoRemoteCertificateValidationCallback_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::*)(::System::Object*, ::System::IntPtr)>(&::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::_ctor)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x1815b8ee0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback.Invoke
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors)>(&::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::Invoke)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x1805522b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>(),
+                    {::i2c::class_of<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+inline void Mono::Security::Interface::MonoRemoteCertificateValidationCallback::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
+}
+inline bool Mono::Security::Interface::MonoRemoteCertificateValidationCallback::Invoke(::StringW  targetHost, ::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain, ::Mono::Security::Interface::MonoSslPolicyErrors  sslPolicyErrors)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, targetHost, certificate, chain, sslPolicyErrors);
+}
+inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* Mono::Security::Interface::MonoRemoteCertificateValidationCallback::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::MonoRemoteCertificateValidationCallback()   {
+}

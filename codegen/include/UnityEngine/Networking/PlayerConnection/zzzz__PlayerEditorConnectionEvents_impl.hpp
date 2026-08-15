@@ -1,0 +1,363 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Networking/PlayerConnection/PlayerEditorConnectionEvents.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerEditorConnectionEvents_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerEditorConnectionEvents_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent::*)()>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent::_ctor)> {
+  constexpr static std::size_t size = 0x8190;
+  constexpr static std::size_t addrs = 0x180da3080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent::PlayerEditorConnectionEvents_MessageEvent()   {
+}
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent::*)()>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent::_ctor)> {
+  constexpr static std::size_t size = 0x8190;
+  constexpr static std::size_t addrs = 0x180da3080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent::PlayerEditorConnectionEvents_ConnectionChangeEvent()   {
+}
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers.get_MessageTypeId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::*)()>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::get_MessageTypeId)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18227f5b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>(),
+                        {"get_MessageTypeId", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers.set_MessageTypeId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::*)(::System::Guid)>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::set_MessageTypeId)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18227f5e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>(),
+                        {"set_MessageTypeId", {}, {::i2c::type_of<::System::Guid>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::*)()>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18227f560;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_get_m_messageTypeId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_messageTypeId;
+}
+constexpr ::StringW const& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_get_m_messageTypeId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_messageTypeId;
+}
+constexpr void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_set_m_messageTypeId(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_messageTypeId = value;
+}
+constexpr int32_t& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_get_subscriberCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___subscriberCount;
+}
+constexpr int32_t const& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_get_subscriberCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___subscriberCount;
+}
+constexpr void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_set_subscriberCount(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___subscriberCount = value;
+}
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_get_messageCallback()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___messageCallback;
+}
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* const& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_get_messageCallback() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___messageCallback;
+}
+constexpr void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::__cordl_internal_set_messageCallback(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___messageCallback = value;
+}
+inline ::System::Guid UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::get_MessageTypeId()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>(),
+                        {"get_MessageTypeId", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Guid>(this, ___internal_method);
+}
+inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::set_MessageTypeId(::System::Guid  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>(),
+                        {"set_MessageTypeId", {}, {::i2c::type_of<::System::Guid>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers* UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers::PlayerEditorConnectionEvents_MessageTypeSubscribers()   {
+}
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents.get_messageTypeSubscribers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)()>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::get_messageTypeSubscribers)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"get_messageTypeSubscribers", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents.BuildLookup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)()>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::BuildLookup)> {
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x182282e40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"BuildLookup", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents.InvokeMessageIdSubscribers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)(::System::Guid, ::ArrayW<uint8_t>, int32_t)>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::InvokeMessageIdSubscribers)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x182283080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"InvokeMessageIdSubscribers", {}, {::i2c::type_of<::System::Guid>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents.AddAndCreate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)(::System::Guid)>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::AddAndCreate)> {
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x182282cc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"AddAndCreate", {}, {::i2c::type_of<::System::Guid>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents.UnregisterManagedCallback
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)(::System::Guid, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*)>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::UnregisterManagedCallback)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x182283160;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"UnregisterManagedCallback", {}, {::i2c::type_of<::System::Guid>(), ::i2c::type_of<::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)()>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::_ctor)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x182283220;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_get_m_MessageTypeSubscribers()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_MessageTypeSubscribers;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* const& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_get_m_MessageTypeSubscribers() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_MessageTypeSubscribers;
+}
+constexpr void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_set_m_MessageTypeSubscribers(::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_MessageTypeSubscribers = value;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid,::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_get_m_SubscriberLookup()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SubscriberLookup;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid,::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* const& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_get_m_SubscriberLookup() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SubscriberLookup;
+}
+constexpr void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_set_m_SubscriberLookup(::System::Collections::Generic::Dictionary_2<::System::Guid,::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_SubscriberLookup = value;
+}
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_get_connectionEvent()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___connectionEvent;
+}
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* const& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_get_connectionEvent() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___connectionEvent;
+}
+constexpr void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_set_connectionEvent(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___connectionEvent = value;
+}
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_get_disconnectionEvent()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___disconnectionEvent;
+}
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* const& UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_get_disconnectionEvent() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___disconnectionEvent;
+}
+constexpr void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::__cordl_internal_set_disconnectionEvent(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___disconnectionEvent = value;
+}
+inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::get_messageTypeSubscribers()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"get_messageTypeSubscribers", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>*>(this, ___internal_method);
+}
+inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::BuildLookup()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"BuildLookup", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::InvokeMessageIdSubscribers(::System::Guid  messageId, ::ArrayW<uint8_t>  data, int32_t  playerId)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"InvokeMessageIdSubscribers", {}, {::i2c::type_of<::System::Guid>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, messageId, data, playerId);
+}
+inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::AddAndCreate(::System::Guid  messageId)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"AddAndCreate", {}, {::i2c::type_of<::System::Guid>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*>(this, ___internal_method, messageId);
+}
+inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::UnregisterManagedCallback(::System::Guid  messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*  callback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {"UnregisterManagedCallback", {}, {::i2c::type_of<::System::Guid>(), ::i2c::type_of<::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, messageId, callback);
+}
+inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::PlayerEditorConnectionEvents()   {
+}

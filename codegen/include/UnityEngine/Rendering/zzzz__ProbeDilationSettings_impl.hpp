@@ -1,0 +1,59 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeDilationSettings.hpp"
+#include "UnityEngine/Rendering/zzzz__ProbeDilationSettings_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ProbeVolumeBakingProcessSettings_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::ProbeDilationSettings.SetDefaults
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeDilationSettings::*)()>(&::UnityEngine::Rendering::ProbeDilationSettings::SetDefaults)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x182012ec0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ProbeDilationSettings>(),
+                        {"SetDefaults", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ProbeDilationSettings.UpgradeFromTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeDilationSettings::*)(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion, ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion)>(&::UnityEngine::Rendering::ProbeDilationSettings::UpgradeFromTo)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ProbeDilationSettings>(),
+                        {"UpgradeFromTo", {}, {::i2c::type_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion>(), ::i2c::type_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::ProbeDilationSettings::SetDefaults()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ProbeDilationSettings>(),
+                        {"SetDefaults", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void UnityEngine::Rendering::ProbeDilationSettings::UpgradeFromTo(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion  from, ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion  to)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ProbeDilationSettings>(),
+                        {"UpgradeFromTo", {}, {::i2c::type_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion>(), ::i2c::type_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, from, to);
+}
+// Ctor Parameters [CppParam { name: "enableDilation", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "dilationDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "dilationValidityThreshold", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "dilationIterations", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "squaredDistWeighting", ty: "bool", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::ProbeDilationSettings::ProbeDilationSettings(bool  enableDilation, float_t  dilationDistance, float_t  dilationValidityThreshold, int32_t  dilationIterations, bool  squaredDistWeighting) noexcept  {
+this->enableDilation = enableDilation;
+this->dilationDistance = dilationDistance;
+this->dilationValidityThreshold = dilationValidityThreshold;
+this->dilationIterations = dilationIterations;
+this->squaredDistWeighting = squaredDistWeighting;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::ProbeDilationSettings::ProbeDilationSettings()   {
+}

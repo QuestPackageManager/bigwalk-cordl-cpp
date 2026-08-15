@@ -1,0 +1,71 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/InvocationExpression0.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Linq/Expressions/zzzz__InvocationExpression_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(InvocationExpression0)
+namespace System::Linq::Expressions {
+class Expression;
+}
+namespace System::Linq::Expressions {
+class InvocationExpression;
+}
+namespace System {
+class Type;
+}
+// Forward declare root types
+namespace System::Linq::Expressions {
+class InvocationExpression0;
+}
+// Write type traits
+MARK_REF_T(::System::Linq::Expressions::InvocationExpression0*);
+DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::InvocationExpression0*, "System.Linq.Expressions", "InvocationExpression0");
+// Dependencies System.Linq.Expressions.InvocationExpression
+namespace System::Linq::Expressions {
+// Is value type: false
+// CS Name: System.Linq.Expressions.InvocationExpression0
+class CORDL_TYPE InvocationExpression0 : public ::System::Linq::Expressions::InvocationExpression {
+public:
+// Declarations
+ __declspec(property(get=get_ArgumentCount)) int32_t  ArgumentCount;
+
+/// @brief Method GetArgument, addr 0x181b01320, size 0x20, virtual true, abstract: false, final false
+inline ::System::Linq::Expressions::Expression* GetArgument(int32_t  index) ;
+
+static inline ::System::Linq::Expressions::InvocationExpression0* New_ctor(::System::Linq::Expressions::Expression*  lambda, ::System::Type*  returnType) ;
+
+/// @brief Method Rewrite, addr 0x181b01660, size 0x10, virtual true, abstract: false, final false
+inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression*  lambda, ::ArrayW<::System::Linq::Expressions::Expression*>  arguments) ;
+
+/// @brief Method .ctor, addr 0x181628370, size 0x40, virtual false, abstract: false, final false
+inline void _ctor(::System::Linq::Expressions::Expression*  lambda, ::System::Type*  returnType) ;
+
+/// @brief Method get_ArgumentCount, addr 0x1802dd520, size 0x10, virtual true, abstract: false, final false
+inline int32_t get_ArgumentCount() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvocationExpression0() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "InvocationExpression0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvocationExpression0(InvocationExpression0 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "InvocationExpression0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvocationExpression0(InvocationExpression0 const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15446};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Linq::Expressions::InvocationExpression0) == 0x20, "Size mismatch!");
+
+} // namespace end def System::Linq::Expressions

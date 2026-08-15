@@ -1,0 +1,262 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Tilemaps/Tilemap.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/Tilemaps/zzzz__TileData_def.hpp"
+#include "UnityEngine/zzzz__GridLayout_def.hpp"
+#include "UnityEngine/zzzz__Vector3Int_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(Tilemap)
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System {
+struct IntPtr;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
+}
+namespace UnityEngine::Tilemaps {
+class TileBase;
+}
+namespace UnityEngine::Tilemaps {
+struct Tilemap_SyncTileCallbackSettings;
+}
+namespace UnityEngine::Tilemaps {
+struct Tilemap_SyncTile;
+}
+namespace UnityEngine {
+struct Vector3Int;
+}
+// Forward declare root types
+namespace UnityEngine::Tilemaps {
+class Tilemap;
+}
+namespace UnityEngine::Tilemaps {
+struct Tilemap_SyncTile;
+}
+namespace UnityEngine::Tilemaps {
+struct Tilemap_SyncTileCallbackSettings;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Tilemaps::Tilemap*);
+MARK_VAL_T(::UnityEngine::Tilemaps::Tilemap_SyncTile);
+MARK_VAL_T(::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Tilemaps::Tilemap*, "UnityEngine.Tilemaps", "Tilemap");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Tilemaps::Tilemap_SyncTile, "UnityEngine.Tilemaps", "Tilemap/SyncTile");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings, "UnityEngine.Tilemaps", "Tilemap/SyncTileCallbackSettings");
+// Dependencies UnityEngine.Tilemaps.TileData, UnityEngine.Vector3Int
+namespace UnityEngine::Tilemaps {
+// Is value type: true
+// CS Name: UnityEngine.Tilemaps.Tilemap/SyncTile
+struct CORDL_TYPE Tilemap_SyncTile {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr Tilemap_SyncTile() ;
+
+// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "m_Tile", ty: "::UnityW<::UnityEngine::Tilemaps::TileBase>", modifiers: "", def_value: None }, CppParam { name: "m_TileData", ty: "::UnityEngine::Tilemaps::TileData", modifiers: "", def_value: None }]
+constexpr Tilemap_SyncTile(::UnityEngine::Vector3Int  m_Position, ::UnityW<::UnityEngine::Tilemaps::TileBase>  m_Tile, ::UnityEngine::Tilemaps::TileData  m_TileData) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21206};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x78};
+
+/// @brief Field m_Position, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::Vector3Int  m_Position;
+
+/// @brief Field m_Tile, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Tilemaps::TileBase>  m_Tile;
+
+/// @brief Field m_TileData, offset: 0x18, size: 0x60, def value: None
+ ::UnityEngine::Tilemaps::TileData  m_TileData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Tilemaps::Tilemap_SyncTile, m_Position) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tilemap_SyncTile, m_Tile) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tilemap_SyncTile, m_TileData) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Tilemaps::Tilemap_SyncTile) == 0x78, "Size mismatch!");
+
+} // namespace end def UnityEngine::Tilemaps
+// Dependencies 
+namespace UnityEngine::Tilemaps {
+// Is value type: true
+// CS Name: UnityEngine.Tilemaps.Tilemap/SyncTileCallbackSettings
+struct CORDL_TYPE Tilemap_SyncTileCallbackSettings {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr Tilemap_SyncTileCallbackSettings() ;
+
+// Ctor Parameters [CppParam { name: "hasSyncTileCallback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasPositionsChangedCallback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isBufferSyncTile", ty: "bool", modifiers: "", def_value: None }]
+constexpr Tilemap_SyncTileCallbackSettings(bool  hasSyncTileCallback, bool  hasPositionsChangedCallback, bool  isBufferSyncTile) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21207};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x3};
+
+/// @brief Field hasSyncTileCallback, offset: 0x0, size: 0x1, def value: None
+ bool  hasSyncTileCallback;
+
+/// @brief Field hasPositionsChangedCallback, offset: 0x1, size: 0x1, def value: None
+ bool  hasPositionsChangedCallback;
+
+/// @brief Field isBufferSyncTile, offset: 0x2, size: 0x1, def value: None
+ bool  isBufferSyncTile;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings, hasSyncTileCallback) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings, hasPositionsChangedCallback) == 0x1, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings, isBufferSyncTile) == 0x2, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings) == 0x3, "Size mismatch!");
+
+} // namespace end def UnityEngine::Tilemaps
+// Dependencies UnityEngine.GridLayout
+namespace UnityEngine::Tilemaps {
+// Is value type: false
+// CS Name: UnityEngine.Tilemaps.Tilemap
+class CORDL_TYPE Tilemap : public ::UnityEngine::GridLayout {
+public:
+// Declarations
+using SyncTile = ::UnityEngine::Tilemaps::Tilemap_SyncTile;
+
+using SyncTileCallbackSettings = ::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings;
+
+ __declspec(property(get=get_bufferSyncTile)) bool  bufferSyncTile;
+
+/// @brief Field loopEndedForTileAnimation, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_loopEndedForTileAnimation, put=setStaticF_loopEndedForTileAnimation)) ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*  loopEndedForTileAnimation;
+
+/// @brief Field m_BufferSyncTile, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_BufferSyncTile, put=__cordl_internal_set_m_BufferSyncTile)) bool  m_BufferSyncTile;
+
+/// @brief Field tilemapPositionsChanged, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_tilemapPositionsChanged, put=setStaticF_tilemapPositionsChanged)) ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*  tilemapPositionsChanged;
+
+/// @brief Field tilemapTileChanged, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_tilemapTileChanged, put=setStaticF_tilemapTileChanged)) ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile>>*  tilemapTileChanged;
+
+/// @brief Method DoLoopEndedForTileAnimationCallback, addr 0x18235c0c0, size 0x60, virtual false, abstract: false, final false
+inline void DoLoopEndedForTileAnimationCallback(int32_t  count, ::System::IntPtr  positionsIntPtr) ;
+
+/// @brief Method DoPositionsChangedCallback, addr 0x18235c120, size 0x60, virtual false, abstract: false, final false
+inline void DoPositionsChangedCallback(int32_t  count, ::System::IntPtr  positionsIntPtr) ;
+
+/// @brief Method DoSyncTileCallback, addr 0x18235c180, size 0x20, virtual false, abstract: false, final false
+inline void DoSyncTileCallback(::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile>  syncTiles) ;
+
+/// @brief Method GetLoopEndedForTileAnimationCallbackSettings, addr 0x18235c1a0, size 0x20, virtual false, abstract: false, final false
+inline void GetLoopEndedForTileAnimationCallbackSettings(::by_ref<bool>  hasEndLoopForTileAnimationCallback) ;
+
+/// @brief Method GetSyncTileCallbackSettings, addr 0x18235c1c0, size 0x40, virtual false, abstract: false, final false
+inline void GetSyncTileCallbackSettings(::by_ref<::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings>  settings) ;
+
+/// @brief Method HandleLoopEndedForTileAnimationCallback, addr 0x18235c0c0, size 0x60, virtual false, abstract: false, final false
+inline void HandleLoopEndedForTileAnimationCallback(int32_t  count, ::System::IntPtr  positionsIntPtr) ;
+
+/// @brief Method HandlePositionsChangedCallback, addr 0x18235c120, size 0x60, virtual false, abstract: false, final false
+inline void HandlePositionsChangedCallback(int32_t  count, ::System::IntPtr  positionsIntPtr) ;
+
+/// @brief Method HandleSyncTileCallback, addr 0x18235c180, size 0x20, virtual false, abstract: false, final false
+inline void HandleSyncTileCallback(::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile>  syncTiles) ;
+
+/// @brief Method HasLoopEndedForTileAnimationCallback, addr 0x18235c200, size 0x20, virtual false, abstract: false, final false
+static inline bool HasLoopEndedForTileAnimationCallback() ;
+
+/// @brief Method HasPositionsChangedCallback, addr 0x18235c220, size 0x20, virtual false, abstract: false, final false
+static inline bool HasPositionsChangedCallback() ;
+
+/// @brief Method HasSyncTileCallback, addr 0x18235c240, size 0x20, virtual false, abstract: false, final false
+static inline bool HasSyncTileCallback() ;
+
+/// @brief Method RefreshTile, addr 0x18235c270, size 0x30, virtual false, abstract: false, final false
+inline void RefreshTile(::UnityEngine::Vector3Int  position) ;
+
+/// @brief Method RefreshTile_Injected, addr 0x18235c260, size 0x10, virtual false, abstract: false, final false
+static inline void RefreshTile_Injected(::System::IntPtr  _unity_self, ::by_ref<::UnityEngine::Vector3Int>  position) ;
+
+/// @brief Method RefreshTilesNative, addr 0x18235c2b0, size 0x40, virtual false, abstract: false, final false
+inline void RefreshTilesNative(void*  positions, int32_t  count) ;
+
+/// @brief Method RefreshTilesNative_Injected, addr 0x18235c2a0, size 0x10, virtual false, abstract: false, final false
+static inline void RefreshTilesNative_Injected(::System::IntPtr  _unity_self, void*  positions, int32_t  count) ;
+
+/// @brief Method SendLoopEndedForTileAnimationCallback, addr 0x18235c2f0, size 0x60, virtual false, abstract: false, final false
+inline void SendLoopEndedForTileAnimationCallback(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>  positions) ;
+
+/// @brief Method SendTilemapPositionsChangedCallback, addr 0x18235c350, size 0x60, virtual false, abstract: false, final false
+inline void SendTilemapPositionsChangedCallback(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>  positions) ;
+
+/// @brief Method SendTilemapTileChangedCallback, addr 0x18235c3b0, size 0x50, virtual false, abstract: false, final false
+inline void SendTilemapTileChangedCallback(::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile>  syncTiles) ;
+
+constexpr bool const& __cordl_internal_get_m_BufferSyncTile() const;
+
+constexpr bool& __cordl_internal_get_m_BufferSyncTile() ;
+
+constexpr void __cordl_internal_set_m_BufferSyncTile(bool  value) ;
+
+static inline ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* getStaticF_loopEndedForTileAnimation() ;
+
+static inline ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* getStaticF_tilemapPositionsChanged() ;
+
+static inline ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile>>* getStaticF_tilemapTileChanged() ;
+
+/// @brief Method get_bufferSyncTile, addr 0x18037a0f0, size 0x10, virtual false, abstract: false, final false
+inline bool get_bufferSyncTile() ;
+
+static inline void setStaticF_loopEndedForTileAnimation(::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*  value) ;
+
+static inline void setStaticF_tilemapPositionsChanged(::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*  value) ;
+
+static inline void setStaticF_tilemapTileChanged(::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>,::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile>>*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Tilemap() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Tilemap", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Tilemap(Tilemap && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Tilemap", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Tilemap(Tilemap const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21208};
+
+/// @brief Field m_BufferSyncTile, offset: 0x18, size: 0x1, def value: None
+ bool  ___m_BufferSyncTile;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Tilemaps::Tilemap, ___m_BufferSyncTile) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Tilemaps::Tilemap) == 0x20, "Size mismatch!");
+
+} // namespace end def UnityEngine::Tilemaps

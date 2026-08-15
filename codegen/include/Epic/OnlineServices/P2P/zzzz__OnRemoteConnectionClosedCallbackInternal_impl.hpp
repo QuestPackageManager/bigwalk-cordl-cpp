@@ -1,0 +1,103 @@
+#pragma once
+// IWYU pragma private; include "Epic/OnlineServices/P2P/OnRemoteConnectionClosedCallbackInternal.hpp"
+#include "System/zzzz__MulticastDelegate_impl.hpp"
+#include "Epic/OnlineServices/P2P/zzzz__OnRemoteConnectionClosedCallbackInternal_def.hpp"
+#include "Epic/OnlineServices/P2P/zzzz__OnRemoteConnectionClosedInfoInternal_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::*)(::System::Object*, ::System::IntPtr)>(&::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::_ctor)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x1804dc850;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal.Invoke
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::*)(::by_ref<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedInfoInternal>)>(&::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::Invoke)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x1803e3a50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(),
+                    {::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal.BeginInvoke
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::*)(::by_ref<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedInfoInternal>, ::System::AsyncCallback*, ::System::Object*)>(&::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::BeginInvoke)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x180531360;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(),
+                    {::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal.EndInvoke
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::*)(::by_ref<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedInfoInternal>, ::System::IAsyncResult*)>(&::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::EndInvoke)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1804dc830;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(),
+                    {::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+inline void Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
+}
+inline void Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::Invoke(::by_ref<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedInfoInternal>  data)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
+}
+inline ::System::IAsyncResult* Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::BeginInvoke(::by_ref<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedInfoInternal>  data, ::System::AsyncCallback*  callback, ::System::Object*  object)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, data, callback, object);
+}
+inline void Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::EndInvoke(::by_ref<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedInfoInternal>  data, ::System::IAsyncResult*  result)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, result);
+}
+inline ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal* Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Epic::OnlineServices::P2P::OnRemoteConnectionClosedCallbackInternal::OnRemoteConnectionClosedCallbackInternal()   {
+}

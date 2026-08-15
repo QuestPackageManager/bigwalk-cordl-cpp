@@ -1,0 +1,282 @@
+#pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Certificate2Impl.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_impl.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImplCollection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509NameType_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_Extensions
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_Extensions)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 22}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_IssuerName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X500DistinguishedName* (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_IssuerName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 23}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_PrivateKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::AsymmetricAlgorithm* (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_PrivateKey)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 24}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.set_PrivateKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(::System::Security::Cryptography::AsymmetricAlgorithm*)>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::set_PrivateKey)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 25}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_SignatureAlgorithm
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_SignatureAlgorithm)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 26}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_SubjectName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X500DistinguishedName* (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_SubjectName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 27}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_Version
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_Version)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 28}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_IntermediateCertificates
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_IntermediateCertificates)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 29}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.GetNameInfo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(::System::Security::Cryptography::X509Certificates::X509NameType, bool)>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::GetNameInfo)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 30}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.Verify
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(::System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::Verify)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 31}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.AppendPrivateKeyInfo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(::System::Text::StringBuilder*)>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::AppendPrivateKeyInfo)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 32}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_Extensions()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 22}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>*>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_IssuerName()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 23}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::AsymmetricAlgorithm* System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_PrivateKey()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 24}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::AsymmetricAlgorithm*>(this, ___internal_method);
+}
+inline void System::Security::Cryptography::X509Certificates::X509Certificate2Impl::set_PrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 25}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_SignatureAlgorithm()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 26}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_SubjectName()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 27}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>(this, ___internal_method);
+}
+inline int32_t System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_Version()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 28}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_IntermediateCertificates()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 29}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*>(this, ___internal_method);
+}
+inline ::StringW System::Security::Cryptography::X509Certificates::X509Certificate2Impl::GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType  nameType, bool  forIssuer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 30}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, nameType, forIssuer);
+}
+inline bool System::Security::Cryptography::X509Certificates::X509Certificate2Impl::Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2*  thisCertificate)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 31}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, thisCertificate);
+}
+inline void System::Security::Cryptography::X509Certificates::X509Certificate2Impl::AppendPrivateKeyInfo(::System::Text::StringBuilder*  sb)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(), 32}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sb);
+}
+inline void System::Security::Cryptography::X509Certificates::X509Certificate2Impl::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* System::Security::Cryptography::X509Certificates::X509Certificate2Impl::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>());
+}
+// Ctor Parameters []
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::X509Certificate2Impl()   {
+}

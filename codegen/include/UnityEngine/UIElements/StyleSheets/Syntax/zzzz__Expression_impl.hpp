@@ -1,0 +1,133 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/Expression.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__DataType_impl.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionCombinator_impl.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionMultiplier_impl.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionType_impl.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__Expression_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionType_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::Syntax::Expression._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::Expression::*)(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::Expression::_ctor)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x182474810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_type()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___type;
+}
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_type() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___type;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___type = value;
+}
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_multiplier()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___multiplier;
+}
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_multiplier() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___multiplier;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_multiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___multiplier = value;
+}
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_dataType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___dataType;
+}
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_dataType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___dataType;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_dataType(::UnityEngine::UIElements::StyleSheets::Syntax::DataType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___dataType = value;
+}
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_combinator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___combinator;
+}
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_combinator() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___combinator;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_combinator(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___combinator = value;
+}
+constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_subExpressions()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___subExpressions;
+}
+constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*> const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_subExpressions() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___subExpressions;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_subExpressions(::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___subExpressions = value;
+}
+constexpr float_t& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_min()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___min;
+}
+constexpr float_t const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_min() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___min;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_min(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___min = value;
+}
+constexpr float_t& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_max()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___max;
+}
+constexpr float_t const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_max() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___max;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_max(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___max = value;
+}
+constexpr ::StringW& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_keyword()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___keyword;
+}
+constexpr ::StringW const& UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_get_keyword() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___keyword;
+}
+constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__cordl_internal_set_keyword(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___keyword = value;
+}
+inline void UnityEngine::UIElements::StyleSheets::Syntax::Expression::_ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type);
+}
+inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* UnityEngine::UIElements::StyleSheets::Syntax::Expression::New_ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType  type)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>(type));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::Expression::Expression()   {
+}

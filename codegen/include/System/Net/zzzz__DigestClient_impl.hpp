@@ -1,0 +1,161 @@
+#pragma once
+// IWYU pragma private; include "System/Net/DigestClient.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Net/zzzz__DigestClient_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+//  Writing Method size for method: ::System::Net::DigestClient.get_Cache
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (*)()>(&::System::Net::DigestClient::get_Cache)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x181e40050;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"get_Cache", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::DigestClient.CheckExpired
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Net::DigestClient::CheckExpired)> {
+  constexpr static std::size_t size = 0x610;
+  constexpr static std::size_t addrs = 0x181e3f890;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"CheckExpired", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::DigestClient.Authenticate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::DigestClient::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::DigestClient::Authenticate)> {
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x181e3f650;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"Authenticate", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Net::WebRequest*>(), ::i2c::type_of<::System::Net::ICredentials*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::DigestClient.PreAuthenticate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::DigestClient::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::DigestClient::PreAuthenticate)> {
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x181e3fea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"PreAuthenticate", {}, {::i2c::type_of<::System::Net::WebRequest*>(), ::i2c::type_of<::System::Net::ICredentials*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::DigestClient.get_AuthenticationType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestClient::*)()>(&::System::Net::DigestClient::get_AuthenticationType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181e40040;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"get_AuthenticationType", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::DigestClient._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::DigestClient::*)()>(&::System::Net::DigestClient::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Net::DigestClient::setStaticF_cache(::System::Collections::Hashtable*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Hashtable*, "cache", ::System::Net::DigestClient*>(std::forward<::System::Collections::Hashtable*>(value));
+}
+inline ::System::Collections::Hashtable* System::Net::DigestClient::getStaticF_cache()  {
+return ::cordl_internals::getStaticField<::System::Collections::Hashtable*, "cache", ::System::Net::DigestClient*>();
+}
+inline ::System::Collections::Hashtable* System::Net::DigestClient::get_Cache()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"get_Cache", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Hashtable*>(nullptr, ___internal_method);
+}
+inline void System::Net::DigestClient::CheckExpired(int32_t  count)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"CheckExpired", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, count);
+}
+inline ::System::Net::Authorization* System::Net::DigestClient::Authenticate(::StringW  challenge, ::System::Net::WebRequest*  webRequest, ::System::Net::ICredentials*  credentials)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"Authenticate", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Net::WebRequest*>(), ::i2c::type_of<::System::Net::ICredentials*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*>(this, ___internal_method, challenge, webRequest, credentials);
+}
+inline ::System::Net::Authorization* System::Net::DigestClient::PreAuthenticate(::System::Net::WebRequest*  webRequest, ::System::Net::ICredentials*  credentials)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"PreAuthenticate", {}, {::i2c::type_of<::System::Net::WebRequest*>(), ::i2c::type_of<::System::Net::ICredentials*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*>(this, ___internal_method, webRequest, credentials);
+}
+inline ::StringW System::Net::DigestClient::get_AuthenticationType()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {"get_AuthenticationType", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Net::DigestClient::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::DigestClient*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Net::DigestClient* System::Net::DigestClient::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::DigestClient*>());
+}
+/// @brief Convert operator to "::System::Net::IAuthenticationModule"
+constexpr  System::Net::DigestClient::operator ::System::Net::IAuthenticationModule*() noexcept {
+return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Net::IAuthenticationModule"
+constexpr ::System::Net::IAuthenticationModule* System::Net::DigestClient::i___System__Net__IAuthenticationModule() noexcept {
+return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Net::DigestClient::DigestClient()   {
+}

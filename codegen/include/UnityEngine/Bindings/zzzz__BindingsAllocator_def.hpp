@@ -1,0 +1,95 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/BindingsAllocator.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstddef>
+CORDL_MODULE_EXPORT(BindingsAllocator)
+namespace UnityEngine::Bindings {
+struct BindingsAllocator_NativeOwnedMemory;
+}
+// Forward declare root types
+namespace UnityEngine::Bindings {
+class BindingsAllocator;
+}
+namespace UnityEngine::Bindings {
+struct BindingsAllocator_NativeOwnedMemory;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Bindings::BindingsAllocator*);
+MARK_VAL_T(::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::BindingsAllocator*, "UnityEngine.Bindings", "BindingsAllocator");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory, "UnityEngine.Bindings", "BindingsAllocator/NativeOwnedMemory");
+// Dependencies 
+namespace UnityEngine::Bindings {
+// Is value type: true
+// CS Name: UnityEngine.Bindings.BindingsAllocator/NativeOwnedMemory
+struct CORDL_TYPE BindingsAllocator_NativeOwnedMemory {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindingsAllocator_NativeOwnedMemory() ;
+
+// Ctor Parameters [CppParam { name: "data", ty: "void*", modifiers: "", def_value: None }]
+constexpr BindingsAllocator_NativeOwnedMemory(void*  data) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10862};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+
+/// @brief Field data, offset: 0x0, size: 0x8, def value: None
+ void*  data;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory, data) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory) == 0x8, "Size mismatch!");
+
+} // namespace end def UnityEngine::Bindings
+// Dependencies System.Object
+namespace UnityEngine::Bindings {
+// Is value type: false
+// CS Name: UnityEngine.Bindings.BindingsAllocator
+class CORDL_TYPE BindingsAllocator : public ::System::Object {
+public:
+// Declarations
+using NativeOwnedMemory = ::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory;
+
+/// @brief Method Free, addr 0x18227d490, size 0x10, virtual false, abstract: false, final false
+static inline void Free(void*  ptr) ;
+
+/// @brief Method FreeNativeOwnedMemory, addr 0x18227d480, size 0x10, virtual false, abstract: false, final false
+static inline void FreeNativeOwnedMemory(void*  ptr) ;
+
+/// @brief Method GetNativeOwnedDataPointer, addr 0x1803a88d0, size 0x10, virtual false, abstract: false, final false
+static inline void* GetNativeOwnedDataPointer(void*  ptr) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindingsAllocator() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "BindingsAllocator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindingsAllocator(BindingsAllocator && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "BindingsAllocator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindingsAllocator(BindingsAllocator const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10863};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Bindings::BindingsAllocator) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Bindings

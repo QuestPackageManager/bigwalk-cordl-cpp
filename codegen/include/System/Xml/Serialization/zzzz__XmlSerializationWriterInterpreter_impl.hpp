@@ -1,0 +1,696 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationWriterInterpreter.hpp"
+#include "System/Xml/Serialization/zzzz__SerializationFormat_impl.hpp"
+#include "System/Xml/Serialization/zzzz__XmlSerializationWriter_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Xml/Serialization/zzzz__XmlSerializationWriterInterpreter_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Xml/Serialization/zzzz__ClassMap_def.hpp"
+#include "System/Xml/Serialization/zzzz__ListMap_def.hpp"
+#include "System/Xml/Serialization/zzzz__TypeData_def.hpp"
+#include "System/Xml/Serialization/zzzz__XmlMapping_def.hpp"
+#include "System/Xml/Serialization/zzzz__XmlMembersMapping_def.hpp"
+#include "System/Xml/Serialization/zzzz__XmlSerializationWriterInterpreter_def.hpp"
+#include "System/Xml/Serialization/zzzz__XmlTypeMapElementInfo_def.hpp"
+#include "System/Xml/Serialization/zzzz__XmlTypeMapMemberAnyElement_def.hpp"
+#include "System/Xml/Serialization/zzzz__XmlTypeMapMember_def.hpp"
+#include "System/Xml/Serialization/zzzz__XmlTypeMapping_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::*)(::System::Xml::Serialization::XmlSerializationWriterInterpreter*, ::System::Xml::Serialization::XmlTypeMapping*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1803224a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), ::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo.WriteObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::*)(::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::WriteObject)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181d53060;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo*>(),
+                        {"WriteObject", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo.WriteEnum
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::*)(::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::WriteEnum)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181d53010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo*>(),
+                        {"WriteEnum", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Xml::Serialization::XmlSerializationWriterInterpreter*& System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::__cordl_internal_get__swi()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____swi;
+}
+constexpr ::System::Xml::Serialization::XmlSerializationWriterInterpreter* const& System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::__cordl_internal_get__swi() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____swi;
+}
+constexpr void System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::__cordl_internal_set__swi(::System::Xml::Serialization::XmlSerializationWriterInterpreter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____swi = value;
+}
+constexpr ::System::Xml::Serialization::XmlTypeMapping*& System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::__cordl_internal_get__typeMap()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____typeMap;
+}
+constexpr ::System::Xml::Serialization::XmlTypeMapping* const& System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::__cordl_internal_get__typeMap() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____typeMap;
+}
+constexpr void System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::__cordl_internal_set__typeMap(::System::Xml::Serialization::XmlTypeMapping*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____typeMap = value;
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::_ctor(::System::Xml::Serialization::XmlSerializationWriterInterpreter*  swi, ::System::Xml::Serialization::XmlTypeMapping*  typeMap)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), ::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, swi, typeMap);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::WriteObject(::System::Object*  ob)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo*>(),
+                        {"WriteObject", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ob);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::WriteEnum(::System::Object*  ob)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo*>(),
+                        {"WriteEnum", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ob);
+}
+inline ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo* System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::New_ctor(::System::Xml::Serialization::XmlSerializationWriterInterpreter*  swi, ::System::Xml::Serialization::XmlTypeMapping*  typeMap)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo*>(swi, typeMap));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Serialization::XmlSerializationWriterInterpreter_CallbackInfo::XmlSerializationWriterInterpreter_CallbackInfo()   {
+}
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlMapping*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181d5fcf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Serialization::XmlMapping*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.InitCallbacks
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)()>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::InitCallbacks)> {
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x181d5cf60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteRoot
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteRoot)> {
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x181d5fad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteRoot", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::StringW, ::StringW, bool, bool, bool)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteObject)> {
+  constexpr static std::size_t size = 0x630;
+  constexpr static std::size_t addrs = 0x181d5f090;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteMessage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlMembersMapping*, ::ArrayW<::System::Object*>)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteMessage)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181d5ed00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteObjectElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::StringW, ::StringW)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteObjectElement)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x181d5ef70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteObjectElementAttributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteObjectElementAttributes)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181d5ee90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteObjectElementElements
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteObjectElementElements)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181d5ef00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteMembers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::ClassMap*, ::System::Object*, bool)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteMembers)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181d5eca0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteMembers", {}, {::i2c::type_of<::System::Xml::Serialization::ClassMap*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteAttributeMembers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::ClassMap*, ::System::Object*, bool)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteAttributeMembers)> {
+  constexpr static std::size_t size = 0x4c0;
+  constexpr static std::size_t addrs = 0x181d5d6f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteAttributeMembers", {}, {::i2c::type_of<::System::Xml::Serialization::ClassMap*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteElementMembers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::ClassMap*, ::System::Object*, bool)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteElementMembers)> {
+  constexpr static std::size_t size = 0x420;
+  constexpr static std::size_t addrs = 0x181d5dbb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteElementMembers", {}, {::i2c::type_of<::System::Xml::Serialization::ClassMap*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.GetMemberValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapMember*, ::System::Object*, bool)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::GetMemberValue)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181d43340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"GetMemberValue", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapMember*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.MemberHasValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapMember*, ::System::Object*, bool)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::MemberHasValue)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x181d5d1e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"MemberHasValue", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapMember*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteMemberElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapElementInfo*, ::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteMemberElement)> {
+  constexpr static std::size_t size = 0x4c0;
+  constexpr static std::size_t addrs = 0x181d5e7e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteMemberElement", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.ImplicitConvert
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*, ::System::Type*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::ImplicitConvert)> {
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x181d5cd60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"ImplicitConvert", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WritePrimitiveValueLiteral
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Object*, ::StringW, ::StringW, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, bool, bool)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WritePrimitiveValueLiteral)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x181d5f900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WritePrimitiveValueLiteral", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>(), ::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WritePrimitiveValueEncoded
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Object*, ::StringW, ::StringW, ::System::Xml::XmlQualifiedName*, ::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, bool, bool)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WritePrimitiveValueEncoded)> {
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x181d5f700;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WritePrimitiveValueEncoded", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>(), ::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteListElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::StringW, ::StringW)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteListElement)> {
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x181d5e560;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteListContent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Object*, ::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::ListMap*, ::System::Object*, ::System::Text::StringBuilder*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteListContent)> {
+  constexpr static std::size_t size = 0x4f0;
+  constexpr static std::size_t addrs = 0x181d5e070;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteListContent", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<::System::Xml::Serialization::ListMap*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Text::StringBuilder*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.GetListCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::TypeData*, ::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::GetListCount)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x181d5ca40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"GetListCount", {}, {::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteAnyElementContent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapMemberAnyElement*, ::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteAnyElementContent)> {
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x181d5d3b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteAnyElementContent", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapMemberAnyElement*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WritePrimitiveElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::StringW, ::StringW)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WritePrimitiveElement)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181d5f6c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.WriteEnumElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*, ::StringW, ::StringW)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteEnumElement)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181d5dfd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                    {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.GetStringValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::TypeData*, ::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::GetStringValue)> {
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x181d5cb40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"GetStringValue", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>(), ::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriterInterpreter.GetEnumXmlValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlSerializationWriterInterpreter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Object*)>(&::System::Xml::Serialization::XmlSerializationWriterInterpreter::GetEnumXmlValue)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181d5c9c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"GetEnumXmlValue", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Xml::Serialization::XmlMapping*& System::Xml::Serialization::XmlSerializationWriterInterpreter::__cordl_internal_get__typeMap()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____typeMap;
+}
+constexpr ::System::Xml::Serialization::XmlMapping* const& System::Xml::Serialization::XmlSerializationWriterInterpreter::__cordl_internal_get__typeMap() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____typeMap;
+}
+constexpr void System::Xml::Serialization::XmlSerializationWriterInterpreter::__cordl_internal_set__typeMap(::System::Xml::Serialization::XmlMapping*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____typeMap = value;
+}
+constexpr ::System::Xml::Serialization::SerializationFormat& System::Xml::Serialization::XmlSerializationWriterInterpreter::__cordl_internal_get__format()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____format;
+}
+constexpr ::System::Xml::Serialization::SerializationFormat const& System::Xml::Serialization::XmlSerializationWriterInterpreter::__cordl_internal_get__format() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____format;
+}
+constexpr void System::Xml::Serialization::XmlSerializationWriterInterpreter::__cordl_internal_set__format(::System::Xml::Serialization::SerializationFormat  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____format = value;
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::_ctor(::System::Xml::Serialization::XmlMapping*  typeMap)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Serialization::XmlMapping*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeMap);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::InitCallbacks()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteRoot(::System::Object*  ob)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteRoot", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ob);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteObject(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp, bool  isNullable, bool  needType, bool  writeWrappingElem)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeMap, ob, element, namesp, isNullable, needType, writeWrappingElem);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteMessage(::System::Xml::Serialization::XmlMembersMapping*  membersMap, ::ArrayW<::System::Object*>  parameters)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, membersMap, parameters);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteObjectElement(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeMap, ob, element, namesp);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteObjectElementAttributes(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeMap, ob);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteObjectElementElements(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeMap, ob);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteMembers(::System::Xml::Serialization::ClassMap*  map, ::System::Object*  ob, bool  isValueList)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteMembers", {}, {::i2c::type_of<::System::Xml::Serialization::ClassMap*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, map, ob, isValueList);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteAttributeMembers(::System::Xml::Serialization::ClassMap*  map, ::System::Object*  ob, bool  isValueList)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteAttributeMembers", {}, {::i2c::type_of<::System::Xml::Serialization::ClassMap*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, map, ob, isValueList);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteElementMembers(::System::Xml::Serialization::ClassMap*  map, ::System::Object*  ob, bool  isValueList)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteElementMembers", {}, {::i2c::type_of<::System::Xml::Serialization::ClassMap*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, map, ob, isValueList);
+}
+inline ::System::Object* System::Xml::Serialization::XmlSerializationWriterInterpreter::GetMemberValue(::System::Xml::Serialization::XmlTypeMapMember*  member, ::System::Object*  ob, bool  isValueList)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"GetMemberValue", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapMember*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, member, ob, isValueList);
+}
+inline bool System::Xml::Serialization::XmlSerializationWriterInterpreter::MemberHasValue(::System::Xml::Serialization::XmlTypeMapMember*  member, ::System::Object*  ob, bool  isValueList)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"MemberHasValue", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapMember*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, member, ob, isValueList);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteMemberElement(::System::Xml::Serialization::XmlTypeMapElementInfo*  elem, ::System::Object*  memberValue)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteMemberElement", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapElementInfo*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, elem, memberValue);
+}
+inline ::System::Object* System::Xml::Serialization::XmlSerializationWriterInterpreter::ImplicitConvert(::System::Object*  obj, ::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"ImplicitConvert", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, obj, type);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WritePrimitiveValueLiteral(::System::Object*  memberValue, ::StringW  name, ::StringW  ns, ::System::Xml::Serialization::XmlTypeMapping*  mappedType, ::System::Xml::Serialization::TypeData*  typeData, bool  wrapped, bool  isNullable)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WritePrimitiveValueLiteral", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>(), ::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, memberValue, name, ns, mappedType, typeData, wrapped, isNullable);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WritePrimitiveValueEncoded(::System::Object*  memberValue, ::StringW  name, ::StringW  ns, ::System::Xml::XmlQualifiedName*  xsiType, ::System::Xml::Serialization::XmlTypeMapping*  mappedType, ::System::Xml::Serialization::TypeData*  typeData, bool  wrapped, bool  isNullable)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WritePrimitiveValueEncoded", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>(), ::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, memberValue, name, ns, xsiType, mappedType, typeData, wrapped, isNullable);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteListElement(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeMap, ob, element, namesp);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteListContent(::System::Object*  container, ::System::Xml::Serialization::TypeData*  listType, ::System::Xml::Serialization::ListMap*  map, ::System::Object*  ob, ::System::Text::StringBuilder*  targetString)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteListContent", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<::System::Xml::Serialization::ListMap*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Text::StringBuilder*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container, listType, map, ob, targetString);
+}
+inline int32_t System::Xml::Serialization::XmlSerializationWriterInterpreter::GetListCount(::System::Xml::Serialization::TypeData*  listType, ::System::Object*  ob)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"GetListCount", {}, {::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, listType, ob);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteAnyElementContent(::System::Xml::Serialization::XmlTypeMapMemberAnyElement*  member, ::System::Object*  memberValue)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"WriteAnyElementContent", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapMemberAnyElement*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, member, memberValue);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WritePrimitiveElement(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeMap, ob, element, namesp);
+}
+inline void System::Xml::Serialization::XmlSerializationWriterInterpreter::WriteEnumElement(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob, ::StringW  element, ::StringW  namesp)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeMap, ob, element, namesp);
+}
+inline ::StringW System::Xml::Serialization::XmlSerializationWriterInterpreter::GetStringValue(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Xml::Serialization::TypeData*  type, ::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"GetStringValue", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>(), ::i2c::type_of<::System::Xml::Serialization::TypeData*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, typeMap, type, value);
+}
+inline ::StringW System::Xml::Serialization::XmlSerializationWriterInterpreter::GetEnumXmlValue(::System::Xml::Serialization::XmlTypeMapping*  typeMap, ::System::Object*  ob)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(),
+                        {"GetEnumXmlValue", {}, {::i2c::type_of<::System::Xml::Serialization::XmlTypeMapping*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, typeMap, ob);
+}
+inline ::System::Xml::Serialization::XmlSerializationWriterInterpreter* System::Xml::Serialization::XmlSerializationWriterInterpreter::New_ctor(::System::Xml::Serialization::XmlMapping*  typeMap)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Serialization::XmlSerializationWriterInterpreter*>(typeMap));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Serialization::XmlSerializationWriterInterpreter::XmlSerializationWriterInterpreter()   {
+}

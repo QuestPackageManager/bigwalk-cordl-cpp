@@ -1,0 +1,78 @@
+#pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/IXmlElement.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlElement_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::IXmlElement.SetAttributeNode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::IXmlElement::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(&::Newtonsoft::Json::Converters::IXmlElement::SetAttributeNode)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::IXmlElement.GetPrefixOfNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Converters::IXmlElement::*)(::StringW)>(&::Newtonsoft::Json::Converters::IXmlElement::GetPrefixOfNamespace)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::IXmlElement.get_IsEmpty
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::IXmlElement::*)()>(&::Newtonsoft::Json::Converters::IXmlElement::get_IsEmpty)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+inline void Newtonsoft::Json::Converters::IXmlElement::SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode*  attribute)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attribute);
+}
+inline ::StringW Newtonsoft::Json::Converters::IXmlElement::GetPrefixOfNamespace(::StringW  namespaceUri)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, namespaceUri);
+}
+inline bool Newtonsoft::Json::Converters::IXmlElement::get_IsEmpty()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::IXmlElement*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
+constexpr  Newtonsoft::Json::Converters::IXmlElement::operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept {
+return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+constexpr ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::IXmlElement::i___Newtonsoft__Json__Converters__IXmlNode() noexcept {
+return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
+}

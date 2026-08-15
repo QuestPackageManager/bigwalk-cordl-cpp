@@ -1,0 +1,341 @@
+#pragma once
+// IWYU pragma private; include "System/Data/Common/DateTimeOffsetStorage.hpp"
+#include "System/Data/Common/zzzz__DataStorage_impl.hpp"
+#include "System/zzzz__DateTimeOffset_impl.hpp"
+#include "System/Data/Common/zzzz__DateTimeOffsetStorage_def.hpp"
+#include "System/Collections/zzzz__BitArray_def.hpp"
+#include "System/Data/zzzz__AggregateType_def.hpp"
+#include "System/Data/zzzz__DataColumn_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::DateTimeOffsetStorage::_ctor)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181bf4000;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataColumn*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.Aggregate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(&::System::Data::Common::DateTimeOffsetStorage::Aggregate)> {
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x181bf3560;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.Compare
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::Compare)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181bf3970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.CompareValueTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::DateTimeOffsetStorage::CompareValueTo)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181bf3840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.ConvertValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(::System::Object*)>(&::System::Data::Common::DateTimeOffsetStorage::ConvertValue)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181bf3af0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.Copy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::Copy)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181bf3c40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.Get
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::Get)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181bf3cc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.Set
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::DateTimeOffsetStorage::Set)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181bf3f00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.SetCapacity
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::SetCapacity)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x181bf3d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.ConvertXmlToObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(::StringW)>(&::System::Data::Common::DateTimeOffsetStorage::ConvertXmlToObject)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181bf3b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.ConvertObjectToXml
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::DateTimeOffsetStorage::*)(::System::Object*)>(&::System::Data::Common::DateTimeOffsetStorage::ConvertObjectToXml)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181bf3aa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 16}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.GetEmptyStorage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::GetEmptyStorage)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bf3cb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 18}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.CopyValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::CopyValue)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181bf3b80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DateTimeOffsetStorage.SetStorage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(&::System::Data::Common::DateTimeOffsetStorage::SetStorage)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181bf3e50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::ArrayW<::System::DateTimeOffset>& System::Data::Common::DateTimeOffsetStorage::__cordl_internal_get__values()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____values;
+}
+constexpr ::ArrayW<::System::DateTimeOffset> const& System::Data::Common::DateTimeOffsetStorage::__cordl_internal_get__values() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____values;
+}
+constexpr void System::Data::Common::DateTimeOffsetStorage::__cordl_internal_set__values(::ArrayW<::System::DateTimeOffset>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____values = value;
+}
+inline void System::Data::Common::DateTimeOffsetStorage::setStaticF_s_defaultValue(::System::DateTimeOffset  value)  {
+::cordl_internals::setStaticField<::System::DateTimeOffset, "s_defaultValue", ::System::Data::Common::DateTimeOffsetStorage*>(std::forward<::System::DateTimeOffset>(value));
+}
+inline ::System::DateTimeOffset System::Data::Common::DateTimeOffsetStorage::getStaticF_s_defaultValue()  {
+return ::cordl_internals::getStaticField<::System::DateTimeOffset, "s_defaultValue", ::System::Data::Common::DateTimeOffsetStorage*>();
+}
+inline void System::Data::Common::DateTimeOffsetStorage::_ctor(::System::Data::DataColumn*  column)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataColumn*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column);
+}
+inline ::System::Object* System::Data::Common::DateTimeOffsetStorage::Aggregate(::ArrayW<int32_t>  records, ::System::Data::AggregateType  kind)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, records, kind);
+}
+inline int32_t System::Data::Common::DateTimeOffsetStorage::Compare(int32_t  recordNo1, int32_t  recordNo2)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, recordNo1, recordNo2);
+}
+inline int32_t System::Data::Common::DateTimeOffsetStorage::CompareValueTo(int32_t  recordNo, ::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, recordNo, value);
+}
+inline ::System::Object* System::Data::Common::DateTimeOffsetStorage::ConvertValue(::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, value);
+}
+inline void System::Data::Common::DateTimeOffsetStorage::Copy(int32_t  recordNo1, int32_t  recordNo2)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, recordNo1, recordNo2);
+}
+inline ::System::Object* System::Data::Common::DateTimeOffsetStorage::Get(int32_t  record)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, record);
+}
+inline void System::Data::Common::DateTimeOffsetStorage::Set(int32_t  record, ::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, record, value);
+}
+inline void System::Data::Common::DateTimeOffsetStorage::SetCapacity(int32_t  capacity)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity);
+}
+inline ::System::Object* System::Data::Common::DateTimeOffsetStorage::ConvertXmlToObject(::StringW  s)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, s);
+}
+inline ::StringW System::Data::Common::DateTimeOffsetStorage::ConvertObjectToXml(::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 16}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
+}
+inline ::System::Object* System::Data::Common::DateTimeOffsetStorage::GetEmptyStorage(int32_t  recordCount)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 18}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, recordCount);
+}
+inline void System::Data::Common::DateTimeOffsetStorage::CopyValue(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, record, store, nullbits, storeIndex);
+}
+inline void System::Data::Common::DateTimeOffsetStorage::SetStorage(::System::Object*  store, ::System::Collections::BitArray*  nullbits)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DateTimeOffsetStorage*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, store, nullbits);
+}
+inline ::System::Data::Common::DateTimeOffsetStorage* System::Data::Common::DateTimeOffsetStorage::New_ctor(::System::Data::DataColumn*  column)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::Common::DateTimeOffsetStorage*>(column));
+}
+// Ctor Parameters []
+constexpr ::System::Data::Common::DateTimeOffsetStorage::DateTimeOffsetStorage()   {
+}

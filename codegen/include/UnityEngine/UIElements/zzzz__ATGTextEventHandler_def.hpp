@@ -1,0 +1,316 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ATGTextEventHandler.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(ATGTextEventHandler)
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::UIElements {
+template<typename TEventType>
+class EventCallback_1;
+}
+namespace UnityEngine::UIElements {
+class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerOutEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerOverEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class TextElement;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class ATGTextEventHandler;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::ATGTextEventHandler*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ATGTextEventHandler*, "UnityEngine.UIElements", "ATGTextEventHandler");
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.ATGTextEventHandler
+class CORDL_TYPE ATGTextEventHandler : public ::System::Object {
+public:
+// Declarations
+/// @brief Field currentLinkIDHash, offset 0x5c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_currentLinkIDHash, put=__cordl_internal_set_currentLinkIDHash)) int32_t  currentLinkIDHash;
+
+/// @brief Field isOverridingCursor, offset 0x58, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isOverridingCursor, put=__cordl_internal_set_isOverridingCursor)) bool  isOverridingCursor;
+
+/// @brief Field m_HyperlinkOnPointerMove, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_HyperlinkOnPointerMove, put=__cordl_internal_set_m_HyperlinkOnPointerMove)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*  m_HyperlinkOnPointerMove;
+
+/// @brief Field m_HyperlinkOnPointerOut, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_HyperlinkOnPointerOut, put=__cordl_internal_set_m_HyperlinkOnPointerOut)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>*  m_HyperlinkOnPointerOut;
+
+/// @brief Field m_HyperlinkOnPointerOver, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_HyperlinkOnPointerOver, put=__cordl_internal_set_m_HyperlinkOnPointerOver)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOverEvent*>*  m_HyperlinkOnPointerOver;
+
+/// @brief Field m_HyperlinkOnPointerUp, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_HyperlinkOnPointerUp, put=__cordl_internal_set_m_HyperlinkOnPointerUp)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*  m_HyperlinkOnPointerUp;
+
+/// @brief Field m_LinkTagOnPointerDown, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LinkTagOnPointerDown, put=__cordl_internal_set_m_LinkTagOnPointerDown)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerDownEvent*>*  m_LinkTagOnPointerDown;
+
+/// @brief Field m_LinkTagOnPointerMove, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LinkTagOnPointerMove, put=__cordl_internal_set_m_LinkTagOnPointerMove)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*  m_LinkTagOnPointerMove;
+
+/// @brief Field m_LinkTagOnPointerOut, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LinkTagOnPointerOut, put=__cordl_internal_set_m_LinkTagOnPointerOut)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>*  m_LinkTagOnPointerOut;
+
+/// @brief Field m_LinkTagOnPointerUp, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LinkTagOnPointerUp, put=__cordl_internal_set_m_LinkTagOnPointerUp)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*  m_LinkTagOnPointerUp;
+
+/// @brief Field m_TextElement, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_TextElement, put=__cordl_internal_set_m_TextElement)) ::UnityEngine::UIElements::TextElement*  m_TextElement;
+
+/// @brief Field onComplexHyperlinkClicked, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_onComplexHyperlinkClicked, put=setStaticF_onComplexHyperlinkClicked)) ::System::Action_1<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*>*  onComplexHyperlinkClicked;
+
+/// @brief Field s_ATagRegex, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_ATagRegex, put=setStaticF_s_ATagRegex)) ::System::Text::RegularExpressions::Regex*  s_ATagRegex;
+
+/// @brief Field s_LinkTagRegex, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_LinkTagRegex, put=setStaticF_s_LinkTagRegex)) ::System::Text::RegularExpressions::Regex*  s_LinkTagRegex;
+
+/// @brief Method AllocateHyperlinkCallbacks, addr 0x1823e6a50, size 0x100, virtual false, abstract: false, final false
+inline void AllocateHyperlinkCallbacks() ;
+
+/// @brief Method AllocateLinkCallbacks, addr 0x1823e6b50, size 0x100, virtual false, abstract: false, final false
+inline void AllocateLinkCallbacks() ;
+
+/// @brief Method EnsureTextGenerationInfoIsValid, addr 0x1823e6c50, size 0x50, virtual false, abstract: false, final false
+inline void EnsureTextGenerationInfoIsValid() ;
+
+/// @brief Method HasAllocatedHyperlinkCallbacks, addr 0x180d8de60, size 0x1780, virtual false, abstract: false, final false
+inline bool HasAllocatedHyperlinkCallbacks() ;
+
+/// @brief Method HasAllocatedLinkCallbacks, addr 0x1809d1ac0, size 0x4e0, virtual false, abstract: false, final false
+inline bool HasAllocatedLinkCallbacks() ;
+
+/// @brief Method HyperlinkOnPointerMove, addr 0x1823e6ca0, size 0x200, virtual false, abstract: false, final false
+inline void HyperlinkOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent*  pme) ;
+
+/// @brief Method HyperlinkOnPointerOut, addr 0x1823e6ea0, size 0x10, virtual false, abstract: false, final false
+inline void HyperlinkOnPointerOut(::UnityEngine::UIElements::PointerOutEvent*  evt) ;
+
+/// @brief Method HyperlinkOnPointerOver, addr 0x1823e6ea0, size 0x10, virtual false, abstract: false, final false
+inline void HyperlinkOnPointerOver(::UnityEngine::UIElements::PointerOverEvent*  _) ;
+
+/// @brief Method HyperlinkOnPointerUp, addr 0x1823e6eb0, size 0x170, virtual false, abstract: false, final false
+inline void HyperlinkOnPointerUp(::UnityEngine::UIElements::PointerUpEvent*  pue) ;
+
+/// @brief Method IsComplexHyperLink, addr 0x1823e7020, size 0x2d0, virtual false, abstract: false, final false
+static inline bool IsComplexHyperLink(::StringW  link, ::by_ref<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*>  hyperLinkData) ;
+
+/// @brief Method LinkTagOnPointerDown, addr 0x1823e72f0, size 0x1d0, virtual false, abstract: false, final false
+inline void LinkTagOnPointerDown(::UnityEngine::UIElements::PointerDownEvent*  pde) ;
+
+/// @brief Method LinkTagOnPointerMove, addr 0x1823e74c0, size 0x3b0, virtual false, abstract: false, final false
+inline void LinkTagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent*  pme) ;
+
+/// @brief Method LinkTagOnPointerOut, addr 0x1823e7870, size 0x110, virtual false, abstract: false, final false
+inline void LinkTagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent*  poe) ;
+
+/// @brief Method LinkTagOnPointerUp, addr 0x1823e7980, size 0x1d0, virtual false, abstract: false, final false
+inline void LinkTagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent*  pue) ;
+
+static inline ::UnityEngine::UIElements::ATGTextEventHandler* New_ctor(::UnityEngine::UIElements::TextElement*  textElement) ;
+
+/// @brief Method OnDestroy, addr 0x1823e7b50, size 0x20, virtual false, abstract: false, final false
+inline void OnDestroy() ;
+
+/// @brief Method RegisterHyperlinkCallbacks, addr 0x1823e7b70, size 0x1a0, virtual false, abstract: false, final false
+inline void RegisterHyperlinkCallbacks() ;
+
+/// @brief Method RegisterLinkTagCallbacks, addr 0x1823e7d10, size 0x180, virtual false, abstract: false, final false
+inline void RegisterLinkTagCallbacks() ;
+
+/// @brief Method UnRegisterHyperlinkCallbacks, addr 0x1823e7e90, size 0xc0, virtual false, abstract: false, final false
+inline void UnRegisterHyperlinkCallbacks() ;
+
+/// @brief Method UnRegisterLinkTagCallbacks, addr 0x1823e7f50, size 0x90, virtual false, abstract: false, final false
+inline void UnRegisterLinkTagCallbacks() ;
+
+constexpr int32_t const& __cordl_internal_get_currentLinkIDHash() const;
+
+constexpr int32_t& __cordl_internal_get_currentLinkIDHash() ;
+
+constexpr bool const& __cordl_internal_get_isOverridingCursor() const;
+
+constexpr bool& __cordl_internal_get_isOverridingCursor() ;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>* const& __cordl_internal_get_m_HyperlinkOnPointerMove() const;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*& __cordl_internal_get_m_HyperlinkOnPointerMove() ;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>* const& __cordl_internal_get_m_HyperlinkOnPointerOut() const;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>*& __cordl_internal_get_m_HyperlinkOnPointerOut() ;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOverEvent*>* const& __cordl_internal_get_m_HyperlinkOnPointerOver() const;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOverEvent*>*& __cordl_internal_get_m_HyperlinkOnPointerOver() ;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>* const& __cordl_internal_get_m_HyperlinkOnPointerUp() const;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*& __cordl_internal_get_m_HyperlinkOnPointerUp() ;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerDownEvent*>* const& __cordl_internal_get_m_LinkTagOnPointerDown() const;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerDownEvent*>*& __cordl_internal_get_m_LinkTagOnPointerDown() ;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>* const& __cordl_internal_get_m_LinkTagOnPointerMove() const;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*& __cordl_internal_get_m_LinkTagOnPointerMove() ;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>* const& __cordl_internal_get_m_LinkTagOnPointerOut() const;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>*& __cordl_internal_get_m_LinkTagOnPointerOut() ;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>* const& __cordl_internal_get_m_LinkTagOnPointerUp() const;
+
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*& __cordl_internal_get_m_LinkTagOnPointerUp() ;
+
+constexpr ::UnityEngine::UIElements::TextElement* const& __cordl_internal_get_m_TextElement() const;
+
+constexpr ::UnityEngine::UIElements::TextElement*& __cordl_internal_get_m_TextElement() ;
+
+constexpr void __cordl_internal_set_currentLinkIDHash(int32_t  value) ;
+
+constexpr void __cordl_internal_set_isOverridingCursor(bool  value) ;
+
+constexpr void __cordl_internal_set_m_HyperlinkOnPointerMove(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*  value) ;
+
+constexpr void __cordl_internal_set_m_HyperlinkOnPointerOut(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>*  value) ;
+
+constexpr void __cordl_internal_set_m_HyperlinkOnPointerOver(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOverEvent*>*  value) ;
+
+constexpr void __cordl_internal_set_m_HyperlinkOnPointerUp(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*  value) ;
+
+constexpr void __cordl_internal_set_m_LinkTagOnPointerDown(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerDownEvent*>*  value) ;
+
+constexpr void __cordl_internal_set_m_LinkTagOnPointerMove(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*  value) ;
+
+constexpr void __cordl_internal_set_m_LinkTagOnPointerOut(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>*  value) ;
+
+constexpr void __cordl_internal_set_m_LinkTagOnPointerUp(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*  value) ;
+
+constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement*  value) ;
+
+/// @brief Method .ctor, addr 0x1823e8090, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::TextElement*  textElement) ;
+
+static inline ::System::Action_1<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*>* getStaticF_onComplexHyperlinkClicked() ;
+
+static inline ::System::Text::RegularExpressions::Regex* getStaticF_s_ATagRegex() ;
+
+static inline ::System::Text::RegularExpressions::Regex* getStaticF_s_LinkTagRegex() ;
+
+static inline void setStaticF_onComplexHyperlinkClicked(::System::Action_1<::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*>*  value) ;
+
+static inline void setStaticF_s_ATagRegex(::System::Text::RegularExpressions::Regex*  value) ;
+
+static inline void setStaticF_s_LinkTagRegex(::System::Text::RegularExpressions::Regex*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ATGTextEventHandler() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ATGTextEventHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ATGTextEventHandler(ATGTextEventHandler && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ATGTextEventHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ATGTextEventHandler(ATGTextEventHandler const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4285};
+
+/// @brief Field m_TextElement, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::UIElements::TextElement*  ___m_TextElement;
+
+/// @brief Field m_LinkTagOnPointerDown, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerDownEvent*>*  ___m_LinkTagOnPointerDown;
+
+/// @brief Field m_LinkTagOnPointerUp, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*  ___m_LinkTagOnPointerUp;
+
+/// @brief Field m_LinkTagOnPointerMove, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*  ___m_LinkTagOnPointerMove;
+
+/// @brief Field m_LinkTagOnPointerOut, offset: 0x30, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>*  ___m_LinkTagOnPointerOut;
+
+/// @brief Field m_HyperlinkOnPointerUp, offset: 0x38, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*  ___m_HyperlinkOnPointerUp;
+
+/// @brief Field m_HyperlinkOnPointerMove, offset: 0x40, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*  ___m_HyperlinkOnPointerMove;
+
+/// @brief Field m_HyperlinkOnPointerOver, offset: 0x48, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOverEvent*>*  ___m_HyperlinkOnPointerOver;
+
+/// @brief Field m_HyperlinkOnPointerOut, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerOutEvent*>*  ___m_HyperlinkOnPointerOut;
+
+/// @brief Field isOverridingCursor, offset: 0x58, size: 0x1, def value: None
+ bool  ___isOverridingCursor;
+
+/// @brief Field currentLinkIDHash, offset: 0x5c, size: 0x4, def value: None
+ int32_t  ___currentLinkIDHash;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_TextElement) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_LinkTagOnPointerDown) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_LinkTagOnPointerUp) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_LinkTagOnPointerMove) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_LinkTagOnPointerOut) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_HyperlinkOnPointerUp) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_HyperlinkOnPointerMove) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_HyperlinkOnPointerOver) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___m_HyperlinkOnPointerOut) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___isOverridingCursor) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ATGTextEventHandler, ___currentLinkIDHash) == 0x5c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::ATGTextEventHandler) == 0x60, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

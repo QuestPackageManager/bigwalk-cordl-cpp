@@ -1,0 +1,192 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/Lightmapping.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__MulticastDelegate_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(Lightmapping)
+namespace System {
+struct IntPtr;
+}
+namespace System {
+class Object;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LightDataGI;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+class Lightmapping_RequestLightsDelegate;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+class Lightmapping___c;
+}
+namespace UnityEngine {
+class Light;
+}
+// Forward declare root types
+namespace UnityEngine::Experimental::GlobalIllumination {
+class Lightmapping;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+class Lightmapping_RequestLightsDelegate;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+class Lightmapping___c;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Experimental::GlobalIllumination::Lightmapping*);
+MARK_REF_T(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*);
+MARK_REF_T(::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::GlobalIllumination::Lightmapping*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping/RequestLightsDelegate");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping/<>c");
+// Dependencies System.MulticastDelegate
+namespace UnityEngine::Experimental::GlobalIllumination {
+// Is value type: false
+// CS Name: UnityEngine.Experimental.GlobalIllumination.Lightmapping/RequestLightsDelegate
+class CORDL_TYPE Lightmapping_RequestLightsDelegate : public ::System::MulticastDelegate {
+public:
+// Declarations
+/// @brief Method Invoke, addr 0x1810f7760, size 0x940, virtual true, abstract: false, final false
+inline void Invoke(::ArrayW<::UnityEngine::Light*>  requests, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>  lightsOutput) ;
+
+static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+
+/// @brief Method .ctor, addr 0x1822b0d80, size 0xc0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Lightmapping_RequestLightsDelegate() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Lightmapping_RequestLightsDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Lightmapping_RequestLightsDelegate(Lightmapping_RequestLightsDelegate && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Lightmapping_RequestLightsDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Lightmapping_RequestLightsDelegate(Lightmapping_RequestLightsDelegate const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11312};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate) == 0x80, "Size mismatch!");
+
+} // namespace end def UnityEngine::Experimental::GlobalIllumination
+// Dependencies System.Object
+namespace UnityEngine::Experimental::GlobalIllumination {
+// Is value type: false
+// CS Name: UnityEngine.Experimental.GlobalIllumination.Lightmapping/<>c
+class CORDL_TYPE Lightmapping___c : public ::System::Object {
+public:
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c*  __9;
+
+static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c* New_ctor() ;
+
+/// @brief Method <.cctor>b__7_0, addr 0x1822b6290, size 0x560, virtual false, abstract: false, final false
+inline void __cctor_b__7_0(::ArrayW<::UnityEngine::Light*>  requests, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>  lightsOutput) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c* getStaticF___9() ;
+
+static inline void setStaticF___9(::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Lightmapping___c() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Lightmapping___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Lightmapping___c(Lightmapping___c && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Lightmapping___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Lightmapping___c(Lightmapping___c const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11313};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Experimental::GlobalIllumination
+// Dependencies System.Object
+namespace UnityEngine::Experimental::GlobalIllumination {
+// Is value type: false
+// CS Name: UnityEngine.Experimental.GlobalIllumination.Lightmapping
+class CORDL_TYPE Lightmapping : public ::System::Object {
+public:
+// Declarations
+using RequestLightsDelegate = ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate;
+
+using __c = ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c;
+
+/// @brief Field s_DefaultDelegate, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_DefaultDelegate, put=setStaticF_s_DefaultDelegate)) ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*  s_DefaultDelegate;
+
+/// @brief Field s_RequestLightsDelegate, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_RequestLightsDelegate, put=setStaticF_s_RequestLightsDelegate)) ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*  s_RequestLightsDelegate;
+
+/// @brief Method GetDelegate, addr 0x1822abfc0, size 0x40, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* GetDelegate() ;
+
+/// @brief Method RequestLights, addr 0x1822ac000, size 0x80, virtual false, abstract: false, final false
+static inline void RequestLights(::ArrayW<::UnityEngine::Light*>  lights, ::System::IntPtr  outLightsPtr, int32_t  outLightsCount) ;
+
+/// @brief Method ResetDelegate, addr 0x1822ac080, size 0x50, virtual false, abstract: false, final false
+static inline void ResetDelegate() ;
+
+/// @brief Method SetDelegate, addr 0x1822ac0d0, size 0x80, virtual false, abstract: false, final false
+static inline void SetDelegate(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*  del) ;
+
+static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* getStaticF_s_DefaultDelegate() ;
+
+static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* getStaticF_s_RequestLightsDelegate() ;
+
+static inline void setStaticF_s_DefaultDelegate(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*  value) ;
+
+static inline void setStaticF_s_RequestLightsDelegate(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Lightmapping() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Lightmapping", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Lightmapping(Lightmapping && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Lightmapping", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Lightmapping(Lightmapping const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11314};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Experimental::GlobalIllumination::Lightmapping) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Experimental::GlobalIllumination

@@ -1,0 +1,102 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_untypedAtomicType.hpp"
+#include "System/Xml/Schema/zzzz__Datatype_anyAtomicType_impl.hpp"
+#include "System/Xml/Schema/zzzz__Datatype_untypedAtomicType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+//  Writing Method size for method: ::System::Xml::Schema::Datatype_untypedAtomicType.CreateValueConverter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlValueConverter* (::System::Xml::Schema::Datatype_untypedAtomicType::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::Datatype_untypedAtomicType::CreateValueConverter)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181d6ad10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(),
+                    {::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(), 25}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Datatype_untypedAtomicType.get_BuiltInWhitespaceFacet
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_untypedAtomicType::*)()>(&::System::Xml::Schema::Datatype_untypedAtomicType::get_BuiltInWhitespaceFacet)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(),
+                    {::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Datatype_untypedAtomicType.get_TypeCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_untypedAtomicType::*)()>(&::System::Xml::Schema::Datatype_untypedAtomicType::get_TypeCode)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18170e270;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(),
+                    {::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Datatype_untypedAtomicType._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_untypedAtomicType::*)()>(&::System::Xml::Schema::Datatype_untypedAtomicType::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181d69520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::System::Xml::Schema::XmlValueConverter* System::Xml::Schema::Datatype_untypedAtomicType::CreateValueConverter(::System::Xml::Schema::XmlSchemaType*  schemaType)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(), 25}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlValueConverter*>(this, ___internal_method, schemaType);
+}
+inline ::System::Xml::Schema::XmlSchemaWhiteSpace System::Xml::Schema::Datatype_untypedAtomicType::get_BuiltInWhitespaceFacet()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaWhiteSpace>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::Datatype_untypedAtomicType::get_TypeCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlTypeCode>(this, ___internal_method);
+}
+inline void System::Xml::Schema::Datatype_untypedAtomicType::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::Datatype_untypedAtomicType*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_untypedAtomicType* System::Xml::Schema::Datatype_untypedAtomicType::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::Datatype_untypedAtomicType*>());
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::Datatype_untypedAtomicType::Datatype_untypedAtomicType()   {
+}

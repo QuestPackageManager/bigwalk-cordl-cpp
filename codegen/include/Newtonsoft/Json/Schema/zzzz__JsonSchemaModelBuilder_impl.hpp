@@ -1,0 +1,250 @@
+#pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaModelBuilder.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "Newtonsoft/Json/Schema/zzzz__JsonSchemaModelBuilder_def.hpp"
+#include "Newtonsoft/Json/Schema/zzzz__JsonSchemaModel_def.hpp"
+#include "Newtonsoft/Json/Schema/zzzz__JsonSchemaNodeCollection_def.hpp"
+#include "Newtonsoft/Json/Schema/zzzz__JsonSchemaNode_def.hpp"
+#include "Newtonsoft/Json/Schema/zzzz__JsonSchema_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder.Build
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaModel* (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)(::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::Build)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x1817ee700;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"Build", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder.AddSchema
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaNode* (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)(::Newtonsoft::Json::Schema::JsonSchemaNode*, ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddSchema)> {
+  constexpr static std::size_t size = 0x5c0;
+  constexpr static std::size_t addrs = 0x1817edd00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddSchema", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder.AddProperties
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)(::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*, ::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*>*)>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddProperties)> {
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x1817ed8c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddProperties", {}, {::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*>(), ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder.AddProperty
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)(::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*>*, ::StringW, ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddProperty)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x1817edba0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddProperty", {}, {::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*>*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder.AddItem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)(::Newtonsoft::Json::Schema::JsonSchemaNode*, int32_t, ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddItem)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x1817ed7e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddItem", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder.AddAdditionalProperties
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)(::Newtonsoft::Json::Schema::JsonSchemaNode*, ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddAdditionalProperties)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1817ed7a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddAdditionalProperties", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder.AddAdditionalItems
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)(::Newtonsoft::Json::Schema::JsonSchemaNode*, ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddAdditionalItems)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1817ed760;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddAdditionalItems", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder.BuildNodeModel
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaModel* (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)(::Newtonsoft::Json::Schema::JsonSchemaNode*)>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::BuildNodeModel)> {
+  constexpr static std::size_t size = 0x440;
+  constexpr static std::size_t addrs = 0x1817ee2c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"BuildNodeModel", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1817ee7b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaNodeCollection*& Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_get__nodes()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodes;
+}
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaNodeCollection* const& Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_get__nodes() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodes;
+}
+constexpr void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_set__nodes(::Newtonsoft::Json::Schema::JsonSchemaNodeCollection*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____nodes = value;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Schema::JsonSchemaNode*,::Newtonsoft::Json::Schema::JsonSchemaModel*>*& Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_get__nodeModels()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodeModels;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Schema::JsonSchemaNode*,::Newtonsoft::Json::Schema::JsonSchemaModel*>* const& Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_get__nodeModels() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodeModels;
+}
+constexpr void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_set__nodeModels(::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Schema::JsonSchemaNode*,::Newtonsoft::Json::Schema::JsonSchemaModel*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____nodeModels = value;
+}
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaNode*& Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_get__node()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____node;
+}
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaNode* const& Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_get__node() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____node;
+}
+constexpr void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::__cordl_internal_set__node(::Newtonsoft::Json::Schema::JsonSchemaNode*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____node = value;
+}
+inline ::Newtonsoft::Json::Schema::JsonSchemaModel* Newtonsoft::Json::Schema::JsonSchemaModelBuilder::Build(::Newtonsoft::Json::Schema::JsonSchema*  schema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"Build", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Schema::JsonSchemaModel*>(this, ___internal_method, schema);
+}
+inline ::Newtonsoft::Json::Schema::JsonSchemaNode* Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddSchema(::Newtonsoft::Json::Schema::JsonSchemaNode*  existingNode, ::Newtonsoft::Json::Schema::JsonSchema*  schema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddSchema", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Schema::JsonSchemaNode*>(this, ___internal_method, existingNode, schema);
+}
+inline void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddProperties(::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*  source, ::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*>*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddProperties", {}, {::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*>(), ::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source, target);
+}
+inline void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddProperty(::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*>*  target, ::StringW  propertyName, ::Newtonsoft::Json::Schema::JsonSchema*  schema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddProperty", {}, {::i2c::type_of<::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaNode*>*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, target, propertyName, schema);
+}
+inline void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddItem(::Newtonsoft::Json::Schema::JsonSchemaNode*  parentNode, int32_t  index, ::Newtonsoft::Json::Schema::JsonSchema*  schema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddItem", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentNode, index, schema);
+}
+inline void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddAdditionalProperties(::Newtonsoft::Json::Schema::JsonSchemaNode*  parentNode, ::Newtonsoft::Json::Schema::JsonSchema*  schema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddAdditionalProperties", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentNode, schema);
+}
+inline void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::AddAdditionalItems(::Newtonsoft::Json::Schema::JsonSchemaNode*  parentNode, ::Newtonsoft::Json::Schema::JsonSchema*  schema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"AddAdditionalItems", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>(), ::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchema*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentNode, schema);
+}
+inline ::Newtonsoft::Json::Schema::JsonSchemaModel* Newtonsoft::Json::Schema::JsonSchemaModelBuilder::BuildNodeModel(::Newtonsoft::Json::Schema::JsonSchemaNode*  node)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {"BuildNodeModel", {}, {::i2c::type_of<::Newtonsoft::Json::Schema::JsonSchemaNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Schema::JsonSchemaModel*>(this, ___internal_method, node);
+}
+inline void Newtonsoft::Json::Schema::JsonSchemaModelBuilder::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder* Newtonsoft::Json::Schema::JsonSchemaModelBuilder::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Schema::JsonSchemaModelBuilder*>());
+}
+// Ctor Parameters []
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder::JsonSchemaModelBuilder()   {
+}

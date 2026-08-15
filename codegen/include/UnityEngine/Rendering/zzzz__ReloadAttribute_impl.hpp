@@ -1,0 +1,93 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ReloadAttribute.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__ReloadAttribute_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ReloadAttribute_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::ReloadAttribute_Package::ReloadAttribute_Package(int32_t  value__) noexcept  {
+this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::ReloadAttribute_Package::ReloadAttribute_Package()   {
+}
+constexpr ::UnityEngine::Rendering::ReloadAttribute_Package  UnityEngine::Rendering::ReloadAttribute_Package::Builtin{static_cast<int32_t>(0x0)};
+constexpr ::UnityEngine::Rendering::ReloadAttribute_Package  UnityEngine::Rendering::ReloadAttribute_Package::Root{static_cast<int32_t>(0x1)};
+constexpr ::UnityEngine::Rendering::ReloadAttribute_Package  UnityEngine::Rendering::ReloadAttribute_Package::BuiltinExtra{static_cast<int32_t>(0x2)};
+//  Writing Method size for method: ::UnityEngine::Rendering::ReloadAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ReloadAttribute::*)(::ArrayW<::StringW>, ::UnityEngine::Rendering::ReloadAttribute_Package)>(&::UnityEngine::Rendering::ReloadAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ReloadAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::UnityEngine::Rendering::ReloadAttribute_Package>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ReloadAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ReloadAttribute::*)(::StringW, ::UnityEngine::Rendering::ReloadAttribute_Package)>(&::UnityEngine::Rendering::ReloadAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181ff25c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ReloadAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Rendering::ReloadAttribute_Package>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ReloadAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ReloadAttribute::*)(::StringW, int32_t, int32_t, ::UnityEngine::Rendering::ReloadAttribute_Package)>(&::UnityEngine::Rendering::ReloadAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ReloadAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::ReloadAttribute_Package>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::ReloadAttribute::_ctor(::ArrayW<::StringW>  paths, ::UnityEngine::Rendering::ReloadAttribute_Package  package)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ReloadAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::UnityEngine::Rendering::ReloadAttribute_Package>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, paths, package);
+}
+inline void UnityEngine::Rendering::ReloadAttribute::_ctor(::StringW  path, ::UnityEngine::Rendering::ReloadAttribute_Package  package)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ReloadAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Rendering::ReloadAttribute_Package>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, path, package);
+}
+inline void UnityEngine::Rendering::ReloadAttribute::_ctor(::StringW  pathFormat, int32_t  rangeMin, int32_t  rangeMax, ::UnityEngine::Rendering::ReloadAttribute_Package  package)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::ReloadAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::ReloadAttribute_Package>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pathFormat, rangeMin, rangeMax, package);
+}
+inline ::UnityEngine::Rendering::ReloadAttribute* UnityEngine::Rendering::ReloadAttribute::New_ctor(::ArrayW<::StringW>  paths, ::UnityEngine::Rendering::ReloadAttribute_Package  package)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::ReloadAttribute*>(paths, package));
+}
+inline ::UnityEngine::Rendering::ReloadAttribute* UnityEngine::Rendering::ReloadAttribute::New_ctor(::StringW  path, ::UnityEngine::Rendering::ReloadAttribute_Package  package)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::ReloadAttribute*>(path, package));
+}
+inline ::UnityEngine::Rendering::ReloadAttribute* UnityEngine::Rendering::ReloadAttribute::New_ctor(::StringW  pathFormat, int32_t  rangeMin, int32_t  rangeMax, ::UnityEngine::Rendering::ReloadAttribute_Package  package)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::ReloadAttribute*>(pathFormat, rangeMin, rangeMax, package));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::ReloadAttribute::ReloadAttribute()   {
+}

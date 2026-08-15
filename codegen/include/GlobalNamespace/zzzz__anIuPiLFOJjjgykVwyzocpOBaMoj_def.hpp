@@ -1,0 +1,49 @@
+#pragma once
+// IWYU pragma private; include "GlobalNamespace/anIuPiLFOJjjgykVwyzocpOBaMoj.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(anIuPiLFOJjjgykVwyzocpOBaMoj)
+namespace GlobalNamespace {
+class QNSRASSZTSCeeMZAwQGJHbVaMXRh;
+}
+namespace System {
+class IDisposable;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class anIuPiLFOJjjgykVwyzocpOBaMoj;
+}
+// Write type traits
+MARK_REF_T(::GlobalNamespace::anIuPiLFOJjjgykVwyzocpOBaMoj*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::anIuPiLFOJjjgykVwyzocpOBaMoj*, "", "anIuPiLFOJjjgykVwyzocpOBaMoj");
+// Dependencies 
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: anIuPiLFOJjjgykVwyzocpOBaMoj
+class CORDL_TYPE anIuPiLFOJjjgykVwyzocpOBaMoj {
+public:
+// Declarations
+/// @brief Convert operator to "::GlobalNamespace::QNSRASSZTSCeeMZAwQGJHbVaMXRh"
+constexpr operator  ::GlobalNamespace::QNSRASSZTSCeeMZAwQGJHbVaMXRh*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Convert to "::GlobalNamespace::QNSRASSZTSCeeMZAwQGJHbVaMXRh"
+constexpr ::GlobalNamespace::QNSRASSZTSCeeMZAwQGJHbVaMXRh* i___GlobalNamespace__QNSRASSZTSCeeMZAwQGJHbVaMXRh() noexcept;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+// Ctor Parameters [CppParam { name: "", ty: "anIuPiLFOJjjgykVwyzocpOBaMoj", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+anIuPiLFOJjjgykVwyzocpOBaMoj(anIuPiLFOJjjgykVwyzocpOBaMoj const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6221};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace

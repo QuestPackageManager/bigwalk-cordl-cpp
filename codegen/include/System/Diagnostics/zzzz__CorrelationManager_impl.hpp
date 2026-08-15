@@ -1,0 +1,77 @@
+#pragma once
+// IWYU pragma private; include "System/Diagnostics/CorrelationManager.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Diagnostics/zzzz__CorrelationManager_def.hpp"
+#include "System/Collections/zzzz__Stack_def.hpp"
+//  Writing Method size for method: ::System::Diagnostics::CorrelationManager._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::CorrelationManager::*)()>(&::System::Diagnostics::CorrelationManager::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::CorrelationManager*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::CorrelationManager.get_LogicalOperationStack
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Stack* (::System::Diagnostics::CorrelationManager::*)()>(&::System::Diagnostics::CorrelationManager::get_LogicalOperationStack)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181dd70b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::CorrelationManager*>(),
+                        {"get_LogicalOperationStack", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::CorrelationManager.GetLogicalOperationStack
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Stack* (::System::Diagnostics::CorrelationManager::*)()>(&::System::Diagnostics::CorrelationManager::GetLogicalOperationStack)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181dd70b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::CorrelationManager*>(),
+                        {"GetLogicalOperationStack", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Diagnostics::CorrelationManager::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::CorrelationManager*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Collections::Stack* System::Diagnostics::CorrelationManager::get_LogicalOperationStack()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::CorrelationManager*>(),
+                        {"get_LogicalOperationStack", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Stack*>(this, ___internal_method);
+}
+inline ::System::Collections::Stack* System::Diagnostics::CorrelationManager::GetLogicalOperationStack()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::CorrelationManager*>(),
+                        {"GetLogicalOperationStack", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Stack*>(this, ___internal_method);
+}
+inline ::System::Diagnostics::CorrelationManager* System::Diagnostics::CorrelationManager::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Diagnostics::CorrelationManager*>());
+}
+// Ctor Parameters []
+constexpr ::System::Diagnostics::CorrelationManager::CorrelationManager()   {
+}

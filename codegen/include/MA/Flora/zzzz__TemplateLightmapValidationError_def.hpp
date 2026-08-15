@@ -1,0 +1,78 @@
+#pragma once
+// IWYU pragma private; include "MA/Flora/TemplateLightmapValidationError.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(TemplateLightmapValidationError)
+// Forward declare root types
+namespace MA::Flora {
+struct TemplateLightmapValidationError;
+}
+// Write type traits
+MARK_VAL_T(::MA::Flora::TemplateLightmapValidationError);
+DEFINE_IL2CPP_CLASS(::MA::Flora::TemplateLightmapValidationError, "MA.Flora", "TemplateLightmapValidationError");
+// Dependencies 
+namespace MA::Flora {
+// Is value type: true
+// CS Name: MA.Flora.TemplateLightmapValidationError
+struct CORDL_TYPE TemplateLightmapValidationError {
+public:
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
+/// @brief Nested struct __TemplateLightmapValidationError_Unwrapped
+enum struct __TemplateLightmapValidationError_Unwrapped : uint8_t {
+__E_None = static_cast<uint8_t>(0x0u),
+__E_MixedStaticLightingModes = static_cast<uint8_t>(0x1u),
+__E_MixedLightmapIndices = static_cast<uint8_t>(0x2u),
+__E_MixedLightmapScaleOffsets = static_cast<uint8_t>(0x3u),
+};
+
+/// @brief Conversion into unwrapped enum value
+constexpr operator __TemplateLightmapValidationError_Unwrapped () const noexcept {
+return static_cast<__TemplateLightmapValidationError_Unwrapped>(this->value__);
+}
+
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator uint8_t () const noexcept {
+return static_cast<uint8_t>(this->value__);
+}
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr TemplateLightmapValidationError() ;
+
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+constexpr TemplateLightmapValidationError(uint8_t  value__) noexcept;
+
+/// @brief Field MixedLightmapIndices value: U8(2)
+static ::MA::Flora::TemplateLightmapValidationError const MixedLightmapIndices;
+
+/// @brief Field MixedLightmapScaleOffsets value: U8(3)
+static ::MA::Flora::TemplateLightmapValidationError const MixedLightmapScaleOffsets;
+
+/// @brief Field MixedStaticLightingModes value: U8(1)
+static ::MA::Flora::TemplateLightmapValidationError const MixedStaticLightingModes;
+
+/// @brief Field None value: U8(0)
+static ::MA::Flora::TemplateLightmapValidationError const None;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13081};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+
+/// @brief Field value__, offset: 0x1, size: 0x1, def value: None
+ uint8_t  value__;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::MA::Flora::TemplateLightmapValidationError, value__) == 0x1, "Offset mismatch!");
+
+static_assert(sizeof(::MA::Flora::TemplateLightmapValidationError) == 0x1, "Size mismatch!");
+
+} // namespace end def MA::Flora

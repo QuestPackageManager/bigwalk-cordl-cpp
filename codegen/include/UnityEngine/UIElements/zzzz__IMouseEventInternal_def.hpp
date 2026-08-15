@@ -1,0 +1,39 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IMouseEventInternal.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(IMouseEventInternal)
+namespace UnityEngine::UIElements {
+class IPointerEvent;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class IMouseEventInternal;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::IMouseEventInternal*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMouseEventInternal*, "UnityEngine.UIElements", "IMouseEventInternal");
+// Dependencies 
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.IMouseEventInternal
+class CORDL_TYPE IMouseEventInternal {
+public:
+// Declarations
+ __declspec(property(get=get_sourcePointerEvent)) ::UnityEngine::UIElements::IPointerEvent*  sourcePointerEvent;
+
+/// @brief Method get_sourcePointerEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::IPointerEvent* get_sourcePointerEvent() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "IMouseEventInternal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IMouseEventInternal(IMouseEventInternal const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3601};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::UIElements

@@ -1,0 +1,99 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIElementsRuntimeUtilityNative.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+CORDL_MODULE_EXPORT(UIElementsRuntimeUtilityNative)
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
+class Action;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class UIElementsRuntimeUtilityNative;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*, "UnityEngine.UIElements", "UIElementsRuntimeUtilityNative");
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.UIElementsRuntimeUtilityNative
+class CORDL_TYPE UIElementsRuntimeUtilityNative : public ::System::Object {
+public:
+// Declarations
+/// @brief Field RenderOffscreenPanelsCallback, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_RenderOffscreenPanelsCallback, put=setStaticF_RenderOffscreenPanelsCallback)) ::System::Action*  RenderOffscreenPanelsCallback;
+
+/// @brief Field RepaintPanelsCallback, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_RepaintPanelsCallback, put=setStaticF_RepaintPanelsCallback)) ::System::Action_1<bool>*  RepaintPanelsCallback;
+
+/// @brief Field UpdatePanelsCallback, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_UpdatePanelsCallback, put=setStaticF_UpdatePanelsCallback)) ::System::Action*  UpdatePanelsCallback;
+
+/// @brief Method RegisterRenderingCallbacks, addr 0x182510ac0, size 0x10, virtual false, abstract: false, final false
+static inline void RegisterRenderingCallbacks() ;
+
+/// @brief Method RenderOffscreenPanels, addr 0x182510ad0, size 0x30, virtual false, abstract: false, final false
+static inline void RenderOffscreenPanels() ;
+
+/// @brief Method RepaintPanels, addr 0x182510b00, size 0x30, virtual false, abstract: false, final false
+static inline void RepaintPanels(bool  onlyOffscreen) ;
+
+/// @brief Method SetRenderingCallbacks, addr 0x182510b30, size 0x70, virtual false, abstract: false, final false
+static inline void SetRenderingCallbacks(::System::Action_1<bool>*  repaintPanels, ::System::Action*  renderOffscreenPanels) ;
+
+/// @brief Method SetUpdateCallback, addr 0x182510ba0, size 0x30, virtual false, abstract: false, final false
+static inline void SetUpdateCallback(::System::Action*  callback) ;
+
+/// @brief Method UnregisterRenderingCallbacks, addr 0x182510bd0, size 0x10, virtual false, abstract: false, final false
+static inline void UnregisterRenderingCallbacks() ;
+
+/// @brief Method UnsetRenderingCallbacks, addr 0x182510be0, size 0x70, virtual false, abstract: false, final false
+static inline void UnsetRenderingCallbacks() ;
+
+/// @brief Method UpdatePanels, addr 0x182510c50, size 0x30, virtual false, abstract: false, final false
+static inline void UpdatePanels() ;
+
+/// @brief Method VisualElementCreation, addr 0x182510c80, size 0x10, virtual false, abstract: false, final false
+static inline void VisualElementCreation() ;
+
+static inline ::System::Action* getStaticF_RenderOffscreenPanelsCallback() ;
+
+static inline ::System::Action_1<bool>* getStaticF_RepaintPanelsCallback() ;
+
+static inline ::System::Action* getStaticF_UpdatePanelsCallback() ;
+
+static inline void setStaticF_RenderOffscreenPanelsCallback(::System::Action*  value) ;
+
+static inline void setStaticF_RepaintPanelsCallback(::System::Action_1<bool>*  value) ;
+
+static inline void setStaticF_UpdatePanelsCallback(::System::Action*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr UIElementsRuntimeUtilityNative() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3791};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

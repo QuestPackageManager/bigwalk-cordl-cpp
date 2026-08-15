@@ -1,0 +1,128 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TextUtilities.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
+CORDL_MODULE_EXPORT(TextUtilities)
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
+namespace UnityEngine::TextCore::Text {
+struct RenderedText;
+}
+namespace UnityEngine::TextCore::Text {
+class TextSettings;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextWrappingMode;
+}
+namespace UnityEngine::TextCore {
+struct TextOverflow;
+}
+namespace UnityEngine::UIElements::UIR {
+struct TextCoreSettings;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+struct OverflowInternal;
+}
+namespace UnityEngine::UIElements {
+class TextElement;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflow;
+}
+namespace UnityEngine::UIElements {
+struct VisualElement_MeasureMode;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct WhiteSpace;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class TextUtilities;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::TextUtilities*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TextUtilities*, "UnityEngine.UIElements", "TextUtilities");
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.TextUtilities
+class CORDL_TYPE TextUtilities : public ::System::Object {
+public:
+// Declarations
+/// @brief Method GetFontAsset, addr 0x1823fc080, size 0x1d0, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::VisualElement*  ve) ;
+
+/// @brief Method GetTextCoreSettingsForElement, addr 0x1823fc250, size 0x3c0, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::UIR::TextCoreSettings GetTextCoreSettingsForElement(::UnityEngine::UIElements::VisualElement*  ve, bool  ignoreColors) ;
+
+/// @brief Method GetTextSettingsFrom, addr 0x1823fc610, size 0x60, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::TextCore::Text::TextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::VisualElement*  ve) ;
+
+/// @brief Method IsAdvancedTextEnabledForElement, addr 0x1823fc670, size 0xc0, virtual false, abstract: false, final false
+static inline bool IsAdvancedTextEnabledForElement(::UnityEngine::UIElements::VisualElement*  ve) ;
+
+/// @brief Method IsAdvancedTextEnabledForPanel, addr 0x1823fc730, size 0x60, virtual false, abstract: false, final false
+static inline bool IsAdvancedTextEnabledForPanel(::UnityEngine::UIElements::IPanel*  panel) ;
+
+/// @brief Method IsFontAssigned, addr 0x1823fc790, size 0x80, virtual false, abstract: false, final false
+static inline bool IsFontAssigned(::UnityEngine::UIElements::VisualElement*  ve) ;
+
+/// @brief Method MeasureVisualElementTextSize, addr 0x1823fc960, size 0x150, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement*  te, ::StringW  textToMeasure, float_t  width, ::UnityEngine::UIElements::VisualElement_MeasureMode  widthMode, float_t  height, ::UnityEngine::UIElements::VisualElement_MeasureMode  heightMode, ::System::Nullable_1<float_t>  fontsize) ;
+
+/// @brief Method MeasureVisualElementTextSize, addr 0x1823fc810, size 0x150, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement*  te, ::by_ref<::UnityEngine::TextCore::Text::RenderedText>  textToMeasure, float_t  width, ::UnityEngine::UIElements::VisualElement_MeasureMode  widthMode, float_t  height, ::UnityEngine::UIElements::VisualElement_MeasureMode  heightMode, ::System::Nullable_1<float_t>  fontsize) ;
+
+/// @brief Method PostProcessMeasuredSize, addr 0x1823fcab0, size 0x150, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 PostProcessMeasuredSize(::UnityEngine::UIElements::TextElement*  te, ::UnityEngine::Vector2  measuredSize, float_t  width, ::UnityEngine::UIElements::VisualElement_MeasureMode  widthMode, float_t  height, ::UnityEngine::UIElements::VisualElement_MeasureMode  heightMode, float_t  pixelsPerPoint) ;
+
+/// @brief Method toTextCore, addr 0x1823fcc00, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::TextCore::TextOverflow toTextCore(::UnityEngine::UIElements::TextOverflow  textOverflow, ::UnityEngine::UIElements::OverflowInternal  overflow, ::UnityEngine::UIElements::TextOverflowPosition  position) ;
+
+/// @brief Method toTextWrappingMode, addr 0x1823fcc20, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEngine::TextCore::Text::TextWrappingMode toTextWrappingMode(::UnityEngine::UIElements::WhiteSpace  whiteSpace, bool  isSingleLineInputField) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextUtilities() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextUtilities(TextUtilities && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextUtilities(TextUtilities const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4304};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::TextUtilities) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

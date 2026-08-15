@@ -1,0 +1,66 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ReusableMultiColumnTreeViewItem.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__ReusableTreeViewItem_def.hpp"
+CORDL_MODULE_EXPORT(ReusableMultiColumnTreeViewItem)
+namespace UnityEngine::UIElements {
+class Columns;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class ReusableMultiColumnTreeViewItem;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem*, "UnityEngine.UIElements", "ReusableMultiColumnTreeViewItem");
+// Dependencies UnityEngine.UIElements.ReusableTreeViewItem
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.ReusableMultiColumnTreeViewItem
+class CORDL_TYPE ReusableMultiColumnTreeViewItem : public ::UnityEngine::UIElements::ReusableTreeViewItem {
+public:
+// Declarations
+ __declspec(property(get=get_rootElement)) ::UnityEngine::UIElements::VisualElement*  rootElement;
+
+/// @brief Method Init, addr 0x182398860, size 0x1b0, virtual false, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  container, ::UnityEngine::UIElements::Columns*  columns) ;
+
+/// @brief Method Init, addr 0x1802d9d80, size 0x10, virtual true, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  item) ;
+
+static inline ::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x182398a10, size 0x110, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_rootElement, addr 0x1802db4a0, size 0x10, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* get_rootElement() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReusableMultiColumnTreeViewItem() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnTreeViewItem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReusableMultiColumnTreeViewItem(ReusableMultiColumnTreeViewItem && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ReusableMultiColumnTreeViewItem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReusableMultiColumnTreeViewItem(ReusableMultiColumnTreeViewItem const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3216};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem) == 0xa8, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

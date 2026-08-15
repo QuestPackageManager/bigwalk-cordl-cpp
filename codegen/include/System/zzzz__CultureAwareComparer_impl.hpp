@@ -1,0 +1,254 @@
+#pragma once
+// IWYU pragma private; include "System/CultureAwareComparer.hpp"
+#include "System/Globalization/zzzz__CompareOptions_impl.hpp"
+#include "System/zzzz__StringComparer_impl.hpp"
+#include "System/zzzz__CultureAwareComparer_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::CultureAwareComparer._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CultureInfo*, ::System::Globalization::CompareOptions)>(&::System::CultureAwareComparer::_ctor)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181720d90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::CultureAwareComparer*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<::System::Globalization::CompareOptions>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::CultureAwareComparer._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CompareInfo*, ::System::Globalization::CompareOptions)>(&::System::CultureAwareComparer::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181720f70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::CultureAwareComparer*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Globalization::CompareInfo*>(), ::i2c::type_of<::System::Globalization::CompareOptions>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::CultureAwareComparer._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CultureAwareComparer::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::_ctor)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x181720e00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::CultureAwareComparer*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::CultureAwareComparer.Compare
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Compare)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181720bb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::CultureAwareComparer*>(),
+                    {::i2c::class_of<::System::CultureAwareComparer*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::CultureAwareComparer.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Equals)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181720c10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::CultureAwareComparer*>(),
+                    {::i2c::class_of<::System::CultureAwareComparer*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::CultureAwareComparer.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW)>(&::System::CultureAwareComparer::GetHashCode)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181720ce0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::CultureAwareComparer*>(),
+                    {::i2c::class_of<::System::CultureAwareComparer*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::CultureAwareComparer.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::CultureAwareComparer::*)(::System::Object*)>(&::System::CultureAwareComparer::Equals)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181720c60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::CultureAwareComparer*>(),
+                    {::i2c::class_of<::System::CultureAwareComparer*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::CultureAwareComparer.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::CultureAwareComparer::*)()>(&::System::CultureAwareComparer::GetHashCode)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181720cb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::CultureAwareComparer*>(),
+                    {::i2c::class_of<::System::CultureAwareComparer*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::CultureAwareComparer.GetObjectData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CultureAwareComparer::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::GetObjectData)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181720d10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::CultureAwareComparer*>(),
+                        {"GetObjectData", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Globalization::CompareInfo*& System::CultureAwareComparer::__cordl_internal_get__compareInfo()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____compareInfo;
+}
+constexpr ::System::Globalization::CompareInfo* const& System::CultureAwareComparer::__cordl_internal_get__compareInfo() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____compareInfo;
+}
+constexpr void System::CultureAwareComparer::__cordl_internal_set__compareInfo(::System::Globalization::CompareInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____compareInfo = value;
+}
+constexpr ::System::Globalization::CompareOptions& System::CultureAwareComparer::__cordl_internal_get__options()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____options;
+}
+constexpr ::System::Globalization::CompareOptions const& System::CultureAwareComparer::__cordl_internal_get__options() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____options;
+}
+constexpr void System::CultureAwareComparer::__cordl_internal_set__options(::System::Globalization::CompareOptions  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____options = value;
+}
+inline void System::CultureAwareComparer::_ctor(::System::Globalization::CultureInfo*  culture, ::System::Globalization::CompareOptions  options)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::CultureAwareComparer*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<::System::Globalization::CompareOptions>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, culture, options);
+}
+inline void System::CultureAwareComparer::_ctor(::System::Globalization::CompareInfo*  compareInfo, ::System::Globalization::CompareOptions  options)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::CultureAwareComparer*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Globalization::CompareInfo*>(), ::i2c::type_of<::System::Globalization::CompareOptions>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, compareInfo, options);
+}
+inline void System::CultureAwareComparer::_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::CultureAwareComparer*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
+}
+inline int32_t System::CultureAwareComparer::Compare(::StringW  x, ::StringW  y)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::CultureAwareComparer*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, x, y);
+}
+inline bool System::CultureAwareComparer::Equals(::StringW  x, ::StringW  y)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::CultureAwareComparer*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x, y);
+}
+inline int32_t System::CultureAwareComparer::GetHashCode(::StringW  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::CultureAwareComparer*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, obj);
+}
+inline bool System::CultureAwareComparer::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::CultureAwareComparer*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, obj);
+}
+inline int32_t System::CultureAwareComparer::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::CultureAwareComparer*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void System::CultureAwareComparer::GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::CultureAwareComparer*>(),
+                        {"GetObjectData", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
+}
+inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Globalization::CultureInfo*  culture, ::System::Globalization::CompareOptions  options)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::CultureAwareComparer*>(culture, options));
+}
+inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Globalization::CompareInfo*  compareInfo, ::System::Globalization::CompareOptions  options)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::CultureAwareComparer*>(compareInfo, options));
+}
+inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::CultureAwareComparer*>(info, context));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr  System::CultureAwareComparer::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::CultureAwareComparer::i___System__Runtime__Serialization__ISerializable() noexcept {
+return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::CultureAwareComparer::CultureAwareComparer()   {
+}

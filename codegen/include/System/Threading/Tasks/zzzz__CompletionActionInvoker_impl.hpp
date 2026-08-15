@@ -1,0 +1,112 @@
+#pragma once
+// IWYU pragma private; include "System/Threading/Tasks/CompletionActionInvoker.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Threading/Tasks/zzzz__CompletionActionInvoker_def.hpp"
+#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
+#include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+//  Writing Method size for method: ::System::Threading::Tasks::CompletionActionInvoker._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)(::System::Threading::Tasks::ITaskCompletionAction*, ::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::CompletionActionInvoker::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1803224a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Threading::Tasks::CompletionActionInvoker*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Threading::Tasks::ITaskCompletionAction*>(), ::i2c::type_of<::System::Threading::Tasks::Task*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Threading::Tasks::CompletionActionInvoker.System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)()>(&::System::Threading::Tasks::CompletionActionInvoker::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18176b6e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Threading::Tasks::CompletionActionInvoker*>(),
+                        {"System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Threading::Tasks::CompletionActionInvoker.MarkAborted
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)(::System::Threading::ThreadAbortException*)>(&::System::Threading::Tasks::CompletionActionInvoker::MarkAborted)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Threading::Tasks::CompletionActionInvoker*>(),
+                        {"MarkAborted", {}, {::i2c::type_of<::System::Threading::ThreadAbortException*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Threading::Tasks::ITaskCompletionAction*& System::Threading::Tasks::CompletionActionInvoker::__cordl_internal_get_m_action()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_action;
+}
+constexpr ::System::Threading::Tasks::ITaskCompletionAction* const& System::Threading::Tasks::CompletionActionInvoker::__cordl_internal_get_m_action() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_action;
+}
+constexpr void System::Threading::Tasks::CompletionActionInvoker::__cordl_internal_set_m_action(::System::Threading::Tasks::ITaskCompletionAction*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_action = value;
+}
+constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::CompletionActionInvoker::__cordl_internal_get_m_completingTask()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_completingTask;
+}
+constexpr ::System::Threading::Tasks::Task* const& System::Threading::Tasks::CompletionActionInvoker::__cordl_internal_get_m_completingTask() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_completingTask;
+}
+constexpr void System::Threading::Tasks::CompletionActionInvoker::__cordl_internal_set_m_completingTask(::System::Threading::Tasks::Task*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_completingTask = value;
+}
+inline void System::Threading::Tasks::CompletionActionInvoker::_ctor(::System::Threading::Tasks::ITaskCompletionAction*  action, ::System::Threading::Tasks::Task*  completingTask)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Threading::Tasks::CompletionActionInvoker*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Threading::Tasks::ITaskCompletionAction*>(), ::i2c::type_of<::System::Threading::Tasks::Task*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, action, completingTask);
+}
+inline void System::Threading::Tasks::CompletionActionInvoker::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Threading::Tasks::CompletionActionInvoker*>(),
+                        {"System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Threading::Tasks::CompletionActionInvoker::MarkAborted(::System::Threading::ThreadAbortException*  e)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Threading::Tasks::CompletionActionInvoker*>(),
+                        {"MarkAborted", {}, {::i2c::type_of<::System::Threading::ThreadAbortException*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
+}
+inline ::System::Threading::Tasks::CompletionActionInvoker* System::Threading::Tasks::CompletionActionInvoker::New_ctor(::System::Threading::Tasks::ITaskCompletionAction*  action, ::System::Threading::Tasks::Task*  completingTask)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Threading::Tasks::CompletionActionInvoker*>(action, completingTask));
+}
+/// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
+constexpr  System::Threading::Tasks::CompletionActionInvoker::operator ::System::Threading::IThreadPoolWorkItem*() noexcept {
+return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+constexpr ::System::Threading::IThreadPoolWorkItem* System::Threading::Tasks::CompletionActionInvoker::i___System__Threading__IThreadPoolWorkItem() noexcept {
+return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Threading::Tasks::CompletionActionInvoker::CompletionActionInvoker()   {
+}

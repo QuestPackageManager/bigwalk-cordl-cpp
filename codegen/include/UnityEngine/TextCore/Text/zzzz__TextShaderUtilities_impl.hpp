@@ -1,0 +1,564 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextShaderUtilities.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextShaderUtilities_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.get_ShaderRef_MobileSDF
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x182358e80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(),
+                        {"get_ShaderRef_MobileSDF", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.get_ShaderRef_MobileBitmap
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x182358dd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(),
+                        {"get_ShaderRef_MobileBitmap", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.get_ShaderRef_Sprite
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_Sprite)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x182358f10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(),
+                        {"get_ShaderRef_Sprite", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.GetShaderPropertyIDs
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs)> {
+  constexpr static std::size_t size = 0x7e0;
+  constexpr static std::size_t addrs = 0x182358290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(),
+                        {"GetShaderPropertyIDs", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_MainTex(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_MainTex", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_MainTex()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_MainTex", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_FaceTex(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_FaceTex", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_FaceTex()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_FaceTex", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_FaceColor(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_FaceColor", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_FaceColor()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_FaceColor", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_FaceDilate(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_FaceDilate", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_FaceDilate()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_FaceDilate", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Shininess(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_Shininess", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_Shininess()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_Shininess", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineOffset1(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset1", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineOffset1()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset1", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineOffset2(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset2", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineOffset2()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset2", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineOffset3(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset3", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineOffset3()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset3", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineMode(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_OutlineMode", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineMode()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_OutlineMode", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_IsoPerimeter(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_IsoPerimeter", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_IsoPerimeter()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_IsoPerimeter", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Softness(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_Softness", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_Softness()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_Softness", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayColor(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_UnderlayColor", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlayColor()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_UnderlayColor", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayOffsetX(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_UnderlayOffsetX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlayOffsetX()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_UnderlayOffsetX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayOffsetY(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_UnderlayOffsetY", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlayOffsetY()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_UnderlayOffsetY", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayDilate(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_UnderlayDilate", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlayDilate()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_UnderlayDilate", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlaySoftness(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_UnderlaySoftness", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlaySoftness()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_UnderlaySoftness", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayOffset(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_UnderlayOffset", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlayOffset()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_UnderlayOffset", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayIsoPerimeter(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_UnderlayIsoPerimeter", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlayIsoPerimeter()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_UnderlayIsoPerimeter", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_WeightNormal(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_WeightNormal", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_WeightNormal()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_WeightNormal", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_WeightBold(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_WeightBold", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_WeightBold()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_WeightBold", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineTex(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_OutlineTex", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineTex()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_OutlineTex", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineWidth(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_OutlineWidth", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineWidth()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_OutlineWidth", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineSoftness(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_OutlineSoftness", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineSoftness()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_OutlineSoftness", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineColor(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_OutlineColor", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineColor()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_OutlineColor", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Outline2Color(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_Outline2Color", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_Outline2Color()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_Outline2Color", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Outline2Width(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_Outline2Width", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_Outline2Width()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_Outline2Width", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Padding(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_Padding", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_Padding()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_Padding", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_GradientScale(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_GradientScale", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_GradientScale()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_GradientScale", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_ScaleX(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_ScaleX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_ScaleX()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_ScaleX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_ScaleY(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_ScaleY", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_ScaleY()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_ScaleY", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_PerspectiveFilter(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_PerspectiveFilter", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_PerspectiveFilter()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_PerspectiveFilter", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Sharpness(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_Sharpness", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_Sharpness()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_Sharpness", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_TextureWidth(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_TextureWidth", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_TextureWidth()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_TextureWidth", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_TextureHeight(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_TextureHeight", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_TextureHeight()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_TextureHeight", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_BevelAmount(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_BevelAmount", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_BevelAmount()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_BevelAmount", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_GlowColor(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_GlowColor", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_GlowColor()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_GlowColor", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_GlowOffset(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_GlowOffset", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_GlowOffset()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_GlowOffset", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_GlowPower(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_GlowPower", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_GlowPower()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_GlowPower", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_GlowOuter(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_GlowOuter", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_GlowOuter()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_GlowOuter", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_GlowInner(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_GlowInner", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_GlowInner()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_GlowInner", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_LightAngle(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_LightAngle", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_LightAngle()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_LightAngle", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_EnvMap(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_EnvMap", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_EnvMap()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_EnvMap", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_EnvMatrix(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_EnvMatrix", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_EnvMatrix()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_EnvMatrix", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_EnvMatrixRotation(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_EnvMatrixRotation", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_EnvMatrixRotation()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_EnvMatrixRotation", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_MaskCoord(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_MaskCoord", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_MaskCoord()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_MaskCoord", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_ClipRect(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_ClipRect", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_ClipRect()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_ClipRect", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_MaskSoftnessX(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_MaskSoftnessX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_MaskSoftnessX()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_MaskSoftnessX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_MaskSoftnessY(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_MaskSoftnessY", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_MaskSoftnessY()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_MaskSoftnessY", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_VertexOffsetX(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_VertexOffsetX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_VertexOffsetX()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_VertexOffsetX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_VertexOffsetY(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_VertexOffsetY", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_VertexOffsetY()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_VertexOffsetY", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UseClipRect(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_UseClipRect", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UseClipRect()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_UseClipRect", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_StencilID(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_StencilID", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_StencilID()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_StencilID", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_StencilOp(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_StencilOp", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_StencilOp()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_StencilOp", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_StencilComp(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_StencilComp", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_StencilComp()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_StencilComp", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_StencilReadMask(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_StencilReadMask", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_StencilReadMask()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_StencilReadMask", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_StencilWriteMask(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_StencilWriteMask", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_StencilWriteMask()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_StencilWriteMask", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_ShaderFlags(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_ShaderFlags", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_ShaderFlags()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_ShaderFlags", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_ScaleRatio_A(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_ScaleRatio_A", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_ScaleRatio_A()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_ScaleRatio_A", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_ScaleRatio_B(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_ScaleRatio_B", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_ScaleRatio_B()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_ScaleRatio_B", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_ScaleRatio_C(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "ID_ScaleRatio_C", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_ScaleRatio_C()  {
+return ::cordl_internals::getStaticField<int32_t, "ID_ScaleRatio_C", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_Keyword_Bevel(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "Keyword_Bevel", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_Keyword_Bevel()  {
+return ::cordl_internals::getStaticField<::StringW, "Keyword_Bevel", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_Keyword_Glow(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "Keyword_Glow", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_Keyword_Glow()  {
+return ::cordl_internals::getStaticField<::StringW, "Keyword_Glow", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_Keyword_Underlay(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "Keyword_Underlay", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_Keyword_Underlay()  {
+return ::cordl_internals::getStaticField<::StringW, "Keyword_Underlay", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_Keyword_Ratios(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "Keyword_Ratios", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_Keyword_Ratios()  {
+return ::cordl_internals::getStaticField<::StringW, "Keyword_Ratios", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_Keyword_MASK_SOFT(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "Keyword_MASK_SOFT", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_Keyword_MASK_SOFT()  {
+return ::cordl_internals::getStaticField<::StringW, "Keyword_MASK_SOFT", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_Keyword_MASK_HARD(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "Keyword_MASK_HARD", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_Keyword_MASK_HARD()  {
+return ::cordl_internals::getStaticField<::StringW, "Keyword_MASK_HARD", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_Keyword_MASK_TEX(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "Keyword_MASK_TEX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_Keyword_MASK_TEX()  {
+return ::cordl_internals::getStaticField<::StringW, "Keyword_MASK_TEX", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_Keyword_Outline(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "Keyword_Outline", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_Keyword_Outline()  {
+return ::cordl_internals::getStaticField<::StringW, "Keyword_Outline", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ShaderTag_ZTestMode(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "ShaderTag_ZTestMode", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ShaderTag_ZTestMode()  {
+return ::cordl_internals::getStaticField<::StringW, "ShaderTag_ZTestMode", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ShaderTag_CullMode(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "ShaderTag_CullMode", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ShaderTag_CullMode()  {
+return ::cordl_internals::getStaticField<::StringW, "ShaderTag_CullMode", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_m_clamp(float_t  value)  {
+::cordl_internals::setStaticField<float_t, "m_clamp", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<float_t>(value));
+}
+inline float_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_m_clamp()  {
+return ::cordl_internals::getStaticField<float_t, "m_clamp", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_isInitialized(bool  value)  {
+::cordl_internals::setStaticField<bool, "isInitialized", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<bool>(value));
+}
+inline bool UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_isInitialized()  {
+return ::cordl_internals::getStaticField<bool, "isInitialized", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_SDFText(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "k_SDFText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_SDFText()  {
+return ::cordl_internals::getStaticField<::StringW, "k_SDFText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_BitmapText(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "k_BitmapText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_BitmapText()  {
+return ::cordl_internals::getStaticField<::StringW, "k_BitmapText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_SpriteText(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "k_SpriteText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_SpriteText()  {
+return ::cordl_internals::getStaticField<::StringW, "k_SpriteText", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_MobileSDF(::UnityW<::UnityEngine::Shader>  value)  {
+::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::UnityW<::UnityEngine::Shader>>(value));
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_ShaderRef_MobileSDF()  {
+return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_MobileBitmap(::UnityW<::UnityEngine::Shader>  value)  {
+::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileBitmap", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::UnityW<::UnityEngine::Shader>>(value));
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_ShaderRef_MobileBitmap()  {
+return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileBitmap", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_Sprite(::UnityW<::UnityEngine::Shader>  value)  {
+::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_Sprite", ::UnityEngine::TextCore::Text::TextShaderUtilities*>(std::forward<::UnityW<::UnityEngine::Shader>>(value));
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_ShaderRef_Sprite()  {
+return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_Sprite", ::UnityEngine::TextCore::Text::TextShaderUtilities*>();
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(),
+                        {"get_ShaderRef_MobileSDF", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(nullptr, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(),
+                        {"get_ShaderRef_MobileBitmap", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(nullptr, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_Sprite()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(),
+                        {"get_ShaderRef_Sprite", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(nullptr, ___internal_method);
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::Text::TextShaderUtilities*>(),
+                        {"GetShaderPropertyIDs", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::TextCore::Text::TextShaderUtilities::TextShaderUtilities()   {
+}

@@ -1,0 +1,74 @@
+#pragma once
+// IWYU pragma private; include "Mono/RuntimeMarshal.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(RuntimeMarshal)
+namespace Mono {
+struct MonoAssemblyName;
+}
+namespace Mono {
+struct SafeStringMarshal;
+}
+namespace System {
+struct IntPtr;
+}
+// Forward declare root types
+namespace Mono {
+class RuntimeMarshal;
+}
+// Write type traits
+MARK_REF_T(::Mono::RuntimeMarshal*);
+DEFINE_IL2CPP_CLASS(::Mono::RuntimeMarshal*, "Mono", "RuntimeMarshal");
+// Dependencies System.Object
+namespace Mono {
+// Is value type: false
+// CS Name: Mono.RuntimeMarshal
+class CORDL_TYPE RuntimeMarshal : public ::System::Object {
+public:
+// Declarations
+/// @brief Method AsciHexDigitValue, addr 0x1815c90f0, size 0x30, virtual false, abstract: false, final false
+static inline int32_t AsciHexDigitValue(int32_t  c) ;
+
+/// @brief Method DecodeBlobArray, addr 0x1815c9120, size 0xa0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t> DecodeBlobArray(::System::IntPtr  ptr) ;
+
+/// @brief Method DecodeBlobSize, addr 0x1815c91c0, size 0x60, virtual false, abstract: false, final false
+static inline int32_t DecodeBlobSize(::System::IntPtr  in_ptr, ::by_ref<::System::IntPtr>  out_ptr) ;
+
+/// @brief Method FreeAssemblyName, addr 0x1815c9220, size 0x10, virtual false, abstract: false, final false
+static inline void FreeAssemblyName(::by_ref<::Mono::MonoAssemblyName>  name, bool  freeStruct) ;
+
+/// @brief Method MarshalString, addr 0x1815c9230, size 0x30, virtual false, abstract: false, final false
+static inline ::Mono::SafeStringMarshal MarshalString(::StringW  str) ;
+
+/// @brief Method PtrToUtf8String, addr 0x1815c9260, size 0xe0, virtual false, abstract: false, final false
+static inline ::StringW PtrToUtf8String(::System::IntPtr  ptr) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeMarshal() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeMarshal", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RuntimeMarshal(RuntimeMarshal && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeMarshal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RuntimeMarshal(RuntimeMarshal const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{53};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::Mono::RuntimeMarshal) == 0x10, "Size mismatch!");
+
+} // namespace end def Mono

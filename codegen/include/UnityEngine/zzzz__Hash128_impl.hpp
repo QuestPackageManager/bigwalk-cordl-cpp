@@ -1,0 +1,527 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Hash128.hpp"
+#include "UnityEngine/zzzz__Hash128_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Hash128._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Hash128::*)(uint64_t, uint64_t)>(&::UnityEngine::Hash128::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1805dd0c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {".ctor", {}, {::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.CompareTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Hash128::*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::CompareTo)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x182264970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"CompareTo", {}, {::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Hash128::*)()>(&::UnityEngine::Hash128::ToString)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x182265000;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Hash128>(),
+                    {::i2c::class_of<::UnityEngine::Hash128>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Parse
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Hash128 (*)(::StringW)>(&::UnityEngine::Hash128::Parse)> {
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x182264c10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Parse", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Hash128ToStringImpl
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::Hash128ToStringImpl)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x182264b70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Hash128ToStringImpl", {}, {::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.ComputeFromPtr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t, int32_t, ::by_ref<::UnityEngine::Hash128>)>(&::UnityEngine::Hash128::ComputeFromPtr)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182264a10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"ComputeFromPtr", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Compute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Hash128 (*)(int32_t)>(&::UnityEngine::Hash128::Compute)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182264a20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Compute", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Append
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Hash128::*)(int32_t)>(&::UnityEngine::Hash128::Append)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182264860;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Append", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Hash128::*)(::System::Object*)>(&::UnityEngine::Hash128::Equals)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x182264a40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Hash128>(),
+                    {::i2c::class_of<::UnityEngine::Hash128>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Hash128::*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::Equals)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182264ad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Equals", {}, {::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Hash128::*)()>(&::UnityEngine::Hash128::GetHashCode)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x182264b20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Hash128>(),
+                    {::i2c::class_of<::UnityEngine::Hash128>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.CompareTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Hash128::*)(::System::Object*)>(&::UnityEngine::Hash128::CompareTo)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x182264880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"CompareTo", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.op_Equality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_Equality)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182265030;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"op_Equality", {}, {::i2c::type_of<::UnityEngine::Hash128>(), ::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.op_Inequality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_Inequality)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181957e40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"op_Inequality", {}, {::i2c::type_of<::UnityEngine::Hash128>(), ::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.op_LessThan
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_LessThan)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1822650a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"op_LessThan", {}, {::i2c::type_of<::UnityEngine::Hash128>(), ::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.op_GreaterThan
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_GreaterThan)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182265050;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"op_GreaterThan", {}, {::i2c::type_of<::UnityEngine::Hash128>(), ::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.ShortHash4
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Hash128::*)(uint32_t)>(&::UnityEngine::Hash128::ShortHash4)> {
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x182264ec0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"ShortHash4", {}, {::i2c::type_of<uint32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.ShortEnd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(&::UnityEngine::Hash128::ShortEnd)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x182264d70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"ShortEnd", {}, {::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Rot64
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, int32_t)>(&::UnityEngine::Hash128::Rot64)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182264d50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Rot64", {}, {::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Parse_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128>)>(&::UnityEngine::Hash128::Parse_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182264c00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Parse_Injected", {}, {::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Hash128ToStringImpl_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Hash128>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Hash128::Hash128ToStringImpl_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182264b60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Hash128ToStringImpl_Injected", {}, {::i2c::type_of<::by_ref<::UnityEngine::Hash128>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Hash128::_ctor(uint64_t  u64_0, uint64_t  u64_1)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {".ctor", {}, {::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, u64_0, u64_1);
+}
+inline int32_t UnityEngine::Hash128::CompareTo(::UnityEngine::Hash128  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"CompareTo", {}, {::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, rhs);
+}
+inline ::StringW UnityEngine::Hash128::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Hash128>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline ::UnityEngine::Hash128 UnityEngine::Hash128::Parse(::StringW  hashString)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Parse", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Hash128>(nullptr, ___internal_method, hashString);
+}
+inline ::StringW UnityEngine::Hash128::Hash128ToStringImpl(::UnityEngine::Hash128  hash)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Hash128ToStringImpl", {}, {::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, hash);
+}
+inline void UnityEngine::Hash128::ComputeFromPtr(::System::IntPtr  data, int32_t  start, int32_t  count, int32_t  elemSize, ::by_ref<::UnityEngine::Hash128>  hash)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"ComputeFromPtr", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, start, count, elemSize, hash);
+}
+template<typename T>
+inline ::UnityEngine::Hash128 UnityEngine::Hash128::Compute(::by_ref<T>  val)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Hash128>(),
+                    {"Compute", {::i2c::class_of<T>()}, {::i2c::type_of<::by_ref<T>>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<T>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Hash128>(nullptr, ___internal_method, val);
+}
+inline ::UnityEngine::Hash128 UnityEngine::Hash128::Compute(int32_t  val)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Compute", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Hash128>(nullptr, ___internal_method, val);
+}
+template<typename T>
+inline void UnityEngine::Hash128::Append(::by_ref<T>  val)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Hash128>(),
+                    {"Append", {::i2c::class_of<T>()}, {::i2c::type_of<::by_ref<T>>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<T>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, val);
+}
+inline void UnityEngine::Hash128::Append(int32_t  val)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Append", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, val);
+}
+inline bool UnityEngine::Hash128::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Hash128>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline bool UnityEngine::Hash128::Equals(::UnityEngine::Hash128  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Equals", {}, {::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline int32_t UnityEngine::Hash128::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Hash128>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline int32_t UnityEngine::Hash128::CompareTo(::System::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"CompareTo", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, obj);
+}
+inline bool UnityEngine::Hash128::op_Equality(::UnityEngine::Hash128  hash1, ::UnityEngine::Hash128  hash2)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"op_Equality", {}, {::i2c::type_of<::UnityEngine::Hash128>(), ::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, hash1, hash2);
+}
+inline bool UnityEngine::Hash128::op_Inequality(::UnityEngine::Hash128  hash1, ::UnityEngine::Hash128  hash2)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"op_Inequality", {}, {::i2c::type_of<::UnityEngine::Hash128>(), ::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, hash1, hash2);
+}
+inline bool UnityEngine::Hash128::op_LessThan(::UnityEngine::Hash128  x, ::UnityEngine::Hash128  y)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"op_LessThan", {}, {::i2c::type_of<::UnityEngine::Hash128>(), ::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, x, y);
+}
+inline bool UnityEngine::Hash128::op_GreaterThan(::UnityEngine::Hash128  x, ::UnityEngine::Hash128  y)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"op_GreaterThan", {}, {::i2c::type_of<::UnityEngine::Hash128>(), ::i2c::type_of<::UnityEngine::Hash128>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, x, y);
+}
+inline void UnityEngine::Hash128::ShortHash4(uint32_t  data)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"ShortHash4", {}, {::i2c::type_of<uint32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, data);
+}
+inline void UnityEngine::Hash128::ShortEnd(::by_ref<uint64_t>  h0, ::by_ref<uint64_t>  h1, ::by_ref<uint64_t>  h2, ::by_ref<uint64_t>  h3)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"ShortEnd", {}, {::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, h0, h1, h2, h3);
+}
+inline void UnityEngine::Hash128::Rot64(::by_ref<uint64_t>  x, int32_t  k)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Rot64", {}, {::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, x, k);
+}
+inline void UnityEngine::Hash128::Parse_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  hashString, ::by_ref<::UnityEngine::Hash128>  ret)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Parse_Injected", {}, {::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, hashString, ret);
+}
+inline void UnityEngine::Hash128::Hash128ToStringImpl_Injected(::by_ref<::UnityEngine::Hash128>  hash, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  ret)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Hash128>(),
+                        {"Hash128ToStringImpl_Injected", {}, {::i2c::type_of<::by_ref<::UnityEngine::Hash128>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, hash, ret);
+}
+/// @brief Convert operator to "::System::IComparable"
+constexpr  UnityEngine::Hash128::operator ::System::IComparable*()  {
+return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IComparable"
+constexpr ::System::IComparable* UnityEngine::Hash128::i___System__IComparable()  {
+return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IComparable_1<::UnityEngine::Hash128>"
+constexpr  UnityEngine::Hash128::operator ::System::IComparable_1<::UnityEngine::Hash128>*()  {
+return static_cast<::System::IComparable_1<::UnityEngine::Hash128>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IComparable_1<::UnityEngine::Hash128>"
+constexpr ::System::IComparable_1<::UnityEngine::Hash128>* UnityEngine::Hash128::i___System__IComparable_1___UnityEngine__Hash128_()  {
+return static_cast<::System::IComparable_1<::UnityEngine::Hash128>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Hash128>"
+constexpr  UnityEngine::Hash128::operator ::System::IEquatable_1<::UnityEngine::Hash128>*()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::Hash128>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Hash128>"
+constexpr ::System::IEquatable_1<::UnityEngine::Hash128>* UnityEngine::Hash128::i___System__IEquatable_1___UnityEngine__Hash128_()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::Hash128>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "u64_0", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "u64_1", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Hash128::Hash128(uint64_t  u64_0, uint64_t  u64_1) noexcept  {
+this->u64_0 = u64_0;
+this->u64_1 = u64_1;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Hash128::Hash128()   {
+}

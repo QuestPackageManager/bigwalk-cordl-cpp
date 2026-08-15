@@ -1,0 +1,70 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Android/AndroidScreenLayoutDirection.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(AndroidScreenLayoutDirection)
+// Forward declare root types
+namespace UnityEngine::Android {
+struct AndroidScreenLayoutDirection;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::Android::AndroidScreenLayoutDirection);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Android::AndroidScreenLayoutDirection, "UnityEngine.Android", "AndroidScreenLayoutDirection");
+// Dependencies 
+namespace UnityEngine::Android {
+// Is value type: true
+// CS Name: UnityEngine.Android.AndroidScreenLayoutDirection
+struct CORDL_TYPE AndroidScreenLayoutDirection {
+public:
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+/// @brief Nested struct __AndroidScreenLayoutDirection_Unwrapped
+enum struct __AndroidScreenLayoutDirection_Unwrapped : int32_t {
+__E_LTR = static_cast<int32_t>(0x40),
+__E_RTL = static_cast<int32_t>(0x80),
+};
+
+/// @brief Conversion into unwrapped enum value
+constexpr operator __AndroidScreenLayoutDirection_Unwrapped () const noexcept {
+return static_cast<__AndroidScreenLayoutDirection_Unwrapped>(this->value__);
+}
+
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr AndroidScreenLayoutDirection() ;
+
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr AndroidScreenLayoutDirection(int32_t  value__) noexcept;
+
+/// @brief Field LTR value: I32(64)
+static ::UnityEngine::Android::AndroidScreenLayoutDirection const LTR;
+
+/// @brief Field RTL value: I32(128)
+static ::UnityEngine::Android::AndroidScreenLayoutDirection const RTL;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20065};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+
+/// @brief Field value__, offset: 0x4, size: 0x4, def value: None
+ int32_t  value__;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Android::AndroidScreenLayoutDirection, value__) == 0x4, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Android::AndroidScreenLayoutDirection) == 0x4, "Size mismatch!");
+
+} // namespace end def UnityEngine::Android

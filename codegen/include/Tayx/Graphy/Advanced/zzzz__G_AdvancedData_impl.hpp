@@ -1,0 +1,487 @@
+#pragma once
+// IWYU pragma private; include "Tayx/Graphy/Advanced/G_AdvancedData.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_impl.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "UnityEngine/zzzz__Vector2_impl.hpp"
+#include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.Awake
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::Awake)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181e4b2c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"Awake", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.Update
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::Update)> {
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x181e4c670;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"Update", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.SetPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)(::Tayx::Graphy::GraphyManager_ModulePosition, ::UnityEngine::Vector2)>(&::Tayx::Graphy::Advanced::G_AdvancedData::SetPosition)> {
+  constexpr static std::size_t size = 0x480;
+  constexpr static std::size_t addrs = 0x181e4bfc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"SetPosition", {}, {::i2c::type_of<::Tayx::Graphy::GraphyManager_ModulePosition>(), ::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.SetState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)(::Tayx::Graphy::GraphyManager_ModuleState, bool)>(&::Tayx::Graphy::Advanced::G_AdvancedData::SetState)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181e4c440;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"SetState", {}, {::i2c::type_of<::Tayx::Graphy::GraphyManager_ModuleState>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.RestorePreviousState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::RestorePreviousState)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181e4bf20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"RestorePreviousState", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.UpdateParameters
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::UpdateParameters)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181e4c4e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"UpdateParameters", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.RefreshParameters
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::RefreshParameters)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x181e4bdb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"RefreshParameters", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.Init
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::Init)> {
+  constexpr static std::size_t size = 0xae0;
+  constexpr static std::size_t addrs = 0x181e4b2d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"Init", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::_ctor)> {
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x181e4cb10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_backgroundImages()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_backgroundImages;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_backgroundImages() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_backgroundImages;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_backgroundImages = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_graphicsDeviceVersionText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_graphicsDeviceVersionText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_graphicsDeviceVersionText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_graphicsDeviceVersionText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_graphicsDeviceVersionText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_graphicsDeviceVersionText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_processorTypeText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_processorTypeText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_processorTypeText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_processorTypeText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_processorTypeText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_processorTypeText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_operatingSystemText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_operatingSystemText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_operatingSystemText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_operatingSystemText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_operatingSystemText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_operatingSystemText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_systemMemoryText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_systemMemoryText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_systemMemoryText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_systemMemoryText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_systemMemoryText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_systemMemoryText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_graphicsDeviceNameText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_graphicsDeviceNameText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_graphicsDeviceNameText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_graphicsDeviceNameText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_graphicsDeviceNameText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_graphicsDeviceNameText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_graphicsMemorySizeText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_graphicsMemorySizeText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_graphicsMemorySizeText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_graphicsMemorySizeText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_graphicsMemorySizeText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_graphicsMemorySizeText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_screenResolutionText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_screenResolutionText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_screenResolutionText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_screenResolutionText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_screenResolutionText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_screenResolutionText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_gameWindowResolutionText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_gameWindowResolutionText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_gameWindowResolutionText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_gameWindowResolutionText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_gameWindowResolutionText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_gameWindowResolutionText = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_gameVRResolutionText()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_gameVRResolutionText;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_gameVRResolutionText() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_gameVRResolutionText;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_gameVRResolutionText(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_gameVRResolutionText = value;
+}
+constexpr ::System::Collections::Generic::List_1<Il2CppObject*>*& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_displaySubsystems()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_displaySubsystems;
+}
+constexpr ::System::Collections::Generic::List_1<Il2CppObject*>* const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_displaySubsystems() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_displaySubsystems;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_displaySubsystems(::System::Collections::Generic::List_1<Il2CppObject*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_displaySubsystems = value;
+}
+constexpr float_t& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_updateRate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_updateRate;
+}
+constexpr float_t const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_updateRate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_updateRate;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_updateRate(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_updateRate = value;
+}
+constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_graphyManager()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_graphyManager;
+}
+constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_graphyManager() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_graphyManager;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_graphyManager = value;
+}
+constexpr ::UnityW<::UnityEngine::RectTransform>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_rectTransform()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_rectTransform;
+}
+constexpr ::UnityW<::UnityEngine::RectTransform> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_rectTransform() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_rectTransform;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_rectTransform = value;
+}
+constexpr ::UnityEngine::Vector2& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_origPosition()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_origPosition;
+}
+constexpr ::UnityEngine::Vector2 const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_origPosition() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_origPosition;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_origPosition(::UnityEngine::Vector2  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_origPosition = value;
+}
+constexpr float_t& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_deltaTime()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_deltaTime;
+}
+constexpr float_t const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_deltaTime() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_deltaTime;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_deltaTime(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_deltaTime = value;
+}
+constexpr ::System::Text::StringBuilder*& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_sb()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_sb;
+}
+constexpr ::System::Text::StringBuilder* const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_sb() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_sb;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_sb(::System::Text::StringBuilder*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_sb = value;
+}
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_previousModuleState()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_previousModuleState;
+}
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_previousModuleState() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_previousModuleState;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_previousModuleState(::Tayx::Graphy::GraphyManager_ModuleState  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_previousModuleState = value;
+}
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_currentModuleState()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_currentModuleState;
+}
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_currentModuleState() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_currentModuleState;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_currentModuleState(::Tayx::Graphy::GraphyManager_ModuleState  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_currentModuleState = value;
+}
+constexpr ::ArrayW<::StringW>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_windowStrings()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_windowStrings;
+}
+constexpr ::ArrayW<::StringW> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_windowStrings() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_windowStrings;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_windowStrings(::ArrayW<::StringW>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_windowStrings = value;
+}
+constexpr ::ArrayW<::StringW>& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_vrStrings()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_vrStrings;
+}
+constexpr ::ArrayW<::StringW> const& Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_get_m_vrStrings() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_vrStrings;
+}
+constexpr void Tayx::Graphy::Advanced::G_AdvancedData::__cordl_internal_set_m_vrStrings(::ArrayW<::StringW>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_vrStrings = value;
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::Awake()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"Awake", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::Update()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"Update", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition  newModulePosition, ::UnityEngine::Vector2  offset)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"SetPosition", {}, {::i2c::type_of<::Tayx::Graphy::GraphyManager_ModulePosition>(), ::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newModulePosition, offset);
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::SetState(::Tayx::Graphy::GraphyManager_ModuleState  state, bool  silentUpdate)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"SetState", {}, {::i2c::type_of<::Tayx::Graphy::GraphyManager_ModuleState>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, state, silentUpdate);
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::RestorePreviousState()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"RestorePreviousState", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::UpdateParameters()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"UpdateParameters", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::RefreshParameters()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"RefreshParameters", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::Init()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {"Init", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Tayx::Graphy::Advanced::G_AdvancedData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Tayx::Graphy::Advanced::G_AdvancedData* Tayx::Graphy::Advanced::G_AdvancedData::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Tayx::Graphy::Advanced::G_AdvancedData*>());
+}
+/// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
+constexpr  Tayx::Graphy::Advanced::G_AdvancedData::operator ::Tayx::Graphy::UI::IMovable*() noexcept {
+return static_cast<::Tayx::Graphy::UI::IMovable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+constexpr ::Tayx::Graphy::UI::IMovable* Tayx::Graphy::Advanced::G_AdvancedData::i___Tayx__Graphy__UI__IMovable() noexcept {
+return static_cast<::Tayx::Graphy::UI::IMovable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
+constexpr  Tayx::Graphy::Advanced::G_AdvancedData::operator ::Tayx::Graphy::UI::IModifiableState*() noexcept {
+return static_cast<::Tayx::Graphy::UI::IModifiableState*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+constexpr ::Tayx::Graphy::UI::IModifiableState* Tayx::Graphy::Advanced::G_AdvancedData::i___Tayx__Graphy__UI__IModifiableState() noexcept {
+return static_cast<::Tayx::Graphy::UI::IModifiableState*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::Tayx::Graphy::Advanced::G_AdvancedData::G_AdvancedData()   {
+}

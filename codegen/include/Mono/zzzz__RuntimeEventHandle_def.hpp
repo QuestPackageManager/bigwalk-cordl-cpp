@@ -1,0 +1,67 @@
+#pragma once
+// IWYU pragma private; include "Mono/RuntimeEventHandle.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__IntPtr_def.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(RuntimeEventHandle)
+namespace System {
+struct IntPtr;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace Mono {
+struct RuntimeEventHandle;
+}
+// Write type traits
+MARK_VAL_T(::Mono::RuntimeEventHandle);
+DEFINE_IL2CPP_CLASS(::Mono::RuntimeEventHandle, "Mono", "RuntimeEventHandle");
+// Dependencies System.IntPtr
+namespace Mono {
+// Is value type: true
+// CS Name: Mono.RuntimeEventHandle
+struct CORDL_TYPE RuntimeEventHandle {
+public:
+// Declarations
+ __declspec(property(get=get_Value)) ::System::IntPtr  Value;
+
+/// @brief Method Equals, addr 0x1815c8e80, size 0xc0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method GetHashCode, addr 0x1805a8300, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
+
+/// @brief Method .ctor, addr 0x1804bd910, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  v) ;
+
+/// @brief Method get_Value, addr 0x1803a88d0, size 0x10, virtual false, abstract: false, final false
+inline ::System::IntPtr get_Value() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeEventHandle() ;
+
+// Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+constexpr RuntimeEventHandle(::System::IntPtr  value) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{50};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+
+/// @brief Field value, offset: 0x0, size: 0x8, def value: None
+ ::System::IntPtr  value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::Mono::RuntimeEventHandle, value) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::Mono::RuntimeEventHandle) == 0x8, "Size mismatch!");
+
+} // namespace end def Mono

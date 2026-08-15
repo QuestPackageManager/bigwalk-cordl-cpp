@@ -1,0 +1,94 @@
+#pragma once
+// IWYU pragma private; include "TMPro/TMP_SpriteCharacter.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "TMPro/zzzz__TMP_TextElement_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(TMP_SpriteCharacter)
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_SpriteGlyph;
+}
+// Forward declare root types
+namespace TMPro {
+class TMP_SpriteCharacter;
+}
+// Write type traits
+MARK_REF_T(::TMPro::TMP_SpriteCharacter*);
+DEFINE_IL2CPP_CLASS(::TMPro::TMP_SpriteCharacter*, "TMPro", "TMP_SpriteCharacter");
+// Dependencies TMPro.TMP_TextElement
+namespace TMPro {
+// Is value type: false
+// CS Name: TMPro.TMP_SpriteCharacter
+class CORDL_TYPE TMP_SpriteCharacter : public ::TMPro::TMP_TextElement {
+public:
+// Declarations
+/// @brief Field m_Name, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Name, put=__cordl_internal_set_m_Name)) ::StringW  m_Name;
+
+ __declspec(property(get=get_name, put=set_name)) ::StringW  name;
+
+static inline ::TMPro::TMP_SpriteCharacter* New_ctor() ;
+
+static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t  unicode, ::TMPro::TMP_SpriteGlyph*  glyph) ;
+
+static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t  unicode, uint32_t  glyphIndex) ;
+
+static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t  unicode, ::TMPro::TMP_SpriteAsset*  spriteAsset, ::TMPro::TMP_SpriteGlyph*  glyph) ;
+
+constexpr ::StringW const& __cordl_internal_get_m_Name() const;
+
+constexpr ::StringW& __cordl_internal_get_m_Name() ;
+
+constexpr void __cordl_internal_set_m_Name(::StringW  value) ;
+
+/// @brief Method .ctor, addr 0x1821d0f10, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method .ctor, addr 0x1821d0ec0, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(uint32_t  unicode, ::TMPro::TMP_SpriteGlyph*  glyph) ;
+
+/// @brief Method .ctor, addr 0x1821d0e60, size 0x60, virtual false, abstract: false, final false
+inline void _ctor(uint32_t  unicode, uint32_t  glyphIndex) ;
+
+/// @brief Method .ctor, addr 0x1821d0f20, size 0x60, virtual false, abstract: false, final false
+inline void _ctor(uint32_t  unicode, ::TMPro::TMP_SpriteAsset*  spriteAsset, ::TMPro::TMP_SpriteGlyph*  glyph) ;
+
+/// @brief Method get_name, addr 0x1802d97f0, size 0x10, virtual false, abstract: false, final false
+inline ::StringW get_name() ;
+
+/// @brief Method set_name, addr 0x1802d9830, size 0x10, virtual false, abstract: false, final false
+inline void set_name(::StringW  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_SpriteCharacter() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteCharacter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TMP_SpriteCharacter(TMP_SpriteCharacter && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteCharacter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TMP_SpriteCharacter(TMP_SpriteCharacter const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15237};
+
+/// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___m_Name;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::TMPro::TMP_SpriteCharacter, ___m_Name) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::TMPro::TMP_SpriteCharacter) == 0x38, "Size mismatch!");
+
+} // namespace end def TMPro

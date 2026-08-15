@@ -1,0 +1,144 @@
+#pragma once
+// IWYU pragma private; include "System/Security/Cryptography/ICryptoTransform.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+//  Writing Method size for method: ::System::Security::Cryptography::ICryptoTransform.get_InputBlockSize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::ICryptoTransform::*)()>(&::System::Security::Cryptography::ICryptoTransform::get_InputBlockSize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::ICryptoTransform.get_OutputBlockSize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::ICryptoTransform::*)()>(&::System::Security::Cryptography::ICryptoTransform::get_OutputBlockSize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::ICryptoTransform.get_CanTransformMultipleBlocks
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::ICryptoTransform::*)()>(&::System::Security::Cryptography::ICryptoTransform::get_CanTransformMultipleBlocks)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::ICryptoTransform.get_CanReuseTransform
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::ICryptoTransform::*)()>(&::System::Security::Cryptography::ICryptoTransform::get_CanReuseTransform)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::ICryptoTransform.TransformBlock
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::ICryptoTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(&::System::Security::Cryptography::ICryptoTransform::TransformBlock)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::ICryptoTransform.TransformFinalBlock
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::ICryptoTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Security::Cryptography::ICryptoTransform::TransformFinalBlock)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(),
+                    {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+inline int32_t System::Security::Cryptography::ICryptoTransform::get_InputBlockSize()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t System::Security::Cryptography::ICryptoTransform::get_OutputBlockSize()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline bool System::Security::Cryptography::ICryptoTransform::get_CanTransformMultipleBlocks()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Security::Cryptography::ICryptoTransform::get_CanReuseTransform()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline int32_t System::Security::Cryptography::ICryptoTransform::TransformBlock(::ArrayW<uint8_t>  inputBuffer, int32_t  inputOffset, int32_t  inputCount, ::ArrayW<uint8_t>  outputBuffer, int32_t  outputOffset)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, inputBuffer, inputOffset, inputCount, outputBuffer, outputOffset);
+}
+inline ::ArrayW<uint8_t> System::Security::Cryptography::ICryptoTransform::TransformFinalBlock(::ArrayW<uint8_t>  inputBuffer, int32_t  inputOffset, int32_t  inputCount)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Security::Cryptography::ICryptoTransform*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method, inputBuffer, inputOffset, inputCount);
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  System::Security::Cryptography::ICryptoTransform::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Security::Cryptography::ICryptoTransform::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}

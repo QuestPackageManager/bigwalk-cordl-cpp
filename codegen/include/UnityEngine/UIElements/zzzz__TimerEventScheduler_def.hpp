@@ -1,0 +1,199 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TimerEventScheduler.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(TimerEventScheduler)
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class ScheduledItem;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class TimerEventScheduler;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::TimerEventScheduler*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TimerEventScheduler*, "UnityEngine.UIElements", "TimerEventScheduler");
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.TimerEventScheduler
+class CORDL_TYPE TimerEventScheduler : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=get_FrameCount, put=set_FrameCount)) int64_t  FrameCount;
+
+/// @brief Field disableThrottling, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_disableThrottling, put=__cordl_internal_set_disableThrottling)) bool  disableThrottling;
+
+/// @brief Field frameCount, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_frameCount, put=__cordl_internal_set_frameCount)) int64_t  frameCount;
+
+/// @brief Field m_LastUpdatedIndex, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_LastUpdatedIndex, put=__cordl_internal_set_m_LastUpdatedIndex)) int32_t  m_LastUpdatedIndex;
+
+/// @brief Field m_ScheduleTransactions, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ScheduleTransactions, put=__cordl_internal_set_m_ScheduleTransactions)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*  m_ScheduleTransactions;
+
+/// @brief Field m_ScheduledItems, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ScheduledItems, put=__cordl_internal_set_m_ScheduledItems)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*  m_ScheduledItems;
+
+/// @brief Field m_TransactionMode, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_TransactionMode, put=__cordl_internal_set_m_TransactionMode)) bool  m_TransactionMode;
+
+/// @brief Field m_UnscheduleTransactions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_UnscheduleTransactions, put=__cordl_internal_set_m_UnscheduleTransactions)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*  m_UnscheduleTransactions;
+
+/// @brief Field panel, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_panel, put=__cordl_internal_set_panel)) ::UnityEngine::UIElements::BaseVisualElementPanel*  panel;
+
+static inline ::UnityEngine::UIElements::TimerEventScheduler* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel*  p) ;
+
+/// @brief Method PrivateUnSchedule, addr 0x18250fe00, size 0x70, virtual false, abstract: false, final false
+inline bool PrivateUnSchedule(::UnityEngine::UIElements::ScheduledItem*  sItem) ;
+
+/// @brief Method RemovedScheduledItemAt, addr 0x18250fe70, size 0x30, virtual false, abstract: false, final false
+inline bool RemovedScheduledItemAt(int32_t  index) ;
+
+/// @brief Method Schedule, addr 0x18250fea0, size 0x130, virtual false, abstract: false, final false
+inline void Schedule(::UnityEngine::UIElements::ScheduledItem*  item) ;
+
+/// @brief Method Unschedule, addr 0x18250ffd0, size 0x160, virtual false, abstract: false, final false
+inline void Unschedule(::UnityEngine::UIElements::ScheduledItem*  item) ;
+
+/// @brief Method UpdateScheduledEvents, addr 0x182510130, size 0x3b0, virtual false, abstract: false, final false
+inline void UpdateScheduledEvents() ;
+
+constexpr bool const& __cordl_internal_get_disableThrottling() const;
+
+constexpr bool& __cordl_internal_get_disableThrottling() ;
+
+constexpr int64_t const& __cordl_internal_get_frameCount() const;
+
+constexpr int64_t& __cordl_internal_get_frameCount() ;
+
+constexpr int32_t const& __cordl_internal_get_m_LastUpdatedIndex() const;
+
+constexpr int32_t& __cordl_internal_get_m_LastUpdatedIndex() ;
+
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* const& __cordl_internal_get_m_ScheduleTransactions() const;
+
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*& __cordl_internal_get_m_ScheduleTransactions() ;
+
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* const& __cordl_internal_get_m_ScheduledItems() const;
+
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*& __cordl_internal_get_m_ScheduledItems() ;
+
+constexpr bool const& __cordl_internal_get_m_TransactionMode() const;
+
+constexpr bool& __cordl_internal_get_m_TransactionMode() ;
+
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* const& __cordl_internal_get_m_UnscheduleTransactions() const;
+
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*& __cordl_internal_get_m_UnscheduleTransactions() ;
+
+constexpr ::UnityEngine::UIElements::BaseVisualElementPanel* const& __cordl_internal_get_panel() const;
+
+constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_panel() ;
+
+constexpr void __cordl_internal_set_disableThrottling(bool  value) ;
+
+constexpr void __cordl_internal_set_frameCount(int64_t  value) ;
+
+constexpr void __cordl_internal_set_m_LastUpdatedIndex(int32_t  value) ;
+
+constexpr void __cordl_internal_set_m_ScheduleTransactions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*  value) ;
+
+constexpr void __cordl_internal_set_m_ScheduledItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*  value) ;
+
+constexpr void __cordl_internal_set_m_TransactionMode(bool  value) ;
+
+constexpr void __cordl_internal_set_m_UnscheduleTransactions(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*  value) ;
+
+constexpr void __cordl_internal_set_panel(::UnityEngine::UIElements::BaseVisualElementPanel*  value) ;
+
+/// @brief Method .ctor, addr 0x1825104e0, size 0xd0, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel*  p) ;
+
+/// @brief Method get_FrameCount, addr 0x1802e5850, size 0x10, virtual false, abstract: false, final false
+inline int64_t get_FrameCount() ;
+
+/// @brief Method set_FrameCount, addr 0x1804f6730, size 0x10, virtual false, abstract: false, final false
+inline void set_FrameCount(int64_t  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimerEventScheduler() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TimerEventScheduler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimerEventScheduler(TimerEventScheduler && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TimerEventScheduler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimerEventScheduler(TimerEventScheduler const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3851};
+
+/// @brief Field m_ScheduledItems, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*  ___m_ScheduledItems;
+
+/// @brief Field m_TransactionMode, offset: 0x18, size: 0x1, def value: None
+ bool  ___m_TransactionMode;
+
+/// @brief Field m_ScheduleTransactions, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*  ___m_ScheduleTransactions;
+
+/// @brief Field m_UnscheduleTransactions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*  ___m_UnscheduleTransactions;
+
+/// @brief Field disableThrottling, offset: 0x30, size: 0x1, def value: None
+ bool  ___disableThrottling;
+
+/// @brief Field m_LastUpdatedIndex, offset: 0x34, size: 0x4, def value: None
+ int32_t  ___m_LastUpdatedIndex;
+
+/// @brief Field panel, offset: 0x38, size: 0x8, def value: None
+ ::UnityEngine::UIElements::BaseVisualElementPanel*  ___panel;
+
+/// @brief Field frameCount, offset: 0x40, size: 0x8, def value: None
+ int64_t  ___frameCount;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___m_ScheduledItems) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___m_TransactionMode) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___m_ScheduleTransactions) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___m_UnscheduleTransactions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___disableThrottling) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___m_LastUpdatedIndex) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___panel) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::TimerEventScheduler, ___frameCount) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::TimerEventScheduler) == 0x48, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

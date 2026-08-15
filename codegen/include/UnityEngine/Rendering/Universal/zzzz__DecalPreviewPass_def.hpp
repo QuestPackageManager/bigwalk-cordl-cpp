@@ -1,0 +1,250 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalPreviewPass.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_def.hpp"
+#include "UnityEngine/Rendering/zzzz__FilteringSettings_def.hpp"
+CORDL_MODULE_EXPORT(DecalPreviewPass)
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+template<typename PassData,typename ContextType>
+class BaseRenderFunc_2;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct RasterGraphContext;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+class RenderGraph;
+}
+namespace UnityEngine::Rendering::Universal {
+class DecalPreviewPass_PassData;
+}
+namespace UnityEngine::Rendering::Universal {
+class DecalPreviewPass___c;
+}
+namespace UnityEngine::Rendering {
+class ContextContainer;
+}
+namespace UnityEngine::Rendering {
+class ProfilingSampler;
+}
+namespace UnityEngine::Rendering {
+class RasterCommandBuffer;
+}
+namespace UnityEngine::Rendering {
+struct RendererList;
+}
+namespace UnityEngine::Rendering {
+struct ShaderTagId;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering::Universal {
+class DecalPreviewPass;
+}
+namespace UnityEngine::Rendering::Universal {
+class DecalPreviewPass_PassData;
+}
+namespace UnityEngine::Rendering::Universal {
+class DecalPreviewPass___c;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::Universal::DecalPreviewPass*);
+MARK_REF_T(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*);
+MARK_REF_T(::UnityEngine::Rendering::Universal::DecalPreviewPass___c*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalPreviewPass*, "UnityEngine.Rendering.Universal", "DecalPreviewPass");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*, "UnityEngine.Rendering.Universal", "DecalPreviewPass/PassData");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalPreviewPass___c*, "UnityEngine.Rendering.Universal", "DecalPreviewPass/<>c");
+// Dependencies System.Object, UnityEngine.Rendering.RenderGraphModule.RendererListHandle
+namespace UnityEngine::Rendering::Universal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.DecalPreviewPass/PassData
+class CORDL_TYPE DecalPreviewPass_PassData : public ::System::Object {
+public:
+// Declarations
+/// @brief Field rendererList, offset 0x10, size 0xc 
+ __declspec(property(get=__cordl_internal_get_rendererList, put=__cordl_internal_set_rendererList)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  rendererList;
+
+static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData* New_ctor() ;
+
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_rendererList() const;
+
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_rendererList() ;
+
+constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  value) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr DecalPreviewPass_PassData() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass_PassData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DecalPreviewPass_PassData(DecalPreviewPass_PassData && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass_PassData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DecalPreviewPass_PassData(DecalPreviewPass_PassData const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12285};
+
+/// @brief Field rendererList, offset: 0x10, size: 0xc, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  ___rendererList;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData, ___rendererList) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData) == 0x20, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal
+// Dependencies System.Object
+namespace UnityEngine::Rendering::Universal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.DecalPreviewPass/<>c
+class CORDL_TYPE DecalPreviewPass___c : public ::System::Object {
+public:
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::Universal::DecalPreviewPass___c*  __9;
+
+/// @brief Field <>9__6_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__6_0, put=setStaticF___9__6_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  __9__6_0;
+
+static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass___c* New_ctor() ;
+
+/// @brief Method <RecordRenderGraph>b__6_0, addr 0x1820dd8a0, size 0x60, virtual false, abstract: false, final false
+inline void _RecordRenderGraph_b__6_0(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  rgContext) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass___c* getStaticF___9() ;
+
+static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* getStaticF___9__6_0() ;
+
+static inline void setStaticF___9(::UnityEngine::Rendering::Universal::DecalPreviewPass___c*  value) ;
+
+static inline void setStaticF___9__6_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr DecalPreviewPass___c() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DecalPreviewPass___c(DecalPreviewPass___c && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DecalPreviewPass___c(DecalPreviewPass___c const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12286};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalPreviewPass___c) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal
+// Dependencies UnityEngine.Rendering.FilteringSettings, UnityEngine.Rendering.Universal.ScriptableRenderPass
+namespace UnityEngine::Rendering::Universal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.DecalPreviewPass
+class CORDL_TYPE DecalPreviewPass : public ::UnityEngine::Rendering::Universal::ScriptableRenderPass {
+public:
+// Declarations
+using PassData = ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData;
+
+using __c = ::UnityEngine::Rendering::Universal::DecalPreviewPass___c;
+
+/// @brief Field m_FilteringSettings, offset 0x5c, size 0x20 
+ __declspec(property(get=__cordl_internal_get_m_FilteringSettings, put=__cordl_internal_set_m_FilteringSettings)) ::UnityEngine::Rendering::FilteringSettings  m_FilteringSettings;
+
+/// @brief Field m_ProfilingSampler, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ProfilingSampler, put=__cordl_internal_set_m_ProfilingSampler)) ::UnityEngine::Rendering::ProfilingSampler*  m_ProfilingSampler;
+
+/// @brief Field m_ShaderTagIdList, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ShaderTagIdList, put=__cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>*  m_ShaderTagIdList;
+
+/// @brief Method ExecutePass, addr 0x1820d4840, size 0x30, virtual false, abstract: false, final false
+static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*  passData, ::UnityEngine::Rendering::RendererList  rendererList) ;
+
+static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass* New_ctor() ;
+
+/// @brief Method RecordRenderGraph, addr 0x1820d4870, size 0x550, virtual true, abstract: false, final false
+inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData) ;
+
+constexpr ::UnityEngine::Rendering::FilteringSettings const& __cordl_internal_get_m_FilteringSettings() const;
+
+constexpr ::UnityEngine::Rendering::FilteringSettings& __cordl_internal_get_m_FilteringSettings() ;
+
+constexpr ::UnityEngine::Rendering::ProfilingSampler* const& __cordl_internal_get_m_ProfilingSampler() const;
+
+constexpr ::UnityEngine::Rendering::ProfilingSampler*& __cordl_internal_get_m_ProfilingSampler() ;
+
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* const& __cordl_internal_get_m_ShaderTagIdList() const;
+
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>*& __cordl_internal_get_m_ShaderTagIdList() ;
+
+constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings  value) ;
+
+constexpr void __cordl_internal_set_m_ProfilingSampler(::UnityEngine::Rendering::ProfilingSampler*  value) ;
+
+constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>*  value) ;
+
+/// @brief Method .ctor, addr 0x1820d4dc0, size 0x180, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr DecalPreviewPass() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DecalPreviewPass(DecalPreviewPass && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DecalPreviewPass(DecalPreviewPass const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12287};
+
+/// @brief Field m_FilteringSettings, offset: 0x5c, size: 0x20, def value: None
+ ::UnityEngine::Rendering::FilteringSettings  ___m_FilteringSettings;
+
+/// @brief Field m_ShaderTagIdList, offset: 0x80, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>*  ___m_ShaderTagIdList;
+
+/// @brief Field m_ProfilingSampler, offset: 0x88, size: 0x8, def value: None
+ ::UnityEngine::Rendering::ProfilingSampler*  ___m_ProfilingSampler;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalPreviewPass, ___m_FilteringSettings) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalPreviewPass, ___m_ShaderTagIdList) == 0x80, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalPreviewPass, ___m_ProfilingSampler) == 0x88, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalPreviewPass) == 0x90, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal

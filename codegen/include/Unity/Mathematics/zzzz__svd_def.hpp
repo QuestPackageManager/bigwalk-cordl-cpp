@@ -1,0 +1,109 @@
+#pragma once
+// IWYU pragma private; include "Unity/Mathematics/svd.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cmath>
+#include <cstdint>
+CORDL_MODULE_EXPORT(svd)
+namespace Unity::Mathematics {
+struct float2;
+}
+namespace Unity::Mathematics {
+struct float3;
+}
+namespace Unity::Mathematics {
+struct float3x3;
+}
+namespace Unity::Mathematics {
+struct float4;
+}
+namespace Unity::Mathematics {
+struct quaternion;
+}
+// Forward declare root types
+namespace Unity::Mathematics {
+class svd;
+}
+// Write type traits
+MARK_REF_T(::Unity::Mathematics::svd*);
+DEFINE_IL2CPP_CLASS(::Unity::Mathematics::svd*, "Unity.Mathematics", "svd");
+// Dependencies System.Object
+namespace Unity::Mathematics {
+// Is value type: false
+// CS Name: Unity.Mathematics.svd
+class CORDL_TYPE svd : public ::System::Object {
+public:
+// Declarations
+/// @brief Method approxGivensQuat, addr 0x181faccc0, size 0xb0, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::quaternion approxGivensQuat(::Unity::Mathematics::float3  pq, ::Unity::Mathematics::float4  mask) ;
+
+/// @brief Method condNegSwap, addr 0x181facdf0, size 0x80, virtual false, abstract: false, final false
+static inline void condNegSwap(bool  c, ::by_ref<::Unity::Mathematics::float3>  x, ::by_ref<::Unity::Mathematics::float3>  y) ;
+
+/// @brief Method condNegSwapQuat, addr 0x181facd70, size 0x80, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::quaternion condNegSwapQuat(bool  c, ::Unity::Mathematics::quaternion  q, ::Unity::Mathematics::float4  mask) ;
+
+/// @brief Method condSwap, addr 0x181face70, size 0x20, virtual false, abstract: false, final false
+static inline void condSwap(bool  c, ::by_ref<float_t>  x, ::by_ref<float_t>  y) ;
+
+/// @brief Method givensQRFactorization, addr 0x181edcd10, size 0x850, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::quaternion givensQRFactorization(::Unity::Mathematics::float3x3  b, ::by_ref<::Unity::Mathematics::float3x3>  r) ;
+
+/// @brief Method jacobiIteration, addr 0x181face90, size 0xb50, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::quaternion jacobiIteration(::by_ref<::Unity::Mathematics::float3x3>  s, int32_t  iterations) ;
+
+/// @brief Method qrGivensQuat, addr 0x181fad9e0, size 0x120, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::quaternion qrGivensQuat(::Unity::Mathematics::float2  pq, ::Unity::Mathematics::float4  mask) ;
+
+/// @brief Method rcpsafe, addr 0x181fadb00, size 0xc0, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::float3 rcpsafe(::Unity::Mathematics::float3  x, float_t  epsilon) ;
+
+/// @brief Method singularValuesDecomposition, addr 0x181fadbc0, size 0x2b0, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::float3 singularValuesDecomposition(::Unity::Mathematics::float3x3  a, ::by_ref<::Unity::Mathematics::quaternion>  u, ::by_ref<::Unity::Mathematics::quaternion>  v) ;
+
+/// @brief Method sortSingularValues, addr 0x181edd560, size 0x360, virtual false, abstract: false, final false
+static inline void sortSingularValues(::by_ref<::Unity::Mathematics::float3x3>  b, ::by_ref<::Unity::Mathematics::quaternion>  v) ;
+
+/// @brief Method svdInverse, addr 0x181edd8c0, size 0x2a0, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::float3x3 svdInverse(::Unity::Mathematics::float3x3  a) ;
+
+/// @brief Method svdRotation, addr 0x181fade70, size 0xc0, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::quaternion svdRotation(::Unity::Mathematics::float3x3  a) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr svd() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "svd", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+svd(svd && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "svd", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+svd(svd const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12830};
+
+/// @brief Field k_EpsilonDeterminant offset 0xffffffff size 0x4
+static constexpr float_t  k_EpsilonDeterminant{static_cast<float_t>(1e-6f)};
+
+/// @brief Field k_EpsilonNormal offset 0xffffffff size 0x4
+static constexpr float_t  k_EpsilonNormal{static_cast<float_t>(1e-30f)};
+
+/// @brief Field k_EpsilonNormalSqrt offset 0xffffffff size 0x4
+static constexpr float_t  k_EpsilonNormalSqrt{static_cast<float_t>(1e-15f)};
+
+/// @brief Field k_EpsilonRCP offset 0xffffffff size 0x4
+static constexpr float_t  k_EpsilonRCP{static_cast<float_t>(1e-9f)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::Unity::Mathematics::svd) == 0x10, "Size mismatch!");
+
+} // namespace end def Unity::Mathematics

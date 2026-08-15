@@ -1,0 +1,173 @@
+#pragma once
+// IWYU pragma private; include "Unity/Profiling/ProfilerCategory.hpp"
+#include "Unity/Profiling/zzzz__ProfilerCategory_def.hpp"
+//  Writing Method size for method: ::Unity::Profiling::ProfilerCategory._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Profiling::ProfilerCategory::*)(uint16_t)>(&::Unity::Profiling::ProfilerCategory::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18052caa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {".ctor", {}, {::i2c::type_of<uint16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::ProfilerCategory.get_Name
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Profiling::ProfilerCategory::*)()>(&::Unity::Profiling::ProfilerCategory::get_Name)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x182248e50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"get_Name", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::ProfilerCategory.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Profiling::ProfilerCategory::*)()>(&::Unity::Profiling::ProfilerCategory::ToString)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182248e30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                    {::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::ProfilerCategory.get_Scripts
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Scripts)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802edd00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"get_Scripts", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::ProfilerCategory.get_Any
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Any)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181677cb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"get_Any", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::ProfilerCategory.get_GPU
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_GPU)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1809018a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"get_GPU", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::ProfilerCategory.op_Implicit_uint16_t
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::Unity::Profiling::ProfilerCategory)>(&::Unity::Profiling::ProfilerCategory::op_Implicit_uint16_t)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1805a9e00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"op_Implicit", {}, {::i2c::type_of<::Unity::Profiling::ProfilerCategory>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr uint16_t& Unity::Profiling::ProfilerCategory::__cordl_internal_get_m_CategoryId()  {
+return this->___m_CategoryId;
+}
+constexpr uint16_t const& Unity::Profiling::ProfilerCategory::__cordl_internal_get_m_CategoryId() const {
+return this->___m_CategoryId;
+}
+constexpr void Unity::Profiling::ProfilerCategory::__cordl_internal_set_m_CategoryId(uint16_t  value)  {
+this->___m_CategoryId = value;
+}
+inline void Unity::Profiling::ProfilerCategory::_ctor(uint16_t  category)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {".ctor", {}, {::i2c::type_of<uint16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, category);
+}
+inline ::StringW Unity::Profiling::ProfilerCategory::get_Name()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"get_Name", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline ::StringW Unity::Profiling::ProfilerCategory::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline ::Unity::Profiling::ProfilerCategory Unity::Profiling::ProfilerCategory::get_Scripts()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"get_Scripts", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerCategory>(nullptr, ___internal_method);
+}
+inline ::Unity::Profiling::ProfilerCategory Unity::Profiling::ProfilerCategory::get_Any()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"get_Any", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerCategory>(nullptr, ___internal_method);
+}
+inline ::Unity::Profiling::ProfilerCategory Unity::Profiling::ProfilerCategory::get_GPU()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"get_GPU", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerCategory>(nullptr, ___internal_method);
+}
+inline uint16_t Unity::Profiling::ProfilerCategory::op_Implicit_uint16_t(::Unity::Profiling::ProfilerCategory  category)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Profiling::ProfilerCategory>(),
+                        {"op_Implicit", {}, {::i2c::type_of<::Unity::Profiling::ProfilerCategory>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint16_t>(nullptr, ___internal_method, category);
+}
+// Ctor Parameters [CppParam { name: "m_CategoryId", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::Unity::Profiling::ProfilerCategory::ProfilerCategory(uint16_t  m_CategoryId) noexcept  {
+this->m_CategoryId = m_CategoryId;
+}
+// Ctor Parameters []
+constexpr ::Unity::Profiling::ProfilerCategory::ProfilerCategory()   {
+}

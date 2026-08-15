@@ -1,0 +1,1732 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/XmlValidatingReaderImpl.hpp"
+#include "System/Xml/zzzz__ValidationType_impl.hpp"
+#include "System/Xml/zzzz__XmlReader_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Xml/zzzz__XmlValidatingReaderImpl_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Xml/Schema/zzzz__BaseValidator_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/Xml/Schema/zzzz__ValidationEventHandler_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaCollection_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
+#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/zzzz__IValidationEventHandling_def.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__ReadContentAsBinaryHelper_def.hpp"
+#include "System/Xml/zzzz__ReadState_def.hpp"
+#include "System/Xml/zzzz__ValidationType_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
+#include "System/Xml/zzzz__XmlNamespaceScope_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlParserContext_def.hpp"
+#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
+#include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__XmlSpace_def.hpp"
+#include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
+#include "System/Xml/zzzz__XmlValidatingReaderImpl_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction::XmlValidatingReaderImpl_ParsingFunction(int32_t  value__) noexcept  {
+this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction::XmlValidatingReaderImpl_ParsingFunction()   {
+}
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction  System::Xml::XmlValidatingReaderImpl_ParsingFunction::Read{static_cast<int32_t>(0x0)};
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction  System::Xml::XmlValidatingReaderImpl_ParsingFunction::Init{static_cast<int32_t>(0x1)};
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction  System::Xml::XmlValidatingReaderImpl_ParsingFunction::ParseDtdFromContext{static_cast<int32_t>(0x2)};
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction  System::Xml::XmlValidatingReaderImpl_ParsingFunction::ResolveEntityInternally{static_cast<int32_t>(0x3)};
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction  System::Xml::XmlValidatingReaderImpl_ParsingFunction::InReadBinaryContent{static_cast<int32_t>(0x4)};
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction  System::Xml::XmlValidatingReaderImpl_ParsingFunction::ReaderClosed{static_cast<int32_t>(0x5)};
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction  System::Xml::XmlValidatingReaderImpl_ParsingFunction::Error{static_cast<int32_t>(0x6)};
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction  System::Xml::XmlValidatingReaderImpl_ParsingFunction::None{static_cast<int32_t>(0x7)};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::*)(::System::Xml::XmlValidatingReaderImpl*)>(&::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x180308500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::XmlValidatingReaderImpl*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling.System_Xml_IValidationEventHandling_get_EventHandler
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::*)()>(&::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::System_Xml_IValidationEventHandling_get_EventHandler)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(),
+                        {"System.Xml.IValidationEventHandling.get_EventHandler", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling.System_Xml_IValidationEventHandling_SendEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::*)(::System::Exception*, ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::System_Xml_IValidationEventHandling_SendEvent)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181cecfc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(),
+                        {"System.Xml.IValidationEventHandling.SendEvent", {}, {::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::System::Xml::Schema::XmlSeverityType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling.AddHandler
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::*)(::System::Xml::Schema::ValidationEventHandler*)>(&::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::AddHandler)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181cecf30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(),
+                        {"AddHandler", {}, {::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Xml::XmlValidatingReaderImpl*& System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::__cordl_internal_get_reader()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___reader;
+}
+constexpr ::System::Xml::XmlValidatingReaderImpl* const& System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::__cordl_internal_get_reader() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___reader;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::__cordl_internal_set_reader(::System::Xml::XmlValidatingReaderImpl*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___reader = value;
+}
+constexpr ::System::Xml::Schema::ValidationEventHandler*& System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::__cordl_internal_get_eventHandler()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___eventHandler;
+}
+constexpr ::System::Xml::Schema::ValidationEventHandler* const& System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::__cordl_internal_get_eventHandler() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___eventHandler;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::__cordl_internal_set_eventHandler(::System::Xml::Schema::ValidationEventHandler*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___eventHandler = value;
+}
+inline void System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::_ctor(::System::Xml::XmlValidatingReaderImpl*  reader)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::XmlValidatingReaderImpl*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader);
+}
+inline ::System::Object* System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::System_Xml_IValidationEventHandling_get_EventHandler()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(),
+                        {"System.Xml.IValidationEventHandling.get_EventHandler", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::System_Xml_IValidationEventHandling_SendEvent(::System::Exception*  exception, ::System::Xml::Schema::XmlSeverityType  severity)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(),
+                        {"System.Xml.IValidationEventHandling.SendEvent", {}, {::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::System::Xml::Schema::XmlSeverityType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, exception, severity);
+}
+inline void System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::AddHandler(::System::Xml::Schema::ValidationEventHandler*  handler)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(),
+                        {"AddHandler", {}, {::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, handler);
+}
+inline ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling* System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::New_ctor(::System::Xml::XmlValidatingReaderImpl*  reader)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*>(reader));
+}
+/// @brief Convert operator to "::System::Xml::IValidationEventHandling"
+constexpr  System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::operator ::System::Xml::IValidationEventHandling*() noexcept {
+return static_cast<::System::Xml::IValidationEventHandling*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IValidationEventHandling"
+constexpr ::System::Xml::IValidationEventHandling* System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::i___System__Xml__IValidationEventHandling() noexcept {
+return static_cast<::System::Xml::IValidationEventHandling*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling::XmlValidatingReaderImpl_ValidationEventHandling()   {
+}
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)(::System::Xml::XmlReader*, ::System::Xml::Schema::ValidationEventHandler*, bool)>(&::System::Xml::XmlValidatingReaderImpl::_ctor)> {
+  constexpr static std::size_t size = 0x430;
+  constexpr static std::size_t addrs = 0x181cf6a90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::XmlReader*>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_Settings
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlReaderSettings* (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_Settings)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181cf7000;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_NodeType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_NodeType)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5fd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_Name
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_Name)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5fb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_LocalName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_LocalName)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5f70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_NamespaceURI
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_NamespaceURI)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18165ba10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_Prefix
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_Prefix)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18165bab0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_HasValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_HasValue)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18165ba90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_Value
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_Value)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc6010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_Depth
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_Depth)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5f30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_BaseURI
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_BaseURI)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5ef0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_IsEmptyElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_IsEmptyElement)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18165ba70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_IsDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_IsDefault)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18165b9f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 16}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_QuoteChar
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_QuoteChar)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18165ba50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 17}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_XmlSpace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_XmlSpace)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc6050;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 18}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_XmlLang
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_XmlLang)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc6030;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_ReadState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ReadState (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_ReadState)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181cf6fd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 36}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_EOF
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_EOF)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5f50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 34}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_NameTable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_NameTable)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5f90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 38}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_AttributeCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_AttributeCount)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1816c5d00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 23}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.GetAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)(::StringW)>(&::System::Xml::XmlValidatingReaderImpl::GetAttribute)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5d90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 24}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.GetAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)(::StringW, ::StringW)>(&::System::Xml::XmlValidatingReaderImpl::GetAttribute)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5d70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 25}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.GetAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)(int32_t)>(&::System::Xml::XmlValidatingReaderImpl::GetAttribute)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5db0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 26}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.MoveToAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)(::StringW)>(&::System::Xml::XmlValidatingReaderImpl::MoveToAttribute)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181cf6040;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 27}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.MoveToAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)(int32_t)>(&::System::Xml::XmlValidatingReaderImpl::MoveToAttribute)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181cf6010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 28}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.MoveToFirstAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::MoveToFirstAttribute)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181cf60c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 29}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.MoveToNextAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::MoveToNextAttribute)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181cf6100;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 30}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.MoveToElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::MoveToElement)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181cf6080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 31}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::Read)> {
+  constexpr static std::size_t size = 0x2b0;
+  constexpr static std::size_t addrs = 0x181cf6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 33}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.Close
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::Close)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181cf5e30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 35}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.LookupNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)(::StringW)>(&::System::Xml::XmlValidatingReaderImpl::LookupNamespace)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181b99bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 39}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.ReadAttributeValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::ReadAttributeValue)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181cf6390;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 32}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_CanResolveEntity
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_CanResolveEntity)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 40}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.ResolveEntity
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::ResolveEntity)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181cf67b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 41}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.MoveOffEntityReference
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::MoveOffEntityReference)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181cf5fa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"MoveOffEntityReference", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.ReadString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::ReadString)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181cf63f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 44}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.HasLineInfo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::HasLineInfo)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"HasLineInfo", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_LineNumber
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_LineNumber)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181cf6ee0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_LineNumber", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_LinePosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_LinePosition)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181cf6f40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_LinePosition", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.System_Xml_IXmlNamespaceResolver_GetNamespacesInScope
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW,::StringW>* (::System::Xml::XmlValidatingReaderImpl::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlValidatingReaderImpl::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181cf5e60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"System.Xml.IXmlNamespaceResolver.GetNamespacesInScope", {}, {::i2c::type_of<::System::Xml::XmlNamespaceScope>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.System_Xml_IXmlNamespaceResolver_LookupNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)(::StringW)>(&::System::Xml::XmlValidatingReaderImpl::System_Xml_IXmlNamespaceResolver_LookupNamespace)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181c47060;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"System.Xml.IXmlNamespaceResolver.LookupNamespace", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.System_Xml_IXmlNamespaceResolver_LookupPrefix
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)(::StringW)>(&::System::Xml::XmlValidatingReaderImpl::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181cdceb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"System.Xml.IXmlNamespaceResolver.LookupPrefix", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.GetNamespacesInScope
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW,::StringW>* (::System::Xml::XmlValidatingReaderImpl::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlValidatingReaderImpl::GetNamespacesInScope)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181cf5e60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"GetNamespacesInScope", {}, {::i2c::type_of<::System::Xml::XmlNamespaceScope>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.LookupPrefix
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlValidatingReaderImpl::*)(::StringW)>(&::System::Xml::XmlValidatingReaderImpl::LookupPrefix)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181cdceb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"LookupPrefix", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_ValidationType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ValidationType (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_ValidationType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803914a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_ValidationType", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_Schemas
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaCollection* (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_Schemas)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9800;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_Schemas", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_Namespaces
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_Namespaces)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181cf6fc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_Namespaces", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.ParseDtdFromParserContext
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::ParseDtdFromParserContext)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x181cf6140;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ParseDtdFromParserContext", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.ValidateDtd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::ValidateDtd)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181cf6a10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ValidateDtd", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.ResolveEntityInternally
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::ResolveEntityInternally)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181cf6720;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ResolveEntityInternally", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.SetupValidation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)(::System::Xml::ValidationType)>(&::System::Xml::XmlValidatingReaderImpl::SetupValidation)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x181cf67e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"SetupValidation", {}, {::i2c::type_of<::System::Xml::ValidationType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.GetResolver
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlResolver* (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::GetResolver)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181cf5ef0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"GetResolver", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.ProcessCoreReaderEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::ProcessCoreReaderEvent)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181cf62b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ProcessCoreReaderEvent", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_Validator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::BaseValidator* (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_Validator)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_Validator", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.set_Validator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)(::System::Xml::Schema::BaseValidator*)>(&::System::Xml::XmlValidatingReaderImpl::set_Validator)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9830;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"set_Validator", {}, {::i2c::type_of<::System::Xml::Schema::BaseValidator*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_NamespaceManager
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNamespaceManager* (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_NamespaceManager)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181cf6fa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 55}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_StandAlone
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_StandAlone)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181cf70a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_StandAlone", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.set_SchemaTypeObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)(::System::Object*)>(&::System::Xml::XmlValidatingReaderImpl::set_SchemaTypeObject)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181cf70c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"set_SchemaTypeObject", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_TypedValueObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_TypedValueObject)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181cf70b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_TypedValueObject", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.set_TypedValueObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)(::System::Object*)>(&::System::Xml::XmlValidatingReaderImpl::set_TypedValueObject)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181cf70d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"set_TypedValueObject", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.AddDefaultAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlValidatingReaderImpl::*)(::System::Xml::Schema::SchemaAttDef*)>(&::System::Xml::XmlValidatingReaderImpl::AddDefaultAttribute)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181cf5e20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"AddDefaultAttribute", {}, {::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.get_DtdInfo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::IDtdInfo* (::System::Xml::XmlValidatingReaderImpl::*)()>(&::System::Xml::XmlValidatingReaderImpl::get_DtdInfo)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181cf6ec0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                    {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 56}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlValidatingReaderImpl.ValidateDefaultAttributeOnUse
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlValidatingReaderImpl::*)(::System::Xml::IDtdDefaultAttributeInfo*, ::System::Xml::XmlTextReaderImpl*)>(&::System::Xml::XmlValidatingReaderImpl::ValidateDefaultAttributeOnUse)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181cf6930;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ValidateDefaultAttributeOnUse", {}, {::i2c::type_of<::System::Xml::IDtdDefaultAttributeInfo*>(), ::i2c::type_of<::System::Xml::XmlTextReaderImpl*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Xml::XmlReader*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_coreReader()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___coreReader;
+}
+constexpr ::System::Xml::XmlReader* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_coreReader() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___coreReader;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_coreReader(::System::Xml::XmlReader*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___coreReader = value;
+}
+constexpr ::System::Xml::XmlTextReaderImpl*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_coreReaderImpl()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___coreReaderImpl;
+}
+constexpr ::System::Xml::XmlTextReaderImpl* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_coreReaderImpl() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___coreReaderImpl;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_coreReaderImpl(::System::Xml::XmlTextReaderImpl*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___coreReaderImpl = value;
+}
+constexpr ::System::Xml::IXmlNamespaceResolver*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_coreReaderNSResolver()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___coreReaderNSResolver;
+}
+constexpr ::System::Xml::IXmlNamespaceResolver* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_coreReaderNSResolver() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___coreReaderNSResolver;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_coreReaderNSResolver(::System::Xml::IXmlNamespaceResolver*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___coreReaderNSResolver = value;
+}
+constexpr ::System::Xml::ValidationType& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_validationType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___validationType;
+}
+constexpr ::System::Xml::ValidationType const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_validationType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___validationType;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_validationType(::System::Xml::ValidationType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___validationType = value;
+}
+constexpr ::System::Xml::Schema::BaseValidator*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_validator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___validator;
+}
+constexpr ::System::Xml::Schema::BaseValidator* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_validator() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___validator;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_validator(::System::Xml::Schema::BaseValidator*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___validator = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaCollection*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_schemaCollection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___schemaCollection;
+}
+constexpr ::System::Xml::Schema::XmlSchemaCollection* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_schemaCollection() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___schemaCollection;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_schemaCollection(::System::Xml::Schema::XmlSchemaCollection*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___schemaCollection = value;
+}
+constexpr bool& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_processIdentityConstraints()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___processIdentityConstraints;
+}
+constexpr bool const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_processIdentityConstraints() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___processIdentityConstraints;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_processIdentityConstraints(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___processIdentityConstraints = value;
+}
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_parsingFunction()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___parsingFunction;
+}
+constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_parsingFunction() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___parsingFunction;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_parsingFunction(::System::Xml::XmlValidatingReaderImpl_ParsingFunction  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___parsingFunction = value;
+}
+constexpr ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_eventHandling()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___eventHandling;
+}
+constexpr ::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_eventHandling() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___eventHandling;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_eventHandling(::System::Xml::XmlValidatingReaderImpl_ValidationEventHandling*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___eventHandling = value;
+}
+constexpr ::System::Xml::XmlParserContext*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_parserContext()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___parserContext;
+}
+constexpr ::System::Xml::XmlParserContext* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_parserContext() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___parserContext;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_parserContext(::System::Xml::XmlParserContext*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___parserContext = value;
+}
+constexpr ::System::Xml::ReadContentAsBinaryHelper*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_readBinaryHelper()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___readBinaryHelper;
+}
+constexpr ::System::Xml::ReadContentAsBinaryHelper* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_readBinaryHelper() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___readBinaryHelper;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_readBinaryHelper(::System::Xml::ReadContentAsBinaryHelper*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___readBinaryHelper = value;
+}
+constexpr ::System::Xml::XmlReader*& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_outerReader()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___outerReader;
+}
+constexpr ::System::Xml::XmlReader* const& System::Xml::XmlValidatingReaderImpl::__cordl_internal_get_outerReader() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___outerReader;
+}
+constexpr void System::Xml::XmlValidatingReaderImpl::__cordl_internal_set_outerReader(::System::Xml::XmlReader*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___outerReader = value;
+}
+inline void System::Xml::XmlValidatingReaderImpl::setStaticF_s_tempResolver(::System::Xml::XmlResolver*  value)  {
+::cordl_internals::setStaticField<::System::Xml::XmlResolver*, "s_tempResolver", ::System::Xml::XmlValidatingReaderImpl*>(std::forward<::System::Xml::XmlResolver*>(value));
+}
+inline ::System::Xml::XmlResolver* System::Xml::XmlValidatingReaderImpl::getStaticF_s_tempResolver()  {
+return ::cordl_internals::getStaticField<::System::Xml::XmlResolver*, "s_tempResolver", ::System::Xml::XmlValidatingReaderImpl*>();
+}
+inline void System::Xml::XmlValidatingReaderImpl::_ctor(::System::Xml::XmlReader*  reader, ::System::Xml::Schema::ValidationEventHandler*  settingsEventHandler, bool  processIdentityConstraints)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::XmlReader*>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, settingsEventHandler, processIdentityConstraints);
+}
+inline ::System::Xml::XmlReaderSettings* System::Xml::XmlValidatingReaderImpl::get_Settings()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlReaderSettings*>(this, ___internal_method);
+}
+inline ::System::Xml::XmlNodeType System::Xml::XmlValidatingReaderImpl::get_NodeType()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNodeType>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::get_Name()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::get_LocalName()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::get_NamespaceURI()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::get_Prefix()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::get_HasValue()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::get_Value()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline int32_t System::Xml::XmlValidatingReaderImpl::get_Depth()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::get_BaseURI()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::get_IsEmptyElement()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::get_IsDefault()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 16}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline char16_t System::Xml::XmlValidatingReaderImpl::get_QuoteChar()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 17}
+                        )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(this, ___internal_method);
+}
+inline ::System::Xml::XmlSpace System::Xml::XmlValidatingReaderImpl::get_XmlSpace()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 18}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlSpace>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::get_XmlLang()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::Xml::ReadState System::Xml::XmlValidatingReaderImpl::get_ReadState()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 36}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::ReadState>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::get_EOF()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 34}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Xml::XmlNameTable* System::Xml::XmlValidatingReaderImpl::get_NameTable()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 38}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNameTable*>(this, ___internal_method);
+}
+inline int32_t System::Xml::XmlValidatingReaderImpl::get_AttributeCount()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 23}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::GetAttribute(::StringW  name)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 24}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, name);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::GetAttribute(::StringW  localName, ::StringW  namespaceURI)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 25}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, localName, namespaceURI);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::GetAttribute(int32_t  i)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 26}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, i);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::MoveToAttribute(::StringW  name)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 27}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, name);
+}
+inline void System::Xml::XmlValidatingReaderImpl::MoveToAttribute(int32_t  i)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 28}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, i);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::MoveToFirstAttribute()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 29}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::MoveToNextAttribute()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 30}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::MoveToElement()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 31}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::Read()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 33}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::Close()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 35}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::LookupNamespace(::StringW  prefix)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 39}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, prefix);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::ReadAttributeValue()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 32}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::get_CanResolveEntity()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 40}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::ResolveEntity()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 41}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::MoveOffEntityReference()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"MoveOffEntityReference", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::ReadString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 44}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::HasLineInfo()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"HasLineInfo", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline int32_t System::Xml::XmlValidatingReaderImpl::get_LineNumber()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_LineNumber", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t System::Xml::XmlValidatingReaderImpl::get_LinePosition()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_LinePosition", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>* System::Xml::XmlValidatingReaderImpl::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope  scope)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"System.Xml.IXmlNamespaceResolver.GetNamespacesInScope", {}, {::i2c::type_of<::System::Xml::XmlNamespaceScope>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*>(this, ___internal_method, scope);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW  prefix)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"System.Xml.IXmlNamespaceResolver.LookupNamespace", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, prefix);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW  namespaceName)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"System.Xml.IXmlNamespaceResolver.LookupPrefix", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, namespaceName);
+}
+inline ::System::Collections::Generic::IDictionary_2<::StringW,::StringW>* System::Xml::XmlValidatingReaderImpl::GetNamespacesInScope(::System::Xml::XmlNamespaceScope  scope)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"GetNamespacesInScope", {}, {::i2c::type_of<::System::Xml::XmlNamespaceScope>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IDictionary_2<::StringW,::StringW>*>(this, ___internal_method, scope);
+}
+inline ::StringW System::Xml::XmlValidatingReaderImpl::LookupPrefix(::StringW  namespaceName)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"LookupPrefix", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, namespaceName);
+}
+inline ::System::Xml::ValidationType System::Xml::XmlValidatingReaderImpl::get_ValidationType()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_ValidationType", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::ValidationType>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaCollection* System::Xml::XmlValidatingReaderImpl::get_Schemas()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_Schemas", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaCollection*>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::get_Namespaces()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_Namespaces", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::ParseDtdFromParserContext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ParseDtdFromParserContext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::ValidateDtd()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ValidateDtd", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::ResolveEntityInternally()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ResolveEntityInternally", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::SetupValidation(::System::Xml::ValidationType  valType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"SetupValidation", {}, {::i2c::type_of<::System::Xml::ValidationType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, valType);
+}
+inline ::System::Xml::XmlResolver* System::Xml::XmlValidatingReaderImpl::GetResolver()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"GetResolver", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlResolver*>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::ProcessCoreReaderEvent()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ProcessCoreReaderEvent", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::BaseValidator* System::Xml::XmlValidatingReaderImpl::get_Validator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_Validator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::BaseValidator*>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::set_Validator(::System::Xml::Schema::BaseValidator*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"set_Validator", {}, {::i2c::type_of<::System::Xml::Schema::BaseValidator*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Xml::XmlNamespaceManager* System::Xml::XmlValidatingReaderImpl::get_NamespaceManager()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 55}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNamespaceManager*>(this, ___internal_method);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::get_StandAlone()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_StandAlone", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::set_SchemaTypeObject(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"set_SchemaTypeObject", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Object* System::Xml::XmlValidatingReaderImpl::get_TypedValueObject()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"get_TypedValueObject", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::set_TypedValueObject(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"set_TypedValueObject", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool System::Xml::XmlValidatingReaderImpl::AddDefaultAttribute(::System::Xml::Schema::SchemaAttDef*  attdef)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"AddDefaultAttribute", {}, {::i2c::type_of<::System::Xml::Schema::SchemaAttDef*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, attdef);
+}
+inline ::System::Xml::IDtdInfo* System::Xml::XmlValidatingReaderImpl::get_DtdInfo()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(), 56}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdInfo*>(this, ___internal_method);
+}
+inline void System::Xml::XmlValidatingReaderImpl::ValidateDefaultAttributeOnUse(::System::Xml::IDtdDefaultAttributeInfo*  defaultAttribute, ::System::Xml::XmlTextReaderImpl*  coreReader)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::XmlValidatingReaderImpl*>(),
+                        {"ValidateDefaultAttributeOnUse", {}, {::i2c::type_of<::System::Xml::IDtdDefaultAttributeInfo*>(), ::i2c::type_of<::System::Xml::XmlTextReaderImpl*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, defaultAttribute, coreReader);
+}
+inline ::System::Xml::XmlValidatingReaderImpl* System::Xml::XmlValidatingReaderImpl::New_ctor(::System::Xml::XmlReader*  reader, ::System::Xml::Schema::ValidationEventHandler*  settingsEventHandler, bool  processIdentityConstraints)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::XmlValidatingReaderImpl*>(reader, settingsEventHandler, processIdentityConstraints));
+}
+/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
+constexpr  System::Xml::XmlValidatingReaderImpl::operator ::System::Xml::IXmlLineInfo*() noexcept {
+return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IXmlLineInfo"
+constexpr ::System::Xml::IXmlLineInfo* System::Xml::XmlValidatingReaderImpl::i___System__Xml__IXmlLineInfo() noexcept {
+return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
+constexpr  System::Xml::XmlValidatingReaderImpl::operator ::System::Xml::IXmlNamespaceResolver*() noexcept {
+return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
+constexpr ::System::Xml::IXmlNamespaceResolver* System::Xml::XmlValidatingReaderImpl::i___System__Xml__IXmlNamespaceResolver() noexcept {
+return static_cast<::System::Xml::IXmlNamespaceResolver*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::XmlValidatingReaderImpl::XmlValidatingReaderImpl()   {
+}

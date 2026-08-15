@@ -1,0 +1,356 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ListViewDraggerAnimated.hpp"
+#include "UnityEngine/UIElements/zzzz__ListViewDragger_impl.hpp"
+#include "UnityEngine/zzzz__Vector3_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__ListViewDraggerAnimated_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.get_isDragging
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDraggerAnimated::*)()>(&::UnityEngine::UIElements::ListViewDraggerAnimated::get_isDragging)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18030d8a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {"get_isDragging", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.set_isDragging
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(bool)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::set_isDragging)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18140a480;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {"set_isDragging", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.get_draggedItem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (::UnityEngine::UIElements::ListViewDraggerAnimated::*)()>(&::UnityEngine::UIElements::ListViewDraggerAnimated::get_draggedItem)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ec4d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {"get_draggedItem", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.get_supportsDragEvents
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDraggerAnimated::*)()>(&::UnityEngine::UIElements::ListViewDraggerAnimated::get_supportsDragEvents)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::UIElements::BaseVerticalCollectionView*)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::_ctor)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x1824b7970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.StartDrag
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StartDragArgs (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::StartDrag)> {
+  constexpr static std::size_t size = 0x970;
+  constexpr static std::size_t addrs = 0x1824b68b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.UpdateDrag
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::UpdateDrag)> {
+  constexpr static std::size_t size = 0x710;
+  constexpr static std::size_t addrs = 0x1824b7260;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.Animate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::UIElements::ReusableCollectionItem*, float_t)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::Animate)> {
+  constexpr static std::size_t size = 0x370;
+  constexpr static std::size_t addrs = 0x1824b61a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {"Animate", {}, {::i2c::type_of<::UnityEngine::UIElements::ReusableCollectionItem*>(), ::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.OnDrop
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::OnDrop)> {
+  constexpr static std::size_t size = 0x3a0;
+  constexpr static std::size_t addrs = 0x1824b6510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.ClearDragAndDropUI
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(bool)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::ClearDragAndDropUI)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewDraggerAnimated.TryGetDragPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDraggerAnimated::*)(::UnityEngine::Vector2, ::by_ref<::UnityEngine::UIElements::ListViewDragger_DragPosition>)>(&::UnityEngine::UIElements::ListViewDraggerAnimated::TryGetDragPosition)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1824b7220;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_DragStartIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DragStartIndex;
+}
+constexpr int32_t const& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_DragStartIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DragStartIndex;
+}
+constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_set_m_DragStartIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_DragStartIndex = value;
+}
+constexpr int32_t& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_CurrentIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CurrentIndex;
+}
+constexpr int32_t const& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_CurrentIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CurrentIndex;
+}
+constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_set_m_CurrentIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CurrentIndex = value;
+}
+constexpr float_t& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_SelectionHeight()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SelectionHeight;
+}
+constexpr float_t const& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_SelectionHeight() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SelectionHeight;
+}
+constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_set_m_SelectionHeight(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_SelectionHeight = value;
+}
+constexpr float_t& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_LocalOffsetOnStart()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LocalOffsetOnStart;
+}
+constexpr float_t const& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_LocalOffsetOnStart() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LocalOffsetOnStart;
+}
+constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_set_m_LocalOffsetOnStart(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_LocalOffsetOnStart = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_CurrentPointerPosition()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CurrentPointerPosition;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_CurrentPointerPosition() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CurrentPointerPosition;
+}
+constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_set_m_CurrentPointerPosition(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CurrentPointerPosition = value;
+}
+constexpr ::UnityEngine::UIElements::ReusableCollectionItem*& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_Item()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Item;
+}
+constexpr ::UnityEngine::UIElements::ReusableCollectionItem* const& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_Item() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Item;
+}
+constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_set_m_Item(::UnityEngine::UIElements::ReusableCollectionItem*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Item = value;
+}
+constexpr ::UnityEngine::UIElements::ReusableCollectionItem*& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_OffsetItem()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_OffsetItem;
+}
+constexpr ::UnityEngine::UIElements::ReusableCollectionItem* const& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get_m_OffsetItem() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_OffsetItem;
+}
+constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_set_m_OffsetItem(::UnityEngine::UIElements::ReusableCollectionItem*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_OffsetItem = value;
+}
+constexpr bool& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get__isDragging_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isDragging_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_get__isDragging_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isDragging_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::ListViewDraggerAnimated::__cordl_internal_set__isDragging_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isDragging_k__BackingField = value;
+}
+inline bool UnityEngine::UIElements::ListViewDraggerAnimated::get_isDragging()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {"get_isDragging", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ListViewDraggerAnimated::set_isDragging(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {"set_isDragging", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::ReusableCollectionItem* UnityEngine::UIElements::ListViewDraggerAnimated::get_draggedItem()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {"get_draggedItem", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ReusableCollectionItem*>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::ListViewDraggerAnimated::get_supportsDragEvents()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ListViewDraggerAnimated::_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, listView);
+}
+inline ::UnityEngine::UIElements::StartDragArgs UnityEngine::UIElements::ListViewDraggerAnimated::StartDrag(::UnityEngine::Vector3  pointerPosition, ::UnityEngine::EventModifiers  modifiers)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StartDragArgs>(this, ___internal_method, pointerPosition, modifiers);
+}
+inline void UnityEngine::UIElements::ListViewDraggerAnimated::UpdateDrag(::UnityEngine::Vector3  pointerPosition, ::UnityEngine::EventModifiers  modifiers)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pointerPosition, modifiers);
+}
+inline void UnityEngine::UIElements::ListViewDraggerAnimated::Animate(::UnityEngine::UIElements::ReusableCollectionItem*  element, float_t  paddingTop)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(),
+                        {"Animate", {}, {::i2c::type_of<::UnityEngine::UIElements::ReusableCollectionItem*>(), ::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element, paddingTop);
+}
+inline void UnityEngine::UIElements::ListViewDraggerAnimated::OnDrop(::UnityEngine::Vector3  pointerPosition, ::UnityEngine::EventModifiers  modifiers)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pointerPosition, modifiers);
+}
+inline void UnityEngine::UIElements::ListViewDraggerAnimated::ClearDragAndDropUI(bool  dragCancelled)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dragCancelled);
+}
+inline bool UnityEngine::UIElements::ListViewDraggerAnimated::TryGetDragPosition(::UnityEngine::Vector2  pointerPosition, ::by_ref<::UnityEngine::UIElements::ListViewDragger_DragPosition>  dragPosition)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ListViewDraggerAnimated*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pointerPosition, dragPosition);
+}
+inline ::UnityEngine::UIElements::ListViewDraggerAnimated* UnityEngine::UIElements::ListViewDraggerAnimated::New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView*  listView)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ListViewDraggerAnimated*>(listView));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::ListViewDraggerAnimated::ListViewDraggerAnimated()   {
+}

@@ -1,0 +1,68 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/GraphicsBufferHandle.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(GraphicsBufferHandle)
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace UnityEngine {
+struct GraphicsBufferHandle;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::GraphicsBufferHandle);
+DEFINE_IL2CPP_CLASS(::UnityEngine::GraphicsBufferHandle, "UnityEngine", "GraphicsBufferHandle");
+// Dependencies 
+namespace UnityEngine {
+// Is value type: true
+// CS Name: UnityEngine.GraphicsBufferHandle
+struct CORDL_TYPE GraphicsBufferHandle {
+public:
+// Declarations
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>*() ;
+
+/// @brief Method Equals, addr 0x18224dfc0, size 0x70, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method Equals, addr 0x1805a82e0, size 0x20, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::GraphicsBufferHandle  other) ;
+
+/// @brief Method GetHashCode, addr 0x1805a8300, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
+
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
+constexpr ::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>* i___System__IEquatable_1___UnityEngine__GraphicsBufferHandle_() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr GraphicsBufferHandle() ;
+
+// Ctor Parameters [CppParam { name: "value", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr GraphicsBufferHandle(uint32_t  value) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10518};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+
+/// @brief Field value, offset: 0x0, size: 0x4, def value: None
+ uint32_t  value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::GraphicsBufferHandle, value) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::GraphicsBufferHandle) == 0x4, "Size mismatch!");
+
+} // namespace end def UnityEngine

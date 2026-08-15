@@ -1,0 +1,699 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ToggleButtonGroup.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__ToggleButtonGroupState_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__ToggleButtonGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Button_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ToggleButtonGroupState_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ToggleButtonGroup_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824c5770;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory* UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory::ToggleButtonGroup_UxmlFactory()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits.Init
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::Init)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x1824c5aa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::_ctor)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x1824c5ed0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::__cordl_internal_get_m_IsMultipleSelection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IsMultipleSelection;
+}
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::__cordl_internal_get_m_IsMultipleSelection() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IsMultipleSelection;
+}
+constexpr void UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::__cordl_internal_set_m_IsMultipleSelection(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_IsMultipleSelection = value;
+}
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::__cordl_internal_get_m_AllowEmptySelection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_AllowEmptySelection;
+}
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::__cordl_internal_get_m_AllowEmptySelection() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_AllowEmptySelection;
+}
+constexpr void UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::__cordl_internal_set_m_AllowEmptySelection(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_AllowEmptySelection = value;
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::Init(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, bag, cc);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits* UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::ToggleButtonGroup_UxmlTraits()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::*)(::UnityEngine::UIElements::ToggleButtonGroup*)>(&::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1824b3510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::UIElements::ToggleButtonGroup*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer.OnChildAdded
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::OnChildAdded)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824b34f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(), 139}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer.OnChildRemoved
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::OnChildRemoved)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824b3500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(), 140}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::ToggleButtonGroup*& UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::__cordl_internal_get_m_Group()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Group;
+}
+constexpr ::UnityEngine::UIElements::ToggleButtonGroup* const& UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::__cordl_internal_get_m_Group() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Group;
+}
+constexpr void UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::__cordl_internal_set_m_Group(::UnityEngine::UIElements::ToggleButtonGroup*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Group = value;
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::_ctor(::UnityEngine::UIElements::ToggleButtonGroup*  group)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::UIElements::ToggleButtonGroup*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, group);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::OnChildAdded(::UnityEngine::UIElements::VisualElement*  ve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(), 139}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::OnChildRemoved(::UnityEngine::UIElements::VisualElement*  ve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(), 140}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve);
+}
+inline ::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer* UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::New_ctor(::UnityEngine::UIElements::ToggleButtonGroup*  group)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer*>(group));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer::ToggleButtonGroup_ButtonGroupContainer()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.get_isMultipleSelection
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::get_isMultipleSelection)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824be410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"get_isMultipleSelection", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.set_isMultipleSelection
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(bool)>(&::UnityEngine::UIElements::ToggleButtonGroup::set_isMultipleSelection)> {
+  constexpr static std::size_t size = 0x2a0;
+  constexpr static std::size_t addrs = 0x1824be690;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"set_isMultipleSelection", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.get_allowEmptySelection
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::get_allowEmptySelection)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824be400;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"get_allowEmptySelection", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.set_allowEmptySelection
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(bool)>(&::UnityEngine::UIElements::ToggleButtonGroup::set_allowEmptySelection)> {
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x1824be420;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"set_allowEmptySelection", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824be030;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::StringW)>(&::UnityEngine::UIElements::ToggleButtonGroup::_ctor)> {
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x1824be040;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::StringW, ::UnityEngine::UIElements::ToggleButtonGroupState)>(&::UnityEngine::UIElements::ToggleButtonGroup::_ctor)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x1824be230;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::UIElements::ToggleButtonGroupState>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.get_contentContainer
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::get_contentContainer)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18249d640;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), 138}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.OnViewDataReady
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::OnViewDataReady)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1824bd4f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), 135}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.UpdateMixedValueContent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::UpdateMixedValueContent)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x1824bda90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), 158}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.SetValueWithoutNotify
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::ToggleButtonGroupState)>(&::UnityEngine::UIElements::ToggleButtonGroup::SetValueWithoutNotify)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x1824bd540;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), 159}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.OnButtonGroupContainerElementAdded
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::ToggleButtonGroup::OnButtonGroupContainerElementAdded)> {
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x1824bc7c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"OnButtonGroupContainerElementAdded", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.OnButtonGroupContainerElementRemoved
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::ToggleButtonGroup::OnButtonGroupContainerElementRemoved)> {
+  constexpr static std::size_t size = 0x430;
+  constexpr static std::size_t addrs = 0x1824bcb00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"OnButtonGroupContainerElementRemoved", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.UpdateButtonStates
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::ToggleButtonGroupState)>(&::UnityEngine::UIElements::ToggleButtonGroup::UpdateButtonStates)> {
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x1824bd6f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"UpdateButtonStates", {}, {::i2c::type_of<::UnityEngine::UIElements::ToggleButtonGroupState>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.OnOptionChange
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::ToggleButtonGroup::OnOptionChange)> {
+  constexpr static std::size_t size = 0x5c0;
+  constexpr static std::size_t addrs = 0x1824bcf30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"OnOptionChange", {}, {::i2c::type_of<::UnityEngine::UIElements::EventBase*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ToggleButtonGroup.UpdateButtonsStyling
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::UpdateButtonsStyling)> {
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x1824bd910;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"UpdateButtonsStyling", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_ButtonGroupContainer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ButtonGroupContainer;
+}
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_ButtonGroupContainer() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ButtonGroupContainer;
+}
+constexpr void UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_set_m_ButtonGroupContainer(::UnityEngine::UIElements::VisualElement*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ButtonGroupContainer = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_Buttons()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Buttons;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* const& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_Buttons() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Buttons;
+}
+constexpr void UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Buttons = value;
+}
+constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_EmptyLabel()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_EmptyLabel;
+}
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_EmptyLabel() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_EmptyLabel;
+}
+constexpr void UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_set_m_EmptyLabel(::UnityEngine::UIElements::VisualElement*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_EmptyLabel = value;
+}
+constexpr bool& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_IsMultipleSelection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IsMultipleSelection;
+}
+constexpr bool const& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_IsMultipleSelection() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IsMultipleSelection;
+}
+constexpr void UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_set_m_IsMultipleSelection(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_IsMultipleSelection = value;
+}
+constexpr bool& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_AllowEmptySelection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_AllowEmptySelection;
+}
+constexpr bool const& UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_get_m_AllowEmptySelection() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_AllowEmptySelection;
+}
+constexpr void UnityEngine::UIElements::ToggleButtonGroup::__cordl_internal_set_m_AllowEmptySelection(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_AllowEmptySelection = value;
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_k_MaxToggleButtonGroupMessage(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "k_MaxToggleButtonGroupMessage", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_k_MaxToggleButtonGroupMessage()  {
+return ::cordl_internals::getStaticField<::StringW, "k_MaxToggleButtonGroupMessage", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_isMultipleSelectionProperty(::UnityEngine::UIElements::BindingId  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "isMultipleSelectionProperty", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::ToggleButtonGroup::getStaticF_isMultipleSelectionProperty()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "isMultipleSelectionProperty", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_allowEmptySelectionProperty(::UnityEngine::UIElements::BindingId  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "allowEmptySelectionProperty", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::ToggleButtonGroup::getStaticF_allowEmptySelectionProperty()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "allowEmptySelectionProperty", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_ussClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_ussClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_containerUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "containerUssClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_containerUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "containerUssClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_buttonGroupClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "buttonGroupClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_buttonGroupClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "buttonGroupClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_buttonClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "buttonClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_buttonClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "buttonClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_buttonLeftClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "buttonLeftClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_buttonLeftClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "buttonLeftClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_buttonMidClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "buttonMidClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_buttonMidClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "buttonMidClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_buttonRightClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "buttonRightClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_buttonRightClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "buttonRightClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_buttonStandaloneClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "buttonStandaloneClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_buttonStandaloneClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "buttonStandaloneClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::setStaticF_emptyStateLabelClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "emptyStateLabelClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ToggleButtonGroup::getStaticF_emptyStateLabelClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "emptyStateLabelClassName", ::UnityEngine::UIElements::ToggleButtonGroup*>();
+}
+inline bool UnityEngine::UIElements::ToggleButtonGroup::get_isMultipleSelection()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"get_isMultipleSelection", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::set_isMultipleSelection(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"set_isMultipleSelection", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::ToggleButtonGroup::get_allowEmptySelection()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"get_allowEmptySelection", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::set_allowEmptySelection(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"set_allowEmptySelection", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::_ctor(::StringW  label)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, label);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::_ctor(::StringW  label, ::UnityEngine::UIElements::ToggleButtonGroupState  toggleButtonGroupState)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::UIElements::ToggleButtonGroupState>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, label, toggleButtonGroupState);
+}
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::ToggleButtonGroup::get_contentContainer()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), 138}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::OnViewDataReady()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), 135}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::UpdateMixedValueContent()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), 158}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::SetValueWithoutNotify(::UnityEngine::UIElements::ToggleButtonGroupState  newValue)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), 159}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::OnButtonGroupContainerElementAdded(::UnityEngine::UIElements::VisualElement*  ve)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"OnButtonGroupContainerElementAdded", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::OnButtonGroupContainerElementRemoved(::UnityEngine::UIElements::VisualElement*  ve)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"OnButtonGroupContainerElementRemoved", {}, {::i2c::type_of<::UnityEngine::UIElements::VisualElement*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::UpdateButtonStates(::UnityEngine::UIElements::ToggleButtonGroupState  options)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"UpdateButtonStates", {}, {::i2c::type_of<::UnityEngine::UIElements::ToggleButtonGroupState>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, options);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::OnOptionChange(::UnityEngine::UIElements::EventBase*  evt)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"OnOptionChange", {}, {::i2c::type_of<::UnityEngine::UIElements::EventBase*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::ToggleButtonGroup::UpdateButtonsStyling()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
+                        {"UpdateButtonsStyling", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ToggleButtonGroup* UnityEngine::UIElements::ToggleButtonGroup::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ToggleButtonGroup*>());
+}
+inline ::UnityEngine::UIElements::ToggleButtonGroup* UnityEngine::UIElements::ToggleButtonGroup::New_ctor(::StringW  label)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ToggleButtonGroup*>(label));
+}
+inline ::UnityEngine::UIElements::ToggleButtonGroup* UnityEngine::UIElements::ToggleButtonGroup::New_ctor(::StringW  label, ::UnityEngine::UIElements::ToggleButtonGroupState  toggleButtonGroupState)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ToggleButtonGroup*>(label, toggleButtonGroupState));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::ToggleButtonGroup::ToggleButtonGroup()   {
+}

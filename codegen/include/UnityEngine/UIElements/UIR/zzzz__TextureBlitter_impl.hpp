@@ -1,0 +1,382 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureBlitter.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
+#include "UnityEngine/zzzz__Color_impl.hpp"
+#include "UnityEngine/zzzz__RectInt_impl.hpp"
+#include "UnityEngine/zzzz__Vector2Int_impl.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
+// Ctor Parameters [CppParam { name: "src", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "srcRect", ty: "::UnityEngine::RectInt", modifiers: "", def_value: Some("{}") }, CppParam { name: "dstPos", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "border", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "tint", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo::TextureBlitter_BlitInfo(::UnityW<::UnityEngine::Texture>  src, ::UnityEngine::RectInt  srcRect, ::UnityEngine::Vector2Int  dstPos, int32_t  border, ::UnityEngine::Color  tint) noexcept  {
+this->src = src;
+this->srcRect = srcRect;
+this->dstPos = dstPos;
+this->border = border;
+this->tint = tint;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo::TextureBlitter_BlitInfo()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.get_disposed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(&::UnityEngine::UIElements::UIR::TextureBlitter::get_disposed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802fdd10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"get_disposed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.set_disposed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(bool)>(&::UnityEngine::UIElements::UIR::TextureBlitter::set_disposed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180503b70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"set_disposed", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(&::UnityEngine::UIElements::UIR::TextureBlitter::Dispose)> {
+  constexpr static std::size_t size = 0x5510;
+  constexpr static std::size_t addrs = 0x180e6eca0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(bool)>(&::UnityEngine::UIElements::UIR::TextureBlitter::Dispose)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x182447e80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(int32_t)>(&::UnityEngine::UIElements::UIR::TextureBlitter::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x182448720;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.QueueBlit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::Texture*, ::UnityEngine::RectInt, ::UnityEngine::Vector2Int, bool, ::UnityEngine::Color)>(&::UnityEngine::UIElements::UIR::TextureBlitter::QueueBlit)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x1824484f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"QueueBlit", {}, {::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::UnityEngine::RectInt>(), ::i2c::type_of<::UnityEngine::Vector2Int>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Color>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.BlitOneNow
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::RenderTexture*, ::UnityEngine::Texture*, ::UnityEngine::RectInt, ::UnityEngine::Vector2Int, bool, ::UnityEngine::Color)>(&::UnityEngine::UIElements::UIR::TextureBlitter::BlitOneNow)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x182447c30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"BlitOneNow", {}, {::i2c::type_of<::UnityEngine::RenderTexture*>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::UnityEngine::RectInt>(), ::i2c::type_of<::UnityEngine::Vector2Int>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Color>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.Commit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::RenderTexture*)>(&::UnityEngine::UIElements::UIR::TextureBlitter::Commit)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x182447d90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"Commit", {}, {::i2c::type_of<::UnityEngine::RenderTexture*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.BeginBlit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::RenderTexture*)>(&::UnityEngine::UIElements::UIR::TextureBlitter::BeginBlit)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x182447ac0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"BeginBlit", {}, {::i2c::type_of<::UnityEngine::RenderTexture*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.DoBlit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*, int32_t)>(&::UnityEngine::UIElements::UIR::TextureBlitter::DoBlit)> {
+  constexpr static std::size_t size = 0x5d0;
+  constexpr static std::size_t addrs = 0x182447ec0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"DoBlit", {}, {::i2c::type_of<::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureBlitter.EndBlit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(&::UnityEngine::UIElements::UIR::TextureBlitter::EndBlit)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x182448490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"EndBlit", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::ArrayW<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_SingleBlit()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SingleBlit;
+}
+constexpr ::ArrayW<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo> const& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_SingleBlit() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SingleBlit;
+}
+constexpr void UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_set_m_SingleBlit(::ArrayW<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_SingleBlit = value;
+}
+constexpr ::UnityW<::UnityEngine::Material>& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_BlitMaterial()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_BlitMaterial;
+}
+constexpr ::UnityW<::UnityEngine::Material> const& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_BlitMaterial() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_BlitMaterial;
+}
+constexpr void UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_set_m_BlitMaterial(::UnityW<::UnityEngine::Material>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_BlitMaterial = value;
+}
+constexpr ::UnityEngine::MaterialPropertyBlock*& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_Properties()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Properties;
+}
+constexpr ::UnityEngine::MaterialPropertyBlock* const& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_Properties() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Properties;
+}
+constexpr void UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_set_m_Properties(::UnityEngine::MaterialPropertyBlock*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Properties = value;
+}
+constexpr ::UnityEngine::RectInt& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_Viewport()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Viewport;
+}
+constexpr ::UnityEngine::RectInt const& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_Viewport() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Viewport;
+}
+constexpr void UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_set_m_Viewport(::UnityEngine::RectInt  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Viewport = value;
+}
+constexpr ::UnityW<::UnityEngine::RenderTexture>& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_PrevRT()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PrevRT;
+}
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_PrevRT() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PrevRT;
+}
+constexpr void UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_set_m_PrevRT(::UnityW<::UnityEngine::RenderTexture>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_PrevRT = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_PendingBlits()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PendingBlits;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>* const& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get_m_PendingBlits() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PendingBlits;
+}
+constexpr void UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_set_m_PendingBlits(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_PendingBlits = value;
+}
+constexpr bool& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get__disposed_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disposed_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_get__disposed_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disposed_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::UIR::TextureBlitter::__cordl_internal_set__disposed_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____disposed_k__BackingField = value;
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::setStaticF_k_TextureIds(::ArrayW<int32_t>  value)  {
+::cordl_internals::setStaticField<::ArrayW<int32_t>, "k_TextureIds", ::UnityEngine::UIElements::UIR::TextureBlitter*>(std::forward<::ArrayW<int32_t>>(value));
+}
+inline ::ArrayW<int32_t> UnityEngine::UIElements::UIR::TextureBlitter::getStaticF_k_TextureIds()  {
+return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "k_TextureIds", ::UnityEngine::UIElements::UIR::TextureBlitter*>();
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::setStaticF_s_CommitSampler(::Unity::Profiling::ProfilerMarker  value)  {
+::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "s_CommitSampler", ::UnityEngine::UIElements::UIR::TextureBlitter*>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::UIR::TextureBlitter::getStaticF_s_CommitSampler()  {
+return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "s_CommitSampler", ::UnityEngine::UIElements::UIR::TextureBlitter*>();
+}
+inline bool UnityEngine::UIElements::UIR::TextureBlitter::get_disposed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"get_disposed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::set_disposed(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"set_disposed", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::Dispose(bool  disposing)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::_ctor(int32_t  capacity)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::QueueBlit(::UnityEngine::Texture*  src, ::UnityEngine::RectInt  srcRect, ::UnityEngine::Vector2Int  dstPos, bool  addBorder, ::UnityEngine::Color  tint)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"QueueBlit", {}, {::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::UnityEngine::RectInt>(), ::i2c::type_of<::UnityEngine::Vector2Int>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Color>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, src, srcRect, dstPos, addBorder, tint);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::BlitOneNow(::UnityEngine::RenderTexture*  dst, ::UnityEngine::Texture*  src, ::UnityEngine::RectInt  srcRect, ::UnityEngine::Vector2Int  dstPos, bool  addBorder, ::UnityEngine::Color  tint)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"BlitOneNow", {}, {::i2c::type_of<::UnityEngine::RenderTexture*>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<::UnityEngine::RectInt>(), ::i2c::type_of<::UnityEngine::Vector2Int>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Color>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dst, src, srcRect, dstPos, addBorder, tint);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::Commit(::UnityEngine::RenderTexture*  dst)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"Commit", {}, {::i2c::type_of<::UnityEngine::RenderTexture*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dst);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::BeginBlit(::UnityEngine::RenderTexture*  dst)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"BeginBlit", {}, {::i2c::type_of<::UnityEngine::RenderTexture*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dst);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*  blitInfos, int32_t  startIndex)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"DoBlit", {}, {::i2c::type_of<::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, blitInfos, startIndex);
+}
+inline void UnityEngine::UIElements::UIR::TextureBlitter::EndBlit()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(),
+                        {"EndBlit", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIR::TextureBlitter* UnityEngine::UIElements::UIR::TextureBlitter::New_ctor(int32_t  capacity)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::TextureBlitter*>(capacity));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  UnityEngine::UIElements::UIR::TextureBlitter::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::TextureBlitter::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UIR::TextureBlitter::TextureBlitter()   {
+}

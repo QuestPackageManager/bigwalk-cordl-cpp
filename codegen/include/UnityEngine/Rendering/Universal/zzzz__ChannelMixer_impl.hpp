@@ -1,0 +1,194 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ChannelMixer.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__ChannelMixer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IPostProcessComponent_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ChannelMixer.IsActive
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ChannelMixer::*)()>(&::UnityEngine::Rendering::Universal::ChannelMixer::IsActive)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x1820f6570;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(),
+                        {"IsActive", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ChannelMixer.IsTileCompatible
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ChannelMixer::*)()>(&::UnityEngine::Rendering::Universal::ChannelMixer::IsTileCompatible)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(),
+                        {"IsTileCompatible", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::ChannelMixer._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ChannelMixer::*)()>(&::UnityEngine::Rendering::Universal::ChannelMixer::_ctor)> {
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x1820f66e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_redOutRedIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___redOutRedIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_redOutRedIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___redOutRedIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_redOutRedIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___redOutRedIn = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_redOutGreenIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___redOutGreenIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_redOutGreenIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___redOutGreenIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_redOutGreenIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___redOutGreenIn = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_redOutBlueIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___redOutBlueIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_redOutBlueIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___redOutBlueIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_redOutBlueIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___redOutBlueIn = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_greenOutRedIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___greenOutRedIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_greenOutRedIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___greenOutRedIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_greenOutRedIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___greenOutRedIn = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_greenOutGreenIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___greenOutGreenIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_greenOutGreenIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___greenOutGreenIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_greenOutGreenIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___greenOutGreenIn = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_greenOutBlueIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___greenOutBlueIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_greenOutBlueIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___greenOutBlueIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_greenOutBlueIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___greenOutBlueIn = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_blueOutRedIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___blueOutRedIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_blueOutRedIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___blueOutRedIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_blueOutRedIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___blueOutRedIn = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_blueOutGreenIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___blueOutGreenIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_blueOutGreenIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___blueOutGreenIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_blueOutGreenIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___blueOutGreenIn = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_blueOutBlueIn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___blueOutBlueIn;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_get_blueOutBlueIn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___blueOutBlueIn;
+}
+constexpr void UnityEngine::Rendering::Universal::ChannelMixer::__cordl_internal_set_blueOutBlueIn(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___blueOutBlueIn = value;
+}
+inline bool UnityEngine::Rendering::Universal::ChannelMixer::IsActive()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(),
+                        {"IsActive", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::ChannelMixer::IsTileCompatible()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(),
+                        {"IsTileCompatible", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::ChannelMixer::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::ChannelMixer*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::ChannelMixer* UnityEngine::Rendering::Universal::ChannelMixer::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::ChannelMixer*>());
+}
+/// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
+constexpr  UnityEngine::Rendering::Universal::ChannelMixer::operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept {
+return static_cast<::UnityEngine::Rendering::IPostProcessComponent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
+constexpr ::UnityEngine::Rendering::IPostProcessComponent* UnityEngine::Rendering::Universal::ChannelMixer::i___UnityEngine__Rendering__IPostProcessComponent() noexcept {
+return static_cast<::UnityEngine::Rendering::IPostProcessComponent*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::ChannelMixer::ChannelMixer()   {
+}

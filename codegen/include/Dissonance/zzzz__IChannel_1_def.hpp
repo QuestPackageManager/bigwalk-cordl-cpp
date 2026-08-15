@@ -1,0 +1,62 @@
+#pragma once
+// IWYU pragma private; include "Dissonance/IChannel_1.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstdint>
+CORDL_MODULE_EXPORT(IChannel_1)
+namespace Dissonance {
+class ChannelProperties;
+}
+namespace System {
+class IDisposable;
+}
+// Forward declare root types
+namespace Dissonance {
+template<typename T>
+class IChannel_1;
+}
+// Write type traits
+MARK_GEN_REF_T_PTR(::Dissonance::IChannel_1);
+DEFINE_IL2CPP_GEN_CLASS_PTR(::Dissonance::IChannel_1, "Dissonance", "IChannel`1");
+// Dependencies 
+namespace Dissonance {
+// cpp template
+template<typename T>
+// Is value type: false
+// CS Name: Dissonance.IChannel`1<T>
+class CORDL_TYPE IChannel_1 {
+public:
+// Declarations
+ __declspec(property(get=get_Properties)) ::Dissonance::ChannelProperties*  Properties;
+
+ __declspec(property(get=get_SubscriptionId)) uint16_t  SubscriptionId;
+
+ __declspec(property(get=get_TargetId)) T  TargetId;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method get_Properties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Dissonance::ChannelProperties* get_Properties() ;
+
+/// @brief Method get_SubscriptionId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline uint16_t get_SubscriptionId() ;
+
+/// @brief Method get_TargetId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline T get_TargetId() ;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+// Ctor Parameters [CppParam { name: "", ty: "IChannel_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IChannel_1(IChannel_1 const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16785};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Dissonance

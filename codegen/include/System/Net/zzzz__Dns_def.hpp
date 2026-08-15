@@ -1,0 +1,166 @@
+#pragma once
+// IWYU pragma private; include "System/Net/Dns.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__MulticastDelegate_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(Dns)
+namespace System::Net {
+class Dns_GetHostAddressesCallback;
+}
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Net {
+class IPHostEntry;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+struct IntPtr;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::Net {
+class Dns;
+}
+namespace System::Net {
+class Dns_GetHostAddressesCallback;
+}
+// Write type traits
+MARK_REF_T(::System::Net::Dns*);
+MARK_REF_T(::System::Net::Dns_GetHostAddressesCallback*);
+DEFINE_IL2CPP_CLASS(::System::Net::Dns*, "System.Net", "Dns");
+DEFINE_IL2CPP_CLASS(::System::Net::Dns_GetHostAddressesCallback*, "System.Net", "Dns/GetHostAddressesCallback");
+// Dependencies System.MulticastDelegate
+namespace System::Net {
+// Is value type: false
+// CS Name: System.Net.Dns/GetHostAddressesCallback
+class CORDL_TYPE Dns_GetHostAddressesCallback : public ::System::MulticastDelegate {
+public:
+// Declarations
+/// @brief Method BeginInvoke, addr 0x1803e3a20, size 0x30, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  hostName, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
+
+/// @brief Method EndInvoke, addr 0x1803828a0, size 0x10, virtual true, abstract: false, final false
+inline ::ArrayW<::System::Net::IPAddress*> EndInvoke(::System::IAsyncResult*  result) ;
+
+/// @brief Method Invoke, addr 0x1803e3a50, size 0x1b0, virtual true, abstract: false, final false
+inline ::ArrayW<::System::Net::IPAddress*> Invoke(::StringW  hostName) ;
+
+static inline ::System::Net::Dns_GetHostAddressesCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+
+/// @brief Method .ctor, addr 0x181b538c0, size 0x180, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Dns_GetHostAddressesCallback() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Dns_GetHostAddressesCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Dns_GetHostAddressesCallback(Dns_GetHostAddressesCallback && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Dns_GetHostAddressesCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Dns_GetHostAddressesCallback(Dns_GetHostAddressesCallback const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11991};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Net::Dns_GetHostAddressesCallback) == 0x80, "Size mismatch!");
+
+} // namespace end def System::Net
+// Dependencies System.Object
+namespace System::Net {
+// Is value type: false
+// CS Name: System.Net.Dns
+class CORDL_TYPE Dns : public ::System::Object {
+public:
+// Declarations
+using GetHostAddressesCallback = ::System::Net::Dns_GetHostAddressesCallback;
+
+/// @brief Method BeginGetHostAddresses, addr 0x181e412f0, size 0x170, virtual false, abstract: false, final false
+static inline ::System::IAsyncResult* BeginGetHostAddresses(::StringW  hostNameOrAddress, ::System::AsyncCallback*  requestCallback, ::System::Object*  state) ;
+
+/// @brief Method EndGetHostAddresses, addr 0x181e41460, size 0xa0, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Net::IPAddress*> EndGetHostAddresses(::System::IAsyncResult*  asyncResult) ;
+
+/// @brief Method Error_11001, addr 0x181e41500, size 0x60, virtual false, abstract: false, final false
+static inline void Error_11001(::StringW  hostName) ;
+
+/// @brief Method GetHostAddresses, addr 0x181e41610, size 0xd0, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Net::IPAddress*> GetHostAddresses(::StringW  hostNameOrAddress) ;
+
+/// @brief Method GetHostAddressesAsync, addr 0x181e41560, size 0xb0, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<::ArrayW<::System::Net::IPAddress*>>* GetHostAddressesAsync(::StringW  hostNameOrAddress) ;
+
+/// @brief Method GetHostByAddr_icall, addr 0x181e416e0, size 0x10, virtual false, abstract: false, final false
+static inline bool GetHostByAddr_icall(::StringW  addr, ::by_ref<::StringW>  h_name, ::by_ref<::ArrayW<::StringW>>  h_aliases, ::by_ref<::ArrayW<::StringW>>  h_addr_list, int32_t  hint) ;
+
+/// @brief Method GetHostByAddressFromString, addr 0x181e416f0, size 0xb0, virtual false, abstract: false, final false
+static inline ::System::Net::IPHostEntry* GetHostByAddressFromString(::StringW  address, bool  parse) ;
+
+/// @brief Method GetHostByName, addr 0x181e417b0, size 0x90, virtual false, abstract: false, final false
+static inline ::System::Net::IPHostEntry* GetHostByName(::StringW  hostName) ;
+
+/// @brief Method GetHostByName_icall, addr 0x181e417a0, size 0x10, virtual false, abstract: false, final false
+static inline bool GetHostByName_icall(::StringW  host, ::by_ref<::StringW>  h_name, ::by_ref<::ArrayW<::StringW>>  h_aliases, ::by_ref<::ArrayW<::StringW>>  h_addr_list, int32_t  hint) ;
+
+/// @brief Method GetHostEntry, addr 0x181e419e0, size 0xd0, virtual false, abstract: false, final false
+static inline ::System::Net::IPHostEntry* GetHostEntry(::System::Net::IPAddress*  address) ;
+
+/// @brief Method GetHostEntry, addr 0x181e41840, size 0x1a0, virtual false, abstract: false, final false
+static inline ::System::Net::IPHostEntry* GetHostEntry(::StringW  hostNameOrAddress) ;
+
+/// @brief Method GetHostName, addr 0x181e41ac0, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW GetHostName() ;
+
+/// @brief Method GetHostName_icall, addr 0x181e41ab0, size 0x10, virtual false, abstract: false, final false
+static inline bool GetHostName_icall(::by_ref<::StringW>  h_name) ;
+
+/// @brief Method hostent_to_IPHostEntry, addr 0x181e41b00, size 0x190, virtual false, abstract: false, final false
+static inline ::System::Net::IPHostEntry* hostent_to_IPHostEntry(::StringW  originalHostName, ::StringW  h_name, ::ArrayW<::StringW>  h_aliases, ::ArrayW<::StringW>  h_addrlist) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Dns() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Dns", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Dns(Dns && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Dns", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Dns(Dns const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11992};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Net::Dns) == 0x10, "Size mismatch!");
+
+} // namespace end def System::Net

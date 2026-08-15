@@ -1,0 +1,223 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/DetachedAllocator.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__DetachedAllocator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__TempAllocator_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FillGradient_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::DetachedAllocator._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(&::UnityEngine::UIElements::UIR::DetachedAllocator::_ctor)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x182423fb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::DetachedAllocator.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(&::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x182423f30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(),
+                        {"Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::DetachedAllocator.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)(bool)>(&::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x182423f70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(),
+                        {"Dispose", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_VertsPool()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_VertsPool;
+}
+constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_VertsPool() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_VertsPool;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_VertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_VertsPool = value;
+}
+constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_IndexPool()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IndexPool;
+}
+constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_IndexPool() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IndexPool;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_IndexPool(::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_IndexPool = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_MeshWriteDataPool()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_MeshWriteDataPool;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_MeshWriteDataPool() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_MeshWriteDataPool;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_MeshWriteDataPool(::System::Collections::Generic::List_1<::UnityEngine::UIElements::MeshWriteData*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_MeshWriteDataPool = value;
+}
+constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradientMeshIndices()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillGradientMeshIndices;
+}
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradientMeshIndices() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillGradientMeshIndices;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillGradientMeshIndices(::System::Collections::Generic::List_1<int32_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_FillGradientMeshIndices = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradients()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillGradients;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradients() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillGradients;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillGradients(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FillGradient>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_FillGradients = value;
+}
+constexpr int32_t& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradientDataCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillGradientDataCount;
+}
+constexpr int32_t const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillGradientDataCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillGradientDataCount;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillGradientDataCount(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_FillGradientDataCount = value;
+}
+constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextureMeshIndices()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillTextureMeshIndices;
+}
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextureMeshIndices() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillTextureMeshIndices;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillTextureMeshIndices(::System::Collections::Generic::List_1<int32_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_FillTextureMeshIndices = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>*& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextures()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillTextures;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>* const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextures() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillTextures;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillTextures(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_FillTextures = value;
+}
+constexpr int32_t& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextureDataCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillTextureDataCount;
+}
+constexpr int32_t const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_FillTextureDataCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FillTextureDataCount;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_FillTextureDataCount(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_FillTextureDataCount = value;
+}
+constexpr int32_t& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_MeshWriteDataCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_MeshWriteDataCount;
+}
+constexpr int32_t const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_MeshWriteDataCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_MeshWriteDataCount;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_MeshWriteDataCount(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_MeshWriteDataCount = value;
+}
+constexpr bool& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_Disposed()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Disposed;
+}
+constexpr bool const& UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_get_m_Disposed() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Disposed;
+}
+constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal_set_m_Disposed(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Disposed = value;
+}
+inline void UnityEngine::UIElements::UIR::DetachedAllocator::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIR::DetachedAllocator::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(),
+                        {"Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIR::DetachedAllocator::Dispose(bool  disposing)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(),
+                        {"Dispose", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
+}
+inline ::UnityEngine::UIElements::UIR::DetachedAllocator* UnityEngine::UIElements::UIR::DetachedAllocator::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::DetachedAllocator*>());
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  UnityEngine::UIElements::UIR::DetachedAllocator::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::DetachedAllocator::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UIR::DetachedAllocator::DetachedAllocator()   {
+}

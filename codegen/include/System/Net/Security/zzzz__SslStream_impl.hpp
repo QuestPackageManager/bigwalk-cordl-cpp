@@ -1,0 +1,1083 @@
+#pragma once
+// IWYU pragma private; include "System/Net/Security/SslStream.hpp"
+#include "System/Net/Security/zzzz__AuthenticatedStream_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsProvider_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
+#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Net::Security::SslStream___c__DisplayClass21_0._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream___c__DisplayClass21_0::*)()>(&::System::Net::Security::SslStream___c__DisplayClass21_0::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream___c__DisplayClass21_0*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream___c__DisplayClass21_0._SetAndVerifySelectionCallback_b__0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::System::Net::Security::SslStream___c__DisplayClass21_0::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>)>(&::System::Net::Security::SslStream___c__DisplayClass21_0::_SetAndVerifySelectionCallback_b__0)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181dae160;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream___c__DisplayClass21_0*>(),
+                        {"<SetAndVerifySelectionCallback>b__0", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::i2c::type_of<::ArrayW<::StringW>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& System::Net::Security::SslStream___c__DisplayClass21_0::__cordl_internal_get_callback()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___callback;
+}
+constexpr ::System::Net::Security::LocalCertificateSelectionCallback* const& System::Net::Security::SslStream___c__DisplayClass21_0::__cordl_internal_get_callback() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___callback;
+}
+constexpr void System::Net::Security::SslStream___c__DisplayClass21_0::__cordl_internal_set_callback(::System::Net::Security::LocalCertificateSelectionCallback*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___callback = value;
+}
+constexpr ::System::Net::Security::SslStream*& System::Net::Security::SslStream___c__DisplayClass21_0::__cordl_internal_get___4__this()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____4__this;
+}
+constexpr ::System::Net::Security::SslStream* const& System::Net::Security::SslStream___c__DisplayClass21_0::__cordl_internal_get___4__this() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____4__this;
+}
+constexpr void System::Net::Security::SslStream___c__DisplayClass21_0::__cordl_internal_set___4__this(::System::Net::Security::SslStream*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____4__this = value;
+}
+inline void System::Net::Security::SslStream___c__DisplayClass21_0::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream___c__DisplayClass21_0*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* System::Net::Security::SslStream___c__DisplayClass21_0::_SetAndVerifySelectionCallback_b__0(::StringW  t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  lc, ::System::Security::Cryptography::X509Certificates::X509Certificate*  rc, ::ArrayW<::StringW>  ai)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream___c__DisplayClass21_0*>(),
+                        {"<SetAndVerifySelectionCallback>b__0", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::i2c::type_of<::ArrayW<::StringW>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*>(this, ___internal_method, t, lc, rc, ai);
+}
+inline ::System::Net::Security::SslStream___c__DisplayClass21_0* System::Net::Security::SslStream___c__DisplayClass21_0::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Security::SslStream___c__DisplayClass21_0*>());
+}
+// Ctor Parameters []
+constexpr ::System::Net::Security::SslStream___c__DisplayClass21_0::SslStream___c__DisplayClass21_0()   {
+}
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_Impl
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileAuthenticatedStream* (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_Impl)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181dadcc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"get_Impl", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_InternalTargetHost
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_InternalTargetHost)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181dadd20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"get_InternalTargetHost", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.GetProvider
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::System::Net::Security::SslStream::GetProvider)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181dad380;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"GetProvider", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IO::Stream*, bool, ::System::Net::Security::RemoteCertificateValidationCallback*)>(&::System::Net::Security::SslStream::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181dad980;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Net::Security::RemoteCertificateValidationCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IO::Stream*, bool, ::System::Net::Security::RemoteCertificateValidationCallback*, ::System::Net::Security::LocalCertificateSelectionCallback*)>(&::System::Net::Security::SslStream::_ctor)> {
+  constexpr static std::size_t size = 0x2a0;
+  constexpr static std::size_t addrs = 0x181dad9a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Net::Security::RemoteCertificateValidationCallback*>(), ::i2c::type_of<::System::Net::Security::LocalCertificateSelectionCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IO::Stream*, bool, ::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*)>(&::System::Net::Security::SslStream::_ctor)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181dad850;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::Mono::Security::Interface::MonoTlsProvider*>(), ::i2c::type_of<::Mono::Security::Interface::MonoTlsSettings*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.SetAndVerifyValidationCallback
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(&::System::Net::Security::SslStream::SetAndVerifyValidationCallback)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181dad630;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"SetAndVerifyValidationCallback", {}, {::i2c::type_of<::System::Net::Security::RemoteCertificateValidationCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.SetAndVerifySelectionCallback
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::Net::Security::LocalCertificateSelectionCallback*)>(&::System::Net::Security::SslStream::SetAndVerifySelectionCallback)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181dad500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"SetAndVerifySelectionCallback", {}, {::i2c::type_of<::System::Net::Security::LocalCertificateSelectionCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.AuthenticateAsClient
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::StringW)>(&::System::Net::Security::SslStream::AuthenticateAsClient)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dacfe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 41}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.AuthenticateAsClient
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool)>(&::System::Net::Security::SslStream::AuthenticateAsClient)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dacf70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 42}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.BeginAuthenticateAsClient
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::Security::SslStream::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::Security::SslStream::BeginAuthenticateAsClient)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181dad0c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 43}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.EndAuthenticateAsClient
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(&::System::Net::Security::SslStream::EndAuthenticateAsClient)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1815f46a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 44}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.AuthenticateAsServer
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*, bool, ::System::Security::Authentication::SslProtocols, bool)>(&::System::Net::Security::SslStream::AuthenticateAsServer)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dad050;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 45}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.AuthenticateAsClientAsync
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Security::SslStream::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool)>(&::System::Net::Security::SslStream::AuthenticateAsClientAsync)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dacf00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 46}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_IsAuthenticated
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_IsAuthenticated)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dadd80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 40}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_LocalCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_LocalCertificate)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181dade60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 47}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_CanSeek
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanSeek)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_CanRead
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanRead)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181dadc40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_CanTimeout
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanTimeout)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181dadc70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_CanWrite
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanWrite)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181dadc90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_ReadTimeout
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_ReadTimeout)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dadf30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.set_ReadTimeout
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(int32_t)>(&::System::Net::Security::SslStream::set_ReadTimeout)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dae010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 16}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_WriteTimeout
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_WriteTimeout)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dadfa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 17}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.set_WriteTimeout
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(int32_t)>(&::System::Net::Security::SslStream::set_WriteTimeout)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dae080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 18}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_Length
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_Length)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181daddf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.get_Position
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_Position)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dadec0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.set_Position
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(int64_t)>(&::System::Net::Security::SslStream::set_Position)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181dad4d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.SetLength
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(int64_t)>(&::System::Net::Security::SslStream::SetLength)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181dad6e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 32}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.Seek
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Security::SslStream::*)(int64_t, ::System::IO::SeekOrigin)>(&::System::Net::Security::SslStream::Seek)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181dad4d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 31}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.FlushAsync
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Security::SslStream::*)(::System::Threading::CancellationToken)>(&::System::Net::Security::SslStream::FlushAsync)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181dad360;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 22}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.Flush
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::Flush)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181d38c80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 21}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.CheckDisposed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::CheckDisposed)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181dad250;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"CheckDisposed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(bool)>(&::System::Net::Security::SslStream::Dispose)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181dad2b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::Security::SslStream::Read)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181dad450;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 33}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.Write
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::Security::SslStream::Write)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181dad7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 36}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.ReadAsync
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Security::SslStream::ReadAsync)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181dad3d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 25}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.WriteAsync
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Security::SslStream::WriteAsync)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181dad750;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 29}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.BeginRead
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::Security::SslStream::BeginRead)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181dad150;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 23}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.EndRead
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(&::System::Net::Security::SslStream::EndRead)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1815f4690;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 24}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.BeginWrite
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::Security::SslStream::BeginWrite)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181dad1d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 27}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Security::SslStream.EndWrite
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(&::System::Net::Security::SslStream::EndWrite)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1815f46a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                    {::i2c::class_of<::System::Net::Security::SslStream*>(), 28}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::Mono::Net::Security::MobileTlsProvider*& System::Net::Security::SslStream::__cordl_internal_get_provider()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___provider;
+}
+constexpr ::Mono::Net::Security::MobileTlsProvider* const& System::Net::Security::SslStream::__cordl_internal_get_provider() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___provider;
+}
+constexpr void System::Net::Security::SslStream::__cordl_internal_set_provider(::Mono::Net::Security::MobileTlsProvider*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___provider = value;
+}
+constexpr ::Mono::Security::Interface::MonoTlsSettings*& System::Net::Security::SslStream::__cordl_internal_get_settings()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___settings;
+}
+constexpr ::Mono::Security::Interface::MonoTlsSettings* const& System::Net::Security::SslStream::__cordl_internal_get_settings() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___settings;
+}
+constexpr void System::Net::Security::SslStream::__cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___settings = value;
+}
+constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& System::Net::Security::SslStream::__cordl_internal_get_validationCallback()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___validationCallback;
+}
+constexpr ::System::Net::Security::RemoteCertificateValidationCallback* const& System::Net::Security::SslStream::__cordl_internal_get_validationCallback() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___validationCallback;
+}
+constexpr void System::Net::Security::SslStream::__cordl_internal_set_validationCallback(::System::Net::Security::RemoteCertificateValidationCallback*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___validationCallback = value;
+}
+constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& System::Net::Security::SslStream::__cordl_internal_get_selectionCallback()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selectionCallback;
+}
+constexpr ::System::Net::Security::LocalCertificateSelectionCallback* const& System::Net::Security::SslStream::__cordl_internal_get_selectionCallback() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selectionCallback;
+}
+constexpr void System::Net::Security::SslStream::__cordl_internal_set_selectionCallback(::System::Net::Security::LocalCertificateSelectionCallback*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___selectionCallback = value;
+}
+constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& System::Net::Security::SslStream::__cordl_internal_get_impl()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___impl;
+}
+constexpr ::Mono::Net::Security::MobileAuthenticatedStream* const& System::Net::Security::SslStream::__cordl_internal_get_impl() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___impl;
+}
+constexpr void System::Net::Security::SslStream::__cordl_internal_set_impl(::Mono::Net::Security::MobileAuthenticatedStream*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___impl = value;
+}
+constexpr bool& System::Net::Security::SslStream::__cordl_internal_get_explicitSettings()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___explicitSettings;
+}
+constexpr bool const& System::Net::Security::SslStream::__cordl_internal_get_explicitSettings() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___explicitSettings;
+}
+constexpr void System::Net::Security::SslStream::__cordl_internal_set_explicitSettings(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___explicitSettings = value;
+}
+inline ::Mono::Net::Security::MobileAuthenticatedStream* System::Net::Security::SslStream::get_Impl()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"get_Impl", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileAuthenticatedStream*>(this, ___internal_method);
+}
+inline ::StringW System::Net::Security::SslStream::get_InternalTargetHost()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"get_InternalTargetHost", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::Mono::Net::Security::MobileTlsProvider* System::Net::Security::SslStream::GetProvider()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"GetProvider", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsProvider*>(nullptr, ___internal_method);
+}
+inline void System::Net::Security::SslStream::_ctor(::System::IO::Stream*  innerStream, bool  leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback*  userCertificateValidationCallback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Net::Security::RemoteCertificateValidationCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, innerStream, leaveInnerStreamOpen, userCertificateValidationCallback);
+}
+inline void System::Net::Security::SslStream::_ctor(::System::IO::Stream*  innerStream, bool  leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback*  userCertificateValidationCallback, ::System::Net::Security::LocalCertificateSelectionCallback*  userCertificateSelectionCallback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Net::Security::RemoteCertificateValidationCallback*>(), ::i2c::type_of<::System::Net::Security::LocalCertificateSelectionCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, innerStream, leaveInnerStreamOpen, userCertificateValidationCallback, userCertificateSelectionCallback);
+}
+inline void System::Net::Security::SslStream::_ctor(::System::IO::Stream*  innerStream, bool  leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsProvider*  provider, ::Mono::Security::Interface::MonoTlsSettings*  settings)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::Mono::Security::Interface::MonoTlsProvider*>(), ::i2c::type_of<::Mono::Security::Interface::MonoTlsSettings*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, innerStream, leaveInnerStreamOpen, provider, settings);
+}
+inline void System::Net::Security::SslStream::SetAndVerifyValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback*  callback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"SetAndVerifyValidationCallback", {}, {::i2c::type_of<::System::Net::Security::RemoteCertificateValidationCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback);
+}
+inline void System::Net::Security::SslStream::SetAndVerifySelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback*  callback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"SetAndVerifySelectionCallback", {}, {::i2c::type_of<::System::Net::Security::LocalCertificateSelectionCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback);
+}
+inline void System::Net::Security::SslStream::AuthenticateAsClient(::StringW  targetHost)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 41}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, targetHost);
+}
+inline void System::Net::Security::SslStream::AuthenticateAsClient(::StringW  targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  clientCertificates, ::System::Security::Authentication::SslProtocols  enabledSslProtocols, bool  checkCertificateRevocation)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 42}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, targetHost, clientCertificates, enabledSslProtocols, checkCertificateRevocation);
+}
+inline ::System::IAsyncResult* System::Net::Security::SslStream::BeginAuthenticateAsClient(::StringW  targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  clientCertificates, ::System::Security::Authentication::SslProtocols  enabledSslProtocols, bool  checkCertificateRevocation, ::System::AsyncCallback*  asyncCallback, ::System::Object*  asyncState)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 43}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, targetHost, clientCertificates, enabledSslProtocols, checkCertificateRevocation, asyncCallback, asyncState);
+}
+inline void System::Net::Security::SslStream::EndAuthenticateAsClient(::System::IAsyncResult*  asyncResult)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 44}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, asyncResult);
+}
+inline void System::Net::Security::SslStream::AuthenticateAsServer(::System::Security::Cryptography::X509Certificates::X509Certificate*  serverCertificate, bool  clientCertificateRequired, ::System::Security::Authentication::SslProtocols  enabledSslProtocols, bool  checkCertificateRevocation)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 45}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serverCertificate, clientCertificateRequired, enabledSslProtocols, checkCertificateRevocation);
+}
+inline ::System::Threading::Tasks::Task* System::Net::Security::SslStream::AuthenticateAsClientAsync(::StringW  targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  clientCertificates, ::System::Security::Authentication::SslProtocols  enabledSslProtocols, bool  checkCertificateRevocation)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 46}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, targetHost, clientCertificates, enabledSslProtocols, checkCertificateRevocation);
+}
+inline bool System::Net::Security::SslStream::get_IsAuthenticated()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 40}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* System::Net::Security::SslStream::get_LocalCertificate()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 47}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*>(this, ___internal_method);
+}
+inline bool System::Net::Security::SslStream::get_CanSeek()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Net::Security::SslStream::get_CanRead()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Net::Security::SslStream::get_CanTimeout()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Net::Security::SslStream::get_CanWrite()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline int32_t System::Net::Security::SslStream::get_ReadTimeout()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void System::Net::Security::SslStream::set_ReadTimeout(int32_t  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 16}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline int32_t System::Net::Security::SslStream::get_WriteTimeout()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 17}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void System::Net::Security::SslStream::set_WriteTimeout(int32_t  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 18}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline int64_t System::Net::Security::SslStream::get_Length()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method);
+}
+inline int64_t System::Net::Security::SslStream::get_Position()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method);
+}
+inline void System::Net::Security::SslStream::set_Position(int64_t  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void System::Net::Security::SslStream::SetLength(int64_t  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 32}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline int64_t System::Net::Security::SslStream::Seek(int64_t  offset, ::System::IO::SeekOrigin  origin)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 31}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method, offset, origin);
+}
+inline ::System::Threading::Tasks::Task* System::Net::Security::SslStream::FlushAsync(::System::Threading::CancellationToken  cancellationToken)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 22}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, cancellationToken);
+}
+inline void System::Net::Security::SslStream::Flush()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 21}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Net::Security::SslStream::CheckDisposed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::Security::SslStream*>(),
+                        {"CheckDisposed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Net::Security::SslStream::Dispose(bool  disposing)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
+}
+inline int32_t System::Net::Security::SslStream::Read(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  count)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 33}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, offset, count);
+}
+inline void System::Net::Security::SslStream::Write(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  count)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 36}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, offset, count);
+}
+inline ::System::Threading::Tasks::Task_1<int32_t>* System::Net::Security::SslStream::ReadAsync(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  count, ::System::Threading::CancellationToken  cancellationToken)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 25}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<int32_t>*>(this, ___internal_method, buffer, offset, count, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task* System::Net::Security::SslStream::WriteAsync(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  count, ::System::Threading::CancellationToken  cancellationToken)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 29}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, buffer, offset, count, cancellationToken);
+}
+inline ::System::IAsyncResult* System::Net::Security::SslStream::BeginRead(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  count, ::System::AsyncCallback*  callback, ::System::Object*  state)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 23}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, buffer, offset, count, callback, state);
+}
+inline int32_t System::Net::Security::SslStream::EndRead(::System::IAsyncResult*  asyncResult)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 24}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, asyncResult);
+}
+inline ::System::IAsyncResult* System::Net::Security::SslStream::BeginWrite(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  count, ::System::AsyncCallback*  callback, ::System::Object*  state)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 27}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, buffer, offset, count, callback, state);
+}
+inline void System::Net::Security::SslStream::EndWrite(::System::IAsyncResult*  asyncResult)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::Security::SslStream*>(), 28}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, asyncResult);
+}
+inline ::System::Net::Security::SslStream* System::Net::Security::SslStream::New_ctor(::System::IO::Stream*  innerStream, bool  leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback*  userCertificateValidationCallback)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Security::SslStream*>(innerStream, leaveInnerStreamOpen, userCertificateValidationCallback));
+}
+inline ::System::Net::Security::SslStream* System::Net::Security::SslStream::New_ctor(::System::IO::Stream*  innerStream, bool  leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback*  userCertificateValidationCallback, ::System::Net::Security::LocalCertificateSelectionCallback*  userCertificateSelectionCallback)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Security::SslStream*>(innerStream, leaveInnerStreamOpen, userCertificateValidationCallback, userCertificateSelectionCallback));
+}
+inline ::System::Net::Security::SslStream* System::Net::Security::SslStream::New_ctor(::System::IO::Stream*  innerStream, bool  leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsProvider*  provider, ::Mono::Security::Interface::MonoTlsSettings*  settings)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Security::SslStream*>(innerStream, leaveInnerStreamOpen, provider, settings));
+}
+// Ctor Parameters []
+constexpr ::System::Net::Security::SslStream::SslStream()   {
+}

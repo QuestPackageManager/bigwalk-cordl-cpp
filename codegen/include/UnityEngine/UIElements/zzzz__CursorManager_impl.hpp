@@ -1,0 +1,142 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/CursorManager.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__CursorManager_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Cursor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ICursorManager_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::CursorManager.get_isCursorOverriden
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::CursorManager::*)()>(&::UnityEngine::UIElements::CursorManager::get_isCursorOverriden)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180392490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {"get_isCursorOverriden", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CursorManager.set_isCursorOverriden
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)(bool)>(&::UnityEngine::UIElements::CursorManager::set_isCursorOverriden)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803924a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {"set_isCursorOverriden", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CursorManager.SetCursor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)(::UnityEngine::UIElements::Cursor)>(&::UnityEngine::UIElements::CursorManager::SetCursor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1824b3750;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {"SetCursor", {}, {::i2c::type_of<::UnityEngine::UIElements::Cursor>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CursorManager.ResetCursor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)()>(&::UnityEngine::UIElements::CursorManager::ResetCursor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1824b3710;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {"ResetCursor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CursorManager._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CursorManager::*)()>(&::UnityEngine::UIElements::CursorManager::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr bool& UnityEngine::UIElements::CursorManager::__cordl_internal_get__isCursorOverriden_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isCursorOverriden_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::CursorManager::__cordl_internal_get__isCursorOverriden_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isCursorOverriden_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::CursorManager::__cordl_internal_set__isCursorOverriden_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isCursorOverriden_k__BackingField = value;
+}
+inline bool UnityEngine::UIElements::CursorManager::get_isCursorOverriden()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {"get_isCursorOverriden", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::CursorManager::set_isCursorOverriden(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {"set_isCursorOverriden", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::CursorManager::SetCursor(::UnityEngine::UIElements::Cursor  cursor)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {"SetCursor", {}, {::i2c::type_of<::UnityEngine::UIElements::Cursor>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cursor);
+}
+inline void UnityEngine::UIElements::CursorManager::ResetCursor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {"ResetCursor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::CursorManager::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::CursorManager*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::CursorManager* UnityEngine::UIElements::CursorManager::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::CursorManager*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::ICursorManager"
+constexpr  UnityEngine::UIElements::CursorManager::operator ::UnityEngine::UIElements::ICursorManager*() noexcept {
+return static_cast<::UnityEngine::UIElements::ICursorManager*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::ICursorManager"
+constexpr ::UnityEngine::UIElements::ICursorManager* UnityEngine::UIElements::CursorManager::i___UnityEngine__UIElements__ICursorManager() noexcept {
+return static_cast<::UnityEngine::UIElements::ICursorManager*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::CursorManager::CursorManager()   {
+}

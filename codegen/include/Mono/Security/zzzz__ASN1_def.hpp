@@ -1,0 +1,132 @@
+#pragma once
+// IWYU pragma private; include "Mono/Security/ASN1.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(ASN1)
+namespace System::Collections {
+class ArrayList;
+}
+// Forward declare root types
+namespace Mono::Security {
+class ASN1;
+}
+// Write type traits
+MARK_REF_T(::Mono::Security::ASN1*);
+DEFINE_IL2CPP_CLASS(::Mono::Security::ASN1*, "Mono.Security", "ASN1");
+// Dependencies System.Object
+namespace Mono::Security {
+// Is value type: false
+// CS Name: Mono.Security.ASN1
+class CORDL_TYPE ASN1 : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
+
+ __declspec(property(get=get_Value)) ::ArrayW<uint8_t>  Value;
+
+/// @brief Field elist, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_elist, put=__cordl_internal_set_elist)) ::System::Collections::ArrayList*  elist;
+
+/// @brief Field m_aValue, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_aValue, put=__cordl_internal_set_m_aValue)) ::ArrayW<uint8_t>  m_aValue;
+
+/// @brief Field m_nTag, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_nTag, put=__cordl_internal_set_m_nTag)) uint8_t  m_nTag;
+
+/// @brief Method Add, addr 0x1815bf8d0, size 0x80, virtual false, abstract: false, final false
+inline ::Mono::Security::ASN1* Add(::Mono::Security::ASN1*  asn1) ;
+
+/// @brief Method Decode, addr 0x1815bfa20, size 0x170, virtual false, abstract: false, final false
+inline void Decode(::ArrayW<uint8_t>  asn1, ::by_ref<int32_t>  anPos, int32_t  anLength) ;
+
+/// @brief Method DecodeTLV, addr 0x1815bf950, size 0xd0, virtual false, abstract: false, final false
+inline void DecodeTLV(::ArrayW<uint8_t>  asn1, ::by_ref<int32_t>  pos, ::by_ref<uint8_t>  tag, ::by_ref<int32_t>  length, ::by_ref<::ArrayW<uint8_t>>  content) ;
+
+/// @brief Method GetBytes, addr 0x1815bfb90, size 0x580, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t> GetBytes() ;
+
+static inline ::Mono::Security::ASN1* New_ctor(::ArrayW<uint8_t>  data) ;
+
+static inline ::Mono::Security::ASN1* New_ctor(uint8_t  tag) ;
+
+static inline ::Mono::Security::ASN1* New_ctor(uint8_t  tag, ::ArrayW<uint8_t>  data) ;
+
+/// @brief Method ToString, addr 0x1815c0110, size 0x280, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
+
+constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_elist() const;
+
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_elist() ;
+
+constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_m_aValue() const;
+
+constexpr ::ArrayW<uint8_t>& __cordl_internal_get_m_aValue() ;
+
+constexpr uint8_t const& __cordl_internal_get_m_nTag() const;
+
+constexpr uint8_t& __cordl_internal_get_m_nTag() ;
+
+constexpr void __cordl_internal_set_elist(::System::Collections::ArrayList*  value) ;
+
+constexpr void __cordl_internal_set_m_aValue(::ArrayW<uint8_t>  value) ;
+
+constexpr void __cordl_internal_set_m_nTag(uint8_t  value) ;
+
+/// @brief Method .ctor, addr 0x1815c0390, size 0x100, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t>  data) ;
+
+/// @brief Method .ctor, addr 0x18159ac60, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(uint8_t  tag) ;
+
+/// @brief Method .ctor, addr 0x18159ac80, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(uint8_t  tag, ::ArrayW<uint8_t>  data) ;
+
+/// @brief Method get_Count, addr 0x18159aca0, size 0x30, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
+
+/// @brief Method get_Value, addr 0x1815c0490, size 0x70, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t> get_Value() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ASN1() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ASN1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ASN1(ASN1 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ASN1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ASN1(ASN1 const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{92};
+
+/// @brief Field m_nTag, offset: 0x10, size: 0x1, def value: None
+ uint8_t  ___m_nTag;
+
+/// @brief Field m_aValue, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t>  ___m_aValue;
+
+/// @brief Field elist, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___elist;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::Mono::Security::ASN1, ___m_nTag) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::ASN1, ___m_aValue) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::Mono::Security::ASN1, ___elist) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::Mono::Security::ASN1) == 0x28, "Size mismatch!");
+
+} // namespace end def Mono::Security

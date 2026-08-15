@@ -1,0 +1,503 @@
+#pragma once
+// IWYU pragma private; include "System/ValueTuple.hpp"
+#include "System/zzzz__ValueTuple_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+//  Writing Method size for method: ::System::ValueTuple.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ValueTuple::*)(::System::Object*)>(&::System::ValueTuple::Equals)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18172d340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ValueTuple>(),
+                    {::i2c::class_of<::System::ValueTuple>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ValueTuple::*)(::System::ValueTuple)>(&::System::ValueTuple::Equals)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"Equals", {}, {::i2c::type_of<::System::ValueTuple>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.System_Collections_IStructuralEquatable_Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ValueTuple::*)(::System::Object*, ::System::Collections::IEqualityComparer*)>(&::System::ValueTuple::System_Collections_IStructuralEquatable_Equals)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18172d340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.Collections.IStructuralEquatable.Equals", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Collections::IEqualityComparer*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.System_IComparable_CompareTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::Object*)>(&::System::ValueTuple::System_IComparable_CompareTo)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x18172d370;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.IComparable.CompareTo", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.CompareTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::ValueTuple)>(&::System::ValueTuple::CompareTo)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CompareTo", {}, {::i2c::type_of<::System::ValueTuple>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.System_Collections_IStructuralComparable_CompareTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::Object*, ::System::Collections::IComparer*)>(&::System::ValueTuple::System_Collections_IStructuralComparable_CompareTo)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x18172d370;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.Collections.IStructuralComparable.CompareTo", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Collections::IComparer*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)()>(&::System::ValueTuple::GetHashCode)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ValueTuple>(),
+                    {::i2c::class_of<::System::ValueTuple>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.System_Collections_IStructuralEquatable_GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::Collections::IEqualityComparer*)>(&::System::ValueTuple::System_Collections_IStructuralEquatable_GetHashCode)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.Collections.IStructuralEquatable.GetHashCode", {}, {::i2c::type_of<::System::Collections::IEqualityComparer*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.System_IValueTupleInternal_GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::Collections::IEqualityComparer*)>(&::System::ValueTuple::System_IValueTupleInternal_GetHashCode)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.IValueTupleInternal.GetHashCode", {}, {::i2c::type_of<::System::Collections::IEqualityComparer*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ValueTuple::*)()>(&::System::ValueTuple::ToString)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18172d460;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ValueTuple>(),
+                    {::i2c::class_of<::System::ValueTuple>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.System_IValueTupleInternal_ToStringEnd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ValueTuple::*)()>(&::System::ValueTuple::System_IValueTupleInternal_ToStringEnd)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18172d440;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.IValueTupleInternal.ToStringEnd", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.System_Runtime_CompilerServices_ITuple_get_Length
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)()>(&::System::ValueTuple::System_Runtime_CompilerServices_ITuple_get_Length)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.Runtime.CompilerServices.ITuple.get_Length", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.CombineHashCodes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18172cf10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.CombineHashCodes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18172d200;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.CombineHashCodes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18172d170;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.CombineHashCodes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x18172cf70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.CombineHashCodes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18172d010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.CombineHashCodes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18172d0c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ValueTuple.CombineHashCodes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x18172d270;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline bool System::ValueTuple::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ValueTuple>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline bool System::ValueTuple::Equals(::System::ValueTuple  other)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"Equals", {}, {::i2c::type_of<::System::ValueTuple>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool System::ValueTuple::System_Collections_IStructuralEquatable_Equals(::System::Object*  other, ::System::Collections::IEqualityComparer*  comparer)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.Collections.IStructuralEquatable.Equals", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Collections::IEqualityComparer*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other, comparer);
+}
+inline int32_t System::ValueTuple::System_IComparable_CompareTo(::System::Object*  other)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.IComparable.CompareTo", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
+}
+inline int32_t System::ValueTuple::CompareTo(::System::ValueTuple  other)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CompareTo", {}, {::i2c::type_of<::System::ValueTuple>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
+}
+inline int32_t System::ValueTuple::System_Collections_IStructuralComparable_CompareTo(::System::Object*  other, ::System::Collections::IComparer*  comparer)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.Collections.IStructuralComparable.CompareTo", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Collections::IComparer*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other, comparer);
+}
+inline int32_t System::ValueTuple::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ValueTuple>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline int32_t System::ValueTuple::System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer*  comparer)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.Collections.IStructuralEquatable.GetHashCode", {}, {::i2c::type_of<::System::Collections::IEqualityComparer*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, comparer);
+}
+inline int32_t System::ValueTuple::System_IValueTupleInternal_GetHashCode(::System::Collections::IEqualityComparer*  comparer)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.IValueTupleInternal.GetHashCode", {}, {::i2c::type_of<::System::Collections::IEqualityComparer*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, comparer);
+}
+inline ::StringW System::ValueTuple::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ValueTuple>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline ::StringW System::ValueTuple::System_IValueTupleInternal_ToStringEnd()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.IValueTupleInternal.ToStringEnd", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline int32_t System::ValueTuple::System_Runtime_CompilerServices_ITuple_get_Length()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"System.Runtime.CompilerServices.ITuple.get_Length", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+template<typename T1,typename T2>
+inline ::System::ValueTuple_2<T1,T2> System::ValueTuple::Create(T1  item1, T2  item2)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::ValueTuple>(),
+                    {"Create", {::i2c::class_of<T1>(), ::i2c::class_of<T2>()}, {::i2c::type_of<T1>(), ::i2c::type_of<T2>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<T1>(), ::i2c::class_of<T2>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<T1,T2>>(nullptr, ___internal_method, item1, item2);
+}
+inline int32_t System::ValueTuple::CombineHashCodes(int32_t  h1, int32_t  h2)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, h1, h2);
+}
+inline int32_t System::ValueTuple::CombineHashCodes(int32_t  h1, int32_t  h2, int32_t  h3)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, h1, h2, h3);
+}
+inline int32_t System::ValueTuple::CombineHashCodes(int32_t  h1, int32_t  h2, int32_t  h3, int32_t  h4)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, h1, h2, h3, h4);
+}
+inline int32_t System::ValueTuple::CombineHashCodes(int32_t  h1, int32_t  h2, int32_t  h3, int32_t  h4, int32_t  h5)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, h1, h2, h3, h4, h5);
+}
+inline int32_t System::ValueTuple::CombineHashCodes(int32_t  h1, int32_t  h2, int32_t  h3, int32_t  h4, int32_t  h5, int32_t  h6)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, h1, h2, h3, h4, h5, h6);
+}
+inline int32_t System::ValueTuple::CombineHashCodes(int32_t  h1, int32_t  h2, int32_t  h3, int32_t  h4, int32_t  h5, int32_t  h6, int32_t  h7)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, h1, h2, h3, h4, h5, h6, h7);
+}
+inline int32_t System::ValueTuple::CombineHashCodes(int32_t  h1, int32_t  h2, int32_t  h3, int32_t  h4, int32_t  h5, int32_t  h6, int32_t  h7, int32_t  h8)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ValueTuple>(),
+                        {"CombineHashCodes", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, h1, h2, h3, h4, h5, h6, h7, h8);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple>"
+constexpr  System::ValueTuple::operator ::System::IEquatable_1<::System::ValueTuple>*()  {
+return static_cast<::System::IEquatable_1<::System::ValueTuple>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::ValueTuple>"
+constexpr ::System::IEquatable_1<::System::ValueTuple>* System::ValueTuple::i___System__IEquatable_1___System__ValueTuple_()  {
+return static_cast<::System::IEquatable_1<::System::ValueTuple>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::Collections::IStructuralEquatable"
+constexpr  System::ValueTuple::operator ::System::Collections::IStructuralEquatable*()  {
+return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Collections::IStructuralEquatable"
+constexpr ::System::Collections::IStructuralEquatable* System::ValueTuple::i___System__Collections__IStructuralEquatable()  {
+return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::Collections::IStructuralComparable"
+constexpr  System::ValueTuple::operator ::System::Collections::IStructuralComparable*()  {
+return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Collections::IStructuralComparable"
+constexpr ::System::Collections::IStructuralComparable* System::ValueTuple::i___System__Collections__IStructuralComparable()  {
+return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IComparable"
+constexpr  System::ValueTuple::operator ::System::IComparable*()  {
+return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IComparable"
+constexpr ::System::IComparable* System::ValueTuple::i___System__IComparable()  {
+return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IComparable_1<::System::ValueTuple>"
+constexpr  System::ValueTuple::operator ::System::IComparable_1<::System::ValueTuple>*()  {
+return static_cast<::System::IComparable_1<::System::ValueTuple>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IComparable_1<::System::ValueTuple>"
+constexpr ::System::IComparable_1<::System::ValueTuple>* System::ValueTuple::i___System__IComparable_1___System__ValueTuple_()  {
+return static_cast<::System::IComparable_1<::System::ValueTuple>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IValueTupleInternal"
+constexpr  System::ValueTuple::operator ::System::IValueTupleInternal*()  {
+return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IValueTupleInternal"
+constexpr ::System::IValueTupleInternal* System::ValueTuple::i___System__IValueTupleInternal()  {
+return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
+constexpr  System::ValueTuple::operator ::System::Runtime::CompilerServices::ITuple*()  {
+return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+constexpr ::System::Runtime::CompilerServices::ITuple* System::ValueTuple::i___System__Runtime__CompilerServices__ITuple()  {
+return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters []
+constexpr ::System::ValueTuple::ValueTuple()   {
+}

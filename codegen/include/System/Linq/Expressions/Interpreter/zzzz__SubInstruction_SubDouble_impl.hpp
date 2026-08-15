@@ -1,0 +1,55 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/SubInstruction_SubDouble.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__SubInstruction_impl.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__SubInstruction_SubDouble_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::SubInstruction_SubDouble.Run
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SubInstruction_SubDouble::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::SubInstruction_SubDouble::Run)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x181b312c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::SubInstruction_SubDouble*>(),
+                    {::i2c::class_of<::GlobalNamespace::SubInstruction_SubDouble*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SubInstruction_SubDouble._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SubInstruction_SubDouble::*)()>(&::GlobalNamespace::SubInstruction_SubDouble::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::SubInstruction_SubDouble*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline int32_t GlobalNamespace::SubInstruction_SubDouble::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::SubInstruction_SubDouble*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
+}
+inline void GlobalNamespace::SubInstruction_SubDouble::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::SubInstruction_SubDouble*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SubInstruction_SubDouble* GlobalNamespace::SubInstruction_SubDouble::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SubInstruction_SubDouble*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::SubInstruction_SubDouble::SubInstruction_SubDouble()   {
+}

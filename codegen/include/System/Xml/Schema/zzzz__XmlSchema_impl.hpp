@@ -1,0 +1,1529 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchema.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_impl.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaForm_impl.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaObject_impl.hpp"
+#include "System/Xml/zzzz__XmlAttribute_impl.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchema_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__ValidationEventHandler_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaAnnotation_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaCollection_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaCompilationSettings_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaForm_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaObjectTable_def.hpp"
+#include "System/Xml/zzzz__XmlAttribute_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::_ctor)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x181c9cff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (*)(::System::Xml::XmlReader*, ::System::Xml::Schema::ValidationEventHandler*)>(&::System::Xml::Schema::XmlSchema::Read)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x181c9ceb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"Read", {}, {::i2c::type_of<::System::Xml::XmlReader*>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.CompileSchema
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchema::*)(::System::Xml::Schema::XmlSchemaCollection*, ::System::Xml::XmlResolver*, ::System::Xml::Schema::SchemaInfo*, ::StringW, ::System::Xml::Schema::ValidationEventHandler*, ::System::Xml::XmlNameTable*, bool)>(&::System::Xml::Schema::XmlSchema::CompileSchema)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181c9c810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"CompileSchema", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaCollection*>(), ::i2c::type_of<::System::Xml::XmlResolver*>(), ::i2c::type_of<::System::Xml::Schema::SchemaInfo*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>(), ::i2c::type_of<::System::Xml::XmlNameTable*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.CompileSchemaInSet
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::System::Xml::XmlNameTable*, ::System::Xml::Schema::ValidationEventHandler*, ::System::Xml::Schema::XmlSchemaCompilationSettings*)>(&::System::Xml::Schema::XmlSchema::CompileSchemaInSet)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181c9c780;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"CompileSchemaInSet", {}, {::i2c::type_of<::System::Xml::XmlNameTable*>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaCompilationSettings*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_AttributeFormDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaForm (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_AttributeFormDefault)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180392fe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_AttributeFormDefault", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_AttributeFormDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::System::Xml::Schema::XmlSchemaForm)>(&::System::Xml::Schema::XmlSchema::set_AttributeFormDefault)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180393000;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_AttributeFormDefault", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaForm>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_BlockDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaDerivationMethod (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_BlockDefault)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803eb0e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_BlockDefault", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_BlockDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::System::Xml::Schema::XmlSchemaDerivationMethod)>(&::System::Xml::Schema::XmlSchema::set_BlockDefault)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180511530;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_BlockDefault", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaDerivationMethod>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_FinalDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaDerivationMethod (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_FinalDefault)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180511540;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_FinalDefault", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_FinalDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::System::Xml::Schema::XmlSchemaDerivationMethod)>(&::System::Xml::Schema::XmlSchema::set_FinalDefault)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180511580;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_FinalDefault", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaDerivationMethod>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_ElementFormDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaForm (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_ElementFormDefault)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803231b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_ElementFormDefault", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_ElementFormDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::System::Xml::Schema::XmlSchemaForm)>(&::System::Xml::Schema::XmlSchema::set_ElementFormDefault)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180323270;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_ElementFormDefault", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaForm>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_TargetNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_TargetNamespace)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e58c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_TargetNamespace", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_TargetNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::StringW)>(&::System::Xml::Schema::XmlSchema::set_TargetNamespace)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e5e30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_TargetNamespace", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Version
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Version)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e0b30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Version", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_Version
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::StringW)>(&::System::Xml::Schema::XmlSchema::set_Version)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180308de0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_Version", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Includes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Includes)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e75e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Includes", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Items
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Items)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803a74d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Items", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_IsCompiledBySet
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_IsCompiledBySet)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18048f650;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IsCompiledBySet", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_IsCompiledBySet
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(bool)>(&::System::Xml::Schema::XmlSchema::set_IsCompiledBySet)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1805d6e00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_IsCompiledBySet", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_IsPreprocessed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_IsPreprocessed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181b87e60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IsPreprocessed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_IsPreprocessed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(bool)>(&::System::Xml::Schema::XmlSchema::set_IsPreprocessed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181b88060;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_IsPreprocessed", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_IsRedefined
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_IsRedefined)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181c9ae70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IsRedefined", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_IsRedefined
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(bool)>(&::System::Xml::Schema::XmlSchema::set_IsRedefined)> {
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x181c9d510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_IsRedefined", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Attributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Attributes)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181c9d230;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Attributes", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_AttributeGroups
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_AttributeGroups)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181c9d1c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_AttributeGroups", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_SchemaTypes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_SchemaTypes)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181c9d4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_SchemaTypes", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Elements
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Elements)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181c9d310;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Elements", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Id
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Id)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e5710;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Id", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_Id
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::StringW)>(&::System::Xml::Schema::XmlSchema::set_Id)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e5a20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_Id", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Groups
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Groups)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ec4d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Groups", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Notations
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Notations)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180322750;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Notations", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_IdentityConstraints
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectTable* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_IdentityConstraints)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180322760;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IdentityConstraints", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_BaseUri
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_BaseUri)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803b2f10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_BaseUri", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_BaseUri
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::System::Uri*)>(&::System::Xml::Schema::XmlSchema::set_BaseUri)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1813fdbb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_BaseUri", {}, {::i2c::type_of<::System::Uri*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_SchemaId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_SchemaId)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181c9d460;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_SchemaId", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_IsChameleon
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_IsChameleon)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1805e8f80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IsChameleon", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_IsChameleon
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(bool)>(&::System::Xml::Schema::XmlSchema::set_IsChameleon)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1805e90d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_IsChameleon", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Ids
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Ids)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803459d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Ids", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_Document
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDocument* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_Document)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181c9d2a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Document", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_ErrorCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_ErrorCount)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180371740;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_ErrorCount", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_ErrorCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(int32_t)>(&::System::Xml::Schema::XmlSchema::set_ErrorCount)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18154a190;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_ErrorCount", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.Clone
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::Clone)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181c9c690;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"Clone", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.DeepClone
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::DeepClone)> {
+  constexpr static std::size_t size = 0x380;
+  constexpr static std::size_t addrs = 0x181c9c9a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"DeepClone", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_IdAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_IdAttribute)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e5710;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlSchema*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.set_IdAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::StringW)>(&::System::Xml::Schema::XmlSchema::set_IdAttribute)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e5a20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlSchema*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.SetIsCompiled
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(bool)>(&::System::Xml::Schema::XmlSchema::SetIsCompiled)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803cf510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"SetIsCompiled", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.SetUnhandledAttributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::ArrayW<::System::Xml::XmlAttribute*>)>(&::System::Xml::Schema::XmlSchema::SetUnhandledAttributes)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803d5ad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlSchema*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.AddAnnotation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::System::Xml::Schema::XmlSchemaAnnotation*)>(&::System::Xml::Schema::XmlSchema::AddAnnotation)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181c9c660;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlSchema*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_ImportedSchemas
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_ImportedSchemas)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181c9d3f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_ImportedSchemas", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.get_ImportedNamespaces
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::XmlSchema::*)()>(&::System::Xml::Schema::XmlSchema::get_ImportedNamespaces)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181c9d380;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_ImportedNamespaces", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchema.GetExternalSchemasList
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchema::*)(::System::Collections::IList*, ::System::Xml::Schema::XmlSchema*)>(&::System::Xml::Schema::XmlSchema::GetExternalSchemasList)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181c9cd20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"GetExternalSchemasList", {}, {::i2c::type_of<::System::Collections::IList*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchema*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Xml::Schema::XmlSchemaForm& System::Xml::Schema::XmlSchema::__cordl_internal_get_attributeFormDefault()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeFormDefault;
+}
+constexpr ::System::Xml::Schema::XmlSchemaForm const& System::Xml::Schema::XmlSchema::__cordl_internal_get_attributeFormDefault() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeFormDefault;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_attributeFormDefault(::System::Xml::Schema::XmlSchemaForm  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___attributeFormDefault = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaForm& System::Xml::Schema::XmlSchema::__cordl_internal_get_elementFormDefault()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___elementFormDefault;
+}
+constexpr ::System::Xml::Schema::XmlSchemaForm const& System::Xml::Schema::XmlSchema::__cordl_internal_get_elementFormDefault() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___elementFormDefault;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_elementFormDefault(::System::Xml::Schema::XmlSchemaForm  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___elementFormDefault = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& System::Xml::Schema::XmlSchema::__cordl_internal_get_blockDefault()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___blockDefault;
+}
+constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& System::Xml::Schema::XmlSchema::__cordl_internal_get_blockDefault() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___blockDefault;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_blockDefault(::System::Xml::Schema::XmlSchemaDerivationMethod  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___blockDefault = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& System::Xml::Schema::XmlSchema::__cordl_internal_get_finalDefault()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___finalDefault;
+}
+constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& System::Xml::Schema::XmlSchema::__cordl_internal_get_finalDefault() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___finalDefault;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_finalDefault(::System::Xml::Schema::XmlSchemaDerivationMethod  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___finalDefault = value;
+}
+constexpr ::StringW& System::Xml::Schema::XmlSchema::__cordl_internal_get_targetNs()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___targetNs;
+}
+constexpr ::StringW const& System::Xml::Schema::XmlSchema::__cordl_internal_get_targetNs() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___targetNs;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_targetNs(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___targetNs = value;
+}
+constexpr ::StringW& System::Xml::Schema::XmlSchema::__cordl_internal_get_version()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___version;
+}
+constexpr ::StringW const& System::Xml::Schema::XmlSchema::__cordl_internal_get_version() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___version;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_version(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___version = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& System::Xml::Schema::XmlSchema::__cordl_internal_get_includes()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___includes;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_includes() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___includes;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_includes(::System::Xml::Schema::XmlSchemaObjectCollection*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___includes = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& System::Xml::Schema::XmlSchema::__cordl_internal_get_items()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___items;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_items() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___items;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_items(::System::Xml::Schema::XmlSchemaObjectCollection*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___items = value;
+}
+constexpr ::StringW& System::Xml::Schema::XmlSchema::__cordl_internal_get_id()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___id;
+}
+constexpr ::StringW const& System::Xml::Schema::XmlSchema::__cordl_internal_get_id() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___id;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_id(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___id = value;
+}
+constexpr ::ArrayW<::System::Xml::XmlAttribute*>& System::Xml::Schema::XmlSchema::__cordl_internal_get_moreAttributes()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___moreAttributes;
+}
+constexpr ::ArrayW<::System::Xml::XmlAttribute*> const& System::Xml::Schema::XmlSchema::__cordl_internal_get_moreAttributes() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___moreAttributes;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_moreAttributes(::ArrayW<::System::Xml::XmlAttribute*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___moreAttributes = value;
+}
+constexpr bool& System::Xml::Schema::XmlSchema::__cordl_internal_get_isCompiled()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isCompiled;
+}
+constexpr bool const& System::Xml::Schema::XmlSchema::__cordl_internal_get_isCompiled() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isCompiled;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_isCompiled(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___isCompiled = value;
+}
+constexpr bool& System::Xml::Schema::XmlSchema::__cordl_internal_get_isCompiledBySet()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isCompiledBySet;
+}
+constexpr bool const& System::Xml::Schema::XmlSchema::__cordl_internal_get_isCompiledBySet() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isCompiledBySet;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_isCompiledBySet(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___isCompiledBySet = value;
+}
+constexpr bool& System::Xml::Schema::XmlSchema::__cordl_internal_get_isPreprocessed()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isPreprocessed;
+}
+constexpr bool const& System::Xml::Schema::XmlSchema::__cordl_internal_get_isPreprocessed() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isPreprocessed;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_isPreprocessed(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___isPreprocessed = value;
+}
+constexpr bool& System::Xml::Schema::XmlSchema::__cordl_internal_get_isRedefined()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isRedefined;
+}
+constexpr bool const& System::Xml::Schema::XmlSchema::__cordl_internal_get_isRedefined() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isRedefined;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_isRedefined(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___isRedefined = value;
+}
+constexpr int32_t& System::Xml::Schema::XmlSchema::__cordl_internal_get_errorCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___errorCount;
+}
+constexpr int32_t const& System::Xml::Schema::XmlSchema::__cordl_internal_get_errorCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___errorCount;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_errorCount(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___errorCount = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::XmlSchema::__cordl_internal_get_attributes()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributes;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_attributes() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributes;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_attributes(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___attributes = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::XmlSchema::__cordl_internal_get_attributeGroups()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeGroups;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_attributeGroups() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeGroups;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_attributeGroups(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___attributeGroups = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::XmlSchema::__cordl_internal_get_elements()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___elements;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_elements() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___elements;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_elements(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___elements = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::XmlSchema::__cordl_internal_get_types()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___types;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_types() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___types;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_types(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___types = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::XmlSchema::__cordl_internal_get_groups()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___groups;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_groups() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___groups;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_groups(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___groups = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::XmlSchema::__cordl_internal_get_notations()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___notations;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_notations() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___notations;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_notations(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___notations = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& System::Xml::Schema::XmlSchema::__cordl_internal_get_identityConstraints()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___identityConstraints;
+}
+constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_identityConstraints() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___identityConstraints;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_identityConstraints(::System::Xml::Schema::XmlSchemaObjectTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___identityConstraints = value;
+}
+constexpr ::System::Collections::ArrayList*& System::Xml::Schema::XmlSchema::__cordl_internal_get_importedSchemas()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___importedSchemas;
+}
+constexpr ::System::Collections::ArrayList* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_importedSchemas() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___importedSchemas;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_importedSchemas(::System::Collections::ArrayList*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___importedSchemas = value;
+}
+constexpr ::System::Collections::ArrayList*& System::Xml::Schema::XmlSchema::__cordl_internal_get_importedNamespaces()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___importedNamespaces;
+}
+constexpr ::System::Collections::ArrayList* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_importedNamespaces() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___importedNamespaces;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_importedNamespaces(::System::Collections::ArrayList*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___importedNamespaces = value;
+}
+constexpr int32_t& System::Xml::Schema::XmlSchema::__cordl_internal_get_schemaId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___schemaId;
+}
+constexpr int32_t const& System::Xml::Schema::XmlSchema::__cordl_internal_get_schemaId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___schemaId;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_schemaId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___schemaId = value;
+}
+constexpr ::System::Uri*& System::Xml::Schema::XmlSchema::__cordl_internal_get_baseUri()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___baseUri;
+}
+constexpr ::System::Uri* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_baseUri() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___baseUri;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_baseUri(::System::Uri*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___baseUri = value;
+}
+constexpr bool& System::Xml::Schema::XmlSchema::__cordl_internal_get_isChameleon()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isChameleon;
+}
+constexpr bool const& System::Xml::Schema::XmlSchema::__cordl_internal_get_isChameleon() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isChameleon;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_isChameleon(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___isChameleon = value;
+}
+constexpr ::System::Collections::Hashtable*& System::Xml::Schema::XmlSchema::__cordl_internal_get_ids()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ids;
+}
+constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_ids() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ids;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_ids(::System::Collections::Hashtable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___ids = value;
+}
+constexpr ::System::Xml::XmlDocument*& System::Xml::Schema::XmlSchema::__cordl_internal_get_document()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___document;
+}
+constexpr ::System::Xml::XmlDocument* const& System::Xml::Schema::XmlSchema::__cordl_internal_get_document() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___document;
+}
+constexpr void System::Xml::Schema::XmlSchema::__cordl_internal_set_document(::System::Xml::XmlDocument*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___document = value;
+}
+inline void System::Xml::Schema::XmlSchema::setStaticF_globalIdCounter(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "globalIdCounter", ::System::Xml::Schema::XmlSchema*>(std::forward<int32_t>(value));
+}
+inline int32_t System::Xml::Schema::XmlSchema::getStaticF_globalIdCounter()  {
+return ::cordl_internals::getStaticField<int32_t, "globalIdCounter", ::System::Xml::Schema::XmlSchema*>();
+}
+inline void System::Xml::Schema::XmlSchema::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchema* System::Xml::Schema::XmlSchema::Read(::System::Xml::XmlReader*  reader, ::System::Xml::Schema::ValidationEventHandler*  validationEventHandler)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"Read", {}, {::i2c::type_of<::System::Xml::XmlReader*>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchema*>(nullptr, ___internal_method, reader, validationEventHandler);
+}
+inline bool System::Xml::Schema::XmlSchema::CompileSchema(::System::Xml::Schema::XmlSchemaCollection*  xsc, ::System::Xml::XmlResolver*  resolver, ::System::Xml::Schema::SchemaInfo*  schemaInfo, ::StringW  ns, ::System::Xml::Schema::ValidationEventHandler*  validationEventHandler, ::System::Xml::XmlNameTable*  nameTable, bool  CompileContentModel)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"CompileSchema", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaCollection*>(), ::i2c::type_of<::System::Xml::XmlResolver*>(), ::i2c::type_of<::System::Xml::Schema::SchemaInfo*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>(), ::i2c::type_of<::System::Xml::XmlNameTable*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, xsc, resolver, schemaInfo, ns, validationEventHandler, nameTable, CompileContentModel);
+}
+inline void System::Xml::Schema::XmlSchema::CompileSchemaInSet(::System::Xml::XmlNameTable*  nameTable, ::System::Xml::Schema::ValidationEventHandler*  eventHandler, ::System::Xml::Schema::XmlSchemaCompilationSettings*  compilationSettings)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"CompileSchemaInSet", {}, {::i2c::type_of<::System::Xml::XmlNameTable*>(), ::i2c::type_of<::System::Xml::Schema::ValidationEventHandler*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaCompilationSettings*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nameTable, eventHandler, compilationSettings);
+}
+inline ::System::Xml::Schema::XmlSchemaForm System::Xml::Schema::XmlSchema::get_AttributeFormDefault()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_AttributeFormDefault", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaForm>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_AttributeFormDefault(::System::Xml::Schema::XmlSchemaForm  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_AttributeFormDefault", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaForm>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Xml::Schema::XmlSchemaDerivationMethod System::Xml::Schema::XmlSchema::get_BlockDefault()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_BlockDefault", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaDerivationMethod>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_BlockDefault(::System::Xml::Schema::XmlSchemaDerivationMethod  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_BlockDefault", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaDerivationMethod>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Xml::Schema::XmlSchemaDerivationMethod System::Xml::Schema::XmlSchema::get_FinalDefault()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_FinalDefault", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaDerivationMethod>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_FinalDefault(::System::Xml::Schema::XmlSchemaDerivationMethod  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_FinalDefault", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaDerivationMethod>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Xml::Schema::XmlSchemaForm System::Xml::Schema::XmlSchema::get_ElementFormDefault()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_ElementFormDefault", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaForm>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_ElementFormDefault(::System::Xml::Schema::XmlSchemaForm  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_ElementFormDefault", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaForm>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW System::Xml::Schema::XmlSchema::get_TargetNamespace()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_TargetNamespace", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_TargetNamespace(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_TargetNamespace", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW System::Xml::Schema::XmlSchema::get_Version()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Version", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_Version(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_Version", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectCollection* System::Xml::Schema::XmlSchema::get_Includes()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Includes", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectCollection*>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectCollection* System::Xml::Schema::XmlSchema::get_Items()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Items", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectCollection*>(this, ___internal_method);
+}
+inline bool System::Xml::Schema::XmlSchema::get_IsCompiledBySet()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IsCompiledBySet", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_IsCompiledBySet(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_IsCompiledBySet", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool System::Xml::Schema::XmlSchema::get_IsPreprocessed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IsPreprocessed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_IsPreprocessed(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_IsPreprocessed", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool System::Xml::Schema::XmlSchema::get_IsRedefined()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IsRedefined", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_IsRedefined(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_IsRedefined", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchema::get_Attributes()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Attributes", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectTable*>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchema::get_AttributeGroups()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_AttributeGroups", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectTable*>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchema::get_SchemaTypes()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_SchemaTypes", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectTable*>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchema::get_Elements()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Elements", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectTable*>(this, ___internal_method);
+}
+inline ::StringW System::Xml::Schema::XmlSchema::get_Id()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Id", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_Id(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_Id", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchema::get_Groups()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Groups", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectTable*>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchema::get_Notations()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Notations", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectTable*>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaObjectTable* System::Xml::Schema::XmlSchema::get_IdentityConstraints()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IdentityConstraints", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObjectTable*>(this, ___internal_method);
+}
+inline ::System::Uri* System::Xml::Schema::XmlSchema::get_BaseUri()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_BaseUri", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Uri*>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_BaseUri(::System::Uri*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_BaseUri", {}, {::i2c::type_of<::System::Uri*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline int32_t System::Xml::Schema::XmlSchema::get_SchemaId()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_SchemaId", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline bool System::Xml::Schema::XmlSchema::get_IsChameleon()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_IsChameleon", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_IsChameleon(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_IsChameleon", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Collections::Hashtable* System::Xml::Schema::XmlSchema::get_Ids()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Ids", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Hashtable*>(this, ___internal_method);
+}
+inline ::System::Xml::XmlDocument* System::Xml::Schema::XmlSchema::get_Document()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_Document", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDocument*>(this, ___internal_method);
+}
+inline int32_t System::Xml::Schema::XmlSchema::get_ErrorCount()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_ErrorCount", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_ErrorCount(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"set_ErrorCount", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Xml::Schema::XmlSchema* System::Xml::Schema::XmlSchema::Clone()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"Clone", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchema*>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchema* System::Xml::Schema::XmlSchema::DeepClone()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"DeepClone", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchema*>(this, ___internal_method);
+}
+inline ::StringW System::Xml::Schema::XmlSchema::get_IdAttribute()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlSchema*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::set_IdAttribute(::StringW  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlSchema*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void System::Xml::Schema::XmlSchema::SetIsCompiled(bool  isCompiled)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"SetIsCompiled", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isCompiled);
+}
+inline void System::Xml::Schema::XmlSchema::SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*>  moreAttributes)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlSchema*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, moreAttributes);
+}
+inline void System::Xml::Schema::XmlSchema::AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation*  annotation)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlSchema*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, annotation);
+}
+inline ::System::Collections::ArrayList* System::Xml::Schema::XmlSchema::get_ImportedSchemas()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_ImportedSchemas", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*>(this, ___internal_method);
+}
+inline ::System::Collections::ArrayList* System::Xml::Schema::XmlSchema::get_ImportedNamespaces()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"get_ImportedNamespaces", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchema::GetExternalSchemasList(::System::Collections::IList*  extList, ::System::Xml::Schema::XmlSchema*  schema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchema*>(),
+                        {"GetExternalSchemasList", {}, {::i2c::type_of<::System::Collections::IList*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchema*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, extList, schema);
+}
+inline ::System::Xml::Schema::XmlSchema* System::Xml::Schema::XmlSchema::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::XmlSchema*>());
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::XmlSchema::XmlSchema()   {
+}

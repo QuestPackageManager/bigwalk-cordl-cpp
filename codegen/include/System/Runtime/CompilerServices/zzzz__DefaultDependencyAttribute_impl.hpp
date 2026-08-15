@@ -1,0 +1,46 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/DefaultDependencyAttribute.hpp"
+#include "System/Runtime/CompilerServices/zzzz__LoadHint_impl.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__DefaultDependencyAttribute_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__LoadHint_def.hpp"
+//  Writing Method size for method: ::System::Runtime::CompilerServices::DefaultDependencyAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::DefaultDependencyAttribute::*)(::System::Runtime::CompilerServices::LoadHint)>(&::System::Runtime::CompilerServices::DefaultDependencyAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180378ff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::DefaultDependencyAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::CompilerServices::LoadHint>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Runtime::CompilerServices::LoadHint& System::Runtime::CompilerServices::DefaultDependencyAttribute::__cordl_internal_get_loadHint()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___loadHint;
+}
+constexpr ::System::Runtime::CompilerServices::LoadHint const& System::Runtime::CompilerServices::DefaultDependencyAttribute::__cordl_internal_get_loadHint() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___loadHint;
+}
+constexpr void System::Runtime::CompilerServices::DefaultDependencyAttribute::__cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___loadHint = value;
+}
+inline void System::Runtime::CompilerServices::DefaultDependencyAttribute::_ctor(::System::Runtime::CompilerServices::LoadHint  loadHintArgument)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::DefaultDependencyAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::CompilerServices::LoadHint>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, loadHintArgument);
+}
+inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute* System::Runtime::CompilerServices::DefaultDependencyAttribute::New_ctor(::System::Runtime::CompilerServices::LoadHint  loadHintArgument)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::CompilerServices::DefaultDependencyAttribute*>(loadHintArgument));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::CompilerServices::DefaultDependencyAttribute::DefaultDependencyAttribute()   {
+}

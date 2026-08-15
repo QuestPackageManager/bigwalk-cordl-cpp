@@ -1,0 +1,340 @@
+#pragma once
+// IWYU pragma private; include "TMPro/FloatTween.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
+#include "TMPro/zzzz__FloatTween_def.hpp"
+#include "TMPro/zzzz__FloatTween_def.hpp"
+#include "TMPro/zzzz__ITweenValue_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+//  Writing Method size for method: ::TMPro::FloatTween_FloatTweenCallback._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FloatTween_FloatTweenCallback::*)()>(&::TMPro::FloatTween_FloatTweenCallback::_ctor)> {
+  constexpr static std::size_t size = 0x8190;
+  constexpr static std::size_t addrs = 0x180da3080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween_FloatTweenCallback*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void TMPro::FloatTween_FloatTweenCallback::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween_FloatTweenCallback*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::TMPro::FloatTween_FloatTweenCallback* TMPro::FloatTween_FloatTweenCallback::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::FloatTween_FloatTweenCallback*>());
+}
+// Ctor Parameters []
+constexpr ::TMPro::FloatTween_FloatTweenCallback::FloatTween_FloatTweenCallback()   {
+}
+//  Writing Method size for method: ::TMPro::FloatTween.get_startValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::get_startValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303b40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"get_startValue", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.set_startValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FloatTween::*)(float_t)>(&::TMPro::FloatTween::set_startValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18051eae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"set_startValue", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.get_targetValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::get_targetValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303b30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"get_targetValue", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.set_targetValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FloatTween::*)(float_t)>(&::TMPro::FloatTween::set_targetValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18051eaf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"set_targetValue", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.get_duration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::get_duration)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180346a80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"get_duration", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.set_duration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FloatTween::*)(float_t)>(&::TMPro::FloatTween::set_duration)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180346aa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"set_duration", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.get_ignoreTimeScale
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::get_ignoreTimeScale)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18039e7b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"get_ignoreTimeScale", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.set_ignoreTimeScale
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FloatTween::*)(bool)>(&::TMPro::FloatTween::set_ignoreTimeScale)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18039e7c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"set_ignoreTimeScale", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.TweenValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FloatTween::*)(float_t)>(&::TMPro::FloatTween::TweenValue)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x182184bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"TweenValue", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.AddOnChangedCallback
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FloatTween::*)(::UnityEngine::Events::UnityAction_1<float_t>*)>(&::TMPro::FloatTween::AddOnChangedCallback)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182184b60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"AddOnChangedCallback", {}, {::i2c::type_of<::UnityEngine::Events::UnityAction_1<float_t>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.GetIgnoreTimescale
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::GetIgnoreTimescale)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18039e7b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"GetIgnoreTimescale", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.GetDuration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::GetDuration)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180346a80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"GetDuration", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::FloatTween.ValidTarget
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::ValidTarget)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18175b340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"ValidTarget", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline float_t TMPro::FloatTween::get_startValue()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"get_startValue", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline void TMPro::FloatTween::set_startValue(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"set_startValue", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline float_t TMPro::FloatTween::get_targetValue()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"get_targetValue", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline void TMPro::FloatTween::set_targetValue(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"set_targetValue", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline float_t TMPro::FloatTween::get_duration()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"get_duration", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline void TMPro::FloatTween::set_duration(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"set_duration", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline bool TMPro::FloatTween::get_ignoreTimeScale()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"get_ignoreTimeScale", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline void TMPro::FloatTween::set_ignoreTimeScale(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"set_ignoreTimeScale", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void TMPro::FloatTween::TweenValue(float_t  floatPercentage)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"TweenValue", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, floatPercentage);
+}
+inline void TMPro::FloatTween::AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t>*  callback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"AddOnChangedCallback", {}, {::i2c::type_of<::UnityEngine::Events::UnityAction_1<float_t>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, callback);
+}
+inline bool TMPro::FloatTween::GetIgnoreTimescale()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"GetIgnoreTimescale", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline float_t TMPro::FloatTween::GetDuration()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"GetDuration", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline bool TMPro::FloatTween::ValidTarget()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::FloatTween>(),
+                        {"ValidTarget", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+/// @brief Convert operator to "::TMPro::ITweenValue"
+constexpr  TMPro::FloatTween::operator ::TMPro::ITweenValue*()  {
+return static_cast<::TMPro::ITweenValue*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::TMPro::ITweenValue"
+constexpr ::TMPro::ITweenValue* TMPro::FloatTween::i___TMPro__ITweenValue()  {
+return static_cast<::TMPro::ITweenValue*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "m_Target", ty: "::TMPro::FloatTween_FloatTweenCallback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::FloatTween::FloatTween(::TMPro::FloatTween_FloatTweenCallback*  m_Target, float_t  m_StartValue, float_t  m_TargetValue, float_t  m_Duration, bool  m_IgnoreTimeScale) noexcept  {
+this->m_Target = m_Target;
+this->m_StartValue = m_StartValue;
+this->m_TargetValue = m_TargetValue;
+this->m_Duration = m_Duration;
+this->m_IgnoreTimeScale = m_IgnoreTimeScale;
+}
+// Ctor Parameters []
+constexpr ::TMPro::FloatTween::FloatTween()   {
+}

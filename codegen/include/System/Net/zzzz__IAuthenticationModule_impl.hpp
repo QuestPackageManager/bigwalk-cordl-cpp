@@ -1,0 +1,72 @@
+#pragma once
+// IWYU pragma private; include "System/Net/IAuthenticationModule.hpp"
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+//  Writing Method size for method: ::System::Net::IAuthenticationModule.Authenticate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::IAuthenticationModule::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::IAuthenticationModule::Authenticate)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::IAuthenticationModule*>(),
+                    {::i2c::class_of<::System::Net::IAuthenticationModule*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::IAuthenticationModule.PreAuthenticate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::IAuthenticationModule::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::IAuthenticationModule::PreAuthenticate)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::IAuthenticationModule*>(),
+                    {::i2c::class_of<::System::Net::IAuthenticationModule*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::IAuthenticationModule.get_AuthenticationType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::IAuthenticationModule::*)()>(&::System::Net::IAuthenticationModule::get_AuthenticationType)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::IAuthenticationModule*>(),
+                    {::i2c::class_of<::System::Net::IAuthenticationModule*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::System::Net::Authorization* System::Net::IAuthenticationModule::Authenticate(::StringW  challenge, ::System::Net::WebRequest*  request, ::System::Net::ICredentials*  credentials)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::IAuthenticationModule*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*>(this, ___internal_method, challenge, request, credentials);
+}
+inline ::System::Net::Authorization* System::Net::IAuthenticationModule::PreAuthenticate(::System::Net::WebRequest*  request, ::System::Net::ICredentials*  credentials)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::IAuthenticationModule*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::Authorization*>(this, ___internal_method, request, credentials);
+}
+inline ::StringW System::Net::IAuthenticationModule::get_AuthenticationType()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::IAuthenticationModule*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}

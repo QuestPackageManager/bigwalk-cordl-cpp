@@ -1,0 +1,53 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/NamespaceListV1Compat.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(NamespaceListV1Compat)
+// Forward declare root types
+namespace System::Xml::Schema {
+class NamespaceListV1Compat;
+}
+// Write type traits
+MARK_REF_T(::System::Xml::Schema::NamespaceListV1Compat*);
+DEFINE_IL2CPP_CLASS(::System::Xml::Schema::NamespaceListV1Compat*, "System.Xml.Schema", "NamespaceListV1Compat");
+// Dependencies System.Xml.Schema.NamespaceList
+namespace System::Xml::Schema {
+// Is value type: false
+// CS Name: System.Xml.Schema.NamespaceListV1Compat
+class CORDL_TYPE NamespaceListV1Compat : public ::System::Xml::Schema::NamespaceList {
+public:
+// Declarations
+/// @brief Method Allows, addr 0x181c4a080, size 0x90, virtual true, abstract: false, final false
+inline bool Allows(::StringW  ns) ;
+
+static inline ::System::Xml::Schema::NamespaceListV1Compat* New_ctor(::StringW  namespaces, ::StringW  targetNamespace) ;
+
+/// @brief Method .ctor, addr 0x181c4a110, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::StringW  namespaces, ::StringW  targetNamespace) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr NamespaceListV1Compat() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "NamespaceListV1Compat", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NamespaceListV1Compat(NamespaceListV1Compat && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "NamespaceListV1Compat", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NamespaceListV1Compat(NamespaceListV1Compat const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10066};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Xml::Schema::NamespaceListV1Compat) == 0x28, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema

@@ -1,0 +1,155 @@
+#pragma once
+// IWYU pragma private; include "System/HashCode.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(HashCode)
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System {
+struct HashCode;
+}
+// Write type traits
+MARK_VAL_T(::System::HashCode);
+DEFINE_IL2CPP_CLASS(::System::HashCode, "System", "HashCode");
+// Dependencies 
+namespace System {
+// Is value type: true
+// CS Name: System.HashCode
+struct CORDL_TYPE HashCode {
+public:
+// Declarations
+/// @brief Field s_seed, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_seed, put=setStaticF_s_seed)) uint32_t  s_seed;
+
+/// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+inline void Add(T  value) ;
+
+/// @brief Method Add, addr 0x18170c650, size 0x170, virtual false, abstract: false, final false
+inline void Add(int32_t  value) ;
+
+/// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T1>
+static inline int32_t Combine(T1  value1) ;
+
+/// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T1,typename T2>
+static inline int32_t Combine(T1  value1, T2  value2) ;
+
+/// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T1,typename T2,typename T3>
+static inline int32_t Combine(T1  value1, T2  value2, T3  value3) ;
+
+/// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T1,typename T2,typename T3,typename T4>
+static inline int32_t Combine(T1  value1, T2  value2, T3  value3, T4  value4) ;
+
+/// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6>
+static inline int32_t Combine(T1  value1, T2  value2, T3  value3, T4  value4, T5  value5, T6  value6) ;
+
+/// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6,typename T7,typename T8>
+static inline int32_t Combine(T1  value1, T2  value2, T3  value3, T4  value4, T5  value5, T6  value6, T7  value7, T8  value8) ;
+
+/// @brief Method Equals, addr 0x18170c7c0, size 0x30, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method GenerateGlobalSeed, addr 0x18170c7f0, size 0x30, virtual false, abstract: false, final false
+static inline uint32_t GenerateGlobalSeed() ;
+
+/// @brief Method GetHashCode, addr 0x18170c820, size 0x30, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
+
+/// @brief Method Initialize, addr 0x18170c850, size 0xb0, virtual false, abstract: false, final false
+static inline void Initialize(::by_ref<uint32_t>  v1, ::by_ref<uint32_t>  v2, ::by_ref<uint32_t>  v3, ::by_ref<uint32_t>  v4) ;
+
+/// @brief Method MixEmptyState, addr 0x18170c900, size 0x40, virtual false, abstract: false, final false
+static inline uint32_t MixEmptyState() ;
+
+/// @brief Method MixFinal, addr 0x18170c940, size 0x30, virtual false, abstract: false, final false
+static inline uint32_t MixFinal(uint32_t  hash) ;
+
+/// @brief Method MixState, addr 0x18170c970, size 0x40, virtual false, abstract: false, final false
+static inline uint32_t MixState(uint32_t  v1, uint32_t  v2, uint32_t  v3, uint32_t  v4) ;
+
+/// @brief Method QueueRound, addr 0x18170c9b0, size 0x20, virtual false, abstract: false, final false
+static inline uint32_t QueueRound(uint32_t  hash, uint32_t  queuedValue) ;
+
+/// @brief Method Rol, addr 0x18170c9d0, size 0x20, virtual false, abstract: false, final false
+static inline uint32_t Rol(uint32_t  value, int32_t  count) ;
+
+/// @brief Method Round, addr 0x18170c9f0, size 0x20, virtual false, abstract: false, final false
+static inline uint32_t Round(uint32_t  hash, uint32_t  input) ;
+
+/// @brief Method ToHashCode, addr 0x18170ca10, size 0x130, virtual false, abstract: false, final false
+inline int32_t ToHashCode() ;
+
+static inline uint32_t getStaticF_s_seed() ;
+
+static inline void setStaticF_s_seed(uint32_t  value) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr HashCode() ;
+
+// Ctor Parameters [CppParam { name: "_v1", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_v2", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_v3", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_v4", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_queue1", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_queue2", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_queue3", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr HashCode(uint32_t  _v1, uint32_t  _v2, uint32_t  _v3, uint32_t  _v4, uint32_t  _queue1, uint32_t  _queue2, uint32_t  _queue3, uint32_t  _length) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{238};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+
+/// @brief Field _v1, offset: 0x0, size: 0x4, def value: None
+ uint32_t  _v1;
+
+/// @brief Field _v2, offset: 0x4, size: 0x4, def value: None
+ uint32_t  _v2;
+
+/// @brief Field _v3, offset: 0x8, size: 0x4, def value: None
+ uint32_t  _v3;
+
+/// @brief Field _v4, offset: 0xc, size: 0x4, def value: None
+ uint32_t  _v4;
+
+/// @brief Field _queue1, offset: 0x10, size: 0x4, def value: None
+ uint32_t  _queue1;
+
+/// @brief Field _queue2, offset: 0x14, size: 0x4, def value: None
+ uint32_t  _queue2;
+
+/// @brief Field _queue3, offset: 0x18, size: 0x4, def value: None
+ uint32_t  _queue3;
+
+/// @brief Field _length, offset: 0x1c, size: 0x4, def value: None
+ uint32_t  _length;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::System::HashCode, _v1) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::HashCode, _v2) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::System::HashCode, _v3) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::HashCode, _v4) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::System::HashCode, _queue1) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::HashCode, _queue2) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::HashCode, _queue3) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::HashCode, _length) == 0x1c, "Offset mismatch!");
+
+static_assert(sizeof(::System::HashCode) == 0x20, "Size mismatch!");
+
+} // namespace end def System

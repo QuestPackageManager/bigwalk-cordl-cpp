@@ -1,0 +1,82 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlNodeEventArgs.hpp"
+#include "System/zzzz__EventArgs_impl.hpp"
+#include "System/Xml/Serialization/zzzz__XmlNodeEventArgs_def.hpp"
+#include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Xml::Serialization::XmlNodeEventArgs._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlNodeEventArgs::*)(::System::Xml::XmlNode*, int32_t, int32_t, ::System::Object*)>(&::System::Xml::Serialization::XmlNodeEventArgs::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181d37f60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlNodeEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::XmlNode*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Object*& System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_get_o()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___o;
+}
+constexpr ::System::Object* const& System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_get_o() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___o;
+}
+constexpr void System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_set_o(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___o = value;
+}
+constexpr ::System::Xml::XmlNode*& System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_get_xmlNode()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___xmlNode;
+}
+constexpr ::System::Xml::XmlNode* const& System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_get_xmlNode() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___xmlNode;
+}
+constexpr void System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_set_xmlNode(::System::Xml::XmlNode*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___xmlNode = value;
+}
+constexpr int32_t& System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_get_lineNumber()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lineNumber;
+}
+constexpr int32_t const& System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_get_lineNumber() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lineNumber;
+}
+constexpr void System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_set_lineNumber(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___lineNumber = value;
+}
+constexpr int32_t& System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_get_linePosition()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___linePosition;
+}
+constexpr int32_t const& System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_get_linePosition() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___linePosition;
+}
+constexpr void System::Xml::Serialization::XmlNodeEventArgs::__cordl_internal_set_linePosition(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___linePosition = value;
+}
+inline void System::Xml::Serialization::XmlNodeEventArgs::_ctor(::System::Xml::XmlNode*  xmlNode, int32_t  lineNumber, int32_t  linePosition, ::System::Object*  o)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Serialization::XmlNodeEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::XmlNode*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlNode, lineNumber, linePosition, o);
+}
+inline ::System::Xml::Serialization::XmlNodeEventArgs* System::Xml::Serialization::XmlNodeEventArgs::New_ctor(::System::Xml::XmlNode*  xmlNode, int32_t  lineNumber, int32_t  linePosition, ::System::Object*  o)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Serialization::XmlNodeEventArgs*>(xmlNode, lineNumber, linePosition, o));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Serialization::XmlNodeEventArgs::XmlNodeEventArgs()   {
+}

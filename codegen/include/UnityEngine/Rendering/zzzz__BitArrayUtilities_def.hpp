@@ -1,0 +1,81 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/BitArrayUtilities.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(BitArrayUtilities)
+// Forward declare root types
+namespace UnityEngine::Rendering {
+class BitArrayUtilities;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::BitArrayUtilities*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BitArrayUtilities*, "UnityEngine.Rendering", "BitArrayUtilities");
+// Dependencies System.Object
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.BitArrayUtilities
+class CORDL_TYPE BitArrayUtilities : public ::System::Object {
+public:
+// Declarations
+/// @brief Method Get128, addr 0x18202f880, size 0x20, virtual false, abstract: false, final false
+static inline bool Get128(uint32_t  index, uint64_t  data1, uint64_t  data2) ;
+
+/// @brief Method Get16, addr 0x18202f8a0, size 0x20, virtual false, abstract: false, final false
+static inline bool Get16(uint32_t  index, uint16_t  data) ;
+
+/// @brief Method Get256, addr 0x18202f8c0, size 0x40, virtual false, abstract: false, final false
+static inline bool Get256(uint32_t  index, uint64_t  data1, uint64_t  data2, uint64_t  data3, uint64_t  data4) ;
+
+/// @brief Method Get32, addr 0x18202f900, size 0x10, virtual false, abstract: false, final false
+static inline bool Get32(uint32_t  index, uint32_t  data) ;
+
+/// @brief Method Get64, addr 0x18202f910, size 0x10, virtual false, abstract: false, final false
+static inline bool Get64(uint32_t  index, uint64_t  data) ;
+
+/// @brief Method Get8, addr 0x18202f920, size 0x20, virtual false, abstract: false, final false
+static inline bool Get8(uint32_t  index, uint8_t  data) ;
+
+/// @brief Method Set128, addr 0x18202f940, size 0x40, virtual false, abstract: false, final false
+static inline void Set128(uint32_t  index, ::by_ref<uint64_t>  data1, ::by_ref<uint64_t>  data2, bool  value) ;
+
+/// @brief Method Set16, addr 0x18202f980, size 0x20, virtual false, abstract: false, final false
+static inline void Set16(uint32_t  index, ::by_ref<uint16_t>  data, bool  value) ;
+
+/// @brief Method Set256, addr 0x18202f9a0, size 0x70, virtual false, abstract: false, final false
+static inline void Set256(uint32_t  index, ::by_ref<uint64_t>  data1, ::by_ref<uint64_t>  data2, ::by_ref<uint64_t>  data3, ::by_ref<uint64_t>  data4, bool  value) ;
+
+/// @brief Method Set32, addr 0x18202fa10, size 0x20, virtual false, abstract: false, final false
+static inline void Set32(uint32_t  index, ::by_ref<uint32_t>  data, bool  value) ;
+
+/// @brief Method Set64, addr 0x18202fa30, size 0x20, virtual false, abstract: false, final false
+static inline void Set64(uint32_t  index, ::by_ref<uint64_t>  data, bool  value) ;
+
+/// @brief Method Set8, addr 0x18202fa50, size 0x20, virtual false, abstract: false, final false
+static inline void Set8(uint32_t  index, ::by_ref<uint8_t>  data, bool  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr BitArrayUtilities() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "BitArrayUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BitArrayUtilities(BitArrayUtilities && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "BitArrayUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BitArrayUtilities(BitArrayUtilities const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7080};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Rendering::BitArrayUtilities) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering

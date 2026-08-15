@@ -1,0 +1,834 @@
+#pragma once
+// IWYU pragma private; include "Mono/Net/Security/MobileTlsContext.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
+#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "Mono/Security/Interface/zzzz__TlsProtocolCode_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(::Mono::Net::Security::MobileAuthenticatedStream*, ::Mono::Net::Security::MonoSslAuthenticationOptions*)>(&::Mono::Net::Security::MobileTlsContext::_ctor)> {
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x181b41ff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {".ctor", {}, {::i2c::type_of<::Mono::Net::Security::MobileAuthenticatedStream*>(), ::i2c::type_of<::Mono::Net::Security::MonoSslAuthenticationOptions*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_Options
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MonoSslAuthenticationOptions* (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_Options)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_Options", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_Parent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileAuthenticatedStream* (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_Parent)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_Parent", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_Settings
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_Settings)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181b42270;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_Settings", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_IsAuthenticated
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_IsAuthenticated)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_IsServer
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_IsServer)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f1be0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_IsServer", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_TargetHost
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_TargetHost)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_TargetHost", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_ServerName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_ServerName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9800;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_ServerName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_AskForClientCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_AskForClientCertificate)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180391c90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_AskForClientCertificate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_EnabledProtocols
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Authentication::SslProtocols (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_EnabledProtocols)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180511540;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_EnabledProtocols", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_ClientCertificates
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_ClientCertificates)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e58c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_ClientCertificates", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.GetProtocolVersions
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(::by_ref<::System::Nullable_1<::Mono::Security::Interface::TlsProtocolCode>>, ::by_ref<::System::Nullable_1<::Mono::Security::Interface::TlsProtocolCode>>)>(&::Mono::Net::Security::MobileTlsContext::GetProtocolVersions)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x181b417b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"GetProtocolVersions", {}, {::i2c::type_of<::by_ref<::System::Nullable_1<::Mono::Security::Interface::TlsProtocolCode>>>(), ::i2c::type_of<::by_ref<::System::Nullable_1<::Mono::Security::Interface::TlsProtocolCode>>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.StartHandshake
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::StartHandshake)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.ProcessHandshake
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::ProcessHandshake)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.FinishHandshake
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::FinishHandshake)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_LocalServerCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_LocalServerCertificate)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e0b30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_LocalServerCertificate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.set_LocalServerCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(&::Mono::Net::Security::MobileTlsContext::set_LocalServerCertificate)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180308de0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"set_LocalServerCertificate", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509Certificate*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_LocalClientCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_LocalClientCertificate)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.get_RemoteCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_RemoteCertificate)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.Flush
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Flush)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<int32_t,bool> (::Mono::Net::Security::MobileTlsContext::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::Mono::Net::Security::MobileTlsContext::Read)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.Write
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<int32_t,bool> (::Mono::Net::Security::MobileTlsContext::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::Mono::Net::Security::MobileTlsContext::Write)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.Shutdown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Shutdown)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.PendingRenegotiation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::PendingRenegotiation)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.ValidateCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)(::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::System::Security::Cryptography::X509Certificates::X509Chain*)>(&::Mono::Net::Security::MobileTlsContext::ValidateCertificate)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181b41f90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"ValidateCertificate", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509Chain*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.SelectServerCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::Mono::Net::Security::MobileTlsContext::*)(::StringW)>(&::Mono::Net::Security::MobileTlsContext::SelectServerCertificate)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x181b41d60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"SelectServerCertificate", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.SelectClientCertificate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::Mono::Net::Security::MobileTlsContext::*)(::ArrayW<::StringW>)>(&::Mono::Net::Security::MobileTlsContext::SelectClientCertificate)> {
+  constexpr static std::size_t size = 0x4e0;
+  constexpr static std::size_t addrs = 0x181b41880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"SelectClientCertificate", {}, {::i2c::type_of<::ArrayW<::StringW>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.Renegotiate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Renegotiate)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 16}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Dispose)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181b41760;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(bool)>(&::Mono::Net::Security::MobileTlsContext::Dispose)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 17}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext.Finalize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Finalize)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181b41790;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                    {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::Mono::Net::Security::ChainValidationHelper*& Mono::Net::Security::MobileTlsContext::__cordl_internal_get_certificateValidator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___certificateValidator;
+}
+constexpr ::Mono::Net::Security::ChainValidationHelper* const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get_certificateValidator() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___certificateValidator;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set_certificateValidator(::Mono::Net::Security::ChainValidationHelper*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___certificateValidator = value;
+}
+constexpr ::Mono::Net::Security::MonoSslAuthenticationOptions*& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__Options_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Options_k__BackingField;
+}
+constexpr ::Mono::Net::Security::MonoSslAuthenticationOptions* const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__Options_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Options_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__Options_k__BackingField(::Mono::Net::Security::MonoSslAuthenticationOptions*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Options_k__BackingField = value;
+}
+constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__Parent_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Parent_k__BackingField;
+}
+constexpr ::Mono::Net::Security::MobileAuthenticatedStream* const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__Parent_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Parent_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__Parent_k__BackingField(::Mono::Net::Security::MobileAuthenticatedStream*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Parent_k__BackingField = value;
+}
+constexpr bool& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__IsServer_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____IsServer_k__BackingField;
+}
+constexpr bool const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__IsServer_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____IsServer_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__IsServer_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____IsServer_k__BackingField = value;
+}
+constexpr ::StringW& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__TargetHost_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TargetHost_k__BackingField;
+}
+constexpr ::StringW const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__TargetHost_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____TargetHost_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__TargetHost_k__BackingField(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____TargetHost_k__BackingField = value;
+}
+constexpr ::StringW& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__ServerName_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ServerName_k__BackingField;
+}
+constexpr ::StringW const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__ServerName_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ServerName_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__ServerName_k__BackingField(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ServerName_k__BackingField = value;
+}
+constexpr bool& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__AskForClientCertificate_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____AskForClientCertificate_k__BackingField;
+}
+constexpr bool const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__AskForClientCertificate_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____AskForClientCertificate_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__AskForClientCertificate_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____AskForClientCertificate_k__BackingField = value;
+}
+constexpr ::System::Security::Authentication::SslProtocols& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__EnabledProtocols_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____EnabledProtocols_k__BackingField;
+}
+constexpr ::System::Security::Authentication::SslProtocols const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__EnabledProtocols_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____EnabledProtocols_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__EnabledProtocols_k__BackingField(::System::Security::Authentication::SslProtocols  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____EnabledProtocols_k__BackingField = value;
+}
+constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__ClientCertificates_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ClientCertificates_k__BackingField;
+}
+constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__ClientCertificates_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ClientCertificates_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ClientCertificates_k__BackingField = value;
+}
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__LocalServerCertificate_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____LocalServerCertificate_k__BackingField;
+}
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate* const& Mono::Net::Security::MobileTlsContext::__cordl_internal_get__LocalServerCertificate_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____LocalServerCertificate_k__BackingField;
+}
+constexpr void Mono::Net::Security::MobileTlsContext::__cordl_internal_set__LocalServerCertificate_k__BackingField(::System::Security::Cryptography::X509Certificates::X509Certificate*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____LocalServerCertificate_k__BackingField = value;
+}
+inline void Mono::Net::Security::MobileTlsContext::_ctor(::Mono::Net::Security::MobileAuthenticatedStream*  parent, ::Mono::Net::Security::MonoSslAuthenticationOptions*  options)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {".ctor", {}, {::i2c::type_of<::Mono::Net::Security::MobileAuthenticatedStream*>(), ::i2c::type_of<::Mono::Net::Security::MonoSslAuthenticationOptions*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parent, options);
+}
+inline ::Mono::Net::Security::MonoSslAuthenticationOptions* Mono::Net::Security::MobileTlsContext::get_Options()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_Options", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MonoSslAuthenticationOptions*>(this, ___internal_method);
+}
+inline ::Mono::Net::Security::MobileAuthenticatedStream* Mono::Net::Security::MobileTlsContext::get_Parent()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_Parent", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileAuthenticatedStream*>(this, ___internal_method);
+}
+inline ::Mono::Security::Interface::MonoTlsSettings* Mono::Net::Security::MobileTlsContext::get_Settings()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_Settings", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::Interface::MonoTlsSettings*>(this, ___internal_method);
+}
+inline bool Mono::Net::Security::MobileTlsContext::get_IsAuthenticated()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool Mono::Net::Security::MobileTlsContext::get_IsServer()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_IsServer", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::StringW Mono::Net::Security::MobileTlsContext::get_TargetHost()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_TargetHost", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW Mono::Net::Security::MobileTlsContext::get_ServerName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_ServerName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool Mono::Net::Security::MobileTlsContext::get_AskForClientCertificate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_AskForClientCertificate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Security::Authentication::SslProtocols Mono::Net::Security::MobileTlsContext::get_EnabledProtocols()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_EnabledProtocols", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Authentication::SslProtocols>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* Mono::Net::Security::MobileTlsContext::get_ClientCertificates()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_ClientCertificates", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(this, ___internal_method);
+}
+inline void Mono::Net::Security::MobileTlsContext::GetProtocolVersions(::by_ref<::System::Nullable_1<::Mono::Security::Interface::TlsProtocolCode>>  min, ::by_ref<::System::Nullable_1<::Mono::Security::Interface::TlsProtocolCode>>  max)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"GetProtocolVersions", {}, {::i2c::type_of<::by_ref<::System::Nullable_1<::Mono::Security::Interface::TlsProtocolCode>>>(), ::i2c::type_of<::by_ref<::System::Nullable_1<::Mono::Security::Interface::TlsProtocolCode>>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, min, max);
+}
+inline void Mono::Net::Security::MobileTlsContext::StartHandshake()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool Mono::Net::Security::MobileTlsContext::ProcessHandshake()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void Mono::Net::Security::MobileTlsContext::FinishHandshake()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Mono::Net::Security::MobileTlsContext::get_LocalServerCertificate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"get_LocalServerCertificate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*>(this, ___internal_method);
+}
+inline void Mono::Net::Security::MobileTlsContext::set_LocalServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"set_LocalServerCertificate", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509Certificate*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Mono::Net::Security::MobileTlsContext::get_LocalClientCertificate()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* Mono::Net::Security::MobileTlsContext::get_RemoteCertificate()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate2*>(this, ___internal_method);
+}
+inline void Mono::Net::Security::MobileTlsContext::Flush()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::ValueTuple_2<int32_t,bool> Mono::Net::Security::MobileTlsContext::Read(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  count)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<int32_t,bool>>(this, ___internal_method, buffer, offset, count);
+}
+inline ::System::ValueTuple_2<int32_t,bool> Mono::Net::Security::MobileTlsContext::Write(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  count)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<int32_t,bool>>(this, ___internal_method, buffer, offset, count);
+}
+inline void Mono::Net::Security::MobileTlsContext::Shutdown()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool Mono::Net::Security::MobileTlsContext::PendingRenegotiation()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool Mono::Net::Security::MobileTlsContext::ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2*  leaf, ::System::Security::Cryptography::X509Certificates::X509Chain*  chain)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"ValidateCertificate", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509Chain*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, leaf, chain);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Mono::Net::Security::MobileTlsContext::SelectServerCertificate(::StringW  serverIdentity)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"SelectServerCertificate", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*>(this, ___internal_method, serverIdentity);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Mono::Net::Security::MobileTlsContext::SelectClientCertificate(::ArrayW<::StringW>  acceptableIssuers)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"SelectClientCertificate", {}, {::i2c::type_of<::ArrayW<::StringW>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*>(this, ___internal_method, acceptableIssuers);
+}
+inline void Mono::Net::Security::MobileTlsContext::Renegotiate()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 16}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Mono::Net::Security::MobileTlsContext::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(),
+                        {"Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void Mono::Net::Security::MobileTlsContext::Dispose(bool  disposing)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 17}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
+}
+inline void Mono::Net::Security::MobileTlsContext::Finalize()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Mono::Net::Security::MobileTlsContext* Mono::Net::Security::MobileTlsContext::New_ctor(::Mono::Net::Security::MobileAuthenticatedStream*  parent, ::Mono::Net::Security::MonoSslAuthenticationOptions*  options)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Net::Security::MobileTlsContext*>(parent, options));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  Mono::Net::Security::MobileTlsContext::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Mono::Net::Security::MobileTlsContext::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::Mono::Net::Security::MobileTlsContext::MobileTlsContext()   {
+}

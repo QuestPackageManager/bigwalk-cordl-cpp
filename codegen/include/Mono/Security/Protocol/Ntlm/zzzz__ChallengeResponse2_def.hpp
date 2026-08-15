@@ -1,0 +1,94 @@
+#pragma once
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/ChallengeResponse2.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(ChallengeResponse2)
+namespace Mono::Security::Protocol::Ntlm {
+struct NtlmAuthLevel;
+}
+namespace Mono::Security::Protocol::Ntlm {
+class Type2Message;
+}
+// Forward declare root types
+namespace Mono::Security::Protocol::Ntlm {
+class ChallengeResponse2;
+}
+// Write type traits
+MARK_REF_T(::Mono::Security::Protocol::Ntlm::ChallengeResponse2*);
+DEFINE_IL2CPP_CLASS(::Mono::Security::Protocol::Ntlm::ChallengeResponse2*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse2");
+// Dependencies System.Object
+namespace Mono::Security::Protocol::Ntlm {
+// Is value type: false
+// CS Name: Mono.Security.Protocol.Ntlm.ChallengeResponse2
+class CORDL_TYPE ChallengeResponse2 : public ::System::Object {
+public:
+// Declarations
+/// @brief Field magic, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_magic, put=setStaticF_magic)) ::ArrayW<uint8_t>  magic;
+
+/// @brief Field nullEncMagic, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_nullEncMagic, put=setStaticF_nullEncMagic)) ::ArrayW<uint8_t>  nullEncMagic;
+
+/// @brief Method Compute, addr 0x18159c690, size 0x180, virtual false, abstract: false, final false
+static inline void Compute(::Mono::Security::Protocol::Ntlm::Type2Message*  type2, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel  level, ::StringW  username, ::StringW  password, ::StringW  domain, ::by_ref<::ArrayW<uint8_t>>  lm, ::by_ref<::ArrayW<uint8_t>>  ntlm) ;
+
+/// @brief Method Compute_LM, addr 0x18159bd50, size 0x230, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t> Compute_LM(::StringW  password, ::ArrayW<uint8_t>  challenge) ;
+
+/// @brief Method Compute_NTLM, addr 0x18159c070, size 0x30, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t> Compute_NTLM(::StringW  password, ::ArrayW<uint8_t>  challenge) ;
+
+/// @brief Method Compute_NTLM_Password, addr 0x18159bf80, size 0xf0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t> Compute_NTLM_Password(::StringW  password) ;
+
+/// @brief Method Compute_NTLMv2, addr 0x18159c260, size 0x430, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t> Compute_NTLMv2(::Mono::Security::Protocol::Ntlm::Type2Message*  type2, ::StringW  username, ::StringW  password, ::StringW  domain) ;
+
+/// @brief Method Compute_NTLMv2_Session, addr 0x18159c0a0, size 0x1c0, virtual false, abstract: false, final false
+static inline void Compute_NTLMv2_Session(::StringW  password, ::ArrayW<uint8_t>  challenge, ::by_ref<::ArrayW<uint8_t>>  lm, ::by_ref<::ArrayW<uint8_t>>  ntlm) ;
+
+/// @brief Method GetResponse, addr 0x18159c810, size 0x1f0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t> GetResponse(::ArrayW<uint8_t>  challenge, ::ArrayW<uint8_t>  pwd) ;
+
+/// @brief Method PasswordToKey, addr 0x18159ca00, size 0xf0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t> PasswordToKey(::StringW  password, int32_t  position) ;
+
+/// @brief Method PrepareDESKey, addr 0x18159caf0, size 0xf0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t> PrepareDESKey(::ArrayW<uint8_t>  key56bits, int32_t  position) ;
+
+static inline ::ArrayW<uint8_t> getStaticF_magic() ;
+
+static inline ::ArrayW<uint8_t> getStaticF_nullEncMagic() ;
+
+static inline void setStaticF_magic(::ArrayW<uint8_t>  value) ;
+
+static inline void setStaticF_nullEncMagic(::ArrayW<uint8_t>  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ChallengeResponse2() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ChallengeResponse2(ChallengeResponse2 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ChallengeResponse2(ChallengeResponse2 const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19163};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::Mono::Security::Protocol::Ntlm::ChallengeResponse2) == 0x10, "Size mismatch!");
+
+} // namespace end def Mono::Security::Protocol::Ntlm

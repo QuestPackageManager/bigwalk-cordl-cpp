@@ -1,0 +1,360 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryFormatter.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_impl.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_impl.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__TypeFilterLevel_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__HeaderHandler_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__TypeInformation_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.set_AssemblyFormat
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_AssemblyFormat)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180393010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"set_AssemblyFormat", {}, {::i2c::type_of<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.set_SurrogateSelector
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::Runtime::Serialization::ISurrogateSelector*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_SurrogateSelector)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x180308500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"set_SurrogateSelector", {}, {::i2c::type_of<::System::Runtime::Serialization::ISurrogateSelector*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)()>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::_ctor)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18164e4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18164e510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::ISurrogateSelector*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.Deserialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::IO::Stream*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18164df70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Deserialize", {}, {::i2c::type_of<::System::IO::Stream*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.Deserialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::IO::Stream*, ::System::Runtime::Remoting::Messaging::HeaderHandler*, bool)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize)> {
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x18164dd00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Deserialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::HeaderHandler*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.Deserialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::IO::Stream*, ::System::Runtime::Remoting::Messaging::HeaderHandler*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18164df50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Deserialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::HeaderHandler*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.Serialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::IO::Stream*, ::System::Object*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18164e420;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Serialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.Serialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::IO::Stream*, ::System::Object*, ::ArrayW<::System::Runtime::Remoting::Messaging::Header*>)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18164e190;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Serialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::ArrayW<::System::Runtime::Remoting::Messaging::Header*>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.Serialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(::System::IO::Stream*, ::System::Object*, ::ArrayW<::System::Runtime::Remoting::Messaging::Header*>, bool)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x18164e1b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Serialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::ArrayW<::System::Runtime::Remoting::Messaging::Header*>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.GetTypeInformation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::Formatters::Binary::TypeInformation* (*)(::System::Type*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::GetTypeInformation)> {
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x18164df90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"GetTypeInformation", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Runtime::Serialization::ISurrogateSelector*& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_surrogates()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_surrogates;
+}
+constexpr ::System::Runtime::Serialization::ISurrogateSelector* const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_surrogates() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_surrogates;
+}
+constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_set_m_surrogates(::System::Runtime::Serialization::ISurrogateSelector*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_surrogates = value;
+}
+constexpr ::System::Runtime::Serialization::StreamingContext& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_context()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_context;
+}
+constexpr ::System::Runtime::Serialization::StreamingContext const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_context() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_context;
+}
+constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_set_m_context(::System::Runtime::Serialization::StreamingContext  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_context = value;
+}
+constexpr ::System::Runtime::Serialization::SerializationBinder*& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_binder()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_binder;
+}
+constexpr ::System::Runtime::Serialization::SerializationBinder* const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_binder() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_binder;
+}
+constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_set_m_binder(::System::Runtime::Serialization::SerializationBinder*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_binder = value;
+}
+constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_typeFormat()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_typeFormat;
+}
+constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_typeFormat() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_typeFormat;
+}
+constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_set_m_typeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_typeFormat = value;
+}
+constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_assemblyFormat()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_assemblyFormat;
+}
+constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_assemblyFormat() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_assemblyFormat;
+}
+constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_set_m_assemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_assemblyFormat = value;
+}
+constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_securityLevel()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_securityLevel;
+}
+constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_securityLevel() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_securityLevel;
+}
+constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_set_m_securityLevel(::System::Runtime::Serialization::Formatters::TypeFilterLevel  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_securityLevel = value;
+}
+constexpr ::ArrayW<::System::Object*>& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_crossAppDomainArray()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_crossAppDomainArray;
+}
+constexpr ::ArrayW<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_get_m_crossAppDomainArray() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_crossAppDomainArray;
+}
+constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::__cordl_internal_set_m_crossAppDomainArray(::ArrayW<::System::Object*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_crossAppDomainArray = value;
+}
+inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::setStaticF_typeNameCache(::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>*, "typeNameCache", ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::getStaticF_typeNameCache()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>*, "typeNameCache", ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>();
+}
+inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_AssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"set_AssemblyFormat", {}, {::i2c::type_of<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_SurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"set_SurrogateSelector", {}, {::i2c::type_of<::System::Runtime::Serialization::ISurrogateSelector*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::_ctor(::System::Runtime::Serialization::ISurrogateSelector*  selector, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::ISurrogateSelector*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, selector, context);
+}
+inline ::System::Object* System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize(::System::IO::Stream*  serializationStream)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Deserialize", {}, {::i2c::type_of<::System::IO::Stream*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, serializationStream);
+}
+inline ::System::Object* System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize(::System::IO::Stream*  serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler*  handler, bool  fCheck)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Deserialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::HeaderHandler*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, serializationStream, handler, fCheck);
+}
+inline ::System::Object* System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize(::System::IO::Stream*  serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler*  handler)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Deserialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::HeaderHandler*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, serializationStream, handler);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize(::System::IO::Stream*  serializationStream, ::System::Object*  graph)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Serialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializationStream, graph);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize(::System::IO::Stream*  serializationStream, ::System::Object*  graph, ::ArrayW<::System::Runtime::Remoting::Messaging::Header*>  headers)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Serialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::ArrayW<::System::Runtime::Remoting::Messaging::Header*>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializationStream, graph, headers);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize(::System::IO::Stream*  serializationStream, ::System::Object*  graph, ::ArrayW<::System::Runtime::Remoting::Messaging::Header*>  headers, bool  fCheck)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"Serialize", {}, {::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::ArrayW<::System::Runtime::Remoting::Messaging::Header*>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializationStream, graph, headers, fCheck);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::GetTypeInformation(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(),
+                        {"GetTypeInformation", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>(nullptr, ___internal_method, type);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>());
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor(::System::Runtime::Serialization::ISurrogateSelector*  selector, ::System::Runtime::Serialization::StreamingContext  context)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*>(selector, context));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::BinaryFormatter()   {
+}

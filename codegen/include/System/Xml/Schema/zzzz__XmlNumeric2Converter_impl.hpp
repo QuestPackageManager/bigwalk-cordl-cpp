@@ -1,0 +1,301 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlNumeric2Converter.hpp"
+#include "System/Xml/Schema/zzzz__XmlBaseConverter_impl.hpp"
+#include "System/Xml/Schema/zzzz__XmlNumeric2Converter_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlNumeric2Converter::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::XmlNumeric2Converter::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181cb6320;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaType*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::XmlNumeric2Converter::Create)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181cbcab0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                        {"Create", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaType*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ToDouble
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Xml::Schema::XmlNumeric2Converter::*)(::StringW)>(&::System::Xml::Schema::XmlNumeric2Converter::ToDouble)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181cbcd40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 28}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ToDouble
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Xml::Schema::XmlNumeric2Converter::*)(::System::Object*)>(&::System::Xml::Schema::XmlNumeric2Converter::ToDouble)> {
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x181cbcaf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 29}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ToSingle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Xml::Schema::XmlNumeric2Converter::*)(double_t)>(&::System::Xml::Schema::XmlNumeric2Converter::ToSingle)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181cbcdc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 30}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ToSingle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Xml::Schema::XmlNumeric2Converter::*)(::StringW)>(&::System::Xml::Schema::XmlNumeric2Converter::ToSingle)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181cbcd80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 31}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ToSingle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Xml::Schema::XmlNumeric2Converter::*)(::System::Object*)>(&::System::Xml::Schema::XmlNumeric2Converter::ToSingle)> {
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x181cbcdd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 32}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlNumeric2Converter::*)(double_t)>(&::System::Xml::Schema::XmlNumeric2Converter::ToString)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181cbd040;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 48}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlNumeric2Converter::*)(float_t)>(&::System::Xml::Schema::XmlNumeric2Converter::ToString)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181cbd2b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 47}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlNumeric2Converter::*)(::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlNumeric2Converter::ToString)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x181cbd080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 52}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ChangeType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric2Converter::*)(double_t, ::System::Type*)>(&::System::Xml::Schema::XmlNumeric2Converter::ChangeType)> {
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x181cbc8a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 57}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ChangeType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric2Converter::*)(::StringW, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlNumeric2Converter::ChangeType)> {
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x181cbc1d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 59}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlNumeric2Converter.ChangeType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric2Converter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlNumeric2Converter::ChangeType)> {
+  constexpr static std::size_t size = 0x4d0;
+  constexpr static std::size_t addrs = 0x181cbc3d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 61}
+                ));
+    return ___internal_method;
+  }
+};
+inline void System::Xml::Schema::XmlNumeric2Converter::_ctor(::System::Xml::Schema::XmlSchemaType*  schemaType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaType*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, schemaType);
+}
+inline ::System::Xml::Schema::XmlValueConverter* System::Xml::Schema::XmlNumeric2Converter::Create(::System::Xml::Schema::XmlSchemaType*  schemaType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(),
+                        {"Create", {}, {::i2c::type_of<::System::Xml::Schema::XmlSchemaType*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlValueConverter*>(nullptr, ___internal_method, schemaType);
+}
+inline double_t System::Xml::Schema::XmlNumeric2Converter::ToDouble(::StringW  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 28}
+                        )));
+return ::cordl_internals::RunMethodRethrow<double_t>(this, ___internal_method, value);
+}
+inline double_t System::Xml::Schema::XmlNumeric2Converter::ToDouble(::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 29}
+                        )));
+return ::cordl_internals::RunMethodRethrow<double_t>(this, ___internal_method, value);
+}
+inline float_t System::Xml::Schema::XmlNumeric2Converter::ToSingle(double_t  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 30}
+                        )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, value);
+}
+inline float_t System::Xml::Schema::XmlNumeric2Converter::ToSingle(::StringW  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 31}
+                        )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, value);
+}
+inline float_t System::Xml::Schema::XmlNumeric2Converter::ToSingle(::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 32}
+                        )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, value);
+}
+inline ::StringW System::Xml::Schema::XmlNumeric2Converter::ToString(double_t  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 48}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
+}
+inline ::StringW System::Xml::Schema::XmlNumeric2Converter::ToString(float_t  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 47}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
+}
+inline ::StringW System::Xml::Schema::XmlNumeric2Converter::ToString(::System::Object*  value, ::System::Xml::IXmlNamespaceResolver*  nsResolver)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 52}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value, nsResolver);
+}
+inline ::System::Object* System::Xml::Schema::XmlNumeric2Converter::ChangeType(double_t  value, ::System::Type*  destinationType)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 57}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, value, destinationType);
+}
+inline ::System::Object* System::Xml::Schema::XmlNumeric2Converter::ChangeType(::StringW  value, ::System::Type*  destinationType, ::System::Xml::IXmlNamespaceResolver*  nsResolver)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 59}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, value, destinationType, nsResolver);
+}
+inline ::System::Object* System::Xml::Schema::XmlNumeric2Converter::ChangeType(::System::Object*  value, ::System::Type*  destinationType, ::System::Xml::IXmlNamespaceResolver*  nsResolver)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlNumeric2Converter*>(), 61}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, value, destinationType, nsResolver);
+}
+inline ::System::Xml::Schema::XmlNumeric2Converter* System::Xml::Schema::XmlNumeric2Converter::New_ctor(::System::Xml::Schema::XmlSchemaType*  schemaType)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::XmlNumeric2Converter*>(schemaType));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::XmlNumeric2Converter::XmlNumeric2Converter()   {
+}

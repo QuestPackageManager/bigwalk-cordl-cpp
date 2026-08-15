@@ -1,0 +1,129 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeHierarchyFlagsUpdater.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(VisualTreeHierarchyFlagsUpdater)
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+struct VisualElementFlags;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class VisualTreeHierarchyFlagsUpdater;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*, "UnityEngine.UIElements", "VisualTreeHierarchyFlagsUpdater");
+// Dependencies Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.BaseVisualTreeUpdater
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.VisualTreeHierarchyFlagsUpdater
+class CORDL_TYPE VisualTreeHierarchyFlagsUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
+public:
+// Declarations
+/// @brief Field m_LastVersion, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_LastVersion, put=__cordl_internal_set_m_LastVersion)) uint32_t  m_LastVersion;
+
+/// @brief Field m_Version, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Version, put=__cordl_internal_set_m_Version)) uint32_t  m_Version;
+
+ __declspec(property(get=get_profilerMarker)) ::Unity::Profiling::ProfilerMarker  profilerMarker;
+
+/// @brief Field s_Description, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Description, put=setStaticF_s_Description)) ::StringW  s_Description;
+
+/// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_ProfilerMarker, put=setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker  s_ProfilerMarker;
+
+/// @brief Method DirtyBoundingBoxHierarchy, addr 0x18241aa10, size 0xb0, virtual false, abstract: false, final false
+static inline void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement*  ve) ;
+
+/// @brief Method DirtyChildrenHierarchy, addr 0x18241aac0, size 0xc0, virtual false, abstract: false, final false
+static inline void DirtyChildrenHierarchy(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VisualElementFlags  mustDirtyFlags) ;
+
+/// @brief Method DirtyParentHierarchy, addr 0x18241ab80, size 0x70, virtual false, abstract: false, final false
+static inline void DirtyParentHierarchy(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VisualElementFlags  flags) ;
+
+/// @brief Method GetChildrenMustDirtyFlags, addr 0x18241abf0, size 0x40, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::VisualElementFlags GetChildrenMustDirtyFlags(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType) ;
+
+static inline ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater* New_ctor() ;
+
+/// @brief Method OnVersionChanged, addr 0x18241ac30, size 0x140, virtual true, abstract: false, final false
+inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType) ;
+
+/// @brief Method Update, addr 0x18241ad70, size 0x90, virtual true, abstract: false, final false
+inline void Update() ;
+
+constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
+
+constexpr uint32_t& __cordl_internal_get_m_LastVersion() ;
+
+constexpr uint32_t const& __cordl_internal_get_m_Version() const;
+
+constexpr uint32_t& __cordl_internal_get_m_Version() ;
+
+constexpr void __cordl_internal_set_m_LastVersion(uint32_t  value) ;
+
+constexpr void __cordl_internal_set_m_Version(uint32_t  value) ;
+
+/// @brief Method .ctor, addr 0x18241ae80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::StringW getStaticF_s_Description() ;
+
+static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker() ;
+
+/// @brief Method get_profilerMarker, addr 0x18241ae90, size 0x20, virtual true, abstract: false, final false
+inline ::Unity::Profiling::ProfilerMarker get_profilerMarker() ;
+
+static inline void setStaticF_s_Description(::StringW  value) ;
+
+static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualTreeHierarchyFlagsUpdater() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "VisualTreeHierarchyFlagsUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualTreeHierarchyFlagsUpdater(VisualTreeHierarchyFlagsUpdater && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "VisualTreeHierarchyFlagsUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualTreeHierarchyFlagsUpdater(VisualTreeHierarchyFlagsUpdater const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4474};
+
+/// @brief Field m_Version, offset: 0x28, size: 0x4, def value: None
+ uint32_t  ___m_Version;
+
+/// @brief Field m_LastVersion, offset: 0x2c, size: 0x4, def value: None
+ uint32_t  ___m_LastVersion;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater, ___m_Version) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater, ___m_LastVersion) == 0x2c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater) == 0x30, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

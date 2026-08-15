@@ -1,0 +1,1670 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UI/Selectable.hpp"
+#include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
+#include "UnityEngine/UI/zzzz__ColorBlock_impl.hpp"
+#include "UnityEngine/UI/zzzz__Navigation_impl.hpp"
+#include "UnityEngine/UI/zzzz__SpriteState_impl.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IMoveHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/UI/zzzz__AnimationTriggers_def.hpp"
+#include "UnityEngine/UI/zzzz__ColorBlock_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/UI/zzzz__Navigation_def.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
+#include "UnityEngine/UI/zzzz__SpriteState_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UI::Selectable_Transition::Selectable_Transition(int32_t  value__) noexcept  {
+this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UI::Selectable_Transition::Selectable_Transition()   {
+}
+constexpr ::UnityEngine::UI::Selectable_Transition  UnityEngine::UI::Selectable_Transition::None{static_cast<int32_t>(0x0)};
+constexpr ::UnityEngine::UI::Selectable_Transition  UnityEngine::UI::Selectable_Transition::ColorTint{static_cast<int32_t>(0x1)};
+constexpr ::UnityEngine::UI::Selectable_Transition  UnityEngine::UI::Selectable_Transition::SpriteSwap{static_cast<int32_t>(0x2)};
+constexpr ::UnityEngine::UI::Selectable_Transition  UnityEngine::UI::Selectable_Transition::Animation{static_cast<int32_t>(0x3)};
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UI::Selectable_SelectionState::Selectable_SelectionState(int32_t  value__) noexcept  {
+this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UI::Selectable_SelectionState::Selectable_SelectionState()   {
+}
+constexpr ::UnityEngine::UI::Selectable_SelectionState  UnityEngine::UI::Selectable_SelectionState::Normal{static_cast<int32_t>(0x0)};
+constexpr ::UnityEngine::UI::Selectable_SelectionState  UnityEngine::UI::Selectable_SelectionState::Highlighted{static_cast<int32_t>(0x1)};
+constexpr ::UnityEngine::UI::Selectable_SelectionState  UnityEngine::UI::Selectable_SelectionState::Pressed{static_cast<int32_t>(0x2)};
+constexpr ::UnityEngine::UI::Selectable_SelectionState  UnityEngine::UI::Selectable_SelectionState::Selected{static_cast<int32_t>(0x3)};
+constexpr ::UnityEngine::UI::Selectable_SelectionState  UnityEngine::UI::Selectable_SelectionState::Disabled{static_cast<int32_t>(0x4)};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_allSelectablesArray
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>> (*)()>(&::UnityEngine::UI::Selectable::get_allSelectablesArray)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182530ec0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_allSelectablesArray", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_allSelectableCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::UI::Selectable::get_allSelectableCount)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182530ea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_allSelectableCount", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_allSelectables
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>* (*)()>(&::UnityEngine::UI::Selectable::get_allSelectables)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x182530f10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_allSelectables", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.AllSelectablesNoAlloc
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::UnityEngine::UI::Selectable*>)>(&::UnityEngine::UI::Selectable::AllSelectablesNoAlloc)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18252f290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"AllSelectablesNoAlloc", {}, {::i2c::type_of<::ArrayW<::UnityEngine::UI::Selectable*>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_navigation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::Navigation (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_navigation)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18203b920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_navigation", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_navigation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::Navigation)>(&::UnityEngine::UI::Selectable::set_navigation)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x182531210;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_navigation", {}, {::i2c::type_of<::UnityEngine::UI::Navigation>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_transition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::Selectable_Transition (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_transition)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803d7410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_transition", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_transition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::Selectable_Transition)>(&::UnityEngine::UI::Selectable::set_transition)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x182531300;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_transition", {}, {::i2c::type_of<::UnityEngine::UI::Selectable_Transition>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_colors
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::ColorBlock (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_colors)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x182530fa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_colors", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_colors
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::ColorBlock)>(&::UnityEngine::UI::Selectable::set_colors)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182531100;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_colors", {}, {::i2c::type_of<::UnityEngine::UI::ColorBlock>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_spriteState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::SpriteState (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_spriteState)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1825310a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_spriteState", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_spriteState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::SpriteState)>(&::UnityEngine::UI::Selectable::set_spriteState)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182531270;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_spriteState", {}, {::i2c::type_of<::UnityEngine::UI::SpriteState>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_animationTriggers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::AnimationTriggers* (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_animationTriggers)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803b2f10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_animationTriggers", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_animationTriggers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::AnimationTriggers*)>(&::UnityEngine::UI::Selectable::set_animationTriggers)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1825310c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_animationTriggers", {}, {::i2c::type_of<::UnityEngine::UI::AnimationTriggers*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_targetGraphic
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_targetGraphic)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803459d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_targetGraphic", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_targetGraphic
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::Graphic*)>(&::UnityEngine::UI::Selectable::set_targetGraphic)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1825312c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_targetGraphic", {}, {::i2c::type_of<::UnityEngine::UI::Graphic*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_interactable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_interactable)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1805e8f80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_interactable", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_interactable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::set_interactable)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x182531170;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_interactable", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_isPointerInside
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_isPointerInside)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1813fdb40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_isPointerInside", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_isPointerInside
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::set_isPointerInside)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1813fdc70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_isPointerInside", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_isPointerDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_isPointerDown)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1813fdb30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_isPointerDown", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_isPointerDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::set_isPointerDown)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1813fdc60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_isPointerDown", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_hasSelection
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_hasSelection)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1813fdb20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_hasSelection", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_hasSelection
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::set_hasSelection)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1813fdc50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_hasSelection", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::_ctor)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x182530d50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_image
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Image> (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_image)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182531050;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_image", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.set_image
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::Image*)>(&::UnityEngine::UI::Selectable::set_image)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x180352c10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_image", {}, {::i2c::type_of<::UnityEngine::UI::Image*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_animator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Animator> (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_animator)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182530f90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_animator", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.Awake
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::Awake)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18252f2e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnCanvasGroupChanged
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnCanvasGroupChanged)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1825302b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.ParentGroupAllowsInteraction
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::ParentGroupAllowsInteraction)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x182530970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"ParentGroupAllowsInteraction", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.IsInteractable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::IsInteractable)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182530170;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 24}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnDidApplyAnimationProperties
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnDidApplyAnimationProperties)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182530370;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnEnable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnEnable)> {
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x182530450;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnTransformParentChanged
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnTransformParentChanged)> {
+  constexpr static std::size_t size = 0x139a0;
+  constexpr static std::size_t addrs = 0x180cd1950;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnSetProperty
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnSetProperty)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1825308f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"OnSetProperty", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnDisable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::OnDisable)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x182530380;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnApplicationFocus
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(bool)>(&::UnityEngine::UI::Selectable::OnApplicationFocus)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182530240;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"OnApplicationFocus", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.get_currentSelectionState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::Selectable_SelectionState (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::get_currentSelectionState)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182530fe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_currentSelectionState", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.InstantClearState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::InstantClearState)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x182530050;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 25}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.DoStateTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::UnityEngine::UI::Selectable::DoStateTransition)> {
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x18252f410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 26}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)(::UnityEngine::Vector3)>(&::UnityEngine::UI::Selectable::FindSelectable)> {
+  constexpr static std::size_t size = 0x5b0;
+  constexpr static std::size_t addrs = 0x18252f920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"FindSelectable", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.GetPointOnRectEdge
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2)>(&::UnityEngine::UI::Selectable::GetPointOnRectEdge)> {
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x18252fed0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"GetPointOnRectEdge", {}, {::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.Navigate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::AxisEventData*, ::UnityEngine::UI::Selectable*)>(&::UnityEngine::UI::Selectable::Navigate)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1825301e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"Navigate", {}, {::i2c::type_of<::UnityEngine::EventSystems::AxisEventData*>(), ::i2c::type_of<::UnityEngine::UI::Selectable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectableOnLeft
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::FindSelectableOnLeft)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18252f710;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 27}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectableOnRight
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::FindSelectableOnRight)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18252f7c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 28}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectableOnUp
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::FindSelectableOnUp)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18252f870;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 29}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectableOnDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::FindSelectableOnDown)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18252f660;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 30}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnMove
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::AxisEventData*)>(&::UnityEngine::UI::Selectable::OnMove)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x182530610;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 31}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.StartColorTween
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::Color, bool)>(&::UnityEngine::UI::Selectable::StartColorTween)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x182530ad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"StartColorTween", {}, {::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.DoSpriteSwap
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UI::Selectable::DoSpriteSwap)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x18252f330;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"DoSpriteSwap", {}, {::i2c::type_of<::UnityEngine::Sprite*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.TriggerAnimation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::StringW)>(&::UnityEngine::UI::Selectable::TriggerAnimation)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x182530b80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"TriggerAnimation", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.IsHighlighted
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::IsHighlighted)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182530100;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"IsHighlighted", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.IsPressed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::IsPressed)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182530190;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"IsPressed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.EvaluateAndTransitionToSelectionState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::EvaluateAndTransitionToSelectionState)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18252f5f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"EvaluateAndTransitionToSelectionState", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnPointerDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UI::Selectable::OnPointerDown)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1825306b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 32}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnPointerUp
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UI::Selectable::OnPointerUp)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182530850;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 33}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnPointerEnter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UI::Selectable::OnPointerEnter)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x182530750;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 34}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnPointerExit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::UI::Selectable::OnPointerExit)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1825307d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 35}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnSelect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::UI::Selectable::OnSelect)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x182530870;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 36}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.OnDeselect
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::UI::Selectable::OnDeselect)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1825302f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 37}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UI::Selectable.Select
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Selectable::*)()>(&::UnityEngine::UI::Selectable::Select)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x182530a70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                    {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 38}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr bool& UnityEngine::UI::Selectable::__cordl_internal_get_m_EnableCalled()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_EnableCalled;
+}
+constexpr bool const& UnityEngine::UI::Selectable::__cordl_internal_get_m_EnableCalled() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_EnableCalled;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_EnableCalled(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_EnableCalled = value;
+}
+constexpr ::UnityEngine::UI::Navigation& UnityEngine::UI::Selectable::__cordl_internal_get_m_Navigation()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Navigation;
+}
+constexpr ::UnityEngine::UI::Navigation const& UnityEngine::UI::Selectable::__cordl_internal_get_m_Navigation() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Navigation;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_Navigation(::UnityEngine::UI::Navigation  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Navigation = value;
+}
+constexpr ::UnityEngine::UI::Selectable_Transition& UnityEngine::UI::Selectable::__cordl_internal_get_m_Transition()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Transition;
+}
+constexpr ::UnityEngine::UI::Selectable_Transition const& UnityEngine::UI::Selectable::__cordl_internal_get_m_Transition() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Transition;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_Transition(::UnityEngine::UI::Selectable_Transition  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Transition = value;
+}
+constexpr ::UnityEngine::UI::ColorBlock& UnityEngine::UI::Selectable::__cordl_internal_get_m_Colors()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Colors;
+}
+constexpr ::UnityEngine::UI::ColorBlock const& UnityEngine::UI::Selectable::__cordl_internal_get_m_Colors() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Colors;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_Colors(::UnityEngine::UI::ColorBlock  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Colors = value;
+}
+constexpr ::UnityEngine::UI::SpriteState& UnityEngine::UI::Selectable::__cordl_internal_get_m_SpriteState()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SpriteState;
+}
+constexpr ::UnityEngine::UI::SpriteState const& UnityEngine::UI::Selectable::__cordl_internal_get_m_SpriteState() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SpriteState;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_SpriteState(::UnityEngine::UI::SpriteState  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_SpriteState = value;
+}
+constexpr ::UnityEngine::UI::AnimationTriggers*& UnityEngine::UI::Selectable::__cordl_internal_get_m_AnimationTriggers()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_AnimationTriggers;
+}
+constexpr ::UnityEngine::UI::AnimationTriggers* const& UnityEngine::UI::Selectable::__cordl_internal_get_m_AnimationTriggers() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_AnimationTriggers;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_AnimationTriggers(::UnityEngine::UI::AnimationTriggers*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_AnimationTriggers = value;
+}
+constexpr bool& UnityEngine::UI::Selectable::__cordl_internal_get_m_Interactable()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Interactable;
+}
+constexpr bool const& UnityEngine::UI::Selectable::__cordl_internal_get_m_Interactable() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Interactable;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_Interactable(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Interactable = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Graphic>& UnityEngine::UI::Selectable::__cordl_internal_get_m_TargetGraphic()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_TargetGraphic;
+}
+constexpr ::UnityW<::UnityEngine::UI::Graphic> const& UnityEngine::UI::Selectable::__cordl_internal_get_m_TargetGraphic() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_TargetGraphic;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_TargetGraphic(::UnityW<::UnityEngine::UI::Graphic>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_TargetGraphic = value;
+}
+constexpr bool& UnityEngine::UI::Selectable::__cordl_internal_get_m_GroupsAllowInteraction()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_GroupsAllowInteraction;
+}
+constexpr bool const& UnityEngine::UI::Selectable::__cordl_internal_get_m_GroupsAllowInteraction() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_GroupsAllowInteraction;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_GroupsAllowInteraction(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_GroupsAllowInteraction = value;
+}
+constexpr int32_t& UnityEngine::UI::Selectable::__cordl_internal_get_m_CurrentIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CurrentIndex;
+}
+constexpr int32_t const& UnityEngine::UI::Selectable::__cordl_internal_get_m_CurrentIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CurrentIndex;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_CurrentIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CurrentIndex = value;
+}
+constexpr bool& UnityEngine::UI::Selectable::__cordl_internal_get__isPointerInside_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isPointerInside_k__BackingField;
+}
+constexpr bool const& UnityEngine::UI::Selectable::__cordl_internal_get__isPointerInside_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isPointerInside_k__BackingField;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set__isPointerInside_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isPointerInside_k__BackingField = value;
+}
+constexpr bool& UnityEngine::UI::Selectable::__cordl_internal_get__isPointerDown_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isPointerDown_k__BackingField;
+}
+constexpr bool const& UnityEngine::UI::Selectable::__cordl_internal_get__isPointerDown_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isPointerDown_k__BackingField;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set__isPointerDown_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isPointerDown_k__BackingField = value;
+}
+constexpr bool& UnityEngine::UI::Selectable::__cordl_internal_get__hasSelection_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasSelection_k__BackingField;
+}
+constexpr bool const& UnityEngine::UI::Selectable::__cordl_internal_get__hasSelection_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasSelection_k__BackingField;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set__hasSelection_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hasSelection_k__BackingField = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*& UnityEngine::UI::Selectable::__cordl_internal_get_m_CanvasGroupCache()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CanvasGroupCache;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* const& UnityEngine::UI::Selectable::__cordl_internal_get_m_CanvasGroupCache() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CanvasGroupCache;
+}
+constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_CanvasGroupCache(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CanvasGroupCache = value;
+}
+inline void UnityEngine::UI::Selectable::setStaticF_s_Selectables(::ArrayW<::UnityW<::UnityEngine::UI::Selectable>>  value)  {
+::cordl_internals::setStaticField<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>>, "s_Selectables", ::UnityEngine::UI::Selectable*>(std::forward<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>>>(value));
+}
+inline ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>> UnityEngine::UI::Selectable::getStaticF_s_Selectables()  {
+return ::cordl_internals::getStaticField<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>>, "s_Selectables", ::UnityEngine::UI::Selectable*>();
+}
+inline void UnityEngine::UI::Selectable::setStaticF_s_SelectableCount(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "s_SelectableCount", ::UnityEngine::UI::Selectable*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::UI::Selectable::getStaticF_s_SelectableCount()  {
+return ::cordl_internals::getStaticField<int32_t, "s_SelectableCount", ::UnityEngine::UI::Selectable*>();
+}
+inline ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>> UnityEngine::UI::Selectable::get_allSelectablesArray()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_allSelectablesArray", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>>>(nullptr, ___internal_method);
+}
+inline int32_t UnityEngine::UI::Selectable::get_allSelectableCount()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_allSelectableCount", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>* UnityEngine::UI::Selectable::get_allSelectables()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_allSelectables", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>*>(nullptr, ___internal_method);
+}
+inline int32_t UnityEngine::UI::Selectable::AllSelectablesNoAlloc(::ArrayW<::UnityEngine::UI::Selectable*>  selectables)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"AllSelectablesNoAlloc", {}, {::i2c::type_of<::ArrayW<::UnityEngine::UI::Selectable*>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, selectables);
+}
+inline ::UnityEngine::UI::Navigation UnityEngine::UI::Selectable::get_navigation()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_navigation", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Navigation>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_navigation(::UnityEngine::UI::Navigation  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_navigation", {}, {::i2c::type_of<::UnityEngine::UI::Navigation>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UI::Selectable_Transition UnityEngine::UI::Selectable::get_transition()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_transition", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Selectable_Transition>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_transition(::UnityEngine::UI::Selectable_Transition  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_transition", {}, {::i2c::type_of<::UnityEngine::UI::Selectable_Transition>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UI::ColorBlock UnityEngine::UI::Selectable::get_colors()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_colors", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::ColorBlock>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_colors(::UnityEngine::UI::ColorBlock  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_colors", {}, {::i2c::type_of<::UnityEngine::UI::ColorBlock>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UI::SpriteState UnityEngine::UI::Selectable::get_spriteState()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_spriteState", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::SpriteState>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_spriteState(::UnityEngine::UI::SpriteState  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_spriteState", {}, {::i2c::type_of<::UnityEngine::UI::SpriteState>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UI::AnimationTriggers* UnityEngine::UI::Selectable::get_animationTriggers()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_animationTriggers", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::AnimationTriggers*>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_animationTriggers(::UnityEngine::UI::AnimationTriggers*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_animationTriggers", {}, {::i2c::type_of<::UnityEngine::UI::AnimationTriggers*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::UI::Graphic> UnityEngine::UI::Selectable::get_targetGraphic()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_targetGraphic", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Graphic>>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_targetGraphic(::UnityEngine::UI::Graphic*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_targetGraphic", {}, {::i2c::type_of<::UnityEngine::UI::Graphic*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UI::Selectable::get_interactable()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_interactable", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_interactable(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_interactable", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UI::Selectable::get_isPointerInside()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_isPointerInside", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_isPointerInside(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_isPointerInside", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UI::Selectable::get_isPointerDown()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_isPointerDown", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_isPointerDown(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_isPointerDown", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UI::Selectable::get_hasSelection()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_hasSelection", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_hasSelection(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_hasSelection", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UI::Selectable::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::UI::Image> UnityEngine::UI::Selectable::get_image()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_image", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Image>>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::set_image(::UnityEngine::UI::Image*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"set_image", {}, {::i2c::type_of<::UnityEngine::UI::Image*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::Animator> UnityEngine::UI::Selectable::get_animator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_animator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Animator>>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::Awake()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnCanvasGroupChanged()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool UnityEngine::UI::Selectable::ParentGroupAllowsInteraction()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"ParentGroupAllowsInteraction", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UI::Selectable::IsInteractable()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 24}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnDidApplyAnimationProperties()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnEnable()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnTransformParentChanged()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnSetProperty()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"OnSetProperty", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnDisable()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnApplicationFocus(bool  hasFocus)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"OnApplicationFocus", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, hasFocus);
+}
+inline ::UnityEngine::UI::Selectable_SelectionState UnityEngine::UI::Selectable::get_currentSelectionState()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"get_currentSelectionState", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Selectable_SelectionState>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::InstantClearState()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 25}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::DoStateTransition(::UnityEngine::UI::Selectable_SelectionState  state, bool  instant)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 26}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, state, instant);
+}
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectable(::UnityEngine::Vector3  dir)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"FindSelectable", {}, {::i2c::type_of<::UnityEngine::Vector3>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>>(this, ___internal_method, dir);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UI::Selectable::GetPointOnRectEdge(::UnityEngine::RectTransform*  rect, ::UnityEngine::Vector2  dir)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"GetPointOnRectEdge", {}, {::i2c::type_of<::UnityEngine::RectTransform*>(), ::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, rect, dir);
+}
+inline void UnityEngine::UI::Selectable::Navigate(::UnityEngine::EventSystems::AxisEventData*  eventData, ::UnityEngine::UI::Selectable*  sel)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"Navigate", {}, {::i2c::type_of<::UnityEngine::EventSystems::AxisEventData*>(), ::i2c::type_of<::UnityEngine::UI::Selectable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData, sel);
+}
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectableOnLeft()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 27}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectableOnRight()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 28}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectableOnUp()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 29}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectableOnDown()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 30}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnMove(::UnityEngine::EventSystems::AxisEventData*  eventData)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 31}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UI::Selectable::StartColorTween(::UnityEngine::Color  targetColor, bool  instant)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"StartColorTween", {}, {::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, targetColor, instant);
+}
+inline void UnityEngine::UI::Selectable::DoSpriteSwap(::UnityEngine::Sprite*  newSprite)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"DoSpriteSwap", {}, {::i2c::type_of<::UnityEngine::Sprite*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newSprite);
+}
+inline void UnityEngine::UI::Selectable::TriggerAnimation(::StringW  triggername)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"TriggerAnimation", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, triggername);
+}
+inline bool UnityEngine::UI::Selectable::IsHighlighted()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"IsHighlighted", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::UI::Selectable::IsPressed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"IsPressed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::EvaluateAndTransitionToSelectionState()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UI::Selectable*>(),
+                        {"EvaluateAndTransitionToSelectionState", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UI::Selectable::OnPointerDown(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 32}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UI::Selectable::OnPointerUp(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 33}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UI::Selectable::OnPointerEnter(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 34}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UI::Selectable::OnPointerExit(::UnityEngine::EventSystems::PointerEventData*  eventData)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 35}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UI::Selectable::OnSelect(::UnityEngine::EventSystems::BaseEventData*  eventData)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 36}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UI::Selectable::OnDeselect(::UnityEngine::EventSystems::BaseEventData*  eventData)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 37}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
+}
+inline void UnityEngine::UI::Selectable::Select()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UI::Selectable*>(), 38}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UI::Selectable* UnityEngine::UI::Selectable::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UI::Selectable*>());
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IMoveHandler"
+constexpr  UnityEngine::UI::Selectable::operator ::UnityEngine::EventSystems::IMoveHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IMoveHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IMoveHandler"
+constexpr ::UnityEngine::EventSystems::IMoveHandler* UnityEngine::UI::Selectable::i___UnityEngine__EventSystems__IMoveHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IMoveHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr  UnityEngine::UI::Selectable::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* UnityEngine::UI::Selectable::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
+constexpr  UnityEngine::UI::Selectable::operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+constexpr ::UnityEngine::EventSystems::IPointerDownHandler* UnityEngine::UI::Selectable::i___UnityEngine__EventSystems__IPointerDownHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr  UnityEngine::UI::Selectable::operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr ::UnityEngine::EventSystems::IPointerUpHandler* UnityEngine::UI::Selectable::i___UnityEngine__EventSystems__IPointerUpHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
+constexpr  UnityEngine::UI::Selectable::operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* UnityEngine::UI::Selectable::i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
+constexpr  UnityEngine::UI::Selectable::operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+constexpr ::UnityEngine::EventSystems::IPointerExitHandler* UnityEngine::UI::Selectable::i___UnityEngine__EventSystems__IPointerExitHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
+constexpr  UnityEngine::UI::Selectable::operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::ISelectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+constexpr ::UnityEngine::EventSystems::ISelectHandler* UnityEngine::UI::Selectable::i___UnityEngine__EventSystems__ISelectHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::ISelectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
+constexpr  UnityEngine::UI::Selectable::operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept {
+return static_cast<::UnityEngine::EventSystems::IDeselectHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
+constexpr ::UnityEngine::EventSystems::IDeselectHandler* UnityEngine::UI::Selectable::i___UnityEngine__EventSystems__IDeselectHandler() noexcept {
+return static_cast<::UnityEngine::EventSystems::IDeselectHandler*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UI::Selectable::Selectable()   {
+}

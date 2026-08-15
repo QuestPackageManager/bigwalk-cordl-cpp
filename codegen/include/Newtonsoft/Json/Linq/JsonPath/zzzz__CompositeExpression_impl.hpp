@@ -1,0 +1,115 @@
+#pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/CompositeExpression.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_impl.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__CompositeExpression_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonSelectSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression.get_Expressions
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* (::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::*)()>(&::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::get_Expressions)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(),
+                        {"get_Expressions", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression.set_Expressions
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::*)(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*)>(&::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::set_Expressions)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(),
+                        {"set_Expressions", {}, {::i2c::type_of<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::*)(::Newtonsoft::Json::Linq::JsonPath::QueryOperator)>(&::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181816cc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(),
+                        {".ctor", {}, {::i2c::type_of<::Newtonsoft::Json::Linq::JsonPath::QueryOperator>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression.IsMatch
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::*)(::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::IsMatch)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x181816b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*& Newtonsoft::Json::Linq::JsonPath::CompositeExpression::__cordl_internal_get__Expressions_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Expressions_k__BackingField;
+}
+constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* const& Newtonsoft::Json::Linq::JsonPath::CompositeExpression::__cordl_internal_get__Expressions_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Expressions_k__BackingField;
+}
+constexpr void Newtonsoft::Json::Linq::JsonPath::CompositeExpression::__cordl_internal_set__Expressions_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Expressions_k__BackingField = value;
+}
+inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* Newtonsoft::Json::Linq::JsonPath::CompositeExpression::get_Expressions()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(),
+                        {"get_Expressions", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Linq::JsonPath::CompositeExpression::set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(),
+                        {"set_Expressions", {}, {::i2c::type_of<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void Newtonsoft::Json::Linq::JsonPath::CompositeExpression::_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator  _cordl_operator)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(),
+                        {".ctor", {}, {::i2c::type_of<::Newtonsoft::Json::Linq::JsonPath::QueryOperator>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_operator);
+}
+inline bool Newtonsoft::Json::Linq::JsonPath::CompositeExpression::IsMatch(::Newtonsoft::Json::Linq::JToken*  root, ::Newtonsoft::Json::Linq::JToken*  t, ::Newtonsoft::Json::Linq::JsonSelectSettings*  settings)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, root, t, settings);
+}
+inline ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression* Newtonsoft::Json::Linq::JsonPath::CompositeExpression::New_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator  _cordl_operator)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>(_cordl_operator));
+}
+// Ctor Parameters []
+constexpr ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::CompositeExpression()   {
+}

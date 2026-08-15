@@ -1,0 +1,78 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/AudioDataLoadState.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(AudioDataLoadState)
+// Forward declare root types
+namespace UnityEngine {
+struct AudioDataLoadState;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::AudioDataLoadState);
+DEFINE_IL2CPP_CLASS(::UnityEngine::AudioDataLoadState, "UnityEngine", "AudioDataLoadState");
+// Dependencies 
+namespace UnityEngine {
+// Is value type: true
+// CS Name: UnityEngine.AudioDataLoadState
+struct CORDL_TYPE AudioDataLoadState {
+public:
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+/// @brief Nested struct __AudioDataLoadState_Unwrapped
+enum struct __AudioDataLoadState_Unwrapped : int32_t {
+__E_Unloaded = static_cast<int32_t>(0x0),
+__E_Loading = static_cast<int32_t>(0x1),
+__E_Loaded = static_cast<int32_t>(0x2),
+__E_Failed = static_cast<int32_t>(0x3),
+};
+
+/// @brief Conversion into unwrapped enum value
+constexpr operator __AudioDataLoadState_Unwrapped () const noexcept {
+return static_cast<__AudioDataLoadState_Unwrapped>(this->value__);
+}
+
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioDataLoadState() ;
+
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr AudioDataLoadState(int32_t  value__) noexcept;
+
+/// @brief Field Failed value: I32(3)
+static ::UnityEngine::AudioDataLoadState const Failed;
+
+/// @brief Field Loaded value: I32(2)
+static ::UnityEngine::AudioDataLoadState const Loaded;
+
+/// @brief Field Loading value: I32(1)
+static ::UnityEngine::AudioDataLoadState const Loading;
+
+/// @brief Field Unloaded value: I32(0)
+static ::UnityEngine::AudioDataLoadState const Unloaded;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20456};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+
+/// @brief Field value__, offset: 0x4, size: 0x4, def value: None
+ int32_t  value__;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::AudioDataLoadState, value__) == 0x4, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::AudioDataLoadState) == 0x4, "Size mismatch!");
+
+} // namespace end def UnityEngine

@@ -1,0 +1,166 @@
+#pragma once
+// IWYU pragma private; include "System/ComponentModel/WeakHashtable.hpp"
+#include "System/Collections/zzzz__Hashtable_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::ComponentModel::WeakHashtable_WeakKeyComparer.System_Collections_IEqualityComparer_Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)(::System::Object*, ::System::Object*)>(&::System::ComponentModel::WeakHashtable_WeakKeyComparer::System_Collections_IEqualityComparer_Equals)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181e22130;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>(),
+                        {"System.Collections.IEqualityComparer.Equals", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::WeakHashtable_WeakKeyComparer.System_Collections_IEqualityComparer_GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)(::System::Object*)>(&::System::ComponentModel::WeakHashtable_WeakKeyComparer::System_Collections_IEqualityComparer_GetHashCode)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181e222c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>(),
+                        {"System.Collections.IEqualityComparer.GetHashCode", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::WeakHashtable_WeakKeyComparer._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)()>(&::System::ComponentModel::WeakHashtable_WeakKeyComparer::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline bool System::ComponentModel::WeakHashtable_WeakKeyComparer::System_Collections_IEqualityComparer_Equals(::System::Object*  x, ::System::Object*  y)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>(),
+                        {"System.Collections.IEqualityComparer.Equals", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x, y);
+}
+inline int32_t System::ComponentModel::WeakHashtable_WeakKeyComparer::System_Collections_IEqualityComparer_GetHashCode(::System::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>(),
+                        {"System.Collections.IEqualityComparer.GetHashCode", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, obj);
+}
+inline void System::ComponentModel::WeakHashtable_WeakKeyComparer::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::ComponentModel::WeakHashtable_WeakKeyComparer* System::ComponentModel::WeakHashtable_WeakKeyComparer::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>());
+}
+/// @brief Convert operator to "::System::Collections::IEqualityComparer"
+constexpr  System::ComponentModel::WeakHashtable_WeakKeyComparer::operator ::System::Collections::IEqualityComparer*() noexcept {
+return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEqualityComparer"
+constexpr ::System::Collections::IEqualityComparer* System::ComponentModel::WeakHashtable_WeakKeyComparer::i___System__Collections__IEqualityComparer() noexcept {
+return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::ComponentModel::WeakHashtable_WeakKeyComparer::WeakHashtable_WeakKeyComparer()   {
+}
+//  Writing Method size for method: ::System::ComponentModel::WeakHashtable._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::WeakHashtable::*)()>(&::System::ComponentModel::WeakHashtable::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181e220e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::WeakHashtable*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::WeakHashtable.Clear
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::WeakHashtable::*)()>(&::System::ComponentModel::WeakHashtable::Clear)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181e22080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::WeakHashtable*>(),
+                    {::i2c::class_of<::System::ComponentModel::WeakHashtable*>(), 24}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::WeakHashtable.Remove
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::WeakHashtable::*)(::System::Object*)>(&::System::ComponentModel::WeakHashtable::Remove)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181e22090;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::WeakHashtable*>(),
+                    {::i2c::class_of<::System::ComponentModel::WeakHashtable*>(), 39}
+                ));
+    return ___internal_method;
+  }
+};
+inline void System::ComponentModel::WeakHashtable::setStaticF__comparer(::System::Collections::IEqualityComparer*  value)  {
+::cordl_internals::setStaticField<::System::Collections::IEqualityComparer*, "_comparer", ::System::ComponentModel::WeakHashtable*>(std::forward<::System::Collections::IEqualityComparer*>(value));
+}
+inline ::System::Collections::IEqualityComparer* System::ComponentModel::WeakHashtable::getStaticF__comparer()  {
+return ::cordl_internals::getStaticField<::System::Collections::IEqualityComparer*, "_comparer", ::System::ComponentModel::WeakHashtable*>();
+}
+inline void System::ComponentModel::WeakHashtable::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::WeakHashtable*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::ComponentModel::WeakHashtable::Clear()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::WeakHashtable*>(), 24}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::ComponentModel::WeakHashtable::Remove(::System::Object*  key)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::WeakHashtable*>(), 39}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key);
+}
+inline ::System::ComponentModel::WeakHashtable* System::ComponentModel::WeakHashtable::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::ComponentModel::WeakHashtable*>());
+}
+// Ctor Parameters []
+constexpr ::System::ComponentModel::WeakHashtable::WeakHashtable()   {
+}

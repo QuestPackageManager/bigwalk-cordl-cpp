@@ -1,0 +1,467 @@
+#pragma once
+// IWYU pragma private; include "Internal/Cryptography/Pal/CertificateData.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
+#include "System/zzzz__DateTime_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "Internal/Cryptography/Pal/zzzz__CertificateData_def.hpp"
+#include "Internal/Cryptography/Pal/zzzz__CertificateData_def.hpp"
+#include "Internal/Cryptography/Pal/zzzz__GeneralNameType_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509NameType_def.hpp"
+#include "System/Security/Cryptography/zzzz__DerSequenceReader_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+// Ctor Parameters [CppParam { name: "AlgorithmId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Parameters", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier::CertificateData_AlgorithmIdentifier(::StringW  AlgorithmId, ::ArrayW<uint8_t>  Parameters) noexcept  {
+this->AlgorithmId = AlgorithmId;
+this->Parameters = Parameters;
+}
+// Ctor Parameters []
+constexpr ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier::CertificateData_AlgorithmIdentifier()   {
+}
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)(int32_t)>(&::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x180d6a3f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21.System_IDisposable_Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(&::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21.MoveNext
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(&::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::MoveNext)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x181dc0340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21.System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW> (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(&::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2d70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21.System_Collections_IEnumerator_Reset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(&::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802eb7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21.System_Collections_IEnumerator_get_Current
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(&::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181dc05f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21.System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>* (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(&::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181dc0570;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21.System_Collections_IEnumerable_GetEnumerator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::*)()>(&::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerable_GetEnumerator)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181dc0570;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+constexpr int32_t const& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+constexpr void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW> const& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+constexpr void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+constexpr int32_t& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+constexpr int32_t const& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+constexpr void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get_name()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___name;
+}
+constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* const& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get_name() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___name;
+}
+constexpr void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_set_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___name = value;
+}
+constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get___3__name()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__name;
+}
+constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* const& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get___3__name() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__name;
+}
+constexpr void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_set___3__name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__name = value;
+}
+constexpr ::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>*& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get__rdnReaders_5__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____rdnReaders_5__2;
+}
+constexpr ::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>* const& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get__rdnReaders_5__2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____rdnReaders_5__2;
+}
+constexpr void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_set__rdnReaders_5__2(::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____rdnReaders_5__2 = value;
+}
+constexpr ::System::Security::Cryptography::DerSequenceReader*& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get__rdnReader_5__3()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____rdnReader_5__3;
+}
+constexpr ::System::Security::Cryptography::DerSequenceReader* const& Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_get__rdnReader_5__3() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____rdnReader_5__3;
+}
+constexpr void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::__cordl_internal_set__rdnReader_5__3(::System::Security::Cryptography::DerSequenceReader*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____rdnReader_5__3 = value;
+}
+inline void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+inline void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW> Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>(this, ___internal_method);
+}
+inline void Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>*>(this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+inline ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
+constexpr  Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___StringW__() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr  Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
+constexpr  Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___StringW__() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr  Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::CertificateData__ReadReverseRdns_d__21()   {
+}
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Cryptography::Pal::CertificateData::*)(::ArrayW<uint8_t>)>(&::Internal::Cryptography::Pal::CertificateData::_ctor)> {
+  constexpr static std::size_t size = 0x960;
+  constexpr static std::size_t addrs = 0x181daf2c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<uint8_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData.GetNameInfo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Internal::Cryptography::Pal::CertificateData::*)(::System::Security::Cryptography::X509Certificates::X509NameType, bool)>(&::Internal::Cryptography::Pal::CertificateData::GetNameInfo)> {
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x181daebb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {"GetNameInfo", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509NameType>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData.GetSimpleNameInfo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*)>(&::Internal::Cryptography::Pal::CertificateData::GetSimpleNameInfo)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x181daef80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {"GetSimpleNameInfo", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData.FindAltNameMatch
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>, ::Internal::Cryptography::Pal::GeneralNameType, ::StringW)>(&::Internal::Cryptography::Pal::CertificateData::FindAltNameMatch)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181daea20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {"FindAltNameMatch", {}, {::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::Internal::Cryptography::Pal::GeneralNameType>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Internal::Cryptography::Pal::CertificateData.ReadReverseRdns
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>* (*)(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*)>(&::Internal::Cryptography::Pal::CertificateData::ReadReverseRdns)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181daf270;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {"ReadReverseRdns", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void Internal::Cryptography::Pal::CertificateData::_ctor(::ArrayW<uint8_t>  rawData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<uint8_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, rawData);
+}
+inline ::StringW Internal::Cryptography::Pal::CertificateData::GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType  nameType, bool  forIssuer)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {"GetNameInfo", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509NameType>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, nameType, forIssuer);
+}
+inline ::StringW Internal::Cryptography::Pal::CertificateData::GetSimpleNameInfo(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*  name)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {"GetSimpleNameInfo", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, name);
+}
+inline ::StringW Internal::Cryptography::Pal::CertificateData::FindAltNameMatch(::ArrayW<uint8_t>  extensionBytes, ::Internal::Cryptography::Pal::GeneralNameType  matchType, ::StringW  otherOid)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {"FindAltNameMatch", {}, {::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::Internal::Cryptography::Pal::GeneralNameType>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, extensionBytes, matchType, otherOid);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>* Internal::Cryptography::Pal::CertificateData::ReadReverseRdns(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*  name)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Internal::Cryptography::Pal::CertificateData>(),
+                        {"ReadReverseRdns", {}, {::i2c::type_of<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>*>(nullptr, ___internal_method, name);
+}
+// Ctor Parameters [CppParam { name: "RawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "SubjectPublicKeyInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SerialNumber", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TbsSignature", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "Issuer", ty: "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "NotBefore", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "NotAfter", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "Subject", ty: "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PublicKeyAlgorithm", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "PublicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "IssuerUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "SubjectUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Extensions", ty: "::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SignatureAlgorithm", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "SignatureValue", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Internal::Cryptography::Pal::CertificateData::CertificateData(::ArrayW<uint8_t>  RawData, ::ArrayW<uint8_t>  SubjectPublicKeyInfo, int32_t  Version, ::ArrayW<uint8_t>  SerialNumber, ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier  TbsSignature, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*  Issuer, ::System::DateTime  NotBefore, ::System::DateTime  NotAfter, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*  Subject, ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier  PublicKeyAlgorithm, ::ArrayW<uint8_t>  PublicKey, ::ArrayW<uint8_t>  IssuerUniqueId, ::ArrayW<uint8_t>  SubjectUniqueId, ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>*  Extensions, ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier  SignatureAlgorithm, ::ArrayW<uint8_t>  SignatureValue) noexcept  {
+this->RawData = RawData;
+this->SubjectPublicKeyInfo = SubjectPublicKeyInfo;
+this->Version = Version;
+this->SerialNumber = SerialNumber;
+this->TbsSignature = TbsSignature;
+this->Issuer = Issuer;
+this->NotBefore = NotBefore;
+this->NotAfter = NotAfter;
+this->Subject = Subject;
+this->PublicKeyAlgorithm = PublicKeyAlgorithm;
+this->PublicKey = PublicKey;
+this->IssuerUniqueId = IssuerUniqueId;
+this->SubjectUniqueId = SubjectUniqueId;
+this->Extensions = Extensions;
+this->SignatureAlgorithm = SignatureAlgorithm;
+this->SignatureValue = SignatureValue;
+}
+// Ctor Parameters []
+constexpr ::Internal::Cryptography::Pal::CertificateData::CertificateData()   {
+}

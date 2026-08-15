@@ -1,0 +1,163 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryObjectWithMap.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(BinaryObjectWithMap)
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryHeaderEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryWriter;
+}
+// Forward declare root types
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMap;
+}
+// Write type traits
+MARK_REF_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*);
+DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectWithMap");
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
+namespace System::Runtime::Serialization::Formatters::Binary {
+// Is value type: false
+// CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap
+class CORDL_TYPE BinaryObjectWithMap : public ::System::Object {
+public:
+// Declarations
+/// @brief Field assemId, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_assemId, put=__cordl_internal_set_assemId)) int32_t  assemId;
+
+/// @brief Field binaryHeaderEnum, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_binaryHeaderEnum, put=__cordl_internal_set_binaryHeaderEnum)) ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum  binaryHeaderEnum;
+
+/// @brief Field memberNames, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_memberNames, put=__cordl_internal_set_memberNames)) ::ArrayW<::StringW>  memberNames;
+
+/// @brief Field name, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::StringW  name;
+
+/// @brief Field numMembers, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_numMembers, put=__cordl_internal_set_numMembers)) int32_t  numMembers;
+
+/// @brief Field objectId, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_objectId, put=__cordl_internal_set_objectId)) int32_t  objectId;
+
+/// @brief Method Dump, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void Dump() ;
+
+static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* New_ctor() ;
+
+static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum  binaryHeaderEnum) ;
+
+/// @brief Method Read, addr 0x18164f010, size 0xe0, virtual true, abstract: false, final true
+inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*  input) ;
+
+/// @brief Method Set, addr 0x18164f0f0, size 0x60, virtual false, abstract: false, final false
+inline void Set(int32_t  objectId, ::StringW  name, int32_t  numMembers, ::ArrayW<::StringW>  memberNames, int32_t  assemId) ;
+
+/// @brief Method Write, addr 0x18164f150, size 0xf0, virtual true, abstract: false, final true
+inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*  sout) ;
+
+constexpr int32_t const& __cordl_internal_get_assemId() const;
+
+constexpr int32_t& __cordl_internal_get_assemId() ;
+
+constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const& __cordl_internal_get_binaryHeaderEnum() const;
+
+constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& __cordl_internal_get_binaryHeaderEnum() ;
+
+constexpr ::ArrayW<::StringW> const& __cordl_internal_get_memberNames() const;
+
+constexpr ::ArrayW<::StringW>& __cordl_internal_get_memberNames() ;
+
+constexpr ::StringW const& __cordl_internal_get_name() const;
+
+constexpr ::StringW& __cordl_internal_get_name() ;
+
+constexpr int32_t const& __cordl_internal_get_numMembers() const;
+
+constexpr int32_t& __cordl_internal_get_numMembers() ;
+
+constexpr int32_t const& __cordl_internal_get_objectId() const;
+
+constexpr int32_t& __cordl_internal_get_objectId() ;
+
+constexpr void __cordl_internal_set_assemId(int32_t  value) ;
+
+constexpr void __cordl_internal_set_binaryHeaderEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum  value) ;
+
+constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW>  value) ;
+
+constexpr void __cordl_internal_set_name(::StringW  value) ;
+
+constexpr void __cordl_internal_set_numMembers(int32_t  value) ;
+
+constexpr void __cordl_internal_set_objectId(int32_t  value) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method .ctor, addr 0x180378ff0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum  binaryHeaderEnum) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr BinaryObjectWithMap() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "BinaryObjectWithMap", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BinaryObjectWithMap(BinaryObjectWithMap && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "BinaryObjectWithMap", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BinaryObjectWithMap(BinaryObjectWithMap const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1050};
+
+/// @brief Field binaryHeaderEnum, offset: 0x10, size: 0x4, def value: None
+ ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum  ___binaryHeaderEnum;
+
+/// @brief Field objectId, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___objectId;
+
+/// @brief Field name, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___name;
+
+/// @brief Field numMembers, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___numMembers;
+
+/// @brief Field memberNames, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::StringW>  ___memberNames;
+
+/// @brief Field assemId, offset: 0x30, size: 0x4, def value: None
+ int32_t  ___assemId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___binaryHeaderEnum) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___objectId) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___name) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___numMembers) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___memberNames) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap, ___assemId) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap) == 0x38, "Size mismatch!");
+
+} // namespace end def System::Runtime::Serialization::Formatters::Binary

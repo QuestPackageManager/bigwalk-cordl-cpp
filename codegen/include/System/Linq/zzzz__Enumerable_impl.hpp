@@ -1,0 +1,4152 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Enumerable.hpp"
+#include "System/Collections/Generic/zzzz__List_1_impl.hpp"
+#include "System/Linq/zzzz__Buffer_1_impl.hpp"
+#include "System/Linq/zzzz__Enumerable_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Linq/zzzz__Enumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Linq/zzzz__Enumerable_def.hpp"
+#include "System/Linq/zzzz__IGrouping_2_def.hpp"
+#include "System/Linq/zzzz__IOrderedEnumerable_1_def.hpp"
+#include "System/Linq/zzzz__Set_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_get_threadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___threadId;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_get_threadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___threadId;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_set_threadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___threadId = value;
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_get_state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___state;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_get_state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___state;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_set_state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___state = value;
+}
+template<typename TSource>
+constexpr TSource& System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_get_current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___current;
+}
+template<typename TSource>
+constexpr TSource const& System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_get_current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___current;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_Iterator_1<TSource>::__cordl_internal_set_current(TSource  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___current = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable_Iterator_1<TSource>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable_Iterator_1<TSource>::get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(),
+                        {"get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TSource>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable_Iterator_1<TSource>* System::Linq::Enumerable_Iterator_1<TSource>::Clone()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Enumerable_Iterator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable_Iterator_1<TSource>::Dispose()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable_Iterator_1<TSource>::GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(),
+                        {"GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable_Iterator_1<TSource>::MoveNext()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource>
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable_Iterator_1<TSource>::Select(::System::Func_2<TSource,TResult>*  selector)  {
+auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                                reinterpret_cast<Il2CppObject*>(this)->klass,
+                                {::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(), 14}
+                            )));
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(
+                                ___internal_method_base,
+                                {::i2c::class_of<TResult>()}
+                            ));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(this, ___internal_method, selector);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable_Iterator_1<TSource>::Where(::System::Func_2<TSource,bool>*  predicate)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(this, ___internal_method, predicate);
+}
+template<typename TSource>
+inline ::System::Object* System::Linq::Enumerable_Iterator_1<TSource>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable_Iterator_1<TSource>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable_Iterator_1<TSource>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_Iterator_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable_Iterator_1<TSource>* System::Linq::Enumerable_Iterator_1<TSource>::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable_Iterator_1<TSource>*>());
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable_Iterator_1<TSource>::operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable_Iterator_1<TSource>::i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable_Iterator_1<TSource>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable_Iterator_1<TSource>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable_Iterator_1<TSource>::operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable_Iterator_1<TSource>::i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable_Iterator_1<TSource>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TSource>
+constexpr ::System::IDisposable* System::Linq::Enumerable_Iterator_1<TSource>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr  System::Linq::Enumerable_Iterator_1<TSource>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable_Iterator_1<TSource>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable_Iterator_1<TSource>::Enumerable_Iterator_1()   {
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>*& System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_get_predicate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>* const& System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_get_predicate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_set_predicate(::System::Func_2<TSource,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_get_enumerator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enumerator;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* const& System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_get_enumerator() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enumerator;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::__cordl_internal_set_enumerator(::System::Collections::Generic::IEnumerator_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___enumerator = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::_ctor(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable_Iterator_1<TSource>* System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::Clone()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Enumerable_Iterator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::Dispose()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::MoveNext()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource>
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::Select(::System::Func_2<TSource,TResult>*  selector)  {
+auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                                reinterpret_cast<Il2CppObject*>(this)->klass,
+                                {::i2c::class_of<::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>*>(), 14}
+                            )));
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(
+                                ___internal_method_base,
+                                {::i2c::class_of<TResult>()}
+                            ));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(this, ___internal_method, selector);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::Where(::System::Func_2<TSource,bool>*  predicate)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(this, ___internal_method, predicate);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>* System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::New_ctor(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>*>(source, predicate));
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable_WhereEnumerableIterator_1<TSource>::Enumerable_WhereEnumerableIterator_1()   {
+}
+template<typename TSource>
+constexpr ::ArrayW<TSource>& System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr ::ArrayW<TSource> const& System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_set_source(::ArrayW<TSource>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>*& System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_get_predicate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>* const& System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_get_predicate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_set_predicate(::System::Func_2<TSource,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate = value;
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_get_index()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___index;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_get_index() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___index;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereArrayIterator_1<TSource>::__cordl_internal_set_index(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___index = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable_WhereArrayIterator_1<TSource>::_ctor(::ArrayW<TSource>  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_WhereArrayIterator_1<TSource>*>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<TSource>>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable_Iterator_1<TSource>* System::Linq::Enumerable_WhereArrayIterator_1<TSource>::Clone()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereArrayIterator_1<TSource>*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Enumerable_Iterator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable_WhereArrayIterator_1<TSource>::MoveNext()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereArrayIterator_1<TSource>*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource>
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable_WhereArrayIterator_1<TSource>::Select(::System::Func_2<TSource,TResult>*  selector)  {
+auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                                reinterpret_cast<Il2CppObject*>(this)->klass,
+                                {::i2c::class_of<::System::Linq::Enumerable_WhereArrayIterator_1<TSource>*>(), 14}
+                            )));
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(
+                                ___internal_method_base,
+                                {::i2c::class_of<TResult>()}
+                            ));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(this, ___internal_method, selector);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable_WhereArrayIterator_1<TSource>::Where(::System::Func_2<TSource,bool>*  predicate)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereArrayIterator_1<TSource>*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(this, ___internal_method, predicate);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable_WhereArrayIterator_1<TSource>* System::Linq::Enumerable_WhereArrayIterator_1<TSource>::New_ctor(::ArrayW<TSource>  source, ::System::Func_2<TSource,bool>*  predicate)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable_WhereArrayIterator_1<TSource>*>(source, predicate));
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable_WhereArrayIterator_1<TSource>::Enumerable_WhereArrayIterator_1()   {
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::List_1<TSource>*& System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::List_1<TSource>* const& System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_set_source(::System::Collections::Generic::List_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>*& System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_get_predicate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>* const& System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_get_predicate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_set_predicate(::System::Func_2<TSource,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::List_1_Enumerator<TSource>& System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_get_enumerator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enumerator;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::List_1_Enumerator<TSource> const& System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_get_enumerator() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enumerator;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable_WhereListIterator_1<TSource>::__cordl_internal_set_enumerator(::System::Collections::Generic::List_1_Enumerator<TSource>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___enumerator = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable_WhereListIterator_1<TSource>::_ctor(::System::Collections::Generic::List_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_WhereListIterator_1<TSource>*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Collections::Generic::List_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable_Iterator_1<TSource>* System::Linq::Enumerable_WhereListIterator_1<TSource>::Clone()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereListIterator_1<TSource>*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Enumerable_Iterator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable_WhereListIterator_1<TSource>::MoveNext()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereListIterator_1<TSource>*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource>
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable_WhereListIterator_1<TSource>::Select(::System::Func_2<TSource,TResult>*  selector)  {
+auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                                reinterpret_cast<Il2CppObject*>(this)->klass,
+                                {::i2c::class_of<::System::Linq::Enumerable_WhereListIterator_1<TSource>*>(), 14}
+                            )));
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(
+                                ___internal_method_base,
+                                {::i2c::class_of<TResult>()}
+                            ));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(this, ___internal_method, selector);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable_WhereListIterator_1<TSource>::Where(::System::Func_2<TSource,bool>*  predicate)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereListIterator_1<TSource>*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(this, ___internal_method, predicate);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable_WhereListIterator_1<TSource>* System::Linq::Enumerable_WhereListIterator_1<TSource>::New_ctor(::System::Collections::Generic::List_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable_WhereListIterator_1<TSource>*>(source, predicate));
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable_WhereListIterator_1<TSource>::Enumerable_WhereListIterator_1()   {
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,bool>*& System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_get_predicate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,bool>* const& System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_get_predicate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_set_predicate(::System::Func_2<TSource,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,TResult>*& System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_get_selector()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,TResult>* const& System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_get_selector() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_set_selector(::System::Func_2<TSource,TResult>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___selector = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_get_enumerator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enumerator;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* const& System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_get_enumerator() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enumerator;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::__cordl_internal_set_enumerator(::System::Collections::Generic::IEnumerator_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___enumerator = value;
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::_ctor(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate, ::System::Func_2<TSource,TResult>*  selector)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>(), ::i2c::type_of<::System::Func_2<TSource,TResult>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source, predicate, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Linq::Enumerable_Iterator_1<TResult>* System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::Clone()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Enumerable_Iterator_1<TResult>*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::Dispose()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline bool System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::MoveNext()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+template<typename TResult2>
+inline ::System::Collections::Generic::IEnumerable_1<TResult2>* System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::Select(::System::Func_2<TResult,TResult2>*  selector)  {
+auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                                reinterpret_cast<Il2CppObject*>(this)->klass,
+                                {::i2c::class_of<::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>*>(), 14}
+                            )));
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(
+                                ___internal_method_base,
+                                {::i2c::class_of<TResult2>()}
+                            ));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult2>*>(this, ___internal_method, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::Where(::System::Func_2<TResult,bool>*  predicate)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(this, ___internal_method, predicate);
+}
+template<typename TSource,typename TResult>
+inline ::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>* System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::New_ctor(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate, ::System::Func_2<TSource,TResult>*  selector)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>*>(source, predicate, selector));
+}
+// Ctor Parameters []
+template<typename TSource,typename TResult>
+constexpr ::System::Linq::Enumerable_WhereSelectEnumerableIterator_2<TSource,TResult>::Enumerable_WhereSelectEnumerableIterator_2()   {
+}
+template<typename TSource,typename TResult>
+constexpr ::ArrayW<TSource>& System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr ::ArrayW<TSource> const& System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_set_source(::ArrayW<TSource>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,bool>*& System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_get_predicate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,bool>* const& System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_get_predicate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_set_predicate(::System::Func_2<TSource,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,TResult>*& System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_get_selector()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,TResult>* const& System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_get_selector() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_set_selector(::System::Func_2<TSource,TResult>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___selector = value;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t& System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_get_index()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___index;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t const& System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_get_index() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___index;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::__cordl_internal_set_index(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___index = value;
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::_ctor(::ArrayW<TSource>  source, ::System::Func_2<TSource,bool>*  predicate, ::System::Func_2<TSource,TResult>*  selector)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>*>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<TSource>>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>(), ::i2c::type_of<::System::Func_2<TSource,TResult>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source, predicate, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Linq::Enumerable_Iterator_1<TResult>* System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::Clone()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Enumerable_Iterator_1<TResult>*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline bool System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::MoveNext()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+template<typename TResult2>
+inline ::System::Collections::Generic::IEnumerable_1<TResult2>* System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::Select(::System::Func_2<TResult,TResult2>*  selector)  {
+auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                                reinterpret_cast<Il2CppObject*>(this)->klass,
+                                {::i2c::class_of<::System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>*>(), 14}
+                            )));
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(
+                                ___internal_method_base,
+                                {::i2c::class_of<TResult2>()}
+                            ));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult2>*>(this, ___internal_method, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::Where(::System::Func_2<TResult,bool>*  predicate)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(this, ___internal_method, predicate);
+}
+template<typename TSource,typename TResult>
+inline ::System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>* System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::New_ctor(::ArrayW<TSource>  source, ::System::Func_2<TSource,bool>*  predicate, ::System::Func_2<TSource,TResult>*  selector)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>*>(source, predicate, selector));
+}
+// Ctor Parameters []
+template<typename TSource,typename TResult>
+constexpr ::System::Linq::Enumerable_WhereSelectArrayIterator_2<TSource,TResult>::Enumerable_WhereSelectArrayIterator_2()   {
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::List_1<TSource>*& System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::List_1<TSource>* const& System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_set_source(::System::Collections::Generic::List_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,bool>*& System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_get_predicate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,bool>* const& System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_get_predicate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_set_predicate(::System::Func_2<TSource,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,TResult>*& System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_get_selector()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,TResult>* const& System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_get_selector() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_set_selector(::System::Func_2<TSource,TResult>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___selector = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::List_1_Enumerator<TSource>& System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_get_enumerator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enumerator;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::List_1_Enumerator<TSource> const& System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_get_enumerator() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enumerator;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::__cordl_internal_set_enumerator(::System::Collections::Generic::List_1_Enumerator<TSource>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___enumerator = value;
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::_ctor(::System::Collections::Generic::List_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate, ::System::Func_2<TSource,TResult>*  selector)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Collections::Generic::List_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>(), ::i2c::type_of<::System::Func_2<TSource,TResult>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, source, predicate, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Linq::Enumerable_Iterator_1<TResult>* System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::Clone()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Enumerable_Iterator_1<TResult>*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline bool System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::MoveNext()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+template<typename TResult2>
+inline ::System::Collections::Generic::IEnumerable_1<TResult2>* System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::Select(::System::Func_2<TResult,TResult2>*  selector)  {
+auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                                reinterpret_cast<Il2CppObject*>(this)->klass,
+                                {::i2c::class_of<::System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>*>(), 14}
+                            )));
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(
+                                ___internal_method_base,
+                                {::i2c::class_of<TResult2>()}
+                            ));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult2>*>(this, ___internal_method, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::Where(::System::Func_2<TResult,bool>*  predicate)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(this, ___internal_method, predicate);
+}
+template<typename TSource,typename TResult>
+inline ::System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>* System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::New_ctor(::System::Collections::Generic::List_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate, ::System::Func_2<TSource,TResult>*  selector)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>*>(source, predicate, selector));
+}
+// Ctor Parameters []
+template<typename TSource,typename TResult>
+constexpr ::System::Linq::Enumerable_WhereSelectListIterator_2<TSource,TResult>::Enumerable_WhereSelectListIterator_2()   {
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+template<typename TSource>
+constexpr TSource& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource>
+constexpr TSource const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set___2__current(TSource  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___3__source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___3__source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__source = value;
+}
+template<typename TSource>
+constexpr ::System::Func_3<TSource,int32_t,bool>*& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get_predicate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource>
+constexpr ::System::Func_3<TSource,int32_t,bool>* const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get_predicate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set_predicate(::System::Func_3<TSource,int32_t,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate = value;
+}
+template<typename TSource>
+constexpr ::System::Func_3<TSource,int32_t,bool>*& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___3__predicate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__predicate;
+}
+template<typename TSource>
+constexpr ::System::Func_3<TSource,int32_t,bool>* const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___3__predicate() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__predicate;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set___3__predicate(::System::Func_3<TSource,int32_t,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__predicate = value;
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get__index_5__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____index_5__2;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get__index_5__2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____index_5__2;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set__index_5__2(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____index_5__2 = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___7__wrap2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* const& System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_get___7__wrap2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____7__wrap2 = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::System_Collections_Generic_IEnumerator_TSource__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {"System.Collections.Generic.IEnumerator<TSource>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TSource>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Object* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::System_Collections_Generic_IEnumerable_TSource__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {"System.Collections.Generic.IEnumerable<TSource>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TSource>
+constexpr ::System::IDisposable* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable__WhereIterator_d__2_1<TSource>::Enumerable__WhereIterator_d__2_1()   {
+}
+template<typename TSource,typename TResult>
+constexpr int32_t& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+template<typename TSource,typename TResult>
+constexpr TResult& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource,typename TResult>
+constexpr TResult const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set___2__current(TResult  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___3__source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___3__source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__source = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_3<TSource,int32_t,TResult>*& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get_selector()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_3<TSource,int32_t,TResult>* const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get_selector() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set_selector(::System::Func_3<TSource,int32_t,TResult>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___selector = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_3<TSource,int32_t,TResult>*& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___3__selector()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__selector;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_3<TSource,int32_t,TResult>* const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___3__selector() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__selector;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set___3__selector(::System::Func_3<TSource,int32_t,TResult>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__selector = value;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get__index_5__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____index_5__2;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get__index_5__2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____index_5__2;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set__index_5__2(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____index_5__2 = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___7__wrap2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* const& System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_get___7__wrap2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____7__wrap2 = value;
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline bool System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline TResult System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::System_Collections_Generic_IEnumerator_TResult__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {"System.Collections.Generic.IEnumerator<TResult>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TResult>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline ::System::Object* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerator_1<TResult>* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::System_Collections_Generic_IEnumerable_TResult__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {"System.Collections.Generic.IEnumerable<TResult>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TResult>*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline ::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TSource,typename TResult>
+constexpr ::System::IDisposable* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TSource,typename TResult>
+constexpr ::System::Linq::Enumerable__SelectIterator_d__5_2<TSource,TResult>::Enumerable__SelectIterator_d__5_2()   {
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>*& System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::__cordl_internal_get_predicate1()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate1;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>* const& System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::__cordl_internal_get_predicate1() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate1;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::__cordl_internal_set_predicate1(::System::Func_2<TSource,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate1 = value;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>*& System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::__cordl_internal_get_predicate2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate2;
+}
+template<typename TSource>
+constexpr ::System::Func_2<TSource,bool>* const& System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::__cordl_internal_get_predicate2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___predicate2;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::__cordl_internal_set_predicate2(::System::Func_2<TSource,bool>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___predicate2 = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::_CombinePredicates_b__0(TSource  x)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>*>(),
+                        {"<CombinePredicates>b__0", {}, {::i2c::type_of<TSource>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>* System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>*>());
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable___c__DisplayClass6_0_1<TSource>::Enumerable___c__DisplayClass6_0_1()   {
+}
+template<typename TSource,typename TMiddle,typename TResult>
+constexpr ::System::Func_2<TMiddle,TResult>*& System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::__cordl_internal_get_selector2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector2;
+}
+template<typename TSource,typename TMiddle,typename TResult>
+constexpr ::System::Func_2<TMiddle,TResult>* const& System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::__cordl_internal_get_selector2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector2;
+}
+template<typename TSource,typename TMiddle,typename TResult>
+constexpr void System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::__cordl_internal_set_selector2(::System::Func_2<TMiddle,TResult>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___selector2 = value;
+}
+template<typename TSource,typename TMiddle,typename TResult>
+constexpr ::System::Func_2<TSource,TMiddle>*& System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::__cordl_internal_get_selector1()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector1;
+}
+template<typename TSource,typename TMiddle,typename TResult>
+constexpr ::System::Func_2<TSource,TMiddle>* const& System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::__cordl_internal_get_selector1() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector1;
+}
+template<typename TSource,typename TMiddle,typename TResult>
+constexpr void System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::__cordl_internal_set_selector1(::System::Func_2<TSource,TMiddle>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___selector1 = value;
+}
+template<typename TSource,typename TMiddle,typename TResult>
+inline void System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TMiddle,typename TResult>
+inline TResult System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::_CombineSelectors_b__0(TSource  x)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>*>(),
+                        {"<CombineSelectors>b__0", {}, {::i2c::type_of<TSource>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TResult>(this, ___internal_method, x);
+}
+template<typename TSource,typename TMiddle,typename TResult>
+inline ::System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>* System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>*>());
+}
+// Ctor Parameters []
+template<typename TSource,typename TMiddle,typename TResult>
+constexpr ::System::Linq::Enumerable___c__DisplayClass7_0_3<TSource,TMiddle,TResult>::Enumerable___c__DisplayClass7_0_3()   {
+}
+template<typename TSource,typename TResult>
+constexpr int32_t& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+template<typename TSource,typename TResult>
+constexpr TResult& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource,typename TResult>
+constexpr TResult const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set___2__current(TResult  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource,typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___3__source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___3__source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__source = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>*& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get_selector()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>* const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get_selector() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___selector;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set_selector(::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___selector = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>*& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___3__selector()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__selector;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>* const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___3__selector() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__selector;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set___3__selector(::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__selector = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___7__wrap1()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap1;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___7__wrap1() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap1;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____7__wrap1 = value;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TResult>*& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___7__wrap2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* const& System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_get___7__wrap2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource,typename TResult>
+constexpr void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TResult>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____7__wrap2 = value;
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline bool System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::__m__Finally2()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"<>m__Finally2", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline TResult System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::System_Collections_Generic_IEnumerator_TResult__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"System.Collections.Generic.IEnumerator<TResult>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TResult>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline void System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline ::System::Object* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerator_1<TResult>* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::System_Collections_Generic_IEnumerable_TResult__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"System.Collections.Generic.IEnumerable<TResult>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TResult>*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TSource,typename TResult>
+inline ::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TSource,typename TResult>
+constexpr ::System::IDisposable* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TSource,typename TResult>
+constexpr  System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TSource,typename TResult>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TSource,typename TResult>
+constexpr ::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource,TResult>::Enumerable__SelectManyIterator_d__17_2()   {
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+template<typename TSource>
+constexpr TSource& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource>
+constexpr TSource const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set___2__current(TSource  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get_comparer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___comparer;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>* const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get_comparer() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___comparer;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___comparer = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___3__comparer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__comparer;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>* const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___3__comparer() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__comparer;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set___3__comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__comparer = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___3__source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___3__source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__source = value;
+}
+template<typename TSource>
+constexpr ::System::Linq::Set_1<TSource>*& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get__set_5__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____set_5__2;
+}
+template<typename TSource>
+constexpr ::System::Linq::Set_1<TSource>* const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get__set_5__2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____set_5__2;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set__set_5__2(::System::Linq::Set_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____set_5__2 = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___7__wrap2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* const& System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_get___7__wrap2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____7__wrap2 = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::System_Collections_Generic_IEnumerator_TSource__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {"System.Collections.Generic.IEnumerator<TSource>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TSource>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Object* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::System_Collections_Generic_IEnumerable_TSource__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {"System.Collections.Generic.IEnumerable<TSource>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TSource>
+constexpr ::System::IDisposable* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::Enumerable__DistinctIterator_d__68_1()   {
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+template<typename TSource>
+constexpr TSource& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource>
+constexpr TSource const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set___2__current(TSource  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get_comparer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___comparer;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>* const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get_comparer() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___comparer;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___comparer = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>*& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___3__comparer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__comparer;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<TSource>* const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___3__comparer() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__comparer;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set___3__comparer(::System::Collections::Generic::IEqualityComparer_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__comparer = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get_first()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___first;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get_first() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___first;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set_first(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___first = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___3__first()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__first;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___3__first() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__first;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set___3__first(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__first = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get_second()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___second;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get_second() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___second;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set_second(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___second = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___3__second()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__second;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___3__second() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__second;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set___3__second(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__second = value;
+}
+template<typename TSource>
+constexpr ::System::Linq::Set_1<TSource>*& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get__set_5__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____set_5__2;
+}
+template<typename TSource>
+constexpr ::System::Linq::Set_1<TSource>* const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get__set_5__2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____set_5__2;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set__set_5__2(::System::Linq::Set_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____set_5__2 = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___7__wrap2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* const& System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_get___7__wrap2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap2;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____7__wrap2 = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::__m__Finally2()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"<>m__Finally2", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::System_Collections_Generic_IEnumerator_TSource__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"System.Collections.Generic.IEnumerator<TSource>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TSource>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Object* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::System_Collections_Generic_IEnumerable_TSource__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"System.Collections.Generic.IEnumerable<TSource>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TSource>
+constexpr ::System::IDisposable* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::Enumerable__UnionIterator_d__71_1()   {
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+template<typename TSource>
+constexpr TSource& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource>
+constexpr TSource const& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_set___2__current(TSource  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get___3__source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get___3__source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__source = value;
+}
+template<typename TSource>
+constexpr ::System::Linq::Buffer_1<TSource>& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get__buffer_5__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____buffer_5__2;
+}
+template<typename TSource>
+constexpr ::System::Linq::Buffer_1<TSource> const& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get__buffer_5__2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____buffer_5__2;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_set__buffer_5__2(::System::Linq::Buffer_1<TSource>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____buffer_5__2 = value;
+}
+template<typename TSource>
+constexpr int32_t& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get__i_5__3()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____i_5__3;
+}
+template<typename TSource>
+constexpr int32_t const& System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_get__i_5__3() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____i_5__3;
+}
+template<typename TSource>
+constexpr void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::__cordl_internal_set__i_5__3(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____i_5__3 = value;
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::System_Collections_Generic_IEnumerator_TSource__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(),
+                        {"System.Collections.Generic.IEnumerator<TSource>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TSource>(this, ___internal_method);
+}
+template<typename TSource>
+inline void System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Object* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::System_Collections_Generic_IEnumerable_TSource__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(),
+                        {"System.Collections.Generic.IEnumerable<TSource>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TSource>*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TSource>
+inline ::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::i___System__Collections__Generic__IEnumerable_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::operator ::System::Collections::Generic::IEnumerator_1<TSource>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TSource>"
+template<typename TSource>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::i___System__Collections__Generic__IEnumerator_1_TSource_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TSource>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TSource>
+constexpr ::System::IDisposable* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr  System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TSource>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TSource>
+constexpr ::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::Enumerable__ReverseIterator_d__79_1()   {
+}
+template<typename TResult>
+constexpr int32_t& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+template<typename TResult>
+constexpr TResult& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TResult>
+constexpr TResult const& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_set___2__current(TResult  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+template<typename TResult>
+constexpr int32_t& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable*& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable* const& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_set_source(::System::Collections::IEnumerable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable*& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___3__source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable* const& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___3__source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_set___3__source(::System::Collections::IEnumerable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__source = value;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerator*& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___7__wrap1()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap1;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerator* const& System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_get___7__wrap1() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap1;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__cordl_internal_set___7__wrap1(::System::Collections::IEnumerator*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____7__wrap1 = value;
+}
+template<typename TResult>
+inline void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+template<typename TResult>
+inline void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TResult>
+inline bool System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TResult>
+inline void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TResult>
+inline TResult System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::System_Collections_Generic_IEnumerator_TResult__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {"System.Collections.Generic.IEnumerator<TResult>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TResult>(this, ___internal_method);
+}
+template<typename TResult>
+inline void System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TResult>
+inline ::System::Object* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerator_1<TResult>* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::System_Collections_Generic_IEnumerable_TResult__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {"System.Collections.Generic.IEnumerable<TResult>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TResult>*>(this, ___internal_method);
+}
+template<typename TResult>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TResult>
+inline ::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template<typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template<typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TResult>
+constexpr ::System::IDisposable* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TResult>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TResult>
+constexpr ::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::Enumerable__OfTypeIterator_d__97_1()   {
+}
+template<typename TResult>
+constexpr int32_t& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+template<typename TResult>
+constexpr TResult& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TResult>
+constexpr TResult const& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_set___2__current(TResult  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+template<typename TResult>
+constexpr int32_t& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TResult>
+constexpr int32_t const& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable*& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable* const& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get_source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_set_source(::System::Collections::IEnumerable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___source = value;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable*& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___3__source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable* const& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___3__source() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__source;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_set___3__source(::System::Collections::IEnumerable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__source = value;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerator*& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___7__wrap1()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap1;
+}
+template<typename TResult>
+constexpr ::System::Collections::IEnumerator* const& System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_get___7__wrap1() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____7__wrap1;
+}
+template<typename TResult>
+constexpr void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__cordl_internal_set___7__wrap1(::System::Collections::IEnumerator*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____7__wrap1 = value;
+}
+template<typename TResult>
+inline void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+template<typename TResult>
+inline void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TResult>
+inline bool System::Linq::Enumerable__CastIterator_d__99_1<TResult>::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+template<typename TResult>
+inline void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TResult>
+inline TResult System::Linq::Enumerable__CastIterator_d__99_1<TResult>::System_Collections_Generic_IEnumerator_TResult__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {"System.Collections.Generic.IEnumerator<TResult>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<TResult>(this, ___internal_method);
+}
+template<typename TResult>
+inline void System::Linq::Enumerable__CastIterator_d__99_1<TResult>::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename TResult>
+inline ::System::Object* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerator_1<TResult>* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::System_Collections_Generic_IEnumerable_TResult__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {"System.Collections.Generic.IEnumerable<TResult>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TResult>*>(this, ___internal_method);
+}
+template<typename TResult>
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+template<typename TResult>
+inline ::System::Linq::Enumerable__CastIterator_d__99_1<TResult>* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__CastIterator_d__99_1<TResult>::operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template<typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__CastIterator_d__99_1<TResult>::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template<typename TResult>
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__CastIterator_d__99_1<TResult>::operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template<typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__CastIterator_d__99_1<TResult>::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template<typename TResult>
+constexpr ::System::IDisposable* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template<typename TResult>
+constexpr  System::Linq::Enumerable__CastIterator_d__99_1<TResult>::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template<typename TResult>
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+template<typename TResult>
+constexpr ::System::Linq::Enumerable__CastIterator_d__99_1<TResult>::Enumerable__CastIterator_d__99_1()   {
+}
+//  Writing Method size for method: ::System::Linq::Enumerable__RangeIterator_d__115._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Enumerable__RangeIterator_d__115::*)(int32_t)>(&::System::Linq::Enumerable__RangeIterator_d__115::_ctor)> {
+  constexpr static std::size_t size = 0x3eb0;
+  constexpr static std::size_t addrs = 0x180d6a410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable__RangeIterator_d__115.System_IDisposable_Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable__RangeIterator_d__115.MoveNext
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::MoveNext)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181af2b80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable__RangeIterator_d__115.System_Collections_Generic_IEnumerator_System_Int32__get_Current
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_Generic_IEnumerator_System_Int32__get_Current)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803924b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.Generic.IEnumerator<System.Int32>.get_Current", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable__RangeIterator_d__115.System_Collections_IEnumerator_Reset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802eb7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable__RangeIterator_d__115.System_Collections_IEnumerator_get_Current
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0xaa90;
+  constexpr static std::size_t addrs = 0x180ce52f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable__RangeIterator_d__115.System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator)> {
+  constexpr static std::size_t size = 0x360;
+  constexpr static std::size_t addrs = 0x181af2bc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable__RangeIterator_d__115.System_Collections_IEnumerable_GetEnumerator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerable_GetEnumerator)> {
+  constexpr static std::size_t size = 0x360;
+  constexpr static std::size_t addrs = 0x181af2bc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+constexpr int32_t const& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+constexpr void System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+constexpr int32_t& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+constexpr int32_t const& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+constexpr void System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_set___2__current(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+constexpr int32_t& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+constexpr int32_t const& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+constexpr void System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+constexpr int32_t& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get_start()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___start;
+}
+constexpr int32_t const& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get_start() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___start;
+}
+constexpr void System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_set_start(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___start = value;
+}
+constexpr int32_t& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___3__start()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__start;
+}
+constexpr int32_t const& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___3__start() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__start;
+}
+constexpr void System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_set___3__start(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__start = value;
+}
+constexpr int32_t& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get_count()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___count;
+}
+constexpr int32_t const& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get_count() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___count;
+}
+constexpr void System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_set_count(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___count = value;
+}
+constexpr int32_t& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___3__count()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__count;
+}
+constexpr int32_t const& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get___3__count() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__count;
+}
+constexpr void System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_set___3__count(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__count = value;
+}
+constexpr int32_t& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get__i_5__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____i_5__2;
+}
+constexpr int32_t const& System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_get__i_5__2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____i_5__2;
+}
+constexpr void System::Linq::Enumerable__RangeIterator_d__115::__cordl_internal_set__i_5__2(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____i_5__2 = value;
+}
+inline void System::Linq::Enumerable__RangeIterator_d__115::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+inline void System::Linq::Enumerable__RangeIterator_d__115::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool System::Linq::Enumerable__RangeIterator_d__115::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline int32_t System::Linq::Enumerable__RangeIterator_d__115::System_Collections_Generic_IEnumerator_System_Int32__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.Generic.IEnumerator<System.Int32>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System::Linq::Enumerable__RangeIterator_d__115::System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<int32_t>*>(this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+inline ::System::Linq::Enumerable__RangeIterator_d__115* System::Linq::Enumerable__RangeIterator_d__115::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__RangeIterator_d__115*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<int32_t>"
+constexpr  System::Linq::Enumerable__RangeIterator_d__115::operator ::System::Collections::Generic::IEnumerable_1<int32_t>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
+constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>* System::Linq::Enumerable__RangeIterator_d__115::i___System__Collections__Generic__IEnumerable_1_int32_t_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr  System::Linq::Enumerable__RangeIterator_d__115::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Linq::Enumerable__RangeIterator_d__115::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<int32_t>"
+constexpr  System::Linq::Enumerable__RangeIterator_d__115::operator ::System::Collections::Generic::IEnumerator_1<int32_t>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<int32_t>"
+constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>* System::Linq::Enumerable__RangeIterator_d__115::i___System__Collections__Generic__IEnumerator_1_int32_t_() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  System::Linq::Enumerable__RangeIterator_d__115::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Linq::Enumerable__RangeIterator_d__115::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr  System::Linq::Enumerable__RangeIterator_d__115::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Linq::Enumerable__RangeIterator_d__115::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Linq::Enumerable__RangeIterator_d__115::Enumerable__RangeIterator_d__115()   {
+}
+//  Writing Method size for method: ::System::Linq::Enumerable.Range
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (*)(int32_t, int32_t)>(&::System::Linq::Enumerable::Range)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181adeb30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Range", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable.RangeIterator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (*)(int32_t, int32_t)>(&::System::Linq::Enumerable::RangeIterator)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181adeae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"RangeIterator", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable.Sum
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Sum)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181adebc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Sum", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable.Sum
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::Collections::Generic::IEnumerable_1<int64_t>*)>(&::System::Linq::Enumerable::Sum)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x181adecf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Sum", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int64_t>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable.Min
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Min)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x181ade910;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Min", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Enumerable.Max
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Max)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x181ade740;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Max", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::Where(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Where", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::Where(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_3<TSource,int32_t,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Where", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_3<TSource,int32_t,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::WhereIterator(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_3<TSource,int32_t,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"WhereIterator", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_3<TSource,int32_t,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::Select(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,TResult>*  selector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Select", {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,TResult>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::Select(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_3<TSource,int32_t,TResult>*  selector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Select", {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_3<TSource,int32_t,TResult>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::SelectIterator(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_3<TSource,int32_t,TResult>*  selector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"SelectIterator", {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_3<TSource,int32_t,TResult>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source, selector);
+}
+template<typename TSource>
+inline ::System::Func_2<TSource,bool>* System::Linq::Enumerable::CombinePredicates(::System::Func_2<TSource,bool>*  predicate1, ::System::Func_2<TSource,bool>*  predicate2)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"CombinePredicates", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Func_2<TSource,bool>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Func_2<TSource,bool>*>(nullptr, ___internal_method, predicate1, predicate2);
+}
+template<typename TSource,typename TMiddle,typename TResult>
+inline ::System::Func_2<TSource,TResult>* System::Linq::Enumerable::CombineSelectors(::System::Func_2<TSource,TMiddle>*  selector1, ::System::Func_2<TMiddle,TResult>*  selector2)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"CombineSelectors", {::i2c::class_of<TSource>(), ::i2c::class_of<TMiddle>(), ::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Func_2<TSource,TMiddle>*>(), ::i2c::type_of<::System::Func_2<TMiddle,TResult>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TMiddle>(), ::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Func_2<TSource,TResult>*>(nullptr, ___internal_method, selector1, selector2);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::SelectMany(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>*  selector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"SelectMany", {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source, selector);
+}
+template<typename TSource,typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::SelectManyIterator(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>*  selector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"SelectManyIterator", {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,::System::Collections::Generic::IEnumerable_1<TResult>*>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source, selector);
+}
+template<typename TSource,typename TKey>
+inline ::System::Linq::IOrderedEnumerable_1<TSource>* System::Linq::Enumerable::OrderBy(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,TKey>*  keySelector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"OrderBy", {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,TKey>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::IOrderedEnumerable_1<TSource>*>(nullptr, ___internal_method, source, keySelector);
+}
+template<typename TSource,typename TKey>
+inline ::System::Linq::IOrderedEnumerable_1<TSource>* System::Linq::Enumerable::OrderBy(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,TKey>*  keySelector, ::System::Collections::Generic::IComparer_1<TKey>*  comparer)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"OrderBy", {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,TKey>*>(), ::i2c::type_of<::System::Collections::Generic::IComparer_1<TKey>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::IOrderedEnumerable_1<TSource>*>(nullptr, ___internal_method, source, keySelector, comparer);
+}
+template<typename TSource,typename TKey>
+inline ::System::Linq::IOrderedEnumerable_1<TSource>* System::Linq::Enumerable::ThenBy(::System::Linq::IOrderedEnumerable_1<TSource>*  source, ::System::Func_2<TSource,TKey>*  keySelector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ThenBy", {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}, {::i2c::type_of<::System::Linq::IOrderedEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,TKey>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::IOrderedEnumerable_1<TSource>*>(nullptr, ___internal_method, source, keySelector);
+}
+template<typename TSource,typename TKey>
+inline ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TSource>*>* System::Linq::Enumerable::GroupBy(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,TKey>*  keySelector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"GroupBy", {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,TKey>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TSource>*>*>(nullptr, ___internal_method, source, keySelector);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::Distinct(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Distinct", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::DistinctIterator(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Collections::Generic::IEqualityComparer_1<TSource>*  comparer)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"DistinctIterator", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Collections::Generic::IEqualityComparer_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, source, comparer);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::Union(::System::Collections::Generic::IEnumerable_1<TSource>*  first, ::System::Collections::Generic::IEnumerable_1<TSource>*  second)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Union", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, first, second);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::UnionIterator(::System::Collections::Generic::IEnumerable_1<TSource>*  first, ::System::Collections::Generic::IEnumerable_1<TSource>*  second, ::System::Collections::Generic::IEqualityComparer_1<TSource>*  comparer)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"UnionIterator", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Collections::Generic::IEqualityComparer_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, first, second, comparer);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::Reverse(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Reverse", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::ReverseIterator(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ReverseIterator", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable::SequenceEqual(::System::Collections::Generic::IEnumerable_1<TSource>*  first, ::System::Collections::Generic::IEnumerable_1<TSource>*  second)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"SequenceEqual", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, first, second);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable::SequenceEqual(::System::Collections::Generic::IEnumerable_1<TSource>*  first, ::System::Collections::Generic::IEnumerable_1<TSource>*  second, ::System::Collections::Generic::IEqualityComparer_1<TSource>*  comparer)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"SequenceEqual", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Collections::Generic::IEqualityComparer_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, first, second, comparer);
+}
+template<typename TSource>
+inline ::ArrayW<TSource> System::Linq::Enumerable::ToArray(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ToArray", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<TSource>>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::List_1<TSource>* System::Linq::Enumerable::ToList(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ToList", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<TSource>*>(nullptr, ___internal_method, source);
+}
+template<typename TSource,typename TKey>
+inline ::System::Collections::Generic::Dictionary_2<TKey,TSource>* System::Linq::Enumerable::ToDictionary(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,TKey>*  keySelector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ToDictionary", {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,TKey>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<TKey,TSource>*>(nullptr, ___internal_method, source, keySelector);
+}
+template<typename TSource,typename TKey,typename TElement>
+inline ::System::Collections::Generic::Dictionary_2<TKey,TElement>* System::Linq::Enumerable::ToDictionary(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,TKey>*  keySelector, ::System::Func_2<TSource,TElement>*  elementSelector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ToDictionary", {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TElement>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,TKey>*>(), ::i2c::type_of<::System::Func_2<TSource,TElement>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TElement>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<TKey,TElement>*>(nullptr, ___internal_method, source, keySelector, elementSelector);
+}
+template<typename TSource,typename TKey,typename TElement>
+inline ::System::Collections::Generic::Dictionary_2<TKey,TElement>* System::Linq::Enumerable::ToDictionary(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,TKey>*  keySelector, ::System::Func_2<TSource,TElement>*  elementSelector, ::System::Collections::Generic::IEqualityComparer_1<TKey>*  comparer)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ToDictionary", {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TElement>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,TKey>*>(), ::i2c::type_of<::System::Func_2<TSource,TElement>*>(), ::i2c::type_of<::System::Collections::Generic::IEqualityComparer_1<TKey>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TElement>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<TKey,TElement>*>(nullptr, ___internal_method, source, keySelector, elementSelector, comparer);
+}
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::OfType(::System::Collections::IEnumerable*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"OfType", {::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::IEnumerable*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source);
+}
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::OfTypeIterator(::System::Collections::IEnumerable*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"OfTypeIterator", {::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::IEnumerable*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source);
+}
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::Cast(::System::Collections::IEnumerable*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Cast", {::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::IEnumerable*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source);
+}
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::CastIterator(::System::Collections::IEnumerable*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"CastIterator", {::i2c::class_of<TResult>()}, {::i2c::type_of<::System::Collections::IEnumerable*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::First(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"First", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::First(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"First", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::FirstOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"FirstOrDefault", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::FirstOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"FirstOrDefault", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::Last(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Last", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::LastOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"LastOrDefault", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::LastOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"LastOrDefault", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::Single(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Single", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::Single(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Single", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::SingleOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"SingleOrDefault", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::SingleOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"SingleOrDefault", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline TSource System::Linq::Enumerable::ElementAt(::System::Collections::Generic::IEnumerable_1<TSource>*  source, int32_t  index)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ElementAt", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<int32_t>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TSource>(nullptr, ___internal_method, source, index);
+}
+inline ::System::Collections::Generic::IEnumerable_1<int32_t>* System::Linq::Enumerable::Range(int32_t  start, int32_t  count)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Range", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*>(nullptr, ___internal_method, start, count);
+}
+inline ::System::Collections::Generic::IEnumerable_1<int32_t>* System::Linq::Enumerable::RangeIterator(int32_t  start, int32_t  count)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"RangeIterator", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*>(nullptr, ___internal_method, start, count);
+}
+template<typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::Empty()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Empty", {::i2c::class_of<TResult>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TResult>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*>(nullptr, ___internal_method);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable::Any(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Any", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable::Any(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Any", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable::All(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"All", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline int32_t System::Linq::Enumerable::Count(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Count", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline int32_t System::Linq::Enumerable::Count(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,bool>*  predicate)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Count", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,bool>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source, predicate);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable::Contains(::System::Collections::Generic::IEnumerable_1<TSource>*  source, TSource  value)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Contains", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<TSource>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, source, value);
+}
+template<typename TSource>
+inline bool System::Linq::Enumerable::Contains(::System::Collections::Generic::IEnumerable_1<TSource>*  source, TSource  value, ::System::Collections::Generic::IEqualityComparer_1<TSource>*  comparer)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Contains", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<TSource>(), ::i2c::type_of<::System::Collections::Generic::IEqualityComparer_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, source, value, comparer);
+}
+template<typename TSource,typename TAccumulate>
+inline TAccumulate System::Linq::Enumerable::Aggregate(::System::Collections::Generic::IEnumerable_1<TSource>*  source, TAccumulate  seed, ::System::Func_3<TAccumulate,TSource,TAccumulate>*  func)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Aggregate", {::i2c::class_of<TSource>(), ::i2c::class_of<TAccumulate>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<TAccumulate>(), ::i2c::type_of<::System::Func_3<TAccumulate,TSource,TAccumulate>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>(), ::i2c::class_of<TAccumulate>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<TAccumulate>(nullptr, ___internal_method, source, seed, func);
+}
+inline int32_t System::Linq::Enumerable::Sum(::System::Collections::Generic::IEnumerable_1<int32_t>*  source)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Sum", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source);
+}
+inline int64_t System::Linq::Enumerable::Sum(::System::Collections::Generic::IEnumerable_1<int64_t>*  source)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Sum", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int64_t>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline int32_t System::Linq::Enumerable::Sum(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,int32_t>*  selector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Sum", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,int32_t>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source, selector);
+}
+template<typename TSource>
+inline int64_t System::Linq::Enumerable::Sum(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,int64_t>*  selector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Sum", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,int64_t>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, source, selector);
+}
+inline int32_t System::Linq::Enumerable::Min(::System::Collections::Generic::IEnumerable_1<int32_t>*  source)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Min", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source);
+}
+inline int32_t System::Linq::Enumerable::Max(::System::Collections::Generic::IEnumerable_1<int32_t>*  source)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Enumerable*>(),
+                        {"Max", {}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline int32_t System::Linq::Enumerable::Max(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,int32_t>*  selector)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"Max", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Func_2<TSource,int32_t>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, source, selector);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::HashSet_1<TSource>* System::Linq::Enumerable::ToHashSet(::System::Collections::Generic::IEnumerable_1<TSource>*  source)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ToHashSet", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<TSource>*>(nullptr, ___internal_method, source);
+}
+template<typename TSource>
+inline ::System::Collections::Generic::HashSet_1<TSource>* System::Linq::Enumerable::ToHashSet(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Collections::Generic::IEqualityComparer_1<TSource>*  comparer)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Enumerable*>(),
+                    {"ToHashSet", {::i2c::class_of<TSource>()}, {::i2c::type_of<::System::Collections::Generic::IEnumerable_1<TSource>*>(), ::i2c::type_of<::System::Collections::Generic::IEqualityComparer_1<TSource>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSource>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<TSource>*>(nullptr, ___internal_method, source, comparer);
+}
+// Ctor Parameters []
+constexpr ::System::Linq::Enumerable::Enumerable()   {
+}

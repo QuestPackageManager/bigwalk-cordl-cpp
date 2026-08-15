@@ -1,0 +1,81 @@
+#pragma once
+// IWYU pragma private; include "System/Diagnostics/Trace.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Diagnostics/zzzz__Trace_def.hpp"
+#include "System/Diagnostics/zzzz__CorrelationManager_def.hpp"
+#include "System/Diagnostics/zzzz__TraceListenerCollection_def.hpp"
+//  Writing Method size for method: ::System::Diagnostics::Trace.get_Listeners
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceListenerCollection* (*)()>(&::System::Diagnostics::Trace::get_Listeners)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181de6b60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::Trace*>(),
+                        {"get_Listeners", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::Trace.get_AutoFlush
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Diagnostics::Trace::get_AutoFlush)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181de5640;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::Trace*>(),
+                        {"get_AutoFlush", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::Trace.get_CorrelationManager
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::CorrelationManager* (*)()>(&::System::Diagnostics::Trace::get_CorrelationManager)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181de6af0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::Trace*>(),
+                        {"get_CorrelationManager", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Diagnostics::Trace::setStaticF_correlationManager(::System::Diagnostics::CorrelationManager*  value)  {
+::cordl_internals::setStaticField<::System::Diagnostics::CorrelationManager*, "correlationManager", ::System::Diagnostics::Trace*>(std::forward<::System::Diagnostics::CorrelationManager*>(value));
+}
+inline ::System::Diagnostics::CorrelationManager* System::Diagnostics::Trace::getStaticF_correlationManager()  {
+return ::cordl_internals::getStaticField<::System::Diagnostics::CorrelationManager*, "correlationManager", ::System::Diagnostics::Trace*>();
+}
+inline ::System::Diagnostics::TraceListenerCollection* System::Diagnostics::Trace::get_Listeners()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::Trace*>(),
+                        {"get_Listeners", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::TraceListenerCollection*>(nullptr, ___internal_method);
+}
+inline bool System::Diagnostics::Trace::get_AutoFlush()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::Trace*>(),
+                        {"get_AutoFlush", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline ::System::Diagnostics::CorrelationManager* System::Diagnostics::Trace::get_CorrelationManager()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Diagnostics::Trace*>(),
+                        {"get_CorrelationManager", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::CorrelationManager*>(nullptr, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::System::Diagnostics::Trace::Trace()   {
+}

@@ -1,0 +1,759 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/ObjectManager.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectHolder_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Reflection/zzzz__RuntimeConstructorInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__DeserializationEventHandler_def.hpp"
+#include "System/Runtime/Serialization/zzzz__FixupHolder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectHolderList_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectHolder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationEventHandler_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::ISurrogateSelector*, ::System::Runtime::Serialization::StreamingContext, bool, bool)>(&::System::Runtime::Serialization::ObjectManager::_ctor)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1816499e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::ISurrogateSelector*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.CanCallGetType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::ObjectManager::*)(::System::Object*)>(&::System::Runtime::Serialization::ObjectManager::CanCallGetType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"CanCallGetType", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.set_TopObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Object*)>(&::System::Runtime::Serialization::ObjectManager::set_TopObject)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9850;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"set_TopObject", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.get_TopObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::ObjectManager::*)()>(&::System::Runtime::Serialization::ObjectManager::get_TopObject)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"get_TopObject", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.get_SpecialFixupObjects
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::ObjectHolderList* (::System::Runtime::Serialization::ObjectManager::*)()>(&::System::Runtime::Serialization::ObjectManager::get_SpecialFixupObjects)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181649a50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"get_SpecialFixupObjects", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.FindObjectHolder
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::ObjectHolder* (::System::Runtime::Serialization::ObjectManager::*)(int64_t)>(&::System::Runtime::Serialization::ObjectManager::FindObjectHolder)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181648150;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"FindObjectHolder", {}, {::i2c::type_of<int64_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.FindOrCreateObjectHolder
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::ObjectHolder* (::System::Runtime::Serialization::ObjectManager::*)(int64_t)>(&::System::Runtime::Serialization::ObjectManager::FindOrCreateObjectHolder)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181648190;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"FindOrCreateObjectHolder", {}, {::i2c::type_of<int64_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.AddObjectHolder
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::ObjectHolder*)>(&::System::Runtime::Serialization::ObjectManager::AddObjectHolder)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181646c30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"AddObjectHolder", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.GetCompletionInfo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::FixupHolder*, ::by_ref<::System::Runtime::Serialization::ObjectHolder*>, ::by_ref<::System::Object*>, bool)>(&::System::Runtime::Serialization::ObjectManager::GetCompletionInfo)> {
+  constexpr static std::size_t size = 0x330;
+  constexpr static std::size_t addrs = 0x181648540;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"GetCompletionInfo", {}, {::i2c::type_of<::System::Runtime::Serialization::FixupHolder*>(), ::i2c::type_of<::by_ref<::System::Runtime::Serialization::ObjectHolder*>>(), ::i2c::type_of<::by_ref<::System::Object*>>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.FixupSpecialObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::ObjectHolder*)>(&::System::Runtime::Serialization::ObjectManager::FixupSpecialObject)> {
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x181648280;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"FixupSpecialObject", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.ResolveObjectReference
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::ObjectHolder*)>(&::System::Runtime::Serialization::ObjectManager::ResolveObjectReference)> {
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x1816497f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"ResolveObjectReference", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.DoValueTypeFixup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::ObjectManager::*)(::System::Reflection::FieldInfo*, ::System::Runtime::Serialization::ObjectHolder*, ::System::Object*)>(&::System::Runtime::Serialization::ObjectManager::DoValueTypeFixup)> {
+  constexpr static std::size_t size = 0x4d0;
+  constexpr static std::size_t addrs = 0x181647c80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"DoValueTypeFixup", {}, {::i2c::type_of<::System::Reflection::FieldInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.CompleteObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::ObjectHolder*, bool)>(&::System::Runtime::Serialization::ObjectManager::CompleteObject)> {
+  constexpr static std::size_t size = 0x7c0;
+  constexpr static std::size_t addrs = 0x181647050;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"CompleteObject", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.DoNewlyRegisteredObjectFixups
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::ObjectHolder*)>(&::System::Runtime::Serialization::ObjectManager::DoNewlyRegisteredObjectFixups)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181647b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"DoNewlyRegisteredObjectFixups", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.GetObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::ObjectManager::*)(int64_t)>(&::System::Runtime::Serialization::ObjectManager::GetObject)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181648930;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RegisterString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::StringW, int64_t, ::System::Runtime::Serialization::SerializationInfo*, int64_t, ::System::Reflection::MemberInfo*)>(&::System::Runtime::Serialization::ObjectManager::RegisterString)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x1816496e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"RegisterString", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Reflection::MemberInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RegisterObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Object*, int64_t, ::System::Runtime::Serialization::SerializationInfo*, int64_t, ::System::Reflection::MemberInfo*, ::ArrayW<int32_t>)>(&::System::Runtime::Serialization::ObjectManager::RegisterObject)> {
+  constexpr static std::size_t size = 0x6a0;
+  constexpr static std::size_t addrs = 0x181649040;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"RegisterObject", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::ArrayW<int32_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.CompleteISerializableObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Serialization::ObjectManager::CompleteISerializableObject)> {
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x181646e10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"CompleteISerializableObject", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.GetConstructor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::RuntimeConstructorInfo* (*)(::System::RuntimeType*)>(&::System::Runtime::Serialization::ObjectManager::GetConstructor)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181648870;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"GetConstructor", {}, {::i2c::type_of<::System::RuntimeType*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.DoFixups
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)()>(&::System::Runtime::Serialization::ObjectManager::DoFixups)> {
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x181647810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RegisterFixup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::FixupHolder*, int64_t, int64_t)>(&::System::Runtime::Serialization::ObjectManager::RegisterFixup)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x181648ed0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"RegisterFixup", {}, {::i2c::type_of<::System::Runtime::Serialization::FixupHolder*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RecordFixup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(int64_t, ::System::Reflection::MemberInfo*, int64_t)>(&::System::Runtime::Serialization::ObjectManager::RecordFixup)> {
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x181648cf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RecordDelayedFixup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(int64_t, ::StringW, int64_t)>(&::System::Runtime::Serialization::ObjectManager::RecordDelayedFixup)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181648c00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RecordArrayElementFixup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(int64_t, ::ArrayW<int32_t>, int64_t)>(&::System::Runtime::Serialization::ObjectManager::RecordArrayElementFixup)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181648b10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RaiseDeserializationEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)()>(&::System::Runtime::Serialization::ObjectManager::RaiseDeserializationEvent)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1816489d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.AddOnDeserialization
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Runtime::Serialization::DeserializationEventHandler*)>(&::System::Runtime::Serialization::ObjectManager::AddOnDeserialization)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181646d20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.AddOnDeserialized
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Object*)>(&::System::Runtime::Serialization::ObjectManager::AddOnDeserialized)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181646db0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RaiseOnDeserializedEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Object*)>(&::System::Runtime::Serialization::ObjectManager::RaiseOnDeserializedEvent)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181648a30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                    {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::ObjectManager.RaiseOnDeserializingEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectManager::*)(::System::Object*)>(&::System::Runtime::Serialization::ObjectManager::RaiseOnDeserializingEvent)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181648aa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"RaiseOnDeserializingEvent", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Runtime::Serialization::DeserializationEventHandler*& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_onDeserializationHandler()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_onDeserializationHandler;
+}
+constexpr ::System::Runtime::Serialization::DeserializationEventHandler* const& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_onDeserializationHandler() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_onDeserializationHandler;
+}
+constexpr void System::Runtime::Serialization::ObjectManager::__cordl_internal_set_m_onDeserializationHandler(::System::Runtime::Serialization::DeserializationEventHandler*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_onDeserializationHandler = value;
+}
+constexpr ::System::Runtime::Serialization::SerializationEventHandler*& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_onDeserializedHandler()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_onDeserializedHandler;
+}
+constexpr ::System::Runtime::Serialization::SerializationEventHandler* const& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_onDeserializedHandler() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_onDeserializedHandler;
+}
+constexpr void System::Runtime::Serialization::ObjectManager::__cordl_internal_set_m_onDeserializedHandler(::System::Runtime::Serialization::SerializationEventHandler*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_onDeserializedHandler = value;
+}
+constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*>& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_objects()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_objects;
+}
+constexpr ::ArrayW<::System::Runtime::Serialization::ObjectHolder*> const& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_objects() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_objects;
+}
+constexpr void System::Runtime::Serialization::ObjectManager::__cordl_internal_set_m_objects(::ArrayW<::System::Runtime::Serialization::ObjectHolder*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_objects = value;
+}
+constexpr ::System::Object*& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_topObject()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_topObject;
+}
+constexpr ::System::Object* const& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_topObject() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_topObject;
+}
+constexpr void System::Runtime::Serialization::ObjectManager::__cordl_internal_set_m_topObject(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_topObject = value;
+}
+constexpr ::System::Runtime::Serialization::ObjectHolderList*& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_specialFixupObjects()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_specialFixupObjects;
+}
+constexpr ::System::Runtime::Serialization::ObjectHolderList* const& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_specialFixupObjects() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_specialFixupObjects;
+}
+constexpr void System::Runtime::Serialization::ObjectManager::__cordl_internal_set_m_specialFixupObjects(::System::Runtime::Serialization::ObjectHolderList*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_specialFixupObjects = value;
+}
+constexpr int64_t& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_fixupCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_fixupCount;
+}
+constexpr int64_t const& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_fixupCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_fixupCount;
+}
+constexpr void System::Runtime::Serialization::ObjectManager::__cordl_internal_set_m_fixupCount(int64_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_fixupCount = value;
+}
+constexpr ::System::Runtime::Serialization::ISurrogateSelector*& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_selector()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_selector;
+}
+constexpr ::System::Runtime::Serialization::ISurrogateSelector* const& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_selector() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_selector;
+}
+constexpr void System::Runtime::Serialization::ObjectManager::__cordl_internal_set_m_selector(::System::Runtime::Serialization::ISurrogateSelector*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_selector = value;
+}
+constexpr ::System::Runtime::Serialization::StreamingContext& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_context()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_context;
+}
+constexpr ::System::Runtime::Serialization::StreamingContext const& System::Runtime::Serialization::ObjectManager::__cordl_internal_get_m_context() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_context;
+}
+constexpr void System::Runtime::Serialization::ObjectManager::__cordl_internal_set_m_context(::System::Runtime::Serialization::StreamingContext  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_context = value;
+}
+inline void System::Runtime::Serialization::ObjectManager::_ctor(::System::Runtime::Serialization::ISurrogateSelector*  selector, ::System::Runtime::Serialization::StreamingContext  context, bool  checkSecurity, bool  isCrossAppDomain)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::ISurrogateSelector*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, selector, context, checkSecurity, isCrossAppDomain);
+}
+inline bool System::Runtime::Serialization::ObjectManager::CanCallGetType(::System::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"CanCallGetType", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, obj);
+}
+inline void System::Runtime::Serialization::ObjectManager::set_TopObject(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"set_TopObject", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Object* System::Runtime::Serialization::ObjectManager::get_TopObject()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"get_TopObject", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::ObjectHolderList* System::Runtime::Serialization::ObjectManager::get_SpecialFixupObjects()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"get_SpecialFixupObjects", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ObjectHolderList*>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::ObjectHolder* System::Runtime::Serialization::ObjectManager::FindObjectHolder(int64_t  objectID)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"FindObjectHolder", {}, {::i2c::type_of<int64_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ObjectHolder*>(this, ___internal_method, objectID);
+}
+inline ::System::Runtime::Serialization::ObjectHolder* System::Runtime::Serialization::ObjectManager::FindOrCreateObjectHolder(int64_t  objectID)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"FindOrCreateObjectHolder", {}, {::i2c::type_of<int64_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ObjectHolder*>(this, ___internal_method, objectID);
+}
+inline void System::Runtime::Serialization::ObjectManager::AddObjectHolder(::System::Runtime::Serialization::ObjectHolder*  holder)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"AddObjectHolder", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, holder);
+}
+inline bool System::Runtime::Serialization::ObjectManager::GetCompletionInfo(::System::Runtime::Serialization::FixupHolder*  fixup, ::by_ref<::System::Runtime::Serialization::ObjectHolder*>  holder, ::by_ref<::System::Object*>  member, bool  bThrowIfMissing)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"GetCompletionInfo", {}, {::i2c::type_of<::System::Runtime::Serialization::FixupHolder*>(), ::i2c::type_of<::by_ref<::System::Runtime::Serialization::ObjectHolder*>>(), ::i2c::type_of<::by_ref<::System::Object*>>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, fixup, holder, member, bThrowIfMissing);
+}
+inline void System::Runtime::Serialization::ObjectManager::FixupSpecialObject(::System::Runtime::Serialization::ObjectHolder*  holder)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"FixupSpecialObject", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, holder);
+}
+inline bool System::Runtime::Serialization::ObjectManager::ResolveObjectReference(::System::Runtime::Serialization::ObjectHolder*  holder)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"ResolveObjectReference", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, holder);
+}
+inline bool System::Runtime::Serialization::ObjectManager::DoValueTypeFixup(::System::Reflection::FieldInfo*  memberToFix, ::System::Runtime::Serialization::ObjectHolder*  holder, ::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"DoValueTypeFixup", {}, {::i2c::type_of<::System::Reflection::FieldInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, memberToFix, holder, value);
+}
+inline void System::Runtime::Serialization::ObjectManager::CompleteObject(::System::Runtime::Serialization::ObjectHolder*  holder, bool  bObjectFullyComplete)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"CompleteObject", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, holder, bObjectFullyComplete);
+}
+inline void System::Runtime::Serialization::ObjectManager::DoNewlyRegisteredObjectFixups(::System::Runtime::Serialization::ObjectHolder*  holder)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"DoNewlyRegisteredObjectFixups", {}, {::i2c::type_of<::System::Runtime::Serialization::ObjectHolder*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, holder);
+}
+inline ::System::Object* System::Runtime::Serialization::ObjectManager::GetObject(int64_t  objectID)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, objectID);
+}
+inline void System::Runtime::Serialization::ObjectManager::RegisterString(::StringW  obj, int64_t  objectID, ::System::Runtime::Serialization::SerializationInfo*  info, int64_t  idOfContainingObj, ::System::Reflection::MemberInfo*  member)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"RegisterString", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Reflection::MemberInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, objectID, info, idOfContainingObj, member);
+}
+inline void System::Runtime::Serialization::ObjectManager::RegisterObject(::System::Object*  obj, int64_t  objectID, ::System::Runtime::Serialization::SerializationInfo*  info, int64_t  idOfContainingObj, ::System::Reflection::MemberInfo*  member, ::ArrayW<int32_t>  arrayIndex)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"RegisterObject", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::ArrayW<int32_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, objectID, info, idOfContainingObj, member, arrayIndex);
+}
+inline void System::Runtime::Serialization::ObjectManager::CompleteISerializableObject(::System::Object*  obj, ::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"CompleteISerializableObject", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, info, context);
+}
+inline ::System::Reflection::RuntimeConstructorInfo* System::Runtime::Serialization::ObjectManager::GetConstructor(::System::RuntimeType*  t)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"GetConstructor", {}, {::i2c::type_of<::System::RuntimeType*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::RuntimeConstructorInfo*>(nullptr, ___internal_method, t);
+}
+inline void System::Runtime::Serialization::ObjectManager::DoFixups()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::ObjectManager::RegisterFixup(::System::Runtime::Serialization::FixupHolder*  fixup, int64_t  objectToBeFixed, int64_t  objectRequired)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"RegisterFixup", {}, {::i2c::type_of<::System::Runtime::Serialization::FixupHolder*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, fixup, objectToBeFixed, objectRequired);
+}
+inline void System::Runtime::Serialization::ObjectManager::RecordFixup(int64_t  objectToBeFixed, ::System::Reflection::MemberInfo*  member, int64_t  objectRequired)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, objectToBeFixed, member, objectRequired);
+}
+inline void System::Runtime::Serialization::ObjectManager::RecordDelayedFixup(int64_t  objectToBeFixed, ::StringW  memberName, int64_t  objectRequired)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, objectToBeFixed, memberName, objectRequired);
+}
+inline void System::Runtime::Serialization::ObjectManager::RecordArrayElementFixup(int64_t  arrayToBeFixed, ::ArrayW<int32_t>  indices, int64_t  objectRequired)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, arrayToBeFixed, indices, objectRequired);
+}
+inline void System::Runtime::Serialization::ObjectManager::RaiseDeserializationEvent()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::ObjectManager::AddOnDeserialization(::System::Runtime::Serialization::DeserializationEventHandler*  handler)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, handler);
+}
+inline void System::Runtime::Serialization::ObjectManager::AddOnDeserialized(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj);
+}
+inline void System::Runtime::Serialization::ObjectManager::RaiseOnDeserializedEvent(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj);
+}
+inline void System::Runtime::Serialization::ObjectManager::RaiseOnDeserializingEvent(::System::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::ObjectManager*>(),
+                        {"RaiseOnDeserializingEvent", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj);
+}
+inline ::System::Runtime::Serialization::ObjectManager* System::Runtime::Serialization::ObjectManager::New_ctor(::System::Runtime::Serialization::ISurrogateSelector*  selector, ::System::Runtime::Serialization::StreamingContext  context, bool  checkSecurity, bool  isCrossAppDomain)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::ObjectManager*>(selector, context, checkSecurity, isCrossAppDomain));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Serialization::ObjectManager::ObjectManager()   {
+}

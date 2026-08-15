@@ -1,0 +1,58 @@
+#pragma once
+// IWYU pragma private; include "Unity/Collections/Spinner.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(Spinner)
+// Forward declare root types
+namespace Unity::Collections {
+struct Spinner;
+}
+// Write type traits
+MARK_VAL_T(::Unity::Collections::Spinner);
+DEFINE_IL2CPP_CLASS(::Unity::Collections::Spinner, "Unity.Collections", "Spinner");
+// Dependencies 
+namespace Unity::Collections {
+// Is value type: true
+// CS Name: Unity.Collections.Spinner
+struct CORDL_TYPE Spinner {
+public:
+// Declarations
+/// @brief Method Acquire, addr 0x181ea7980, size 0x50, virtual false, abstract: false, final false
+inline void Acquire() ;
+
+/// @brief Method Release, addr 0x181ea79d0, size 0x10, virtual false, abstract: false, final false
+inline void Release() ;
+
+/// @brief Method TryAcquire, addr 0x181ea79e0, size 0x30, virtual false, abstract: false, final false
+inline bool TryAcquire() ;
+
+/// @brief Method TryAcquire, addr 0x181ea7a10, size 0x80, virtual false, abstract: false, final false
+inline bool TryAcquire(bool  spin) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr Spinner() ;
+
+// Ctor Parameters [CppParam { name: "m_Lock", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr Spinner(int32_t  m_Lock) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14800};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+
+/// @brief Field m_Lock, offset: 0x0, size: 0x4, def value: None
+ int32_t  m_Lock;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::Unity::Collections::Spinner, m_Lock) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::Unity::Collections::Spinner) == 0x4, "Size mismatch!");
+
+} // namespace end def Unity::Collections

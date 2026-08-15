@@ -1,0 +1,237 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineDebugDisplayStats.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__URPProfileId_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__DebugDisplayStats_1_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__UniversalRenderPipelineDebugDisplayStats_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__URPProfileId_def.hpp"
+#include "UnityEngine/Rendering/zzzz__DebugFrameTiming_def.hpp"
+#include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats.EnableProfilingRecorders
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::EnableProfilingRecorders)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1820de660;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats.DisableProfilingRecorders
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::DisableProfilingRecorders)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x1820de5d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats.RegisterDebugUI
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::RegisterDebugUI)> {
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x1820de690;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats.Update
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::Update)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1820de8f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1820de920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats._RegisterDebugUI_b__4_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_RegisterDebugUI_b__4_0)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f1be0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {"<RegisterDebugUI>b__4_0", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats._RegisterDebugUI_b__4_1
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_RegisterDebugUI_b__4_1)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803cc020;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {"<RegisterDebugUI>b__4_1", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats._RegisterDebugUI_b__4_2
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_RegisterDebugUI_b__4_2)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180503cd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {"<RegisterDebugUI>b__4_2", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats._RegisterDebugUI_b__4_3
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::*)(bool)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_RegisterDebugUI_b__4_3)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180503d00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {"<RegisterDebugUI>b__4_3", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Rendering::DebugFrameTiming*& UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::__cordl_internal_get_m_DebugFrameTiming()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DebugFrameTiming;
+}
+constexpr ::UnityEngine::Rendering::DebugFrameTiming* const& UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::__cordl_internal_get_m_DebugFrameTiming() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DebugFrameTiming;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::__cordl_internal_set_m_DebugFrameTiming(::UnityEngine::Rendering::DebugFrameTiming*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_DebugFrameTiming = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::URPProfileId>*& UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::__cordl_internal_get_m_RecordedSamplers()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_RecordedSamplers;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::URPProfileId>* const& UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::__cordl_internal_get_m_RecordedSamplers() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_RecordedSamplers;
+}
+constexpr void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::__cordl_internal_set_m_RecordedSamplers(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::URPProfileId>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_RecordedSamplers = value;
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::EnableProfilingRecorders()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::DisableProfilingRecorders()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::RegisterDebugUI(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>*  list)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, list);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::Update()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_RegisterDebugUI_b__4_0()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {"<RegisterDebugUI>b__4_0", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_RegisterDebugUI_b__4_1(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {"<RegisterDebugUI>b__4_1", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_RegisterDebugUI_b__4_2()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {"<RegisterDebugUI>b__4_2", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::_RegisterDebugUI_b__4_3(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>(),
+                        {"<RegisterDebugUI>b__4_3", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats* UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplayStats::UniversalRenderPipelineDebugDisplayStats()   {
+}

@@ -1,0 +1,263 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/FloatField.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__TextValueFieldTraits_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextValueField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
+#include <cstdint>
+CORDL_MODULE_EXPORT(FloatField)
+namespace UnityEngine::UIElements {
+struct DeltaSpeed;
+}
+namespace UnityEngine::UIElements {
+class FloatField_FloatInput;
+}
+namespace UnityEngine::UIElements {
+class FloatField_UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class FloatField_UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class UxmlFloatAttributeDescription;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class FloatField;
+}
+namespace UnityEngine::UIElements {
+class FloatField_FloatInput;
+}
+namespace UnityEngine::UIElements {
+class FloatField_UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class FloatField_UxmlTraits;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::FloatField*);
+MARK_REF_T(::UnityEngine::UIElements::FloatField_FloatInput*);
+MARK_REF_T(::UnityEngine::UIElements::FloatField_UxmlFactory*);
+MARK_REF_T(::UnityEngine::UIElements::FloatField_UxmlTraits*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FloatField*, "UnityEngine.UIElements", "FloatField");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FloatField_FloatInput*, "UnityEngine.UIElements", "FloatField/FloatInput");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FloatField_UxmlFactory*, "UnityEngine.UIElements", "FloatField/UxmlFactory");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FloatField_UxmlTraits*, "UnityEngine.UIElements", "FloatField/UxmlTraits");
+// Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.FloatField/UxmlFactory
+class CORDL_TYPE FloatField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::FloatField*,::UnityEngine::UIElements::FloatField_UxmlTraits*> {
+public:
+// Declarations
+static inline ::UnityEngine::UIElements::FloatField_UxmlFactory* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x18246da30, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr FloatField_UxmlFactory() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FloatField_UxmlFactory(FloatField_UxmlFactory && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FloatField_UxmlFactory(FloatField_UxmlFactory const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3311};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::FloatField_UxmlFactory) == 0x18, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.FloatField/UxmlTraits
+class CORDL_TYPE FloatField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<float_t,::UnityEngine::UIElements::UxmlFloatAttributeDescription*> {
+public:
+// Declarations
+static inline ::UnityEngine::UIElements::FloatField_UxmlTraits* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x182470af0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr FloatField_UxmlTraits() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FloatField_UxmlTraits(FloatField_UxmlTraits && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FloatField_UxmlTraits(FloatField_UxmlTraits const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3312};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::FloatField_UxmlTraits) == 0xc0, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies UnityEngine.UIElements.TextValueField`1::TextValueInput<TValueType>
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.FloatField/FloatInput
+class CORDL_TYPE FloatField_FloatInput : public ::UnityEngine::UIElements::TextValueField_1_TextValueInput<float_t> {
+public:
+// Declarations
+ __declspec(property(get=get_allowedCharacters)) ::StringW  allowedCharacters;
+
+ __declspec(property(get=get_parentFloatField)) ::UnityEngine::UIElements::FloatField*  parentFloatField;
+
+/// @brief Method ApplyInputDeviceDelta, addr 0x182460f90, size 0x1f0, virtual true, abstract: false, final false
+inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, float_t  startValue) ;
+
+static inline ::UnityEngine::UIElements::FloatField_FloatInput* New_ctor() ;
+
+/// @brief Method StringToValue, addr 0x182461180, size 0x70, virtual true, abstract: false, final false
+inline float_t StringToValue(::StringW  str) ;
+
+/// @brief Method ValueToString, addr 0x1824611f0, size 0x30, virtual true, abstract: false, final false
+inline ::StringW ValueToString(float_t  v) ;
+
+/// @brief Method .ctor, addr 0x182461220, size 0x40, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_allowedCharacters, addr 0x182461260, size 0x70, virtual true, abstract: false, final false
+inline ::StringW get_allowedCharacters() ;
+
+/// @brief Method get_parentFloatField, addr 0x1824612d0, size 0x50, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::FloatField* get_parentFloatField() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr FloatField_FloatInput() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "FloatField_FloatInput", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FloatField_FloatInput(FloatField_FloatInput && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "FloatField_FloatInput", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FloatField_FloatInput(FloatField_FloatInput const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3313};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::FloatField_FloatInput) == 0x308, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.FloatField
+class CORDL_TYPE FloatField : public ::UnityEngine::UIElements::TextValueField_1<float_t> {
+public:
+// Declarations
+using FloatInput = ::UnityEngine::UIElements::FloatField_FloatInput;
+
+using UxmlFactory = ::UnityEngine::UIElements::FloatField_UxmlFactory;
+
+using UxmlTraits = ::UnityEngine::UIElements::FloatField_UxmlTraits;
+
+ __declspec(property(get=get_floatInput)) ::UnityEngine::UIElements::FloatField_FloatInput*  floatInput;
+
+/// @brief Field inputUssClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_inputUssClassName, put=setStaticF_inputUssClassName)) ::StringW  inputUssClassName;
+
+/// @brief Field labelUssClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_labelUssClassName, put=setStaticF_labelUssClassName)) ::StringW  labelUssClassName;
+
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
+
+/// @brief Method ApplyInputDeviceDelta, addr 0x182460a00, size 0x90, virtual true, abstract: false, final false
+inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, float_t  startValue) ;
+
+/// @brief Method CanTryParse, addr 0x182460a90, size 0x30, virtual true, abstract: false, final false
+inline bool CanTryParse(::StringW  textString) ;
+
+static inline ::UnityEngine::UIElements::FloatField* New_ctor() ;
+
+static inline ::UnityEngine::UIElements::FloatField* New_ctor(::StringW  label, int32_t  maxLength) ;
+
+/// @brief Method StringToValue, addr 0x182460ac0, size 0xa0, virtual true, abstract: false, final false
+inline float_t StringToValue(::StringW  str) ;
+
+/// @brief Method UpdateValueFromText, addr 0x182460b60, size 0x70, virtual true, abstract: false, final false
+inline void UpdateValueFromText() ;
+
+/// @brief Method ValueToString, addr 0x182460bd0, size 0x60, virtual true, abstract: false, final false
+inline ::StringW ValueToString(float_t  v) ;
+
+/// @brief Method .ctor, addr 0x182460d10, size 0x110, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method .ctor, addr 0x182460e20, size 0x120, virtual false, abstract: false, final false
+inline void _ctor(::StringW  label, int32_t  maxLength) ;
+
+static inline ::StringW getStaticF_inputUssClassName() ;
+
+static inline ::StringW getStaticF_labelUssClassName() ;
+
+static inline ::StringW getStaticF_ussClassName() ;
+
+/// @brief Method get_floatInput, addr 0x182460f40, size 0x50, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::FloatField_FloatInput* get_floatInput() ;
+
+static inline void setStaticF_inputUssClassName(::StringW  value) ;
+
+static inline void setStaticF_labelUssClassName(::StringW  value) ;
+
+static inline void setStaticF_ussClassName(::StringW  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr FloatField() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "FloatField", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FloatField(FloatField && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "FloatField", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FloatField(FloatField const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3314};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::FloatField) == 0x378, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

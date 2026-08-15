@@ -1,0 +1,409 @@
+#pragma once
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Axis.hpp"
+#include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
+#include "System/Xml/XPath/zzzz__XPathNodeType_impl.hpp"
+#include "MS/Internal/Xml/XPath/zzzz__Axis_def.hpp"
+#include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
+#include "MS/Internal/Xml/XPath/zzzz__Axis_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathResultType_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType::Axis_AxisType(int32_t  value__) noexcept  {
+this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType::Axis_AxisType()   {
+}
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Ancestor{static_cast<int32_t>(0x0)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::AncestorOrSelf{static_cast<int32_t>(0x1)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Attribute{static_cast<int32_t>(0x2)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Child{static_cast<int32_t>(0x3)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Descendant{static_cast<int32_t>(0x4)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::DescendantOrSelf{static_cast<int32_t>(0x5)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Following{static_cast<int32_t>(0x6)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::FollowingSibling{static_cast<int32_t>(0x7)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Namespace{static_cast<int32_t>(0x8)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Parent{static_cast<int32_t>(0x9)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Preceding{static_cast<int32_t>(0xa)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::PrecedingSibling{static_cast<int32_t>(0xb)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::Self{static_cast<int32_t>(0xc)};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType  MS::Internal::Xml::XPath::Axis_AxisType::None{static_cast<int32_t>(0xd)};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Axis::*)(::MS::Internal::Xml::XPath::Axis_AxisType, ::MS::Internal::Xml::XPath::AstNode*, ::StringW, ::StringW, ::System::Xml::XPath::XPathNodeType)>(&::MS::Internal::Xml::XPath::Axis::_ctor)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181ccc9f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {".ctor", {}, {::i2c::type_of<::MS::Internal::Xml::XPath::Axis_AxisType>(), ::i2c::type_of<::MS::Internal::Xml::XPath::AstNode*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::XPath::XPathNodeType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Axis::*)(::MS::Internal::Xml::XPath::Axis_AxisType, ::MS::Internal::Xml::XPath::AstNode*)>(&::MS::Internal::Xml::XPath::Axis::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181ccca80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {".ctor", {}, {::i2c::type_of<::MS::Internal::Xml::XPath::Axis_AxisType>(), ::i2c::type_of<::MS::Internal::Xml::XPath::AstNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_Type
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_Type)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                    {::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_ReturnType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_ReturnType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ee400;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                    {::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_Input
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_Input)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_Input", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.set_Input
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Axis::*)(::MS::Internal::Xml::XPath::AstNode*)>(&::MS::Internal::Xml::XPath::Axis::set_Input)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"set_Input", {}, {::i2c::type_of<::MS::Internal::Xml::XPath::AstNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_Prefix
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_Prefix)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_Prefix", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_Name
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_Name)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_Name", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_NodeType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathNodeType (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_NodeType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2ba0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_NodeType", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_TypeOfAxis
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::Axis_AxisType (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_TypeOfAxis)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_TypeOfAxis", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_AbbrAxis
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_AbbrAxis)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803e0b00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_AbbrAxis", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.get_Urn
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::MS::Internal::Xml::XPath::Axis::*)()>(&::MS::Internal::Xml::XPath::Axis::get_Urn)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9800;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_Urn", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::Axis.set_Urn
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Axis::*)(::StringW)>(&::MS::Internal::Xml::XPath::Axis::set_Urn)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"set_Urn", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__axisType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____axisType;
+}
+constexpr ::MS::Internal::Xml::XPath::Axis_AxisType const& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__axisType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____axisType;
+}
+constexpr void MS::Internal::Xml::XPath::Axis::__cordl_internal_set__axisType(::MS::Internal::Xml::XPath::Axis_AxisType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____axisType = value;
+}
+constexpr ::MS::Internal::Xml::XPath::AstNode*& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__input()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____input;
+}
+constexpr ::MS::Internal::Xml::XPath::AstNode* const& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__input() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____input;
+}
+constexpr void MS::Internal::Xml::XPath::Axis::__cordl_internal_set__input(::MS::Internal::Xml::XPath::AstNode*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____input = value;
+}
+constexpr ::StringW& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__prefix()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____prefix;
+}
+constexpr ::StringW const& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__prefix() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____prefix;
+}
+constexpr void MS::Internal::Xml::XPath::Axis::__cordl_internal_set__prefix(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____prefix = value;
+}
+constexpr ::StringW& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__name()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____name;
+}
+constexpr ::StringW const& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__name() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____name;
+}
+constexpr void MS::Internal::Xml::XPath::Axis::__cordl_internal_set__name(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____name = value;
+}
+constexpr ::System::Xml::XPath::XPathNodeType& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__nodeType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodeType;
+}
+constexpr ::System::Xml::XPath::XPathNodeType const& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__nodeType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodeType;
+}
+constexpr void MS::Internal::Xml::XPath::Axis::__cordl_internal_set__nodeType(::System::Xml::XPath::XPathNodeType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____nodeType = value;
+}
+constexpr bool& MS::Internal::Xml::XPath::Axis::__cordl_internal_get_abbrAxis()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___abbrAxis;
+}
+constexpr bool const& MS::Internal::Xml::XPath::Axis::__cordl_internal_get_abbrAxis() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___abbrAxis;
+}
+constexpr void MS::Internal::Xml::XPath::Axis::__cordl_internal_set_abbrAxis(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___abbrAxis = value;
+}
+constexpr ::StringW& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__urn()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____urn;
+}
+constexpr ::StringW const& MS::Internal::Xml::XPath::Axis::__cordl_internal_get__urn() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____urn;
+}
+constexpr void MS::Internal::Xml::XPath::Axis::__cordl_internal_set__urn(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____urn = value;
+}
+inline void MS::Internal::Xml::XPath::Axis::_ctor(::MS::Internal::Xml::XPath::Axis_AxisType  axisType, ::MS::Internal::Xml::XPath::AstNode*  input, ::StringW  prefix, ::StringW  name, ::System::Xml::XPath::XPathNodeType  nodetype)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {".ctor", {}, {::i2c::type_of<::MS::Internal::Xml::XPath::Axis_AxisType>(), ::i2c::type_of<::MS::Internal::Xml::XPath::AstNode*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Xml::XPath::XPathNodeType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, axisType, input, prefix, name, nodetype);
+}
+inline void MS::Internal::Xml::XPath::Axis::_ctor(::MS::Internal::Xml::XPath::Axis_AxisType  axisType, ::MS::Internal::Xml::XPath::AstNode*  input)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {".ctor", {}, {::i2c::type_of<::MS::Internal::Xml::XPath::Axis_AxisType>(), ::i2c::type_of<::MS::Internal::Xml::XPath::AstNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, axisType, input);
+}
+inline ::MS::Internal::Xml::XPath::AstNode_AstType MS::Internal::Xml::XPath::Axis::get_Type()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::MS::Internal::Xml::XPath::AstNode_AstType>(this, ___internal_method);
+}
+inline ::System::Xml::XPath::XPathResultType MS::Internal::Xml::XPath::Axis::get_ReturnType()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathResultType>(this, ___internal_method);
+}
+inline ::MS::Internal::Xml::XPath::AstNode* MS::Internal::Xml::XPath::Axis::get_Input()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_Input", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::MS::Internal::Xml::XPath::AstNode*>(this, ___internal_method);
+}
+inline void MS::Internal::Xml::XPath::Axis::set_Input(::MS::Internal::Xml::XPath::AstNode*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"set_Input", {}, {::i2c::type_of<::MS::Internal::Xml::XPath::AstNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW MS::Internal::Xml::XPath::Axis::get_Prefix()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_Prefix", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW MS::Internal::Xml::XPath::Axis::get_Name()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_Name", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::Xml::XPath::XPathNodeType MS::Internal::Xml::XPath::Axis::get_NodeType()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_NodeType", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathNodeType>(this, ___internal_method);
+}
+inline ::MS::Internal::Xml::XPath::Axis_AxisType MS::Internal::Xml::XPath::Axis::get_TypeOfAxis()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_TypeOfAxis", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::MS::Internal::Xml::XPath::Axis_AxisType>(this, ___internal_method);
+}
+inline bool MS::Internal::Xml::XPath::Axis::get_AbbrAxis()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_AbbrAxis", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::StringW MS::Internal::Xml::XPath::Axis::get_Urn()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"get_Urn", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void MS::Internal::Xml::XPath::Axis::set_Urn(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::MS::Internal::Xml::XPath::Axis*>(),
+                        {"set_Urn", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::MS::Internal::Xml::XPath::Axis* MS::Internal::Xml::XPath::Axis::New_ctor(::MS::Internal::Xml::XPath::Axis_AxisType  axisType, ::MS::Internal::Xml::XPath::AstNode*  input, ::StringW  prefix, ::StringW  name, ::System::Xml::XPath::XPathNodeType  nodetype)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::MS::Internal::Xml::XPath::Axis*>(axisType, input, prefix, name, nodetype));
+}
+inline ::MS::Internal::Xml::XPath::Axis* MS::Internal::Xml::XPath::Axis::New_ctor(::MS::Internal::Xml::XPath::Axis_AxisType  axisType, ::MS::Internal::Xml::XPath::AstNode*  input)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::MS::Internal::Xml::XPath::Axis*>(axisType, input));
+}
+// Ctor Parameters []
+constexpr ::MS::Internal::Xml::XPath::Axis::Axis()   {
+}

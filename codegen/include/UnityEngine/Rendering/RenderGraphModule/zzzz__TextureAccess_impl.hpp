@@ -1,0 +1,61 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureAccess.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureAccess_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TextureAccess._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureAccess::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags, int32_t, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::TextureAccess::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18207a390;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureAccess>(),
+                        {".ctor", {}, {::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::TextureAccess._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TextureAccess::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::RenderGraphModule::TextureAccess::_ctor)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18207a3c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureAccess>(),
+                        {".ctor", {}, {::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::RenderGraphModule::TextureAccess::_ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>  handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags  flags, int32_t  mipLevel, int32_t  depthSlice)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureAccess>(),
+                        {".ctor", {}, {::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handle, flags, mipLevel, depthSlice);
+}
+inline void UnityEngine::Rendering::RenderGraphModule::TextureAccess::_ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess>  access, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>  handle)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureAccess>(),
+                        {".ctor", {}, {::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, access, handle);
+}
+// Ctor Parameters [CppParam { name: "textureHandle", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "mipLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty: "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureAccess::TextureAccess(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  textureHandle, int32_t  mipLevel, int32_t  depthSlice, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags  flags) noexcept  {
+this->textureHandle = textureHandle;
+this->mipLevel = mipLevel;
+this->depthSlice = depthSlice;
+this->flags = flags;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureAccess::TextureAccess()   {
+}

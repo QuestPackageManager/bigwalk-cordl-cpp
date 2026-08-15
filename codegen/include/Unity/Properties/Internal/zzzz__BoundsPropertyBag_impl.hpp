@@ -1,0 +1,270 @@
+#pragma once
+// IWYU pragma private; include "Unity/Properties/Internal/BoundsPropertyBag.hpp"
+#include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
+#include "Unity/Properties/zzzz__Property_2_impl.hpp"
+#include "UnityEngine/zzzz__Bounds_impl.hpp"
+#include "UnityEngine/zzzz__Vector3_impl.hpp"
+#include "Unity/Properties/Internal/zzzz__BoundsPropertyBag_def.hpp"
+#include "Unity/Properties/Internal/zzzz__BoundsPropertyBag_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty.get_Name
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)()>(&::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::get_Name)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182304010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(),
+                    {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty.get_IsReadOnly
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)()>(&::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(),
+                    {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty.GetValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)(::by_ref<::UnityEngine::Bounds>)>(&::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::GetValue)> {
+  constexpr static std::size_t size = 0x2d390;
+  constexpr static std::size_t addrs = 0x181017120;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(),
+                    {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty.SetValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)(::by_ref<::UnityEngine::Bounds>, ::UnityEngine::Vector3)>(&::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::SetValue)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182303ff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(),
+                    {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)()>(&::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::StringW Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::get_Name()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::get_IsReadOnly()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::GetValue(::by_ref<::UnityEngine::Bounds>  container)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::SetValue(::by_ref<::UnityEngine::Bounds>  container, ::UnityEngine::Vector3  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container, value);
+}
+inline void Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty* Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>());
+}
+// Ctor Parameters []
+constexpr ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::BoundsPropertyBag_CenterProperty()   {
+}
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty.get_Name
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)()>(&::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::get_Name)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182304c80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(),
+                    {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty.get_IsReadOnly
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)()>(&::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(),
+                    {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty.GetValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)(::by_ref<::UnityEngine::Bounds>)>(&::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::GetValue)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182304c40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(),
+                    {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty.SetValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)(::by_ref<::UnityEngine::Bounds>, ::UnityEngine::Vector3)>(&::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::SetValue)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182304c60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(),
+                    {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)()>(&::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::StringW Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::get_Name()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::get_IsReadOnly()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::GetValue(::by_ref<::UnityEngine::Bounds>  container)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::SetValue(::by_ref<::UnityEngine::Bounds>  container, ::UnityEngine::Vector3  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container, value);
+}
+inline void Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty* Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>());
+}
+// Ctor Parameters []
+constexpr ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::BoundsPropertyBag_ExtentsProperty()   {
+}
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag::*)()>(&::Unity::Properties::Internal::BoundsPropertyBag::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x182303f00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void Unity::Properties::Internal::BoundsPropertyBag::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::BoundsPropertyBag*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Unity::Properties::Internal::BoundsPropertyBag* Unity::Properties::Internal::BoundsPropertyBag::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::Internal::BoundsPropertyBag*>());
+}
+// Ctor Parameters []
+constexpr ::Unity::Properties::Internal::BoundsPropertyBag::BoundsPropertyBag()   {
+}

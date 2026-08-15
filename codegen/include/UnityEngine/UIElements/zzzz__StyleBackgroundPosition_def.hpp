@@ -1,0 +1,129 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleBackgroundPosition.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__BackgroundPosition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(StyleBackgroundPosition)
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::UIElements {
+struct BackgroundPosition;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+struct StyleBackgroundPosition;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::UIElements::StyleBackgroundPosition);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleBackgroundPosition, "UnityEngine.UIElements", "StyleBackgroundPosition");
+// Dependencies UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.StyleKeyword
+namespace UnityEngine::UIElements {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.StyleBackgroundPosition
+struct CORDL_TYPE StyleBackgroundPosition {
+public:
+// Declarations
+ __declspec(property(get=get_keyword, put=set_keyword)) ::UnityEngine::UIElements::StyleKeyword  keyword;
+
+ __declspec(property(get=get_value, put=set_value)) ::UnityEngine::UIElements::BackgroundPosition  value;
+
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundPosition>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundPosition>*() ;
+
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundPosition>"
+constexpr operator  ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundPosition>*() ;
+
+/// @brief Method Equals, addr 0x1823d5a50, size 0xb0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method Equals, addr 0x1823d5b00, size 0x90, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::StyleBackgroundPosition  other) ;
+
+/// @brief Method GetHashCode, addr 0x1823d5b90, size 0x30, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
+
+/// @brief Method ToString, addr 0x1823d5bc0, size 0x40, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
+
+/// @brief Method .ctor, addr 0x1823d5c00, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::StyleKeyword  keyword) ;
+
+/// @brief Method .ctor, addr 0x1823d5c30, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::BackgroundPosition  v) ;
+
+/// @brief Method .ctor, addr 0x1803223e0, size 0x40, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::BackgroundPosition  v, ::UnityEngine::UIElements::StyleKeyword  keyword) ;
+
+/// @brief Method get_keyword, addr 0x1803bdb30, size 0x10, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::StyleKeyword get_keyword() ;
+
+/// @brief Method get_value, addr 0x1823d5c80, size 0x70, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::BackgroundPosition get_value() ;
+
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundPosition>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundPosition>* i___System__IEquatable_1___UnityEngine__UIElements__StyleBackgroundPosition_() ;
+
+/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundPosition>"
+constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundPosition>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__BackgroundPosition_() ;
+
+/// @brief Method op_Equality, addr 0x1823d5cf0, size 0x50, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::UIElements::StyleBackgroundPosition  lhs, ::UnityEngine::UIElements::StyleBackgroundPosition  rhs) ;
+
+/// @brief Method op_Implicit, addr 0x1823d5d60, size 0x30, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::StyleBackgroundPosition op_Implicit___UnityEngine__UIElements__StyleBackgroundPosition(::UnityEngine::UIElements::StyleKeyword  keyword) ;
+
+/// @brief Method op_Implicit, addr 0x1823d5d40, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::StyleBackgroundPosition op_Implicit___UnityEngine__UIElements__StyleBackgroundPosition(::UnityEngine::UIElements::BackgroundPosition  v) ;
+
+/// @brief Method set_keyword, addr 0x1804bdb30, size 0x10, virtual true, abstract: false, final true
+inline void set_keyword(::UnityEngine::UIElements::StyleKeyword  value) ;
+
+/// @brief Method set_value, addr 0x1823d5c30, size 0x50, virtual true, abstract: false, final true
+inline void set_value(::UnityEngine::UIElements::BackgroundPosition  value) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleBackgroundPosition() ;
+
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
+constexpr StyleBackgroundPosition(::UnityEngine::UIElements::BackgroundPosition  m_Value, ::UnityEngine::UIElements::StyleKeyword  m_Keyword) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4149};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+
+/// @brief Field m_Value, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::UIElements::BackgroundPosition  m_Value;
+
+/// @brief Field m_Keyword, offset: 0xc, size: 0x4, def value: None
+ ::UnityEngine::UIElements::StyleKeyword  m_Keyword;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::StyleBackgroundPosition, m_Value) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleBackgroundPosition, m_Keyword) == 0xc, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::StyleBackgroundPosition) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

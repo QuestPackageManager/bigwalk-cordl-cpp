@@ -1,0 +1,328 @@
+#pragma once
+// IWYU pragma private; include "Mono/Globalization/Unicode/MSCompatUnicodeTable.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Mono/Globalization/Unicode/zzzz__TailoringInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(MSCompatUnicodeTable)
+namespace Mono::Globalization::Unicode {
+class CodePointIndexer;
+}
+namespace Mono::Globalization::Unicode {
+class Contraction;
+}
+namespace Mono::Globalization::Unicode {
+class Level2Map;
+}
+namespace Mono::Globalization::Unicode {
+class MSCompatUnicodeTable___c;
+}
+namespace Mono::Globalization::Unicode {
+class TailoringInfo;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+template<typename T>
+class Comparison_1;
+}
+namespace System {
+struct IntPtr;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace Mono::Globalization::Unicode {
+class MSCompatUnicodeTable;
+}
+namespace Mono::Globalization::Unicode {
+class MSCompatUnicodeTable___c;
+}
+// Write type traits
+MARK_REF_T(::Mono::Globalization::Unicode::MSCompatUnicodeTable*);
+MARK_REF_T(::Mono::Globalization::Unicode::MSCompatUnicodeTable___c*);
+DEFINE_IL2CPP_CLASS(::Mono::Globalization::Unicode::MSCompatUnicodeTable*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
+DEFINE_IL2CPP_CLASS(::Mono::Globalization::Unicode::MSCompatUnicodeTable___c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");
+// Dependencies System.Object
+namespace Mono::Globalization::Unicode {
+// Is value type: false
+// CS Name: Mono.Globalization.Unicode.MSCompatUnicodeTable/<>c
+class CORDL_TYPE MSCompatUnicodeTable___c : public ::System::Object {
+public:
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::Mono::Globalization::Unicode::MSCompatUnicodeTable___c*  __9;
+
+/// @brief Field <>9__17_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__17_0, put=setStaticF___9__17_0)) ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>*  __9__17_0;
+
+static inline ::Mono::Globalization::Unicode::MSCompatUnicodeTable___c* New_ctor() ;
+
+/// @brief Method <BuildTailoringTables>b__17_0, addr 0x1815d2670, size 0x10, virtual false, abstract: false, final false
+inline int32_t _BuildTailoringTables_b__17_0(::Mono::Globalization::Unicode::Level2Map*  a, ::Mono::Globalization::Unicode::Level2Map*  b) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::Mono::Globalization::Unicode::MSCompatUnicodeTable___c* getStaticF___9() ;
+
+static inline ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>* getStaticF___9__17_0() ;
+
+static inline void setStaticF___9(::Mono::Globalization::Unicode::MSCompatUnicodeTable___c*  value) ;
+
+static inline void setStaticF___9__17_0(::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr MSCompatUnicodeTable___c() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MSCompatUnicodeTable___c(MSCompatUnicodeTable___c && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MSCompatUnicodeTable___c(MSCompatUnicodeTable___c const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{82};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::Mono::Globalization::Unicode::MSCompatUnicodeTable___c) == 0x10, "Size mismatch!");
+
+} // namespace end def Mono::Globalization::Unicode
+// Dependencies Mono.Globalization.Unicode.TailoringInfo, System.Object
+namespace Mono::Globalization::Unicode {
+// Is value type: false
+// CS Name: Mono.Globalization.Unicode.MSCompatUnicodeTable
+class CORDL_TYPE MSCompatUnicodeTable : public ::System::Object {
+public:
+// Declarations
+using __c = ::Mono::Globalization::Unicode::MSCompatUnicodeTable___c;
+
+/// @brief Field MaxExpansionLength, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MaxExpansionLength, put=setStaticF_MaxExpansionLength)) int32_t  MaxExpansionLength;
+
+/// @brief Field categories, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_categories, put=setStaticF_categories)) uint8_t*  categories;
+
+/// @brief Field cjkCHScategory, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkCHScategory, put=setStaticF_cjkCHScategory)) uint8_t*  cjkCHScategory;
+
+/// @brief Field cjkCHSlv1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkCHSlv1, put=setStaticF_cjkCHSlv1)) uint8_t*  cjkCHSlv1;
+
+/// @brief Field cjkCHTcategory, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkCHTcategory, put=setStaticF_cjkCHTcategory)) uint8_t*  cjkCHTcategory;
+
+/// @brief Field cjkCHTlv1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkCHTlv1, put=setStaticF_cjkCHTlv1)) uint8_t*  cjkCHTlv1;
+
+/// @brief Field cjkJAcategory, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkJAcategory, put=setStaticF_cjkJAcategory)) uint8_t*  cjkJAcategory;
+
+/// @brief Field cjkJAlv1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkJAlv1, put=setStaticF_cjkJAlv1)) uint8_t*  cjkJAlv1;
+
+/// @brief Field cjkKOcategory, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkKOcategory, put=setStaticF_cjkKOcategory)) uint8_t*  cjkKOcategory;
+
+/// @brief Field cjkKOlv1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkKOlv1, put=setStaticF_cjkKOlv1)) uint8_t*  cjkKOlv1;
+
+/// @brief Field cjkKOlv2, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_cjkKOlv2, put=setStaticF_cjkKOlv2)) uint8_t*  cjkKOlv2;
+
+/// @brief Field forLock, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_forLock, put=setStaticF_forLock)) ::System::Object*  forLock;
+
+/// @brief Field ignorableFlags, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ignorableFlags, put=setStaticF_ignorableFlags)) uint8_t*  ignorableFlags;
+
+/// @brief Field isReady, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_isReady, put=setStaticF_isReady)) bool  isReady;
+
+/// @brief Field level1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_level1, put=setStaticF_level1)) uint8_t*  level1;
+
+/// @brief Field level2, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_level2, put=setStaticF_level2)) uint8_t*  level2;
+
+/// @brief Field level3, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_level3, put=setStaticF_level3)) uint8_t*  level3;
+
+/// @brief Field tailoringArr, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_tailoringArr, put=setStaticF_tailoringArr)) ::ArrayW<char16_t>  tailoringArr;
+
+/// @brief Field tailoringInfos, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_tailoringInfos, put=setStaticF_tailoringInfos)) ::ArrayW<::Mono::Globalization::Unicode::TailoringInfo*>  tailoringInfos;
+
+/// @brief Method BuildTailoringTables, addr 0x1815c68c0, size 0x4d0, virtual false, abstract: false, final false
+static inline void BuildTailoringTables(::System::Globalization::CultureInfo*  culture, ::Mono::Globalization::Unicode::TailoringInfo*  t, ::by_ref<::ArrayW<::Mono::Globalization::Unicode::Contraction*>>  contractions, ::by_ref<::ArrayW<::Mono::Globalization::Unicode::Level2Map*>>  diacriticals) ;
+
+/// @brief Method Category, addr 0x1815c6d90, size 0xd0, virtual false, abstract: false, final false
+static inline uint8_t Category(int32_t  cp) ;
+
+/// @brief Method FillCJK, addr 0x1815c71f0, size 0x160, virtual false, abstract: false, final false
+static inline void FillCJK(::StringW  culture, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*>  cjkIndexer, ::by_ref<uint8_t*>  catTable, ::by_ref<uint8_t*>  lv1Table, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*>  lv2Indexer, ::by_ref<uint8_t*>  lv2Table) ;
+
+/// @brief Method FillCJKCore, addr 0x1815c6e60, size 0x390, virtual false, abstract: false, final false
+static inline void FillCJKCore(::StringW  culture, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*>  cjkIndexer, ::by_ref<uint8_t*>  catTable, ::by_ref<uint8_t*>  lv1Table, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*>  cjkLv2Indexer, ::by_ref<uint8_t*>  lv2Table) ;
+
+/// @brief Method GetResource, addr 0x1815c7350, size 0x90, virtual false, abstract: false, final false
+static inline ::System::IntPtr GetResource(::StringW  name) ;
+
+/// @brief Method GetTailoringInfo, addr 0x1815c73e0, size 0xa0, virtual false, abstract: false, final false
+static inline ::Mono::Globalization::Unicode::TailoringInfo* GetTailoringInfo(int32_t  lcid) ;
+
+/// @brief Method HasSpecialWeight, addr 0x1815c7480, size 0x70, virtual false, abstract: false, final false
+static inline bool HasSpecialWeight(char16_t  c) ;
+
+/// @brief Method IsHalfWidthKana, addr 0x1815c74f0, size 0x20, virtual false, abstract: false, final false
+static inline bool IsHalfWidthKana(char16_t  c) ;
+
+/// @brief Method IsHiragana, addr 0x1815c7510, size 0x20, virtual false, abstract: false, final false
+static inline bool IsHiragana(char16_t  c) ;
+
+/// @brief Method IsIgnorable, addr 0x1815c7560, size 0xd0, virtual false, abstract: false, final false
+static inline bool IsIgnorable(int32_t  cp, uint8_t  flag) ;
+
+/// @brief Method IsIgnorableNonSpacing, addr 0x1815c7530, size 0x30, virtual false, abstract: false, final false
+static inline bool IsIgnorableNonSpacing(int32_t  cp) ;
+
+/// @brief Method IsJapaneseSmallLetter, addr 0x1815c7630, size 0x170, virtual false, abstract: false, final false
+static inline bool IsJapaneseSmallLetter(char16_t  c) ;
+
+/// @brief Method Level1, addr 0x1815c77a0, size 0xd0, virtual false, abstract: false, final false
+static inline uint8_t Level1(int32_t  cp) ;
+
+/// @brief Method Level2, addr 0x1815c7870, size 0xd0, virtual false, abstract: false, final false
+static inline uint8_t Level2(int32_t  cp) ;
+
+/// @brief Method Level3, addr 0x1815c7940, size 0xd0, virtual false, abstract: false, final false
+static inline uint8_t Level3(int32_t  cp) ;
+
+/// @brief Method SetCJKReferences, addr 0x1815c7a10, size 0x280, virtual false, abstract: false, final false
+static inline void SetCJKReferences(::StringW  name, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*>  cjkIndexer, ::by_ref<uint8_t*>  catTable, ::by_ref<uint8_t*>  lv1Table, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*>  lv2Indexer, ::by_ref<uint8_t*>  lv2Table) ;
+
+/// @brief Method ToKanaTypeInsensitive, addr 0x1815c7c90, size 0x20, virtual false, abstract: false, final false
+static inline int32_t ToKanaTypeInsensitive(int32_t  i) ;
+
+/// @brief Method ToWidthCompat, addr 0x1815c7cb0, size 0x180, virtual false, abstract: false, final false
+static inline int32_t ToWidthCompat(int32_t  i) ;
+
+/// @brief Method UInt32FromBytePtr, addr 0x1815c7e30, size 0x40, virtual false, abstract: false, final false
+static inline uint32_t UInt32FromBytePtr(uint8_t*  raw, uint32_t  idx) ;
+
+static inline int32_t getStaticF_MaxExpansionLength() ;
+
+static inline uint8_t* getStaticF_categories() ;
+
+static inline uint8_t* getStaticF_cjkCHScategory() ;
+
+static inline uint8_t* getStaticF_cjkCHSlv1() ;
+
+static inline uint8_t* getStaticF_cjkCHTcategory() ;
+
+static inline uint8_t* getStaticF_cjkCHTlv1() ;
+
+static inline uint8_t* getStaticF_cjkJAcategory() ;
+
+static inline uint8_t* getStaticF_cjkJAlv1() ;
+
+static inline uint8_t* getStaticF_cjkKOcategory() ;
+
+static inline uint8_t* getStaticF_cjkKOlv1() ;
+
+static inline uint8_t* getStaticF_cjkKOlv2() ;
+
+static inline ::System::Object* getStaticF_forLock() ;
+
+static inline uint8_t* getStaticF_ignorableFlags() ;
+
+static inline bool getStaticF_isReady() ;
+
+static inline uint8_t* getStaticF_level1() ;
+
+static inline uint8_t* getStaticF_level2() ;
+
+static inline uint8_t* getStaticF_level3() ;
+
+static inline ::ArrayW<char16_t> getStaticF_tailoringArr() ;
+
+static inline ::ArrayW<::Mono::Globalization::Unicode::TailoringInfo*> getStaticF_tailoringInfos() ;
+
+/// @brief Method get_IsReady, addr 0x1815c8330, size 0x40, virtual false, abstract: false, final false
+static inline bool get_IsReady() ;
+
+static inline void setStaticF_MaxExpansionLength(int32_t  value) ;
+
+static inline void setStaticF_categories(uint8_t*  value) ;
+
+static inline void setStaticF_cjkCHScategory(uint8_t*  value) ;
+
+static inline void setStaticF_cjkCHSlv1(uint8_t*  value) ;
+
+static inline void setStaticF_cjkCHTcategory(uint8_t*  value) ;
+
+static inline void setStaticF_cjkCHTlv1(uint8_t*  value) ;
+
+static inline void setStaticF_cjkJAcategory(uint8_t*  value) ;
+
+static inline void setStaticF_cjkJAlv1(uint8_t*  value) ;
+
+static inline void setStaticF_cjkKOcategory(uint8_t*  value) ;
+
+static inline void setStaticF_cjkKOlv1(uint8_t*  value) ;
+
+static inline void setStaticF_cjkKOlv2(uint8_t*  value) ;
+
+static inline void setStaticF_forLock(::System::Object*  value) ;
+
+static inline void setStaticF_ignorableFlags(uint8_t*  value) ;
+
+static inline void setStaticF_isReady(bool  value) ;
+
+static inline void setStaticF_level1(uint8_t*  value) ;
+
+static inline void setStaticF_level2(uint8_t*  value) ;
+
+static inline void setStaticF_level3(uint8_t*  value) ;
+
+static inline void setStaticF_tailoringArr(::ArrayW<char16_t>  value) ;
+
+static inline void setStaticF_tailoringInfos(::ArrayW<::Mono::Globalization::Unicode::TailoringInfo*>  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr MSCompatUnicodeTable() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MSCompatUnicodeTable(MSCompatUnicodeTable && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MSCompatUnicodeTable(MSCompatUnicodeTable const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{83};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::Mono::Globalization::Unicode::MSCompatUnicodeTable) == 0x10, "Size mismatch!");
+
+} // namespace end def Mono::Globalization::Unicode

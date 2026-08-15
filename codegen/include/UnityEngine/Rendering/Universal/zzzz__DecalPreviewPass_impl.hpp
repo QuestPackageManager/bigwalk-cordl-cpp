@@ -1,0 +1,227 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalPreviewPass.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__FilteringSettings_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__DecalPreviewPass_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RasterGraphContext_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__DecalPreviewPass_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ContextContainer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ProfilingSampler_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RendererList_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData::*)()>(&::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& UnityEngine::Rendering::Universal::DecalPreviewPass_PassData::__cordl_internal_get_rendererList()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___rendererList;
+}
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& UnityEngine::Rendering::Universal::DecalPreviewPass_PassData::__cordl_internal_get_rendererList() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___rendererList;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalPreviewPass_PassData::__cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___rendererList = value;
+}
+inline void UnityEngine::Rendering::Universal::DecalPreviewPass_PassData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData* UnityEngine::Rendering::Universal::DecalPreviewPass_PassData::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData::DecalPreviewPass_PassData()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalPreviewPass___c._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalPreviewPass___c::*)()>(&::UnityEngine::Rendering::Universal::DecalPreviewPass___c::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalPreviewPass___c._RecordRenderGraph_b__6_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalPreviewPass___c::*)(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(&::UnityEngine::Rendering::Universal::DecalPreviewPass___c::_RecordRenderGraph_b__6_0)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1820dd8a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>(),
+                        {"<RecordRenderGraph>b__6_0", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::Universal::DecalPreviewPass___c::setStaticF___9(::UnityEngine::Rendering::Universal::DecalPreviewPass___c*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Rendering::Universal::DecalPreviewPass___c*, "<>9", ::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>(std::forward<::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>(value));
+}
+inline ::UnityEngine::Rendering::Universal::DecalPreviewPass___c* UnityEngine::Rendering::Universal::DecalPreviewPass___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::DecalPreviewPass___c*, "<>9", ::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>();
+}
+inline void UnityEngine::Rendering::Universal::DecalPreviewPass___c::setStaticF___9__6_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*, "<>9__6_0", ::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>(std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
+}
+inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* UnityEngine::Rendering::Universal::DecalPreviewPass___c::getStaticF___9__6_0()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*, "<>9__6_0", ::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>();
+}
+inline void UnityEngine::Rendering::Universal::DecalPreviewPass___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::DecalPreviewPass___c::_RecordRenderGraph_b__6_0(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  rgContext)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>(),
+                        {"<RecordRenderGraph>b__6_0", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, rgContext);
+}
+inline ::UnityEngine::Rendering::Universal::DecalPreviewPass___c* UnityEngine::Rendering::Universal::DecalPreviewPass___c::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::DecalPreviewPass___c*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::DecalPreviewPass___c::DecalPreviewPass___c()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalPreviewPass._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalPreviewPass::*)()>(&::UnityEngine::Rendering::Universal::DecalPreviewPass::_ctor)> {
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x1820d4dc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalPreviewPass.ExecutePass
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*, ::UnityEngine::Rendering::RendererList)>(&::UnityEngine::Rendering::Universal::DecalPreviewPass::ExecutePass)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1820d4840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass*>(),
+                        {"ExecutePass", {}, {::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RendererList>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalPreviewPass.RecordRenderGraph
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalPreviewPass::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::DecalPreviewPass::RecordRenderGraph)> {
+  constexpr static std::size_t size = 0x550;
+  constexpr static std::size_t addrs = 0x1820d4870;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Rendering::FilteringSettings& UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_get_m_FilteringSettings()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FilteringSettings;
+}
+constexpr ::UnityEngine::Rendering::FilteringSettings const& UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_get_m_FilteringSettings() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FilteringSettings;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_FilteringSettings = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>*& UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_get_m_ShaderTagIdList()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ShaderTagIdList;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* const& UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_get_m_ShaderTagIdList() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ShaderTagIdList;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ShaderTagIdList = value;
+}
+constexpr ::UnityEngine::Rendering::ProfilingSampler*& UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_get_m_ProfilingSampler()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ProfilingSampler;
+}
+constexpr ::UnityEngine::Rendering::ProfilingSampler* const& UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_get_m_ProfilingSampler() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ProfilingSampler;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalPreviewPass::__cordl_internal_set_m_ProfilingSampler(::UnityEngine::Rendering::ProfilingSampler*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ProfilingSampler = value;
+}
+inline void UnityEngine::Rendering::Universal::DecalPreviewPass::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::DecalPreviewPass::ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*  passData, ::UnityEngine::Rendering::RendererList  rendererList)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass*>(),
+                        {"ExecutePass", {}, {::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RendererList>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, passData, rendererList);
+}
+inline void UnityEngine::Rendering::Universal::DecalPreviewPass::RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::Universal::DecalPreviewPass*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData);
+}
+inline ::UnityEngine::Rendering::Universal::DecalPreviewPass* UnityEngine::Rendering::Universal::DecalPreviewPass::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::DecalPreviewPass*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::DecalPreviewPass::DecalPreviewPass()   {
+}

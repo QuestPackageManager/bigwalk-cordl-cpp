@@ -1,0 +1,144 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TreeViewController.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseTreeViewController_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__TreeViewController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TreeView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::TreeViewController.get_treeView
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TreeView* (::UnityEngine::UIElements::TreeViewController::*)()>(&::UnityEngine::UIElements::TreeViewController::get_treeView)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182399ff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(),
+                        {"get_treeView", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TreeViewController.MakeItem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TreeViewController::*)()>(&::UnityEngine::UIElements::TreeViewController::MakeItem)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x182399e30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TreeViewController.BindItem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewController::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::TreeViewController::BindItem)> {
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x182399bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(), 21}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TreeViewController.UnbindItem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewController::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::TreeViewController::UnbindItem)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x182399f60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(), 22}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TreeViewController.DestroyItem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewController::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::TreeViewController::DestroyItem)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182399dc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(), 23}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TreeViewController._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewController::*)()>(&::UnityEngine::UIElements::TreeViewController::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182399fe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::UIElements::TreeView* UnityEngine::UIElements::TreeViewController::get_treeView()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(),
+                        {"get_treeView", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TreeView*>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TreeViewController::MakeItem()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TreeViewController::BindItem(::UnityEngine::UIElements::VisualElement*  element, int32_t  index)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(), 21}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element, index);
+}
+inline void UnityEngine::UIElements::TreeViewController::UnbindItem(::UnityEngine::UIElements::VisualElement*  element, int32_t  index)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(), 22}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element, index);
+}
+inline void UnityEngine::UIElements::TreeViewController::DestroyItem(::UnityEngine::UIElements::VisualElement*  element)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(), 23}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element);
+}
+inline void UnityEngine::UIElements::TreeViewController::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::TreeViewController*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::TreeViewController* UnityEngine::UIElements::TreeViewController::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::TreeViewController*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::TreeViewController::TreeViewController()   {
+}

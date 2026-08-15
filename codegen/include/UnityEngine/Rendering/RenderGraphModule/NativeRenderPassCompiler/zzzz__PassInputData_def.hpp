@@ -1,0 +1,52 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassInputData.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_def.hpp"
+#include <cstddef>
+CORDL_MODULE_EXPORT(PassInputData)
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct ResourceHandle;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
+struct PassInputData;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "PassInputData");
+// Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
+namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.PassInputData
+struct CORDL_TYPE PassInputData {
+public:
+// Declarations
+/// @brief Method .ctor, addr 0x1802d5400, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>  resource) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr PassInputData() ;
+
+// Ctor Parameters [CppParam { name: "resource", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None }]
+constexpr PassInputData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  resource) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7341};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
+
+/// @brief Field resource, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle  resource;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData, resource) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData) == 0xc, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler

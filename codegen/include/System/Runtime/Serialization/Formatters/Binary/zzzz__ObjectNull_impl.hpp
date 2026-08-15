@@ -1,0 +1,135 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/ObjectNull.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectNull_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::ObjectNull._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)()>(&::System::Runtime::Serialization::Formatters::Binary::ObjectNull::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::ObjectNull.SetNullCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)(int32_t)>(&::System::Runtime::Serialization::Formatters::Binary::ObjectNull::SetNullCount)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180378ff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {"SetNullCount", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::ObjectNull.Write
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::ObjectNull::Write)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1816523c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {"Write", {}, {::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::ObjectNull.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum)>(&::System::Runtime::Serialization::Formatters::Binary::ObjectNull::Read)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181652360;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {"Read", {}, {::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*>(), ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::ObjectNull.Dump
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)()>(&::System::Runtime::Serialization::Formatters::Binary::ObjectNull::Dump)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {"Dump", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& System::Runtime::Serialization::Formatters::Binary::ObjectNull::__cordl_internal_get_nullCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___nullCount;
+}
+constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::ObjectNull::__cordl_internal_get_nullCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___nullCount;
+}
+constexpr void System::Runtime::Serialization::Formatters::Binary::ObjectNull::__cordl_internal_set_nullCount(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___nullCount = value;
+}
+inline void System::Runtime::Serialization::Formatters::Binary::ObjectNull::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::ObjectNull::SetNullCount(int32_t  nullCount)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {"SetNullCount", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nullCount);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::ObjectNull::Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*  sout)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {"Write", {}, {::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sout);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::ObjectNull::Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*  input, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum  binaryHeaderEnum)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {"Read", {}, {::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*>(), ::i2c::type_of<::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, input, binaryHeaderEnum);
+}
+inline void System::Runtime::Serialization::Formatters::Binary::ObjectNull::Dump()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>(),
+                        {"Dump", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::ObjectNull* System::Runtime::Serialization::Formatters::Binary::ObjectNull::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>());
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull::ObjectNull()   {
+}

@@ -1,0 +1,113 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/IDataArrays.hpp"
+#include "UnityEngine/Rendering/zzzz__IDataArrays_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::IDataArrays.Initialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::IDataArrays::Initialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::IDataArrays.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IDataArrays::*)()>(&::UnityEngine::Rendering::IDataArrays::Dispose)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::IDataArrays.Grow
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::IDataArrays::Grow)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::IDataArrays.Remove
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IDataArrays::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::IDataArrays::Remove)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::IDataArrays.SetDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::IDataArrays::SetDefault)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::IDataArrays::Initialize(int32_t  initCapacity)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initCapacity);
+}
+inline void UnityEngine::Rendering::IDataArrays::Dispose()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::IDataArrays::Grow(int32_t  newCapacity)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newCapacity);
+}
+inline void UnityEngine::Rendering::IDataArrays::Remove(int32_t  index, int32_t  lastIndex)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, lastIndex);
+}
+inline void UnityEngine::Rendering::IDataArrays::SetDefault(int32_t  index)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDataArrays*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index);
+}

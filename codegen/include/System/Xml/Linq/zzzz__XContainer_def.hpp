@@ -1,0 +1,480 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Linq/XContainer.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Linq/zzzz__NamespaceCache_def.hpp"
+#include "System/Xml/Linq/zzzz__XNode_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(XContainer)
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Xml::Linq {
+struct LoadOptions;
+}
+namespace System::Xml::Linq {
+class XAttribute;
+}
+namespace System::Xml::Linq {
+class XContainer_ContentReader;
+}
+namespace System::Xml::Linq {
+class XContainer__Nodes_d__18;
+}
+namespace System::Xml::Linq {
+class XNode;
+}
+namespace System::Xml {
+class IXmlLineInfo;
+}
+namespace System::Xml {
+class XmlReader;
+}
+namespace System::Xml {
+class XmlWriter;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::Xml::Linq {
+class XContainer;
+}
+namespace System::Xml::Linq {
+class XContainer_ContentReader;
+}
+namespace System::Xml::Linq {
+class XContainer__Nodes_d__18;
+}
+// Write type traits
+MARK_REF_T(::System::Xml::Linq::XContainer*);
+MARK_REF_T(::System::Xml::Linq::XContainer_ContentReader*);
+MARK_REF_T(::System::Xml::Linq::XContainer__Nodes_d__18*);
+DEFINE_IL2CPP_CLASS(::System::Xml::Linq::XContainer*, "System.Xml.Linq", "XContainer");
+DEFINE_IL2CPP_CLASS(::System::Xml::Linq::XContainer_ContentReader*, "System.Xml.Linq", "XContainer/ContentReader");
+DEFINE_IL2CPP_CLASS(::System::Xml::Linq::XContainer__Nodes_d__18*, "System.Xml.Linq", "XContainer/<Nodes>d__18");
+// Dependencies System.Object, System.Xml.Linq.NamespaceCache
+namespace System::Xml::Linq {
+// Is value type: false
+// CS Name: System.Xml.Linq.XContainer/ContentReader
+class CORDL_TYPE XContainer_ContentReader : public ::System::Object {
+public:
+// Declarations
+/// @brief Field _aCache, offset 0x20, size 0x10 
+ __declspec(property(get=__cordl_internal_get__aCache, put=__cordl_internal_set__aCache)) ::System::Xml::Linq::NamespaceCache  _aCache;
+
+/// @brief Field _baseUri, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__baseUri, put=__cordl_internal_set__baseUri)) ::StringW  _baseUri;
+
+/// @brief Field _currentContainer, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__currentContainer, put=__cordl_internal_set__currentContainer)) ::System::Xml::Linq::XContainer*  _currentContainer;
+
+/// @brief Field _eCache, offset 0x10, size 0x10 
+ __declspec(property(get=__cordl_internal_get__eCache, put=__cordl_internal_set__eCache)) ::System::Xml::Linq::NamespaceCache  _eCache;
+
+/// @brief Field _lineInfo, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lineInfo, put=__cordl_internal_set__lineInfo)) ::System::Xml::IXmlLineInfo*  _lineInfo;
+
+static inline ::System::Xml::Linq::XContainer_ContentReader* New_ctor(::System::Xml::Linq::XContainer*  rootContainer) ;
+
+static inline ::System::Xml::Linq::XContainer_ContentReader* New_ctor(::System::Xml::Linq::XContainer*  rootContainer, ::System::Xml::XmlReader*  r, ::System::Xml::Linq::LoadOptions  o) ;
+
+/// @brief Method ReadContentFrom, addr 0x181c2f800, size 0x680, virtual false, abstract: false, final false
+inline bool ReadContentFrom(::System::Xml::Linq::XContainer*  rootContainer, ::System::Xml::XmlReader*  r) ;
+
+/// @brief Method ReadContentFrom, addr 0x181c2ee60, size 0x9a0, virtual false, abstract: false, final false
+inline bool ReadContentFrom(::System::Xml::Linq::XContainer*  rootContainer, ::System::Xml::XmlReader*  r, ::System::Xml::Linq::LoadOptions  o) ;
+
+constexpr ::System::Xml::Linq::NamespaceCache const& __cordl_internal_get__aCache() const;
+
+constexpr ::System::Xml::Linq::NamespaceCache& __cordl_internal_get__aCache() ;
+
+constexpr ::StringW const& __cordl_internal_get__baseUri() const;
+
+constexpr ::StringW& __cordl_internal_get__baseUri() ;
+
+constexpr ::System::Xml::Linq::XContainer* const& __cordl_internal_get__currentContainer() const;
+
+constexpr ::System::Xml::Linq::XContainer*& __cordl_internal_get__currentContainer() ;
+
+constexpr ::System::Xml::Linq::NamespaceCache const& __cordl_internal_get__eCache() const;
+
+constexpr ::System::Xml::Linq::NamespaceCache& __cordl_internal_get__eCache() ;
+
+constexpr ::System::Xml::IXmlLineInfo* const& __cordl_internal_get__lineInfo() const;
+
+constexpr ::System::Xml::IXmlLineInfo*& __cordl_internal_get__lineInfo() ;
+
+constexpr void __cordl_internal_set__aCache(::System::Xml::Linq::NamespaceCache  value) ;
+
+constexpr void __cordl_internal_set__baseUri(::StringW  value) ;
+
+constexpr void __cordl_internal_set__currentContainer(::System::Xml::Linq::XContainer*  value) ;
+
+constexpr void __cordl_internal_set__eCache(::System::Xml::Linq::NamespaceCache  value) ;
+
+constexpr void __cordl_internal_set__lineInfo(::System::Xml::IXmlLineInfo*  value) ;
+
+/// @brief Method .ctor, addr 0x1802d9840, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Linq::XContainer*  rootContainer) ;
+
+/// @brief Method .ctor, addr 0x181c2fe80, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Linq::XContainer*  rootContainer, ::System::Xml::XmlReader*  r, ::System::Xml::Linq::LoadOptions  o) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr XContainer_ContentReader() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "XContainer_ContentReader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XContainer_ContentReader(XContainer_ContentReader && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "XContainer_ContentReader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XContainer_ContentReader(XContainer_ContentReader const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20769};
+
+/// @brief Field _eCache, offset: 0x10, size: 0x10, def value: None
+ ::System::Xml::Linq::NamespaceCache  ____eCache;
+
+/// @brief Field _aCache, offset: 0x20, size: 0x10, def value: None
+ ::System::Xml::Linq::NamespaceCache  ____aCache;
+
+/// @brief Field _lineInfo, offset: 0x30, size: 0x8, def value: None
+ ::System::Xml::IXmlLineInfo*  ____lineInfo;
+
+/// @brief Field _currentContainer, offset: 0x38, size: 0x8, def value: None
+ ::System::Xml::Linq::XContainer*  ____currentContainer;
+
+/// @brief Field _baseUri, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ____baseUri;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Xml::Linq::XContainer_ContentReader, ____eCache) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XContainer_ContentReader, ____aCache) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XContainer_ContentReader, ____lineInfo) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XContainer_ContentReader, ____currentContainer) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XContainer_ContentReader, ____baseUri) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::System::Xml::Linq::XContainer_ContentReader) == 0x48, "Size mismatch!");
+
+} // namespace end def System::Xml::Linq
+// Dependencies System.Object
+namespace System::Xml::Linq {
+// Is value type: false
+// CS Name: System.Xml.Linq.XContainer/<Nodes>d__18
+class CORDL_TYPE XContainer__Nodes_d__18 : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Xml_Linq_XNode__get_Current)) ::System::Xml::Linq::XNode*  System_Collections_Generic_IEnumerator_System_Xml_Linq_XNode__Current;
+
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
+
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Xml::Linq::XNode*  __2__current;
+
+/// @brief Field <>4__this, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::System::Xml::Linq::XContainer*  __4__this;
+
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
+
+/// @brief Field <n>5__2, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__n_5__2, put=__cordl_internal_set__n_5__2)) ::System::Xml::Linq::XNode*  _n_5__2;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method MoveNext, addr 0x181c30e30, size 0x1d0, virtual true, abstract: false, final true
+inline bool MoveNext() ;
+
+static inline ::System::Xml::Linq::XContainer__Nodes_d__18* New_ctor(int32_t  __1__state) ;
+
+/// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator, addr 0x181c31000, size 0x80, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>* System_Collections_Generic_IEnumerable_System_Xml_Linq_XNode__GetEnumerator() ;
+
+/// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XNode>.get_Current, addr 0x1802ecc10, size 0x10, virtual true, abstract: false, final true
+inline ::System::Xml::Linq::XNode* System_Collections_Generic_IEnumerator_System_Xml_Linq_XNode__get_Current() ;
+
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x181c31000, size 0x80, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x1802eb7d0, size 0x10, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
+
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x1802ecc10, size 0x10, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+
+/// @brief Method System.IDisposable.Dispose, addr 0x1802d9d80, size 0x10, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
+
+constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+constexpr int32_t& __cordl_internal_get___1__state() ;
+
+constexpr ::System::Xml::Linq::XNode* const& __cordl_internal_get___2__current() const;
+
+constexpr ::System::Xml::Linq::XNode*& __cordl_internal_get___2__current() ;
+
+constexpr ::System::Xml::Linq::XContainer* const& __cordl_internal_get___4__this() const;
+
+constexpr ::System::Xml::Linq::XContainer*& __cordl_internal_get___4__this() ;
+
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
+
+constexpr ::System::Xml::Linq::XNode* const& __cordl_internal_get__n_5__2() const;
+
+constexpr ::System::Xml::Linq::XNode*& __cordl_internal_get__n_5__2() ;
+
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
+
+constexpr void __cordl_internal_set___2__current(::System::Xml::Linq::XNode*  value) ;
+
+constexpr void __cordl_internal_set___4__this(::System::Xml::Linq::XContainer*  value) ;
+
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
+
+constexpr void __cordl_internal_set__n_5__2(::System::Xml::Linq::XNode*  value) ;
+
+/// @brief Method .ctor, addr 0x180d66740, size 0x3cb0, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* i___System__Collections__Generic__IEnumerable_1___System__Xml__Linq__XNode__() noexcept;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>* i___System__Collections__Generic__IEnumerator_1___System__Xml__Linq__XNode__() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr XContainer__Nodes_d__18() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "XContainer__Nodes_d__18", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XContainer__Nodes_d__18(XContainer__Nodes_d__18 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "XContainer__Nodes_d__18", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XContainer__Nodes_d__18(XContainer__Nodes_d__18 const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20770};
+
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
+
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Xml::Linq::XNode*  _____2__current;
+
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
+
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::System::Xml::Linq::XContainer*  _____4__this;
+
+/// @brief Field <n>5__2, offset: 0x30, size: 0x8, def value: None
+ ::System::Xml::Linq::XNode*  ____n_5__2;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Xml::Linq::XContainer__Nodes_d__18, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XContainer__Nodes_d__18, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XContainer__Nodes_d__18, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XContainer__Nodes_d__18, _____4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::Linq::XContainer__Nodes_d__18, ____n_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::System::Xml::Linq::XContainer__Nodes_d__18) == 0x38, "Size mismatch!");
+
+} // namespace end def System::Xml::Linq
+// Dependencies System.Xml.Linq.XNode
+namespace System::Xml::Linq {
+// Is value type: false
+// CS Name: System.Xml.Linq.XContainer
+class CORDL_TYPE XContainer : public ::System::Xml::Linq::XNode {
+public:
+// Declarations
+using ContentReader = ::System::Xml::Linq::XContainer_ContentReader;
+
+using _Nodes_d__18 = ::System::Xml::Linq::XContainer__Nodes_d__18;
+
+ __declspec(property(get=get_LastNode)) ::System::Xml::Linq::XNode*  LastNode;
+
+/// @brief Field content, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_content, put=__cordl_internal_set_content)) ::System::Object*  content;
+
+/// @brief Method Add, addr 0x181c32160, size 0x2f0, virtual false, abstract: false, final false
+inline void Add(::System::Object*  content) ;
+
+/// @brief Method AddAttribute, addr 0x1802d9d80, size 0x10, virtual true, abstract: false, final false
+inline void AddAttribute(::System::Xml::Linq::XAttribute*  a) ;
+
+/// @brief Method AddAttributeSkipNotify, addr 0x1802d9d80, size 0x10, virtual true, abstract: false, final false
+inline void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute*  a) ;
+
+/// @brief Method AddContentSkipNotify, addr 0x181c31940, size 0x2c0, virtual false, abstract: false, final false
+inline void AddContentSkipNotify(::System::Object*  content) ;
+
+/// @brief Method AddNode, addr 0x181c31c90, size 0x90, virtual false, abstract: false, final false
+inline void AddNode(::System::Xml::Linq::XNode*  n) ;
+
+/// @brief Method AddNodeSkipNotify, addr 0x181c31c00, size 0x90, virtual false, abstract: false, final false
+inline void AddNodeSkipNotify(::System::Xml::Linq::XNode*  n) ;
+
+/// @brief Method AddString, addr 0x181c31e80, size 0x2e0, virtual false, abstract: false, final false
+inline void AddString(::StringW  s) ;
+
+/// @brief Method AddStringSkipNotify, addr 0x181c31d20, size 0x160, virtual false, abstract: false, final false
+inline void AddStringSkipNotify(::StringW  s) ;
+
+/// @brief Method AppendNode, addr 0x181c32520, size 0xb0, virtual false, abstract: false, final false
+inline void AppendNode(::System::Xml::Linq::XNode*  n) ;
+
+/// @brief Method AppendNodeSkipNotify, addr 0x181c32450, size 0xd0, virtual false, abstract: false, final false
+inline void AppendNodeSkipNotify(::System::Xml::Linq::XNode*  n) ;
+
+/// @brief Method AppendText, addr 0x181c325d0, size 0xc0, virtual true, abstract: false, final false
+inline void AppendText(::System::Text::StringBuilder*  sb) ;
+
+/// @brief Method ConvertTextToNode, addr 0x181c32690, size 0xb0, virtual false, abstract: false, final false
+inline void ConvertTextToNode() ;
+
+/// @brief Method GetStringValue, addr 0x181c32740, size 0x2a0, virtual false, abstract: false, final false
+static inline ::StringW GetStringValue(::System::Object*  value) ;
+
+static inline ::System::Xml::Linq::XContainer* New_ctor() ;
+
+static inline ::System::Xml::Linq::XContainer* New_ctor(::System::Xml::Linq::XContainer*  other) ;
+
+/// @brief Method Nodes, addr 0x181c329e0, size 0x50, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* Nodes() ;
+
+/// @brief Method ReadContentFrom, addr 0x181c32a30, size 0xb0, virtual false, abstract: false, final false
+inline void ReadContentFrom(::System::Xml::XmlReader*  r) ;
+
+/// @brief Method ReadContentFrom, addr 0x181c32ae0, size 0x190, virtual false, abstract: false, final false
+inline void ReadContentFrom(::System::Xml::XmlReader*  r, ::System::Xml::Linq::LoadOptions  o) ;
+
+/// @brief Method RemoveNode, addr 0x181c32c70, size 0x1d0, virtual false, abstract: false, final false
+inline void RemoveNode(::System::Xml::Linq::XNode*  n) ;
+
+/// @brief Method RemoveNodes, addr 0x181c32ef0, size 0x310, virtual false, abstract: false, final false
+inline void RemoveNodes() ;
+
+/// @brief Method RemoveNodesSkipNotify, addr 0x181c32e40, size 0xb0, virtual false, abstract: false, final false
+inline void RemoveNodesSkipNotify() ;
+
+/// @brief Method ValidateNode, addr 0x1802d9d80, size 0x10, virtual true, abstract: false, final false
+inline void ValidateNode(::System::Xml::Linq::XNode*  node, ::System::Xml::Linq::XNode*  previous) ;
+
+/// @brief Method ValidateString, addr 0x1802d9d80, size 0x10, virtual true, abstract: false, final false
+inline void ValidateString(::StringW  s) ;
+
+/// @brief Method WriteContentTo, addr 0x181c33200, size 0x120, virtual false, abstract: false, final false
+inline void WriteContentTo(::System::Xml::XmlWriter*  writer) ;
+
+constexpr ::System::Object* const& __cordl_internal_get_content() const;
+
+constexpr ::System::Object*& __cordl_internal_get_content() ;
+
+constexpr void __cordl_internal_set_content(::System::Object*  value) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method .ctor, addr 0x181c33320, size 0xf0, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Linq::XContainer*  other) ;
+
+/// @brief Method get_LastNode, addr 0x181c33410, size 0x150, virtual false, abstract: false, final false
+inline ::System::Xml::Linq::XNode* get_LastNode() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr XContainer() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "XContainer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XContainer(XContainer && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "XContainer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XContainer(XContainer const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20771};
+
+/// @brief Field content, offset: 0x28, size: 0x8, def value: None
+ ::System::Object*  ___content;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Xml::Linq::XContainer, ___content) == 0x28, "Offset mismatch!");
+
+static_assert(sizeof(::System::Xml::Linq::XContainer) == 0x30, "Size mismatch!");
+
+} // namespace end def System::Xml::Linq

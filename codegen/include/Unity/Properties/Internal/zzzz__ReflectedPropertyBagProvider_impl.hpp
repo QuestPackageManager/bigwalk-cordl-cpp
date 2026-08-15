@@ -1,0 +1,883 @@
+#pragma once
+// IWYU pragma private; include "Unity/Properties/Internal/ReflectedPropertyBagProvider.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "Unity/Properties/Internal/zzzz__ReflectedPropertyBagProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Linq/zzzz__IOrderedEnumerable_1_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Unity/Properties/Internal/zzzz__ReflectedPropertyBagProvider_def.hpp"
+#include "Unity/Properties/Internal/zzzz__ReflectedPropertyBag_1_def.hpp"
+#include "Unity/Properties/zzzz__IMemberInfo_def.hpp"
+#include "Unity/Properties/zzzz__IPropertyBag_1_def.hpp"
+#include "Unity/Properties/zzzz__IPropertyBag_def.hpp"
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c.__ctor_b__10_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::*)(::System::Reflection::MethodInfo*)>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::__ctor_b__10_0)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18230ccc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(),
+                        {"<.ctor>b__10_0", {}, {::i2c::type_of<::System::Reflection::MethodInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c._GetPropertyMembers_b__22_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::*)(::System::Reflection::MemberInfo*)>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::_GetPropertyMembers_b__22_0)> {
+  constexpr static std::size_t size = 0x1b40;
+  constexpr static std::size_t addrs = 0x180972170;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(),
+                        {"<GetPropertyMembers>b__22_0", {}, {::i2c::type_of<::System::Reflection::MemberInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider___c::setStaticF___9(::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*  value)  {
+::cordl_internals::setStaticField<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*, "<>9", ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(std::forward<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(value));
+}
+inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c* Unity::Properties::Internal::ReflectedPropertyBagProvider___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*, "<>9", ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>();
+}
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider___c::setStaticF___9__10_0(::System::Func_2<::System::Reflection::MethodInfo*,bool>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::MethodInfo*,bool>*, "<>9__10_0", ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(std::forward<::System::Func_2<::System::Reflection::MethodInfo*,bool>*>(value));
+}
+inline ::System::Func_2<::System::Reflection::MethodInfo*,bool>* Unity::Properties::Internal::ReflectedPropertyBagProvider___c::getStaticF___9__10_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::MethodInfo*,bool>*, "<>9__10_0", ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>();
+}
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider___c::setStaticF___9__22_0(::System::Func_2<::System::Reflection::MemberInfo*,int32_t>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::System::Reflection::MemberInfo*,int32_t>*, "<>9__22_0", ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(std::forward<::System::Func_2<::System::Reflection::MemberInfo*,int32_t>*>(value));
+}
+inline ::System::Func_2<::System::Reflection::MemberInfo*,int32_t>* Unity::Properties::Internal::ReflectedPropertyBagProvider___c::getStaticF___9__22_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::System::Reflection::MemberInfo*,int32_t>*, "<>9__22_0", ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>();
+}
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::ReflectedPropertyBagProvider___c::__ctor_b__10_0(::System::Reflection::MethodInfo*  x)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(),
+                        {"<.ctor>b__10_0", {}, {::i2c::type_of<::System::Reflection::MethodInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
+}
+inline int32_t Unity::Properties::Internal::ReflectedPropertyBagProvider___c::_GetPropertyMembers_b__22_0(::System::Reflection::MemberInfo*  x)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>(),
+                        {"<GetPropertyMembers>b__22_0", {}, {::i2c::type_of<::System::Reflection::MemberInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, x);
+}
+inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c* Unity::Properties::Internal::ReflectedPropertyBagProvider___c::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*>());
+}
+// Ctor Parameters []
+constexpr ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::ReflectedPropertyBagProvider___c()   {
+}
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)(int32_t)>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::_ctor)> {
+  constexpr static std::size_t size = 0x3cb0;
+  constexpr static std::size_t addrs = 0x180d66740;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22.System_IDisposable_Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18230cbc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22.MoveNext
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::MoveNext)> {
+  constexpr static std::size_t size = 0x780;
+  constexpr static std::size_t addrs = 0x18230c3d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22.__m__Finally1
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__m__Finally1)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1818289d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22.System_Collections_Generic_IEnumerator_System_Reflection_MemberInfo__get_Current
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MemberInfo* (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_Generic_IEnumerator_System_Reflection_MemberInfo__get_Current)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>.get_Current", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22.System_Collections_IEnumerator_Reset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802eb7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22.System_Collections_IEnumerator_get_Current
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22.System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__GetEnumerator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__GetEnumerator)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18230cb50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>.GetEnumerator", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22.System_Collections_IEnumerable_GetEnumerator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerable_GetEnumerator)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18230cb50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___1__state()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+constexpr int32_t const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___1__state() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____1__state;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set___1__state(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____1__state = value;
+}
+constexpr ::System::Reflection::MemberInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___2__current()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+constexpr ::System::Reflection::MemberInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___2__current() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____2__current;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set___2__current(::System::Reflection::MemberInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____2__current = value;
+}
+constexpr int32_t& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___l__initialThreadId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+constexpr int32_t const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___l__initialThreadId() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____l__initialThreadId;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set___l__initialThreadId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____l__initialThreadId = value;
+}
+constexpr ::System::Type*& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get_type()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___type;
+}
+constexpr ::System::Type* const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get_type() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___type;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set_type(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___type = value;
+}
+constexpr ::System::Type*& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___3__type()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__type;
+}
+constexpr ::System::Type* const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___3__type() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____3__type;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set___3__type(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____3__type = value;
+}
+constexpr ::System::Linq::IOrderedEnumerable_1<::System::Reflection::MemberInfo*>*& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__members_5__1()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____members_5__1;
+}
+constexpr ::System::Linq::IOrderedEnumerable_1<::System::Reflection::MemberInfo*>* const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__members_5__1() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____members_5__1;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set__members_5__1(::System::Linq::IOrderedEnumerable_1<::System::Reflection::MemberInfo*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____members_5__1 = value;
+}
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>*& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___s__2()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____s__2;
+}
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get___s__2() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____s__2;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set___s__2(::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____s__2 = value;
+}
+constexpr ::System::Reflection::MemberInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__member_5__3()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____member_5__3;
+}
+constexpr ::System::Reflection::MemberInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__member_5__3() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____member_5__3;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set__member_5__3(::System::Reflection::MemberInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____member_5__3 = value;
+}
+constexpr bool& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasDontCreatePropertyAttribute_5__4()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasDontCreatePropertyAttribute_5__4;
+}
+constexpr bool const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasDontCreatePropertyAttribute_5__4() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasDontCreatePropertyAttribute_5__4;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set__hasDontCreatePropertyAttribute_5__4(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hasDontCreatePropertyAttribute_5__4 = value;
+}
+constexpr bool& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasCreatePropertyAttribute_5__5()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasCreatePropertyAttribute_5__5;
+}
+constexpr bool const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasCreatePropertyAttribute_5__5() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasCreatePropertyAttribute_5__5;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set__hasCreatePropertyAttribute_5__5(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hasCreatePropertyAttribute_5__5 = value;
+}
+constexpr bool& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasNonSerializedAttribute_5__6()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasNonSerializedAttribute_5__6;
+}
+constexpr bool const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasNonSerializedAttribute_5__6() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasNonSerializedAttribute_5__6;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set__hasNonSerializedAttribute_5__6(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hasNonSerializedAttribute_5__6 = value;
+}
+constexpr bool& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasSerializedFieldAttribute_5__7()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasSerializedFieldAttribute_5__7;
+}
+constexpr bool const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasSerializedFieldAttribute_5__7() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasSerializedFieldAttribute_5__7;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set__hasSerializedFieldAttribute_5__7(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hasSerializedFieldAttribute_5__7 = value;
+}
+constexpr bool& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasSerializeReferenceAttribute_5__8()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasSerializeReferenceAttribute_5__8;
+}
+constexpr bool const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__hasSerializeReferenceAttribute_5__8() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hasSerializeReferenceAttribute_5__8;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set__hasSerializeReferenceAttribute_5__8(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hasSerializeReferenceAttribute_5__8 = value;
+}
+constexpr ::System::Reflection::FieldInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__field_5__9()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____field_5__9;
+}
+constexpr ::System::Reflection::FieldInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_get__field_5__9() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____field_5__9;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__cordl_internal_set__field_5__9(::System::Reflection::FieldInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____field_5__9 = value;
+}
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::_ctor(int32_t  __1__state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_IDisposable_Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.IDisposable.Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__m__Finally1()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"<>m__Finally1", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Reflection::MemberInfo* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_Generic_IEnumerator_System_Reflection_MemberInfo__get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::MemberInfo*>(this, ___internal_method);
+}
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerator_Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.IEnumerator.Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>*>(this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerable_GetEnumerator()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(),
+                        {"System.Collections.IEnumerable.GetEnumerator", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::New_ctor(int32_t  __1__state)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>"
+constexpr  Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::operator ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::i___System__Collections__Generic__IEnumerable_1___System__Reflection__MemberInfo__() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr  Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::operator ::System::Collections::IEnumerable*() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::i___System__Collections__IEnumerable() noexcept {
+return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>"
+constexpr  Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::operator ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>*() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::i___System__Collections__Generic__IEnumerator_1___System__Reflection__MemberInfo__() noexcept {
+return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr  Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::operator ::System::Collections::IEnumerator*() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::i___System__Collections__IEnumerator() noexcept {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::ReflectedPropertyBagProvider__GetPropertyMembers_d__22()   {
+}
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider::*)()>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider::_ctor)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x18230ab50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider.CreatePropertyBag
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::Unity::Properties::Internal::ReflectedPropertyBagProvider::*)(::System::Type*)>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider::CreatePropertyBag)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x18230a880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {"CreatePropertyBag", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider.GetPropertyMembers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* (*)(::System::Type*)>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider::GetPropertyMembers)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18230a950;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {"GetPropertyMembers", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider.IsValidMember
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*)>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider::IsValidMember)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x18230a9a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {"IsValidMember", {}, {::i2c::type_of<::System::Reflection::MemberInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::ReflectedPropertyBagProvider.IsValidPropertyType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider::IsValidPropertyType)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x18230aab0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {"IsValidPropertyType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreatePropertyMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreatePropertyMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreatePropertyMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreatePropertyMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreatePropertyMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreatePropertyMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreatePropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreatePropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreatePropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreatePropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreatePropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreatePropertyBagMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateIndexedCollectionPropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateIndexedCollectionPropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateIndexedCollectionPropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateIndexedCollectionPropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreateIndexedCollectionPropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreateIndexedCollectionPropertyBagMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateSetPropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateSetPropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateSetPropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateSetPropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreateSetPropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreateSetPropertyBagMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateKeyValueCollectionPropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateKeyValueCollectionPropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateKeyValueCollectionPropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateKeyValueCollectionPropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreateKeyValueCollectionPropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreateKeyValueCollectionPropertyBagMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateKeyValuePairPropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateKeyValuePairPropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateKeyValuePairPropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateKeyValuePairPropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreateKeyValuePairPropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreateKeyValuePairPropertyBagMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateArrayPropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateArrayPropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateArrayPropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateArrayPropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreateArrayPropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreateArrayPropertyBagMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateListPropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateListPropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateListPropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateListPropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreateListPropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreateListPropertyBagMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateHashSetPropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateHashSetPropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateHashSetPropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateHashSetPropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreateHashSetPropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreateHashSetPropertyBagMethod = value;
+}
+constexpr ::System::Reflection::MethodInfo*& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateDictionaryPropertyBagMethod()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateDictionaryPropertyBagMethod;
+}
+constexpr ::System::Reflection::MethodInfo* const& Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_get_m_CreateDictionaryPropertyBagMethod() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_CreateDictionaryPropertyBagMethod;
+}
+constexpr void Unity::Properties::Internal::ReflectedPropertyBagProvider::__cordl_internal_set_m_CreateDictionaryPropertyBagMethod(::System::Reflection::MethodInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_CreateDictionaryPropertyBagMethod = value;
+}
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Unity::Properties::IPropertyBag* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreatePropertyBag(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {"CreatePropertyBag", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag*>(this, ___internal_method, type);
+}
+template<typename TContainer>
+inline ::Unity::Properties::IPropertyBag_1<TContainer>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreatePropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreatePropertyBag", {::i2c::class_of<TContainer>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TContainer>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<TContainer>*>(this, ___internal_method);
+}
+template<typename TContainer,typename TValue>
+inline void Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateProperty(::Unity::Properties::IMemberInfo*  member, ::Unity::Properties::Internal::ReflectedPropertyBag_1<TContainer>*  propertyBag)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateProperty", {::i2c::class_of<TContainer>(), ::i2c::class_of<TValue>()}, {::i2c::type_of<::Unity::Properties::IMemberInfo*>(), ::i2c::type_of<::Unity::Properties::Internal::ReflectedPropertyBag_1<TContainer>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TContainer>(), ::i2c::class_of<TValue>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, member, propertyBag);
+}
+template<typename TList,typename TElement>
+inline ::Unity::Properties::IPropertyBag_1<TList>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateIndexedCollectionPropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateIndexedCollectionPropertyBag", {::i2c::class_of<TList>(), ::i2c::class_of<TElement>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TList>(), ::i2c::class_of<TElement>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<TList>*>(this, ___internal_method);
+}
+template<typename TSet,typename TValue>
+inline ::Unity::Properties::IPropertyBag_1<TSet>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateSetPropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateSetPropertyBag", {::i2c::class_of<TSet>(), ::i2c::class_of<TValue>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TSet>(), ::i2c::class_of<TValue>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<TSet>*>(this, ___internal_method);
+}
+template<typename TDictionary,typename TKey,typename TValue>
+inline ::Unity::Properties::IPropertyBag_1<TDictionary>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateKeyValueCollectionPropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateKeyValueCollectionPropertyBag", {::i2c::class_of<TDictionary>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TDictionary>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TValue>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<TDictionary>*>(this, ___internal_method);
+}
+template<typename TKey,typename TValue>
+inline ::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateKeyValuePairPropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateKeyValuePairPropertyBag", {::i2c::class_of<TKey>(), ::i2c::class_of<TValue>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TKey>(), ::i2c::class_of<TValue>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>*>(this, ___internal_method);
+}
+template<typename TElement>
+inline ::Unity::Properties::IPropertyBag_1<::ArrayW<TElement>>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateArrayPropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateArrayPropertyBag", {::i2c::class_of<TElement>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TElement>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<::ArrayW<TElement>>*>(this, ___internal_method);
+}
+template<typename TElement>
+inline ::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::List_1<TElement>*>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateListPropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateListPropertyBag", {::i2c::class_of<TElement>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TElement>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::List_1<TElement>*>*>(this, ___internal_method);
+}
+template<typename TElement>
+inline ::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::HashSet_1<TElement>*>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateHashSetPropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateHashSetPropertyBag", {::i2c::class_of<TElement>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TElement>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::HashSet_1<TElement>*>*>(this, ___internal_method);
+}
+template<typename TKey,typename TValue>
+inline ::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::Dictionary_2<TKey,TValue>*>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateDictionaryPropertyBag()  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                    {"CreateDictionaryPropertyBag", {::i2c::class_of<TKey>(), ::i2c::class_of<TValue>()}, {}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<TKey>(), ::i2c::class_of<TValue>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<::System::Collections::Generic::Dictionary_2<TKey,TValue>*>*>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* Unity::Properties::Internal::ReflectedPropertyBagProvider::GetPropertyMembers(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {"GetPropertyMembers", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*>(nullptr, ___internal_method, type);
+}
+inline bool Unity::Properties::Internal::ReflectedPropertyBagProvider::IsValidMember(::System::Reflection::MemberInfo*  memberInfo)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {"IsValidMember", {}, {::i2c::type_of<::System::Reflection::MemberInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, memberInfo);
+}
+inline bool Unity::Properties::Internal::ReflectedPropertyBagProvider::IsValidPropertyType(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
+                        {"IsValidPropertyType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
+}
+inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider* Unity::Properties::Internal::ReflectedPropertyBagProvider::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>());
+}
+// Ctor Parameters []
+constexpr ::Unity::Properties::Internal::ReflectedPropertyBagProvider::ReflectedPropertyBagProvider()   {
+}

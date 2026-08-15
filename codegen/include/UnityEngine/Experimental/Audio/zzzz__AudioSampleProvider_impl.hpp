@@ -1,0 +1,129 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/Audio/AudioSampleProvider.hpp"
+#include "System/zzzz__MulticastDelegate_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Experimental/Audio/zzzz__AudioSampleProvider_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Experimental/Audio/zzzz__AudioSampleProvider_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::_ctor)> {
+  constexpr static std::size_t size = 0xe60;
+  constexpr static std::size_t addrs = 0x1812cbea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler.Invoke
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::*)(::UnityEngine::Experimental::Audio::AudioSampleProvider*, uint32_t)>(&::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::Invoke)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x1804f6ae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*>(),
+                    {::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
+}
+inline void UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::Invoke(::UnityEngine::Experimental::Audio::AudioSampleProvider*  provider, uint32_t  sampleFrameCount)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, provider, sampleFrameCount);
+}
+inline ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::AudioSampleProvider_SampleFramesHandler()   {
+}
+//  Writing Method size for method: ::UnityEngine::Experimental::Audio::AudioSampleProvider.InvokeSampleFramesAvailable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Audio::AudioSampleProvider::*)(int32_t)>(&::UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesAvailable)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18223a750;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider*>(),
+                        {"InvokeSampleFramesAvailable", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Experimental::Audio::AudioSampleProvider.InvokeSampleFramesOverflow
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Audio::AudioSampleProvider::*)(int32_t)>(&::UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesOverflow)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18223a780;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider*>(),
+                        {"InvokeSampleFramesOverflow", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*& UnityEngine::Experimental::Audio::AudioSampleProvider::__cordl_internal_get_sampleFramesAvailable()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___sampleFramesAvailable;
+}
+constexpr ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* const& UnityEngine::Experimental::Audio::AudioSampleProvider::__cordl_internal_get_sampleFramesAvailable() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___sampleFramesAvailable;
+}
+constexpr void UnityEngine::Experimental::Audio::AudioSampleProvider::__cordl_internal_set_sampleFramesAvailable(::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___sampleFramesAvailable = value;
+}
+constexpr ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*& UnityEngine::Experimental::Audio::AudioSampleProvider::__cordl_internal_get_sampleFramesOverflow()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___sampleFramesOverflow;
+}
+constexpr ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* const& UnityEngine::Experimental::Audio::AudioSampleProvider::__cordl_internal_get_sampleFramesOverflow() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___sampleFramesOverflow;
+}
+constexpr void UnityEngine::Experimental::Audio::AudioSampleProvider::__cordl_internal_set_sampleFramesOverflow(::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___sampleFramesOverflow = value;
+}
+inline void UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesAvailable(int32_t  sampleFrameCount)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider*>(),
+                        {"InvokeSampleFramesAvailable", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sampleFrameCount);
+}
+inline void UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesOverflow(int32_t  droppedSampleFrameCount)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider*>(),
+                        {"InvokeSampleFramesOverflow", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, droppedSampleFrameCount);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Experimental::Audio::AudioSampleProvider::AudioSampleProvider()   {
+}

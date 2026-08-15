@@ -1,0 +1,37 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IUxmlFactory.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlFactory_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::IUxmlFactory.Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::IUxmlFactory::*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::IUxmlFactory::Create)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IUxmlFactory*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IUxmlFactory*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::IUxmlFactory::Create(::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IUxmlFactory*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method, bag, cc);
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IBaseUxmlFactory"
+constexpr  UnityEngine::UIElements::IUxmlFactory::operator ::UnityEngine::UIElements::IBaseUxmlFactory*() noexcept {
+return static_cast<::UnityEngine::UIElements::IBaseUxmlFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IBaseUxmlFactory"
+constexpr ::UnityEngine::UIElements::IBaseUxmlFactory* UnityEngine::UIElements::IUxmlFactory::i___UnityEngine__UIElements__IBaseUxmlFactory() noexcept {
+return static_cast<::UnityEngine::UIElements::IBaseUxmlFactory*>(static_cast<void*>(this));
+}

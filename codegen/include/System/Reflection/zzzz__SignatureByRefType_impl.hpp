@@ -1,0 +1,187 @@
+#pragma once
+// IWYU pragma private; include "System/Reflection/SignatureByRefType.hpp"
+#include "System/Reflection/zzzz__SignatureHasElementType_impl.hpp"
+#include "System/Reflection/zzzz__SignatureByRefType_def.hpp"
+#include "System/Reflection/zzzz__SignatureType_def.hpp"
+//  Writing Method size for method: ::System::Reflection::SignatureByRefType._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::SignatureByRefType::*)(::System::Reflection::SignatureType*)>(&::System::Reflection::SignatureByRefType::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Reflection::SignatureType*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureByRefType.IsArrayImpl
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureByRefType::*)()>(&::System::Reflection::SignatureByRefType::IsArrayImpl)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"IsArrayImpl", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureByRefType.IsByRefImpl
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureByRefType::*)()>(&::System::Reflection::SignatureByRefType::IsByRefImpl)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"IsByRefImpl", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureByRefType.IsPointerImpl
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureByRefType::*)()>(&::System::Reflection::SignatureByRefType::IsPointerImpl)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"IsPointerImpl", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureByRefType.get_IsSZArray
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureByRefType::*)()>(&::System::Reflection::SignatureByRefType::get_IsSZArray)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"get_IsSZArray", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureByRefType.get_IsVariableBoundArray
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureByRefType::*)()>(&::System::Reflection::SignatureByRefType::get_IsVariableBoundArray)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"get_IsVariableBoundArray", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureByRefType.GetArrayRank
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Reflection::SignatureByRefType::*)()>(&::System::Reflection::SignatureByRefType::GetArrayRank)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1816830d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"GetArrayRank", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureByRefType.get_Suffix
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::SignatureByRefType::*)()>(&::System::Reflection::SignatureByRefType::get_Suffix)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1816830f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"get_Suffix", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Reflection::SignatureByRefType::_ctor(::System::Reflection::SignatureType*  elementType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Reflection::SignatureType*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, elementType);
+}
+inline bool System::Reflection::SignatureByRefType::IsArrayImpl()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"IsArrayImpl", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Reflection::SignatureByRefType::IsByRefImpl()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"IsByRefImpl", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Reflection::SignatureByRefType::IsPointerImpl()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"IsPointerImpl", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Reflection::SignatureByRefType::get_IsSZArray()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"get_IsSZArray", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Reflection::SignatureByRefType::get_IsVariableBoundArray()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"get_IsVariableBoundArray", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline int32_t System::Reflection::SignatureByRefType::GetArrayRank()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"GetArrayRank", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::StringW System::Reflection::SignatureByRefType::get_Suffix()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::SignatureByRefType*>(),
+                        {"get_Suffix", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::Reflection::SignatureByRefType* System::Reflection::SignatureByRefType::New_ctor(::System::Reflection::SignatureType*  elementType)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Reflection::SignatureByRefType*>(elementType));
+}
+// Ctor Parameters []
+constexpr ::System::Reflection::SignatureByRefType::SignatureByRefType()   {
+}

@@ -1,0 +1,138 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ExceptionHandler.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__ExceptionHandler_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__ExceptionFilter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ExceptionHandler._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)(int32_t, int32_t, int32_t, ::System::Type*, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(&::System::Linq::Expressions::Interpreter::ExceptionHandler::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181b06ae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Linq::Expressions::Interpreter::ExceptionFilter*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ExceptionHandler.Matches
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)(::System::Type*)>(&::System::Linq::Expressions::Interpreter::ExceptionHandler::Matches)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181b06a20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(),
+                        {"Matches", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::ExceptionHandler.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)()>(&::System::Linq::Expressions::Interpreter::ExceptionHandler::ToString)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181b06a40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Type*& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get__exceptionType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____exceptionType;
+}
+constexpr ::System::Type* const& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get__exceptionType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____exceptionType;
+}
+constexpr void System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_set__exceptionType(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____exceptionType = value;
+}
+constexpr int32_t& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_LabelIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___LabelIndex;
+}
+constexpr int32_t const& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_LabelIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___LabelIndex;
+}
+constexpr void System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_set_LabelIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___LabelIndex = value;
+}
+constexpr int32_t& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_HandlerStartIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___HandlerStartIndex;
+}
+constexpr int32_t const& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_HandlerStartIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___HandlerStartIndex;
+}
+constexpr void System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_set_HandlerStartIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___HandlerStartIndex = value;
+}
+constexpr int32_t& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_HandlerEndIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___HandlerEndIndex;
+}
+constexpr int32_t const& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_HandlerEndIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___HandlerEndIndex;
+}
+constexpr void System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_set_HandlerEndIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___HandlerEndIndex = value;
+}
+constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter*& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_Filter()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___Filter;
+}
+constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter* const& System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_get_Filter() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___Filter;
+}
+constexpr void System::Linq::Expressions::Interpreter::ExceptionHandler::__cordl_internal_set_Filter(::System::Linq::Expressions::Interpreter::ExceptionFilter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___Filter = value;
+}
+inline void System::Linq::Expressions::Interpreter::ExceptionHandler::_ctor(int32_t  labelIndex, int32_t  handlerStartIndex, int32_t  handlerEndIndex, ::System::Type*  exceptionType, ::System::Linq::Expressions::Interpreter::ExceptionFilter*  filter)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Linq::Expressions::Interpreter::ExceptionFilter*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, labelIndex, handlerStartIndex, handlerEndIndex, exceptionType, filter);
+}
+inline bool System::Linq::Expressions::Interpreter::ExceptionHandler::Matches(::System::Type*  exceptionType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(),
+                        {"Matches", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, exceptionType);
+}
+inline ::StringW System::Linq::Expressions::Interpreter::ExceptionHandler::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::ExceptionHandler* System::Linq::Expressions::Interpreter::ExceptionHandler::New_ctor(int32_t  labelIndex, int32_t  handlerStartIndex, int32_t  handlerEndIndex, ::System::Type*  exceptionType, ::System::Linq::Expressions::Interpreter::ExceptionFilter*  filter)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::Interpreter::ExceptionHandler*>(labelIndex, handlerStartIndex, handlerEndIndex, exceptionType, filter));
+}
+// Ctor Parameters []
+constexpr ::System::Linq::Expressions::Interpreter::ExceptionHandler::ExceptionHandler()   {
+}

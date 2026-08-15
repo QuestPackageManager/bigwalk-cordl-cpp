@@ -1,0 +1,37 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UI/ILayoutController.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(ILayoutController)
+// Forward declare root types
+namespace UnityEngine::UI {
+class ILayoutController;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UI::ILayoutController*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UI::ILayoutController*, "UnityEngine.UI", "ILayoutController");
+// Dependencies 
+namespace UnityEngine::UI {
+// Is value type: false
+// CS Name: UnityEngine.UI.ILayoutController
+class CORDL_TYPE ILayoutController {
+public:
+// Declarations
+/// @brief Method SetLayoutHorizontal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void SetLayoutHorizontal() ;
+
+/// @brief Method SetLayoutVertical, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void SetLayoutVertical() ;
+
+// Ctor Parameters [CppParam { name: "", ty: "ILayoutController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ILayoutController(ILayoutController const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17339};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::UI

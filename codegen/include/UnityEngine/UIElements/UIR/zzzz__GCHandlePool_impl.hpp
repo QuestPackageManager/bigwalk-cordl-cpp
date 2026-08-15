@@ -1,0 +1,247 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GCHandlePool.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GCHandlePool_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GCHandlePool._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::GCHandlePool::_ctor)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182410e00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GCHandlePool.Get
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::GCHandle (::UnityEngine::UIElements::UIR::GCHandlePool::*)(::System::Object*)>(&::UnityEngine::UIElements::UIR::GCHandlePool::Get)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x182410be0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"Get", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GCHandlePool.GetIntPtr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::UIElements::UIR::GCHandlePool::*)(::System::Object*)>(&::UnityEngine::UIElements::UIR::GCHandlePool::GetIntPtr)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x182410bb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"GetIntPtr", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GCHandlePool.ReturnAll
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(&::UnityEngine::UIElements::UIR::GCHandlePool::ReturnAll)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x182410d40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"ReturnAll", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GCHandlePool.get_disposed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(&::UnityEngine::UIElements::UIR::GCHandlePool::get_disposed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803a7410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"get_disposed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GCHandlePool.set_disposed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(bool)>(&::UnityEngine::UIElements::UIR::GCHandlePool::set_disposed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803a7480;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"set_disposed", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GCHandlePool.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(&::UnityEngine::UIElements::UIR::GCHandlePool::Dispose)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x182410a40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GCHandlePool.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(bool)>(&::UnityEngine::UIElements::UIR::GCHandlePool::Dispose)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x182410b00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"Dispose", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>*& UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_get_m_Handles()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Handles;
+}
+constexpr ::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>* const& UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_get_m_Handles() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Handles;
+}
+constexpr void UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_set_m_Handles(::System::Collections::Generic::List_1<::System::Runtime::InteropServices::GCHandle>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Handles = value;
+}
+constexpr int32_t& UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_get_m_UsedHandlesCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_UsedHandlesCount;
+}
+constexpr int32_t const& UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_get_m_UsedHandlesCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_UsedHandlesCount;
+}
+constexpr void UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_set_m_UsedHandlesCount(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_UsedHandlesCount = value;
+}
+constexpr int32_t& UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_get_k_AllocBatchSize()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___k_AllocBatchSize;
+}
+constexpr int32_t const& UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_get_k_AllocBatchSize() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___k_AllocBatchSize;
+}
+constexpr void UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_set_k_AllocBatchSize(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___k_AllocBatchSize = value;
+}
+constexpr bool& UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_get__disposed_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disposed_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_get__disposed_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disposed_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::UIR::GCHandlePool::__cordl_internal_set__disposed_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____disposed_k__BackingField = value;
+}
+inline void UnityEngine::UIElements::UIR::GCHandlePool::_ctor(int32_t  capacity, int32_t  allocBatchSize)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity, allocBatchSize);
+}
+inline ::System::Runtime::InteropServices::GCHandle UnityEngine::UIElements::UIR::GCHandlePool::Get(::System::Object*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"Get", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::InteropServices::GCHandle>(this, ___internal_method, target);
+}
+inline ::System::IntPtr UnityEngine::UIElements::UIR::GCHandlePool::GetIntPtr(::System::Object*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"GetIntPtr", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(this, ___internal_method, target);
+}
+inline void UnityEngine::UIElements::UIR::GCHandlePool::ReturnAll()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"ReturnAll", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::UIR::GCHandlePool::get_disposed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"get_disposed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIR::GCHandlePool::set_disposed(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"set_disposed", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::UIR::GCHandlePool::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIR::GCHandlePool::Dispose(bool  disposing)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(),
+                        {"Dispose", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
+}
+inline ::UnityEngine::UIElements::UIR::GCHandlePool* UnityEngine::UIElements::UIR::GCHandlePool::New_ctor(int32_t  capacity, int32_t  allocBatchSize)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::GCHandlePool*>(capacity, allocBatchSize));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  UnityEngine::UIElements::UIR::GCHandlePool::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::GCHandlePool::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UIR::GCHandlePool::GCHandlePool()   {
+}

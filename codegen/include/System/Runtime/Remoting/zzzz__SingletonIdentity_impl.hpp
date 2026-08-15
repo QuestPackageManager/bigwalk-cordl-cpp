@@ -1,0 +1,104 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/SingletonIdentity.hpp"
+#include "System/Runtime/Remoting/zzzz__ServerIdentity_impl.hpp"
+#include "System/Runtime/Remoting/zzzz__SingletonIdentity_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Remoting::SingletonIdentity._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::SingletonIdentity::*)(::StringW, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*)>(&::System::Runtime::Remoting::SingletonIdentity::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181630170;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Runtime::Remoting::Contexts::Context*>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::SingletonIdentity.GetServerObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::MarshalByRefObject* (::System::Runtime::Remoting::SingletonIdentity::*)()>(&::System::Runtime::Remoting::SingletonIdentity::GetServerObject)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x1816304c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(),
+                        {"GetServerObject", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::SingletonIdentity.SyncObjectProcessMessage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (::System::Runtime::Remoting::SingletonIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::SingletonIdentity::SyncObjectProcessMessage)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1816305b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(),
+                    {::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::SingletonIdentity.AsyncObjectProcessMessage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessageCtrl* (::System::Runtime::Remoting::SingletonIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(&::System::Runtime::Remoting::SingletonIdentity::AsyncObjectProcessMessage)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181630440;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(),
+                    {::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+inline void System::Runtime::Remoting::SingletonIdentity::_ctor(::StringW  objectUri, ::System::Runtime::Remoting::Contexts::Context*  context, ::System::Type*  objectType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Runtime::Remoting::Contexts::Context*>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, objectUri, context, objectType);
+}
+inline ::System::MarshalByRefObject* System::Runtime::Remoting::SingletonIdentity::GetServerObject()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(),
+                        {"GetServerObject", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::MarshalByRefObject*>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::SingletonIdentity::SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessage*>(this, ___internal_method, msg);
+}
+inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* System::Runtime::Remoting::SingletonIdentity::AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage*  msg, ::System::Runtime::Remoting::Messaging::IMessageSink*  replySink)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Remoting::SingletonIdentity*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessageCtrl*>(this, ___internal_method, msg, replySink);
+}
+inline ::System::Runtime::Remoting::SingletonIdentity* System::Runtime::Remoting::SingletonIdentity::New_ctor(::StringW  objectUri, ::System::Runtime::Remoting::Contexts::Context*  context, ::System::Type*  objectType)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::SingletonIdentity*>(objectUri, context, objectType));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Remoting::SingletonIdentity::SingletonIdentity()   {
+}

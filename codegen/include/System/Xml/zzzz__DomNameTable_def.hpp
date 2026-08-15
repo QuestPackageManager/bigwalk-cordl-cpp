@@ -1,0 +1,144 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/DomNameTable.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/zzzz__XmlName_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(DomNameTable)
+namespace System::Xml::Schema {
+class IXmlSchemaInfo;
+}
+namespace System::Xml {
+class XmlDocument;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+class XmlName;
+}
+// Forward declare root types
+namespace System::Xml {
+class DomNameTable;
+}
+// Write type traits
+MARK_REF_T(::System::Xml::DomNameTable*);
+DEFINE_IL2CPP_CLASS(::System::Xml::DomNameTable*, "System.Xml", "DomNameTable");
+// Dependencies System.Object, System.Xml.XmlName
+namespace System::Xml {
+// Is value type: false
+// CS Name: System.Xml.DomNameTable
+class CORDL_TYPE DomNameTable : public ::System::Object {
+public:
+// Declarations
+/// @brief Field count, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_count, put=__cordl_internal_set_count)) int32_t  count;
+
+/// @brief Field entries, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_entries, put=__cordl_internal_set_entries)) ::ArrayW<::System::Xml::XmlName*>  entries;
+
+/// @brief Field mask, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_mask, put=__cordl_internal_set_mask)) int32_t  mask;
+
+/// @brief Field nameTable, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_nameTable, put=__cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable*  nameTable;
+
+/// @brief Field ownerDocument, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ownerDocument, put=__cordl_internal_set_ownerDocument)) ::System::Xml::XmlDocument*  ownerDocument;
+
+/// @brief Method AddName, addr 0x181cfca60, size 0x2d0, virtual false, abstract: false, final false
+inline ::System::Xml::XmlName* AddName(::StringW  prefix, ::StringW  localName, ::StringW  ns, ::System::Xml::Schema::IXmlSchemaInfo*  schemaInfo) ;
+
+/// @brief Method GetName, addr 0x181cfcd30, size 0x110, virtual false, abstract: false, final false
+inline ::System::Xml::XmlName* GetName(::StringW  prefix, ::StringW  localName, ::StringW  ns, ::System::Xml::Schema::IXmlSchemaInfo*  schemaInfo) ;
+
+/// @brief Method Grow, addr 0x181cfce40, size 0x100, virtual false, abstract: false, final false
+inline void Grow() ;
+
+static inline ::System::Xml::DomNameTable* New_ctor(::System::Xml::XmlDocument*  document) ;
+
+constexpr int32_t const& __cordl_internal_get_count() const;
+
+constexpr int32_t& __cordl_internal_get_count() ;
+
+constexpr ::ArrayW<::System::Xml::XmlName*> const& __cordl_internal_get_entries() const;
+
+constexpr ::ArrayW<::System::Xml::XmlName*>& __cordl_internal_get_entries() ;
+
+constexpr int32_t const& __cordl_internal_get_mask() const;
+
+constexpr int32_t& __cordl_internal_get_mask() ;
+
+constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_nameTable() const;
+
+constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable() ;
+
+constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get_ownerDocument() const;
+
+constexpr ::System::Xml::XmlDocument*& __cordl_internal_get_ownerDocument() ;
+
+constexpr void __cordl_internal_set_count(int32_t  value) ;
+
+constexpr void __cordl_internal_set_entries(::ArrayW<::System::Xml::XmlName*>  value) ;
+
+constexpr void __cordl_internal_set_mask(int32_t  value) ;
+
+constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable*  value) ;
+
+constexpr void __cordl_internal_set_ownerDocument(::System::Xml::XmlDocument*  value) ;
+
+/// @brief Method .ctor, addr 0x181cfcf40, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlDocument*  document) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr DomNameTable() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "DomNameTable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DomNameTable(DomNameTable && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "DomNameTable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DomNameTable(DomNameTable const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9745};
+
+/// @brief Field entries, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::System::Xml::XmlName*>  ___entries;
+
+/// @brief Field count, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___count;
+
+/// @brief Field mask, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___mask;
+
+/// @brief Field ownerDocument, offset: 0x20, size: 0x8, def value: None
+ ::System::Xml::XmlDocument*  ___ownerDocument;
+
+/// @brief Field nameTable, offset: 0x28, size: 0x8, def value: None
+ ::System::Xml::XmlNameTable*  ___nameTable;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Xml::DomNameTable, ___entries) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___count) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___mask) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___ownerDocument) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Xml::DomNameTable, ___nameTable) == 0x28, "Offset mismatch!");
+
+static_assert(sizeof(::System::Xml::DomNameTable) == 0x30, "Size mismatch!");
+
+} // namespace end def System::Xml

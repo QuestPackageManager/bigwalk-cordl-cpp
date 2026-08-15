@@ -1,0 +1,48 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IBindable.hpp"
+#include "UnityEngine/UIElements/zzzz__IBindable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IBinding_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::IBindable.get_binding
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IBinding* (::UnityEngine::UIElements::IBindable::*)()>(&::UnityEngine::UIElements::IBindable::get_binding)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IBindable*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IBindable*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IBindable.set_bindingPath
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IBindable::*)(::StringW)>(&::UnityEngine::UIElements::IBindable::set_bindingPath)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IBindable*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IBindable*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::UIElements::IBinding* UnityEngine::UIElements::IBindable::get_binding()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IBindable*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IBinding*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::IBindable::set_bindingPath(::StringW  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IBindable*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}

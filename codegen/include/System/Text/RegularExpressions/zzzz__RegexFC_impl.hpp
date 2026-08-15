@@ -1,0 +1,208 @@
+#pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexFC.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexFC_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexFC._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(bool)>(&::System::Text::RegularExpressions::RegexFC::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181dd0ce0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {".ctor", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexFC._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(char16_t, bool, bool, bool)>(&::System::Text::RegularExpressions::RegexFC::_ctor)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x181dd0b70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {".ctor", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexFC._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(::StringW, bool, bool)>(&::System::Text::RegularExpressions::RegexFC::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181dd0d40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexFC.AddFC
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::RegexFC::*)(::System::Text::RegularExpressions::RegexFC*, bool)>(&::System::Text::RegularExpressions::RegexFC::AddFC)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181dd08c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {"AddFC", {}, {::i2c::type_of<::System::Text::RegularExpressions::RegexFC*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexFC.get_CaseInsensitive
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::RegexFC::*)()>(&::System::Text::RegularExpressions::RegexFC::get_CaseInsensitive)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1814f8710;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {"get_CaseInsensitive", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexFC.set_CaseInsensitive
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(bool)>(&::System::Text::RegularExpressions::RegexFC::set_CaseInsensitive)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1818376c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {"set_CaseInsensitive", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexFC.GetFirstChars
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::RegexFC::*)(::System::Globalization::CultureInfo*)>(&::System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x181dd0a50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {"GetFirstChars", {}, {::i2c::type_of<::System::Globalization::CultureInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Text::RegularExpressions::RegexCharClass*& System::Text::RegularExpressions::RegexFC::__cordl_internal_get__cc()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cc;
+}
+constexpr ::System::Text::RegularExpressions::RegexCharClass* const& System::Text::RegularExpressions::RegexFC::__cordl_internal_get__cc() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cc;
+}
+constexpr void System::Text::RegularExpressions::RegexFC::__cordl_internal_set__cc(::System::Text::RegularExpressions::RegexCharClass*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____cc = value;
+}
+constexpr bool& System::Text::RegularExpressions::RegexFC::__cordl_internal_get__nullable()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nullable;
+}
+constexpr bool const& System::Text::RegularExpressions::RegexFC::__cordl_internal_get__nullable() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nullable;
+}
+constexpr void System::Text::RegularExpressions::RegexFC::__cordl_internal_set__nullable(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____nullable = value;
+}
+constexpr bool& System::Text::RegularExpressions::RegexFC::__cordl_internal_get__CaseInsensitive_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____CaseInsensitive_k__BackingField;
+}
+constexpr bool const& System::Text::RegularExpressions::RegexFC::__cordl_internal_get__CaseInsensitive_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____CaseInsensitive_k__BackingField;
+}
+constexpr void System::Text::RegularExpressions::RegexFC::__cordl_internal_set__CaseInsensitive_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____CaseInsensitive_k__BackingField = value;
+}
+inline void System::Text::RegularExpressions::RegexFC::_ctor(bool  nullable)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {".ctor", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nullable);
+}
+inline void System::Text::RegularExpressions::RegexFC::_ctor(char16_t  ch, bool  _cordl_not, bool  nullable, bool  caseInsensitive)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {".ctor", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ch, _cordl_not, nullable, caseInsensitive);
+}
+inline void System::Text::RegularExpressions::RegexFC::_ctor(::StringW  charClass, bool  nullable, bool  caseInsensitive)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, charClass, nullable, caseInsensitive);
+}
+inline bool System::Text::RegularExpressions::RegexFC::AddFC(::System::Text::RegularExpressions::RegexFC*  fc, bool  concatenate)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {"AddFC", {}, {::i2c::type_of<::System::Text::RegularExpressions::RegexFC*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, fc, concatenate);
+}
+inline bool System::Text::RegularExpressions::RegexFC::get_CaseInsensitive()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {"get_CaseInsensitive", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Text::RegularExpressions::RegexFC::set_CaseInsensitive(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {"set_CaseInsensitive", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW System::Text::RegularExpressions::RegexFC::GetFirstChars(::System::Globalization::CultureInfo*  culture)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
+                        {"GetFirstChars", {}, {::i2c::type_of<::System::Globalization::CultureInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, culture);
+}
+inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(bool  nullable)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Text::RegularExpressions::RegexFC*>(nullable));
+}
+inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(char16_t  ch, bool  _cordl_not, bool  nullable, bool  caseInsensitive)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Text::RegularExpressions::RegexFC*>(ch, _cordl_not, nullable, caseInsensitive));
+}
+inline ::System::Text::RegularExpressions::RegexFC* System::Text::RegularExpressions::RegexFC::New_ctor(::StringW  charClass, bool  nullable, bool  caseInsensitive)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Text::RegularExpressions::RegexFC*>(charClass, nullable, caseInsensitive));
+}
+// Ctor Parameters []
+constexpr ::System::Text::RegularExpressions::RegexFC::RegexFC()   {
+}

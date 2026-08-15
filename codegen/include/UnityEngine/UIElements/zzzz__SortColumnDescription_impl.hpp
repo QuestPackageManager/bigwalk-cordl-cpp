@@ -1,0 +1,597 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/SortColumnDescription.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__SortColumnDescription_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__SortDirection_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlObjectFactory_2_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlObjectTraits_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__SortColumnDescription_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindablePropertyChangedEventArgs_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Column_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__INotifyBindablePropertyChanged_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__SortColumnDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__SortDirection_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+template<typename T>
+inline void UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename T>
+inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>* UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>*>());
+}
+// Ctor Parameters []
+template<typename T>
+constexpr ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>::SortColumnDescription_UxmlObjectFactory_1()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory::*)()>(&::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18249f100;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory* UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory::SortColumnDescription_UxmlObjectFactory()   {
+}
+template<typename T>
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_get_m_ColumnName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ColumnName;
+}
+template<typename T>
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_get_m_ColumnName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ColumnName;
+}
+template<typename T>
+constexpr void UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_set_m_ColumnName(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ColumnName = value;
+}
+template<typename T>
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_get_m_ColumnIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ColumnIndex;
+}
+template<typename T>
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_get_m_ColumnIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ColumnIndex;
+}
+template<typename T>
+constexpr void UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_set_m_ColumnIndex(::UnityEngine::UIElements::UxmlIntAttributeDescription*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ColumnIndex = value;
+}
+template<typename T>
+constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>*& UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_get_m_SortDescription()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SortDescription;
+}
+template<typename T>
+constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* const& UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_get_m_SortDescription() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SortDescription;
+}
+template<typename T>
+constexpr void UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::__cordl_internal_set_m_SortDescription(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_SortDescription = value;
+}
+template<typename T>
+inline void UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::Init(::by_ref<T>  obj, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, bag, cc);
+}
+template<typename T>
+inline void UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename T>
+inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>* UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>*>());
+}
+// Ctor Parameters []
+template<typename T>
+constexpr ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>::SortColumnDescription_UxmlObjectTraits_1()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.add_propertyChanged
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*)>(&::UnityEngine::UIElements::SortColumnDescription::add_propertyChanged)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18249e520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"add_propertyChanged", {}, {::i2c::type_of<::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.remove_propertyChanged
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*)>(&::UnityEngine::UIElements::SortColumnDescription::remove_propertyChanged)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18249e640;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"remove_propertyChanged", {}, {::i2c::type_of<::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.get_columnName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::SortColumnDescription::*)()>(&::UnityEngine::UIElements::SortColumnDescription::get_columnName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"get_columnName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.set_columnName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::StringW)>(&::UnityEngine::UIElements::SortColumnDescription::set_columnName)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18249e740;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"set_columnName", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.get_columnIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::SortColumnDescription::*)()>(&::UnityEngine::UIElements::SortColumnDescription::get_columnIndex)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"get_columnIndex", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.set_columnIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(int32_t)>(&::UnityEngine::UIElements::SortColumnDescription::set_columnIndex)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18249e6d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"set_columnIndex", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.get_column
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Column* (::UnityEngine::UIElements::SortColumnDescription::*)()>(&::UnityEngine::UIElements::SortColumnDescription::get_column)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"get_column", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.set_column
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::UnityEngine::UIElements::Column*)>(&::UnityEngine::UIElements::SortColumnDescription::set_column)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9830;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"set_column", {}, {::i2c::type_of<::UnityEngine::UIElements::Column*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.get_direction
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::SortDirection (::UnityEngine::UIElements::SortColumnDescription::*)()>(&::UnityEngine::UIElements::SortColumnDescription::get_direction)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180396ee0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"get_direction", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.set_direction
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::UnityEngine::UIElements::SortDirection)>(&::UnityEngine::UIElements::SortColumnDescription::set_direction)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18249e7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"set_direction", {}, {::i2c::type_of<::UnityEngine::UIElements::SortDirection>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.add_changed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*)>(&::UnityEngine::UIElements::SortColumnDescription::add_changed)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18249e490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"add_changed", {}, {::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.remove_changed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*)>(&::UnityEngine::UIElements::SortColumnDescription::remove_changed)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18249e5b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"remove_changed", {}, {::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)()>(&::UnityEngine::UIElements::SortColumnDescription::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(int32_t, ::UnityEngine::UIElements::SortDirection)>(&::UnityEngine::UIElements::SortColumnDescription::_ctor)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x18249e3b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::SortDirection>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::StringW, ::UnityEngine::UIElements::SortDirection)>(&::UnityEngine::UIElements::SortColumnDescription::_ctor)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x18249e2b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::UIElements::SortDirection>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescription.NotifyPropertyChanged
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(&::UnityEngine::UIElements::SortColumnDescription::NotifyPropertyChanged)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x18249df70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"NotifyPropertyChanged", {}, {::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_m_ColumnIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ColumnIndex;
+}
+constexpr int32_t const& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_m_ColumnIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ColumnIndex;
+}
+constexpr void UnityEngine::UIElements::SortColumnDescription::__cordl_internal_set_m_ColumnIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ColumnIndex = value;
+}
+constexpr ::StringW& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_m_ColumnName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ColumnName;
+}
+constexpr ::StringW const& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_m_ColumnName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ColumnName;
+}
+constexpr void UnityEngine::UIElements::SortColumnDescription::__cordl_internal_set_m_ColumnName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ColumnName = value;
+}
+constexpr ::UnityEngine::UIElements::SortDirection& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_m_SortDirection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SortDirection;
+}
+constexpr ::UnityEngine::UIElements::SortDirection const& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_m_SortDirection() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_SortDirection;
+}
+constexpr void UnityEngine::UIElements::SortColumnDescription::__cordl_internal_set_m_SortDirection(::UnityEngine::UIElements::SortDirection  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_SortDirection = value;
+}
+constexpr ::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_propertyChanged()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___propertyChanged;
+}
+constexpr ::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* const& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_propertyChanged() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___propertyChanged;
+}
+constexpr void UnityEngine::UIElements::SortColumnDescription::__cordl_internal_set_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___propertyChanged = value;
+}
+constexpr ::UnityEngine::UIElements::Column*& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get__column_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____column_k__BackingField;
+}
+constexpr ::UnityEngine::UIElements::Column* const& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get__column_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____column_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::SortColumnDescription::__cordl_internal_set__column_k__BackingField(::UnityEngine::UIElements::Column*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____column_k__BackingField = value;
+}
+constexpr ::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_changed()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___changed;
+}
+constexpr ::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* const& UnityEngine::UIElements::SortColumnDescription::__cordl_internal_get_changed() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___changed;
+}
+constexpr void UnityEngine::UIElements::SortColumnDescription::__cordl_internal_set_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___changed = value;
+}
+inline void UnityEngine::UIElements::SortColumnDescription::setStaticF_columnNameProperty(::UnityEngine::UIElements::BindingId  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "columnNameProperty", ::UnityEngine::UIElements::SortColumnDescription*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::SortColumnDescription::getStaticF_columnNameProperty()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "columnNameProperty", ::UnityEngine::UIElements::SortColumnDescription*>();
+}
+inline void UnityEngine::UIElements::SortColumnDescription::setStaticF_columnIndexProperty(::UnityEngine::UIElements::BindingId  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "columnIndexProperty", ::UnityEngine::UIElements::SortColumnDescription*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::SortColumnDescription::getStaticF_columnIndexProperty()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "columnIndexProperty", ::UnityEngine::UIElements::SortColumnDescription*>();
+}
+inline void UnityEngine::UIElements::SortColumnDescription::setStaticF_directionProperty(::UnityEngine::UIElements::BindingId  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "directionProperty", ::UnityEngine::UIElements::SortColumnDescription*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::SortColumnDescription::getStaticF_directionProperty()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "directionProperty", ::UnityEngine::UIElements::SortColumnDescription*>();
+}
+inline void UnityEngine::UIElements::SortColumnDescription::add_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"add_propertyChanged", {}, {::i2c::type_of<::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::remove_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"remove_propertyChanged", {}, {::i2c::type_of<::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW UnityEngine::UIElements::SortColumnDescription::get_columnName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"get_columnName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::set_columnName(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"set_columnName", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline int32_t UnityEngine::UIElements::SortColumnDescription::get_columnIndex()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"get_columnIndex", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::set_columnIndex(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"set_columnIndex", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::Column* UnityEngine::UIElements::SortColumnDescription::get_column()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"get_column", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Column*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::set_column(::UnityEngine::UIElements::Column*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"set_column", {}, {::i2c::type_of<::UnityEngine::UIElements::Column*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::SortDirection UnityEngine::UIElements::SortColumnDescription::get_direction()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"get_direction", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::SortDirection>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::set_direction(::UnityEngine::UIElements::SortDirection  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"set_direction", {}, {::i2c::type_of<::UnityEngine::UIElements::SortDirection>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::add_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"add_changed", {}, {::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::remove_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"remove_changed", {}, {::i2c::type_of<::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::_ctor(int32_t  columnIndex, ::UnityEngine::UIElements::SortDirection  direction)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::UIElements::SortDirection>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, columnIndex, direction);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::_ctor(::StringW  columnName, ::UnityEngine::UIElements::SortDirection  direction)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::UIElements::SortDirection>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, columnName, direction);
+}
+inline void UnityEngine::UIElements::SortColumnDescription::NotifyPropertyChanged(::by_ref<::UnityEngine::UIElements::BindingId>  property)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
+                        {"NotifyPropertyChanged", {}, {::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, property);
+}
+inline ::UnityEngine::UIElements::SortColumnDescription* UnityEngine::UIElements::SortColumnDescription::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescription*>());
+}
+inline ::UnityEngine::UIElements::SortColumnDescription* UnityEngine::UIElements::SortColumnDescription::New_ctor(int32_t  columnIndex, ::UnityEngine::UIElements::SortDirection  direction)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescription*>(columnIndex, direction));
+}
+inline ::UnityEngine::UIElements::SortColumnDescription* UnityEngine::UIElements::SortColumnDescription::New_ctor(::StringW  columnName, ::UnityEngine::UIElements::SortDirection  direction)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescription*>(columnName, direction));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::INotifyBindablePropertyChanged"
+constexpr  UnityEngine::UIElements::SortColumnDescription::operator ::UnityEngine::UIElements::INotifyBindablePropertyChanged*() noexcept {
+return static_cast<::UnityEngine::UIElements::INotifyBindablePropertyChanged*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::INotifyBindablePropertyChanged"
+constexpr ::UnityEngine::UIElements::INotifyBindablePropertyChanged* UnityEngine::UIElements::SortColumnDescription::i___UnityEngine__UIElements__INotifyBindablePropertyChanged() noexcept {
+return static_cast<::UnityEngine::UIElements::INotifyBindablePropertyChanged*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::SortColumnDescription::SortColumnDescription()   {
+}

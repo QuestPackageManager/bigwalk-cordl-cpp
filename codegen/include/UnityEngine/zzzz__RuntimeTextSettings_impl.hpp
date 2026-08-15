@@ -1,0 +1,60 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/RuntimeTextSettings.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextSettings_impl.hpp"
+#include "UnityEngine/zzzz__RuntimeTextSettings_def.hpp"
+//  Writing Method size for method: ::UnityEngine::RuntimeTextSettings.get_defaultTextSettings
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RuntimeTextSettings> (*)()>(&::UnityEngine::RuntimeTextSettings::get_defaultTextSettings)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1822d5920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::RuntimeTextSettings*>(),
+                        {"get_defaultTextSettings", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::RuntimeTextSettings._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeTextSettings::*)()>(&::UnityEngine::RuntimeTextSettings::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822d5910;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::RuntimeTextSettings*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::RuntimeTextSettings::setStaticF_s_DefaultTextSettings(::UnityW<::UnityEngine::RuntimeTextSettings>  value)  {
+::cordl_internals::setStaticField<::UnityW<::UnityEngine::RuntimeTextSettings>, "s_DefaultTextSettings", ::UnityEngine::RuntimeTextSettings*>(std::forward<::UnityW<::UnityEngine::RuntimeTextSettings>>(value));
+}
+inline ::UnityW<::UnityEngine::RuntimeTextSettings> UnityEngine::RuntimeTextSettings::getStaticF_s_DefaultTextSettings()  {
+return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::RuntimeTextSettings>, "s_DefaultTextSettings", ::UnityEngine::RuntimeTextSettings*>();
+}
+inline ::UnityW<::UnityEngine::RuntimeTextSettings> UnityEngine::RuntimeTextSettings::get_defaultTextSettings()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::RuntimeTextSettings*>(),
+                        {"get_defaultTextSettings", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RuntimeTextSettings>>(nullptr, ___internal_method);
+}
+inline void UnityEngine::RuntimeTextSettings::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::RuntimeTextSettings*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::RuntimeTextSettings* UnityEngine::RuntimeTextSettings::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::RuntimeTextSettings*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::RuntimeTextSettings::RuntimeTextSettings()   {
+}

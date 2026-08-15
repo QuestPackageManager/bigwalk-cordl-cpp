@@ -1,0 +1,122 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Profiling/Sampler.hpp"
+#include "System/zzzz__IntPtr_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Profiling/zzzz__Sampler_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Profiling/zzzz__Recorder_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Profiling::Sampler._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Sampler::*)()>(&::UnityEngine::Profiling::Sampler::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Profiling::Sampler*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Profiling::Sampler._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Profiling::Sampler::*)(::System::IntPtr)>(&::UnityEngine::Profiling::Sampler::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1804bda40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Profiling::Sampler*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Profiling::Sampler.get_isValid
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Profiling::Sampler::*)()>(&::UnityEngine::Profiling::Sampler::get_isValid)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181458e50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Profiling::Sampler*>(),
+                        {"get_isValid", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Profiling::Sampler.GetRecorder
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Profiling::Recorder* (::UnityEngine::Profiling::Sampler::*)()>(&::UnityEngine::Profiling::Sampler::GetRecorder)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x1822856d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Profiling::Sampler*>(),
+                        {"GetRecorder", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::IntPtr& UnityEngine::Profiling::Sampler::__cordl_internal_get_m_Ptr()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Ptr;
+}
+constexpr ::System::IntPtr const& UnityEngine::Profiling::Sampler::__cordl_internal_get_m_Ptr() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Ptr;
+}
+constexpr void UnityEngine::Profiling::Sampler::__cordl_internal_set_m_Ptr(::System::IntPtr  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Ptr = value;
+}
+inline void UnityEngine::Profiling::Sampler::setStaticF_s_InvalidSampler(::UnityEngine::Profiling::Sampler*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Profiling::Sampler*, "s_InvalidSampler", ::UnityEngine::Profiling::Sampler*>(std::forward<::UnityEngine::Profiling::Sampler*>(value));
+}
+inline ::UnityEngine::Profiling::Sampler* UnityEngine::Profiling::Sampler::getStaticF_s_InvalidSampler()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Profiling::Sampler*, "s_InvalidSampler", ::UnityEngine::Profiling::Sampler*>();
+}
+inline void UnityEngine::Profiling::Sampler::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Profiling::Sampler*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Profiling::Sampler::_ctor(::System::IntPtr  ptr)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Profiling::Sampler*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ptr);
+}
+inline bool UnityEngine::Profiling::Sampler::get_isValid()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Profiling::Sampler*>(),
+                        {"get_isValid", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::UnityEngine::Profiling::Recorder* UnityEngine::Profiling::Sampler::GetRecorder()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Profiling::Sampler*>(),
+                        {"GetRecorder", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Profiling::Recorder*>(this, ___internal_method);
+}
+inline ::UnityEngine::Profiling::Sampler* UnityEngine::Profiling::Sampler::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Profiling::Sampler*>());
+}
+inline ::UnityEngine::Profiling::Sampler* UnityEngine::Profiling::Sampler::New_ctor(::System::IntPtr  ptr)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Profiling::Sampler*>(ptr));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Profiling::Sampler::Sampler()   {
+}

@@ -1,0 +1,430 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Cursor.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Unity/Properties/zzzz__ContainerPropertyBag_1_def.hpp"
+#include "Unity/Properties/zzzz__Property_2_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(Cursor)
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::UIElements {
+class Cursor_PropertyBag;
+}
+namespace UnityEngine::UIElements {
+class PropertyBag_Cursor_DefaultCursorIdProperty;
+}
+namespace UnityEngine::UIElements {
+class PropertyBag_Cursor_HotspotProperty;
+}
+namespace UnityEngine::UIElements {
+class PropertyBag_Cursor_TextureProperty;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class Cursor_PropertyBag;
+}
+namespace UnityEngine::UIElements {
+class PropertyBag_Cursor_DefaultCursorIdProperty;
+}
+namespace UnityEngine::UIElements {
+class PropertyBag_Cursor_HotspotProperty;
+}
+namespace UnityEngine::UIElements {
+class PropertyBag_Cursor_TextureProperty;
+}
+namespace UnityEngine::UIElements {
+struct Cursor;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::Cursor_PropertyBag*);
+MARK_REF_T(::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*);
+MARK_REF_T(::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*);
+MARK_REF_T(::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*);
+MARK_VAL_T(::UnityEngine::UIElements::Cursor);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Cursor_PropertyBag*, "UnityEngine.UIElements", "Cursor/PropertyBag");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*, "UnityEngine.UIElements", "Cursor/PropertyBag/DefaultCursorIdProperty");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*, "UnityEngine.UIElements", "Cursor/PropertyBag/HotspotProperty");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*, "UnityEngine.UIElements", "Cursor/PropertyBag/TextureProperty");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Cursor, "UnityEngine.UIElements", "Cursor");
+// Dependencies UnityEngine.Vector2
+namespace UnityEngine::UIElements {
+// Is value type: true
+// CS Name: UnityEngine.UIElements.Cursor
+struct CORDL_TYPE Cursor {
+public:
+// Declarations
+using PropertyBag = ::UnityEngine::UIElements::Cursor_PropertyBag;
+
+ __declspec(property(get=get_defaultCursorId, put=set_defaultCursorId)) int32_t  defaultCursorId;
+
+ __declspec(property(get=get_hotspot, put=set_hotspot)) ::UnityEngine::Vector2  hotspot;
+
+ __declspec(property(get=get_texture, put=set_texture)) ::UnityW<::UnityEngine::Texture2D>  texture;
+
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Cursor>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>*() ;
+
+/// @brief Method Equals, addr 0x1824b37f0, size 0xf0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
+
+/// @brief Method Equals, addr 0x1824b38e0, size 0xb0, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::Cursor  other) ;
+
+/// @brief Method GetHashCode, addr 0x1824b3990, size 0x130, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
+
+/// @brief Method ToString, addr 0x1824b3ac0, size 0x50, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
+
+/// @brief Method get_defaultCursorId, addr 0x180303b50, size 0x10, virtual false, abstract: false, final false
+inline int32_t get_defaultCursorId() ;
+
+/// @brief Method get_hotspot, addr 0x1803ed930, size 0x10, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_hotspot() ;
+
+/// @brief Method get_texture, addr 0x1803a88d0, size 0x10, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Texture2D> get_texture() ;
+
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Cursor>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>* i___System__IEquatable_1___UnityEngine__UIElements__Cursor_() ;
+
+/// @brief Method op_Equality, addr 0x1824b3b10, size 0xc0, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::UIElements::Cursor  style1, ::UnityEngine::UIElements::Cursor  style2) ;
+
+/// @brief Method set_defaultCursorId, addr 0x180378ff0, size 0x10, virtual false, abstract: false, final false
+inline void set_defaultCursorId(int32_t  value) ;
+
+/// @brief Method set_hotspot, addr 0x1804bda50, size 0x10, virtual false, abstract: false, final false
+inline void set_hotspot(::UnityEngine::Vector2  value) ;
+
+/// @brief Method set_texture, addr 0x180378fd0, size 0x10, virtual false, abstract: false, final false
+inline void set_texture(::UnityEngine::Texture2D*  value) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr Cursor() ;
+
+// Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "m_Hotspot", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "_defaultCursorId_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr Cursor(::UnityW<::UnityEngine::Texture2D>  m_Texture, ::UnityEngine::Vector2  m_Hotspot, int32_t  _defaultCursorId_k__BackingField) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3497};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
+
+/// @brief Field m_Texture, offset: 0x0, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Texture2D>  m_Texture;
+
+/// @brief Field m_Hotspot, offset: 0x8, size: 0x8, def value: None
+ ::UnityEngine::Vector2  m_Hotspot;
+
+/// @brief Field <defaultCursorId>k__BackingField, offset: 0x10, size: 0x4, def value: None
+ int32_t  _defaultCursorId_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::Cursor, m_Texture) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Cursor, m_Hotspot) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::Cursor, _defaultCursorId_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::Cursor) == 0x18, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.Cursor
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Cursor/PropertyBag/TextureProperty
+class CORDL_TYPE PropertyBag_Cursor_TextureProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::Cursor,::UnityW<::UnityEngine::Texture2D>> {
+public:
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+
+ __declspec(property(get=get_Name)) ::StringW  Name;
+
+/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+
+/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+
+/// @brief Method GetValue, addr 0x1817b67a0, size 0x10, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Texture2D> GetValue(::by_ref<::UnityEngine::UIElements::Cursor>  container) ;
+
+static inline ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty* New_ctor() ;
+
+/// @brief Method SetValue, addr 0x1823d4530, size 0x10, virtual true, abstract: false, final false
+inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor>  container, ::UnityEngine::Texture2D*  value) ;
+
+constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+
+constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+
+constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+
+/// @brief Method .ctor, addr 0x1824bc200, size 0x30, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_IsReadOnly, addr 0x1803a7410, size 0x10, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
+
+/// @brief Method get_Name, addr 0x1802ecc10, size 0x10, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyBag_Cursor_TextureProperty() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_TextureProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyBag_Cursor_TextureProperty(PropertyBag_Cursor_TextureProperty && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_TextureProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyBag_Cursor_TextureProperty(PropertyBag_Cursor_TextureProperty const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3493};
+
+/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
+
+/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____IsReadOnly_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty, ____IsReadOnly_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty) == 0x28, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.Cursor, UnityEngine.Vector2
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Cursor/PropertyBag/HotspotProperty
+class CORDL_TYPE PropertyBag_Cursor_HotspotProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::Cursor,::UnityEngine::Vector2> {
+public:
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+
+ __declspec(property(get=get_Name)) ::StringW  Name;
+
+/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+
+/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+
+/// @brief Method GetValue, addr 0x1824b6150, size 0x20, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector2 GetValue(::by_ref<::UnityEngine::UIElements::Cursor>  container) ;
+
+static inline ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty* New_ctor() ;
+
+/// @brief Method SetValue, addr 0x1823e6770, size 0x10, virtual true, abstract: false, final false
+inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor>  container, ::UnityEngine::Vector2  value) ;
+
+constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+
+constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+
+constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+
+/// @brief Method .ctor, addr 0x1824b6170, size 0x30, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_IsReadOnly, addr 0x1803a7410, size 0x10, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
+
+/// @brief Method get_Name, addr 0x1802ecc10, size 0x10, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyBag_Cursor_HotspotProperty() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_HotspotProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyBag_Cursor_HotspotProperty(PropertyBag_Cursor_HotspotProperty && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_HotspotProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyBag_Cursor_HotspotProperty(PropertyBag_Cursor_HotspotProperty const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3494};
+
+/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
+
+/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____IsReadOnly_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty, ____IsReadOnly_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty) == 0x28, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.Cursor
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Cursor/PropertyBag/DefaultCursorIdProperty
+class CORDL_TYPE PropertyBag_Cursor_DefaultCursorIdProperty : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::Cursor,int32_t> {
+public:
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
+
+ __declspec(property(get=get_Name)) ::StringW  Name;
+
+/// @brief Field <IsReadOnly>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IsReadOnly_k__BackingField, put=__cordl_internal_set__IsReadOnly_k__BackingField)) bool  _IsReadOnly_k__BackingField;
+
+/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
+
+/// @brief Method GetValue, addr 0x1809124f0, size 0x10, virtual true, abstract: false, final false
+inline int32_t GetValue(::by_ref<::UnityEngine::UIElements::Cursor>  container) ;
+
+static inline ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty* New_ctor() ;
+
+/// @brief Method SetValue, addr 0x1824b3bd0, size 0x10, virtual true, abstract: false, final false
+inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor>  container, int32_t  value) ;
+
+constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
+
+constexpr bool& __cordl_internal_get__IsReadOnly_k__BackingField() ;
+
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
+
+constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool  value) ;
+
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
+
+/// @brief Method .ctor, addr 0x1824b3be0, size 0x30, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_IsReadOnly, addr 0x1803a7410, size 0x10, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
+
+/// @brief Method get_Name, addr 0x1802ecc10, size 0x10, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyBag_Cursor_DefaultCursorIdProperty() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_DefaultCursorIdProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyBag_Cursor_DefaultCursorIdProperty(PropertyBag_Cursor_DefaultCursorIdProperty && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_DefaultCursorIdProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyBag_Cursor_DefaultCursorIdProperty(PropertyBag_Cursor_DefaultCursorIdProperty const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3495};
+
+/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
+
+/// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____IsReadOnly_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty, ____IsReadOnly_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty) == 0x28, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.UIElements.Cursor
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Cursor/PropertyBag
+class CORDL_TYPE Cursor_PropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::UnityEngine::UIElements::Cursor> {
+public:
+// Declarations
+using DefaultCursorIdProperty = ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty;
+
+using HotspotProperty = ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty;
+
+using TextureProperty = ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty;
+
+static inline ::UnityEngine::UIElements::Cursor_PropertyBag* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x1824bbef0, size 0x100, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Cursor_PropertyBag() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Cursor_PropertyBag", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Cursor_PropertyBag(Cursor_PropertyBag && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Cursor_PropertyBag", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Cursor_PropertyBag(Cursor_PropertyBag const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3496};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::Cursor_PropertyBag) == 0x28, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

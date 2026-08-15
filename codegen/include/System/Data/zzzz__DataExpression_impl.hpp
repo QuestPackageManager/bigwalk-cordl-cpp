@@ -1,0 +1,457 @@
+#pragma once
+// IWYU pragma private; include "System/Data/DataExpression.hpp"
+#include "System/Data/Common/zzzz__StorageType_impl.hpp"
+#include "System/Data/zzzz__DataColumn_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Data/zzzz__DataExpression_def.hpp"
+#include "System/Data/zzzz__DataColumn_def.hpp"
+#include "System/Data/zzzz__DataRowVersion_def.hpp"
+#include "System/Data/zzzz__DataRow_def.hpp"
+#include "System/Data/zzzz__DataTable_def.hpp"
+#include "System/Data/zzzz__ExpressionNode_def.hpp"
+#include "System/Data/zzzz__IFilter_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Data::DataExpression._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataExpression::*)(::System::Data::DataTable*, ::StringW)>(&::System::Data::DataExpression::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181b98bf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataExpression::*)(::System::Data::DataTable*, ::StringW, ::System::Type*)>(&::System::Data::DataExpression::_ctor)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x181b98c10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.get_Expression
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::get_Expression)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181b98f00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"get_Expression", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.get_HasValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::get_HasValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ed970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"get_HasValue", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.Bind
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataExpression::*)(::System::Data::DataTable*)>(&::System::Data::DataExpression::Bind)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181b986f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"Bind", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.DependsOn
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataExpression::*)(::System::Data::DataColumn*)>(&::System::Data::DataExpression::DependsOn)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181b987d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"DependsOn", {}, {::i2c::type_of<::System::Data::DataColumn*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.Evaluate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::Evaluate)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181b98930;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"Evaluate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.Evaluate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::DataExpression::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&::System::Data::DataExpression::Evaluate)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181b98800;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"Evaluate", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Data::DataRowVersion>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.Invoke
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataExpression::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&::System::Data::DataExpression::Invoke)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181b989a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"Invoke", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Data::DataRowVersion>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.GetDependency
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::GetDependency)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e5850;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"GetDependency", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.IsTableAggregate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::IsTableAggregate)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181b98a20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"IsTableAggregate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.IsUnknown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::System::Data::DataExpression::IsUnknown)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181b98a50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"IsUnknown", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.HasLocalAggregate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::HasLocalAggregate)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181b98940;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"HasLocalAggregate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.HasRemoteAggregate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::HasRemoteAggregate)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181b98970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"HasRemoteAggregate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::DataExpression.ToBoolean
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::System::Data::DataExpression::ToBoolean)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181b98a60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"ToBoolean", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& System::Data::DataExpression::__cordl_internal_get__originalExpression()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____originalExpression;
+}
+constexpr ::StringW const& System::Data::DataExpression::__cordl_internal_get__originalExpression() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____originalExpression;
+}
+constexpr void System::Data::DataExpression::__cordl_internal_set__originalExpression(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____originalExpression = value;
+}
+constexpr bool& System::Data::DataExpression::__cordl_internal_get__parsed()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____parsed;
+}
+constexpr bool const& System::Data::DataExpression::__cordl_internal_get__parsed() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____parsed;
+}
+constexpr void System::Data::DataExpression::__cordl_internal_set__parsed(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____parsed = value;
+}
+constexpr bool& System::Data::DataExpression::__cordl_internal_get__bound()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bound;
+}
+constexpr bool const& System::Data::DataExpression::__cordl_internal_get__bound() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bound;
+}
+constexpr void System::Data::DataExpression::__cordl_internal_set__bound(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____bound = value;
+}
+constexpr ::System::Data::ExpressionNode*& System::Data::DataExpression::__cordl_internal_get__expr()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____expr;
+}
+constexpr ::System::Data::ExpressionNode* const& System::Data::DataExpression::__cordl_internal_get__expr() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____expr;
+}
+constexpr void System::Data::DataExpression::__cordl_internal_set__expr(::System::Data::ExpressionNode*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____expr = value;
+}
+constexpr ::System::Data::DataTable*& System::Data::DataExpression::__cordl_internal_get__table()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____table;
+}
+constexpr ::System::Data::DataTable* const& System::Data::DataExpression::__cordl_internal_get__table() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____table;
+}
+constexpr void System::Data::DataExpression::__cordl_internal_set__table(::System::Data::DataTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____table = value;
+}
+constexpr ::System::Data::Common::StorageType& System::Data::DataExpression::__cordl_internal_get__storageType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____storageType;
+}
+constexpr ::System::Data::Common::StorageType const& System::Data::DataExpression::__cordl_internal_get__storageType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____storageType;
+}
+constexpr void System::Data::DataExpression::__cordl_internal_set__storageType(::System::Data::Common::StorageType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____storageType = value;
+}
+constexpr ::System::Type*& System::Data::DataExpression::__cordl_internal_get__dataType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataType;
+}
+constexpr ::System::Type* const& System::Data::DataExpression::__cordl_internal_get__dataType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataType;
+}
+constexpr void System::Data::DataExpression::__cordl_internal_set__dataType(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____dataType = value;
+}
+constexpr ::ArrayW<::System::Data::DataColumn*>& System::Data::DataExpression::__cordl_internal_get__dependency()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dependency;
+}
+constexpr ::ArrayW<::System::Data::DataColumn*> const& System::Data::DataExpression::__cordl_internal_get__dependency() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dependency;
+}
+constexpr void System::Data::DataExpression::__cordl_internal_set__dependency(::ArrayW<::System::Data::DataColumn*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____dependency = value;
+}
+inline void System::Data::DataExpression::_ctor(::System::Data::DataTable*  table, ::StringW  expression)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table, expression);
+}
+inline void System::Data::DataExpression::_ctor(::System::Data::DataTable*  table, ::StringW  expression, ::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table, expression, type);
+}
+inline ::StringW System::Data::DataExpression::get_Expression()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"get_Expression", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool System::Data::DataExpression::get_HasValue()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"get_HasValue", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Data::DataExpression::Bind(::System::Data::DataTable*  table)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"Bind", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table);
+}
+inline bool System::Data::DataExpression::DependsOn(::System::Data::DataColumn*  column)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"DependsOn", {}, {::i2c::type_of<::System::Data::DataColumn*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, column);
+}
+inline ::System::Object* System::Data::DataExpression::Evaluate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"Evaluate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline ::System::Object* System::Data::DataExpression::Evaluate(::System::Data::DataRow*  row, ::System::Data::DataRowVersion  version)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"Evaluate", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Data::DataRowVersion>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, row, version);
+}
+inline bool System::Data::DataExpression::Invoke(::System::Data::DataRow*  row, ::System::Data::DataRowVersion  version)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"Invoke", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Data::DataRowVersion>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, row, version);
+}
+inline ::ArrayW<::System::Data::DataColumn*> System::Data::DataExpression::GetDependency()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"GetDependency", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Data::DataColumn*>>(this, ___internal_method);
+}
+inline bool System::Data::DataExpression::IsTableAggregate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"IsTableAggregate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Data::DataExpression::IsUnknown(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"IsUnknown", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value);
+}
+inline bool System::Data::DataExpression::HasLocalAggregate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"HasLocalAggregate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Data::DataExpression::HasRemoteAggregate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"HasRemoteAggregate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Data::DataExpression::ToBoolean(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::DataExpression*>(),
+                        {"ToBoolean", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value);
+}
+inline ::System::Data::DataExpression* System::Data::DataExpression::New_ctor(::System::Data::DataTable*  table, ::StringW  expression)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::DataExpression*>(table, expression));
+}
+inline ::System::Data::DataExpression* System::Data::DataExpression::New_ctor(::System::Data::DataTable*  table, ::StringW  expression, ::System::Type*  type)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::DataExpression*>(table, expression, type));
+}
+/// @brief Convert operator to "::System::Data::IFilter"
+constexpr  System::Data::DataExpression::operator ::System::Data::IFilter*() noexcept {
+return static_cast<::System::Data::IFilter*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Data::IFilter"
+constexpr ::System::Data::IFilter* System::Data::DataExpression::i___System__Data__IFilter() noexcept {
+return static_cast<::System::Data::IFilter*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Data::DataExpression::DataExpression()   {
+}

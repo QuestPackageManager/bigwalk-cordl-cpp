@@ -1,0 +1,148 @@
+#pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/DataTableConverter.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__DataTableConverter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/Data/zzzz__DataTable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::DataTableConverter.WriteJson
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::DataTableConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::DataTableConverter::WriteJson)> {
+  constexpr static std::size_t size = 0x4f0;
+  constexpr static std::size_t addrs = 0x181817bb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::DataTableConverter.ReadJson
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::DataTableConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::DataTableConverter::ReadJson)> {
+  constexpr static std::size_t size = 0x2b0;
+  constexpr static std::size_t addrs = 0x181817900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::DataTableConverter.CreateRow
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Newtonsoft::Json::JsonReader*, ::System::Data::DataTable*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::DataTableConverter::CreateRow)> {
+  constexpr static std::size_t size = 0x3c0;
+  constexpr static std::size_t addrs = 0x181817390;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                        {"CreateRow", {}, {::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<::Newtonsoft::Json::JsonSerializer*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::DataTableConverter.GetColumnDataType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::Newtonsoft::Json::JsonReader*)>(&::Newtonsoft::Json::Converters::DataTableConverter::GetColumnDataType)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x181817750;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                        {"GetColumnDataType", {}, {::i2c::type_of<::Newtonsoft::Json::JsonReader*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::DataTableConverter.CanConvert
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::DataTableConverter::*)(::System::Type*)>(&::Newtonsoft::Json::Converters::DataTableConverter::CanConvert)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181817340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::DataTableConverter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::DataTableConverter::*)()>(&::Newtonsoft::Json::Converters::DataTableConverter::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void Newtonsoft::Json::Converters::DataTableConverter::WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
+}
+inline ::System::Object* Newtonsoft::Json::Converters::DataTableConverter::ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);
+}
+inline void Newtonsoft::Json::Converters::DataTableConverter::CreateRow(::Newtonsoft::Json::JsonReader*  reader, ::System::Data::DataTable*  dt, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                        {"CreateRow", {}, {::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<::Newtonsoft::Json::JsonSerializer*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, reader, dt, serializer);
+}
+inline ::System::Type* Newtonsoft::Json::Converters::DataTableConverter::GetColumnDataType(::Newtonsoft::Json::JsonReader*  reader)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                        {"GetColumnDataType", {}, {::i2c::type_of<::Newtonsoft::Json::JsonReader*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, reader);
+}
+inline bool Newtonsoft::Json::Converters::DataTableConverter::CanConvert(::System::Type*  valueType)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, valueType);
+}
+inline void Newtonsoft::Json::Converters::DataTableConverter::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Converters::DataTableConverter* Newtonsoft::Json::Converters::DataTableConverter::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::DataTableConverter*>());
+}
+// Ctor Parameters []
+constexpr ::Newtonsoft::Json::Converters::DataTableConverter::DataTableConverter()   {
+}

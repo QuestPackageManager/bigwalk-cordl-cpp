@@ -1,0 +1,55 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EqualInstruction_EqualSByteLiftedToNull.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__EqualInstruction_impl.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__EqualInstruction_EqualSByteLiftedToNull_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull.Run
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull::Run)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181afa490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull*>(),
+                    {::i2c::class_of<::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull::*)()>(&::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline int32_t GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
+}
+inline void GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull* GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::EqualInstruction_EqualSByteLiftedToNull::EqualInstruction_EqualSByteLiftedToNull()   {
+}

@@ -1,0 +1,129 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextHandleTemporaryCache.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(TextHandleTemporaryCache)
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedList_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextCacheEntry;
+}
+namespace UnityEngine::TextCore::Text {
+class TextHandle;
+}
+// Forward declare root types
+namespace UnityEngine::TextCore::Text {
+class TextHandleTemporaryCache;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::TextCore::Text::TextHandleTemporaryCache*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextHandleTemporaryCache*, "UnityEngine.TextCore.Text", "TextHandleTemporaryCache");
+// Dependencies System.Object
+namespace UnityEngine::TextCore::Text {
+// Is value type: false
+// CS Name: UnityEngine.TextCore.Text.TextHandleTemporaryCache
+class CORDL_TYPE TextHandleTemporaryCache : public ::System::Object {
+public:
+// Declarations
+/// @brief Field currentFrame, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_currentFrame, put=__cordl_internal_set_currentFrame)) int32_t  currentFrame;
+
+/// @brief Field s_Cache, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_s_Cache, put=__cordl_internal_set_s_Cache)) ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>*  s_Cache;
+
+/// @brief Field syncRoot, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_syncRoot, put=__cordl_internal_set_syncRoot)) ::System::Object*  syncRoot;
+
+/// @brief Method AddTextInfoToCache, addr 0x182354fc0, size 0x550, virtual false, abstract: false, final false
+inline void AddTextInfoToCache(::UnityEngine::TextCore::Text::TextHandle*  textHandle, int32_t  hashCode) ;
+
+/// @brief Method ClearTemporaryCache, addr 0x182355510, size 0x1a0, virtual false, abstract: false, final false
+inline void ClearTemporaryCache() ;
+
+static inline ::UnityEngine::TextCore::Text::TextHandleTemporaryCache* New_ctor() ;
+
+/// @brief Method RecycleTextInfoFromCache, addr 0x1823556b0, size 0x180, virtual false, abstract: false, final false
+inline void RecycleTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle*  textHandle) ;
+
+/// @brief Method RefreshCaching, addr 0x182355830, size 0x90, virtual false, abstract: false, final false
+inline void RefreshCaching(::UnityEngine::TextCore::Text::TextHandle*  textHandle) ;
+
+/// @brief Method RemoveFromCache, addr 0x1823558c0, size 0xf0, virtual false, abstract: false, final false
+inline void RemoveFromCache(::UnityEngine::TextCore::Text::TextHandle*  handle) ;
+
+/// @brief Method ResetEntryState, addr 0x1823559b0, size 0xf0, virtual false, abstract: false, final false
+inline void ResetEntryState(::UnityEngine::TextCore::Text::TextHandle*  handle) ;
+
+/// @brief Method UpdateCurrentFrame, addr 0x182355aa0, size 0x20, virtual false, abstract: false, final false
+inline void UpdateCurrentFrame() ;
+
+constexpr int32_t const& __cordl_internal_get_currentFrame() const;
+
+constexpr int32_t& __cordl_internal_get_currentFrame() ;
+
+constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* const& __cordl_internal_get_s_Cache() const;
+
+constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>*& __cordl_internal_get_s_Cache() ;
+
+constexpr ::System::Object* const& __cordl_internal_get_syncRoot() const;
+
+constexpr ::System::Object*& __cordl_internal_get_syncRoot() ;
+
+constexpr void __cordl_internal_set_currentFrame(int32_t  value) ;
+
+constexpr void __cordl_internal_set_s_Cache(::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>*  value) ;
+
+constexpr void __cordl_internal_set_syncRoot(::System::Object*  value) ;
+
+/// @brief Method .ctor, addr 0x182355ac0, size 0x50, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextHandleTemporaryCache() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TextHandleTemporaryCache", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextHandleTemporaryCache(TextHandleTemporaryCache && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TextHandleTemporaryCache", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextHandleTemporaryCache(TextHandleTemporaryCache const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17249};
+
+/// @brief Field s_MinFramesInCache offset 0xffffffff size 0x4
+static constexpr int32_t  s_MinFramesInCache{static_cast<int32_t>(0x2)};
+
+/// @brief Field s_Cache, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>*  ___s_Cache;
+
+/// @brief Field currentFrame, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___currentFrame;
+
+/// @brief Field syncRoot, offset: 0x20, size: 0x8, def value: None
+ ::System::Object*  ___syncRoot;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandleTemporaryCache, ___s_Cache) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandleTemporaryCache, ___currentFrame) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandleTemporaryCache, ___syncRoot) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::TextCore::Text::TextHandleTemporaryCache) == 0x28, "Size mismatch!");
+
+} // namespace end def UnityEngine::TextCore::Text

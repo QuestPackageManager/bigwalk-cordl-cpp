@@ -1,0 +1,176 @@
+#pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/BinaryConverter.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__BinaryConverter_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::BinaryConverter.WriteJson
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::BinaryConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::BinaryConverter::WriteJson)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181815970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::BinaryConverter.GetByteArray
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Newtonsoft::Json::Converters::BinaryConverter::*)(::System::Object*)>(&::Newtonsoft::Json::Converters::BinaryConverter::GetByteArray)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x1818152e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                        {"GetByteArray", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::BinaryConverter.EnsureReflectionObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::Newtonsoft::Json::Converters::BinaryConverter::EnsureReflectionObject)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x1818151e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                        {"EnsureReflectionObject", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::BinaryConverter.ReadJson
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::BinaryConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::BinaryConverter::ReadJson)> {
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x181815630;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::BinaryConverter.ReadByteArray
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Newtonsoft::Json::Converters::BinaryConverter::*)(::Newtonsoft::Json::JsonReader*)>(&::Newtonsoft::Json::Converters::BinaryConverter::ReadByteArray)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x181815490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                        {"ReadByteArray", {}, {::i2c::type_of<::Newtonsoft::Json::JsonReader*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::BinaryConverter.CanConvert
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::BinaryConverter::*)(::System::Type*)>(&::Newtonsoft::Json::Converters::BinaryConverter::CanConvert)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181815150;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                    {::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Converters::BinaryConverter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::BinaryConverter::*)()>(&::Newtonsoft::Json::Converters::BinaryConverter::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void Newtonsoft::Json::Converters::BinaryConverter::setStaticF__reflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject*  value)  {
+::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::ReflectionObject*, "_reflectionObject", ::Newtonsoft::Json::Converters::BinaryConverter*>(std::forward<::Newtonsoft::Json::Utilities::ReflectionObject*>(value));
+}
+inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Converters::BinaryConverter::getStaticF__reflectionObject()  {
+return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::ReflectionObject*, "_reflectionObject", ::Newtonsoft::Json::Converters::BinaryConverter*>();
+}
+inline void Newtonsoft::Json::Converters::BinaryConverter::WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
+}
+inline ::ArrayW<uint8_t> Newtonsoft::Json::Converters::BinaryConverter::GetByteArray(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                        {"GetByteArray", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method, value);
+}
+inline void Newtonsoft::Json::Converters::BinaryConverter::EnsureReflectionObject(::System::Type*  t)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                        {"EnsureReflectionObject", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, t);
+}
+inline ::System::Object* Newtonsoft::Json::Converters::BinaryConverter::ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);
+}
+inline ::ArrayW<uint8_t> Newtonsoft::Json::Converters::BinaryConverter::ReadByteArray(::Newtonsoft::Json::JsonReader*  reader)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                        {"ReadByteArray", {}, {::i2c::type_of<::Newtonsoft::Json::JsonReader*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method, reader);
+}
+inline bool Newtonsoft::Json::Converters::BinaryConverter::CanConvert(::System::Type*  objectType)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, objectType);
+}
+inline void Newtonsoft::Json::Converters::BinaryConverter::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Converters::BinaryConverter* Newtonsoft::Json::Converters::BinaryConverter::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::BinaryConverter*>());
+}
+// Ctor Parameters []
+constexpr ::Newtonsoft::Json::Converters::BinaryConverter::BinaryConverter()   {
+}

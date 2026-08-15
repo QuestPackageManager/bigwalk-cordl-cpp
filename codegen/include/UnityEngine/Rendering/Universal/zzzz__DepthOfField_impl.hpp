@@ -1,0 +1,222 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DepthOfField.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__DepthOfField_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__DepthOfFieldModeParameter_def.hpp"
+#include "UnityEngine/Rendering/zzzz__BoolParameter_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ClampedIntParameter_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IPostProcessComponent_def.hpp"
+#include "UnityEngine/Rendering/zzzz__MinFloatParameter_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DepthOfField.IsActive
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::DepthOfField::*)()>(&::UnityEngine::Rendering::Universal::DepthOfField::IsActive)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1820f7560;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DepthOfField*>(),
+                        {"IsActive", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DepthOfField.IsTileCompatible
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::DepthOfField::*)()>(&::UnityEngine::Rendering::Universal::DepthOfField::IsTileCompatible)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DepthOfField*>(),
+                        {"IsTileCompatible", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DepthOfField._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DepthOfField::*)()>(&::UnityEngine::Rendering::Universal::DepthOfField::_ctor)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x1820f75d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DepthOfField*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Rendering::Universal::DepthOfFieldModeParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_mode()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___mode;
+}
+constexpr ::UnityEngine::Rendering::Universal::DepthOfFieldModeParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_mode() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___mode;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_mode(::UnityEngine::Rendering::Universal::DepthOfFieldModeParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___mode = value;
+}
+constexpr ::UnityEngine::Rendering::MinFloatParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_gaussianStart()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___gaussianStart;
+}
+constexpr ::UnityEngine::Rendering::MinFloatParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_gaussianStart() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___gaussianStart;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_gaussianStart(::UnityEngine::Rendering::MinFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___gaussianStart = value;
+}
+constexpr ::UnityEngine::Rendering::MinFloatParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_gaussianEnd()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___gaussianEnd;
+}
+constexpr ::UnityEngine::Rendering::MinFloatParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_gaussianEnd() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___gaussianEnd;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_gaussianEnd(::UnityEngine::Rendering::MinFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___gaussianEnd = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_gaussianMaxRadius()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___gaussianMaxRadius;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_gaussianMaxRadius() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___gaussianMaxRadius;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_gaussianMaxRadius(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___gaussianMaxRadius = value;
+}
+constexpr ::UnityEngine::Rendering::BoolParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_highQualitySampling()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___highQualitySampling;
+}
+constexpr ::UnityEngine::Rendering::BoolParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_highQualitySampling() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___highQualitySampling;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_highQualitySampling(::UnityEngine::Rendering::BoolParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___highQualitySampling = value;
+}
+constexpr ::UnityEngine::Rendering::MinFloatParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_focusDistance()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___focusDistance;
+}
+constexpr ::UnityEngine::Rendering::MinFloatParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_focusDistance() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___focusDistance;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_focusDistance(::UnityEngine::Rendering::MinFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___focusDistance = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_aperture()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___aperture;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_aperture() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___aperture;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_aperture(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___aperture = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_focalLength()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___focalLength;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_focalLength() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___focalLength;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_focalLength(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___focalLength = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedIntParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_bladeCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___bladeCount;
+}
+constexpr ::UnityEngine::Rendering::ClampedIntParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_bladeCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___bladeCount;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_bladeCount(::UnityEngine::Rendering::ClampedIntParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___bladeCount = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_bladeCurvature()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___bladeCurvature;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_bladeCurvature() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___bladeCurvature;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_bladeCurvature(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___bladeCurvature = value;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter*& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_bladeRotation()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___bladeRotation;
+}
+constexpr ::UnityEngine::Rendering::ClampedFloatParameter* const& UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_get_bladeRotation() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___bladeRotation;
+}
+constexpr void UnityEngine::Rendering::Universal::DepthOfField::__cordl_internal_set_bladeRotation(::UnityEngine::Rendering::ClampedFloatParameter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___bladeRotation = value;
+}
+inline bool UnityEngine::Rendering::Universal::DepthOfField::IsActive()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DepthOfField*>(),
+                        {"IsActive", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::Universal::DepthOfField::IsTileCompatible()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DepthOfField*>(),
+                        {"IsTileCompatible", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::DepthOfField::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DepthOfField*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::DepthOfField* UnityEngine::Rendering::Universal::DepthOfField::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::DepthOfField*>());
+}
+/// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
+constexpr  UnityEngine::Rendering::Universal::DepthOfField::operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept {
+return static_cast<::UnityEngine::Rendering::IPostProcessComponent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
+constexpr ::UnityEngine::Rendering::IPostProcessComponent* UnityEngine::Rendering::Universal::DepthOfField::i___UnityEngine__Rendering__IPostProcessComponent() noexcept {
+return static_cast<::UnityEngine::Rendering::IPostProcessComponent*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::DepthOfField::DepthOfField()   {
+}

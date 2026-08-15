@@ -1,0 +1,147 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/Numeric2FacetsChecker.hpp"
+#include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
+#include "System/Xml/Schema/zzzz__Numeric2FacetsChecker_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Xml::Schema::Numeric2FacetsChecker.CheckValueFacets
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric2FacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric2FacetsChecker::CheckValueFacets)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181d77e50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(),
+                    {::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Numeric2FacetsChecker.CheckValueFacets
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric2FacetsChecker::*)(double_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric2FacetsChecker::CheckValueFacets)> {
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x181d77bb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(),
+                    {::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Numeric2FacetsChecker.CheckValueFacets
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::Numeric2FacetsChecker::*)(float_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric2FacetsChecker::CheckValueFacets)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181d77e30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(),
+                    {::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Numeric2FacetsChecker.MatchEnumeration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Numeric2FacetsChecker::*)(::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric2FacetsChecker::MatchEnumeration)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181d77f90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(),
+                    {::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(), 17}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Numeric2FacetsChecker.MatchEnumeration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::Numeric2FacetsChecker::*)(double_t, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlValueConverter*)>(&::System::Xml::Schema::Numeric2FacetsChecker::MatchEnumeration)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181d77ed0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(),
+                        {"MatchEnumeration", {}, {::i2c::type_of<double_t>(), ::i2c::type_of<::System::Collections::ArrayList*>(), ::i2c::type_of<::System::Xml::Schema::XmlValueConverter*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::Numeric2FacetsChecker._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Numeric2FacetsChecker::*)()>(&::System::Xml::Schema::Numeric2FacetsChecker::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::System::Exception* System::Xml::Schema::Numeric2FacetsChecker::CheckValueFacets(::System::Object*  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Exception*>(this, ___internal_method, value, datatype);
+}
+inline ::System::Exception* System::Xml::Schema::Numeric2FacetsChecker::CheckValueFacets(double_t  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Exception*>(this, ___internal_method, value, datatype);
+}
+inline ::System::Exception* System::Xml::Schema::Numeric2FacetsChecker::CheckValueFacets(float_t  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Exception*>(this, ___internal_method, value, datatype);
+}
+inline bool System::Xml::Schema::Numeric2FacetsChecker::MatchEnumeration(::System::Object*  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlSchemaDatatype*  datatype)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(), 17}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value, enumeration, datatype);
+}
+inline bool System::Xml::Schema::Numeric2FacetsChecker::MatchEnumeration(double_t  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlValueConverter*  valueConverter)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(),
+                        {"MatchEnumeration", {}, {::i2c::type_of<double_t>(), ::i2c::type_of<::System::Collections::ArrayList*>(), ::i2c::type_of<::System::Xml::Schema::XmlValueConverter*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value, enumeration, valueConverter);
+}
+inline void System::Xml::Schema::Numeric2FacetsChecker::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::Numeric2FacetsChecker*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Numeric2FacetsChecker* System::Xml::Schema::Numeric2FacetsChecker::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::Numeric2FacetsChecker*>());
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::Numeric2FacetsChecker::Numeric2FacetsChecker()   {
+}

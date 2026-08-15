@@ -1,0 +1,317 @@
+#pragma once
+// IWYU pragma private; include "System/StringComparer.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/zzzz__StringComparer_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__CultureAwareComparer_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__OrdinalCaseSensitiveComparer_def.hpp"
+#include "System/zzzz__OrdinalIgnoreCaseComparer_def.hpp"
+//  Writing Method size for method: ::System::StringComparer.get_InvariantCultureIgnoreCase
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_InvariantCultureIgnoreCase)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181726b00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"get_InvariantCultureIgnoreCase", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.get_Ordinal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_Ordinal)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181726b40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"get_Ordinal", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.get_OrdinalIgnoreCase
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_OrdinalIgnoreCase)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1816615a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"get_OrdinalIgnoreCase", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::StringComparer* (*)(::System::Globalization::CultureInfo*, bool)>(&::System::StringComparer::Create)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181726820;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"Create", {}, {::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.Compare
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::StringComparer::*)(::System::Object*, ::System::Object*)>(&::System::StringComparer::Compare)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181726760;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"Compare", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::StringComparer::*)(::System::Object*, ::System::Object*)>(&::System::StringComparer::Equals)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1817268a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"Equals", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::StringComparer::*)(::System::Object*)>(&::System::StringComparer::GetHashCode)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181726910;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"GetHashCode", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.Compare
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::StringComparer::*)(::StringW, ::StringW)>(&::System::StringComparer::Compare)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::StringComparer*>(),
+                    {::i2c::class_of<::System::StringComparer*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::StringComparer::*)(::StringW, ::StringW)>(&::System::StringComparer::Equals)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::StringComparer*>(),
+                    {::i2c::class_of<::System::StringComparer*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::StringComparer::*)(::StringW)>(&::System::StringComparer::GetHashCode)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::StringComparer*>(),
+                    {::i2c::class_of<::System::StringComparer*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::StringComparer._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::StringComparer::*)()>(&::System::StringComparer::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::StringComparer::setStaticF_s_invariantCulture(::System::CultureAwareComparer*  value)  {
+::cordl_internals::setStaticField<::System::CultureAwareComparer*, "s_invariantCulture", ::System::StringComparer*>(std::forward<::System::CultureAwareComparer*>(value));
+}
+inline ::System::CultureAwareComparer* System::StringComparer::getStaticF_s_invariantCulture()  {
+return ::cordl_internals::getStaticField<::System::CultureAwareComparer*, "s_invariantCulture", ::System::StringComparer*>();
+}
+inline void System::StringComparer::setStaticF_s_invariantCultureIgnoreCase(::System::CultureAwareComparer*  value)  {
+::cordl_internals::setStaticField<::System::CultureAwareComparer*, "s_invariantCultureIgnoreCase", ::System::StringComparer*>(std::forward<::System::CultureAwareComparer*>(value));
+}
+inline ::System::CultureAwareComparer* System::StringComparer::getStaticF_s_invariantCultureIgnoreCase()  {
+return ::cordl_internals::getStaticField<::System::CultureAwareComparer*, "s_invariantCultureIgnoreCase", ::System::StringComparer*>();
+}
+inline void System::StringComparer::setStaticF_s_ordinal(::System::OrdinalCaseSensitiveComparer*  value)  {
+::cordl_internals::setStaticField<::System::OrdinalCaseSensitiveComparer*, "s_ordinal", ::System::StringComparer*>(std::forward<::System::OrdinalCaseSensitiveComparer*>(value));
+}
+inline ::System::OrdinalCaseSensitiveComparer* System::StringComparer::getStaticF_s_ordinal()  {
+return ::cordl_internals::getStaticField<::System::OrdinalCaseSensitiveComparer*, "s_ordinal", ::System::StringComparer*>();
+}
+inline void System::StringComparer::setStaticF_s_ordinalIgnoreCase(::System::OrdinalIgnoreCaseComparer*  value)  {
+::cordl_internals::setStaticField<::System::OrdinalIgnoreCaseComparer*, "s_ordinalIgnoreCase", ::System::StringComparer*>(std::forward<::System::OrdinalIgnoreCaseComparer*>(value));
+}
+inline ::System::OrdinalIgnoreCaseComparer* System::StringComparer::getStaticF_s_ordinalIgnoreCase()  {
+return ::cordl_internals::getStaticField<::System::OrdinalIgnoreCaseComparer*, "s_ordinalIgnoreCase", ::System::StringComparer*>();
+}
+inline ::System::StringComparer* System::StringComparer::get_InvariantCultureIgnoreCase()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"get_InvariantCultureIgnoreCase", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::StringComparer*>(nullptr, ___internal_method);
+}
+inline ::System::StringComparer* System::StringComparer::get_Ordinal()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"get_Ordinal", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::StringComparer*>(nullptr, ___internal_method);
+}
+inline ::System::StringComparer* System::StringComparer::get_OrdinalIgnoreCase()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"get_OrdinalIgnoreCase", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::StringComparer*>(nullptr, ___internal_method);
+}
+inline ::System::StringComparer* System::StringComparer::Create(::System::Globalization::CultureInfo*  culture, bool  ignoreCase)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"Create", {}, {::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::StringComparer*>(nullptr, ___internal_method, culture, ignoreCase);
+}
+inline int32_t System::StringComparer::Compare(::System::Object*  x, ::System::Object*  y)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"Compare", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, x, y);
+}
+inline bool System::StringComparer::Equals(::System::Object*  x, ::System::Object*  y)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"Equals", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x, y);
+}
+inline int32_t System::StringComparer::GetHashCode(::System::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {"GetHashCode", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, obj);
+}
+inline int32_t System::StringComparer::Compare(::StringW  x, ::StringW  y)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::StringComparer*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, x, y);
+}
+inline bool System::StringComparer::Equals(::StringW  x, ::StringW  y)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::StringComparer*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x, y);
+}
+inline int32_t System::StringComparer::GetHashCode(::StringW  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::StringComparer*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, obj);
+}
+inline void System::StringComparer::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::StringComparer*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::StringComparer* System::StringComparer::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::StringComparer*>());
+}
+/// @brief Convert operator to "::System::Collections::IComparer"
+constexpr  System::StringComparer::operator ::System::Collections::IComparer*() noexcept {
+return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IComparer"
+constexpr ::System::Collections::IComparer* System::StringComparer::i___System__Collections__IComparer() noexcept {
+return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEqualityComparer"
+constexpr  System::StringComparer::operator ::System::Collections::IEqualityComparer*() noexcept {
+return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEqualityComparer"
+constexpr ::System::Collections::IEqualityComparer* System::StringComparer::i___System__Collections__IEqualityComparer() noexcept {
+return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::StringW>"
+constexpr  System::StringComparer::operator ::System::Collections::Generic::IComparer_1<::StringW>*() noexcept {
+return static_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IComparer_1<::StringW>"
+constexpr ::System::Collections::Generic::IComparer_1<::StringW>* System::StringComparer::i___System__Collections__Generic__IComparer_1___StringW_() noexcept {
+return static_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
+constexpr  System::StringComparer::operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept {
+return static_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
+constexpr ::System::Collections::Generic::IEqualityComparer_1<::StringW>* System::StringComparer::i___System__Collections__Generic__IEqualityComparer_1___StringW_() noexcept {
+return static_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::StringComparer::StringComparer()   {
+}

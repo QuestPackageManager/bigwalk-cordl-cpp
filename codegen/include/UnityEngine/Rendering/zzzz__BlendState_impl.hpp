@@ -1,0 +1,164 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/BlendState.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderTargetBlendState_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__BlendState_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderTargetBlendState_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::BlendState.get_defaultValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BlendState (*)()>(&::UnityEngine::Rendering::BlendState::get_defaultValue)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1822a4da0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                        {"get_defaultValue", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BlendState._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BlendState::*)(bool, bool)>(&::UnityEngine::Rendering::BlendState::_ctor)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x1822a4cc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                        {".ctor", {}, {::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BlendState.set_blendState0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BlendState::*)(::UnityEngine::Rendering::RenderTargetBlendState)>(&::UnityEngine::Rendering::BlendState::set_blendState0)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1804bd910;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                        {"set_blendState0", {}, {::i2c::type_of<::UnityEngine::Rendering::RenderTargetBlendState>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BlendState.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BlendState::*)(::UnityEngine::Rendering::BlendState)>(&::UnityEngine::Rendering::BlendState::Equals)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x1822a45e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                        {"Equals", {}, {::i2c::type_of<::UnityEngine::Rendering::BlendState>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BlendState.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BlendState::*)(::System::Object*)>(&::UnityEngine::Rendering::BlendState::Equals)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1822a4810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::BlendState>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BlendState.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BlendState::*)()>(&::UnityEngine::Rendering::BlendState::GetHashCode)> {
+  constexpr static std::size_t size = 0x410;
+  constexpr static std::size_t addrs = 0x1822a48b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::BlendState>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::Rendering::BlendState UnityEngine::Rendering::BlendState::get_defaultValue()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                        {"get_defaultValue", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::BlendState>(nullptr, ___internal_method);
+}
+inline void UnityEngine::Rendering::BlendState::_ctor(bool  separateMRTBlend, bool  alphaToMask)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                        {".ctor", {}, {::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, separateMRTBlend, alphaToMask);
+}
+inline void UnityEngine::Rendering::BlendState::set_blendState0(::UnityEngine::Rendering::RenderTargetBlendState  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                        {"set_blendState0", {}, {::i2c::type_of<::UnityEngine::Rendering::RenderTargetBlendState>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::BlendState::Equals(::UnityEngine::Rendering::BlendState  other)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::BlendState>(),
+                        {"Equals", {}, {::i2c::type_of<::UnityEngine::Rendering::BlendState>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Rendering::BlendState::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::BlendState>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline int32_t UnityEngine::Rendering::BlendState::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::BlendState>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BlendState>"
+constexpr  UnityEngine::Rendering::BlendState::operator ::System::IEquatable_1<::UnityEngine::Rendering::BlendState>*()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BlendState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BlendState>"
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BlendState>* UnityEngine::Rendering::BlendState::i___System__IEquatable_1___UnityEngine__Rendering__BlendState_()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BlendState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "m_BlendState0", ty: "::UnityEngine::Rendering::RenderTargetBlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlendState1", ty: "::UnityEngine::Rendering::RenderTargetBlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlendState2", ty: "::UnityEngine::Rendering::RenderTargetBlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlendState3", ty: "::UnityEngine::Rendering::RenderTargetBlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlendState4", ty: "::UnityEngine::Rendering::RenderTargetBlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlendState5", ty: "::UnityEngine::Rendering::RenderTargetBlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlendState6", ty: "::UnityEngine::Rendering::RenderTargetBlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlendState7", ty: "::UnityEngine::Rendering::RenderTargetBlendState", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SeparateMRTBlendStates", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AlphaToMask", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Padding", ty: "int16_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::BlendState::BlendState(::UnityEngine::Rendering::RenderTargetBlendState  m_BlendState0, ::UnityEngine::Rendering::RenderTargetBlendState  m_BlendState1, ::UnityEngine::Rendering::RenderTargetBlendState  m_BlendState2, ::UnityEngine::Rendering::RenderTargetBlendState  m_BlendState3, ::UnityEngine::Rendering::RenderTargetBlendState  m_BlendState4, ::UnityEngine::Rendering::RenderTargetBlendState  m_BlendState5, ::UnityEngine::Rendering::RenderTargetBlendState  m_BlendState6, ::UnityEngine::Rendering::RenderTargetBlendState  m_BlendState7, uint8_t  m_SeparateMRTBlendStates, uint8_t  m_AlphaToMask, int16_t  m_Padding) noexcept  {
+this->m_BlendState0 = m_BlendState0;
+this->m_BlendState1 = m_BlendState1;
+this->m_BlendState2 = m_BlendState2;
+this->m_BlendState3 = m_BlendState3;
+this->m_BlendState4 = m_BlendState4;
+this->m_BlendState5 = m_BlendState5;
+this->m_BlendState6 = m_BlendState6;
+this->m_BlendState7 = m_BlendState7;
+this->m_SeparateMRTBlendStates = m_SeparateMRTBlendStates;
+this->m_AlphaToMask = m_AlphaToMask;
+this->m_Padding = m_Padding;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::BlendState::BlendState()   {
+}

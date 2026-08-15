@@ -1,0 +1,84 @@
+#pragma once
+// IWYU pragma private; include "TMPro/TMP_SpriteGlyph.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include <cmath>
+#include <cstdint>
+CORDL_MODULE_EXPORT(TMP_SpriteGlyph)
+namespace UnityEngine::TextCore {
+struct GlyphMetrics;
+}
+namespace UnityEngine::TextCore {
+struct GlyphRect;
+}
+namespace UnityEngine {
+class Sprite;
+}
+// Forward declare root types
+namespace TMPro {
+class TMP_SpriteGlyph;
+}
+// Write type traits
+MARK_REF_T(::TMPro::TMP_SpriteGlyph*);
+DEFINE_IL2CPP_CLASS(::TMPro::TMP_SpriteGlyph*, "TMPro", "TMP_SpriteGlyph");
+// Dependencies UnityEngine.TextCore.Glyph
+namespace TMPro {
+// Is value type: false
+// CS Name: TMPro.TMP_SpriteGlyph
+class CORDL_TYPE TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
+public:
+// Declarations
+/// @brief Field sprite, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_sprite, put=__cordl_internal_set_sprite)) ::UnityW<::UnityEngine::Sprite>  sprite;
+
+static inline ::TMPro::TMP_SpriteGlyph* New_ctor() ;
+
+static inline ::TMPro::TMP_SpriteGlyph* New_ctor(uint32_t  index, ::UnityEngine::TextCore::GlyphMetrics  metrics, ::UnityEngine::TextCore::GlyphRect  glyphRect, float_t  scale, int32_t  atlasIndex) ;
+
+static inline ::TMPro::TMP_SpriteGlyph* New_ctor(uint32_t  index, ::UnityEngine::TextCore::GlyphMetrics  metrics, ::UnityEngine::TextCore::GlyphRect  glyphRect, float_t  scale, int32_t  atlasIndex, ::UnityEngine::Sprite*  sprite) ;
+
+constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_sprite() const;
+
+constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_sprite() ;
+
+constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite>  value) ;
+
+/// @brief Method .ctor, addr 0x1821d10e0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method .ctor, addr 0x1821d1040, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(uint32_t  index, ::UnityEngine::TextCore::GlyphMetrics  metrics, ::UnityEngine::TextCore::GlyphRect  glyphRect, float_t  scale, int32_t  atlasIndex) ;
+
+/// @brief Method .ctor, addr 0x1821d0f80, size 0xc0, virtual false, abstract: false, final false
+inline void _ctor(uint32_t  index, ::UnityEngine::TextCore::GlyphMetrics  metrics, ::UnityEngine::TextCore::GlyphRect  glyphRect, float_t  scale, int32_t  atlasIndex, ::UnityEngine::Sprite*  sprite) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_SpriteGlyph() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteGlyph", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TMP_SpriteGlyph(TMP_SpriteGlyph && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteGlyph", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TMP_SpriteGlyph(TMP_SpriteGlyph const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15238};
+
+/// @brief Field sprite, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Sprite>  ___sprite;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::TMPro::TMP_SpriteGlyph, ___sprite) == 0x48, "Offset mismatch!");
+
+static_assert(sizeof(::TMPro::TMP_SpriteGlyph) == 0x50, "Size mismatch!");
+
+} // namespace end def TMPro

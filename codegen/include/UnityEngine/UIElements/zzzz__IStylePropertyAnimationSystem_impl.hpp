@@ -1,0 +1,573 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IStylePropertyAnimationSystem.hpp"
+#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BackgroundPosition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BackgroundRepeat_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BackgroundSize_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Background_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FilterFunction_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Length_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MaterialDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Ratio_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, float_t, float_t, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t, int32_t, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::Color, ::UnityEngine::Color, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransitionEnum
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t, int32_t, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransitionEnum)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Background, ::UnityEngine::UIElements::Background, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::FontDefinition, ::UnityEngine::UIElements::FontDefinition, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::Font*, ::UnityEngine::Font*, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 16}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 17}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.StartTransition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, int32_t, int32_t, ::System::Func_2<float_t,float_t>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 18}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.CancelAllAnimations
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)()>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::CancelAllAnimations)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.CancelAllAnimations
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::CancelAllAnimations)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.CancelAnimation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::CancelAnimation)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 21}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.UpdateAnimation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::UpdateAnimation)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 22}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.GetAllAnimations
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::GetAllAnimations)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 23}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IStylePropertyAnimationSystem.Update
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IStylePropertyAnimationSystem::*)(double_t)>(&::UnityEngine::UIElements::IStylePropertyAnimationSystem::Update)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 24}
+                ));
+    return ___internal_method;
+  }
+};
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, float_t  startValue, float_t  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, int32_t  startValue, int32_t  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::Length  startValue, ::UnityEngine::UIElements::Length  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::Color  startValue, ::UnityEngine::Color  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransitionEnum(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, int32_t  startValue, int32_t  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::Background  startValue, ::UnityEngine::UIElements::Background  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::FontDefinition  startValue, ::UnityEngine::UIElements::FontDefinition  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::Font*  startValue, ::UnityEngine::Font*  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::TextShadow  startValue, ::UnityEngine::UIElements::TextShadow  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::Scale  startValue, ::UnityEngine::UIElements::Scale  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::TransformOrigin  startValue, ::UnityEngine::UIElements::TransformOrigin  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::Translate  startValue, ::UnityEngine::UIElements::Translate  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::Rotate  startValue, ::UnityEngine::UIElements::Rotate  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::Ratio  startValue, ::UnityEngine::UIElements::Ratio  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::BackgroundPosition  startValue, ::UnityEngine::UIElements::BackgroundPosition  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::BackgroundRepeat  startValue, ::UnityEngine::UIElements::BackgroundRepeat  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::BackgroundSize  startValue, ::UnityEngine::UIElements::BackgroundSize  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 16}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*  startValue, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 17}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline bool UnityEngine::UIElements::IStylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  prop, ::UnityEngine::UIElements::MaterialDefinition  startValue, ::UnityEngine::UIElements::MaterialDefinition  endValue, int32_t  durationMs, int32_t  delayMs, ::System::Func_2<float_t,float_t>*  easingCurve)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 18}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, owner, prop, startValue, endValue, durationMs, delayMs, easingCurve);
+}
+inline void UnityEngine::UIElements::IStylePropertyAnimationSystem::CancelAllAnimations()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::IStylePropertyAnimationSystem::CancelAllAnimations(::UnityEngine::UIElements::VisualElement*  owner)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, owner);
+}
+inline void UnityEngine::UIElements::IStylePropertyAnimationSystem::CancelAnimation(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  id)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 21}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, owner, id);
+}
+inline void UnityEngine::UIElements::IStylePropertyAnimationSystem::UpdateAnimation(::UnityEngine::UIElements::VisualElement*  owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId  id)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 22}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, owner, id);
+}
+inline void UnityEngine::UIElements::IStylePropertyAnimationSystem::GetAllAnimations(::UnityEngine::UIElements::VisualElement*  owner, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*  propertyIds)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 23}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, owner, propertyIds);
+}
+inline void UnityEngine::UIElements::IStylePropertyAnimationSystem::Update(double_t  updateTimeInSeconds)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IStylePropertyAnimationSystem*>(), 24}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, updateTimeInSeconds);
+}

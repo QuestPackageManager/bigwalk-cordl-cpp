@@ -1,0 +1,71 @@
+#pragma once
+// IWYU pragma private; include "System/ArgumentNullException.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__ArgumentException_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(ArgumentNullException)
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+// Forward declare root types
+namespace System {
+class ArgumentNullException;
+}
+// Write type traits
+MARK_REF_T(::System::ArgumentNullException*);
+DEFINE_IL2CPP_CLASS(::System::ArgumentNullException*, "System", "ArgumentNullException");
+// Dependencies System.ArgumentException
+namespace System {
+// Is value type: false
+// CS Name: System.ArgumentNullException
+class CORDL_TYPE ArgumentNullException : public ::System::ArgumentException {
+public:
+// Declarations
+static inline ::System::ArgumentNullException* New_ctor() ;
+
+static inline ::System::ArgumentNullException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+
+static inline ::System::ArgumentNullException* New_ctor(::StringW  paramName) ;
+
+static inline ::System::ArgumentNullException* New_ctor(::StringW  paramName, ::StringW  message) ;
+
+/// @brief Method .ctor, addr 0x18169b820, size 0x30, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method .ctor, addr 0x18169b6d0, size 0x60, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+
+/// @brief Method .ctor, addr 0x18169b7d0, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(::StringW  paramName) ;
+
+/// @brief Method .ctor, addr 0x18169b850, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(::StringW  paramName, ::StringW  message) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ArgumentNullException() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ArgumentNullException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ArgumentNullException(ArgumentNullException && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ArgumentNullException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ArgumentNullException(ArgumentNullException const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{177};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::ArgumentNullException) == 0x98, "Size mismatch!");
+
+} // namespace end def System

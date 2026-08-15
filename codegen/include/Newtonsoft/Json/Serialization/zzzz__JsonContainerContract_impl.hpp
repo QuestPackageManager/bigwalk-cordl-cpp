@@ -1,0 +1,355 @@
+#pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonContainerContract.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_impl.hpp"
+#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_impl.hpp"
+#include "Newtonsoft/Json/zzzz__TypeNameHandling_impl.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.get_ItemContract
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::JsonContract* (::Newtonsoft::Json::Serialization::JsonContainerContract::*)()>(&::Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemContract)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180312ea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemContract", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.set_ItemContract
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonContainerContract::*)(::Newtonsoft::Json::Serialization::JsonContract*)>(&::Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemContract)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1817d59e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemContract", {}, {::i2c::type_of<::Newtonsoft::Json::Serialization::JsonContract*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.get_FinalItemContract
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::JsonContract* (::Newtonsoft::Json::Serialization::JsonContainerContract::*)()>(&::Newtonsoft::Json::Serialization::JsonContainerContract::get_FinalItemContract)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ec4b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_FinalItemContract", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.get_ItemConverter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::JsonConverter* (::Newtonsoft::Json::Serialization::JsonContainerContract::*)()>(&::Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemConverter)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ec4d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemConverter", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.set_ItemConverter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonContainerContract::*)(::Newtonsoft::Json::JsonConverter*)>(&::Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemConverter)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1802ec810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemConverter", {}, {::i2c::type_of<::Newtonsoft::Json::JsonConverter*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.get_ItemIsReference
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::Newtonsoft::Json::Serialization::JsonContainerContract::*)()>(&::Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemIsReference)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180459fd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemIsReference", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.set_ItemIsReference
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonContainerContract::*)(::System::Nullable_1<bool>)>(&::Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemIsReference)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180459fe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemIsReference", {}, {::i2c::type_of<::System::Nullable_1<bool>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.get_ItemReferenceLoopHandling
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> (::Newtonsoft::Json::Serialization::JsonContainerContract::*)()>(&::Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemReferenceLoopHandling)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1817d59c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemReferenceLoopHandling", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.set_ItemReferenceLoopHandling
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonContainerContract::*)(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>)>(&::Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemReferenceLoopHandling)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1817d5a50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemReferenceLoopHandling", {}, {::i2c::type_of<::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.get_ItemTypeNameHandling
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> (::Newtonsoft::Json::Serialization::JsonContainerContract::*)()>(&::Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemTypeNameHandling)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1817d59d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemTypeNameHandling", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract.set_ItemTypeNameHandling
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonContainerContract::*)(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>)>(&::Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemTypeNameHandling)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1817d5a60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemTypeNameHandling", {}, {::i2c::type_of<::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonContainerContract._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonContainerContract::*)(::System::Type*)>(&::Newtonsoft::Json::Serialization::JsonContainerContract::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1817d5920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::Newtonsoft::Json::Serialization::JsonContract*& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__itemContract()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____itemContract;
+}
+constexpr ::Newtonsoft::Json::Serialization::JsonContract* const& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__itemContract() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____itemContract;
+}
+constexpr void Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_set__itemContract(::Newtonsoft::Json::Serialization::JsonContract*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____itemContract = value;
+}
+constexpr ::Newtonsoft::Json::Serialization::JsonContract*& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__finalItemContract()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____finalItemContract;
+}
+constexpr ::Newtonsoft::Json::Serialization::JsonContract* const& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__finalItemContract() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____finalItemContract;
+}
+constexpr void Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_set__finalItemContract(::Newtonsoft::Json::Serialization::JsonContract*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____finalItemContract = value;
+}
+constexpr ::Newtonsoft::Json::JsonConverter*& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__ItemConverter_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ItemConverter_k__BackingField;
+}
+constexpr ::Newtonsoft::Json::JsonConverter* const& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__ItemConverter_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ItemConverter_k__BackingField;
+}
+constexpr void Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_set__ItemConverter_k__BackingField(::Newtonsoft::Json::JsonConverter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ItemConverter_k__BackingField = value;
+}
+constexpr ::System::Nullable_1<bool>& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__ItemIsReference_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ItemIsReference_k__BackingField;
+}
+constexpr ::System::Nullable_1<bool> const& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__ItemIsReference_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ItemIsReference_k__BackingField;
+}
+constexpr void Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_set__ItemIsReference_k__BackingField(::System::Nullable_1<bool>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ItemIsReference_k__BackingField = value;
+}
+constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__ItemReferenceLoopHandling_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ItemReferenceLoopHandling_k__BackingField;
+}
+constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__ItemReferenceLoopHandling_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ItemReferenceLoopHandling_k__BackingField;
+}
+constexpr void Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_set__ItemReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ItemReferenceLoopHandling_k__BackingField = value;
+}
+constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__ItemTypeNameHandling_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ItemTypeNameHandling_k__BackingField;
+}
+constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_get__ItemTypeNameHandling_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ItemTypeNameHandling_k__BackingField;
+}
+constexpr void Newtonsoft::Json::Serialization::JsonContainerContract::__cordl_internal_set__ItemTypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ItemTypeNameHandling_k__BackingField = value;
+}
+inline ::Newtonsoft::Json::Serialization::JsonContract* Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemContract()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemContract", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::JsonContract*>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemContract", {}, {::i2c::type_of<::Newtonsoft::Json::Serialization::JsonContract*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::Newtonsoft::Json::Serialization::JsonContract* Newtonsoft::Json::Serialization::JsonContainerContract::get_FinalItemContract()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_FinalItemContract", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::JsonContract*>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::JsonConverter* Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemConverter()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemConverter", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonConverter*>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemConverter(::Newtonsoft::Json::JsonConverter*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemConverter", {}, {::i2c::type_of<::Newtonsoft::Json::JsonConverter*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Nullable_1<bool> Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemIsReference()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemIsReference", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<bool>>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemIsReference(::System::Nullable_1<bool>  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemIsReference", {}, {::i2c::type_of<::System::Nullable_1<bool>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemReferenceLoopHandling()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemReferenceLoopHandling", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemReferenceLoopHandling", {}, {::i2c::type_of<::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> Newtonsoft::Json::Serialization::JsonContainerContract::get_ItemTypeNameHandling()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"get_ItemTypeNameHandling", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Serialization::JsonContainerContract::set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {"set_ItemTypeNameHandling", {}, {::i2c::type_of<::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void Newtonsoft::Json::Serialization::JsonContainerContract::_ctor(::System::Type*  underlyingType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, underlyingType);
+}
+inline ::Newtonsoft::Json::Serialization::JsonContainerContract* Newtonsoft::Json::Serialization::JsonContainerContract::New_ctor(::System::Type*  underlyingType)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::JsonContainerContract*>(underlyingType));
+}
+// Ctor Parameters []
+constexpr ::Newtonsoft::Json::Serialization::JsonContainerContract::JsonContainerContract()   {
+}

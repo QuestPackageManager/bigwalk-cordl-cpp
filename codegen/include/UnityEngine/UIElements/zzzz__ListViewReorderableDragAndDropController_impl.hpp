@@ -1,0 +1,91 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ListViewReorderableDragAndDropController.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__ListViewReorderableDragAndDropController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseListView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewReorderableDragAndDropController._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(::UnityEngine::UIElements::BaseListView*)>(&::UnityEngine::UIElements::ListViewReorderableDragAndDropController::_ctor)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x1824bbd50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::UIElements::BaseListView*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewReorderableDragAndDropController.HandleDragAndDrop
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(::UnityEngine::UIElements::IListDragAndDropArgs*)>(&::UnityEngine::UIElements::ListViewReorderableDragAndDropController::HandleDragAndDrop)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1824bbad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ListViewReorderableDragAndDropController.OnDrop
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(::UnityEngine::UIElements::IListDragAndDropArgs*)>(&::UnityEngine::UIElements::ListViewReorderableDragAndDropController::OnDrop)> {
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x1824bbb70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::BaseListView*& UnityEngine::UIElements::ListViewReorderableDragAndDropController::__cordl_internal_get_m_ListView()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ListView;
+}
+constexpr ::UnityEngine::UIElements::BaseListView* const& UnityEngine::UIElements::ListViewReorderableDragAndDropController::__cordl_internal_get_m_ListView() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ListView;
+}
+constexpr void UnityEngine::UIElements::ListViewReorderableDragAndDropController::__cordl_internal_set_m_ListView(::UnityEngine::UIElements::BaseListView*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ListView = value;
+}
+inline void UnityEngine::UIElements::ListViewReorderableDragAndDropController::_ctor(::UnityEngine::UIElements::BaseListView*  view)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::UIElements::BaseListView*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, view);
+}
+inline ::UnityEngine::UIElements::DragVisualMode UnityEngine::UIElements::ListViewReorderableDragAndDropController::HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs*  args)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DragVisualMode>(this, ___internal_method, args);
+}
+inline void UnityEngine::UIElements::ListViewReorderableDragAndDropController::OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs*  args)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, args);
+}
+inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* UnityEngine::UIElements::ListViewReorderableDragAndDropController::New_ctor(::UnityEngine::UIElements::BaseListView*  view)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(view));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::ListViewReorderableDragAndDropController::ListViewReorderableDragAndDropController()   {
+}

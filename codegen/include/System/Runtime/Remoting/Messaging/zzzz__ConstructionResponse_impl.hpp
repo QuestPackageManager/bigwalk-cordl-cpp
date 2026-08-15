@@ -1,0 +1,147 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/ConstructionResponse.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__MethodResponse_impl.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__ConstructionResponse_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ConstructionResponse._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(::System::Object*, ::System::Runtime::Remoting::Messaging::LogicalCallContext*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18163cad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::LogicalCallContext*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ConstructionResponse._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(::System::Exception*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x18163cb60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ConstructionResponse._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x18163cc20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ConstructionResponse.get_Properties
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)()>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x18163cd20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(),
+                    {::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(), 22}
+                ));
+    return ___internal_method;
+  }
+};
+inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Object*  resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext*  callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*  msg)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::LogicalCallContext*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, resultObject, callCtx, msg);
+}
+inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Exception*  e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*  msg)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e, msg);
+}
+inline void System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
+}
+inline ::System::Collections::IDictionary* System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(), 22}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Object*  resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext*  callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*  msg)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(resultObject, callCtx, msg));
+}
+inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Exception*  e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*  msg)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(e, msg));
+}
+inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* System::Runtime::Remoting::Messaging::ConstructionResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::Messaging::ConstructionResponse*>(info, context));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Activation::IConstructionReturnMessage"
+constexpr  System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Activation::IConstructionReturnMessage*() noexcept {
+return static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionReturnMessage"
+constexpr ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Activation__IConstructionReturnMessage() noexcept {
+return static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
+constexpr  System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept {
+return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
+constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept {
+return static_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+constexpr  System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept {
+return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept {
+return static_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
+constexpr  System::Runtime::Remoting::Messaging::ConstructionResponse::operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept {
+return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+constexpr ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Messaging::ConstructionResponse::i___System__Runtime__Remoting__Messaging__IMessage() noexcept {
+return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Remoting::Messaging::ConstructionResponse::ConstructionResponse()   {
+}

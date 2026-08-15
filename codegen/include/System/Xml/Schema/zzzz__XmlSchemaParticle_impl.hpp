@@ -1,0 +1,331 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaParticle.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
+#include "System/zzzz__Decimal_impl.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaParticle_EmptyParticle_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Xml::Schema::XmlSchemaParticle_Occurs::XmlSchemaParticle_Occurs(int32_t  value__) noexcept  {
+this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::XmlSchemaParticle_Occurs::XmlSchemaParticle_Occurs()   {
+}
+constexpr ::System::Xml::Schema::XmlSchemaParticle_Occurs  System::Xml::Schema::XmlSchemaParticle_Occurs::None{static_cast<int32_t>(0x0)};
+constexpr ::System::Xml::Schema::XmlSchemaParticle_Occurs  System::Xml::Schema::XmlSchemaParticle_Occurs::Min{static_cast<int32_t>(0x1)};
+constexpr ::System::Xml::Schema::XmlSchemaParticle_Occurs  System::Xml::Schema::XmlSchemaParticle_Occurs::Max{static_cast<int32_t>(0x2)};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.get_MinOccursString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_MinOccursString)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181ca2670;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"get_MinOccursString", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.set_MinOccursString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaParticle::set_MinOccursString)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x181ca29d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"set_MinOccursString", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.get_MaxOccursString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_MaxOccursString)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181ca25c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"get_MaxOccursString", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.set_MaxOccursString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaParticle::set_MaxOccursString)> {
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x181ca26a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"set_MaxOccursString", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.get_MinOccurs
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_MinOccurs)> {
+  constexpr static std::size_t size = 0xbb40;
+  constexpr static std::size_t addrs = 0x180e3e650;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"get_MinOccurs", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.set_MinOccurs
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::System::Decimal)>(&::System::Xml::Schema::XmlSchemaParticle::set_MinOccurs)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x181ca2ae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"set_MinOccurs", {}, {::i2c::type_of<::System::Decimal>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.get_MaxOccurs
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_MaxOccurs)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181788310;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"get_MaxOccurs", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.set_MaxOccurs
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::System::Decimal)>(&::System::Xml::Schema::XmlSchemaParticle::set_MaxOccurs)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x181ca2880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"set_MaxOccurs", {}, {::i2c::type_of<::System::Decimal>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.get_IsEmpty
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_IsEmpty)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181ca2560;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.get_NameString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_NameString)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x180393520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                    {::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle.GetQualifiedName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::GetQualifiedName)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x181ca2380;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"GetQualifiedName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaParticle._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181c9d6f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Decimal& System::Xml::Schema::XmlSchemaParticle::__cordl_internal_get_minOccurs()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___minOccurs;
+}
+constexpr ::System::Decimal const& System::Xml::Schema::XmlSchemaParticle::__cordl_internal_get_minOccurs() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___minOccurs;
+}
+constexpr void System::Xml::Schema::XmlSchemaParticle::__cordl_internal_set_minOccurs(::System::Decimal  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___minOccurs = value;
+}
+constexpr ::System::Decimal& System::Xml::Schema::XmlSchemaParticle::__cordl_internal_get_maxOccurs()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___maxOccurs;
+}
+constexpr ::System::Decimal const& System::Xml::Schema::XmlSchemaParticle::__cordl_internal_get_maxOccurs() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___maxOccurs;
+}
+constexpr void System::Xml::Schema::XmlSchemaParticle::__cordl_internal_set_maxOccurs(::System::Decimal  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___maxOccurs = value;
+}
+constexpr ::System::Xml::Schema::XmlSchemaParticle_Occurs& System::Xml::Schema::XmlSchemaParticle::__cordl_internal_get_flags()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___flags;
+}
+constexpr ::System::Xml::Schema::XmlSchemaParticle_Occurs const& System::Xml::Schema::XmlSchemaParticle::__cordl_internal_get_flags() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___flags;
+}
+constexpr void System::Xml::Schema::XmlSchemaParticle::__cordl_internal_set_flags(::System::Xml::Schema::XmlSchemaParticle_Occurs  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___flags = value;
+}
+inline void System::Xml::Schema::XmlSchemaParticle::setStaticF_Empty(::System::Xml::Schema::XmlSchemaParticle*  value)  {
+::cordl_internals::setStaticField<::System::Xml::Schema::XmlSchemaParticle*, "Empty", ::System::Xml::Schema::XmlSchemaParticle*>(std::forward<::System::Xml::Schema::XmlSchemaParticle*>(value));
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::XmlSchemaParticle::getStaticF_Empty()  {
+return ::cordl_internals::getStaticField<::System::Xml::Schema::XmlSchemaParticle*, "Empty", ::System::Xml::Schema::XmlSchemaParticle*>();
+}
+inline ::StringW System::Xml::Schema::XmlSchemaParticle::get_MinOccursString()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"get_MinOccursString", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchemaParticle::set_MinOccursString(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"set_MinOccursString", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW System::Xml::Schema::XmlSchemaParticle::get_MaxOccursString()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"get_MaxOccursString", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchemaParticle::set_MaxOccursString(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"set_MaxOccursString", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Decimal System::Xml::Schema::XmlSchemaParticle::get_MinOccurs()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"get_MinOccurs", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Decimal>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchemaParticle::set_MinOccurs(::System::Decimal  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"set_MinOccurs", {}, {::i2c::type_of<::System::Decimal>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Decimal System::Xml::Schema::XmlSchemaParticle::get_MaxOccurs()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"get_MaxOccurs", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Decimal>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchemaParticle::set_MaxOccurs(::System::Decimal  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"set_MaxOccurs", {}, {::i2c::type_of<::System::Decimal>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool System::Xml::Schema::XmlSchemaParticle::get_IsEmpty()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::StringW System::Xml::Schema::XmlSchemaParticle::get_NameString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::Xml::XmlQualifiedName* System::Xml::Schema::XmlSchemaParticle::GetQualifiedName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {"GetQualifiedName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchemaParticle::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaParticle* System::Xml::Schema::XmlSchemaParticle::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::XmlSchemaParticle*>());
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::XmlSchemaParticle::XmlSchemaParticle()   {
+}

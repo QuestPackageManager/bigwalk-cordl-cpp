@@ -1,0 +1,225 @@
+#pragma once
+// IWYU pragma private; include "System/Globalization/UmAlQuraCalendar.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(UmAlQuraCalendar)
+namespace System::Globalization {
+struct UmAlQuraCalendar_DateMapping;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct DayOfWeek;
+}
+// Forward declare root types
+namespace System::Globalization {
+class UmAlQuraCalendar;
+}
+namespace System::Globalization {
+struct UmAlQuraCalendar_DateMapping;
+}
+// Write type traits
+MARK_REF_T(::System::Globalization::UmAlQuraCalendar*);
+MARK_VAL_T(::System::Globalization::UmAlQuraCalendar_DateMapping);
+DEFINE_IL2CPP_CLASS(::System::Globalization::UmAlQuraCalendar*, "System.Globalization", "UmAlQuraCalendar");
+DEFINE_IL2CPP_CLASS(::System::Globalization::UmAlQuraCalendar_DateMapping, "System.Globalization", "UmAlQuraCalendar/DateMapping");
+// Dependencies System.DateTime
+namespace System::Globalization {
+// Is value type: true
+// CS Name: System.Globalization.UmAlQuraCalendar/DateMapping
+struct CORDL_TYPE UmAlQuraCalendar_DateMapping {
+public:
+// Declarations
+/// @brief Method .ctor, addr 0x1816b39c0, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(int32_t  MonthsLengthFlags, int32_t  GYear, int32_t  GMonth, int32_t  GDay) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr UmAlQuraCalendar_DateMapping() ;
+
+// Ctor Parameters [CppParam { name: "HijriMonthsLengthFlags", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "GregorianDate", ty: "::System::DateTime", modifiers: "", def_value: None }]
+constexpr UmAlQuraCalendar_DateMapping(int32_t  HijriMonthsLengthFlags, ::System::DateTime  GregorianDate) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1396};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
+
+/// @brief Field HijriMonthsLengthFlags, offset: 0x0, size: 0x4, def value: None
+ int32_t  HijriMonthsLengthFlags;
+
+/// @brief Field GregorianDate, offset: 0x8, size: 0x8, def value: None
+ ::System::DateTime  GregorianDate;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Globalization::UmAlQuraCalendar_DateMapping, HijriMonthsLengthFlags) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Globalization::UmAlQuraCalendar_DateMapping, GregorianDate) == 0x8, "Offset mismatch!");
+
+static_assert(sizeof(::System::Globalization::UmAlQuraCalendar_DateMapping) == 0x10, "Size mismatch!");
+
+} // namespace end def System::Globalization
+// Dependencies System.DateTime, System.Globalization.Calendar, System.Globalization.UmAlQuraCalendar::DateMapping
+namespace System::Globalization {
+// Is value type: false
+// CS Name: System.Globalization.UmAlQuraCalendar
+class CORDL_TYPE UmAlQuraCalendar : public ::System::Globalization::Calendar {
+public:
+// Declarations
+using DateMapping = ::System::Globalization::UmAlQuraCalendar_DateMapping;
+
+ __declspec(property(get=get_BaseCalendarID)) int32_t  BaseCalendarID;
+
+ __declspec(property(get=get_Eras)) ::ArrayW<int32_t>  Eras;
+
+/// @brief Field HijriYearInfo, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_HijriYearInfo, put=setStaticF_HijriYearInfo)) ::ArrayW<::System::Globalization::UmAlQuraCalendar_DateMapping>  HijriYearInfo;
+
+ __declspec(property(get=get_MaxSupportedDateTime)) ::System::DateTime  MaxSupportedDateTime;
+
+ __declspec(property(get=get_MinSupportedDateTime)) ::System::DateTime  MinSupportedDateTime;
+
+ __declspec(property(get=get_TwoDigitYearMax, put=set_TwoDigitYearMax)) int32_t  TwoDigitYearMax;
+
+ __declspec(property(get=get_ID)) int32_t  _cordl_ID;
+
+/// @brief Field maxDate, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_maxDate, put=setStaticF_maxDate)) ::System::DateTime  maxDate;
+
+/// @brief Field minDate, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_minDate, put=setStaticF_minDate)) ::System::DateTime  minDate;
+
+/// @brief Method CheckEraRange, addr 0x1816c1580, size 0x40, virtual false, abstract: false, final false
+static inline void CheckEraRange(int32_t  era) ;
+
+/// @brief Method CheckTicksRange, addr 0x1816c15c0, size 0x150, virtual false, abstract: false, final false
+static inline void CheckTicksRange(int64_t  ticks) ;
+
+/// @brief Method CheckYearMonthRange, addr 0x1816c1710, size 0x50, virtual false, abstract: false, final false
+static inline void CheckYearMonthRange(int32_t  year, int32_t  month, int32_t  era) ;
+
+/// @brief Method CheckYearRange, addr 0x1816c1760, size 0xf0, virtual false, abstract: false, final false
+static inline void CheckYearRange(int32_t  year, int32_t  era) ;
+
+/// @brief Method ConvertGregorianToHijri, addr 0x1816c1850, size 0x1c0, virtual false, abstract: false, final false
+static inline void ConvertGregorianToHijri(::System::DateTime  time, ::by_ref<int32_t>  HijriYear, ::by_ref<int32_t>  HijriMonth, ::by_ref<int32_t>  HijriDay) ;
+
+/// @brief Method ConvertHijriToGregorian, addr 0x1816c1a10, size 0x110, virtual false, abstract: false, final false
+static inline void ConvertHijriToGregorian(int32_t  HijriYear, int32_t  HijriMonth, int32_t  HijriDay, ::by_ref<int32_t>  yg, ::by_ref<int32_t>  mg, ::by_ref<int32_t>  dg) ;
+
+/// @brief Method GetAbsoluteDateUmAlQura, addr 0x1816c1b20, size 0x100, virtual false, abstract: false, final false
+static inline int64_t GetAbsoluteDateUmAlQura(int32_t  year, int32_t  month, int32_t  day) ;
+
+/// @brief Method GetDatePart, addr 0x1816c1c20, size 0x230, virtual true, abstract: false, final false
+inline int32_t GetDatePart(::System::DateTime  time, int32_t  part) ;
+
+/// @brief Method GetDayOfMonth, addr 0x1816c1e50, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetDayOfMonth(::System::DateTime  time) ;
+
+/// @brief Method GetDayOfWeek, addr 0x18168f9d0, size 0x50, virtual true, abstract: false, final false
+inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime  time) ;
+
+/// @brief Method GetDaysInMonth, addr 0x1816c1e70, size 0xb0, virtual true, abstract: false, final false
+inline int32_t GetDaysInMonth(int32_t  year, int32_t  month, int32_t  era) ;
+
+/// @brief Method GetDaysInYear, addr 0x1816c1f20, size 0x30, virtual true, abstract: false, final false
+inline int32_t GetDaysInYear(int32_t  year, int32_t  era) ;
+
+/// @brief Method GetEra, addr 0x1816c1f50, size 0x30, virtual true, abstract: false, final false
+inline int32_t GetEra(::System::DateTime  time) ;
+
+/// @brief Method GetMonth, addr 0x1816c1f80, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetMonth(::System::DateTime  time) ;
+
+/// @brief Method GetMonthsInYear, addr 0x1816c1fa0, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetMonthsInYear(int32_t  year, int32_t  era) ;
+
+/// @brief Method GetYear, addr 0x1816c1fc0, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetYear(::System::DateTime  time) ;
+
+/// @brief Method InitDateMapping, addr 0x1816c1fe0, size 0x100, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Globalization::UmAlQuraCalendar_DateMapping> InitDateMapping() ;
+
+/// @brief Method IsLeapYear, addr 0x1816c20e0, size 0x30, virtual true, abstract: false, final false
+inline bool IsLeapYear(int32_t  year, int32_t  era) ;
+
+static inline ::System::Globalization::UmAlQuraCalendar* New_ctor() ;
+
+/// @brief Method RealGetDaysInYear, addr 0x1816c2110, size 0x70, virtual false, abstract: false, final false
+static inline int32_t RealGetDaysInYear(int32_t  year) ;
+
+/// @brief Method ToDateTime, addr 0x1816c2180, size 0x1f0, virtual true, abstract: false, final false
+inline ::System::DateTime ToDateTime(int32_t  year, int32_t  month, int32_t  day, int32_t  hour, int32_t  minute, int32_t  second, int32_t  millisecond, int32_t  era) ;
+
+/// @brief Method ToFourDigitYear, addr 0x1816c2370, size 0x100, virtual true, abstract: false, final false
+inline int32_t ToFourDigitYear(int32_t  year) ;
+
+/// @brief Method .ctor, addr 0x1816c2690, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::ArrayW<::System::Globalization::UmAlQuraCalendar_DateMapping> getStaticF_HijriYearInfo() ;
+
+static inline ::System::DateTime getStaticF_maxDate() ;
+
+static inline ::System::DateTime getStaticF_minDate() ;
+
+/// @brief Method get_BaseCalendarID, addr 0x180908af0, size 0x30, virtual true, abstract: false, final false
+inline int32_t get_BaseCalendarID() ;
+
+/// @brief Method get_Eras, addr 0x181690530, size 0x30, virtual true, abstract: false, final false
+inline ::ArrayW<int32_t> get_Eras() ;
+
+/// @brief Method get_ID, addr 0x1816c26a0, size 0x10, virtual true, abstract: false, final false
+inline int32_t get_ID() ;
+
+/// @brief Method get_MaxSupportedDateTime, addr 0x1816c26b0, size 0x40, virtual true, abstract: false, final false
+inline ::System::DateTime get_MaxSupportedDateTime() ;
+
+/// @brief Method get_MinSupportedDateTime, addr 0x1816c26f0, size 0x40, virtual true, abstract: false, final false
+inline ::System::DateTime get_MinSupportedDateTime() ;
+
+/// @brief Method get_TwoDigitYearMax, addr 0x1816c2730, size 0x50, virtual true, abstract: false, final false
+inline int32_t get_TwoDigitYearMax() ;
+
+static inline void setStaticF_HijriYearInfo(::ArrayW<::System::Globalization::UmAlQuraCalendar_DateMapping>  value) ;
+
+static inline void setStaticF_maxDate(::System::DateTime  value) ;
+
+static inline void setStaticF_minDate(::System::DateTime  value) ;
+
+/// @brief Method set_TwoDigitYearMax, addr 0x1816c2780, size 0xd0, virtual true, abstract: false, final false
+inline void set_TwoDigitYearMax(int32_t  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr UmAlQuraCalendar() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "UmAlQuraCalendar", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UmAlQuraCalendar(UmAlQuraCalendar && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "UmAlQuraCalendar", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UmAlQuraCalendar(UmAlQuraCalendar const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1397};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Globalization::UmAlQuraCalendar) == 0x20, "Size mismatch!");
+
+} // namespace end def System::Globalization

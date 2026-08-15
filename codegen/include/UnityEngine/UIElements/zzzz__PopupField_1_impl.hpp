@@ -1,0 +1,197 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PopupField_1.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BasePopupField_2_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__PopupField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AbstractGenericMenu_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PopupField_1_def.hpp"
+template<typename T>
+constexpr T& UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::__cordl_internal_get_item()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___item;
+}
+template<typename T>
+constexpr T const& UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::__cordl_internal_get_item() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___item;
+}
+template<typename T>
+constexpr void UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::__cordl_internal_set_item(T  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___item = value;
+}
+template<typename T>
+constexpr ::UnityEngine::UIElements::PopupField_1<T>*& UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::__cordl_internal_get___4__this()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____4__this;
+}
+template<typename T>
+constexpr ::UnityEngine::UIElements::PopupField_1<T>* const& UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::__cordl_internal_get___4__this() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->_____4__this;
+}
+template<typename T>
+constexpr void UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::__cordl_internal_set___4__this(::UnityEngine::UIElements::PopupField_1<T>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->_____4__this = value;
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::_AddMenuItems_b__0()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>*>(),
+                        {"<AddMenuItems>b__0", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template<typename T>
+inline ::UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>* UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>*>());
+}
+// Ctor Parameters []
+template<typename T>
+constexpr ::UnityEngine::UIElements::PopupField_1___c__DisplayClass27_0<T>::PopupField_1___c__DisplayClass27_0()   {
+}
+template<typename T>
+constexpr int32_t& UnityEngine::UIElements::PopupField_1<T>::__cordl_internal_get_m_Index()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Index;
+}
+template<typename T>
+constexpr int32_t const& UnityEngine::UIElements::PopupField_1<T>::__cordl_internal_get_m_Index() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Index;
+}
+template<typename T>
+constexpr void UnityEngine::UIElements::PopupField_1<T>::__cordl_internal_set_m_Index(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Index = value;
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::setStaticF_indexProperty(::UnityEngine::UIElements::BindingId  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "indexProperty", ::UnityEngine::UIElements::PopupField_1<T>*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template<typename T>
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::PopupField_1<T>::getStaticF_indexProperty()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "indexProperty", ::UnityEngine::UIElements::PopupField_1<T>*>();
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::setStaticF_ussClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::PopupField_1<T>*>(std::forward<::StringW>(value));
+}
+template<typename T>
+inline ::StringW UnityEngine::UIElements::PopupField_1<T>::getStaticF_ussClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::PopupField_1<T>*>();
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::setStaticF_labelUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "labelUssClassName", ::UnityEngine::UIElements::PopupField_1<T>*>(std::forward<::StringW>(value));
+}
+template<typename T>
+inline ::StringW UnityEngine::UIElements::PopupField_1<T>::getStaticF_labelUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "labelUssClassName", ::UnityEngine::UIElements::PopupField_1<T>*>();
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::setStaticF_inputUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "inputUssClassName", ::UnityEngine::UIElements::PopupField_1<T>*>(std::forward<::StringW>(value));
+}
+template<typename T>
+inline ::StringW UnityEngine::UIElements::PopupField_1<T>::getStaticF_inputUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::UnityEngine::UIElements::PopupField_1<T>*>();
+}
+template<typename T>
+inline ::StringW UnityEngine::UIElements::PopupField_1<T>::GetValueToDisplay()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(), 160}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+template<typename T>
+inline ::StringW UnityEngine::UIElements::PopupField_1<T>::GetListItemToDisplay(T  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(), 161}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
+}
+template<typename T>
+inline T UnityEngine::UIElements::PopupField_1<T>::get_value()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(), 148}
+                        )));
+return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::set_value(T  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(), 149}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::SetValueWithoutNotify(T  newValue)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(), 159}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
+}
+template<typename T>
+inline int32_t UnityEngine::UIElements::PopupField_1<T>::get_index()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(),
+                        {"get_index", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::set_index(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(),
+                        {"set_index", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::_ctor(::StringW  label)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, label);
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::AddMenuItems(::UnityEngine::UIElements::AbstractGenericMenu*  menu)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(), 162}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, menu);
+}
+template<typename T>
+inline void UnityEngine::UIElements::PopupField_1<T>::ChangeValueFromMenu(T  menuItem)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::PopupField_1<T>*>(),
+                        {"ChangeValueFromMenu", {}, {::i2c::type_of<T>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, menuItem);
+}
+template<typename T>
+inline ::UnityEngine::UIElements::PopupField_1<T>* UnityEngine::UIElements::PopupField_1<T>::New_ctor(::StringW  label)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::PopupField_1<T>*>(label));
+}
+// Ctor Parameters []
+template<typename T>
+constexpr ::UnityEngine::UIElements::PopupField_1<T>::PopupField_1()   {
+}

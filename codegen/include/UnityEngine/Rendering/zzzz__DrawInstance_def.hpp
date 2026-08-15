@@ -1,0 +1,52 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/DrawInstance.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/Rendering/zzzz__DrawKey_def.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(DrawInstance)
+// Forward declare root types
+namespace UnityEngine::Rendering {
+struct DrawInstance;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::Rendering::DrawInstance);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DrawInstance, "UnityEngine.Rendering", "DrawInstance");
+// Dependencies UnityEngine.Rendering.DrawKey
+namespace UnityEngine::Rendering {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.DrawInstance
+struct CORDL_TYPE DrawInstance {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr DrawInstance() ;
+
+// Ctor Parameters [CppParam { name: "key", ty: "::UnityEngine::Rendering::DrawKey", modifiers: "", def_value: None }, CppParam { name: "instanceIndex", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DrawInstance(::UnityEngine::Rendering::DrawKey  key, int32_t  instanceIndex) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17712};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
+
+/// @brief Field key, offset: 0x0, size: 0x3c, def value: None
+ ::UnityEngine::Rendering::DrawKey  key;
+
+/// @brief Field instanceIndex, offset: 0x3c, size: 0x4, def value: None
+ int32_t  instanceIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::DrawInstance, key) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::DrawInstance, instanceIndex) == 0x3c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::DrawInstance) == 0x40, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering

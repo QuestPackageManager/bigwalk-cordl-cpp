@@ -1,0 +1,538 @@
+#pragma once
+// IWYU pragma private; include "System/Reflection/RuntimeEventInfo.hpp"
+#include "System/Reflection/zzzz__EventInfo_impl.hpp"
+#include "System/zzzz__IntPtr_impl.hpp"
+#include "System/Reflection/zzzz__RuntimeEventInfo_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__MonoEventInfo_def.hpp"
+#include "System/Reflection/zzzz__RuntimeModule_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_event_info
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::RuntimeEventInfo*, ::by_ref<::System::Reflection::MonoEventInfo>)>(&::System::Reflection::RuntimeEventInfo::get_event_info)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18167f3c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"get_event_info", {}, {::i2c::type_of<::System::Reflection::RuntimeEventInfo*>(), ::i2c::type_of<::by_ref<::System::Reflection::MonoEventInfo>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetEventInfo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MonoEventInfo (*)(::System::Reflection::RuntimeEventInfo*)>(&::System::Reflection::RuntimeEventInfo::GetEventInfo)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18167f020;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetEventInfo", {}, {::i2c::type_of<::System::Reflection::RuntimeEventInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_Module
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Module* (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::get_Module)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18167f240;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_BindingFlags
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::BindingFlags (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::get_BindingFlags)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x18167ee70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"get_BindingFlags", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetDeclaringTypeInternal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeType* (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::GetDeclaringTypeInternal)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18167efc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetDeclaringTypeInternal", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_ReflectedTypeInternal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeType* (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::get_ReflectedTypeInternal)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18167ed90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"get_ReflectedTypeInternal", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetRuntimeModule
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::RuntimeModule* (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::GetRuntimeModule)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18167f240;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetRuntimeModule", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetObjectData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::RuntimeEventInfo::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::RuntimeEventInfo::GetObjectData)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x18167f060;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetObjectData", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetBindingFlags
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::BindingFlags (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::GetBindingFlags)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x18167ee70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetBindingFlags", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetAddMethod
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::RuntimeEventInfo::*)(bool)>(&::System::Reflection::RuntimeEventInfo::GetAddMethod)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18167edf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 18}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetRaiseMethod
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::RuntimeEventInfo::*)(bool)>(&::System::Reflection::RuntimeEventInfo::GetRaiseMethod)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18167f140;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetRemoveMethod
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::RuntimeEventInfo::*)(bool)>(&::System::Reflection::RuntimeEventInfo::GetRemoveMethod)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18167f1c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_DeclaringType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::get_DeclaringType)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18167f330;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_ReflectedType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::get_ReflectedType)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18167f390;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_Name
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::get_Name)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18167f360;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::ToString)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18167f2b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.IsDefined
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::RuntimeEventInfo::*)(::System::Type*, bool)>(&::System::Reflection::RuntimeEventInfo::IsDefined)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18167e340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetCustomAttributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::RuntimeEventInfo::*)(bool)>(&::System::Reflection::RuntimeEventInfo::GetCustomAttributes)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18167dc40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.GetCustomAttributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::RuntimeEventInfo::*)(::System::Type*, bool)>(&::System::Reflection::RuntimeEventInfo::GetCustomAttributes)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18167dc50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_MetadataToken
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::get_MetadataToken)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18167ed70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                    {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo.get_metadata_token
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Reflection::RuntimeEventInfo*)>(&::System::Reflection::RuntimeEventInfo::get_metadata_token)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18167ed70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"get_metadata_token", {}, {::i2c::type_of<::System::Reflection::RuntimeEventInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RuntimeEventInfo._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::RuntimeEventInfo::*)()>(&::System::Reflection::RuntimeEventInfo::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::IntPtr& System::Reflection::RuntimeEventInfo::__cordl_internal_get_klass()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___klass;
+}
+constexpr ::System::IntPtr const& System::Reflection::RuntimeEventInfo::__cordl_internal_get_klass() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___klass;
+}
+constexpr void System::Reflection::RuntimeEventInfo::__cordl_internal_set_klass(::System::IntPtr  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___klass = value;
+}
+constexpr ::System::IntPtr& System::Reflection::RuntimeEventInfo::__cordl_internal_get_handle()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___handle;
+}
+constexpr ::System::IntPtr const& System::Reflection::RuntimeEventInfo::__cordl_internal_get_handle() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___handle;
+}
+constexpr void System::Reflection::RuntimeEventInfo::__cordl_internal_set_handle(::System::IntPtr  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___handle = value;
+}
+inline void System::Reflection::RuntimeEventInfo::get_event_info(::System::Reflection::RuntimeEventInfo*  ev, ::by_ref<::System::Reflection::MonoEventInfo>  info)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"get_event_info", {}, {::i2c::type_of<::System::Reflection::RuntimeEventInfo*>(), ::i2c::type_of<::by_ref<::System::Reflection::MonoEventInfo>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ev, info);
+}
+inline ::System::Reflection::MonoEventInfo System::Reflection::RuntimeEventInfo::GetEventInfo(::System::Reflection::RuntimeEventInfo*  ev)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetEventInfo", {}, {::i2c::type_of<::System::Reflection::RuntimeEventInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::MonoEventInfo>(nullptr, ___internal_method, ev);
+}
+inline ::System::Reflection::Module* System::Reflection::RuntimeEventInfo::get_Module()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::Module*>(this, ___internal_method);
+}
+inline ::System::Reflection::BindingFlags System::Reflection::RuntimeEventInfo::get_BindingFlags()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"get_BindingFlags", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::BindingFlags>(this, ___internal_method);
+}
+inline ::System::RuntimeType* System::Reflection::RuntimeEventInfo::GetDeclaringTypeInternal()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetDeclaringTypeInternal", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::RuntimeType*>(this, ___internal_method);
+}
+inline ::System::RuntimeType* System::Reflection::RuntimeEventInfo::get_ReflectedTypeInternal()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"get_ReflectedTypeInternal", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::RuntimeType*>(this, ___internal_method);
+}
+inline ::System::Reflection::RuntimeModule* System::Reflection::RuntimeEventInfo::GetRuntimeModule()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetRuntimeModule", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::RuntimeModule*>(this, ___internal_method);
+}
+inline void System::Reflection::RuntimeEventInfo::GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetObjectData", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
+}
+inline ::System::Reflection::BindingFlags System::Reflection::RuntimeEventInfo::GetBindingFlags()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"GetBindingFlags", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::BindingFlags>(this, ___internal_method);
+}
+inline ::System::Reflection::MethodInfo* System::Reflection::RuntimeEventInfo::GetAddMethod(bool  nonPublic)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 18}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method, nonPublic);
+}
+inline ::System::Reflection::MethodInfo* System::Reflection::RuntimeEventInfo::GetRaiseMethod(bool  nonPublic)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method, nonPublic);
+}
+inline ::System::Reflection::MethodInfo* System::Reflection::RuntimeEventInfo::GetRemoveMethod(bool  nonPublic)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method, nonPublic);
+}
+inline ::System::Type* System::Reflection::RuntimeEventInfo::get_DeclaringType()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
+}
+inline ::System::Type* System::Reflection::RuntimeEventInfo::get_ReflectedType()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
+}
+inline ::StringW System::Reflection::RuntimeEventInfo::get_Name()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Reflection::RuntimeEventInfo::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool System::Reflection::RuntimeEventInfo::IsDefined(::System::Type*  attributeType, bool  inherit)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, attributeType, inherit);
+}
+inline ::ArrayW<::System::Object*> System::Reflection::RuntimeEventInfo::GetCustomAttributes(bool  inherit)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*>>(this, ___internal_method, inherit);
+}
+inline ::ArrayW<::System::Object*> System::Reflection::RuntimeEventInfo::GetCustomAttributes(::System::Type*  attributeType, bool  inherit)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*>>(this, ___internal_method, attributeType, inherit);
+}
+inline int32_t System::Reflection::RuntimeEventInfo::get_MetadataToken()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t System::Reflection::RuntimeEventInfo::get_metadata_token(::System::Reflection::RuntimeEventInfo*  monoEvent)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {"get_metadata_token", {}, {::i2c::type_of<::System::Reflection::RuntimeEventInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, monoEvent);
+}
+inline void System::Reflection::RuntimeEventInfo::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::RuntimeEventInfo*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Reflection::RuntimeEventInfo* System::Reflection::RuntimeEventInfo::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Reflection::RuntimeEventInfo*>());
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr  System::Reflection::RuntimeEventInfo::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Reflection::RuntimeEventInfo::i___System__Runtime__Serialization__ISerializable() noexcept {
+return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Reflection::RuntimeEventInfo::RuntimeEventInfo()   {
+}

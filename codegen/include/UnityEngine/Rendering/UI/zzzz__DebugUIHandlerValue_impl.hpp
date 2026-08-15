@@ -1,0 +1,200 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerValue.hpp"
+#include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_impl.hpp"
+#include "UnityEngine/zzzz__Color_impl.hpp"
+#include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerValue_def.hpp"
+#include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_def.hpp"
+#include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::UI::DebugUIHandlerValue.OnEnable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValue::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerValue::OnEnable)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182082ba0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::UI::DebugUIHandlerValue.SetWidget
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValue::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(&::UnityEngine::Rendering::UI::DebugUIHandlerValue::SetWidget)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x182082bb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::UI::DebugUIHandlerValue.OnSelection
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerValue::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(&::UnityEngine::Rendering::UI::DebugUIHandlerValue::OnSelection)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18207f090;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::UI::DebugUIHandlerValue.OnDeselection
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValue::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerValue::OnDeselection)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18207efc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::UI::DebugUIHandlerValue.Update
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValue::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerValue::Update)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x182082c10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(),
+                        {"Update", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::UI::DebugUIHandlerValue._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValue::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerValue::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18207c0b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::UnityEngine::UI::Text>& UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_get_nameLabel()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___nameLabel;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_get_nameLabel() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___nameLabel;
+}
+constexpr void UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___nameLabel = value;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text>& UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_get_valueLabel()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___valueLabel;
+}
+constexpr ::UnityW<::UnityEngine::UI::Text> const& UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_get_valueLabel() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___valueLabel;
+}
+constexpr void UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___valueLabel = value;
+}
+constexpr ::UnityEngine::Rendering::DebugUI_Value*& UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_get_m_Field()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Field;
+}
+constexpr ::UnityEngine::Rendering::DebugUI_Value* const& UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_get_m_Field() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Field;
+}
+constexpr void UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_set_m_Field(::UnityEngine::Rendering::DebugUI_Value*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Field = value;
+}
+constexpr float_t& UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_get_m_Timer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Timer;
+}
+constexpr float_t const& UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_get_m_Timer() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Timer;
+}
+constexpr void UnityEngine::Rendering::UI::DebugUIHandlerValue::__cordl_internal_set_m_Timer(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Timer = value;
+}
+inline void UnityEngine::Rendering::UI::DebugUIHandlerValue::setStaticF_k_ZeroColor(::UnityEngine::Color  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Color, "k_ZeroColor", ::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(std::forward<::UnityEngine::Color>(value));
+}
+inline ::UnityEngine::Color UnityEngine::Rendering::UI::DebugUIHandlerValue::getStaticF_k_ZeroColor()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Color, "k_ZeroColor", ::UnityEngine::Rendering::UI::DebugUIHandlerValue*>();
+}
+inline void UnityEngine::Rendering::UI::DebugUIHandlerValue::OnEnable()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::UI::DebugUIHandlerValue::SetWidget(::UnityEngine::Rendering::DebugUI_Widget*  widget)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, widget);
+}
+inline bool UnityEngine::Rendering::UI::DebugUIHandlerValue::OnSelection(bool  fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*  previous)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, fromNext, previous);
+}
+inline void UnityEngine::Rendering::UI::DebugUIHandlerValue::OnDeselection()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::UI::DebugUIHandlerValue::Update()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(),
+                        {"Update", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::UI::DebugUIHandlerValue::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::UI::DebugUIHandlerValue* UnityEngine::Rendering::UI::DebugUIHandlerValue::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::UI::DebugUIHandlerValue*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::UI::DebugUIHandlerValue::DebugUIHandlerValue()   {
+}

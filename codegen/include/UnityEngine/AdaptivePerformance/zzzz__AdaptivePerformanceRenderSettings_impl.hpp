@@ -1,0 +1,557 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/AdaptivePerformance/AdaptivePerformanceRenderSettings.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/AdaptivePerformance/zzzz__AdaptivePerformanceRenderSettings_def.hpp"
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_MainLightShadowmapResolutionMultiplier
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MainLightShadowmapResolutionMultiplier)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d8c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_MainLightShadowmapResolutionMultiplier", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_MainLightShadowmapResolutionMultiplier
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_MainLightShadowmapResolutionMultiplier)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18221da20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_MainLightShadowmapResolutionMultiplier", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_DecalsDrawDistance
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_DecalsDrawDistance)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d860;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_DecalsDrawDistance", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_DecalsDrawDistance
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_DecalsDrawDistance)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d9c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_DecalsDrawDistance", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_MainLightShadowCascadesCountBias
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MainLightShadowCascadesCountBias)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d8a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_MainLightShadowCascadesCountBias", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_MainLightShadowCascadesCountBias
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_MainLightShadowCascadesCountBias)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221da00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_MainLightShadowCascadesCountBias", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_ShadowQualityBias
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_ShadowQualityBias)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_ShadowQualityBias", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_ShadowQualityBias
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_ShadowQualityBias)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221dab0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_ShadowQualityBias", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_LutBias
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_LutBias)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_LutBias", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_LutBias
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_LutBias)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d9e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_LutBias", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_MaxShadowDistanceMultiplier
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MaxShadowDistanceMultiplier)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d8e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_MaxShadowDistanceMultiplier", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_MaxShadowDistanceMultiplier
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_MaxShadowDistanceMultiplier)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18221da50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_MaxShadowDistanceMultiplier", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_RenderScaleMultiplier
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_RenderScaleMultiplier)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_RenderScaleMultiplier", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_RenderScaleMultiplier
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_RenderScaleMultiplier)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18221da80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_RenderScaleMultiplier", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_AntiAliasingQualityBias
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_AntiAliasingQualityBias)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_AntiAliasingQualityBias", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_AntiAliasingQualityBias
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_AntiAliasingQualityBias)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d9a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_AntiAliasingQualityBias", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_SkipDynamicBatching
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipDynamicBatching)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d940;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_SkipDynamicBatching", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_SkipDynamicBatching
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_SkipDynamicBatching)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221dad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_SkipDynamicBatching", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_SkipFrontToBackSorting
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipFrontToBackSorting)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d960;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_SkipFrontToBackSorting", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_SkipFrontToBackSorting
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_SkipFrontToBackSorting)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221daf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_SkipFrontToBackSorting", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.get_SkipTransparentObjects
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipTransparentObjects)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221d980;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_SkipTransparentObjects", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings.set_SkipTransparentObjects
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_SkipTransparentObjects)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18221db10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_SkipTransparentObjects", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF_s_MaxShadowDistanceMultiplier(float_t  value)  {
+::cordl_internals::setStaticField<float_t, "s_MaxShadowDistanceMultiplier", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<float_t>(value));
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF_s_MaxShadowDistanceMultiplier()  {
+return ::cordl_internals::getStaticField<float_t, "s_MaxShadowDistanceMultiplier", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF_s_ShadowResolutionMultiplier(float_t  value)  {
+::cordl_internals::setStaticField<float_t, "s_ShadowResolutionMultiplier", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<float_t>(value));
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF_s_ShadowResolutionMultiplier()  {
+return ::cordl_internals::getStaticField<float_t, "s_ShadowResolutionMultiplier", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF_s_RenderScaleMultiplier(float_t  value)  {
+::cordl_internals::setStaticField<float_t, "s_RenderScaleMultiplier", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<float_t>(value));
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF_s_RenderScaleMultiplier()  {
+return ::cordl_internals::getStaticField<float_t, "s_RenderScaleMultiplier", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF_s_DecalsMaxDistance(float_t  value)  {
+::cordl_internals::setStaticField<float_t, "s_DecalsMaxDistance", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<float_t>(value));
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF_s_DecalsMaxDistance()  {
+return ::cordl_internals::getStaticField<float_t, "s_DecalsMaxDistance", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF__MainLightShadowCascadesCountBias_k__BackingField(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "<MainLightShadowCascadesCountBias>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF__MainLightShadowCascadesCountBias_k__BackingField()  {
+return ::cordl_internals::getStaticField<int32_t, "<MainLightShadowCascadesCountBias>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF__ShadowQualityBias_k__BackingField(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "<ShadowQualityBias>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF__ShadowQualityBias_k__BackingField()  {
+return ::cordl_internals::getStaticField<int32_t, "<ShadowQualityBias>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF__LutBias_k__BackingField(float_t  value)  {
+::cordl_internals::setStaticField<float_t, "<LutBias>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<float_t>(value));
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF__LutBias_k__BackingField()  {
+return ::cordl_internals::getStaticField<float_t, "<LutBias>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF__AntiAliasingQualityBias_k__BackingField(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "<AntiAliasingQualityBias>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF__AntiAliasingQualityBias_k__BackingField()  {
+return ::cordl_internals::getStaticField<int32_t, "<AntiAliasingQualityBias>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF__SkipDynamicBatching_k__BackingField(bool  value)  {
+::cordl_internals::setStaticField<bool, "<SkipDynamicBatching>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<bool>(value));
+}
+inline bool UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF__SkipDynamicBatching_k__BackingField()  {
+return ::cordl_internals::getStaticField<bool, "<SkipDynamicBatching>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF__SkipFrontToBackSorting_k__BackingField(bool  value)  {
+::cordl_internals::setStaticField<bool, "<SkipFrontToBackSorting>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<bool>(value));
+}
+inline bool UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF__SkipFrontToBackSorting_k__BackingField()  {
+return ::cordl_internals::getStaticField<bool, "<SkipFrontToBackSorting>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::setStaticF__SkipTransparentObjects_k__BackingField(bool  value)  {
+::cordl_internals::setStaticField<bool, "<SkipTransparentObjects>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(std::forward<bool>(value));
+}
+inline bool UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::getStaticF__SkipTransparentObjects_k__BackingField()  {
+return ::cordl_internals::getStaticField<bool, "<SkipTransparentObjects>k__BackingField", ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>();
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MainLightShadowmapResolutionMultiplier()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_MainLightShadowmapResolutionMultiplier", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_MainLightShadowmapResolutionMultiplier(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_MainLightShadowmapResolutionMultiplier", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_DecalsDrawDistance()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_DecalsDrawDistance", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_DecalsDrawDistance(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_DecalsDrawDistance", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline int32_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MainLightShadowCascadesCountBias()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_MainLightShadowCascadesCountBias", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_MainLightShadowCascadesCountBias(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_MainLightShadowCascadesCountBias", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline int32_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_ShadowQualityBias()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_ShadowQualityBias", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_ShadowQualityBias(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_ShadowQualityBias", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_LutBias()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_LutBias", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_LutBias(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_LutBias", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MaxShadowDistanceMultiplier()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_MaxShadowDistanceMultiplier", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_MaxShadowDistanceMultiplier(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_MaxShadowDistanceMultiplier", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline float_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_RenderScaleMultiplier()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_RenderScaleMultiplier", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_RenderScaleMultiplier(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_RenderScaleMultiplier", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline int32_t UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_AntiAliasingQualityBias()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_AntiAliasingQualityBias", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_AntiAliasingQualityBias(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_AntiAliasingQualityBias", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline bool UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipDynamicBatching()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_SkipDynamicBatching", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_SkipDynamicBatching(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_SkipDynamicBatching", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline bool UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipFrontToBackSorting()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_SkipFrontToBackSorting", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_SkipFrontToBackSorting(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_SkipFrontToBackSorting", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+inline bool UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipTransparentObjects()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"get_SkipTransparentObjects", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
+}
+inline void UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::set_SkipTransparentObjects(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings*>(),
+                        {"set_SkipTransparentObjects", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::AdaptivePerformanceRenderSettings()   {
+}

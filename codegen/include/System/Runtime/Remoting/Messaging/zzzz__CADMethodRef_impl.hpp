@@ -1,0 +1,139 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADMethodRef.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CADMethodRef_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::CADMethodRef.GetTypes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::System::Runtime::Remoting::Messaging::CADMethodRef::*)(::ArrayW<::StringW>)>(&::System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181638d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodRef*>(),
+                        {"GetTypes", {}, {::i2c::type_of<::ArrayW<::StringW>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::CADMethodRef.Resolve
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodBase* (::System::Runtime::Remoting::Messaging::CADMethodRef::*)()>(&::System::Runtime::Remoting::Messaging::CADMethodRef::Resolve)> {
+  constexpr static std::size_t size = 0x400;
+  constexpr static std::size_t addrs = 0x181638e20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodRef*>(),
+                        {"Resolve", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::CADMethodRef._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::CADMethodRef::*)(::System::Runtime::Remoting::Messaging::IMethodMessage*)>(&::System::Runtime::Remoting::Messaging::CADMethodRef::_ctor)> {
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x181639220;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodRef*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Remoting::Messaging::IMethodMessage*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr bool& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_ctor()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ctor;
+}
+constexpr bool const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_ctor() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ctor;
+}
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_ctor(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___ctor = value;
+}
+constexpr ::StringW& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_typeName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___typeName;
+}
+constexpr ::StringW const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_typeName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___typeName;
+}
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_typeName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___typeName = value;
+}
+constexpr ::StringW& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_methodName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___methodName;
+}
+constexpr ::StringW const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_methodName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___methodName;
+}
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_methodName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___methodName = value;
+}
+constexpr ::ArrayW<::StringW>& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_param_names()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___param_names;
+}
+constexpr ::ArrayW<::StringW> const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_param_names() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___param_names;
+}
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_param_names(::ArrayW<::StringW>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___param_names = value;
+}
+constexpr ::ArrayW<::StringW>& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_generic_arg_names()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___generic_arg_names;
+}
+constexpr ::ArrayW<::StringW> const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_generic_arg_names() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___generic_arg_names;
+}
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_generic_arg_names(::ArrayW<::StringW>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___generic_arg_names = value;
+}
+inline ::ArrayW<::System::Type*> System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes(::ArrayW<::StringW>  typeArray)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodRef*>(),
+                        {"GetTypes", {}, {::i2c::type_of<::ArrayW<::StringW>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*>>(this, ___internal_method, typeArray);
+}
+inline ::System::Reflection::MethodBase* System::Runtime::Remoting::Messaging::CADMethodRef::Resolve()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodRef*>(),
+                        {"Resolve", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodBase*>(this, ___internal_method);
+}
+inline void System::Runtime::Remoting::Messaging::CADMethodRef::_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage*  msg)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodRef*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Remoting::Messaging::IMethodMessage*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, msg);
+}
+inline ::System::Runtime::Remoting::Messaging::CADMethodRef* System::Runtime::Remoting::Messaging::CADMethodRef::New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage*  msg)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::Messaging::CADMethodRef*>(msg));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Remoting::Messaging::CADMethodRef::CADMethodRef()   {
+}

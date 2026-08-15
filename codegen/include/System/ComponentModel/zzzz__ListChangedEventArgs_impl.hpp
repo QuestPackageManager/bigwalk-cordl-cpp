@@ -1,0 +1,224 @@
+#pragma once
+// IWYU pragma private; include "System/ComponentModel/ListChangedEventArgs.hpp"
+#include "System/ComponentModel/zzzz__ListChangedType_impl.hpp"
+#include "System/zzzz__EventArgs_impl.hpp"
+#include "System/ComponentModel/zzzz__ListChangedEventArgs_def.hpp"
+#include "System/ComponentModel/zzzz__ListChangedType_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+//  Writing Method size for method: ::System::ComponentModel::ListChangedEventArgs._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(::System::ComponentModel::ListChangedType, int32_t)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181dff770;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::ComponentModel::ListChangedType>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ListChangedEventArgs._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(::System::ComponentModel::ListChangedType, int32_t, ::System::ComponentModel::PropertyDescriptor*)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181dff780;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::ComponentModel::ListChangedType>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::ComponentModel::PropertyDescriptor*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ListChangedEventArgs._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(::System::ComponentModel::ListChangedType, ::System::ComponentModel::PropertyDescriptor*)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181dff750;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::ComponentModel::ListChangedType>(), ::i2c::type_of<::System::ComponentModel::PropertyDescriptor*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ListChangedEventArgs._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(::System::ComponentModel::ListChangedType, int32_t, int32_t)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181609290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::ComponentModel::ListChangedType>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ListChangedEventArgs.get_ListChangedType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::ListChangedType (::System::ComponentModel::ListChangedEventArgs::*)()>(&::System::ComponentModel::ListChangedEventArgs::get_ListChangedType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {"get_ListChangedType", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ListChangedEventArgs.get_NewIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::ListChangedEventArgs::*)()>(&::System::ComponentModel::ListChangedEventArgs::get_NewIndex)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803924b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {"get_NewIndex", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ListChangedEventArgs.get_OldIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::ListChangedEventArgs::*)()>(&::System::ComponentModel::ListChangedEventArgs::get_OldIndex)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f41a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {"get_OldIndex", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::ComponentModel::ListChangedType& System::ComponentModel::ListChangedEventArgs::__cordl_internal_get__ListChangedType_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ListChangedType_k__BackingField;
+}
+constexpr ::System::ComponentModel::ListChangedType const& System::ComponentModel::ListChangedEventArgs::__cordl_internal_get__ListChangedType_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ListChangedType_k__BackingField;
+}
+constexpr void System::ComponentModel::ListChangedEventArgs::__cordl_internal_set__ListChangedType_k__BackingField(::System::ComponentModel::ListChangedType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ListChangedType_k__BackingField = value;
+}
+constexpr int32_t& System::ComponentModel::ListChangedEventArgs::__cordl_internal_get__NewIndex_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____NewIndex_k__BackingField;
+}
+constexpr int32_t const& System::ComponentModel::ListChangedEventArgs::__cordl_internal_get__NewIndex_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____NewIndex_k__BackingField;
+}
+constexpr void System::ComponentModel::ListChangedEventArgs::__cordl_internal_set__NewIndex_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____NewIndex_k__BackingField = value;
+}
+constexpr int32_t& System::ComponentModel::ListChangedEventArgs::__cordl_internal_get__OldIndex_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OldIndex_k__BackingField;
+}
+constexpr int32_t const& System::ComponentModel::ListChangedEventArgs::__cordl_internal_get__OldIndex_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____OldIndex_k__BackingField;
+}
+constexpr void System::ComponentModel::ListChangedEventArgs::__cordl_internal_set__OldIndex_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____OldIndex_k__BackingField = value;
+}
+constexpr ::System::ComponentModel::PropertyDescriptor*& System::ComponentModel::ListChangedEventArgs::__cordl_internal_get__PropertyDescriptor_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____PropertyDescriptor_k__BackingField;
+}
+constexpr ::System::ComponentModel::PropertyDescriptor* const& System::ComponentModel::ListChangedEventArgs::__cordl_internal_get__PropertyDescriptor_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____PropertyDescriptor_k__BackingField;
+}
+constexpr void System::ComponentModel::ListChangedEventArgs::__cordl_internal_set__PropertyDescriptor_k__BackingField(::System::ComponentModel::PropertyDescriptor*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____PropertyDescriptor_k__BackingField = value;
+}
+inline void System::ComponentModel::ListChangedEventArgs::_ctor(::System::ComponentModel::ListChangedType  listChangedType, int32_t  newIndex)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::ComponentModel::ListChangedType>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, listChangedType, newIndex);
+}
+inline void System::ComponentModel::ListChangedEventArgs::_ctor(::System::ComponentModel::ListChangedType  listChangedType, int32_t  newIndex, ::System::ComponentModel::PropertyDescriptor*  propDesc)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::ComponentModel::ListChangedType>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::ComponentModel::PropertyDescriptor*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, listChangedType, newIndex, propDesc);
+}
+inline void System::ComponentModel::ListChangedEventArgs::_ctor(::System::ComponentModel::ListChangedType  listChangedType, ::System::ComponentModel::PropertyDescriptor*  propDesc)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::ComponentModel::ListChangedType>(), ::i2c::type_of<::System::ComponentModel::PropertyDescriptor*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, listChangedType, propDesc);
+}
+inline void System::ComponentModel::ListChangedEventArgs::_ctor(::System::ComponentModel::ListChangedType  listChangedType, int32_t  newIndex, int32_t  oldIndex)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::ComponentModel::ListChangedType>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, listChangedType, newIndex, oldIndex);
+}
+inline ::System::ComponentModel::ListChangedType System::ComponentModel::ListChangedEventArgs::get_ListChangedType()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {"get_ListChangedType", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ListChangedType>(this, ___internal_method);
+}
+inline int32_t System::ComponentModel::ListChangedEventArgs::get_NewIndex()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {"get_NewIndex", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t System::ComponentModel::ListChangedEventArgs::get_OldIndex()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(),
+                        {"get_OldIndex", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::System::ComponentModel::ListChangedEventArgs* System::ComponentModel::ListChangedEventArgs::New_ctor(::System::ComponentModel::ListChangedType  listChangedType, int32_t  newIndex)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::ComponentModel::ListChangedEventArgs*>(listChangedType, newIndex));
+}
+inline ::System::ComponentModel::ListChangedEventArgs* System::ComponentModel::ListChangedEventArgs::New_ctor(::System::ComponentModel::ListChangedType  listChangedType, int32_t  newIndex, ::System::ComponentModel::PropertyDescriptor*  propDesc)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::ComponentModel::ListChangedEventArgs*>(listChangedType, newIndex, propDesc));
+}
+inline ::System::ComponentModel::ListChangedEventArgs* System::ComponentModel::ListChangedEventArgs::New_ctor(::System::ComponentModel::ListChangedType  listChangedType, ::System::ComponentModel::PropertyDescriptor*  propDesc)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::ComponentModel::ListChangedEventArgs*>(listChangedType, propDesc));
+}
+inline ::System::ComponentModel::ListChangedEventArgs* System::ComponentModel::ListChangedEventArgs::New_ctor(::System::ComponentModel::ListChangedType  listChangedType, int32_t  newIndex, int32_t  oldIndex)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::ComponentModel::ListChangedEventArgs*>(listChangedType, newIndex, oldIndex));
+}
+// Ctor Parameters []
+constexpr ::System::ComponentModel::ListChangedEventArgs::ListChangedEventArgs()   {
+}

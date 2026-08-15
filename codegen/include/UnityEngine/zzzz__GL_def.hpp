@@ -1,0 +1,148 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/GL.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cmath>
+#include <cstdint>
+CORDL_MODULE_EXPORT(GL)
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Rect;
+}
+// Forward declare root types
+namespace UnityEngine {
+class GL;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::GL*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::GL*, "UnityEngine", "GL");
+// Dependencies System.Object
+namespace UnityEngine {
+// Is value type: false
+// CS Name: UnityEngine.GL
+class CORDL_TYPE GL : public ::System::Object {
+public:
+// Declarations
+/// @brief Method Begin, addr 0x18224dd40, size 0x10, virtual false, abstract: false, final false
+static inline void Begin(int32_t  mode) ;
+
+/// @brief Method Clear, addr 0x18224dd70, size 0x30, virtual false, abstract: false, final false
+static inline void Clear(bool  clearDepth, bool  clearColor, ::UnityEngine::Color  backgroundColor) ;
+
+/// @brief Method Clear, addr 0x18224dd50, size 0x20, virtual false, abstract: false, final false
+static inline void Clear(bool  clearDepth, bool  clearColor, ::UnityEngine::Color  backgroundColor, float_t  depth) ;
+
+/// @brief Method Color, addr 0x18224dda0, size 0x20, virtual false, abstract: false, final false
+static inline void Color(::UnityEngine::Color  c) ;
+
+/// @brief Method End, addr 0x18224ddc0, size 0x10, virtual false, abstract: false, final false
+static inline void End() ;
+
+/// @brief Method Flush, addr 0x18224ddd0, size 0x10, virtual false, abstract: false, final false
+static inline void Flush() ;
+
+/// @brief Method GLClear, addr 0x18224ddf0, size 0x10, virtual false, abstract: false, final false
+static inline void GLClear(bool  clearDepth, bool  clearColor, ::UnityEngine::Color  backgroundColor, float_t  depth) ;
+
+/// @brief Method GLClear_Injected, addr 0x18224dde0, size 0x10, virtual false, abstract: false, final false
+static inline void GLClear_Injected(bool  clearDepth, bool  clearColor, ::by_ref<::UnityEngine::Color>  backgroundColor, float_t  depth) ;
+
+/// @brief Method GLLoadPixelMatrixScript, addr 0x18224de00, size 0x10, virtual false, abstract: false, final false
+static inline void GLLoadPixelMatrixScript(float_t  left, float_t  right, float_t  bottom, float_t  top) ;
+
+/// @brief Method GetGPUProjectionMatrix, addr 0x18224de20, size 0x40, virtual false, abstract: false, final false
+static inline ::UnityEngine::Matrix4x4 GetGPUProjectionMatrix(::UnityEngine::Matrix4x4  proj, bool  renderIntoTexture) ;
+
+/// @brief Method GetGPUProjectionMatrix_Injected, addr 0x18224de10, size 0x10, virtual false, abstract: false, final false
+static inline void GetGPUProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4>  proj, bool  renderIntoTexture, ::by_ref<::UnityEngine::Matrix4x4>  ret) ;
+
+/// @brief Method ImmediateColor, addr 0x18224de60, size 0x10, virtual false, abstract: false, final false
+static inline void ImmediateColor(float_t  r, float_t  g, float_t  b, float_t  a) ;
+
+/// @brief Method LoadOrtho, addr 0x18224de70, size 0x10, virtual false, abstract: false, final false
+static inline void LoadOrtho() ;
+
+/// @brief Method LoadPixelMatrix, addr 0x18224de00, size 0x10, virtual false, abstract: false, final false
+static inline void LoadPixelMatrix(float_t  left, float_t  right, float_t  bottom, float_t  top) ;
+
+/// @brief Method LoadProjectionMatrix, addr 0x18224de90, size 0x10, virtual false, abstract: false, final false
+static inline void LoadProjectionMatrix(::UnityEngine::Matrix4x4  mat) ;
+
+/// @brief Method LoadProjectionMatrix_Injected, addr 0x18224de80, size 0x10, virtual false, abstract: false, final false
+static inline void LoadProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4>  mat) ;
+
+/// @brief Method MultiTexCoord2, addr 0x18224dea0, size 0x10, virtual false, abstract: false, final false
+static inline void MultiTexCoord2(int32_t  unit, float_t  x, float_t  y) ;
+
+/// @brief Method MultiTexCoord3, addr 0x18224deb0, size 0x10, virtual false, abstract: false, final false
+static inline void MultiTexCoord3(int32_t  unit, float_t  x, float_t  y, float_t  z) ;
+
+/// @brief Method PopMatrix, addr 0x18224dec0, size 0x10, virtual false, abstract: false, final false
+static inline void PopMatrix() ;
+
+/// @brief Method PushMatrix, addr 0x18224ded0, size 0x10, virtual false, abstract: false, final false
+static inline void PushMatrix() ;
+
+/// @brief Method SetViewMatrix, addr 0x18224def0, size 0x10, virtual false, abstract: false, final false
+static inline void SetViewMatrix(::UnityEngine::Matrix4x4  m) ;
+
+/// @brief Method SetViewMatrix_Injected, addr 0x18224dee0, size 0x10, virtual false, abstract: false, final false
+static inline void SetViewMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4>  m) ;
+
+/// @brief Method TexCoord2, addr 0x18224df00, size 0x10, virtual false, abstract: false, final false
+static inline void TexCoord2(float_t  x, float_t  y) ;
+
+/// @brief Method TexCoord3, addr 0x18224df10, size 0x10, virtual false, abstract: false, final false
+static inline void TexCoord3(float_t  x, float_t  y, float_t  z) ;
+
+/// @brief Method Vertex3, addr 0x18224df20, size 0x10, virtual false, abstract: false, final false
+static inline void Vertex3(float_t  x, float_t  y, float_t  z) ;
+
+/// @brief Method Viewport, addr 0x18224df40, size 0x10, virtual false, abstract: false, final false
+static inline void Viewport(::UnityEngine::Rect  pixelRect) ;
+
+/// @brief Method Viewport_Injected, addr 0x18224df30, size 0x10, virtual false, abstract: false, final false
+static inline void Viewport_Injected(::by_ref<::UnityEngine::Rect>  pixelRect) ;
+
+/// @brief Method get_invertCulling, addr 0x18224df50, size 0x10, virtual false, abstract: false, final false
+static inline bool get_invertCulling() ;
+
+/// @brief Method get_wireframe, addr 0x18224df60, size 0x10, virtual false, abstract: false, final false
+static inline bool get_wireframe() ;
+
+/// @brief Method set_invertCulling, addr 0x18224df70, size 0x10, virtual false, abstract: false, final false
+static inline void set_invertCulling(bool  value) ;
+
+/// @brief Method set_modelview, addr 0x18224df80, size 0x40, virtual false, abstract: false, final false
+static inline void set_modelview(::UnityEngine::Matrix4x4  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr GL() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "GL", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GL(GL && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "GL", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GL(GL const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10494};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::GL) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine

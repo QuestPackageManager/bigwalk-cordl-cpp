@@ -1,0 +1,77 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/PlusNode.hpp"
+#include "System/Xml/Schema/zzzz__InteriorNode_impl.hpp"
+#include "System/Xml/Schema/zzzz__PlusNode_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
+//  Writing Method size for method: ::System::Xml::Schema::PlusNode.ConstructPos
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::PlusNode::*)(::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*>)>(&::System::Xml::Schema::PlusNode::ConstructPos)> {
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x181d59970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::PlusNode*>(),
+                    {::i2c::class_of<::System::Xml::Schema::PlusNode*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::PlusNode.get_IsNullable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::PlusNode::*)()>(&::System::Xml::Schema::PlusNode::get_IsNullable)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc5fd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::PlusNode*>(),
+                    {::i2c::class_of<::System::Xml::Schema::PlusNode*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::PlusNode._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::PlusNode::*)()>(&::System::Xml::Schema::PlusNode::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::PlusNode*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Xml::Schema::PlusNode::ConstructPos(::System::Xml::Schema::BitSet*  firstpos, ::System::Xml::Schema::BitSet*  lastpos, ::ArrayW<::System::Xml::Schema::BitSet*>  followpos)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::PlusNode*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, firstpos, lastpos, followpos);
+}
+inline bool System::Xml::Schema::PlusNode::get_IsNullable()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::PlusNode*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::Schema::PlusNode::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::PlusNode*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::PlusNode* System::Xml::Schema::PlusNode::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::PlusNode*>());
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::PlusNode::PlusNode()   {
+}

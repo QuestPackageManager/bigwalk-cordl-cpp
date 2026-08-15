@@ -1,0 +1,146 @@
+#pragma once
+// IWYU pragma private; include "System/Data/AutoIncrementBigInteger.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Data/zzzz__AutoIncrementValue_def.hpp"
+#include "System/Numerics/zzzz__BigInteger_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(AutoIncrementBigInteger)
+namespace System::Numerics {
+struct BigInteger;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+// Forward declare root types
+namespace System::Data {
+class AutoIncrementBigInteger;
+}
+// Write type traits
+MARK_REF_T(::System::Data::AutoIncrementBigInteger*);
+DEFINE_IL2CPP_CLASS(::System::Data::AutoIncrementBigInteger*, "System.Data", "AutoIncrementBigInteger");
+// Dependencies System.Data.AutoIncrementValue, System.Numerics.BigInteger
+namespace System::Data {
+// Is value type: false
+// CS Name: System.Data.AutoIncrementBigInteger
+class CORDL_TYPE AutoIncrementBigInteger : public ::System::Data::AutoIncrementValue {
+public:
+// Declarations
+ __declspec(property(get=get_Current, put=set_Current)) ::System::Object*  Current;
+
+ __declspec(property(get=get_DataType)) ::System::Type*  DataType;
+
+ __declspec(property(get=get_Seed, put=set_Seed)) int64_t  Seed;
+
+ __declspec(property(get=get_Step, put=set_Step)) int64_t  Step;
+
+/// @brief Field _current, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get__current, put=__cordl_internal_set__current)) ::System::Numerics::BigInteger  _current;
+
+/// @brief Field _seed, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__seed, put=__cordl_internal_set__seed)) int64_t  _seed;
+
+/// @brief Field _step, offset 0x30, size 0x10 
+ __declspec(property(get=__cordl_internal_get__step, put=__cordl_internal_set__step)) ::System::Numerics::BigInteger  _step;
+
+/// @brief Method BoundaryCheck, addr 0x181b67750, size 0xc0, virtual false, abstract: false, final false
+inline bool BoundaryCheck(::System::Numerics::BigInteger  value) ;
+
+/// @brief Method MoveAfter, addr 0x181b67810, size 0x50, virtual true, abstract: false, final false
+inline void MoveAfter() ;
+
+static inline ::System::Data::AutoIncrementBigInteger* New_ctor() ;
+
+/// @brief Method SetCurrent, addr 0x181b67900, size 0x30, virtual true, abstract: false, final false
+inline void SetCurrent(::System::Object*  value, ::System::IFormatProvider*  formatProvider) ;
+
+/// @brief Method SetCurrentAndIncrement, addr 0x181b67860, size 0xa0, virtual true, abstract: false, final false
+inline void SetCurrentAndIncrement(::System::Object*  value) ;
+
+constexpr ::System::Numerics::BigInteger const& __cordl_internal_get__current() const;
+
+constexpr ::System::Numerics::BigInteger& __cordl_internal_get__current() ;
+
+constexpr int64_t const& __cordl_internal_get__seed() const;
+
+constexpr int64_t& __cordl_internal_get__seed() ;
+
+constexpr ::System::Numerics::BigInteger const& __cordl_internal_get__step() const;
+
+constexpr ::System::Numerics::BigInteger& __cordl_internal_get__step() ;
+
+constexpr void __cordl_internal_set__current(::System::Numerics::BigInteger  value) ;
+
+constexpr void __cordl_internal_set__seed(int64_t  value) ;
+
+constexpr void __cordl_internal_set__step(::System::Numerics::BigInteger  value) ;
+
+/// @brief Method .ctor, addr 0x181b67930, size 0x40, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_Current, addr 0x181b67970, size 0x30, virtual true, abstract: false, final false
+inline ::System::Object* get_Current() ;
+
+/// @brief Method get_DataType, addr 0x181b679a0, size 0x10, virtual true, abstract: false, final false
+inline ::System::Type* get_DataType() ;
+
+/// @brief Method get_Seed, addr 0x1802d9810, size 0x10, virtual true, abstract: false, final false
+inline int64_t get_Seed() ;
+
+/// @brief Method get_Step, addr 0x181b679b0, size 0x20, virtual true, abstract: false, final false
+inline int64_t get_Step() ;
+
+/// @brief Method set_Current, addr 0x181b679d0, size 0x50, virtual true, abstract: false, final false
+inline void set_Current(::System::Object*  value) ;
+
+/// @brief Method set_Seed, addr 0x181b67a20, size 0x90, virtual true, abstract: false, final false
+inline void set_Seed(int64_t  value) ;
+
+/// @brief Method set_Step, addr 0x181b67ab0, size 0x130, virtual true, abstract: false, final false
+inline void set_Step(int64_t  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr AutoIncrementBigInteger() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "AutoIncrementBigInteger", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AutoIncrementBigInteger(AutoIncrementBigInteger && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "AutoIncrementBigInteger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AutoIncrementBigInteger(AutoIncrementBigInteger const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13927};
+
+/// @brief Field _current, offset: 0x18, size: 0x10, def value: None
+ ::System::Numerics::BigInteger  ____current;
+
+/// @brief Field _seed, offset: 0x28, size: 0x8, def value: None
+ int64_t  ____seed;
+
+/// @brief Field _step, offset: 0x30, size: 0x10, def value: None
+ ::System::Numerics::BigInteger  ____step;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Data::AutoIncrementBigInteger, ____current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Data::AutoIncrementBigInteger, ____seed) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Data::AutoIncrementBigInteger, ____step) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::System::Data::AutoIncrementBigInteger) == 0x40, "Size mismatch!");
+
+} // namespace end def System::Data

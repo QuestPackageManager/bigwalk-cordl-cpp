@@ -1,0 +1,61 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/ValidationEventHandler.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__MulticastDelegate_def.hpp"
+CORDL_MODULE_EXPORT(ValidationEventHandler)
+namespace System::Xml::Schema {
+class ValidationEventArgs;
+}
+namespace System {
+struct IntPtr;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::Xml::Schema {
+class ValidationEventHandler;
+}
+// Write type traits
+MARK_REF_T(::System::Xml::Schema::ValidationEventHandler*);
+DEFINE_IL2CPP_CLASS(::System::Xml::Schema::ValidationEventHandler*, "System.Xml.Schema", "ValidationEventHandler");
+// Dependencies System.MulticastDelegate
+namespace System::Xml::Schema {
+// Is value type: false
+// CS Name: System.Xml.Schema.ValidationEventHandler
+class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
+public:
+// Declarations
+/// @brief Method Invoke, addr 0x1804f6ae0, size 0xc0, virtual true, abstract: false, final false
+inline void Invoke(::System::Object*  sender, ::System::Xml::Schema::ValidationEventArgs*  e) ;
+
+static inline ::System::Xml::Schema::ValidationEventHandler* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
+
+/// @brief Method .ctor, addr 0x180a2d090, size 0x3350, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ValidationEventHandler() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ValidationEventHandler(ValidationEventHandler && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ValidationEventHandler(ValidationEventHandler const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10090};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Xml::Schema::ValidationEventHandler) == 0x80, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema

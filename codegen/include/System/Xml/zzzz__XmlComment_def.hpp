@@ -1,0 +1,86 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/XmlComment.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/zzzz__XmlCharacterData_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(XmlComment)
+namespace System::Xml {
+class XmlDocument;
+}
+namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System::Xml {
+class XmlNode;
+}
+namespace System::Xml {
+class XmlWriter;
+}
+// Forward declare root types
+namespace System::Xml {
+class XmlComment;
+}
+// Write type traits
+MARK_REF_T(::System::Xml::XmlComment*);
+DEFINE_IL2CPP_CLASS(::System::Xml::XmlComment*, "System.Xml", "XmlComment");
+// Dependencies System.Xml.XmlCharacterData
+namespace System::Xml {
+// Is value type: false
+// CS Name: System.Xml.XmlComment
+class CORDL_TYPE XmlComment : public ::System::Xml::XmlCharacterData {
+public:
+// Declarations
+ __declspec(property(get=get_LocalName)) ::StringW  LocalName;
+
+ __declspec(property(get=get_Name)) ::StringW  Name;
+
+ __declspec(property(get=get_NodeType)) ::System::Xml::XmlNodeType  NodeType;
+
+/// @brief Method CloneNode, addr 0x181cffcd0, size 0x60, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNode* CloneNode(bool  deep) ;
+
+static inline ::System::Xml::XmlComment* New_ctor(::StringW  comment, ::System::Xml::XmlDocument*  doc) ;
+
+/// @brief Method WriteContentTo, addr 0x1802d9d80, size 0x10, virtual true, abstract: false, final false
+inline void WriteContentTo(::System::Xml::XmlWriter*  w) ;
+
+/// @brief Method WriteTo, addr 0x181cffd30, size 0x40, virtual true, abstract: false, final false
+inline void WriteTo(::System::Xml::XmlWriter*  w) ;
+
+/// @brief Method .ctor, addr 0x181cff740, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(::StringW  comment, ::System::Xml::XmlDocument*  doc) ;
+
+/// @brief Method get_LocalName, addr 0x181cffd70, size 0x30, virtual true, abstract: false, final false
+inline ::StringW get_LocalName() ;
+
+/// @brief Method get_Name, addr 0x181cffd70, size 0x30, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
+
+/// @brief Method get_NodeType, addr 0x180308dd0, size 0x10, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNodeType get_NodeType() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlComment() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "XmlComment", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlComment(XmlComment && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "XmlComment", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlComment(XmlComment const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9752};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Xml::XmlComment) == 0x28, "Size mismatch!");
+
+} // namespace end def System::Xml

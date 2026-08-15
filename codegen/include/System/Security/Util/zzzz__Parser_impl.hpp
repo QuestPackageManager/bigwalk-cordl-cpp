@@ -1,0 +1,173 @@
+#pragma once
+// IWYU pragma private; include "System/Security/Util/Parser.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Security/Util/zzzz__Parser_def.hpp"
+#include "System/Security/Util/zzzz__TokenizerStream_def.hpp"
+#include "System/Security/Util/zzzz__Tokenizer_def.hpp"
+#include "System/Security/zzzz__SecurityDocument_def.hpp"
+#include "System/Security/zzzz__SecurityElement_def.hpp"
+//  Writing Method size for method: ::System::Security::Util::Parser.GetTopElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::SecurityElement* (::System::Security::Util::Parser::*)()>(&::System::Security::Util::Parser::GetTopElement)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1815fc1c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {"GetTopElement", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Util::Parser.GetRequiredSizes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Parser::*)(::System::Security::Util::TokenizerStream*, ::by_ref<int32_t>)>(&::System::Security::Util::Parser::GetRequiredSizes)> {
+  constexpr static std::size_t size = 0xba0;
+  constexpr static std::size_t addrs = 0x1815fb620;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {"GetRequiredSizes", {}, {::i2c::type_of<::System::Security::Util::TokenizerStream*>(), ::i2c::type_of<::by_ref<int32_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Util::Parser.DetermineFormat
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Util::Parser::*)(::System::Security::Util::TokenizerStream*)>(&::System::Security::Util::Parser::DetermineFormat)> {
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x1815fb440;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {"DetermineFormat", {}, {::i2c::type_of<::System::Security::Util::TokenizerStream*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Util::Parser.ParseContents
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Parser::*)()>(&::System::Security::Util::Parser::ParseContents)> {
+  constexpr static std::size_t size = 0x4f0;
+  constexpr static std::size_t addrs = 0x1815fc1d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {"ParseContents", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Util::Parser._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Parser::*)(::System::Security::Util::Tokenizer*)>(&::System::Security::Util::Parser::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1815fc760;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Security::Util::Tokenizer*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Util::Parser._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Parser::*)(::StringW)>(&::System::Security::Util::Parser::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1815fc6c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Security::SecurityDocument*& System::Security::Util::Parser::__cordl_internal_get__doc()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____doc;
+}
+constexpr ::System::Security::SecurityDocument* const& System::Security::Util::Parser::__cordl_internal_get__doc() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____doc;
+}
+constexpr void System::Security::Util::Parser::__cordl_internal_set__doc(::System::Security::SecurityDocument*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____doc = value;
+}
+constexpr ::System::Security::Util::Tokenizer*& System::Security::Util::Parser::__cordl_internal_get__t()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____t;
+}
+constexpr ::System::Security::Util::Tokenizer* const& System::Security::Util::Parser::__cordl_internal_get__t() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____t;
+}
+constexpr void System::Security::Util::Parser::__cordl_internal_set__t(::System::Security::Util::Tokenizer*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____t = value;
+}
+inline ::System::Security::SecurityElement* System::Security::Util::Parser::GetTopElement()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {"GetTopElement", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::SecurityElement*>(this, ___internal_method);
+}
+inline void System::Security::Util::Parser::GetRequiredSizes(::System::Security::Util::TokenizerStream*  stream, ::by_ref<int32_t>  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {"GetRequiredSizes", {}, {::i2c::type_of<::System::Security::Util::TokenizerStream*>(), ::i2c::type_of<::by_ref<int32_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stream, index);
+}
+inline int32_t System::Security::Util::Parser::DetermineFormat(::System::Security::Util::TokenizerStream*  stream)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {"DetermineFormat", {}, {::i2c::type_of<::System::Security::Util::TokenizerStream*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, stream);
+}
+inline void System::Security::Util::Parser::ParseContents()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {"ParseContents", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Security::Util::Parser::_ctor(::System::Security::Util::Tokenizer*  t)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Security::Util::Tokenizer*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
+}
+inline void System::Security::Util::Parser::_ctor(::StringW  input)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Util::Parser*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, input);
+}
+inline ::System::Security::Util::Parser* System::Security::Util::Parser::New_ctor(::System::Security::Util::Tokenizer*  t)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Util::Parser*>(t));
+}
+inline ::System::Security::Util::Parser* System::Security::Util::Parser::New_ctor(::StringW  input)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Util::Parser*>(input));
+}
+// Ctor Parameters []
+constexpr ::System::Security::Util::Parser::Parser()   {
+}

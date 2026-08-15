@@ -1,0 +1,191 @@
+#pragma once
+// IWYU pragma private; include "Epic/OnlineServices/RTC/SetRoomSettingOptions.hpp"
+#include "Epic/OnlineServices/RTC/zzzz__SetRoomSettingOptions_def.hpp"
+#include "Epic/OnlineServices/zzzz__ProductUserId_def.hpp"
+#include "Epic/OnlineServices/zzzz__Utf8String_def.hpp"
+//  Writing Method size for method: ::Epic::OnlineServices::RTC::SetRoomSettingOptions.get_LocalUserId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Epic::OnlineServices::ProductUserId* (::Epic::OnlineServices::RTC::SetRoomSettingOptions::*)()>(&::Epic::OnlineServices::RTC::SetRoomSettingOptions::get_LocalUserId)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803a88d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"get_LocalUserId", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::RTC::SetRoomSettingOptions.set_LocalUserId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Epic::OnlineServices::RTC::SetRoomSettingOptions::*)(::Epic::OnlineServices::ProductUserId*)>(&::Epic::OnlineServices::RTC::SetRoomSettingOptions::set_LocalUserId)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180378fd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"set_LocalUserId", {}, {::i2c::type_of<::Epic::OnlineServices::ProductUserId*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::RTC::SetRoomSettingOptions.get_RoomName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Epic::OnlineServices::Utf8String* (::Epic::OnlineServices::RTC::SetRoomSettingOptions::*)()>(&::Epic::OnlineServices::RTC::SetRoomSettingOptions::get_RoomName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803ed930;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"get_RoomName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::RTC::SetRoomSettingOptions.set_RoomName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Epic::OnlineServices::RTC::SetRoomSettingOptions::*)(::Epic::OnlineServices::Utf8String*)>(&::Epic::OnlineServices::RTC::SetRoomSettingOptions::set_RoomName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180378fe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"set_RoomName", {}, {::i2c::type_of<::Epic::OnlineServices::Utf8String*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::RTC::SetRoomSettingOptions.get_SettingName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Epic::OnlineServices::Utf8String* (::Epic::OnlineServices::RTC::SetRoomSettingOptions::*)()>(&::Epic::OnlineServices::RTC::SetRoomSettingOptions::get_SettingName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"get_SettingName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::RTC::SetRoomSettingOptions.set_SettingName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Epic::OnlineServices::RTC::SetRoomSettingOptions::*)(::Epic::OnlineServices::Utf8String*)>(&::Epic::OnlineServices::RTC::SetRoomSettingOptions::set_SettingName)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x180308500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"set_SettingName", {}, {::i2c::type_of<::Epic::OnlineServices::Utf8String*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::RTC::SetRoomSettingOptions.get_SettingValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Epic::OnlineServices::Utf8String* (::Epic::OnlineServices::RTC::SetRoomSettingOptions::*)()>(&::Epic::OnlineServices::RTC::SetRoomSettingOptions::get_SettingValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"get_SettingValue", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Epic::OnlineServices::RTC::SetRoomSettingOptions.set_SettingValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Epic::OnlineServices::RTC::SetRoomSettingOptions::*)(::Epic::OnlineServices::Utf8String*)>(&::Epic::OnlineServices::RTC::SetRoomSettingOptions::set_SettingValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"set_SettingValue", {}, {::i2c::type_of<::Epic::OnlineServices::Utf8String*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::Epic::OnlineServices::ProductUserId* Epic::OnlineServices::RTC::SetRoomSettingOptions::get_LocalUserId()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"get_LocalUserId", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Epic::OnlineServices::ProductUserId*>(*this, ___internal_method);
+}
+inline void Epic::OnlineServices::RTC::SetRoomSettingOptions::set_LocalUserId(::Epic::OnlineServices::ProductUserId*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"set_LocalUserId", {}, {::i2c::type_of<::Epic::OnlineServices::ProductUserId*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline ::Epic::OnlineServices::Utf8String* Epic::OnlineServices::RTC::SetRoomSettingOptions::get_RoomName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"get_RoomName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Epic::OnlineServices::Utf8String*>(*this, ___internal_method);
+}
+inline void Epic::OnlineServices::RTC::SetRoomSettingOptions::set_RoomName(::Epic::OnlineServices::Utf8String*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"set_RoomName", {}, {::i2c::type_of<::Epic::OnlineServices::Utf8String*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline ::Epic::OnlineServices::Utf8String* Epic::OnlineServices::RTC::SetRoomSettingOptions::get_SettingName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"get_SettingName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Epic::OnlineServices::Utf8String*>(*this, ___internal_method);
+}
+inline void Epic::OnlineServices::RTC::SetRoomSettingOptions::set_SettingName(::Epic::OnlineServices::Utf8String*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"set_SettingName", {}, {::i2c::type_of<::Epic::OnlineServices::Utf8String*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline ::Epic::OnlineServices::Utf8String* Epic::OnlineServices::RTC::SetRoomSettingOptions::get_SettingValue()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"get_SettingValue", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Epic::OnlineServices::Utf8String*>(*this, ___internal_method);
+}
+inline void Epic::OnlineServices::RTC::SetRoomSettingOptions::set_SettingValue(::Epic::OnlineServices::Utf8String*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Epic::OnlineServices::RTC::SetRoomSettingOptions>(),
+                        {"set_SettingValue", {}, {::i2c::type_of<::Epic::OnlineServices::Utf8String*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+// Ctor Parameters [CppParam { name: "_LocalUserId_k__BackingField", ty: "::Epic::OnlineServices::ProductUserId*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_RoomName_k__BackingField", ty: "::Epic::OnlineServices::Utf8String*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SettingName_k__BackingField", ty: "::Epic::OnlineServices::Utf8String*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SettingValue_k__BackingField", ty: "::Epic::OnlineServices::Utf8String*", modifiers: "", def_value: Some("{}") }]
+constexpr ::Epic::OnlineServices::RTC::SetRoomSettingOptions::SetRoomSettingOptions(::Epic::OnlineServices::ProductUserId*  _LocalUserId_k__BackingField, ::Epic::OnlineServices::Utf8String*  _RoomName_k__BackingField, ::Epic::OnlineServices::Utf8String*  _SettingName_k__BackingField, ::Epic::OnlineServices::Utf8String*  _SettingValue_k__BackingField) noexcept  {
+this->_LocalUserId_k__BackingField = _LocalUserId_k__BackingField;
+this->_RoomName_k__BackingField = _RoomName_k__BackingField;
+this->_SettingName_k__BackingField = _SettingName_k__BackingField;
+this->_SettingValue_k__BackingField = _SettingValue_k__BackingField;
+}
+// Ctor Parameters []
+constexpr ::Epic::OnlineServices::RTC::SetRoomSettingOptions::SetRoomSettingOptions()   {
+}

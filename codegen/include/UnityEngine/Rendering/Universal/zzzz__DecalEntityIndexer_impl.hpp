@@ -1,0 +1,223 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalEntityIndexer.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__DecalEntityIndexer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__DecalEntityIndexer_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__DecalEntity_def.hpp"
+// Ctor Parameters [CppParam { name: "chunkIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "arrayIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem::DecalEntityIndexer_DecalEntityItem(int32_t  chunkIndex, int32_t  arrayIndex, int32_t  version) noexcept  {
+this->chunkIndex = chunkIndex;
+this->arrayIndex = arrayIndex;
+this->version = version;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem::DecalEntityIndexer_DecalEntityItem()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalEntityIndexer.IsValid
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::DecalEntityIndexer::*)(::UnityEngine::Rendering::Universal::DecalEntity)>(&::UnityEngine::Rendering::Universal::DecalEntityIndexer::IsValid)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1820d1180;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"IsValid", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntity>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalEntityIndexer.CreateDecalEntity
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalEntity (::UnityEngine::Rendering::Universal::DecalEntityIndexer::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::DecalEntityIndexer::CreateDecalEntity)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x1820d0f90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"CreateDecalEntity", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalEntityIndexer.DestroyDecalEntity
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityIndexer::*)(::UnityEngine::Rendering::Universal::DecalEntity)>(&::UnityEngine::Rendering::Universal::DecalEntityIndexer::DestroyDecalEntity)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1820d10e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"DestroyDecalEntity", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntity>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalEntityIndexer.GetItem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem (::UnityEngine::Rendering::Universal::DecalEntityIndexer::*)(::UnityEngine::Rendering::Universal::DecalEntity)>(&::UnityEngine::Rendering::Universal::DecalEntityIndexer::GetItem)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1820d1150;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"GetItem", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntity>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalEntityIndexer.UpdateIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityIndexer::*)(::UnityEngine::Rendering::Universal::DecalEntity, int32_t)>(&::UnityEngine::Rendering::Universal::DecalEntityIndexer::UpdateIndex)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1820d1250;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"UpdateIndex", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntity>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalEntityIndexer.RemapChunkIndices
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityIndexer::*)(::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::Rendering::Universal::DecalEntityIndexer::RemapChunkIndices)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1820d11b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"RemapChunkIndices", {}, {::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalEntityIndexer.Clear
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityIndexer::*)()>(&::UnityEngine::Rendering::Universal::DecalEntityIndexer::Clear)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1820d0f70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"Clear", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::DecalEntityIndexer._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityIndexer::*)()>(&::UnityEngine::Rendering::Universal::DecalEntityIndexer::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1820d12b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>*& UnityEngine::Rendering::Universal::DecalEntityIndexer::__cordl_internal_get_m_Entities()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Entities;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>* const& UnityEngine::Rendering::Universal::DecalEntityIndexer::__cordl_internal_get_m_Entities() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Entities;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalEntityIndexer::__cordl_internal_set_m_Entities(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Entities = value;
+}
+constexpr ::System::Collections::Generic::Queue_1<int32_t>*& UnityEngine::Rendering::Universal::DecalEntityIndexer::__cordl_internal_get_m_FreeIndices()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FreeIndices;
+}
+constexpr ::System::Collections::Generic::Queue_1<int32_t>* const& UnityEngine::Rendering::Universal::DecalEntityIndexer::__cordl_internal_get_m_FreeIndices() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_FreeIndices;
+}
+constexpr void UnityEngine::Rendering::Universal::DecalEntityIndexer::__cordl_internal_set_m_FreeIndices(::System::Collections::Generic::Queue_1<int32_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_FreeIndices = value;
+}
+inline bool UnityEngine::Rendering::Universal::DecalEntityIndexer::IsValid(::UnityEngine::Rendering::Universal::DecalEntity  decalEntity)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"IsValid", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntity>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, decalEntity);
+}
+inline ::UnityEngine::Rendering::Universal::DecalEntity UnityEngine::Rendering::Universal::DecalEntityIndexer::CreateDecalEntity(int32_t  arrayIndex, int32_t  chunkIndex)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"CreateDecalEntity", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::DecalEntity>(this, ___internal_method, arrayIndex, chunkIndex);
+}
+inline void UnityEngine::Rendering::Universal::DecalEntityIndexer::DestroyDecalEntity(::UnityEngine::Rendering::Universal::DecalEntity  decalEntity)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"DestroyDecalEntity", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntity>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, decalEntity);
+}
+inline ::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem UnityEngine::Rendering::Universal::DecalEntityIndexer::GetItem(::UnityEngine::Rendering::Universal::DecalEntity  decalEntity)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"GetItem", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntity>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>(this, ___internal_method, decalEntity);
+}
+inline void UnityEngine::Rendering::Universal::DecalEntityIndexer::UpdateIndex(::UnityEngine::Rendering::Universal::DecalEntity  decalEntity, int32_t  newArrayIndex)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"UpdateIndex", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::DecalEntity>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, decalEntity, newArrayIndex);
+}
+inline void UnityEngine::Rendering::Universal::DecalEntityIndexer::RemapChunkIndices(::System::Collections::Generic::List_1<int32_t>*  remaper)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"RemapChunkIndices", {}, {::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, remaper);
+}
+inline void UnityEngine::Rendering::Universal::DecalEntityIndexer::Clear()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {"Clear", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::DecalEntityIndexer::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::DecalEntityIndexer* UnityEngine::Rendering::Universal::DecalEntityIndexer::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::DecalEntityIndexer*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::DecalEntityIndexer::DecalEntityIndexer()   {
+}

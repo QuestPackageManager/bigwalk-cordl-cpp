@@ -1,0 +1,154 @@
+#pragma once
+// IWYU pragma private; include "System/Threading/Tasks/AwaitTaskContinuation.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
+CORDL_MODULE_EXPORT(AwaitTaskContinuation)
+namespace System::Threading::Tasks {
+class TaskScheduler;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
+}
+namespace System::Threading {
+class ThreadAbortException;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::Threading::Tasks {
+class AwaitTaskContinuation;
+}
+// Write type traits
+MARK_REF_T(::System::Threading::Tasks::AwaitTaskContinuation*);
+DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::AwaitTaskContinuation*, "System.Threading.Tasks", "AwaitTaskContinuation");
+// Dependencies System.Threading.Tasks.TaskContinuation
+namespace System::Threading::Tasks {
+// Is value type: false
+// CS Name: System.Threading.Tasks.AwaitTaskContinuation
+class CORDL_TYPE AwaitTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {
+public:
+// Declarations
+/// @brief Field m_action, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_action, put=__cordl_internal_set_m_action)) ::System::Action*  m_action;
+
+/// @brief Field m_capturedContext, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_capturedContext, put=__cordl_internal_set_m_capturedContext)) ::System::Threading::ExecutionContext*  m_capturedContext;
+
+/// @brief Field s_invokeActionCallback, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_invokeActionCallback, put=setStaticF_s_invokeActionCallback)) ::System::Threading::ContextCallback*  s_invokeActionCallback;
+
+/// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
+constexpr operator  ::System::Threading::IThreadPoolWorkItem*() noexcept;
+
+/// @brief Method CreateTask, addr 0x18176af20, size 0x150, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* CreateTask(::System::Action_1<::System::Object*>*  action, ::System::Object*  state, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
+
+/// @brief Method GetInvokeActionCallback, addr 0x181769f60, size 0x80, virtual false, abstract: false, final false
+static inline ::System::Threading::ContextCallback* GetInvokeActionCallback() ;
+
+/// @brief Method InvokeAction, addr 0x18166e190, size 0x50, virtual false, abstract: false, final false
+static inline void InvokeAction(::System::Object*  state) ;
+
+/// @brief Method MarkAborted, addr 0x1802d9d80, size 0x10, virtual true, abstract: false, final true
+inline void MarkAborted(::System::Threading::ThreadAbortException*  e) ;
+
+static inline ::System::Threading::Tasks::AwaitTaskContinuation* New_ctor(::System::Action*  action, bool  flowExecutionContext) ;
+
+/// @brief Method Run, addr 0x18176b2e0, size 0x80, virtual true, abstract: false, final false
+inline void Run(::System::Threading::Tasks::Task*  ignored, bool  canInlineContinuationTask) ;
+
+/// @brief Method RunCallback, addr 0x18176b070, size 0x110, virtual false, abstract: false, final false
+inline void RunCallback(::System::Threading::ContextCallback*  callback, ::System::Object*  state, ::by_ref<::System::Threading::Tasks::Task*>  currentTask) ;
+
+/// @brief Method RunOrScheduleAction, addr 0x18176b180, size 0x160, virtual false, abstract: false, final false
+static inline void RunOrScheduleAction(::System::Action*  action, bool  allowInlining, ::by_ref<::System::Threading::Tasks::Task*>  currentTask) ;
+
+/// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x18176b360, size 0x60, virtual true, abstract: false, final true
+inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem() ;
+
+/// @brief Method ThrowAsyncIfNecessary, addr 0x18176b3c0, size 0x10, virtual false, abstract: false, final false
+static inline void ThrowAsyncIfNecessary(::System::Exception*  exc) ;
+
+/// @brief Method UnsafeScheduleAction, addr 0x18176b3d0, size 0x50, virtual false, abstract: false, final false
+static inline void UnsafeScheduleAction(::System::Action*  action) ;
+
+constexpr ::System::Action* const& __cordl_internal_get_m_action() const;
+
+constexpr ::System::Action*& __cordl_internal_get_m_action() ;
+
+constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get_m_capturedContext() const;
+
+constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_m_capturedContext() ;
+
+constexpr void __cordl_internal_set_m_action(::System::Action*  value) ;
+
+constexpr void __cordl_internal_set_m_capturedContext(::System::Threading::ExecutionContext*  value) ;
+
+/// @brief Method .ctor, addr 0x18176b420, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(::System::Action*  action, bool  flowExecutionContext) ;
+
+static inline ::System::Threading::ContextCallback* getStaticF_s_invokeActionCallback() ;
+
+/// @brief Method get_IsValidLocationForInlining, addr 0x18176b470, size 0xb0, virtual false, abstract: false, final false
+static inline bool get_IsValidLocationForInlining() ;
+
+/// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
+
+static inline void setStaticF_s_invokeActionCallback(::System::Threading::ContextCallback*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr AwaitTaskContinuation() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "AwaitTaskContinuation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AwaitTaskContinuation(AwaitTaskContinuation && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "AwaitTaskContinuation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AwaitTaskContinuation(AwaitTaskContinuation const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{642};
+
+/// @brief Field m_capturedContext, offset: 0x10, size: 0x8, def value: None
+ ::System::Threading::ExecutionContext*  ___m_capturedContext;
+
+/// @brief Field m_action, offset: 0x18, size: 0x8, def value: None
+ ::System::Action*  ___m_action;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Threading::Tasks::AwaitTaskContinuation, ___m_capturedContext) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Threading::Tasks::AwaitTaskContinuation, ___m_action) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::System::Threading::Tasks::AwaitTaskContinuation) == 0x20, "Size mismatch!");
+
+} // namespace end def System::Threading::Tasks

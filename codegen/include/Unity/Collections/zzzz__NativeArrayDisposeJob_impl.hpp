@@ -1,0 +1,64 @@
+#pragma once
+// IWYU pragma private; include "Unity/Collections/NativeArrayDisposeJob.hpp"
+#include "Unity/Collections/zzzz__NativeArrayDispose_impl.hpp"
+#include "Unity/Collections/zzzz__NativeArrayDisposeJob_def.hpp"
+#include "Unity/Jobs/zzzz__IJob_def.hpp"
+//  Writing Method size for method: ::Unity::Collections::NativeArrayDisposeJob.Execute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeArrayDisposeJob::*)()>(&::Unity::Collections::NativeArrayDisposeJob::Execute)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182248a40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Collections::NativeArrayDisposeJob>(),
+                        {"Execute", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Collections::NativeArrayDisposeJob.RegisterNativeArrayDisposeJobReflectionData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Collections::NativeArrayDisposeJob::RegisterNativeArrayDisposeJobReflectionData)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182248a60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Collections::NativeArrayDisposeJob>(),
+                        {"RegisterNativeArrayDisposeJobReflectionData", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void Unity::Collections::NativeArrayDisposeJob::Execute()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Collections::NativeArrayDisposeJob>(),
+                        {"Execute", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void Unity::Collections::NativeArrayDisposeJob::RegisterNativeArrayDisposeJobReflectionData()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Collections::NativeArrayDisposeJob>(),
+                        {"RegisterNativeArrayDisposeJobReflectionData", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+/// @brief Convert operator to "::Unity::Jobs::IJob"
+constexpr  Unity::Collections::NativeArrayDisposeJob::operator ::Unity::Jobs::IJob*()  {
+return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::Unity::Jobs::IJob"
+constexpr ::Unity::Jobs::IJob* Unity::Collections::NativeArrayDisposeJob::i___Unity__Jobs__IJob()  {
+return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeArrayDispose", modifiers: "", def_value: Some("{}") }]
+constexpr ::Unity::Collections::NativeArrayDisposeJob::NativeArrayDisposeJob(::Unity::Collections::NativeArrayDispose  Data) noexcept  {
+this->Data = Data;
+}
+// Ctor Parameters []
+constexpr ::Unity::Collections::NativeArrayDisposeJob::NativeArrayDisposeJob()   {
+}

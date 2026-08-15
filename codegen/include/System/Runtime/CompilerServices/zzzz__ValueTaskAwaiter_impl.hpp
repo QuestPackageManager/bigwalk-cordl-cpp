@@ -1,0 +1,207 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/ValueTaskAwaiter.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Runtime::CompilerServices::ValueTaskAwaiter___c._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter___c::*)()>(&::System::Runtime::CompilerServices::ValueTaskAwaiter___c::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::CompilerServices::ValueTaskAwaiter___c.__cctor_b__9_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter___c::*)(::System::Object*)>(&::System::Runtime::CompilerServices::ValueTaskAwaiter___c::__cctor_b__9_0)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18166d7e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>(),
+                        {"<.cctor>b__9_0", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Runtime::CompilerServices::ValueTaskAwaiter___c::setStaticF___9(::System::Runtime::CompilerServices::ValueTaskAwaiter___c*  value)  {
+::cordl_internals::setStaticField<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*, "<>9", ::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>(std::forward<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>(value));
+}
+inline ::System::Runtime::CompilerServices::ValueTaskAwaiter___c* System::Runtime::CompilerServices::ValueTaskAwaiter___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*, "<>9", ::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>();
+}
+inline void System::Runtime::CompilerServices::ValueTaskAwaiter___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Runtime::CompilerServices::ValueTaskAwaiter___c::__cctor_b__9_0(::System::Object*  state)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>(),
+                        {"<.cctor>b__9_0", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, state);
+}
+inline ::System::Runtime::CompilerServices::ValueTaskAwaiter___c* System::Runtime::CompilerServices::ValueTaskAwaiter___c::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::CompilerServices::ValueTaskAwaiter___c*>());
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::CompilerServices::ValueTaskAwaiter___c::ValueTaskAwaiter___c()   {
+}
+//  Writing Method size for method: ::System::Runtime::CompilerServices::ValueTaskAwaiter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)(::System::Threading::Tasks::ValueTask)>(&::System::Runtime::CompilerServices::ValueTaskAwaiter::_ctor)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x180347400;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Threading::Tasks::ValueTask>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::CompilerServices::ValueTaskAwaiter.get_IsCompleted
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)()>(&::System::Runtime::CompilerServices::ValueTaskAwaiter::get_IsCompleted)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181661590;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {"get_IsCompleted", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::CompilerServices::ValueTaskAwaiter.GetResult
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)()>(&::System::Runtime::CompilerServices::ValueTaskAwaiter::GetResult)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181661580;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {"GetResult", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::CompilerServices::ValueTaskAwaiter.OnCompleted
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)(::System::Action*)>(&::System::Runtime::CompilerServices::ValueTaskAwaiter::OnCompleted)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x18166dce0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {"OnCompleted", {}, {::i2c::type_of<::System::Action*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::CompilerServices::ValueTaskAwaiter.UnsafeOnCompleted
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::ValueTaskAwaiter::*)(::System::Action*)>(&::System::Runtime::CompilerServices::ValueTaskAwaiter::UnsafeOnCompleted)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x18166dde0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {"UnsafeOnCompleted", {}, {::i2c::type_of<::System::Action*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Runtime::CompilerServices::ValueTaskAwaiter::setStaticF_s_invokeActionDelegate(::System::Action_1<::System::Object*>*  value)  {
+::cordl_internals::setStaticField<::System::Action_1<::System::Object*>*, "s_invokeActionDelegate", ::System::Runtime::CompilerServices::ValueTaskAwaiter>(std::forward<::System::Action_1<::System::Object*>*>(value));
+}
+inline ::System::Action_1<::System::Object*>* System::Runtime::CompilerServices::ValueTaskAwaiter::getStaticF_s_invokeActionDelegate()  {
+return ::cordl_internals::getStaticField<::System::Action_1<::System::Object*>*, "s_invokeActionDelegate", ::System::Runtime::CompilerServices::ValueTaskAwaiter>();
+}
+inline void System::Runtime::CompilerServices::ValueTaskAwaiter::_ctor(::System::Threading::Tasks::ValueTask  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Threading::Tasks::ValueTask>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline bool System::Runtime::CompilerServices::ValueTaskAwaiter::get_IsCompleted()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {"get_IsCompleted", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline void System::Runtime::CompilerServices::ValueTaskAwaiter::GetResult()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {"GetResult", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void System::Runtime::CompilerServices::ValueTaskAwaiter::OnCompleted(::System::Action*  continuation)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {"OnCompleted", {}, {::i2c::type_of<::System::Action*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, continuation);
+}
+inline void System::Runtime::CompilerServices::ValueTaskAwaiter::UnsafeOnCompleted(::System::Action*  continuation)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::CompilerServices::ValueTaskAwaiter>(),
+                        {"UnsafeOnCompleted", {}, {::i2c::type_of<::System::Action*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, continuation);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+constexpr  System::Runtime::CompilerServices::ValueTaskAwaiter::operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*()  {
+return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* System::Runtime::CompilerServices::ValueTaskAwaiter::i___System__Runtime__CompilerServices__ICriticalNotifyCompletion()  {
+return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+constexpr  System::Runtime::CompilerServices::ValueTaskAwaiter::operator ::System::Runtime::CompilerServices::INotifyCompletion*()  {
+return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+constexpr ::System::Runtime::CompilerServices::INotifyCompletion* System::Runtime::CompilerServices::ValueTaskAwaiter::i___System__Runtime__CompilerServices__INotifyCompletion()  {
+return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Runtime::CompilerServices::ValueTaskAwaiter::ValueTaskAwaiter(::System::Threading::Tasks::ValueTask  _value) noexcept  {
+this->_value = _value;
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::CompilerServices::ValueTaskAwaiter::ValueTaskAwaiter()   {
+}

@@ -1,0 +1,72 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Profiling/Profiler.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(Profiler)
+namespace System {
+struct IntPtr;
+}
+namespace UnityEngine {
+class Object;
+}
+// Forward declare root types
+namespace UnityEngine::Profiling {
+class Profiler;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Profiling::Profiler*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Profiling::Profiler*, "UnityEngine.Profiling", "Profiler");
+// Dependencies System.Object
+namespace UnityEngine::Profiling {
+// Is value type: false
+// CS Name: UnityEngine.Profiling.Profiler
+class CORDL_TYPE Profiler : public ::System::Object {
+public:
+// Declarations
+/// @brief Method EndThreadProfiling, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+static inline void EndThreadProfiling() ;
+
+/// @brief Method GetMonoUsedSizeLong, addr 0x182283920, size 0x10, virtual false, abstract: false, final false
+static inline int64_t GetMonoUsedSizeLong() ;
+
+/// @brief Method GetRuntimeMemorySizeLong, addr 0x182283940, size 0x50, virtual false, abstract: false, final false
+static inline int64_t GetRuntimeMemorySizeLong(::UnityEngine::Object*  o) ;
+
+/// @brief Method GetRuntimeMemorySizeLong_Injected, addr 0x182283930, size 0x10, virtual false, abstract: false, final false
+static inline int64_t GetRuntimeMemorySizeLong_Injected(::System::IntPtr  o) ;
+
+/// @brief Method GetTotalAllocatedMemoryLong, addr 0x182283990, size 0x10, virtual false, abstract: false, final false
+static inline int64_t GetTotalAllocatedMemoryLong() ;
+
+/// @brief Method GetTotalReservedMemoryLong, addr 0x1822839a0, size 0x10, virtual false, abstract: false, final false
+static inline int64_t GetTotalReservedMemoryLong() ;
+
+/// @brief Method get_enabled, addr 0x1822839b0, size 0x10, virtual false, abstract: false, final false
+static inline bool get_enabled() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Profiler() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Profiler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Profiler(Profiler && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Profiler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Profiler(Profiler const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10781};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Profiling::Profiler) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Profiling

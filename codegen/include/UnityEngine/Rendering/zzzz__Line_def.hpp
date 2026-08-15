@@ -1,0 +1,66 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Line.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Unity/Mathematics/zzzz__float3_def.hpp"
+#include <cstddef>
+CORDL_MODULE_EXPORT(Line)
+namespace Unity::Mathematics {
+struct float3;
+}
+namespace Unity::Mathematics {
+struct float4;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering {
+struct Line;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::Rendering::Line);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Line, "UnityEngine.Rendering", "Line");
+// Dependencies Unity.Mathematics.float3
+namespace UnityEngine::Rendering {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.Line
+struct CORDL_TYPE Line {
+public:
+// Declarations
+/// @brief Method LineOfPlaneIntersectingPlane, addr 0x181500600, size 0xc0, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rendering::Line LineOfPlaneIntersectingPlane(::Unity::Mathematics::float4  a, ::Unity::Mathematics::float4  b) ;
+
+/// @brief Method PlaneContainingLineAndPoint, addr 0x1815006c0, size 0x110, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::float4 PlaneContainingLineAndPoint(::UnityEngine::Rendering::Line  a, ::Unity::Mathematics::float3  b) ;
+
+/// @brief Method PlaneContainingLineWithNormalPerpendicularToVector, addr 0x1815007d0, size 0xe0, virtual false, abstract: false, final false
+static inline ::Unity::Mathematics::float4 PlaneContainingLineWithNormalPerpendicularToVector(::UnityEngine::Rendering::Line  a, ::Unity::Mathematics::float3  b) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr Line() ;
+
+// Ctor Parameters [CppParam { name: "m", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }]
+constexpr Line(::Unity::Mathematics::float3  m, ::Unity::Mathematics::float3  t) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17672};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
+
+/// @brief Field m, offset: 0x0, size: 0xc, def value: None
+ ::Unity::Mathematics::float3  m;
+
+/// @brief Field t, offset: 0xc, size: 0xc, def value: None
+ ::Unity::Mathematics::float3  t;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Line, m) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Line, t) == 0xc, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Line) == 0x18, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering

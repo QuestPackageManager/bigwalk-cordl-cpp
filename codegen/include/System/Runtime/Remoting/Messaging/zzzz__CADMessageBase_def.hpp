@@ -1,0 +1,178 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADMessageBase.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(CADMessageBase)
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADArgHolder;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+// Forward declare root types
+namespace System::Runtime::Remoting::Messaging {
+class CADMessageBase;
+}
+// Write type traits
+MARK_REF_T(::System::Runtime::Remoting::Messaging::CADMessageBase*);
+DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Messaging::CADMessageBase*, "System.Runtime.Remoting.Messaging", "CADMessageBase");
+// Dependencies System.Object
+namespace System::Runtime::Remoting::Messaging {
+// Is value type: false
+// CS Name: System.Runtime.Remoting.Messaging.CADMessageBase
+class CORDL_TYPE CADMessageBase : public ::System::Object {
+public:
+// Declarations
+/// @brief Field _args, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__args, put=__cordl_internal_set__args)) ::ArrayW<::System::Object*>  _args;
+
+/// @brief Field _callContext, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__callContext, put=__cordl_internal_set__callContext)) ::System::Runtime::Remoting::Messaging::CADArgHolder*  _callContext;
+
+/// @brief Field _propertyCount, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__propertyCount, put=__cordl_internal_set__propertyCount)) int32_t  _propertyCount;
+
+/// @brief Field _serializedArgs, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__serializedArgs, put=__cordl_internal_set__serializedArgs)) ::ArrayW<uint8_t>  _serializedArgs;
+
+/// @brief Field serializedMethod, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_serializedMethod, put=__cordl_internal_set_serializedMethod)) ::ArrayW<uint8_t>  serializedMethod;
+
+/// @brief Method GetLogicalCallContext, addr 0x181636f90, size 0x60, virtual false, abstract: false, final false
+inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(::System::Collections::ArrayList*  args) ;
+
+/// @brief Method GetMethod, addr 0x181636ff0, size 0x100, virtual false, abstract: false, final false
+inline ::System::Reflection::MethodBase* GetMethod() ;
+
+/// @brief Method GetSignature, addr 0x1816370f0, size 0x100, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Type*> GetSignature(::System::Reflection::MethodBase*  methodBase, bool  load) ;
+
+/// @brief Method IsPossibleToIgnoreMarshal, addr 0x1816371f0, size 0x150, virtual false, abstract: false, final false
+static inline bool IsPossibleToIgnoreMarshal(::System::Object*  obj) ;
+
+/// @brief Method MarshalArgument, addr 0x181637340, size 0x280, virtual false, abstract: false, final false
+inline ::System::Object* MarshalArgument(::System::Object*  arg, ::by_ref<::System::Collections::ArrayList*>  args) ;
+
+/// @brief Method MarshalArguments, addr 0x1816375c0, size 0x2d0, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Object*> MarshalArguments(::ArrayW<::System::Object*>  arguments, ::by_ref<::System::Collections::ArrayList*>  args) ;
+
+/// @brief Method MarshalProperties, addr 0x181637890, size 0x460, virtual false, abstract: false, final false
+static inline int32_t MarshalProperties(::System::Collections::IDictionary*  dict, ::by_ref<::System::Collections::ArrayList*>  args) ;
+
+static inline ::System::Runtime::Remoting::Messaging::CADMessageBase* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage*  msg) ;
+
+/// @brief Method SaveLogicalCallContext, addr 0x181637cf0, size 0x150, virtual false, abstract: false, final false
+inline void SaveLogicalCallContext(::System::Runtime::Remoting::Messaging::IMethodMessage*  msg, ::by_ref<::System::Collections::ArrayList*>  serializeList) ;
+
+/// @brief Method UnmarshalArgument, addr 0x181637e40, size 0x960, virtual false, abstract: false, final false
+inline ::System::Object* UnmarshalArgument(::System::Object*  arg, ::System::Collections::ArrayList*  args) ;
+
+/// @brief Method UnmarshalArguments, addr 0x1816387a0, size 0xb0, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Object*> UnmarshalArguments(::ArrayW<::System::Object*>  arguments, ::System::Collections::ArrayList*  args) ;
+
+/// @brief Method UnmarshalProperties, addr 0x181638850, size 0x140, virtual false, abstract: false, final false
+static inline void UnmarshalProperties(::System::Collections::IDictionary*  dict, int32_t  count, ::System::Collections::ArrayList*  args) ;
+
+constexpr ::ArrayW<::System::Object*> const& __cordl_internal_get__args() const;
+
+constexpr ::ArrayW<::System::Object*>& __cordl_internal_get__args() ;
+
+constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder* const& __cordl_internal_get__callContext() const;
+
+constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder*& __cordl_internal_get__callContext() ;
+
+constexpr int32_t const& __cordl_internal_get__propertyCount() const;
+
+constexpr int32_t& __cordl_internal_get__propertyCount() ;
+
+constexpr ::ArrayW<uint8_t> const& __cordl_internal_get__serializedArgs() const;
+
+constexpr ::ArrayW<uint8_t>& __cordl_internal_get__serializedArgs() ;
+
+constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_serializedMethod() const;
+
+constexpr ::ArrayW<uint8_t>& __cordl_internal_get_serializedMethod() ;
+
+constexpr void __cordl_internal_set__args(::ArrayW<::System::Object*>  value) ;
+
+constexpr void __cordl_internal_set__callContext(::System::Runtime::Remoting::Messaging::CADArgHolder*  value) ;
+
+constexpr void __cordl_internal_set__propertyCount(int32_t  value) ;
+
+constexpr void __cordl_internal_set__serializedArgs(::ArrayW<uint8_t>  value) ;
+
+constexpr void __cordl_internal_set_serializedMethod(::ArrayW<uint8_t>  value) ;
+
+/// @brief Method .ctor, addr 0x181638990, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage*  msg) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr CADMessageBase() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "CADMessageBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CADMessageBase(CADMessageBase && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "CADMessageBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CADMessageBase(CADMessageBase const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{940};
+
+/// @brief Field _args, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::System::Object*>  ____args;
+
+/// @brief Field _serializedArgs, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t>  ____serializedArgs;
+
+/// @brief Field _propertyCount, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____propertyCount;
+
+/// @brief Field _callContext, offset: 0x28, size: 0x8, def value: None
+ ::System::Runtime::Remoting::Messaging::CADArgHolder*  ____callContext;
+
+/// @brief Field serializedMethod, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<uint8_t>  ___serializedMethod;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ____args) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ____serializedArgs) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ____propertyCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ____callContext) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMessageBase, ___serializedMethod) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::System::Runtime::Remoting::Messaging::CADMessageBase) == 0x38, "Size mismatch!");
+
+} // namespace end def System::Runtime::Remoting::Messaging

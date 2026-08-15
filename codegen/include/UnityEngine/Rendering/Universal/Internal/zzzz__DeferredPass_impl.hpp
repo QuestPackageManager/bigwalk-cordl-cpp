@@ -1,0 +1,252 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DeferredPass.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
+#include "UnityEngine/Rendering/Universal/Internal/zzzz__DeferredPass_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderFunc_2_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RasterGraphContext_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
+#include "UnityEngine/Rendering/Universal/Internal/zzzz__DeferredLights_def.hpp"
+#include "UnityEngine/Rendering/Universal/Internal/zzzz__DeferredPass_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__UniversalCameraData_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__UniversalLightData_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__UniversalShadowData_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ContextContainer_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData*& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_cameraData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___cameraData;
+}
+constexpr ::UnityEngine::Rendering::Universal::UniversalCameraData* const& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_cameraData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___cameraData;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_set_cameraData(::UnityEngine::Rendering::Universal::UniversalCameraData*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___cameraData = value;
+}
+constexpr ::UnityEngine::Rendering::Universal::UniversalLightData*& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_lightData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lightData;
+}
+constexpr ::UnityEngine::Rendering::Universal::UniversalLightData* const& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_lightData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lightData;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_set_lightData(::UnityEngine::Rendering::Universal::UniversalLightData*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___lightData = value;
+}
+constexpr ::UnityEngine::Rendering::Universal::UniversalShadowData*& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_shadowData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___shadowData;
+}
+constexpr ::UnityEngine::Rendering::Universal::UniversalShadowData* const& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_shadowData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___shadowData;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_set_shadowData(::UnityEngine::Rendering::Universal::UniversalShadowData*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___shadowData = value;
+}
+constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_gbuffer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___gbuffer;
+}
+constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> const& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_gbuffer() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___gbuffer;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_set_gbuffer(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___gbuffer = value;
+}
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights*& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_deferredLights()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___deferredLights;
+}
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights* const& UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_get_deferredLights() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___deferredLights;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::__cordl_internal_set_deferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___deferredLights = value;
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData* UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::DeferredPass_PassData()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass___c::*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass___c::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c._Render_b__3_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass___c::*)(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass___c::_Render_b__3_0)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1821608a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(),
+                        {"<Render>b__3_0", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::Universal::Internal::DeferredPass___c::setStaticF___9(::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*, "<>9", ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(std::forward<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(value));
+}
+inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* UnityEngine::Rendering::Universal::Internal::DeferredPass___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*, "<>9", ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>();
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredPass___c::setStaticF___9__3_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*, "<>9__3_0", ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(std::forward<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*>(value));
+}
+inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* UnityEngine::Rendering::Universal::Internal::DeferredPass___c::getStaticF___9__3_0()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*, "<>9__3_0", ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>();
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredPass___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredPass___c::_Render_b__3_0(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(),
+                        {"<Render>b__3_0", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, context);
+}
+inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* UnityEngine::Rendering::Universal::Internal::DeferredPass___c::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c::DeferredPass___c()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredPass._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Rendering::Universal::Internal::DeferredLights*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18215d690;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredPass.Render
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass::Render)> {
+  constexpr static std::size_t size = 0x4d0;
+  constexpr static std::size_t addrs = 0x18215d1c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(),
+                        {"Render", {}, {::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredPass.OnCameraCleanup
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass::*)(::UnityEngine::Rendering::CommandBuffer*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass::OnCameraCleanup)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18215d1b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights*& UnityEngine::Rendering::Universal::Internal::DeferredPass::__cordl_internal_get_m_DeferredLights()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DeferredLights;
+}
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights* const& UnityEngine::Rendering::Universal::Internal::DeferredPass::__cordl_internal_get_m_DeferredLights() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DeferredLights;
+}
+constexpr void UnityEngine::Rendering::Universal::Internal::DeferredPass::__cordl_internal_set_m_DeferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_DeferredLights = value;
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredPass::_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  deferredLights)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::Internal::DeferredLights*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt, deferredLights);
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  color, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  depth, ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>  gbuffer)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(),
+                        {"Render", {}, {::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData, color, depth, gbuffer);
+}
+inline void UnityEngine::Rendering::Universal::Internal::DeferredPass::OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer*  cmd)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd);
+}
+inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass* UnityEngine::Rendering::Universal::Internal::DeferredPass::New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  deferredLights)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(evt, deferredLights));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredPass::DeferredPass()   {
+}

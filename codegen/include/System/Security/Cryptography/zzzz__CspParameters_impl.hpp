@@ -1,0 +1,212 @@
+#pragma once
+// IWYU pragma private; include "System/Security/Cryptography/CspParameters.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"
+#include "System/Security/Cryptography/zzzz__CspProviderFlags_def.hpp"
+//  Writing Method size for method: ::System::Security::Cryptography::CspParameters.get_Flags
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::CspProviderFlags (::System::Security::Cryptography::CspParameters::*)()>(&::System::Security::Cryptography::CspParameters::get_Flags)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803914b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {"get_Flags", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::CspParameters.set_Flags
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)(::System::Security::Cryptography::CspProviderFlags)>(&::System::Security::Cryptography::CspParameters::set_Flags)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181605b20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {"set_Flags", {}, {::i2c::type_of<::System::Security::Cryptography::CspProviderFlags>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::CspParameters._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)()>(&::System::Security::Cryptography::CspParameters::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181605a20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::CspParameters._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)(int32_t)>(&::System::Security::Cryptography::CspParameters::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1816059d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::CspParameters._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)(int32_t, ::StringW, ::StringW)>(&::System::Security::Cryptography::CspParameters::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181605ad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::CspParameters._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CspParameters::*)(int32_t, ::StringW, ::StringW, ::System::Security::Cryptography::CspProviderFlags)>(&::System::Security::Cryptography::CspParameters::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181605a70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Security::Cryptography::CspProviderFlags>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& System::Security::Cryptography::CspParameters::__cordl_internal_get_ProviderType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ProviderType;
+}
+constexpr int32_t const& System::Security::Cryptography::CspParameters::__cordl_internal_get_ProviderType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ProviderType;
+}
+constexpr void System::Security::Cryptography::CspParameters::__cordl_internal_set_ProviderType(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___ProviderType = value;
+}
+constexpr ::StringW& System::Security::Cryptography::CspParameters::__cordl_internal_get_ProviderName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ProviderName;
+}
+constexpr ::StringW const& System::Security::Cryptography::CspParameters::__cordl_internal_get_ProviderName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___ProviderName;
+}
+constexpr void System::Security::Cryptography::CspParameters::__cordl_internal_set_ProviderName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___ProviderName = value;
+}
+constexpr ::StringW& System::Security::Cryptography::CspParameters::__cordl_internal_get_KeyContainerName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___KeyContainerName;
+}
+constexpr ::StringW const& System::Security::Cryptography::CspParameters::__cordl_internal_get_KeyContainerName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___KeyContainerName;
+}
+constexpr void System::Security::Cryptography::CspParameters::__cordl_internal_set_KeyContainerName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___KeyContainerName = value;
+}
+constexpr int32_t& System::Security::Cryptography::CspParameters::__cordl_internal_get_KeyNumber()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___KeyNumber;
+}
+constexpr int32_t const& System::Security::Cryptography::CspParameters::__cordl_internal_get_KeyNumber() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___KeyNumber;
+}
+constexpr void System::Security::Cryptography::CspParameters::__cordl_internal_set_KeyNumber(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___KeyNumber = value;
+}
+constexpr int32_t& System::Security::Cryptography::CspParameters::__cordl_internal_get_m_flags()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_flags;
+}
+constexpr int32_t const& System::Security::Cryptography::CspParameters::__cordl_internal_get_m_flags() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_flags;
+}
+constexpr void System::Security::Cryptography::CspParameters::__cordl_internal_set_m_flags(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_flags = value;
+}
+inline ::System::Security::Cryptography::CspProviderFlags System::Security::Cryptography::CspParameters::get_Flags()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {"get_Flags", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::CspProviderFlags>(this, ___internal_method);
+}
+inline void System::Security::Cryptography::CspParameters::set_Flags(::System::Security::Cryptography::CspProviderFlags  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {"set_Flags", {}, {::i2c::type_of<::System::Security::Cryptography::CspProviderFlags>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void System::Security::Cryptography::CspParameters::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Security::Cryptography::CspParameters::_ctor(int32_t  dwTypeIn)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dwTypeIn);
+}
+inline void System::Security::Cryptography::CspParameters::_ctor(int32_t  dwTypeIn, ::StringW  strProviderNameIn, ::StringW  strContainerNameIn)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dwTypeIn, strProviderNameIn, strContainerNameIn);
+}
+inline void System::Security::Cryptography::CspParameters::_ctor(int32_t  providerType, ::StringW  providerName, ::StringW  keyContainerName, ::System::Security::Cryptography::CspProviderFlags  flags)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Security::Cryptography::CspParameters*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Security::Cryptography::CspProviderFlags>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, providerType, providerName, keyContainerName, flags);
+}
+inline ::System::Security::Cryptography::CspParameters* System::Security::Cryptography::CspParameters::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Cryptography::CspParameters*>());
+}
+inline ::System::Security::Cryptography::CspParameters* System::Security::Cryptography::CspParameters::New_ctor(int32_t  dwTypeIn)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Cryptography::CspParameters*>(dwTypeIn));
+}
+inline ::System::Security::Cryptography::CspParameters* System::Security::Cryptography::CspParameters::New_ctor(int32_t  dwTypeIn, ::StringW  strProviderNameIn, ::StringW  strContainerNameIn)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Cryptography::CspParameters*>(dwTypeIn, strProviderNameIn, strContainerNameIn));
+}
+inline ::System::Security::Cryptography::CspParameters* System::Security::Cryptography::CspParameters::New_ctor(int32_t  providerType, ::StringW  providerName, ::StringW  keyContainerName, ::System::Security::Cryptography::CspProviderFlags  flags)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Cryptography::CspParameters*>(providerType, providerName, keyContainerName, flags));
+}
+// Ctor Parameters []
+constexpr ::System::Security::Cryptography::CspParameters::CspParameters()   {
+}

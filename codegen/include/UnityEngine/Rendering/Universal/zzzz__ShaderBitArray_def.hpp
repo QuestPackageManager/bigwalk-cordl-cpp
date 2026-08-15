@@ -1,0 +1,93 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderBitArray.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(ShaderBitArray)
+// Forward declare root types
+namespace UnityEngine::Rendering::Universal {
+struct ShaderBitArray;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::Rendering::Universal::ShaderBitArray);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderBitArray, "UnityEngine.Rendering.Universal", "ShaderBitArray");
+// Dependencies 
+namespace UnityEngine::Rendering::Universal {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.Universal.ShaderBitArray
+struct CORDL_TYPE ShaderBitArray {
+public:
+// Declarations
+ __declspec(property(get=get_Item, put=set_Item)) bool  Item[];
+
+ __declspec(property(get=get_bitCapacity)) int32_t  bitCapacity;
+
+ __declspec(property(get=get_data)) ::ArrayW<float_t>  data;
+
+ __declspec(property(get=get_elemLength)) int32_t  elemLength;
+
+/// @brief Method Clear, addr 0x182126f40, size 0x40, virtual false, abstract: false, final false
+inline void Clear() ;
+
+/// @brief Method GetElementIndexAndBitOffset, addr 0x182126f80, size 0x30, virtual false, abstract: false, final false
+inline void GetElementIndexAndBitOffset(int32_t  index, ::by_ref<int32_t>  elemIndex, ::by_ref<int32_t>  bitOffset) ;
+
+/// @brief Method Resize, addr 0x182126fb0, size 0xe0, virtual false, abstract: false, final false
+inline void Resize(int32_t  bitCount) ;
+
+/// @brief Method ToString, addr 0x182127090, size 0x120, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
+
+/// @brief Method get_Item, addr 0x1821271b0, size 0x50, virtual false, abstract: false, final false
+inline bool get_Item(int32_t  index) ;
+
+/// @brief Method get_bitCapacity, addr 0x182127200, size 0x30, virtual false, abstract: false, final false
+inline int32_t get_bitCapacity() ;
+
+/// @brief Method get_data, addr 0x1803a88d0, size 0x10, virtual false, abstract: false, final false
+inline ::ArrayW<float_t> get_data() ;
+
+/// @brief Method get_elemLength, addr 0x182127230, size 0x20, virtual false, abstract: false, final false
+inline int32_t get_elemLength() ;
+
+/// @brief Method set_Item, addr 0x182127250, size 0xc0, virtual false, abstract: false, final false
+inline void set_Item(int32_t  index, bool  value) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr ShaderBitArray() ;
+
+// Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }]
+constexpr ShaderBitArray(::ArrayW<float_t>  m_Data) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12584};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+
+/// @brief Field k_BitsPerElement offset 0xffffffff size 0x4
+static constexpr int32_t  k_BitsPerElement{static_cast<int32_t>(0x20)};
+
+/// @brief Field k_ElementMask offset 0xffffffff size 0x4
+static constexpr int32_t  k_ElementMask{static_cast<int32_t>(0x1f)};
+
+/// @brief Field k_ElementShift offset 0xffffffff size 0x4
+static constexpr int32_t  k_ElementShift{static_cast<int32_t>(0x5)};
+
+/// @brief Field m_Data, offset: 0x0, size: 0x8, def value: None
+ ::ArrayW<float_t>  m_Data;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::ShaderBitArray, m_Data) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::ShaderBitArray) == 0x8, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal

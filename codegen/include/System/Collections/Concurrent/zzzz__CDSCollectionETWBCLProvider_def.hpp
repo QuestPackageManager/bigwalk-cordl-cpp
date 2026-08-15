@@ -1,0 +1,60 @@
+#pragma once
+// IWYU pragma private; include "System/Collections/Concurrent/CDSCollectionETWBCLProvider.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(CDSCollectionETWBCLProvider)
+// Forward declare root types
+namespace System::Collections::Concurrent {
+class CDSCollectionETWBCLProvider;
+}
+// Write type traits
+MARK_REF_T(::System::Collections::Concurrent::CDSCollectionETWBCLProvider*);
+DEFINE_IL2CPP_CLASS(::System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
+// Dependencies System.Diagnostics.Tracing.EventSource
+namespace System::Collections::Concurrent {
+// Is value type: false
+// CS Name: System.Collections.Concurrent.CDSCollectionETWBCLProvider
+class CORDL_TYPE CDSCollectionETWBCLProvider : public ::System::Diagnostics::Tracing::EventSource {
+public:
+// Declarations
+/// @brief Field Log, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Log, put=setStaticF_Log)) ::System::Collections::Concurrent::CDSCollectionETWBCLProvider*  Log;
+
+/// @brief Method ConcurrentDictionary_AcquiringAllLocks, addr 0x180631430, size 0xa670, virtual false, abstract: false, final false
+inline void ConcurrentDictionary_AcquiringAllLocks(int32_t  numOfBuckets) ;
+
+static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x1816c53d0, size 0x40, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* getStaticF_Log() ;
+
+static inline void setStaticF_Log(::System::Collections::Concurrent::CDSCollectionETWBCLProvider*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr CDSCollectionETWBCLProvider() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "CDSCollectionETWBCLProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CDSCollectionETWBCLProvider(CDSCollectionETWBCLProvider && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "CDSCollectionETWBCLProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CDSCollectionETWBCLProvider(CDSCollectionETWBCLProvider const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1500};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Collections::Concurrent::CDSCollectionETWBCLProvider) == 0x18, "Size mismatch!");
+
+} // namespace end def System::Collections::Concurrent

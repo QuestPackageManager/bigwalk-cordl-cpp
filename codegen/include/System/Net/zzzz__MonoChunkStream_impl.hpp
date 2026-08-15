@@ -1,0 +1,312 @@
+#pragma once
+// IWYU pragma private; include "System/Net/MonoChunkStream.hpp"
+#include "System/Net/zzzz__WebReadStream_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
+#include "System/Threading/zzzz__CancellationToken_impl.hpp"
+#include "System/Net/zzzz__MonoChunkStream_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__MonoChunkParser_def.hpp"
+#include "System/Net/zzzz__MonoChunkStream_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+//  Writing Method size for method: ::System::Net::MonoChunkStream__ProcessReadAsync_d__7.MoveNext
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream__ProcessReadAsync_d__7::*)()>(&::System::Net::MonoChunkStream__ProcessReadAsync_d__7::MoveNext)> {
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x181d8e470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream__ProcessReadAsync_d__7>(),
+                        {"MoveNext", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::MonoChunkStream__ProcessReadAsync_d__7.SetStateMachine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream__ProcessReadAsync_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::MonoChunkStream__ProcessReadAsync_d__7::SetStateMachine)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18038b190;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream__ProcessReadAsync_d__7>(),
+                        {"SetStateMachine", {}, {::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Net::MonoChunkStream__ProcessReadAsync_d__7::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream__ProcessReadAsync_d__7>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void System::Net::MonoChunkStream__ProcessReadAsync_d__7::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream__ProcessReadAsync_d__7>(),
+                        {"SetStateMachine", {}, {::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr  System::Net::MonoChunkStream__ProcessReadAsync_d__7::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*()  {
+return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::MonoChunkStream__ProcessReadAsync_d__7::i___System__Runtime__CompilerServices__IAsyncStateMachine()  {
+return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Net::MonoChunkStream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_moreBytes_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Net::MonoChunkStream__ProcessReadAsync_d__7::MonoChunkStream__ProcessReadAsync_d__7(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>  __t__builder, ::System::Threading::CancellationToken  cancellationToken, ::System::Net::MonoChunkStream*  __4__this, ::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  size, ::ArrayW<uint8_t>  _moreBytes_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>  __u__1) noexcept  {
+this->__1__state = __1__state;
+this->__t__builder = __t__builder;
+this->cancellationToken = cancellationToken;
+this->__4__this = __4__this;
+this->buffer = buffer;
+this->offset = offset;
+this->size = size;
+this->_moreBytes_5__2 = _moreBytes_5__2;
+this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::System::Net::MonoChunkStream__ProcessReadAsync_d__7::MonoChunkStream__ProcessReadAsync_d__7()   {
+}
+//  Writing Method size for method: ::System::Net::MonoChunkStream__FinishReading_d__8.MoveNext
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream__FinishReading_d__8::*)()>(&::System::Net::MonoChunkStream__FinishReading_d__8::MoveNext)> {
+  constexpr static std::size_t size = 0x3a0;
+  constexpr static std::size_t addrs = 0x181d8b8f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream__FinishReading_d__8>(),
+                        {"MoveNext", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::MonoChunkStream__FinishReading_d__8.SetStateMachine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream__FinishReading_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::MonoChunkStream__FinishReading_d__8::SetStateMachine)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1804428d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream__FinishReading_d__8>(),
+                        {"SetStateMachine", {}, {::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Net::MonoChunkStream__FinishReading_d__8::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream__FinishReading_d__8>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void System::Net::MonoChunkStream__FinishReading_d__8::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream__FinishReading_d__8>(),
+                        {"SetStateMachine", {}, {::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr  System::Net::MonoChunkStream__FinishReading_d__8::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*()  {
+return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::MonoChunkStream__FinishReading_d__8::i___System__Runtime__CompilerServices__IAsyncStateMachine()  {
+return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Net::MonoChunkStream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "_buffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Net::MonoChunkStream__FinishReading_d__8::MonoChunkStream__FinishReading_d__8(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::MonoChunkStream*  __4__this, ::System::Threading::CancellationToken  cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter  __u__1, ::ArrayW<uint8_t>  _buffer_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>  __u__2) noexcept  {
+this->__1__state = __1__state;
+this->__t__builder = __t__builder;
+this->__4__this = __4__this;
+this->cancellationToken = cancellationToken;
+this->__u__1 = __u__1;
+this->_buffer_5__2 = _buffer_5__2;
+this->__u__2 = __u__2;
+}
+// Ctor Parameters []
+constexpr ::System::Net::MonoChunkStream__FinishReading_d__8::MonoChunkStream__FinishReading_d__8()   {
+}
+//  Writing Method size for method: ::System::Net::MonoChunkStream.get_Decoder
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::MonoChunkParser* (::System::Net::MonoChunkStream::*)()>(&::System::Net::MonoChunkStream::get_Decoder)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e58c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                        {"get_Decoder", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::MonoChunkStream._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream::*)(::System::Net::WebOperation*, ::System::IO::Stream*, ::System::Net::WebHeaderCollection*)>(&::System::Net::MonoChunkStream::_ctor)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181d88ac0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Net::WebOperation*>(), ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Net::WebHeaderCollection*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::MonoChunkStream.ProcessReadAsync
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (::System::Net::MonoChunkStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::MonoChunkStream::ProcessReadAsync)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181d88880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                    {::i2c::class_of<::System::Net::MonoChunkStream*>(), 40}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::MonoChunkStream.FinishReading
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::MonoChunkStream::*)(::System::Threading::CancellationToken)>(&::System::Net::MonoChunkStream::FinishReading)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181d887d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                    {::i2c::class_of<::System::Net::MonoChunkStream*>(), 41}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::MonoChunkStream.ThrowExpectingChunkTrailer
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Net::MonoChunkStream::ThrowExpectingChunkTrailer)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181d88960;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                        {"ThrowExpectingChunkTrailer", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::MonoChunkStream.__n__0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::MonoChunkStream::*)(::System::Threading::CancellationToken)>(&::System::Net::MonoChunkStream::__n__0)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x181d889c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                        {"<>n__0", {}, {::i2c::type_of<::System::Threading::CancellationToken>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Net::WebHeaderCollection*& System::Net::MonoChunkStream::__cordl_internal_get__Headers_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Headers_k__BackingField;
+}
+constexpr ::System::Net::WebHeaderCollection* const& System::Net::MonoChunkStream::__cordl_internal_get__Headers_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Headers_k__BackingField;
+}
+constexpr void System::Net::MonoChunkStream::__cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Headers_k__BackingField = value;
+}
+constexpr ::System::Net::MonoChunkParser*& System::Net::MonoChunkStream::__cordl_internal_get__Decoder_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Decoder_k__BackingField;
+}
+constexpr ::System::Net::MonoChunkParser* const& System::Net::MonoChunkStream::__cordl_internal_get__Decoder_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Decoder_k__BackingField;
+}
+constexpr void System::Net::MonoChunkStream::__cordl_internal_set__Decoder_k__BackingField(::System::Net::MonoChunkParser*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Decoder_k__BackingField = value;
+}
+inline ::System::Net::MonoChunkParser* System::Net::MonoChunkStream::get_Decoder()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                        {"get_Decoder", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::MonoChunkParser*>(this, ___internal_method);
+}
+inline void System::Net::MonoChunkStream::_ctor(::System::Net::WebOperation*  operation, ::System::IO::Stream*  innerStream, ::System::Net::WebHeaderCollection*  headers)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Net::WebOperation*>(), ::i2c::type_of<::System::IO::Stream*>(), ::i2c::type_of<::System::Net::WebHeaderCollection*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, operation, innerStream, headers);
+}
+inline ::System::Threading::Tasks::Task_1<int32_t>* System::Net::MonoChunkStream::ProcessReadAsync(::ArrayW<uint8_t>  buffer, int32_t  offset, int32_t  size, ::System::Threading::CancellationToken  cancellationToken)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::MonoChunkStream*>(), 40}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<int32_t>*>(this, ___internal_method, buffer, offset, size, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task* System::Net::MonoChunkStream::FinishReading(::System::Threading::CancellationToken  cancellationToken)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Net::MonoChunkStream*>(), 41}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, cancellationToken);
+}
+inline void System::Net::MonoChunkStream::ThrowExpectingChunkTrailer()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                        {"ThrowExpectingChunkTrailer", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* System::Net::MonoChunkStream::__n__0(::System::Threading::CancellationToken  cancellationToken)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Net::MonoChunkStream*>(),
+                        {"<>n__0", {}, {::i2c::type_of<::System::Threading::CancellationToken>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, cancellationToken);
+}
+inline ::System::Net::MonoChunkStream* System::Net::MonoChunkStream::New_ctor(::System::Net::WebOperation*  operation, ::System::IO::Stream*  innerStream, ::System::Net::WebHeaderCollection*  headers)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::MonoChunkStream*>(operation, innerStream, headers));
+}
+// Ctor Parameters []
+constexpr ::System::Net::MonoChunkStream::MonoChunkStream()   {
+}

@@ -1,0 +1,219 @@
+#pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexMatchTimeoutException.hpp"
+#include "System/zzzz__TimeSpan_impl.hpp"
+#include "System/zzzz__TimeoutException_impl.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexMatchTimeoutException_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexMatchTimeoutException._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)(::StringW, ::StringW, ::System::TimeSpan)>(&::System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181ddb510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::TimeSpan>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexMatchTimeoutException._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)()>(&::System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181ddb700;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexMatchTimeoutException._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x181ddb5f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexMatchTimeoutException.System_Runtime_Serialization_ISerializable_GetObjectData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Text::RegularExpressions::RegexMatchTimeoutException::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181ddb490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {"System.Runtime.Serialization.ISerializable.GetObjectData", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexMatchTimeoutException.get_Input
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)()>(&::System::Text::RegularExpressions::RegexMatchTimeoutException::get_Input)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180312ea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {"get_Input", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexMatchTimeoutException.get_Pattern
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)()>(&::System::Text::RegularExpressions::RegexMatchTimeoutException::get_Pattern)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ec4b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {"get_Pattern", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::RegularExpressions::RegexMatchTimeoutException.get_MatchTimeout
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)()>(&::System::Text::RegularExpressions::RegexMatchTimeoutException::get_MatchTimeout)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ec4d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {"get_MatchTimeout", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_get__Input_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Input_k__BackingField;
+}
+constexpr ::StringW const& System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_get__Input_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Input_k__BackingField;
+}
+constexpr void System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_set__Input_k__BackingField(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Input_k__BackingField = value;
+}
+constexpr ::StringW& System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_get__Pattern_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Pattern_k__BackingField;
+}
+constexpr ::StringW const& System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_get__Pattern_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Pattern_k__BackingField;
+}
+constexpr void System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_set__Pattern_k__BackingField(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Pattern_k__BackingField = value;
+}
+constexpr ::System::TimeSpan& System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_get__MatchTimeout_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____MatchTimeout_k__BackingField;
+}
+constexpr ::System::TimeSpan const& System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_get__MatchTimeout_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____MatchTimeout_k__BackingField;
+}
+constexpr void System::Text::RegularExpressions::RegexMatchTimeoutException::__cordl_internal_set__MatchTimeout_k__BackingField(::System::TimeSpan  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____MatchTimeout_k__BackingField = value;
+}
+inline void System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor(::StringW  regexInput, ::StringW  regexPattern, ::System::TimeSpan  matchTimeout)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::TimeSpan>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, regexInput, regexPattern, matchTimeout);
+}
+inline void System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
+}
+inline void System::Text::RegularExpressions::RegexMatchTimeoutException::System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {"System.Runtime.Serialization.ISerializable.GetObjectData", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
+}
+inline ::StringW System::Text::RegularExpressions::RegexMatchTimeoutException::get_Input()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {"get_Input", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Text::RegularExpressions::RegexMatchTimeoutException::get_Pattern()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {"get_Pattern", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::TimeSpan System::Text::RegularExpressions::RegexMatchTimeoutException::get_MatchTimeout()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(),
+                        {"get_MatchTimeout", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::TimeSpan>(this, ___internal_method);
+}
+inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* System::Text::RegularExpressions::RegexMatchTimeoutException::New_ctor(::StringW  regexInput, ::StringW  regexPattern, ::System::TimeSpan  matchTimeout)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(regexInput, regexPattern, matchTimeout));
+}
+inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* System::Text::RegularExpressions::RegexMatchTimeoutException::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Text::RegularExpressions::RegexMatchTimeoutException*>());
+}
+inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* System::Text::RegularExpressions::RegexMatchTimeoutException::New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Text::RegularExpressions::RegexMatchTimeoutException*>(info, context));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr  System::Text::RegularExpressions::RegexMatchTimeoutException::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Text::RegularExpressions::RegexMatchTimeoutException::i___System__Runtime__Serialization__ISerializable() noexcept {
+return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Text::RegularExpressions::RegexMatchTimeoutException::RegexMatchTimeoutException()   {
+}

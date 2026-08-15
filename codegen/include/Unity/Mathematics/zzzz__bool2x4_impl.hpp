@@ -1,0 +1,575 @@
+#pragma once
+// IWYU pragma private; include "Unity/Mathematics/bool2x4.hpp"
+#include "Unity/Mathematics/zzzz__bool2_impl.hpp"
+#include "Unity/Mathematics/zzzz__bool2x4_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Unity/Mathematics/zzzz__bool2_def.hpp"
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::bool2x4::*)(::Unity::Mathematics::bool2, ::Unity::Mathematics::bool2, ::Unity::Mathematics::bool2, ::Unity::Mathematics::bool2)>(&::Unity::Mathematics::bool2x4::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181ea0b30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {".ctor", {}, {::i2c::type_of<::Unity::Mathematics::bool2>(), ::i2c::type_of<::Unity::Mathematics::bool2>(), ::i2c::type_of<::Unity::Mathematics::bool2>(), ::i2c::type_of<::Unity::Mathematics::bool2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::bool2x4::*)(bool, bool, bool, bool, bool, bool, bool, bool)>(&::Unity::Mathematics::bool2x4::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181ecf580;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {".ctor", {}, {::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::bool2x4::*)(bool)>(&::Unity::Mathematics::bool2x4::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181ecf5e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {".ctor", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_Implicit___Unity__Mathematics__bool2x4
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(bool)>(&::Unity::Mathematics::bool2x4::op_Implicit___Unity__Mathematics__bool2x4)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181ee2290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Implicit", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_Equality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_Equality)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x181f506c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Equality", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_Equality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, bool)>(&::Unity::Mathematics::bool2x4::op_Equality)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181f50500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Equality", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_Equality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(bool, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_Equality)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181f505e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Equality", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_Inequality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_Inequality)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x181f50c90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Inequality", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_Inequality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, bool)>(&::Unity::Mathematics::bool2x4::op_Inequality)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181f50ad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Inequality", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_Inequality
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(bool, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_Inequality)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181f50bb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Inequality", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_LogicalNot
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_LogicalNot)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181f50da0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_LogicalNot", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_BitwiseAnd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_BitwiseAnd)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181f500b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseAnd", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_BitwiseAnd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, bool)>(&::Unity::Mathematics::bool2x4::op_BitwiseAnd)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181f4ffd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseAnd", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_BitwiseAnd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(bool, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_BitwiseAnd)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181f4fef0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseAnd", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_BitwiseOr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_BitwiseOr)> {
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x181f503c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseOr", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_BitwiseOr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, bool)>(&::Unity::Mathematics::bool2x4::op_BitwiseOr)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181f501e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseOr", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_BitwiseOr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(bool, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_BitwiseOr)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181f502d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseOr", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_ExclusiveOr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_ExclusiveOr)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x181f508c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_ExclusiveOr", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_ExclusiveOr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(::Unity::Mathematics::bool2x4, bool)>(&::Unity::Mathematics::bool2x4::op_ExclusiveOr)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181f507d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_ExclusiveOr", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.op_ExclusiveOr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x4 (*)(bool, ::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::op_ExclusiveOr)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181f509e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_ExclusiveOr", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.get_Item
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Mathematics::bool2> (::Unity::Mathematics::bool2x4::*)(int32_t)>(&::Unity::Mathematics::bool2x4::get_Item)> {
+  constexpr static std::size_t size = 0x360;
+  constexpr static std::size_t addrs = 0x1808fb220;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"get_Item", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Mathematics::bool2x4::*)(::Unity::Mathematics::bool2x4)>(&::Unity::Mathematics::bool2x4::Equals)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181f4a900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"Equals", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Mathematics::bool2x4::*)(::System::Object*)>(&::Unity::Mathematics::bool2x4::Equals)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x181f4fdf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                    {::i2c::class_of<::Unity::Mathematics::bool2x4>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Mathematics::bool2x4::*)()>(&::Unity::Mathematics::bool2x4::GetHashCode)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181f4a960;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                    {::i2c::class_of<::Unity::Mathematics::bool2x4>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::bool2x4.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Mathematics::bool2x4::*)()>(&::Unity::Mathematics::bool2x4::ToString)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181f4a970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                    {::i2c::class_of<::Unity::Mathematics::bool2x4>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+inline void Unity::Mathematics::bool2x4::_ctor(::Unity::Mathematics::bool2  c0, ::Unity::Mathematics::bool2  c1, ::Unity::Mathematics::bool2  c2, ::Unity::Mathematics::bool2  c3)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {".ctor", {}, {::i2c::type_of<::Unity::Mathematics::bool2>(), ::i2c::type_of<::Unity::Mathematics::bool2>(), ::i2c::type_of<::Unity::Mathematics::bool2>(), ::i2c::type_of<::Unity::Mathematics::bool2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, c0, c1, c2, c3);
+}
+inline void Unity::Mathematics::bool2x4::_ctor(bool  m00, bool  m01, bool  m02, bool  m03, bool  m10, bool  m11, bool  m12, bool  m13)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {".ctor", {}, {::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, m00, m01, m02, m03, m10, m11, m12, m13);
+}
+inline void Unity::Mathematics::bool2x4::_ctor(bool  v)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {".ctor", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, v);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_Implicit___Unity__Mathematics__bool2x4(bool  v)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Implicit", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, v);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_Equality(::Unity::Mathematics::bool2x4  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Equality", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_Equality(::Unity::Mathematics::bool2x4  lhs, bool  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Equality", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_Equality(bool  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Equality", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_Inequality(::Unity::Mathematics::bool2x4  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Inequality", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_Inequality(::Unity::Mathematics::bool2x4  lhs, bool  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Inequality", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_Inequality(bool  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_Inequality", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_LogicalNot(::Unity::Mathematics::bool2x4  val)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_LogicalNot", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, val);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_BitwiseAnd(::Unity::Mathematics::bool2x4  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseAnd", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_BitwiseAnd(::Unity::Mathematics::bool2x4  lhs, bool  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseAnd", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_BitwiseAnd(bool  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseAnd", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_BitwiseOr(::Unity::Mathematics::bool2x4  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseOr", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_BitwiseOr(::Unity::Mathematics::bool2x4  lhs, bool  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseOr", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_BitwiseOr(bool  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_BitwiseOr", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_ExclusiveOr(::Unity::Mathematics::bool2x4  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_ExclusiveOr", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_ExclusiveOr(::Unity::Mathematics::bool2x4  lhs, bool  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_ExclusiveOr", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::Unity::Mathematics::bool2x4 Unity::Mathematics::bool2x4::op_ExclusiveOr(bool  lhs, ::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"op_ExclusiveOr", {}, {::i2c::type_of<bool>(), ::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::bool2x4>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::by_ref<::Unity::Mathematics::bool2> Unity::Mathematics::bool2x4::get_Item(int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"get_Item", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::by_ref<::Unity::Mathematics::bool2>>(*this, ___internal_method, index);
+}
+inline bool Unity::Mathematics::bool2x4::Equals(::Unity::Mathematics::bool2x4  rhs)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Unity::Mathematics::bool2x4>(),
+                        {"Equals", {}, {::i2c::type_of<::Unity::Mathematics::bool2x4>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, rhs);
+}
+inline bool Unity::Mathematics::bool2x4::Equals(::System::Object*  o)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Mathematics::bool2x4>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, o);
+}
+inline int32_t Unity::Mathematics::bool2x4::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Mathematics::bool2x4>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline ::StringW Unity::Mathematics::bool2x4::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Unity::Mathematics::bool2x4>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::Unity::Mathematics::bool2x4>"
+constexpr  Unity::Mathematics::bool2x4::operator ::System::IEquatable_1<::Unity::Mathematics::bool2x4>*()  {
+return static_cast<::System::IEquatable_1<::Unity::Mathematics::bool2x4>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::Unity::Mathematics::bool2x4>"
+constexpr ::System::IEquatable_1<::Unity::Mathematics::bool2x4>* Unity::Mathematics::bool2x4::i___System__IEquatable_1___Unity__Mathematics__bool2x4_()  {
+return static_cast<::System::IEquatable_1<::Unity::Mathematics::bool2x4>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: Some("{}") }, CppParam { name: "c1", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: Some("{}") }, CppParam { name: "c2", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: Some("{}") }, CppParam { name: "c3", ty: "::Unity::Mathematics::bool2", modifiers: "", def_value: Some("{}") }]
+constexpr ::Unity::Mathematics::bool2x4::bool2x4(::Unity::Mathematics::bool2  c0, ::Unity::Mathematics::bool2  c1, ::Unity::Mathematics::bool2  c2, ::Unity::Mathematics::bool2  c3) noexcept  {
+this->c0 = c0;
+this->c1 = c1;
+this->c2 = c2;
+this->c3 = c3;
+}
+// Ctor Parameters []
+constexpr ::Unity::Mathematics::bool2x4::bool2x4()   {
+}

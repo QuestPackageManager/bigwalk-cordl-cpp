@@ -1,0 +1,123 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/TypeInfo.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Runtime/Remoting/zzzz__TypeInfo_def.hpp"
+#include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Remoting::TypeInfo._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::TypeInfo::*)(::System::Type*)>(&::System::Runtime::Remoting::TypeInfo::_ctor)> {
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x1816328c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::TypeInfo*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::TypeInfo.get_TypeName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::TypeInfo::*)()>(&::System::Runtime::Remoting::TypeInfo::get_TypeName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::TypeInfo*>(),
+                        {"get_TypeName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::TypeInfo.CanCastTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::TypeInfo::*)(::System::Type*, ::System::Object*)>(&::System::Runtime::Remoting::TypeInfo::CanCastTo)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x181632710;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::TypeInfo*>(),
+                        {"CanCastTo", {}, {::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& System::Runtime::Remoting::TypeInfo::__cordl_internal_get_serverType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___serverType;
+}
+constexpr ::StringW const& System::Runtime::Remoting::TypeInfo::__cordl_internal_get_serverType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___serverType;
+}
+constexpr void System::Runtime::Remoting::TypeInfo::__cordl_internal_set_serverType(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___serverType = value;
+}
+constexpr ::ArrayW<::StringW>& System::Runtime::Remoting::TypeInfo::__cordl_internal_get_serverHierarchy()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___serverHierarchy;
+}
+constexpr ::ArrayW<::StringW> const& System::Runtime::Remoting::TypeInfo::__cordl_internal_get_serverHierarchy() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___serverHierarchy;
+}
+constexpr void System::Runtime::Remoting::TypeInfo::__cordl_internal_set_serverHierarchy(::ArrayW<::StringW>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___serverHierarchy = value;
+}
+constexpr ::ArrayW<::StringW>& System::Runtime::Remoting::TypeInfo::__cordl_internal_get_interfacesImplemented()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___interfacesImplemented;
+}
+constexpr ::ArrayW<::StringW> const& System::Runtime::Remoting::TypeInfo::__cordl_internal_get_interfacesImplemented() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___interfacesImplemented;
+}
+constexpr void System::Runtime::Remoting::TypeInfo::__cordl_internal_set_interfacesImplemented(::ArrayW<::StringW>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___interfacesImplemented = value;
+}
+inline void System::Runtime::Remoting::TypeInfo::_ctor(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::TypeInfo*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type);
+}
+inline ::StringW System::Runtime::Remoting::TypeInfo::get_TypeName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::TypeInfo*>(),
+                        {"get_TypeName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool System::Runtime::Remoting::TypeInfo::CanCastTo(::System::Type*  fromType, ::System::Object*  o)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::TypeInfo*>(),
+                        {"CanCastTo", {}, {::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, fromType, o);
+}
+inline ::System::Runtime::Remoting::TypeInfo* System::Runtime::Remoting::TypeInfo::New_ctor(::System::Type*  type)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::TypeInfo*>(type));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
+constexpr  System::Runtime::Remoting::TypeInfo::operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept {
+return static_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
+constexpr ::System::Runtime::Remoting::IRemotingTypeInfo* System::Runtime::Remoting::TypeInfo::i___System__Runtime__Remoting__IRemotingTypeInfo() noexcept {
+return static_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Remoting::TypeInfo::TypeInfo()   {
+}

@@ -1,0 +1,260 @@
+#pragma once
+// IWYU pragma private; include "TMPro/TMP_ResourceManager.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "TMPro/zzzz__TMP_ResourceManager_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "TMPro/zzzz__TMP_ResourceManager_def.hpp"
+#include "TMPro/zzzz__TMP_Settings_def.hpp"
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager_FontAssetRef._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_ResourceManager_FontAssetRef::*)(int32_t, int32_t, int32_t, ::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager_FontAssetRef::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1821c77e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager_FontAssetRef>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::TMPro::TMP_FontAsset*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void TMPro::TMP_ResourceManager_FontAssetRef::_ctor(int32_t  nameHashCode, int32_t  familyNameHashCode, int32_t  styleNameHashCode, ::TMPro::TMP_FontAsset*  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager_FontAssetRef>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::TMPro::TMP_FontAsset*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, nameHashCode, familyNameHashCode, styleNameHashCode, fontAsset);
+}
+// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::TMP_ResourceManager_FontAssetRef::TMP_ResourceManager_FontAssetRef(int32_t  nameHashCode, int32_t  familyNameHashCode, int32_t  styleNameHashCode, int64_t  familyNameAndStyleHashCode, ::UnityW<::TMPro::TMP_FontAsset>  fontAsset) noexcept  {
+this->nameHashCode = nameHashCode;
+this->familyNameHashCode = familyNameHashCode;
+this->styleNameHashCode = styleNameHashCode;
+this->familyNameAndStyleHashCode = familyNameAndStyleHashCode;
+this->fontAsset = fontAsset;
+}
+// Ctor Parameters []
+constexpr ::TMPro::TMP_ResourceManager_FontAssetRef::TMP_ResourceManager_FontAssetRef()   {
+}
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager.GetTextSettings
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Settings> (*)()>(&::TMPro::TMP_ResourceManager::GetTextSettings)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x1821ce290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"GetTextSettings", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager.AddFontAsset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager::AddFontAsset)> {
+  constexpr static std::size_t size = 0x3e0;
+  constexpr static std::size_t addrs = 0x1821cdea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"AddFontAsset", {}, {::i2c::type_of<::TMPro::TMP_FontAsset*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager.RemoveFontAsset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager::RemoveFontAsset)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x1821ce580;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"RemoveFontAsset", {}, {::i2c::type_of<::TMPro::TMP_FontAsset*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager.TryGetFontAssetByName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::by_ref<::TMPro::TMP_FontAsset*>)>(&::TMPro::TMP_ResourceManager::TryGetFontAssetByName)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1821ce6f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"TryGetFontAssetByName", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::TMPro::TMP_FontAsset*>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager.TryGetFontAssetByFamilyName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t, ::by_ref<::TMPro::TMP_FontAsset*>)>(&::TMPro::TMP_ResourceManager::TryGetFontAssetByFamilyName)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1821ce650;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"TryGetFontAssetByFamilyName", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::TMPro::TMP_FontAsset*>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager.ClearFontAssetGlyphCache
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMP_ResourceManager::ClearFontAssetGlyphCache)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1821ce280;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"ClearFontAssetGlyphCache", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager.RebuildFontAssetCache
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMP_ResourceManager::RebuildFontAssetCache)> {
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x1821ce320;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"RebuildFontAssetCache", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_ResourceManager._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_ResourceManager::*)()>(&::TMPro::TMP_ResourceManager::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void TMPro::TMP_ResourceManager::setStaticF_s_TextSettings(::UnityW<::TMPro::TMP_Settings>  value)  {
+::cordl_internals::setStaticField<::UnityW<::TMPro::TMP_Settings>, "s_TextSettings", ::TMPro::TMP_ResourceManager*>(std::forward<::UnityW<::TMPro::TMP_Settings>>(value));
+}
+inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_ResourceManager::getStaticF_s_TextSettings()  {
+return ::cordl_internals::getStaticField<::UnityW<::TMPro::TMP_Settings>, "s_TextSettings", ::TMPro::TMP_ResourceManager*>();
+}
+inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetReferences(::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>*, "s_FontAssetReferences", ::TMPro::TMP_ResourceManager*>(std::forward<::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetReferences()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_ResourceManager_FontAssetRef>*, "s_FontAssetReferences", ::TMPro::TMP_ResourceManager*>();
+}
+inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetNameReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetNameReferenceLookup", ::TMPro::TMP_ResourceManager*>(std::forward<::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetNameReferenceLookup()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetNameReferenceLookup", ::TMPro::TMP_ResourceManager*>();
+}
+inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup(::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetFamilyNameAndStyleReferenceLookup", ::TMPro::TMP_ResourceManager*>(std::forward<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetFamilyNameAndStyleReferenceLookup()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int64_t,::UnityW<::TMPro::TMP_FontAsset>>*, "s_FontAssetFamilyNameAndStyleReferenceLookup", ::TMPro::TMP_ResourceManager*>();
+}
+inline void TMPro::TMP_ResourceManager::setStaticF_s_FontAssetRemovalList(::System::Collections::Generic::List_1<int32_t>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::List_1<int32_t>*, "s_FontAssetRemovalList", ::TMPro::TMP_ResourceManager*>(std::forward<::System::Collections::Generic::List_1<int32_t>*>(value));
+}
+inline ::System::Collections::Generic::List_1<int32_t>* TMPro::TMP_ResourceManager::getStaticF_s_FontAssetRemovalList()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<int32_t>*, "s_FontAssetRemovalList", ::TMPro::TMP_ResourceManager*>();
+}
+inline void TMPro::TMP_ResourceManager::setStaticF_k_RegularStyleHashCode(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "k_RegularStyleHashCode", ::TMPro::TMP_ResourceManager*>(std::forward<int32_t>(value));
+}
+inline int32_t TMPro::TMP_ResourceManager::getStaticF_k_RegularStyleHashCode()  {
+return ::cordl_internals::getStaticField<int32_t, "k_RegularStyleHashCode", ::TMPro::TMP_ResourceManager*>();
+}
+inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_ResourceManager::GetTextSettings()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"GetTextSettings", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_Settings>>(nullptr, ___internal_method);
+}
+inline void TMPro::TMP_ResourceManager::AddFontAsset(::TMPro::TMP_FontAsset*  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"AddFontAsset", {}, {::i2c::type_of<::TMPro::TMP_FontAsset*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, fontAsset);
+}
+inline void TMPro::TMP_ResourceManager::RemoveFontAsset(::TMPro::TMP_FontAsset*  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"RemoveFontAsset", {}, {::i2c::type_of<::TMPro::TMP_FontAsset*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, fontAsset);
+}
+inline bool TMPro::TMP_ResourceManager::TryGetFontAssetByName(int32_t  nameHashcode, ::by_ref<::TMPro::TMP_FontAsset*>  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"TryGetFontAssetByName", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::TMPro::TMP_FontAsset*>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, nameHashcode, fontAsset);
+}
+inline bool TMPro::TMP_ResourceManager::TryGetFontAssetByFamilyName(int32_t  familyNameHashCode, int32_t  styleNameHashCode, ::by_ref<::TMPro::TMP_FontAsset*>  fontAsset)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"TryGetFontAssetByFamilyName", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::TMPro::TMP_FontAsset*>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, familyNameHashCode, styleNameHashCode, fontAsset);
+}
+inline void TMPro::TMP_ResourceManager::ClearFontAssetGlyphCache()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"ClearFontAssetGlyphCache", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+inline void TMPro::TMP_ResourceManager::RebuildFontAssetCache()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {"RebuildFontAssetCache", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+inline void TMPro::TMP_ResourceManager::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::TMP_ResourceManager*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::TMPro::TMP_ResourceManager* TMPro::TMP_ResourceManager::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::TMP_ResourceManager*>());
+}
+// Ctor Parameters []
+constexpr ::TMPro::TMP_ResourceManager::TMP_ResourceManager()   {
+}

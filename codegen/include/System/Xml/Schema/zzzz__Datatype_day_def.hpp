@@ -1,0 +1,57 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_day.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Schema/zzzz__Datatype_dateTimeBase_def.hpp"
+CORDL_MODULE_EXPORT(Datatype_day)
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+// Forward declare root types
+namespace System::Xml::Schema {
+class Datatype_day;
+}
+// Write type traits
+MARK_REF_T(::System::Xml::Schema::Datatype_day*);
+DEFINE_IL2CPP_CLASS(::System::Xml::Schema::Datatype_day*, "System.Xml.Schema", "Datatype_day");
+// Dependencies System.Xml.Schema.Datatype_dateTimeBase
+namespace System::Xml::Schema {
+// Is value type: false
+// CS Name: System.Xml.Schema.Datatype_day
+class CORDL_TYPE Datatype_day : public ::System::Xml::Schema::Datatype_dateTimeBase {
+public:
+// Declarations
+ __declspec(property(get=get_TypeCode)) ::System::Xml::Schema::XmlTypeCode  TypeCode;
+
+static inline ::System::Xml::Schema::Datatype_day* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x181d6c2b0, size 0x30, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_TypeCode, addr 0x1809018b0, size 0x10, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Datatype_day() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_day", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Datatype_day(Datatype_day && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_day", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Datatype_day(Datatype_day const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10007};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Xml::Schema::Datatype_day) == 0x40, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema

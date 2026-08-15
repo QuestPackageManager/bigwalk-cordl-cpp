@@ -1,0 +1,218 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Vector2Int.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(Vector2Int)
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class IFormattable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+// Forward declare root types
+namespace UnityEngine {
+struct Vector2Int;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::Vector2Int);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
+// Dependencies 
+namespace UnityEngine {
+// Is value type: true
+// CS Name: UnityEngine.Vector2Int
+struct CORDL_TYPE Vector2Int {
+public:
+// Declarations
+ __declspec(property(get=get_magnitude)) float_t  magnitude;
+
+/// @brief Field s_Down, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Down, put=setStaticF_s_Down)) ::UnityEngine::Vector2Int  s_Down;
+
+/// @brief Field s_Left, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Left, put=setStaticF_s_Left)) ::UnityEngine::Vector2Int  s_Left;
+
+/// @brief Field s_One, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_One, put=setStaticF_s_One)) ::UnityEngine::Vector2Int  s_One;
+
+/// @brief Field s_Right, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Right, put=setStaticF_s_Right)) ::UnityEngine::Vector2Int  s_Right;
+
+/// @brief Field s_Up, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Up, put=setStaticF_s_Up)) ::UnityEngine::Vector2Int  s_Up;
+
+/// @brief Field s_Zero, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Zero, put=setStaticF_s_Zero)) ::UnityEngine::Vector2Int  s_Zero;
+
+ __declspec(property(get=get_sqrMagnitude)) int32_t  sqrMagnitude;
+
+ __declspec(property(get=get_x, put=set_x)) int32_t  x;
+
+ __declspec(property(get=get_y, put=set_y)) int32_t  y;
+
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Vector2Int>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::Vector2Int>*() ;
+
+/// @brief Convert operator to "::System::IFormattable"
+constexpr operator  ::System::IFormattable*() ;
+
+/// @brief Method Equals, addr 0x180651a40, size 0x80, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  other) ;
+
+/// @brief Method Equals, addr 0x18098c590, size 0x20, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::Vector2Int  other) ;
+
+/// @brief Method Equals, addr 0x180651ac0, size 0x20, virtual false, abstract: false, final false
+inline bool Equals(::by_ref<::UnityEngine::Vector2Int>  other) ;
+
+/// @brief Method FloorToInt, addr 0x18227af30, size 0x70, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int FloorToInt(::UnityEngine::Vector2  v) ;
+
+/// @brief Method GetHashCode, addr 0x18098c5b0, size 0x10, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
+
+/// @brief Method Max, addr 0x181f003a0, size 0x30, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int Max(::UnityEngine::Vector2Int  lhs, ::UnityEngine::Vector2Int  rhs) ;
+
+/// @brief Method RoundToInt, addr 0x181517db0, size 0x40, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int RoundToInt(::UnityEngine::Vector2  v) ;
+
+/// @brief Method ToString, addr 0x180c6d1d0, size 0x130, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
+
+/// @brief Method ToString, addr 0x180c6d130, size 0xa0, virtual true, abstract: false, final true
+inline ::StringW ToString(::StringW  format, ::System::IFormatProvider*  formatProvider) ;
+
+/// @brief Method .ctor, addr 0x1804a47e0, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(int32_t  x, int32_t  y) ;
+
+static inline ::UnityEngine::Vector2Int getStaticF_s_Down() ;
+
+static inline ::UnityEngine::Vector2Int getStaticF_s_Left() ;
+
+static inline ::UnityEngine::Vector2Int getStaticF_s_One() ;
+
+static inline ::UnityEngine::Vector2Int getStaticF_s_Right() ;
+
+static inline ::UnityEngine::Vector2Int getStaticF_s_Up() ;
+
+static inline ::UnityEngine::Vector2Int getStaticF_s_Zero() ;
+
+/// @brief Method get_down, addr 0x18227b080, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int get_down() ;
+
+/// @brief Method get_left, addr 0x18227b0a0, size 0x30, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int get_left() ;
+
+/// @brief Method get_magnitude, addr 0x18202cde0, size 0x20, virtual false, abstract: false, final false
+inline float_t get_magnitude() ;
+
+/// @brief Method get_one, addr 0x18227b0d0, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int get_one() ;
+
+/// @brief Method get_right, addr 0x18227b0f0, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int get_right() ;
+
+/// @brief Method get_sqrMagnitude, addr 0x181517df0, size 0x10, virtual false, abstract: false, final false
+inline int32_t get_sqrMagnitude() ;
+
+/// @brief Method get_up, addr 0x18227b110, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int get_up() ;
+
+/// @brief Method get_x, addr 0x1803474c0, size 0x10, virtual false, abstract: false, final false
+inline int32_t get_x() ;
+
+/// @brief Method get_y, addr 0x18038fe90, size 0x10, virtual false, abstract: false, final false
+inline int32_t get_y() ;
+
+/// @brief Method get_zero, addr 0x180e8cfd0, size 0x7c30, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int get_zero() ;
+
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector2Int>"
+constexpr ::System::IEquatable_1<::UnityEngine::Vector2Int>* i___System__IEquatable_1___UnityEngine__Vector2Int_() ;
+
+/// @brief Convert to "::System::IFormattable"
+constexpr ::System::IFormattable* i___System__IFormattable() ;
+
+/// @brief Method op_Addition, addr 0x181f9a050, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int op_Addition(::UnityEngine::Vector2Int  a, ::UnityEngine::Vector2Int  b) ;
+
+/// @brief Method op_Division, addr 0x181f9a190, size 0x30, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int op_Division(::UnityEngine::Vector2Int  a, int32_t  b) ;
+
+/// @brief Method op_Equality, addr 0x18227b130, size 0x20, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::Vector2Int  lhs, ::UnityEngine::Vector2Int  rhs) ;
+
+/// @brief Method op_Implicit, addr 0x181eec0d0, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector2Int  v) ;
+
+/// @brief Method op_Inequality, addr 0x18147cc40, size 0x20, virtual false, abstract: false, final false
+static inline bool op_Inequality(::UnityEngine::Vector2Int  lhs, ::UnityEngine::Vector2Int  rhs) ;
+
+/// @brief Method op_Multiply, addr 0x181f9a540, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int op_Multiply(int32_t  a, ::UnityEngine::Vector2Int  b) ;
+
+/// @brief Method op_Subtraction, addr 0x181f9a630, size 0x20, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int op_Subtraction(::UnityEngine::Vector2Int  a, ::UnityEngine::Vector2Int  b) ;
+
+static inline void setStaticF_s_Down(::UnityEngine::Vector2Int  value) ;
+
+static inline void setStaticF_s_Left(::UnityEngine::Vector2Int  value) ;
+
+static inline void setStaticF_s_One(::UnityEngine::Vector2Int  value) ;
+
+static inline void setStaticF_s_Right(::UnityEngine::Vector2Int  value) ;
+
+static inline void setStaticF_s_Up(::UnityEngine::Vector2Int  value) ;
+
+static inline void setStaticF_s_Zero(::UnityEngine::Vector2Int  value) ;
+
+/// @brief Method set_x, addr 0x180379030, size 0x10, virtual false, abstract: false, final false
+inline void set_x(int32_t  value) ;
+
+/// @brief Method set_y, addr 0x1803bda60, size 0x10, virtual false, abstract: false, final false
+inline void set_y(int32_t  value) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr Vector2Int() ;
+
+// Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr Vector2Int(int32_t  m_X, int32_t  m_Y) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10619};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+
+/// @brief Field m_X, offset: 0x0, size: 0x4, def value: None
+ int32_t  m_X;
+
+/// @brief Field m_Y, offset: 0x4, size: 0x4, def value: None
+ int32_t  m_Y;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Vector2Int, m_X) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Vector2Int, m_Y) == 0x4, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Vector2Int) == 0x8, "Size mismatch!");
+
+} // namespace end def UnityEngine

@@ -1,0 +1,276 @@
+#pragma once
+// IWYU pragma private; include "System/ComponentModel/ICustomTypeDescriptor.hpp"
+#include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetAttributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::AttributeCollection* (::System::ComponentModel::ICustomTypeDescriptor::*)()>(&::System::ComponentModel::ICustomTypeDescriptor::GetAttributes)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetClassName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::ICustomTypeDescriptor::*)()>(&::System::ComponentModel::ICustomTypeDescriptor::GetClassName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetComponentName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::ICustomTypeDescriptor::*)()>(&::System::ComponentModel::ICustomTypeDescriptor::GetComponentName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetConverter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter* (::System::ComponentModel::ICustomTypeDescriptor::*)()>(&::System::ComponentModel::ICustomTypeDescriptor::GetConverter)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetDefaultEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptor* (::System::ComponentModel::ICustomTypeDescriptor::*)()>(&::System::ComponentModel::ICustomTypeDescriptor::GetDefaultEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetDefaultProperty
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptor* (::System::ComponentModel::ICustomTypeDescriptor::*)()>(&::System::ComponentModel::ICustomTypeDescriptor::GetDefaultProperty)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetEditor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::ICustomTypeDescriptor::*)(::System::Type*)>(&::System::ComponentModel::ICustomTypeDescriptor::GetEditor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetEvents
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptorCollection* (::System::ComponentModel::ICustomTypeDescriptor::*)()>(&::System::ComponentModel::ICustomTypeDescriptor::GetEvents)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetEvents
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptorCollection* (::System::ComponentModel::ICustomTypeDescriptor::*)(::ArrayW<::System::Attribute*>)>(&::System::ComponentModel::ICustomTypeDescriptor::GetEvents)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetProperties
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::System::ComponentModel::ICustomTypeDescriptor::*)()>(&::System::ComponentModel::ICustomTypeDescriptor::GetProperties)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetProperties
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::System::ComponentModel::ICustomTypeDescriptor::*)(::ArrayW<::System::Attribute*>)>(&::System::ComponentModel::ICustomTypeDescriptor::GetProperties)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::ICustomTypeDescriptor.GetPropertyOwner
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::ICustomTypeDescriptor::*)(::System::ComponentModel::PropertyDescriptor*)>(&::System::ComponentModel::ICustomTypeDescriptor::GetPropertyOwner)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(),
+                    {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::System::ComponentModel::AttributeCollection* System::ComponentModel::ICustomTypeDescriptor::GetAttributes()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::AttributeCollection*>(this, ___internal_method);
+}
+inline ::StringW System::ComponentModel::ICustomTypeDescriptor::GetClassName()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::ComponentModel::ICustomTypeDescriptor::GetComponentName()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::ComponentModel::TypeConverter* System::ComponentModel::ICustomTypeDescriptor::GetConverter()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::TypeConverter*>(this, ___internal_method);
+}
+inline ::System::ComponentModel::EventDescriptor* System::ComponentModel::ICustomTypeDescriptor::GetDefaultEvent()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::EventDescriptor*>(this, ___internal_method);
+}
+inline ::System::ComponentModel::PropertyDescriptor* System::ComponentModel::ICustomTypeDescriptor::GetDefaultProperty()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::PropertyDescriptor*>(this, ___internal_method);
+}
+inline ::System::Object* System::ComponentModel::ICustomTypeDescriptor::GetEditor(::System::Type*  editorBaseType)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, editorBaseType);
+}
+inline ::System::ComponentModel::EventDescriptorCollection* System::ComponentModel::ICustomTypeDescriptor::GetEvents()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::EventDescriptorCollection*>(this, ___internal_method);
+}
+inline ::System::ComponentModel::EventDescriptorCollection* System::ComponentModel::ICustomTypeDescriptor::GetEvents(::ArrayW<::System::Attribute*>  attributes)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::EventDescriptorCollection*>(this, ___internal_method, attributes);
+}
+inline ::System::ComponentModel::PropertyDescriptorCollection* System::ComponentModel::ICustomTypeDescriptor::GetProperties()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::PropertyDescriptorCollection*>(this, ___internal_method);
+}
+inline ::System::ComponentModel::PropertyDescriptorCollection* System::ComponentModel::ICustomTypeDescriptor::GetProperties(::ArrayW<::System::Attribute*>  attributes)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::PropertyDescriptorCollection*>(this, ___internal_method, attributes);
+}
+inline ::System::Object* System::ComponentModel::ICustomTypeDescriptor::GetPropertyOwner(::System::ComponentModel::PropertyDescriptor*  pd)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::ComponentModel::ICustomTypeDescriptor*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, pd);
+}

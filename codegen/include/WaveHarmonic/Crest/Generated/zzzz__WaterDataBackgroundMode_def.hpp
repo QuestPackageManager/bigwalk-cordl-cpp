@@ -1,0 +1,78 @@
+#pragma once
+// IWYU pragma private; include "WaveHarmonic/Crest/Generated/WaterDataBackgroundMode.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(WaterDataBackgroundMode)
+// Forward declare root types
+namespace WaveHarmonic::Crest::Generated {
+struct WaterDataBackgroundMode;
+}
+// Write type traits
+MARK_VAL_T(::WaveHarmonic::Crest::Generated::WaterDataBackgroundMode);
+DEFINE_IL2CPP_CLASS(::WaveHarmonic::Crest::Generated::WaterDataBackgroundMode, "WaveHarmonic.Crest.Generated", "WaterDataBackgroundMode");
+// Dependencies 
+namespace WaveHarmonic::Crest::Generated {
+// Is value type: true
+// CS Name: WaveHarmonic.Crest.Generated.WaterDataBackgroundMode
+struct CORDL_TYPE WaterDataBackgroundMode {
+public:
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+/// @brief Nested struct __WaterDataBackgroundMode_Unwrapped
+enum struct __WaterDataBackgroundMode_Unwrapped : int32_t {
+__E_Always = static_cast<int32_t>(0x0),
+__E_Inactive = static_cast<int32_t>(0x1),
+__E_Disabled = static_cast<int32_t>(0x2),
+__E_Never = static_cast<int32_t>(0x3),
+};
+
+/// @brief Conversion into unwrapped enum value
+constexpr operator __WaterDataBackgroundMode_Unwrapped () const noexcept {
+return static_cast<__WaterDataBackgroundMode_Unwrapped>(this->value__);
+}
+
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr WaterDataBackgroundMode() ;
+
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr WaterDataBackgroundMode(int32_t  value__) noexcept;
+
+/// @brief Field Always value: I32(0)
+static ::WaveHarmonic::Crest::Generated::WaterDataBackgroundMode const Always;
+
+/// @brief Field Disabled value: I32(2)
+static ::WaveHarmonic::Crest::Generated::WaterDataBackgroundMode const Disabled;
+
+/// @brief Field Inactive value: I32(1)
+static ::WaveHarmonic::Crest::Generated::WaterDataBackgroundMode const Inactive;
+
+/// @brief Field Never value: I32(3)
+static ::WaveHarmonic::Crest::Generated::WaterDataBackgroundMode const Never;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16750};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+
+/// @brief Field value__, offset: 0x4, size: 0x4, def value: None
+ int32_t  value__;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::WaveHarmonic::Crest::Generated::WaterDataBackgroundMode, value__) == 0x4, "Offset mismatch!");
+
+static_assert(sizeof(::WaveHarmonic::Crest::Generated::WaterDataBackgroundMode) == 0x4, "Size mismatch!");
+
+} // namespace end def WaveHarmonic::Crest::Generated

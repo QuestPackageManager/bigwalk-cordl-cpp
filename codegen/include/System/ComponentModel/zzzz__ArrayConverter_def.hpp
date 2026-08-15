@@ -1,0 +1,144 @@
+#pragma once
+// IWYU pragma private; include "System/ComponentModel/ArrayConverter.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/ComponentModel/zzzz__CollectionConverter_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(ArrayConverter)
+namespace System::ComponentModel {
+class ArrayConverter_ArrayPropertyDescriptor;
+}
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Attribute;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+// Forward declare root types
+namespace System::ComponentModel {
+class ArrayConverter;
+}
+namespace System::ComponentModel {
+class ArrayConverter_ArrayPropertyDescriptor;
+}
+// Write type traits
+MARK_REF_T(::System::ComponentModel::ArrayConverter*);
+MARK_REF_T(::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor*);
+DEFINE_IL2CPP_CLASS(::System::ComponentModel::ArrayConverter*, "System.ComponentModel", "ArrayConverter");
+DEFINE_IL2CPP_CLASS(::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor*, "System.ComponentModel", "ArrayConverter/ArrayPropertyDescriptor");
+// Dependencies System.ComponentModel.TypeConverter::SimplePropertyDescriptor
+namespace System::ComponentModel {
+// Is value type: false
+// CS Name: System.ComponentModel.ArrayConverter/ArrayPropertyDescriptor
+class CORDL_TYPE ArrayConverter_ArrayPropertyDescriptor : public ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor {
+public:
+// Declarations
+/// @brief Field _index, offset 0x98, size 0x4 
+ __declspec(property(get=__cordl_internal_get__index, put=__cordl_internal_set__index)) int32_t  _index;
+
+/// @brief Method GetValue, addr 0x181de6f50, size 0x80, virtual true, abstract: false, final false
+inline ::System::Object* GetValue(::System::Object*  instance) ;
+
+static inline ::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor* New_ctor(::System::Type*  arrayType, ::System::Type*  elementType, int32_t  index) ;
+
+/// @brief Method SetValue, addr 0x181de6fd0, size 0x110, virtual true, abstract: false, final false
+inline void SetValue(::System::Object*  instance, ::System::Object*  value) ;
+
+constexpr int32_t const& __cordl_internal_get__index() const;
+
+constexpr int32_t& __cordl_internal_get__index() ;
+
+constexpr void __cordl_internal_set__index(int32_t  value) ;
+
+/// @brief Method .ctor, addr 0x181de70e0, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  arrayType, ::System::Type*  elementType, int32_t  index) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ArrayConverter_ArrayPropertyDescriptor() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ArrayConverter_ArrayPropertyDescriptor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ArrayConverter_ArrayPropertyDescriptor(ArrayConverter_ArrayPropertyDescriptor && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ArrayConverter_ArrayPropertyDescriptor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ArrayConverter_ArrayPropertyDescriptor(ArrayConverter_ArrayPropertyDescriptor const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11686};
+
+/// @brief Field _index, offset: 0x98, size: 0x4, def value: None
+ int32_t  ____index;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor, ____index) == 0x98, "Offset mismatch!");
+
+static_assert(sizeof(::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor) == 0xa0, "Size mismatch!");
+
+} // namespace end def System::ComponentModel
+// Dependencies System.ComponentModel.CollectionConverter
+namespace System::ComponentModel {
+// Is value type: false
+// CS Name: System.ComponentModel.ArrayConverter
+class CORDL_TYPE ArrayConverter : public ::System::ComponentModel::CollectionConverter {
+public:
+// Declarations
+using ArrayPropertyDescriptor = ::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor;
+
+/// @brief Method ConvertTo, addr 0x181de6c70, size 0x120, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
+
+/// @brief Method GetProperties, addr 0x181de6d90, size 0x1c0, virtual true, abstract: false, final false
+inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Object*  value, ::ArrayW<::System::Attribute*>  attributes) ;
+
+/// @brief Method GetPropertiesSupported, addr 0x1802f6470, size 0x10, virtual true, abstract: false, final false
+inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext*  context) ;
+
+static inline ::System::ComponentModel::ArrayConverter* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ArrayConverter() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ArrayConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ArrayConverter(ArrayConverter && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ArrayConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ArrayConverter(ArrayConverter const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11687};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::ComponentModel::ArrayConverter) == 0x10, "Size mismatch!");
+
+} // namespace end def System::ComponentModel

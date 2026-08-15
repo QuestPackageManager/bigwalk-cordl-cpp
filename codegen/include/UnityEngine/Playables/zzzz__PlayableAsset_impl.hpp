@@ -1,0 +1,148 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Playables/PlayableAsset.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Playables::PlayableAsset.CreatePlayable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Playables::PlayableAsset::*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::UnityEngine::Playables::PlayableAsset::CreatePlayable)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                    {::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Playables::PlayableAsset.get_duration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Playables::PlayableAsset::*)()>(&::UnityEngine::Playables::PlayableAsset::get_duration)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182280aa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                    {::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Playables::PlayableAsset.get_outputs
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (::UnityEngine::Playables::PlayableAsset::*)()>(&::UnityEngine::Playables::PlayableAsset::get_outputs)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x182280ac0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                    {::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Playables::PlayableAsset.Internal_CreatePlayable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Playables::PlayableAsset*, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::IntPtr)>(&::UnityEngine::Playables::PlayableAsset::Internal_CreatePlayable)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x1822809c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                        {"Internal_CreatePlayable", {}, {::i2c::type_of<::UnityEngine::Playables::PlayableAsset*>(), ::i2c::type_of<::UnityEngine::Playables::PlayableGraph>(), ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Playables::PlayableAsset.Internal_GetPlayableAssetDuration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Playables::PlayableAsset*, ::System::IntPtr)>(&::UnityEngine::Playables::PlayableAsset::Internal_GetPlayableAssetDuration)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x182280a70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                        {"Internal_GetPlayableAssetDuration", {}, {::i2c::type_of<::UnityEngine::Playables::PlayableAsset*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Playables::PlayableAsset._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableAsset::*)()>(&::UnityEngine::Playables::PlayableAsset::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303cd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::Playables::Playable UnityEngine::Playables::PlayableAsset::CreatePlayable(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  owner)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable>(this, ___internal_method, graph, owner);
+}
+inline double_t UnityEngine::Playables::PlayableAsset::get_duration()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<double_t>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* UnityEngine::Playables::PlayableAsset::get_outputs()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*>(this, ___internal_method);
+}
+inline void UnityEngine::Playables::PlayableAsset::Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset*  asset, ::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  go, ::System::IntPtr  ptr)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                        {"Internal_CreatePlayable", {}, {::i2c::type_of<::UnityEngine::Playables::PlayableAsset*>(), ::i2c::type_of<::UnityEngine::Playables::PlayableGraph>(), ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, asset, graph, go, ptr);
+}
+inline void UnityEngine::Playables::PlayableAsset::Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset*  asset, ::System::IntPtr  ptrToDouble)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                        {"Internal_GetPlayableAssetDuration", {}, {::i2c::type_of<::UnityEngine::Playables::PlayableAsset*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, asset, ptrToDouble);
+}
+inline void UnityEngine::Playables::PlayableAsset::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Playables::PlayableAsset* UnityEngine::Playables::PlayableAsset::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Playables::PlayableAsset*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Playables::PlayableAsset::PlayableAsset()   {
+}

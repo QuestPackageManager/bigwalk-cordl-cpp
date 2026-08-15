@@ -1,0 +1,49 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/SortingLayer.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(SortingLayer)
+// Forward declare root types
+namespace UnityEngine {
+struct SortingLayer;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::SortingLayer);
+DEFINE_IL2CPP_CLASS(::UnityEngine::SortingLayer, "UnityEngine", "SortingLayer");
+// Dependencies 
+namespace UnityEngine {
+// Is value type: true
+// CS Name: UnityEngine.SortingLayer
+struct CORDL_TYPE SortingLayer {
+public:
+// Declarations
+/// @brief Method GetLayerValueFromID, addr 0x18224b580, size 0x10, virtual false, abstract: false, final false
+static inline int32_t GetLayerValueFromID(int32_t  id) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr SortingLayer() ;
+
+// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr SortingLayer(int32_t  m_Id) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10420};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+
+/// @brief Field m_Id, offset: 0x0, size: 0x4, def value: None
+ int32_t  m_Id;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::SortingLayer, m_Id) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::SortingLayer) == 0x4, "Size mismatch!");
+
+} // namespace end def UnityEngine

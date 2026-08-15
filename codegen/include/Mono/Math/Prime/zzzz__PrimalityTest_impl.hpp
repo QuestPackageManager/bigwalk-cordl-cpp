@@ -1,0 +1,58 @@
+#pragma once
+// IWYU pragma private; include "Mono/Math/Prime/PrimalityTest.hpp"
+#include "System/zzzz__MulticastDelegate_impl.hpp"
+#include "Mono/Math/Prime/zzzz__PrimalityTest_def.hpp"
+#include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
+#include "Mono/Math/zzzz__BigInteger_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::Mono::Math::Prime::PrimalityTest._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::Prime::PrimalityTest::*)(::System::Object*, ::System::IntPtr)>(&::Mono::Math::Prime::PrimalityTest::_ctor)> {
+  constexpr static std::size_t size = 0x5b30;
+  constexpr static std::size_t addrs = 0x1813d2c10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Math::Prime::PrimalityTest*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::Prime::PrimalityTest.Invoke
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Math::Prime::PrimalityTest::*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(&::Mono::Math::Prime::PrimalityTest::Invoke)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x1804f6ae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Math::Prime::PrimalityTest*>(),
+                    {::i2c::class_of<::Mono::Math::Prime::PrimalityTest*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+inline void Mono::Math::Prime::PrimalityTest::_ctor(::System::Object*  object, ::System::IntPtr  method)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Math::Prime::PrimalityTest*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
+}
+inline bool Mono::Math::Prime::PrimalityTest::Invoke(::Mono::Math::BigInteger*  bi, ::Mono::Math::Prime::ConfidenceFactor  confidence)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Math::Prime::PrimalityTest*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, bi, confidence);
+}
+inline ::Mono::Math::Prime::PrimalityTest* Mono::Math::Prime::PrimalityTest::New_ctor(::System::Object*  object, ::System::IntPtr  method)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Math::Prime::PrimalityTest*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::Mono::Math::Prime::PrimalityTest::PrimalityTest()   {
+}

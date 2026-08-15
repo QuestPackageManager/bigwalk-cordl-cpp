@@ -1,0 +1,948 @@
+#pragma once
+// IWYU pragma private; include "System/Data/XmlDataLoader.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Data/zzzz__XmlDataLoader_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/zzzz__Stack_def.hpp"
+#include "System/Data/zzzz__DataColumn_def.hpp"
+#include "System/Data/zzzz__DataRow_def.hpp"
+#include "System/Data/zzzz__DataSet_def.hpp"
+#include "System/Data/zzzz__DataTable_def.hpp"
+#include "System/Data/zzzz__XmlToDatasetMap_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlElement_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Data::XmlDataLoader._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataSet*, bool, bool)>(&::System::Data::XmlDataLoader::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181bc38e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataSet*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataSet*, bool, ::System::Xml::XmlElement*, bool)>(&::System::Data::XmlDataLoader::_ctor)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181bc3ad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataSet*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Xml::XmlElement*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataTable*, bool, bool)>(&::System::Data::XmlDataLoader::_ctor)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181bc3960;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataTable*, bool, ::System::Xml::XmlElement*, bool)>(&::System::Data::XmlDataLoader::_ctor)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181bc39f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Xml::XmlElement*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.get_FromInference
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlDataLoader::*)()>(&::System::Data::XmlDataLoader::get_FromInference)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18165d5a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"get_FromInference", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.set_FromInference
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(bool)>(&::System::Data::XmlDataLoader::set_FromInference)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1817eed40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"set_FromInference", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.AttachRows
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlNode*)>(&::System::Data::XmlDataLoader::AttachRows)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x181bbf940;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"AttachRows", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.CountNonNSAttributes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(&::System::Data::XmlDataLoader::CountNonNSAttributes)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x181bbfaa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"CountNonNSAttributes", {}, {::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.GetValueForTextOnlyColums
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(&::System::Data::XmlDataLoader::GetValueForTextOnlyColums)> {
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x181bc02b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"GetValueForTextOnlyColums", {}, {::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.GetInitialTextFromNodes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::XmlDataLoader::*)(::by_ref<::System::Xml::XmlNode*>)>(&::System::Data::XmlDataLoader::GetInitialTextFromNodes)> {
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x181bbff70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"GetInitialTextFromNodes", {}, {::i2c::type_of<::by_ref<::System::Xml::XmlNode*>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.GetTextOnlyColumn
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataColumn* (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*)>(&::System::Data::XmlDataLoader::GetTextOnlyColumn)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181bc0220;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"GetTextOnlyColumn", {}, {::i2c::type_of<::System::Data::DataRow*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.GetRowFromElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRow* (::System::Data::XmlDataLoader::*)(::System::Xml::XmlElement*)>(&::System::Data::XmlDataLoader::GetRowFromElement)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181bc01c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"GetRowFromElement", {}, {::i2c::type_of<::System::Xml::XmlElement*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.FColumnElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Xml::XmlElement*)>(&::System::Data::XmlDataLoader::FColumnElement)> {
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x181bbfc00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"FColumnElement", {}, {::i2c::type_of<::System::Xml::XmlElement*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.FExcludedNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlDataLoader::*)(::StringW)>(&::System::Data::XmlDataLoader::FExcludedNamespace)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181bbfdf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"FExcludedNamespace", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.FIgnoreNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(&::System::Data::XmlDataLoader::FIgnoreNamespace)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181bbfeb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"FIgnoreNamespace", {}, {::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.FIgnoreNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Xml::XmlReader*)>(&::System::Data::XmlDataLoader::FIgnoreNamespace)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181bbfe60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"FIgnoreNamespace", {}, {::i2c::type_of<::System::Xml::XmlReader*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.IsTextLikeNode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Xml::XmlNodeType)>(&::System::Data::XmlDataLoader::IsTextLikeNode)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181bc07a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"IsTextLikeNode", {}, {::i2c::type_of<::System::Xml::XmlNodeType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.IsTextOnly
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlDataLoader::*)(::System::Data::DataColumn*)>(&::System::Data::XmlDataLoader::IsTextOnly)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181bc07e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"IsTextOnly", {}, {::i2c::type_of<::System::Data::DataColumn*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.LoadData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Xml::XmlDocument*)>(&::System::Data::XmlDataLoader::LoadData)> {
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x181bc0fe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadData", {}, {::i2c::type_of<::System::Xml::XmlDocument*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.LoadRowData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlElement*)>(&::System::Data::XmlDataLoader::LoadRowData)> {
+  constexpr static std::size_t size = 0xc40;
+  constexpr static std::size_t addrs = 0x181bc1550;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadRowData", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Xml::XmlElement*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.LoadRows
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlNode*)>(&::System::Data::XmlDataLoader::LoadRows)> {
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x181bc2190;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadRows", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.SetRowValueFromXmlText
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::StringW)>(&::System::Data::XmlDataLoader::SetRowValueFromXmlText)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181bc38a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"SetRowValueFromXmlText", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.InitNameTable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)()>(&::System::Data::XmlDataLoader::InitNameTable)> {
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x181bc0510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"InitNameTable", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.LoadData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Xml::XmlReader*)>(&::System::Data::XmlDataLoader::LoadData)> {
+  constexpr static std::size_t size = 0x310;
+  constexpr static std::size_t addrs = 0x181bc1240;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadData", {}, {::i2c::type_of<::System::Xml::XmlReader*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.LoadTopMostTable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataTable*)>(&::System::Data::XmlDataLoader::LoadTopMostTable)> {
+  constexpr static std::size_t size = 0x7a0;
+  constexpr static std::size_t addrs = 0x181bc2f30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadTopMostTable", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.LoadTable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataTable*, bool)>(&::System::Data::XmlDataLoader::LoadTable)> {
+  constexpr static std::size_t size = 0xa60;
+  constexpr static std::size_t addrs = 0x181bc24d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadTable", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.LoadColumn
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlDataLoader::*)(::System::Data::DataColumn*, ::ArrayW<::System::Object*>)>(&::System::Data::XmlDataLoader::LoadColumn)> {
+  constexpr static std::size_t size = 0x7d0;
+  constexpr static std::size_t addrs = 0x181bc0810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadColumn", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::ArrayW<::System::Object*>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::XmlDataLoader.ProcessXsdSchema
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlDataLoader::*)()>(&::System::Data::XmlDataLoader::ProcessXsdSchema)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x181bc36d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"ProcessXsdSchema", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Data::DataSet*& System::Data::XmlDataLoader::__cordl_internal_get__dataSet()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataSet;
+}
+constexpr ::System::Data::DataSet* const& System::Data::XmlDataLoader::__cordl_internal_get__dataSet() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataSet;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__dataSet(::System::Data::DataSet*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____dataSet = value;
+}
+constexpr ::System::Data::XmlToDatasetMap*& System::Data::XmlDataLoader::__cordl_internal_get__nodeToSchemaMap()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodeToSchemaMap;
+}
+constexpr ::System::Data::XmlToDatasetMap* const& System::Data::XmlDataLoader::__cordl_internal_get__nodeToSchemaMap() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodeToSchemaMap;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__nodeToSchemaMap(::System::Data::XmlToDatasetMap*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____nodeToSchemaMap = value;
+}
+constexpr ::System::Collections::Hashtable*& System::Data::XmlDataLoader::__cordl_internal_get__nodeToRowMap()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodeToRowMap;
+}
+constexpr ::System::Collections::Hashtable* const& System::Data::XmlDataLoader::__cordl_internal_get__nodeToRowMap() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nodeToRowMap;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__nodeToRowMap(::System::Collections::Hashtable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____nodeToRowMap = value;
+}
+constexpr ::System::Collections::Stack*& System::Data::XmlDataLoader::__cordl_internal_get__childRowsStack()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____childRowsStack;
+}
+constexpr ::System::Collections::Stack* const& System::Data::XmlDataLoader::__cordl_internal_get__childRowsStack() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____childRowsStack;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__childRowsStack(::System::Collections::Stack*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____childRowsStack = value;
+}
+constexpr ::System::Collections::Hashtable*& System::Data::XmlDataLoader::__cordl_internal_get__htableExcludedNS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____htableExcludedNS;
+}
+constexpr ::System::Collections::Hashtable* const& System::Data::XmlDataLoader::__cordl_internal_get__htableExcludedNS() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____htableExcludedNS;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__htableExcludedNS(::System::Collections::Hashtable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____htableExcludedNS = value;
+}
+constexpr bool& System::Data::XmlDataLoader::__cordl_internal_get__fIsXdr()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fIsXdr;
+}
+constexpr bool const& System::Data::XmlDataLoader::__cordl_internal_get__fIsXdr() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fIsXdr;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__fIsXdr(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____fIsXdr = value;
+}
+constexpr bool& System::Data::XmlDataLoader::__cordl_internal_get__isDiffgram()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isDiffgram;
+}
+constexpr bool const& System::Data::XmlDataLoader::__cordl_internal_get__isDiffgram() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isDiffgram;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__isDiffgram(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isDiffgram = value;
+}
+constexpr ::System::Xml::XmlElement*& System::Data::XmlDataLoader::__cordl_internal_get__topMostNode()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____topMostNode;
+}
+constexpr ::System::Xml::XmlElement* const& System::Data::XmlDataLoader::__cordl_internal_get__topMostNode() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____topMostNode;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__topMostNode(::System::Xml::XmlElement*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____topMostNode = value;
+}
+constexpr bool& System::Data::XmlDataLoader::__cordl_internal_get__ignoreSchema()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ignoreSchema;
+}
+constexpr bool const& System::Data::XmlDataLoader::__cordl_internal_get__ignoreSchema() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ignoreSchema;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__ignoreSchema(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ignoreSchema = value;
+}
+constexpr ::System::Data::DataTable*& System::Data::XmlDataLoader::__cordl_internal_get__dataTable()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataTable;
+}
+constexpr ::System::Data::DataTable* const& System::Data::XmlDataLoader::__cordl_internal_get__dataTable() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataTable;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__dataTable(::System::Data::DataTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____dataTable = value;
+}
+constexpr bool& System::Data::XmlDataLoader::__cordl_internal_get__isTableLevel()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isTableLevel;
+}
+constexpr bool const& System::Data::XmlDataLoader::__cordl_internal_get__isTableLevel() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isTableLevel;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__isTableLevel(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isTableLevel = value;
+}
+constexpr bool& System::Data::XmlDataLoader::__cordl_internal_get__fromInference()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fromInference;
+}
+constexpr bool const& System::Data::XmlDataLoader::__cordl_internal_get__fromInference() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fromInference;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__fromInference(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____fromInference = value;
+}
+constexpr ::System::Xml::XmlReader*& System::Data::XmlDataLoader::__cordl_internal_get__dataReader()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataReader;
+}
+constexpr ::System::Xml::XmlReader* const& System::Data::XmlDataLoader::__cordl_internal_get__dataReader() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataReader;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__dataReader(::System::Xml::XmlReader*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____dataReader = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__XSD_XMLNS_NS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XSD_XMLNS_NS;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__XSD_XMLNS_NS() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XSD_XMLNS_NS;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__XSD_XMLNS_NS(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____XSD_XMLNS_NS = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__XDR_SCHEMA()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XDR_SCHEMA;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__XDR_SCHEMA() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XDR_SCHEMA;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__XDR_SCHEMA(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____XDR_SCHEMA = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__XDRNS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XDRNS;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__XDRNS() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XDRNS;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__XDRNS(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____XDRNS = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__SQL_SYNC()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____SQL_SYNC;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__SQL_SYNC() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____SQL_SYNC;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__SQL_SYNC(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____SQL_SYNC = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__UPDGNS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____UPDGNS;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__UPDGNS() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____UPDGNS;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__UPDGNS(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____UPDGNS = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__XSD_SCHEMA()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XSD_SCHEMA;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__XSD_SCHEMA() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XSD_SCHEMA;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__XSD_SCHEMA(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____XSD_SCHEMA = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__XSDNS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XSDNS;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__XSDNS() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____XSDNS;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__XSDNS(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____XSDNS = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__DFFNS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____DFFNS;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__DFFNS() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____DFFNS;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__DFFNS(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____DFFNS = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__MSDNS()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____MSDNS;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__MSDNS() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____MSDNS;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__MSDNS(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____MSDNS = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__DIFFID()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____DIFFID;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__DIFFID() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____DIFFID;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__DIFFID(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____DIFFID = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__HASCHANGES()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____HASCHANGES;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__HASCHANGES() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____HASCHANGES;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__HASCHANGES(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____HASCHANGES = value;
+}
+constexpr ::System::Object*& System::Data::XmlDataLoader::__cordl_internal_get__ROWORDER()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ROWORDER;
+}
+constexpr ::System::Object* const& System::Data::XmlDataLoader::__cordl_internal_get__ROWORDER() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ROWORDER;
+}
+constexpr void System::Data::XmlDataLoader::__cordl_internal_set__ROWORDER(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ROWORDER = value;
+}
+inline void System::Data::XmlDataLoader::_ctor(::System::Data::DataSet*  dataset, bool  IsXdr, bool  ignoreSchema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataSet*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dataset, IsXdr, ignoreSchema);
+}
+inline void System::Data::XmlDataLoader::_ctor(::System::Data::DataSet*  dataset, bool  IsXdr, ::System::Xml::XmlElement*  topNode, bool  ignoreSchema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataSet*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Xml::XmlElement*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dataset, IsXdr, topNode, ignoreSchema);
+}
+inline void System::Data::XmlDataLoader::_ctor(::System::Data::DataTable*  datatable, bool  IsXdr, bool  ignoreSchema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, datatable, IsXdr, ignoreSchema);
+}
+inline void System::Data::XmlDataLoader::_ctor(::System::Data::DataTable*  datatable, bool  IsXdr, ::System::Xml::XmlElement*  topNode, bool  ignoreSchema)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Xml::XmlElement*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, datatable, IsXdr, topNode, ignoreSchema);
+}
+inline bool System::Data::XmlDataLoader::get_FromInference()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"get_FromInference", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Data::XmlDataLoader::set_FromInference(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"set_FromInference", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void System::Data::XmlDataLoader::AttachRows(::System::Data::DataRow*  parentRow, ::System::Xml::XmlNode*  parentElement)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"AttachRows", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentRow, parentElement);
+}
+inline int32_t System::Data::XmlDataLoader::CountNonNSAttributes(::System::Xml::XmlNode*  node)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"CountNonNSAttributes", {}, {::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, node);
+}
+inline ::StringW System::Data::XmlDataLoader::GetValueForTextOnlyColums(::System::Xml::XmlNode*  n)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"GetValueForTextOnlyColums", {}, {::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, n);
+}
+inline ::StringW System::Data::XmlDataLoader::GetInitialTextFromNodes(::by_ref<::System::Xml::XmlNode*>  n)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"GetInitialTextFromNodes", {}, {::i2c::type_of<::by_ref<::System::Xml::XmlNode*>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, n);
+}
+inline ::System::Data::DataColumn* System::Data::XmlDataLoader::GetTextOnlyColumn(::System::Data::DataRow*  row)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"GetTextOnlyColumn", {}, {::i2c::type_of<::System::Data::DataRow*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Data::DataColumn*>(this, ___internal_method, row);
+}
+inline ::System::Data::DataRow* System::Data::XmlDataLoader::GetRowFromElement(::System::Xml::XmlElement*  e)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"GetRowFromElement", {}, {::i2c::type_of<::System::Xml::XmlElement*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Data::DataRow*>(this, ___internal_method, e);
+}
+inline bool System::Data::XmlDataLoader::FColumnElement(::System::Xml::XmlElement*  e)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"FColumnElement", {}, {::i2c::type_of<::System::Xml::XmlElement*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, e);
+}
+inline bool System::Data::XmlDataLoader::FExcludedNamespace(::StringW  ns)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"FExcludedNamespace", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, ns);
+}
+inline bool System::Data::XmlDataLoader::FIgnoreNamespace(::System::Xml::XmlNode*  node)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"FIgnoreNamespace", {}, {::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node);
+}
+inline bool System::Data::XmlDataLoader::FIgnoreNamespace(::System::Xml::XmlReader*  node)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"FIgnoreNamespace", {}, {::i2c::type_of<::System::Xml::XmlReader*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node);
+}
+inline bool System::Data::XmlDataLoader::IsTextLikeNode(::System::Xml::XmlNodeType  n)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"IsTextLikeNode", {}, {::i2c::type_of<::System::Xml::XmlNodeType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, n);
+}
+inline bool System::Data::XmlDataLoader::IsTextOnly(::System::Data::DataColumn*  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"IsTextOnly", {}, {::i2c::type_of<::System::Data::DataColumn*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, c);
+}
+inline void System::Data::XmlDataLoader::LoadData(::System::Xml::XmlDocument*  xdoc)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadData", {}, {::i2c::type_of<::System::Xml::XmlDocument*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xdoc);
+}
+inline void System::Data::XmlDataLoader::LoadRowData(::System::Data::DataRow*  row, ::System::Xml::XmlElement*  rowElement)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadRowData", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Xml::XmlElement*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, row, rowElement);
+}
+inline void System::Data::XmlDataLoader::LoadRows(::System::Data::DataRow*  parentRow, ::System::Xml::XmlNode*  parentElement)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadRows", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Xml::XmlNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parentRow, parentElement);
+}
+inline void System::Data::XmlDataLoader::SetRowValueFromXmlText(::System::Data::DataRow*  row, ::System::Data::DataColumn*  col, ::StringW  xmlText)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"SetRowValueFromXmlText", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, row, col, xmlText);
+}
+inline void System::Data::XmlDataLoader::InitNameTable()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"InitNameTable", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Data::XmlDataLoader::LoadData(::System::Xml::XmlReader*  reader)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadData", {}, {::i2c::type_of<::System::Xml::XmlReader*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader);
+}
+inline void System::Data::XmlDataLoader::LoadTopMostTable(::System::Data::DataTable*  table)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadTopMostTable", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table);
+}
+inline void System::Data::XmlDataLoader::LoadTable(::System::Data::DataTable*  table, bool  isNested)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadTable", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table, isNested);
+}
+inline void System::Data::XmlDataLoader::LoadColumn(::System::Data::DataColumn*  column, ::ArrayW<::System::Object*>  foundColumns)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"LoadColumn", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::ArrayW<::System::Object*>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column, foundColumns);
+}
+inline bool System::Data::XmlDataLoader::ProcessXsdSchema()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::XmlDataLoader*>(),
+                        {"ProcessXsdSchema", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Data::XmlDataLoader* System::Data::XmlDataLoader::New_ctor(::System::Data::DataSet*  dataset, bool  IsXdr, bool  ignoreSchema)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::XmlDataLoader*>(dataset, IsXdr, ignoreSchema));
+}
+inline ::System::Data::XmlDataLoader* System::Data::XmlDataLoader::New_ctor(::System::Data::DataSet*  dataset, bool  IsXdr, ::System::Xml::XmlElement*  topNode, bool  ignoreSchema)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::XmlDataLoader*>(dataset, IsXdr, topNode, ignoreSchema));
+}
+inline ::System::Data::XmlDataLoader* System::Data::XmlDataLoader::New_ctor(::System::Data::DataTable*  datatable, bool  IsXdr, bool  ignoreSchema)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::XmlDataLoader*>(datatable, IsXdr, ignoreSchema));
+}
+inline ::System::Data::XmlDataLoader* System::Data::XmlDataLoader::New_ctor(::System::Data::DataTable*  datatable, bool  IsXdr, ::System::Xml::XmlElement*  topNode, bool  ignoreSchema)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::XmlDataLoader*>(datatable, IsXdr, topNode, ignoreSchema));
+}
+// Ctor Parameters []
+constexpr ::System::Data::XmlDataLoader::XmlDataLoader()   {
+}

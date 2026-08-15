@@ -1,0 +1,189 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/IMeshGenerator.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__IMeshGenerator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
+#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphRenderMode_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__MeshGenerator_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextJobSystem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::IMeshGenerator.set_currentElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::IMeshGenerator::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UIR::IMeshGenerator::set_currentElement)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::IMeshGenerator.get_textJobSystem
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextJobSystem* (::UnityEngine::UIElements::UIR::IMeshGenerator::*)()>(&::UnityEngine::UIElements::UIR::IMeshGenerator::get_textJobSystem)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::IMeshGenerator.DrawText
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::IMeshGenerator::*)(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture2D>>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>*, ::System::Collections::Generic::List_1<float_t>*)>(&::UnityEngine::UIElements::UIR::IMeshGenerator::DrawText)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::IMeshGenerator.DrawText
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::IMeshGenerator::*)(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>*)>(&::UnityEngine::UIElements::UIR::IMeshGenerator::DrawText)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::IMeshGenerator.DrawRectangle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::IMeshGenerator::*)(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams)>(&::UnityEngine::UIElements::UIR::IMeshGenerator::DrawRectangle)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::IMeshGenerator.DrawBorder
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::IMeshGenerator::*)(::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams)>(&::UnityEngine::UIElements::UIR::IMeshGenerator::DrawBorder)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::IMeshGenerator.DrawRectangleRepeat
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::IMeshGenerator::*)(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams, ::UnityEngine::Rect, float_t)>(&::UnityEngine::UIElements::UIR::IMeshGenerator::DrawRectangleRepeat)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::IMeshGenerator.ScheduleJobs
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::IMeshGenerator::*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::IMeshGenerator::ScheduleJobs)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::UIR::IMeshGenerator::set_currentElement(::UnityEngine::UIElements::VisualElement*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::TextJobSystem* UnityEngine::UIElements::UIR::IMeshGenerator::get_textJobSystem()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextJobSystem*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIR::IMeshGenerator::DrawText(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>*  vertices, ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>*  indices, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture2D>>*  atlases, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>*  renderModes, ::System::Collections::Generic::List_1<float_t>*  sdfScales)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vertices, indices, atlases, renderModes, sdfScales);
+}
+inline void UnityEngine::UIElements::UIR::IMeshGenerator::DrawText(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>*  vertices, ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>*  indices, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*  materials, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>*  renderModes)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vertices, indices, materials, renderModes);
+}
+inline void UnityEngine::UIElements::UIR::IMeshGenerator::DrawRectangle(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams  rectParams)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rectParams);
+}
+inline void UnityEngine::UIElements::UIR::IMeshGenerator::DrawBorder(::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams  borderParams)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, borderParams);
+}
+inline void UnityEngine::UIElements::UIR::IMeshGenerator::DrawRectangleRepeat(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams  rectParams, ::UnityEngine::Rect  totalRect, float_t  scaledPixelsPerPoint)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rectParams, totalRect, scaledPixelsPerPoint);
+}
+inline void UnityEngine::UIElements::UIR::IMeshGenerator::ScheduleJobs(Il2CppObject*  mgc)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::UIR::IMeshGenerator*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mgc);
+}

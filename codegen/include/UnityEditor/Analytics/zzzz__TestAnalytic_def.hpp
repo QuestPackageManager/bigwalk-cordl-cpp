@@ -1,0 +1,70 @@
+#pragma once
+// IWYU pragma private; include "UnityEditor/Analytics/TestAnalytic.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(TestAnalytic)
+// Forward declare root types
+namespace UnityEditor::Analytics {
+class TestAnalytic;
+}
+// Write type traits
+MARK_REF_T(::UnityEditor::Analytics::TestAnalytic*);
+DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::TestAnalytic*, "UnityEditor.Analytics", "TestAnalytic");
+// Dependencies UnityEngine.Analytics.AnalyticsEventBase
+namespace UnityEditor::Analytics {
+// Is value type: false
+// CS Name: UnityEditor.Analytics.TestAnalytic
+class CORDL_TYPE TestAnalytic : public ::UnityEngine::Analytics::AnalyticsEventBase {
+public:
+// Declarations
+/// @brief Field param, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_param, put=__cordl_internal_set_param)) int32_t  param;
+
+/// @brief Method CreateTestAnalytic, addr 0x1825487f0, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEditor::Analytics::TestAnalytic* CreateTestAnalytic() ;
+
+static inline ::UnityEditor::Analytics::TestAnalytic* New_ctor() ;
+
+constexpr int32_t const& __cordl_internal_get_param() const;
+
+constexpr int32_t& __cordl_internal_get_param() ;
+
+constexpr void __cordl_internal_set_param(int32_t  value) ;
+
+/// @brief Method .ctor, addr 0x182548840, size 0x40, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TestAnalytic() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TestAnalytic", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TestAnalytic(TestAnalytic && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TestAnalytic", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TestAnalytic(TestAnalytic const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21291};
+
+/// @brief Field param, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___param;
+
+/// @brief Size padding 0x38 - 0x30 = 0x8, packed as 0x8
+ uint8_t  _cordl_size_padding[0x8];
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEditor::Analytics::TestAnalytic, ___param) == 0x2c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEditor::Analytics::TestAnalytic) == 0x38, "Size mismatch!");
+
+} // namespace end def UnityEditor::Analytics

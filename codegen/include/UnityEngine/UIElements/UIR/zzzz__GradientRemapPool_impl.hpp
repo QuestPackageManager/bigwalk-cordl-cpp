@@ -1,0 +1,127 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientRemapPool.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_impl.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GradientRemapPool___c._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemapPool___c::*)()>(&::UnityEngine::UIElements::UIR::GradientRemapPool___c::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GradientRemapPool___c.__ctor_b__0_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::GradientRemap* (::UnityEngine::UIElements::UIR::GradientRemapPool___c::*)()>(&::UnityEngine::UIElements::UIR::GradientRemapPool___c::__ctor_b__0_0)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x182449080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(),
+                        {"<.ctor>b__0_0", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GradientRemapPool___c.__ctor_b__0_1
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemapPool___c::*)(::UnityEngine::UIElements::UIR::GradientRemap*)>(&::UnityEngine::UIElements::UIR::GradientRemapPool___c::__ctor_b__0_1)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1824490f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(),
+                        {"<.ctor>b__0_1", {}, {::i2c::type_of<::UnityEngine::UIElements::UIR::GradientRemap*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::UIR::GradientRemapPool___c::setStaticF___9(::UnityEngine::UIElements::UIR::GradientRemapPool___c*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::UIR::GradientRemapPool___c*, "<>9", ::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(std::forward<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(value));
+}
+inline ::UnityEngine::UIElements::UIR::GradientRemapPool___c* UnityEngine::UIElements::UIR::GradientRemapPool___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UIR::GradientRemapPool___c*, "<>9", ::UnityEngine::UIElements::UIR::GradientRemapPool___c*>();
+}
+inline void UnityEngine::UIElements::UIR::GradientRemapPool___c::setStaticF___9__0_0(::System::Func_1<::UnityEngine::UIElements::UIR::GradientRemap*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_1<::UnityEngine::UIElements::UIR::GradientRemap*>*, "<>9__0_0", ::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(std::forward<::System::Func_1<::UnityEngine::UIElements::UIR::GradientRemap*>*>(value));
+}
+inline ::System::Func_1<::UnityEngine::UIElements::UIR::GradientRemap*>* UnityEngine::UIElements::UIR::GradientRemapPool___c::getStaticF___9__0_0()  {
+return ::cordl_internals::getStaticField<::System::Func_1<::UnityEngine::UIElements::UIR::GradientRemap*>*, "<>9__0_0", ::UnityEngine::UIElements::UIR::GradientRemapPool___c*>();
+}
+inline void UnityEngine::UIElements::UIR::GradientRemapPool___c::setStaticF___9__0_1(::System::Action_1<::UnityEngine::UIElements::UIR::GradientRemap*>*  value)  {
+::cordl_internals::setStaticField<::System::Action_1<::UnityEngine::UIElements::UIR::GradientRemap*>*, "<>9__0_1", ::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(std::forward<::System::Action_1<::UnityEngine::UIElements::UIR::GradientRemap*>*>(value));
+}
+inline ::System::Action_1<::UnityEngine::UIElements::UIR::GradientRemap*>* UnityEngine::UIElements::UIR::GradientRemapPool___c::getStaticF___9__0_1()  {
+return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngine::UIElements::UIR::GradientRemap*>*, "<>9__0_1", ::UnityEngine::UIElements::UIR::GradientRemapPool___c*>();
+}
+inline void UnityEngine::UIElements::UIR::GradientRemapPool___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIR::GradientRemap* UnityEngine::UIElements::UIR::GradientRemapPool___c::__ctor_b__0_0()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(),
+                        {"<.ctor>b__0_0", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::GradientRemap*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIR::GradientRemapPool___c::__ctor_b__0_1(::UnityEngine::UIElements::UIR::GradientRemap*  gradientRemap)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>(),
+                        {"<.ctor>b__0_1", {}, {::i2c::type_of<::UnityEngine::UIElements::UIR::GradientRemap*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gradientRemap);
+}
+inline ::UnityEngine::UIElements::UIR::GradientRemapPool___c* UnityEngine::UIElements::UIR::GradientRemapPool___c::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::GradientRemapPool___c*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UIR::GradientRemapPool___c::GradientRemapPool___c()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::GradientRemapPool._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemapPool::*)()>(&::UnityEngine::UIElements::UIR::GradientRemapPool::_ctor)> {
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x18243d510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::UIR::GradientRemapPool::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::GradientRemapPool*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIR::GradientRemapPool* UnityEngine::UIElements::UIR::GradientRemapPool::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::GradientRemapPool*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UIR::GradientRemapPool::GradientRemapPool()   {
+}

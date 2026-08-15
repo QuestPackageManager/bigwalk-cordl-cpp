@@ -1,0 +1,78 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TransparentSettingsPass.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_def.hpp"
+CORDL_MODULE_EXPORT(TransparentSettingsPass)
+namespace UnityEngine::Rendering::Universal {
+struct RenderPassEvent;
+}
+namespace UnityEngine::Rendering {
+class RasterCommandBuffer;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering::Universal {
+class TransparentSettingsPass;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::Universal::TransparentSettingsPass*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::TransparentSettingsPass*, "UnityEngine.Rendering.Universal", "TransparentSettingsPass");
+// Dependencies UnityEngine.Rendering.Universal.ScriptableRenderPass
+namespace UnityEngine::Rendering::Universal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.TransparentSettingsPass
+class CORDL_TYPE TransparentSettingsPass : public ::UnityEngine::Rendering::Universal::ScriptableRenderPass {
+public:
+// Declarations
+/// @brief Field m_shouldReceiveShadows, offset 0x5c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_shouldReceiveShadows, put=__cordl_internal_set_m_shouldReceiveShadows)) bool  m_shouldReceiveShadows;
+
+/// @brief Method ExecutePass, addr 0x18211efe0, size 0x20, virtual false, abstract: false, final false
+static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer*  rasterCommandBuffer) ;
+
+static inline ::UnityEngine::Rendering::Universal::TransparentSettingsPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, bool  shadowReceiveSupported) ;
+
+/// @brief Method Setup, addr 0x18211f000, size 0x10, virtual false, abstract: false, final false
+inline bool Setup() ;
+
+constexpr bool const& __cordl_internal_get_m_shouldReceiveShadows() const;
+
+constexpr bool& __cordl_internal_get_m_shouldReceiveShadows() ;
+
+constexpr void __cordl_internal_set_m_shouldReceiveShadows(bool  value) ;
+
+/// @brief Method .ctor, addr 0x18211f010, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, bool  shadowReceiveSupported) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TransparentSettingsPass() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TransparentSettingsPass(TransparentSettingsPass && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TransparentSettingsPass(TransparentSettingsPass const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12511};
+
+/// @brief Field m_shouldReceiveShadows, offset: 0x5c, size: 0x1, def value: None
+ bool  ___m_shouldReceiveShadows;
+
+/// @brief Size padding 0x68 - 0x60 = 0x8, packed as 0x8
+ uint8_t  _cordl_size_padding[0x8];
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::TransparentSettingsPass, ___m_shouldReceiveShadows) == 0x5c, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::TransparentSettingsPass) == 0x68, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal

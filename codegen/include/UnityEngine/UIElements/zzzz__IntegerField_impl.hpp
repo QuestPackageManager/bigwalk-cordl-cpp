@@ -1,0 +1,385 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IntegerField.hpp"
+#include "UnityEngine/UIElements/zzzz__TextValueFieldTraits_2_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__TextValueField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IntegerField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DeltaSpeed_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IntegerField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_UxmlFactory._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IntegerField_UxmlFactory::*)()>(&::UnityEngine::UIElements::IntegerField_UxmlFactory::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18249f070;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField_UxmlFactory*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::IntegerField_UxmlFactory::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField_UxmlFactory*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::IntegerField_UxmlFactory* UnityEngine::UIElements::IntegerField_UxmlFactory::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::IntegerField_UxmlFactory*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::IntegerField_UxmlFactory::IntegerField_UxmlFactory()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_UxmlTraits._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IntegerField_UxmlTraits::*)()>(&::UnityEngine::UIElements::IntegerField_UxmlTraits::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824a04b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField_UxmlTraits*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::IntegerField_UxmlTraits::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField_UxmlTraits*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::IntegerField_UxmlTraits* UnityEngine::UIElements::IntegerField_UxmlTraits::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::IntegerField_UxmlTraits*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::IntegerField_UxmlTraits::IntegerField_UxmlTraits()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.get_parentIntegerField
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IntegerField* (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(&::UnityEngine::UIElements::IntegerField_IntegerInput::get_parentIntegerField)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182493b10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(),
+                        {"get_parentIntegerField", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(&::UnityEngine::UIElements::IntegerField_IntegerInput::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x182493a50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.get_allowedCharacters
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(&::UnityEngine::UIElements::IntegerField_IntegerInput::get_allowedCharacters)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x182493a90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(), 143}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.ApplyInputDeviceDelta
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int32_t)>(&::UnityEngine::UIElements::IntegerField_IntegerInput::ApplyInputDeviceDelta)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x1824937e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(), 144}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.ValueToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(int32_t)>(&::UnityEngine::UIElements::IntegerField_IntegerInput::ValueToString)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x182493a20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(), 145}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.StringToValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(::StringW)>(&::UnityEngine::UIElements::IntegerField_IntegerInput::StringToValue)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1824939b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(), 141}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::IntegerField_IntegerInput::get_parentIntegerField()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(),
+                        {"get_parentIntegerField", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IntegerField*>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::IntegerField_IntegerInput::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::StringW UnityEngine::UIElements::IntegerField_IntegerInput::get_allowedCharacters()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(), 143}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::IntegerField_IntegerInput::ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, int32_t  startValue)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(), 144}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
+}
+inline ::StringW UnityEngine::UIElements::IntegerField_IntegerInput::ValueToString(int32_t  v)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(), 145}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, v);
+}
+inline int32_t UnityEngine::UIElements::IntegerField_IntegerInput::StringToValue(::StringW  str)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IntegerField_IntegerInput*>(), 141}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, str);
+}
+inline ::UnityEngine::UIElements::IntegerField_IntegerInput* UnityEngine::UIElements::IntegerField_IntegerInput::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::IntegerField_IntegerInput*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::IntegerField_IntegerInput::IntegerField_IntegerInput()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField.get_integerInput
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IntegerField_IntegerInput* (::UnityEngine::UIElements::IntegerField::*)()>(&::UnityEngine::UIElements::IntegerField::get_integerInput)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182469920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                        {"get_integerInput", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField.ValueToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField::*)(int32_t)>(&::UnityEngine::UIElements::IntegerField::ValueToString)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x182469610;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(), 161}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField.StringToValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::IntegerField::*)(::StringW)>(&::UnityEngine::UIElements::IntegerField::StringToValue)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x182469570;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(), 162}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)()>(&::UnityEngine::UIElements::IntegerField::_ctor)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x182469840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::IntegerField::_ctor)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x182469740;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField.CanTryParse
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::IntegerField::*)(::StringW)>(&::UnityEngine::UIElements::IntegerField::CanTryParse)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x182469540;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(), 171}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField.ApplyInputDeviceDelta
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int32_t)>(&::UnityEngine::UIElements::IntegerField::ApplyInputDeviceDelta)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x1824694b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(), 170}
+                ));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::IntegerField::setStaticF_ussClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::IntegerField*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::IntegerField::getStaticF_ussClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::IntegerField*>();
+}
+inline void UnityEngine::UIElements::IntegerField::setStaticF_labelUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "labelUssClassName", ::UnityEngine::UIElements::IntegerField*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::IntegerField::getStaticF_labelUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "labelUssClassName", ::UnityEngine::UIElements::IntegerField*>();
+}
+inline void UnityEngine::UIElements::IntegerField::setStaticF_inputUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "inputUssClassName", ::UnityEngine::UIElements::IntegerField*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::IntegerField::getStaticF_inputUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::UnityEngine::UIElements::IntegerField*>();
+}
+inline ::UnityEngine::UIElements::IntegerField_IntegerInput* UnityEngine::UIElements::IntegerField::get_integerInput()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                        {"get_integerInput", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IntegerField_IntegerInput*>(this, ___internal_method);
+}
+inline ::StringW UnityEngine::UIElements::IntegerField::ValueToString(int32_t  v)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(), 161}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, v);
+}
+inline int32_t UnityEngine::UIElements::IntegerField::StringToValue(::StringW  str)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(), 162}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, str);
+}
+inline void UnityEngine::UIElements::IntegerField::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::IntegerField::_ctor(::StringW  label, int32_t  maxLength)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, label, maxLength);
+}
+inline bool UnityEngine::UIElements::IntegerField::CanTryParse(::StringW  textString)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(), 171}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, textString);
+}
+inline void UnityEngine::UIElements::IntegerField::ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, int32_t  startValue)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::IntegerField*>(), 170}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
+}
+inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::IntegerField::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::IntegerField*>());
+}
+inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::IntegerField::New_ctor(::StringW  label, int32_t  maxLength)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::IntegerField*>(label, maxLength));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::IntegerField::IntegerField()   {
+}

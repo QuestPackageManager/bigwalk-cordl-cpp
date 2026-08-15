@@ -1,0 +1,117 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Coroutine.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__YieldInstruction_def.hpp"
+CORDL_MODULE_EXPORT(Coroutine)
+namespace System {
+struct IntPtr;
+}
+namespace UnityEngine {
+class Coroutine_BindingsMarshaller;
+}
+// Forward declare root types
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class Coroutine_BindingsMarshaller;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Coroutine*);
+MARK_REF_T(::UnityEngine::Coroutine_BindingsMarshaller*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Coroutine*, "UnityEngine", "Coroutine");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Coroutine_BindingsMarshaller*, "UnityEngine", "Coroutine/BindingsMarshaller");
+// Dependencies System.Object
+namespace UnityEngine {
+// Is value type: false
+// CS Name: UnityEngine.Coroutine/BindingsMarshaller
+class CORDL_TYPE Coroutine_BindingsMarshaller : public ::System::Object {
+public:
+// Declarations
+/// @brief Method ConvertToNative, addr 0x1802db4a0, size 0x10, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::UnityEngine::Coroutine*  coroutine) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Coroutine_BindingsMarshaller() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Coroutine_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Coroutine_BindingsMarshaller(Coroutine_BindingsMarshaller && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Coroutine_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Coroutine_BindingsMarshaller(Coroutine_BindingsMarshaller const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10695};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Coroutine_BindingsMarshaller) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine
+// Dependencies System.IntPtr, UnityEngine.YieldInstruction
+namespace UnityEngine {
+// Is value type: false
+// CS Name: UnityEngine.Coroutine
+class CORDL_TYPE Coroutine : public ::UnityEngine::YieldInstruction {
+public:
+// Declarations
+using BindingsMarshaller = ::UnityEngine::Coroutine_BindingsMarshaller;
+
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
+
+/// @brief Method Finalize, addr 0x18226fe30, size 0x20, virtual true, abstract: false, final false
+inline void Finalize() ;
+
+static inline ::UnityEngine::Coroutine* New_ctor() ;
+
+/// @brief Method ReleaseCoroutine, addr 0x18226fe50, size 0x10, virtual false, abstract: false, final false
+static inline void ReleaseCoroutine(::System::IntPtr  ptr) ;
+
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
+
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Coroutine() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Coroutine", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Coroutine(Coroutine && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Coroutine", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Coroutine(Coroutine const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10696};
+
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Coroutine, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Coroutine) == 0x18, "Size mismatch!");
+
+} // namespace end def UnityEngine

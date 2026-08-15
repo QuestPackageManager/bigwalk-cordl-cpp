@@ -1,0 +1,55 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ExclusiveOrInstruction_ExclusiveOrSByte.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__ExclusiveOrInstruction_impl.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__ExclusiveOrInstruction_ExclusiveOrSByte_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte.Run
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte::Run)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181afdea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte*>(),
+                    {::i2c::class_of<::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte::*)()>(&::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline int32_t GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
+}
+inline void GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte* GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::ExclusiveOrInstruction_ExclusiveOrSByte::ExclusiveOrInstruction_ExclusiveOrSByte()   {
+}

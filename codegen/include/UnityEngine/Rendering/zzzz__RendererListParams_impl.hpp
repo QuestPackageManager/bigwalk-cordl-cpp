@@ -1,0 +1,219 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/RendererListParams.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__CullingResults_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__DrawingSettings_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__FilteringSettings_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderStateBlock_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__ShaderTagId_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__RendererListParams_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CullingResults_def.hpp"
+#include "UnityEngine/Rendering/zzzz__DrawingSettings_def.hpp"
+#include "UnityEngine/Rendering/zzzz__FilteringSettings_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::RendererListParams._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RendererListParams::*)(::UnityEngine::Rendering::CullingResults, ::UnityEngine::Rendering::DrawingSettings, ::UnityEngine::Rendering::FilteringSettings)>(&::UnityEngine::Rendering::RendererListParams::_ctor)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x1822b0a30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::Rendering::CullingResults>(), ::i2c::type_of<::UnityEngine::Rendering::DrawingSettings>(), ::i2c::type_of<::UnityEngine::Rendering::FilteringSettings>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RendererListParams.get_numStateBlocks
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::get_numStateBlocks)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1822b0c00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"get_numStateBlocks", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RendererListParams.get_stateBlocksPtr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::get_stateBlocksPtr)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1822b0c40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"get_stateBlocksPtr", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RendererListParams.get_tagsValuePtr
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::get_tagsValuePtr)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1822b0c80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"get_tagsValuePtr", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RendererListParams.Validate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::Validate)> {
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x1822b0730;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"Validate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RendererListParams.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RendererListParams::*)(::UnityEngine::Rendering::RendererListParams)>(&::UnityEngine::Rendering::RendererListParams::Equals)> {
+  constexpr static std::size_t size = 0x3f0;
+  constexpr static std::size_t addrs = 0x1822b01c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"Equals", {}, {::i2c::type_of<::UnityEngine::Rendering::RendererListParams>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RendererListParams.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RendererListParams::*)(::System::Object*)>(&::UnityEngine::Rendering::RendererListParams::Equals)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x1822b00c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RendererListParams.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::GetHashCode)> {
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x1822b05b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::RendererListParams::setStaticF_Invalid(::UnityEngine::Rendering::RendererListParams  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Rendering::RendererListParams, "Invalid", ::UnityEngine::Rendering::RendererListParams>(std::forward<::UnityEngine::Rendering::RendererListParams>(value));
+}
+inline ::UnityEngine::Rendering::RendererListParams UnityEngine::Rendering::RendererListParams::getStaticF_Invalid()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RendererListParams, "Invalid", ::UnityEngine::Rendering::RendererListParams>();
+}
+inline void UnityEngine::Rendering::RendererListParams::_ctor(::UnityEngine::Rendering::CullingResults  cullingResults, ::UnityEngine::Rendering::DrawingSettings  drawSettings, ::UnityEngine::Rendering::FilteringSettings  filteringSettings)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {".ctor", {}, {::i2c::type_of<::UnityEngine::Rendering::CullingResults>(), ::i2c::type_of<::UnityEngine::Rendering::DrawingSettings>(), ::i2c::type_of<::UnityEngine::Rendering::FilteringSettings>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cullingResults, drawSettings, filteringSettings);
+}
+inline int32_t UnityEngine::Rendering::RendererListParams::get_numStateBlocks()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"get_numStateBlocks", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline ::System::IntPtr UnityEngine::Rendering::RendererListParams::get_stateBlocksPtr()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"get_stateBlocksPtr", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(*this, ___internal_method);
+}
+inline ::System::IntPtr UnityEngine::Rendering::RendererListParams::get_tagsValuePtr()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"get_tagsValuePtr", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(*this, ___internal_method);
+}
+inline void UnityEngine::Rendering::RendererListParams::Validate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"Validate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::RendererListParams::Equals(::UnityEngine::Rendering::RendererListParams  other)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(),
+                        {"Equals", {}, {::i2c::type_of<::UnityEngine::Rendering::RendererListParams>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
+inline bool UnityEngine::Rendering::RendererListParams::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline int32_t UnityEngine::Rendering::RendererListParams::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>"
+constexpr  UnityEngine::Rendering::RendererListParams::operator ::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>*()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>"
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>* UnityEngine::Rendering::RendererListParams::i___System__IEquatable_1___UnityEngine__Rendering__RendererListParams_()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "cullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawSettings", ty: "::UnityEngine::Rendering::DrawingSettings", modifiers: "", def_value: Some("{}") }, CppParam { name: "filteringSettings", ty: "::UnityEngine::Rendering::FilteringSettings", modifiers: "", def_value: Some("{}") }, CppParam { name: "tagName", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPassTagName", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "tagValues", ty: "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShaderTagId>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "stateBlocks", ty: "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::RenderStateBlock>>", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::RendererListParams::RendererListParams(::UnityEngine::Rendering::CullingResults  cullingResults, ::UnityEngine::Rendering::DrawingSettings  drawSettings, ::UnityEngine::Rendering::FilteringSettings  filteringSettings, ::UnityEngine::Rendering::ShaderTagId  tagName, bool  isPassTagName, ::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShaderTagId>>  tagValues, ::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::RenderStateBlock>>  stateBlocks) noexcept  {
+this->cullingResults = cullingResults;
+this->drawSettings = drawSettings;
+this->filteringSettings = filteringSettings;
+this->tagName = tagName;
+this->isPassTagName = isPassTagName;
+this->tagValues = tagValues;
+this->stateBlocks = stateBlocks;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::RendererListParams::RendererListParams()   {
+}

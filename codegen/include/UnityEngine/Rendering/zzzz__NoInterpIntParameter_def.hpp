@@ -1,0 +1,53 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpIntParameter.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/Rendering/zzzz__VolumeParameter_1_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(NoInterpIntParameter)
+// Forward declare root types
+namespace UnityEngine::Rendering {
+class NoInterpIntParameter;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::NoInterpIntParameter*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::NoInterpIntParameter*, "UnityEngine.Rendering", "NoInterpIntParameter");
+// Dependencies UnityEngine.Rendering.VolumeParameter`1<T>
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.NoInterpIntParameter
+class CORDL_TYPE NoInterpIntParameter : public ::UnityEngine::Rendering::VolumeParameter_1<int32_t> {
+public:
+// Declarations
+static inline ::UnityEngine::Rendering::NoInterpIntParameter* New_ctor(int32_t  value, bool  overrideState) ;
+
+/// @brief Method .ctor, addr 0x1812a5e80, size 0x56e0, virtual false, abstract: false, final false
+inline void _ctor(int32_t  value, bool  overrideState) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoInterpIntParameter() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "NoInterpIntParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoInterpIntParameter(NoInterpIntParameter && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "NoInterpIntParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoInterpIntParameter(NoInterpIntParameter const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7157};
+
+/// @brief Size padding 0x20 - 0x18 = 0x8, packed as 0x8
+ uint8_t  _cordl_size_padding[0x8];
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Rendering::NoInterpIntParameter) == 0x20, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering

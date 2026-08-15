@@ -1,0 +1,106 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshHandle.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Alloc_impl.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Page_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::MeshHandle._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshHandle::*)()>(&::UnityEngine::UIElements::UIR::MeshHandle::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::MeshHandle*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::UIR::Alloc& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_allocVerts()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allocVerts;
+}
+constexpr ::UnityEngine::UIElements::UIR::Alloc const& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_allocVerts() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allocVerts;
+}
+constexpr void UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_set_allocVerts(::UnityEngine::UIElements::UIR::Alloc  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___allocVerts = value;
+}
+constexpr ::UnityEngine::UIElements::UIR::Alloc& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_allocIndices()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allocIndices;
+}
+constexpr ::UnityEngine::UIElements::UIR::Alloc const& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_allocIndices() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allocIndices;
+}
+constexpr void UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_set_allocIndices(::UnityEngine::UIElements::UIR::Alloc  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___allocIndices = value;
+}
+constexpr uint32_t& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_triangleCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___triangleCount;
+}
+constexpr uint32_t const& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_triangleCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___triangleCount;
+}
+constexpr void UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_set_triangleCount(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___triangleCount = value;
+}
+constexpr ::UnityEngine::UIElements::UIR::Page*& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_allocPage()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allocPage;
+}
+constexpr ::UnityEngine::UIElements::UIR::Page* const& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_allocPage() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allocPage;
+}
+constexpr void UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_set_allocPage(::UnityEngine::UIElements::UIR::Page*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___allocPage = value;
+}
+constexpr uint32_t& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_allocTime()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allocTime;
+}
+constexpr uint32_t const& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_allocTime() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allocTime;
+}
+constexpr void UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_set_allocTime(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___allocTime = value;
+}
+constexpr uint32_t& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_updateAllocID()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___updateAllocID;
+}
+constexpr uint32_t const& UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_get_updateAllocID() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___updateAllocID;
+}
+constexpr void UnityEngine::UIElements::UIR::MeshHandle::__cordl_internal_set_updateAllocID(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___updateAllocID = value;
+}
+inline void UnityEngine::UIElements::UIR::MeshHandle::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::UIR::MeshHandle*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIR::MeshHandle* UnityEngine::UIElements::UIR::MeshHandle::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UIR::MeshHandle*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UIR::MeshHandle::MeshHandle()   {
+}

@@ -1,0 +1,108 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/KeyUpEvent.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyboardEventBase_1_def.hpp"
+CORDL_MODULE_EXPORT(KeyUpEvent)
+namespace UnityEngine::UIElements {
+class KeyUpEvent___c;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class KeyUpEvent;
+}
+namespace UnityEngine::UIElements {
+class KeyUpEvent___c;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::KeyUpEvent*);
+MARK_REF_T(::UnityEngine::UIElements::KeyUpEvent___c*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyUpEvent*, "UnityEngine.UIElements", "KeyUpEvent");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyUpEvent___c*, "UnityEngine.UIElements", "KeyUpEvent/<>c");
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.KeyUpEvent/<>c
+class CORDL_TYPE KeyUpEvent___c : public ::System::Object {
+public:
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::KeyUpEvent___c*  __9;
+
+static inline ::UnityEngine::UIElements::KeyUpEvent___c* New_ctor() ;
+
+/// @brief Method <.cctor>b__0_0, addr 0x1824d7790, size 0x30, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::KeyUpEvent* __cctor_b__0_0() ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::UnityEngine::UIElements::KeyUpEvent___c* getStaticF___9() ;
+
+static inline void setStaticF___9(::UnityEngine::UIElements::KeyUpEvent___c*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeyUpEvent___c() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KeyUpEvent___c(KeyUpEvent___c && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KeyUpEvent___c(KeyUpEvent___c const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3596};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::KeyUpEvent___c) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies UnityEngine.UIElements.KeyboardEventBase`1<T>
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.KeyUpEvent
+class CORDL_TYPE KeyUpEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyUpEvent*> {
+public:
+// Declarations
+using __c = ::UnityEngine::UIElements::KeyUpEvent___c;
+
+static inline ::UnityEngine::UIElements::KeyUpEvent* New_ctor() ;
+
+/// @brief Method .ctor, addr 0x1824d3050, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeyUpEvent() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KeyUpEvent(KeyUpEvent && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "KeyUpEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KeyUpEvent(KeyUpEvent const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3597};
+
+/// @brief Size padding 0x78 - 0x70 = 0x8, packed as 0x8
+ uint8_t  _cordl_size_padding[0x8];
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::KeyUpEvent) == 0x78, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

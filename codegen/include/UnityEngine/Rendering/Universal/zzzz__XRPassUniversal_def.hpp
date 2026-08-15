@@ -1,0 +1,152 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRPassUniversal.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/Experimental/Rendering/zzzz__XRPass_def.hpp"
+CORDL_MODULE_EXPORT(XRPassUniversal)
+namespace UnityEngine::Experimental::Rendering {
+struct XRPassCreateInfo;
+}
+namespace UnityEngine::Experimental::Rendering {
+class XRPass;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering::Universal {
+class XRPassUniversal;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::Universal::XRPassUniversal*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::XRPassUniversal*, "UnityEngine.Rendering.Universal", "XRPassUniversal");
+// Dependencies UnityEngine.Experimental.Rendering.XRPass
+namespace UnityEngine::Rendering::Universal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.XRPassUniversal
+class CORDL_TYPE XRPassUniversal : public ::UnityEngine::Experimental::Rendering::XRPass {
+public:
+// Declarations
+/// @brief Field <canFoveateIntermediatePasses>k__BackingField, offset 0x747, size 0x1 
+ __declspec(property(get=__cordl_internal_get__canFoveateIntermediatePasses_k__BackingField, put=__cordl_internal_set__canFoveateIntermediatePasses_k__BackingField)) bool  _canFoveateIntermediatePasses_k__BackingField;
+
+/// @brief Field <canMarkLateLatch>k__BackingField, offset 0x745, size 0x1 
+ __declspec(property(get=__cordl_internal_get__canMarkLateLatch_k__BackingField, put=__cordl_internal_set__canMarkLateLatch_k__BackingField)) bool  _canMarkLateLatch_k__BackingField;
+
+/// @brief Field <hasMarkedLateLatch>k__BackingField, offset 0x746, size 0x1 
+ __declspec(property(get=__cordl_internal_get__hasMarkedLateLatch_k__BackingField, put=__cordl_internal_set__hasMarkedLateLatch_k__BackingField)) bool  _hasMarkedLateLatch_k__BackingField;
+
+/// @brief Field <isLateLatchEnabled>k__BackingField, offset 0x744, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isLateLatchEnabled_k__BackingField, put=__cordl_internal_set__isLateLatchEnabled_k__BackingField)) bool  _isLateLatchEnabled_k__BackingField;
+
+ __declspec(property(get=get_canFoveateIntermediatePasses, put=set_canFoveateIntermediatePasses)) bool  canFoveateIntermediatePasses;
+
+ __declspec(property(get=get_canMarkLateLatch, put=set_canMarkLateLatch)) bool  canMarkLateLatch;
+
+ __declspec(property(get=get_hasMarkedLateLatch, put=set_hasMarkedLateLatch)) bool  hasMarkedLateLatch;
+
+ __declspec(property(get=get_isLateLatchEnabled, put=set_isLateLatchEnabled)) bool  isLateLatchEnabled;
+
+/// @brief Method Create, addr 0x182148920, size 0x80, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::XRPass* Create(::UnityEngine::Experimental::Rendering::XRPassCreateInfo  createInfo) ;
+
+static inline ::UnityEngine::Rendering::Universal::XRPassUniversal* New_ctor() ;
+
+/// @brief Method Release, addr 0x1821489a0, size 0x40, virtual true, abstract: false, final false
+inline void Release() ;
+
+constexpr bool const& __cordl_internal_get__canFoveateIntermediatePasses_k__BackingField() const;
+
+constexpr bool& __cordl_internal_get__canFoveateIntermediatePasses_k__BackingField() ;
+
+constexpr bool const& __cordl_internal_get__canMarkLateLatch_k__BackingField() const;
+
+constexpr bool& __cordl_internal_get__canMarkLateLatch_k__BackingField() ;
+
+constexpr bool const& __cordl_internal_get__hasMarkedLateLatch_k__BackingField() const;
+
+constexpr bool& __cordl_internal_get__hasMarkedLateLatch_k__BackingField() ;
+
+constexpr bool const& __cordl_internal_get__isLateLatchEnabled_k__BackingField() const;
+
+constexpr bool& __cordl_internal_get__isLateLatchEnabled_k__BackingField() ;
+
+constexpr void __cordl_internal_set__canFoveateIntermediatePasses_k__BackingField(bool  value) ;
+
+constexpr void __cordl_internal_set__canMarkLateLatch_k__BackingField(bool  value) ;
+
+constexpr void __cordl_internal_set__hasMarkedLateLatch_k__BackingField(bool  value) ;
+
+constexpr void __cordl_internal_set__isLateLatchEnabled_k__BackingField(bool  value) ;
+
+/// @brief Method .ctor, addr 0x1821489e0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_canFoveateIntermediatePasses, addr 0x1821489f0, size 0x10, virtual false, abstract: false, final false
+inline bool get_canFoveateIntermediatePasses() ;
+
+/// @brief Method get_canMarkLateLatch, addr 0x182148a00, size 0x10, virtual false, abstract: false, final false
+inline bool get_canMarkLateLatch() ;
+
+/// @brief Method get_hasMarkedLateLatch, addr 0x182148a10, size 0x10, virtual false, abstract: false, final false
+inline bool get_hasMarkedLateLatch() ;
+
+/// @brief Method get_isLateLatchEnabled, addr 0x182148a20, size 0x10, virtual false, abstract: false, final false
+inline bool get_isLateLatchEnabled() ;
+
+/// @brief Method set_canFoveateIntermediatePasses, addr 0x182148a30, size 0x10, virtual false, abstract: false, final false
+inline void set_canFoveateIntermediatePasses(bool  value) ;
+
+/// @brief Method set_canMarkLateLatch, addr 0x182148a40, size 0x10, virtual false, abstract: false, final false
+inline void set_canMarkLateLatch(bool  value) ;
+
+/// @brief Method set_hasMarkedLateLatch, addr 0x182148a50, size 0x10, virtual false, abstract: false, final false
+inline void set_hasMarkedLateLatch(bool  value) ;
+
+/// @brief Method set_isLateLatchEnabled, addr 0x182148a60, size 0x10, virtual false, abstract: false, final false
+inline void set_isLateLatchEnabled(bool  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr XRPassUniversal() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "XRPassUniversal", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XRPassUniversal(XRPassUniversal && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "XRPassUniversal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XRPassUniversal(XRPassUniversal const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12675};
+
+/// @brief Field <isLateLatchEnabled>k__BackingField, offset: 0x744, size: 0x1, def value: None
+ bool  ____isLateLatchEnabled_k__BackingField;
+
+/// @brief Field <canMarkLateLatch>k__BackingField, offset: 0x745, size: 0x1, def value: None
+ bool  ____canMarkLateLatch_k__BackingField;
+
+/// @brief Field <hasMarkedLateLatch>k__BackingField, offset: 0x746, size: 0x1, def value: None
+ bool  ____hasMarkedLateLatch_k__BackingField;
+
+/// @brief Field <canFoveateIntermediatePasses>k__BackingField, offset: 0x747, size: 0x1, def value: None
+ bool  ____canFoveateIntermediatePasses_k__BackingField;
+
+/// @brief Size padding 0x750 - 0x748 = 0x8, packed as 0x8
+ uint8_t  _cordl_size_padding[0x8];
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRPassUniversal, ____isLateLatchEnabled_k__BackingField) == 0x744, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRPassUniversal, ____canMarkLateLatch_k__BackingField) == 0x745, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRPassUniversal, ____hasMarkedLateLatch_k__BackingField) == 0x746, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::XRPassUniversal, ____canFoveateIntermediatePasses_k__BackingField) == 0x747, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::XRPassUniversal) == 0x750, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal

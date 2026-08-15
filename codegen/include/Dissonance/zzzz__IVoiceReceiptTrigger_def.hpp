@@ -1,0 +1,40 @@
+#pragma once
+// IWYU pragma private; include "Dissonance/IVoiceReceiptTrigger.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(IVoiceReceiptTrigger)
+// Forward declare root types
+namespace Dissonance {
+class IVoiceReceiptTrigger;
+}
+// Write type traits
+MARK_REF_T(::Dissonance::IVoiceReceiptTrigger*);
+DEFINE_IL2CPP_CLASS(::Dissonance::IVoiceReceiptTrigger*, "Dissonance", "IVoiceReceiptTrigger");
+// Dependencies 
+namespace Dissonance {
+// Is value type: false
+// CS Name: Dissonance.IVoiceReceiptTrigger
+class CORDL_TYPE IVoiceReceiptTrigger {
+public:
+// Declarations
+ __declspec(property(get=get_RoomName, put=set_RoomName)) ::StringW  RoomName;
+
+/// @brief Method get_RoomName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW get_RoomName() ;
+
+/// @brief Method set_RoomName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_RoomName(::StringW  value) ;
+
+// Ctor Parameters [CppParam { name: "", ty: "IVoiceReceiptTrigger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IVoiceReceiptTrigger(IVoiceReceiptTrigger const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16807};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Dissonance

@@ -1,0 +1,97 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_QNameXdr.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(Datatype_QNameXdr)
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+struct XmlTokenizedType;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+// Forward declare root types
+namespace System::Xml::Schema {
+class Datatype_QNameXdr;
+}
+// Write type traits
+MARK_REF_T(::System::Xml::Schema::Datatype_QNameXdr*);
+DEFINE_IL2CPP_CLASS(::System::Xml::Schema::Datatype_QNameXdr*, "System.Xml.Schema", "Datatype_QNameXdr");
+// Dependencies System.Xml.Schema.Datatype_anySimpleType
+namespace System::Xml::Schema {
+// Is value type: false
+// CS Name: System.Xml.Schema.Datatype_QNameXdr
+class CORDL_TYPE Datatype_QNameXdr : public ::System::Xml::Schema::Datatype_anySimpleType {
+public:
+// Declarations
+ __declspec(property(get=get_ListValueType)) ::System::Type*  ListValueType;
+
+ __declspec(property(get=get_TokenizedType)) ::System::Xml::XmlTokenizedType  TokenizedType;
+
+ __declspec(property(get=get_ValueType)) ::System::Type*  ValueType;
+
+/// @brief Field atomicValueType, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_atomicValueType, put=setStaticF_atomicValueType)) ::System::Type*  atomicValueType;
+
+/// @brief Field listValueType, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_listValueType, put=setStaticF_listValueType)) ::System::Type*  listValueType;
+
+static inline ::System::Xml::Schema::Datatype_QNameXdr* New_ctor() ;
+
+/// @brief Method ParseValue, addr 0x181d6a980, size 0x170, virtual true, abstract: false, final false
+inline ::System::Object* ParseValue(::StringW  s, ::System::Xml::XmlNameTable*  nameTable, ::System::Xml::IXmlNamespaceResolver*  nsmgr) ;
+
+/// @brief Method .ctor, addr 0x181d69520, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::System::Type* getStaticF_atomicValueType() ;
+
+static inline ::System::Type* getStaticF_listValueType() ;
+
+/// @brief Method get_ListValueType, addr 0x181d6ab70, size 0x20, virtual true, abstract: false, final false
+inline ::System::Type* get_ListValueType() ;
+
+/// @brief Method get_TokenizedType, addr 0x180908a80, size 0x70, virtual true, abstract: false, final false
+inline ::System::Xml::XmlTokenizedType get_TokenizedType() ;
+
+/// @brief Method get_ValueType, addr 0x181d6ab90, size 0x20, virtual true, abstract: false, final false
+inline ::System::Type* get_ValueType() ;
+
+static inline void setStaticF_atomicValueType(::System::Type*  value) ;
+
+static inline void setStaticF_listValueType(::System::Type*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr Datatype_QNameXdr() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_QNameXdr", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Datatype_QNameXdr(Datatype_QNameXdr && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_QNameXdr", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Datatype_QNameXdr(Datatype_QNameXdr const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10040};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Xml::Schema::Datatype_QNameXdr) == 0x38, "Size mismatch!");
+
+} // namespace end def System::Xml::Schema

@@ -1,0 +1,75 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/MinFloatParameter.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/Rendering/zzzz__FloatParameter_def.hpp"
+#include <cmath>
+CORDL_MODULE_EXPORT(MinFloatParameter)
+// Forward declare root types
+namespace UnityEngine::Rendering {
+class MinFloatParameter;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::MinFloatParameter*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::MinFloatParameter*, "UnityEngine.Rendering", "MinFloatParameter");
+// Dependencies UnityEngine.Rendering.FloatParameter
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.MinFloatParameter
+class CORDL_TYPE MinFloatParameter : public ::UnityEngine::Rendering::FloatParameter {
+public:
+// Declarations
+/// @brief Field min, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_min, put=__cordl_internal_set_min)) float_t  min;
+
+ __declspec(property(get=get_value, put=set_value)) float_t  value;
+
+static inline ::UnityEngine::Rendering::MinFloatParameter* New_ctor(float_t  value, float_t  min, bool  overrideState) ;
+
+constexpr float_t const& __cordl_internal_get_min() const;
+
+constexpr float_t& __cordl_internal_get_min() ;
+
+constexpr void __cordl_internal_set_min(float_t  value) ;
+
+/// @brief Method .ctor, addr 0x18204bac0, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(float_t  value, float_t  min, bool  overrideState) ;
+
+/// @brief Method get_value, addr 0x18048d8a0, size 0x10, virtual true, abstract: false, final false
+inline float_t get_value() ;
+
+/// @brief Method set_value, addr 0x18204c870, size 0x10, virtual true, abstract: false, final false
+inline void set_value(float_t  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr MinFloatParameter() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "MinFloatParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MinFloatParameter(MinFloatParameter && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "MinFloatParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MinFloatParameter(MinFloatParameter const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7166};
+
+/// @brief Field min, offset: 0x18, size: 0x4, def value: None
+ float_t  ___min;
+
+/// @brief Size padding 0x28 - 0x20 = 0x8, packed as 0x8
+ uint8_t  _cordl_size_padding[0x8];
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::MinFloatParameter, ___min) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::MinFloatParameter) == 0x28, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering

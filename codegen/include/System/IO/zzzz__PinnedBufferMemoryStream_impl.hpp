@@ -1,0 +1,147 @@
+#pragma once
+// IWYU pragma private; include "System/IO/PinnedBufferMemoryStream.hpp"
+#include "System/IO/zzzz__UnmanagedMemoryStream_impl.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
+#include "System/IO/zzzz__PinnedBufferMemoryStream_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+//  Writing Method size for method: ::System::IO::PinnedBufferMemoryStream._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(::ArrayW<uint8_t>)>(&::System::IO::PinnedBufferMemoryStream::_ctor)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x1816d8e50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<uint8_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::IO::PinnedBufferMemoryStream.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::PinnedBufferMemoryStream::*)(::System::Span_1<uint8_t>)>(&::System::IO::PinnedBufferMemoryStream::Read)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1816d8e10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(),
+                    {::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(), 34}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::IO::PinnedBufferMemoryStream.Write
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::System::IO::PinnedBufferMemoryStream::Write)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1816d8e30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(),
+                    {::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(), 37}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::IO::PinnedBufferMemoryStream.Finalize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)()>(&::System::IO::PinnedBufferMemoryStream::Finalize)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1805d5280;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(),
+                    {::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::IO::PinnedBufferMemoryStream.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(bool)>(&::System::IO::PinnedBufferMemoryStream::Dispose)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1816d8dd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(),
+                    {::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::ArrayW<uint8_t>& System::IO::PinnedBufferMemoryStream::__cordl_internal_get__array()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____array;
+}
+constexpr ::ArrayW<uint8_t> const& System::IO::PinnedBufferMemoryStream::__cordl_internal_get__array() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____array;
+}
+constexpr void System::IO::PinnedBufferMemoryStream::__cordl_internal_set__array(::ArrayW<uint8_t>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____array = value;
+}
+constexpr ::System::Runtime::InteropServices::GCHandle& System::IO::PinnedBufferMemoryStream::__cordl_internal_get__pinningHandle()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pinningHandle;
+}
+constexpr ::System::Runtime::InteropServices::GCHandle const& System::IO::PinnedBufferMemoryStream::__cordl_internal_get__pinningHandle() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____pinningHandle;
+}
+constexpr void System::IO::PinnedBufferMemoryStream::__cordl_internal_set__pinningHandle(::System::Runtime::InteropServices::GCHandle  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____pinningHandle = value;
+}
+inline void System::IO::PinnedBufferMemoryStream::_ctor(::ArrayW<uint8_t>  array)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<uint8_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array);
+}
+inline int32_t System::IO::PinnedBufferMemoryStream::Read(::System::Span_1<uint8_t>  buffer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(), 34}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer);
+}
+inline void System::IO::PinnedBufferMemoryStream::Write(::System::ReadOnlySpan_1<uint8_t>  buffer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(), 37}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer);
+}
+inline void System::IO::PinnedBufferMemoryStream::Finalize()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::IO::PinnedBufferMemoryStream::Dispose(bool  disposing)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::IO::PinnedBufferMemoryStream*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
+}
+inline ::System::IO::PinnedBufferMemoryStream* System::IO::PinnedBufferMemoryStream::New_ctor(::ArrayW<uint8_t>  array)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::IO::PinnedBufferMemoryStream*>(array));
+}
+// Ctor Parameters []
+constexpr ::System::IO::PinnedBufferMemoryStream::PinnedBufferMemoryStream()   {
+}

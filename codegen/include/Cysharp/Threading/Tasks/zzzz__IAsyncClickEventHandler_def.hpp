@@ -1,0 +1,46 @@
+#pragma once
+// IWYU pragma private; include "Cysharp/Threading/Tasks/IAsyncClickEventHandler.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+CORDL_MODULE_EXPORT(IAsyncClickEventHandler)
+namespace Cysharp::Threading::Tasks {
+struct UniTask;
+}
+namespace System {
+class IDisposable;
+}
+// Forward declare root types
+namespace Cysharp::Threading::Tasks {
+class IAsyncClickEventHandler;
+}
+// Write type traits
+MARK_REF_T(::Cysharp::Threading::Tasks::IAsyncClickEventHandler*);
+DEFINE_IL2CPP_CLASS(::Cysharp::Threading::Tasks::IAsyncClickEventHandler*, "Cysharp.Threading.Tasks", "IAsyncClickEventHandler");
+// Dependencies 
+namespace Cysharp::Threading::Tasks {
+// Is value type: false
+// CS Name: Cysharp.Threading.Tasks.IAsyncClickEventHandler
+class CORDL_TYPE IAsyncClickEventHandler {
+public:
+// Declarations
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method OnClickAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Cysharp::Threading::Tasks::UniTask OnClickAsync() ;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+// Ctor Parameters [CppParam { name: "", ty: "IAsyncClickEventHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IAsyncClickEventHandler(IAsyncClickEventHandler const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14526};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def Cysharp::Threading::Tasks

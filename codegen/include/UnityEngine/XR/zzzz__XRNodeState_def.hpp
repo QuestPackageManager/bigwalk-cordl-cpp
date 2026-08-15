@@ -1,0 +1,113 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/XR/XRNodeState.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/XR/zzzz__AvailableTrackingData_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(XRNodeState)
+namespace UnityEngine::XR {
+struct XRNode;
+}
+// Forward declare root types
+namespace UnityEngine::XR {
+struct XRNodeState;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::XR::XRNodeState);
+DEFINE_IL2CPP_CLASS(::UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");
+// Dependencies UnityEngine.Quaternion, UnityEngine.Vector3, UnityEngine.XR.AvailableTrackingData, UnityEngine.XR.XRNode
+namespace UnityEngine::XR {
+// Is value type: true
+// CS Name: UnityEngine.XR.XRNodeState
+struct CORDL_TYPE XRNodeState {
+public:
+// Declarations
+ __declspec(property(put=set_nodeType)) ::UnityEngine::XR::XRNode  nodeType;
+
+ __declspec(property(put=set_tracked)) bool  tracked;
+
+ __declspec(property(put=set_uniqueID)) uint64_t  uniqueID;
+
+/// @brief Method set_nodeType, addr 0x180379030, size 0x10, virtual false, abstract: false, final false
+inline void set_nodeType(::UnityEngine::XR::XRNode  value) ;
+
+/// @brief Method set_tracked, addr 0x18254f8f0, size 0x60, virtual false, abstract: false, final false
+inline void set_tracked(bool  value) ;
+
+/// @brief Method set_uniqueID, addr 0x1817d8730, size 0x10, virtual false, abstract: false, final false
+inline void set_uniqueID(uint64_t  value) ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr XRNodeState() ;
+
+// Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::XR::XRNode", modifiers: "", def_value: None }, CppParam { name: "m_AvailableFields", ty: "::UnityEngine::XR::AvailableTrackingData", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "m_Velocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_AngularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Acceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_AngularAcceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Tracked", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_UniqueID", ty: "uint64_t", modifiers: "", def_value: None }]
+constexpr XRNodeState(::UnityEngine::XR::XRNode  m_Type, ::UnityEngine::XR::AvailableTrackingData  m_AvailableFields, ::UnityEngine::Vector3  m_Position, ::UnityEngine::Quaternion  m_Rotation, ::UnityEngine::Vector3  m_Velocity, ::UnityEngine::Vector3  m_AngularVelocity, ::UnityEngine::Vector3  m_Acceleration, ::UnityEngine::Vector3  m_AngularAcceleration, int32_t  m_Tracked, uint64_t  m_UniqueID) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20980};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
+
+/// @brief Field m_Type, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::XR::XRNode  m_Type;
+
+/// @brief Field m_AvailableFields, offset: 0x4, size: 0x4, def value: None
+ ::UnityEngine::XR::AvailableTrackingData  m_AvailableFields;
+
+/// @brief Field m_Position, offset: 0x8, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Position;
+
+/// @brief Field m_Rotation, offset: 0x14, size: 0x10, def value: None
+ ::UnityEngine::Quaternion  m_Rotation;
+
+/// @brief Field m_Velocity, offset: 0x24, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Velocity;
+
+/// @brief Field m_AngularVelocity, offset: 0x30, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_AngularVelocity;
+
+/// @brief Field m_Acceleration, offset: 0x3c, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Acceleration;
+
+/// @brief Field m_AngularAcceleration, offset: 0x48, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_AngularAcceleration;
+
+/// @brief Field m_Tracked, offset: 0x54, size: 0x4, def value: None
+ int32_t  m_Tracked;
+
+/// @brief Field m_UniqueID, offset: 0x58, size: 0x8, def value: None
+ uint64_t  m_UniqueID;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_Type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_AvailableFields) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_Position) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_Rotation) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_Velocity) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_AngularVelocity) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_Acceleration) == 0x3c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_AngularAcceleration) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_Tracked) == 0x54, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::XR::XRNodeState, m_UniqueID) == 0x58, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::XR::XRNodeState) == 0x60, "Size mismatch!");
+
+} // namespace end def UnityEngine::XR

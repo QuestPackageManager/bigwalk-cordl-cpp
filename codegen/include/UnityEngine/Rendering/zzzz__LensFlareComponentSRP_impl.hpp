@@ -1,0 +1,480 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareComponentSRP.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__LensFlareComponentSRP_def.hpp"
+#include "UnityEngine/Rendering/zzzz__LensFlareComponentSRP_def.hpp"
+#include "UnityEngine/Rendering/zzzz__LensFlareDataSRP_def.hpp"
+#include "UnityEngine/Rendering/zzzz__TextureCurve_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Light_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::LensFlareComponentSRP_Version::LensFlareComponentSRP_Version(int32_t  value__) noexcept  {
+this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::LensFlareComponentSRP_Version::LensFlareComponentSRP_Version()   {
+}
+constexpr ::UnityEngine::Rendering::LensFlareComponentSRP_Version  UnityEngine::Rendering::LensFlareComponentSRP_Version::Initial{static_cast<int32_t>(0x0)};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP.get_lensFlareData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> (::UnityEngine::Rendering::LensFlareComponentSRP::*)()>(&::UnityEngine::Rendering::LensFlareComponentSRP::get_lensFlareData)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"get_lensFlareData", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP.set_lensFlareData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareComponentSRP::*)(::UnityEngine::Rendering::LensFlareDataSRP*)>(&::UnityEngine::Rendering::LensFlareComponentSRP::set_lensFlareData)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182023840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"set_lensFlareData", {}, {::i2c::type_of<::UnityEngine::Rendering::LensFlareDataSRP*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP.celestialProjectedOcclusionRadius
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::LensFlareComponentSRP::*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::LensFlareComponentSRP::celestialProjectedOcclusionRadius)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1820237e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"celestialProjectedOcclusionRadius", {}, {::i2c::type_of<::UnityEngine::Camera*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP.Awake
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareComponentSRP::*)()>(&::UnityEngine::Rendering::LensFlareComponentSRP::Awake)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"Awake", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP.OnEnable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareComponentSRP::*)()>(&::UnityEngine::Rendering::LensFlareComponentSRP::OnEnable)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1820233e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"OnEnable", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP.OnDisable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareComponentSRP::*)()>(&::UnityEngine::Rendering::LensFlareComponentSRP::OnDisable)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1820233b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"OnDisable", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP.OnValidate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareComponentSRP::*)()>(&::UnityEngine::Rendering::LensFlareComponentSRP::OnValidate)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x182023430;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"OnValidate", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP.OnDestroy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareComponentSRP::*)()>(&::UnityEngine::Rendering::LensFlareComponentSRP::OnDestroy)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1820233a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"OnDestroy", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::LensFlareComponentSRP._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareComponentSRP::*)()>(&::UnityEngine::Rendering::LensFlareComponentSRP::_ctor)> {
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x1820234c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP>& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_m_LensFlareData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LensFlareData;
+}
+constexpr ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_m_LensFlareData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LensFlareData;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_m_LensFlareData(::UnityW<::UnityEngine::Rendering::LensFlareDataSRP>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_LensFlareData = value;
+}
+constexpr ::UnityEngine::Rendering::LensFlareComponentSRP_Version& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_version()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___version;
+}
+constexpr ::UnityEngine::Rendering::LensFlareComponentSRP_Version const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_version() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___version;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_version(::UnityEngine::Rendering::LensFlareComponentSRP_Version  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___version = value;
+}
+constexpr float_t& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_intensity()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___intensity;
+}
+constexpr float_t const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_intensity() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___intensity;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_intensity(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___intensity = value;
+}
+constexpr float_t& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_maxAttenuationDistance()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___maxAttenuationDistance;
+}
+constexpr float_t const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_maxAttenuationDistance() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___maxAttenuationDistance;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_maxAttenuationDistance(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___maxAttenuationDistance = value;
+}
+constexpr float_t& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_maxAttenuationScale()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___maxAttenuationScale;
+}
+constexpr float_t const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_maxAttenuationScale() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___maxAttenuationScale;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_maxAttenuationScale(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___maxAttenuationScale = value;
+}
+constexpr ::UnityEngine::AnimationCurve*& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_distanceAttenuationCurve()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___distanceAttenuationCurve;
+}
+constexpr ::UnityEngine::AnimationCurve* const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_distanceAttenuationCurve() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___distanceAttenuationCurve;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_distanceAttenuationCurve(::UnityEngine::AnimationCurve*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___distanceAttenuationCurve = value;
+}
+constexpr ::UnityEngine::AnimationCurve*& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_scaleByDistanceCurve()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___scaleByDistanceCurve;
+}
+constexpr ::UnityEngine::AnimationCurve* const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_scaleByDistanceCurve() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___scaleByDistanceCurve;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_scaleByDistanceCurve(::UnityEngine::AnimationCurve*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___scaleByDistanceCurve = value;
+}
+constexpr bool& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_attenuationByLightShape()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attenuationByLightShape;
+}
+constexpr bool const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_attenuationByLightShape() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attenuationByLightShape;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_attenuationByLightShape(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___attenuationByLightShape = value;
+}
+constexpr ::UnityEngine::AnimationCurve*& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_radialScreenAttenuationCurve()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___radialScreenAttenuationCurve;
+}
+constexpr ::UnityEngine::AnimationCurve* const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_radialScreenAttenuationCurve() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___radialScreenAttenuationCurve;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_radialScreenAttenuationCurve(::UnityEngine::AnimationCurve*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___radialScreenAttenuationCurve = value;
+}
+constexpr bool& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_useOcclusion()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___useOcclusion;
+}
+constexpr bool const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_useOcclusion() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___useOcclusion;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_useOcclusion(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___useOcclusion = value;
+}
+constexpr bool& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_useBackgroundCloudOcclusion()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___useBackgroundCloudOcclusion;
+}
+constexpr bool const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_useBackgroundCloudOcclusion() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___useBackgroundCloudOcclusion;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_useBackgroundCloudOcclusion(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___useBackgroundCloudOcclusion = value;
+}
+constexpr bool& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_environmentOcclusion()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___environmentOcclusion;
+}
+constexpr bool const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_environmentOcclusion() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___environmentOcclusion;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_environmentOcclusion(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___environmentOcclusion = value;
+}
+constexpr bool& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_useWaterOcclusion()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___useWaterOcclusion;
+}
+constexpr bool const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_useWaterOcclusion() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___useWaterOcclusion;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_useWaterOcclusion(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___useWaterOcclusion = value;
+}
+constexpr float_t& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_occlusionRadius()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___occlusionRadius;
+}
+constexpr float_t const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_occlusionRadius() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___occlusionRadius;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_occlusionRadius(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___occlusionRadius = value;
+}
+constexpr uint32_t& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_sampleCount()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___sampleCount;
+}
+constexpr uint32_t const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_sampleCount() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___sampleCount;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_sampleCount(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___sampleCount = value;
+}
+constexpr float_t& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_occlusionOffset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___occlusionOffset;
+}
+constexpr float_t const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_occlusionOffset() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___occlusionOffset;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_occlusionOffset(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___occlusionOffset = value;
+}
+constexpr float_t& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_scale()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___scale;
+}
+constexpr float_t const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_scale() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___scale;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_scale(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___scale = value;
+}
+constexpr bool& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_allowOffScreen()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allowOffScreen;
+}
+constexpr bool const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_allowOffScreen() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___allowOffScreen;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_allowOffScreen(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___allowOffScreen = value;
+}
+constexpr bool& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_volumetricCloudOcclusion()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___volumetricCloudOcclusion;
+}
+constexpr bool const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_volumetricCloudOcclusion() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___volumetricCloudOcclusion;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_volumetricCloudOcclusion(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___volumetricCloudOcclusion = value;
+}
+constexpr ::UnityEngine::Rendering::TextureCurve*& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_occlusionRemapCurve()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___occlusionRemapCurve;
+}
+constexpr ::UnityEngine::Rendering::TextureCurve* const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_occlusionRemapCurve() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___occlusionRemapCurve;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_occlusionRemapCurve(::UnityEngine::Rendering::TextureCurve*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___occlusionRemapCurve = value;
+}
+constexpr ::UnityW<::UnityEngine::Light>& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_lightOverride()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lightOverride;
+}
+constexpr ::UnityW<::UnityEngine::Light> const& UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_get_lightOverride() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lightOverride;
+}
+constexpr void UnityEngine::Rendering::LensFlareComponentSRP::__cordl_internal_set_lightOverride(::UnityW<::UnityEngine::Light>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___lightOverride = value;
+}
+inline void UnityEngine::Rendering::LensFlareComponentSRP::setStaticF_sCelestialAngularRadius(float_t  value)  {
+::cordl_internals::setStaticField<float_t, "sCelestialAngularRadius", ::UnityEngine::Rendering::LensFlareComponentSRP*>(std::forward<float_t>(value));
+}
+inline float_t UnityEngine::Rendering::LensFlareComponentSRP::getStaticF_sCelestialAngularRadius()  {
+return ::cordl_internals::getStaticField<float_t, "sCelestialAngularRadius", ::UnityEngine::Rendering::LensFlareComponentSRP*>();
+}
+inline ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> UnityEngine::Rendering::LensFlareComponentSRP::get_lensFlareData()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"get_lensFlareData", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rendering::LensFlareDataSRP>>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::LensFlareComponentSRP::set_lensFlareData(::UnityEngine::Rendering::LensFlareDataSRP*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"set_lensFlareData", {}, {::i2c::type_of<::UnityEngine::Rendering::LensFlareDataSRP*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::Rendering::LensFlareComponentSRP::celestialProjectedOcclusionRadius(::UnityEngine::Camera*  mainCam)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"celestialProjectedOcclusionRadius", {}, {::i2c::type_of<::UnityEngine::Camera*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, mainCam);
+}
+inline void UnityEngine::Rendering::LensFlareComponentSRP::Awake()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"Awake", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::LensFlareComponentSRP::OnEnable()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"OnEnable", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::LensFlareComponentSRP::OnDisable()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"OnDisable", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::LensFlareComponentSRP::OnValidate()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"OnValidate", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::LensFlareComponentSRP::OnDestroy()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {"OnDestroy", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::LensFlareComponentSRP::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::LensFlareComponentSRP*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Rendering::LensFlareComponentSRP* UnityEngine::Rendering::LensFlareComponentSRP::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::LensFlareComponentSRP*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::LensFlareComponentSRP::LensFlareComponentSRP()   {
+}

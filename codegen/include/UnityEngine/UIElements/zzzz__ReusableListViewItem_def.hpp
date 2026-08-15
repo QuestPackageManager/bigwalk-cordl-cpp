@@ -1,0 +1,134 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ReusableListViewItem.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(ReusableListViewItem)
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class ReusableListViewItem;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::ReusableListViewItem*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ReusableListViewItem*, "UnityEngine.UIElements", "ReusableListViewItem");
+// Dependencies UnityEngine.UIElements.ReusableCollectionItem
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.ReusableListViewItem
+class CORDL_TYPE ReusableListViewItem : public ::UnityEngine::UIElements::ReusableCollectionItem {
+public:
+// Declarations
+/// @brief Field k_SortingDisablesReorderingTooltip, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_SortingDisablesReorderingTooltip, put=setStaticF_k_SortingDisablesReorderingTooltip)) ::StringW  k_SortingDisablesReorderingTooltip;
+
+/// @brief Field m_Container, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Container, put=__cordl_internal_set_m_Container)) ::UnityEngine::UIElements::VisualElement*  m_Container;
+
+/// @brief Field m_DragHandle, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_DragHandle, put=__cordl_internal_set_m_DragHandle)) ::UnityEngine::UIElements::VisualElement*  m_DragHandle;
+
+/// @brief Field m_ItemContainer, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ItemContainer, put=__cordl_internal_set_m_ItemContainer)) ::UnityEngine::UIElements::VisualElement*  m_ItemContainer;
+
+ __declspec(property(get=get_rootElement)) ::UnityEngine::UIElements::VisualElement*  rootElement;
+
+/// @brief Method DetachElement, addr 0x182398000, size 0x70, virtual true, abstract: false, final false
+inline void DetachElement() ;
+
+/// @brief Method Init, addr 0x182398070, size 0xa0, virtual false, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  item, bool  usesAnimatedDragger) ;
+
+static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor() ;
+
+/// @brief Method OnGeometryChanged, addr 0x182398110, size 0x80, virtual true, abstract: false, final false
+inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent*  evt) ;
+
+/// @brief Method PreAttachElement, addr 0x182398190, size 0x70, virtual true, abstract: false, final false
+inline void PreAttachElement() ;
+
+/// @brief Method SetDragGhost, addr 0x182398200, size 0x40, virtual true, abstract: false, final false
+inline void SetDragGhost(bool  dragGhost) ;
+
+/// @brief Method SetDragHandleEnabled, addr 0x182398240, size 0x60, virtual false, abstract: false, final false
+inline void SetDragHandleEnabled(bool  enabled) ;
+
+/// @brief Method UpdateDragHandle, addr 0x1823982a0, size 0x120, virtual false, abstract: false, final false
+inline void UpdateDragHandle(bool  needsDragHandle) ;
+
+/// @brief Method UpdateHierarchy, addr 0x1823983c0, size 0x290, virtual false, abstract: false, final false
+inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement*  root, ::UnityEngine::UIElements::VisualElement*  item, bool  usesAnimatedDragger) ;
+
+constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
+
+constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container() ;
+
+constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_DragHandle() const;
+
+constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragHandle() ;
+
+constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ItemContainer() const;
+
+constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ItemContainer() ;
+
+constexpr void __cordl_internal_set_m_Container(::UnityEngine::UIElements::VisualElement*  value) ;
+
+constexpr void __cordl_internal_set_m_DragHandle(::UnityEngine::UIElements::VisualElement*  value) ;
+
+constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement*  value) ;
+
+/// @brief Method .ctor, addr 0x182397d60, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::StringW getStaticF_k_SortingDisablesReorderingTooltip() ;
+
+/// @brief Method get_rootElement, addr 0x182398690, size 0x10, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* get_rootElement() ;
+
+static inline void setStaticF_k_SortingDisablesReorderingTooltip(::StringW  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReusableListViewItem() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ReusableListViewItem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReusableListViewItem(ReusableListViewItem && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ReusableListViewItem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReusableListViewItem(ReusableListViewItem const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3214};
+
+/// @brief Field m_Container, offset: 0x48, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  ___m_Container;
+
+/// @brief Field m_DragHandle, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  ___m_DragHandle;
+
+/// @brief Field m_ItemContainer, offset: 0x58, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  ___m_ItemContainer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::ReusableListViewItem, ___m_Container) == 0x48, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ReusableListViewItem, ___m_DragHandle) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::ReusableListViewItem, ___m_ItemContainer) == 0x58, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::ReusableListViewItem) == 0x60, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

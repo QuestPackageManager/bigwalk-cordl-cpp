@@ -1,0 +1,140 @@
+#pragma once
+// IWYU pragma private; include "System/Reflection/ExceptionHandlingClause.hpp"
+#include "System/Reflection/zzzz__ExceptionHandlingClauseOptions_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Reflection/zzzz__ExceptionHandlingClause_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Reflection::ExceptionHandlingClause._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::ExceptionHandlingClause::*)()>(&::System::Reflection::ExceptionHandlingClause::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::ExceptionHandlingClause*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::ExceptionHandlingClause.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::ExceptionHandlingClause::*)()>(&::System::Reflection::ExceptionHandlingClause::ToString)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x181679e60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Reflection::ExceptionHandlingClause*>(),
+                    {::i2c::class_of<::System::Reflection::ExceptionHandlingClause*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Type*& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_catch_type()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___catch_type;
+}
+constexpr ::System::Type* const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_catch_type() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___catch_type;
+}
+constexpr void System::Reflection::ExceptionHandlingClause::__cordl_internal_set_catch_type(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___catch_type = value;
+}
+constexpr int32_t& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_filter_offset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___filter_offset;
+}
+constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_filter_offset() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___filter_offset;
+}
+constexpr void System::Reflection::ExceptionHandlingClause::__cordl_internal_set_filter_offset(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___filter_offset = value;
+}
+constexpr ::System::Reflection::ExceptionHandlingClauseOptions& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_flags()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___flags;
+}
+constexpr ::System::Reflection::ExceptionHandlingClauseOptions const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_flags() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___flags;
+}
+constexpr void System::Reflection::ExceptionHandlingClause::__cordl_internal_set_flags(::System::Reflection::ExceptionHandlingClauseOptions  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___flags = value;
+}
+constexpr int32_t& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_try_offset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___try_offset;
+}
+constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_try_offset() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___try_offset;
+}
+constexpr void System::Reflection::ExceptionHandlingClause::__cordl_internal_set_try_offset(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___try_offset = value;
+}
+constexpr int32_t& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_try_length()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___try_length;
+}
+constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_try_length() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___try_length;
+}
+constexpr void System::Reflection::ExceptionHandlingClause::__cordl_internal_set_try_length(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___try_length = value;
+}
+constexpr int32_t& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_handler_offset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___handler_offset;
+}
+constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_handler_offset() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___handler_offset;
+}
+constexpr void System::Reflection::ExceptionHandlingClause::__cordl_internal_set_handler_offset(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___handler_offset = value;
+}
+constexpr int32_t& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_handler_length()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___handler_length;
+}
+constexpr int32_t const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_handler_length() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___handler_length;
+}
+constexpr void System::Reflection::ExceptionHandlingClause::__cordl_internal_set_handler_length(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___handler_length = value;
+}
+inline void System::Reflection::ExceptionHandlingClause::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Reflection::ExceptionHandlingClause*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::StringW System::Reflection::ExceptionHandlingClause::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Reflection::ExceptionHandlingClause*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::System::Reflection::ExceptionHandlingClause* System::Reflection::ExceptionHandlingClause::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Reflection::ExceptionHandlingClause*>());
+}
+// Ctor Parameters []
+constexpr ::System::Reflection::ExceptionHandlingClause::ExceptionHandlingClause()   {
+}

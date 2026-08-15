@@ -1,0 +1,580 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/FaceInfo.hpp"
+#include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_faceIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_faceIndex)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803474c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_faceIndex", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_familyName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_familyName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803ed930;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_familyName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_styleName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_styleName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_styleName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_pointSize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_pointSize)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18048d8a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_pointSize", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_scale
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_scale)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f80a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_scale", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.set_scale
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_scale)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f80f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_scale", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_unitsPerEM
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_unitsPerEM)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180396ee0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_unitsPerEM", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.set_unitsPerEM
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(int32_t)>(&::UnityEngine::TextCore::FaceInfo::set_unitsPerEM)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803164e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_unitsPerEM", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_lineHeight
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_lineHeight)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f80d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_lineHeight", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_ascentLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_ascentLine)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803f2be0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_ascentLine", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_capLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_capLine)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18049a530;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_capLine", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.set_capLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_capLine)> {
+  constexpr static std::size_t size = 0x3450;
+  constexpr static std::size_t addrs = 0x180bb44a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_capLine", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_meanLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_meanLine)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803f68d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_meanLine", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.set_meanLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_meanLine)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fb30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_meanLine", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_baseline
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_baseline)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2da0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_baseline", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_descentLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_descentLine)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f7fd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_descentLine", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_superscriptOffset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_superscriptOffset)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2d90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_superscriptOffset", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_superscriptSize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_superscriptSize)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2b90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_superscriptSize", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_subscriptOffset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_subscriptOffset)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_subscriptOffset", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_subscriptSize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_subscriptSize)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f8050;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_subscriptSize", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_underlineOffset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_underlineOffset)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f8070;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_underlineOffset", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_underlineThickness
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_underlineThickness)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180356140;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_underlineThickness", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_strikethroughOffset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_strikethroughOffset)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180315260;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_strikethroughOffset", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.set_strikethroughOffset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_strikethroughOffset)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1803dccc0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_strikethroughOffset", {}, {::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_tabWidth
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_tabWidth)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18046fb00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_tabWidth", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline int32_t UnityEngine::TextCore::FaceInfo::get_faceIndex()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_faceIndex", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline ::StringW UnityEngine::TextCore::FaceInfo::get_familyName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_familyName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline ::StringW UnityEngine::TextCore::FaceInfo::get_styleName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_styleName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_pointSize()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_pointSize", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_scale()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_scale", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline void UnityEngine::TextCore::FaceInfo::set_scale(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_scale", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline int32_t UnityEngine::TextCore::FaceInfo::get_unitsPerEM()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_unitsPerEM", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline void UnityEngine::TextCore::FaceInfo::set_unitsPerEM(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_unitsPerEM", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_lineHeight()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_lineHeight", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_ascentLine()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_ascentLine", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_capLine()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_capLine", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline void UnityEngine::TextCore::FaceInfo::set_capLine(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_capLine", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_meanLine()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_meanLine", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline void UnityEngine::TextCore::FaceInfo::set_meanLine(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_meanLine", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_baseline()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_baseline", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_descentLine()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_descentLine", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_superscriptOffset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_superscriptOffset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_superscriptSize()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_superscriptSize", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_subscriptOffset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_subscriptOffset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_subscriptSize()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_subscriptSize", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_underlineOffset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_underlineOffset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_underlineThickness()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_underlineThickness", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_strikethroughOffset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_strikethroughOffset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+inline void UnityEngine::TextCore::FaceInfo::set_strikethroughOffset(float_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"set_strikethroughOffset", {}, {::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline float_t UnityEngine::TextCore::FaceInfo::get_tabWidth()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(),
+                        {"get_tabWidth", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "m_FaceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FamilyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StyleName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PointSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Scale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UnitsPerEM", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LineHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AscentLine", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CapLine", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MeanLine", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Baseline", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DescentLine", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SuperscriptOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SuperscriptSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SubscriptOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SubscriptSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UnderlineOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UnderlineThickness", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StrikethroughOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StrikethroughThickness", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TabWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::TextCore::FaceInfo::FaceInfo(int32_t  m_FaceIndex, ::StringW  m_FamilyName, ::StringW  m_StyleName, float_t  m_PointSize, float_t  m_Scale, int32_t  m_UnitsPerEM, float_t  m_LineHeight, float_t  m_AscentLine, float_t  m_CapLine, float_t  m_MeanLine, float_t  m_Baseline, float_t  m_DescentLine, float_t  m_SuperscriptOffset, float_t  m_SuperscriptSize, float_t  m_SubscriptOffset, float_t  m_SubscriptSize, float_t  m_UnderlineOffset, float_t  m_UnderlineThickness, float_t  m_StrikethroughOffset, float_t  m_StrikethroughThickness, float_t  m_TabWidth) noexcept  {
+this->m_FaceIndex = m_FaceIndex;
+this->m_FamilyName = m_FamilyName;
+this->m_StyleName = m_StyleName;
+this->m_PointSize = m_PointSize;
+this->m_Scale = m_Scale;
+this->m_UnitsPerEM = m_UnitsPerEM;
+this->m_LineHeight = m_LineHeight;
+this->m_AscentLine = m_AscentLine;
+this->m_CapLine = m_CapLine;
+this->m_MeanLine = m_MeanLine;
+this->m_Baseline = m_Baseline;
+this->m_DescentLine = m_DescentLine;
+this->m_SuperscriptOffset = m_SuperscriptOffset;
+this->m_SuperscriptSize = m_SuperscriptSize;
+this->m_SubscriptOffset = m_SubscriptOffset;
+this->m_SubscriptSize = m_SubscriptSize;
+this->m_UnderlineOffset = m_UnderlineOffset;
+this->m_UnderlineThickness = m_UnderlineThickness;
+this->m_StrikethroughOffset = m_StrikethroughOffset;
+this->m_StrikethroughThickness = m_StrikethroughThickness;
+this->m_TabWidth = m_TabWidth;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::TextCore::FaceInfo::FaceInfo()   {
+}

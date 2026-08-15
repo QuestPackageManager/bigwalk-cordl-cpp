@@ -1,0 +1,1776 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/InputForUI/InputManagerProvider.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/InputForUI/zzzz__PointerState_impl.hpp"
+#include "UnityEngine/zzzz__PenData_impl.hpp"
+#include "UnityEngine/zzzz__Vector2_impl.hpp"
+#include "UnityEngine/InputForUI/zzzz__InputManagerProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "Unity/IntegerTime/zzzz__DiscreteTime_def.hpp"
+#include "Unity/IntegerTime/zzzz__RationalTime_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__EventSource_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__IEventProviderImpl_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__IMECompositionEvent_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__InputEventPartialProvider_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__InputManagerProvider_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__NavigationEventRepeatHelper_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__PointerEvent_def.hpp"
+#include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "UnityEngine/zzzz__PenData_def.hpp"
+#include "UnityEngine/zzzz__PenStatus_def.hpp"
+#include "UnityEngine/zzzz__Touch_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator.get_Current
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::get_Current)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1822e3e10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"get_Current", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator.MoveNext
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::MoveNext)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1822e3d70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"MoveNext", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator.Reset
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::Reset)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1822e3db0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"Reset", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator.System_Collections_IEnumerator_get_Current
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1822e3dd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator.FromState
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator (*)(bool, bool, bool, bool)>(&::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::FromState)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1822e3d10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"FromState", {}, {::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline bool UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"MoveNext", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::Reset()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"Reset", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline ::System::Object* UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::System_Collections_IEnumerator_get_Current()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"System.Collections.IEnumerator.get_Current", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method);
+}
+inline ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::FromState(bool  previous, bool  down, bool  up, bool  current)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(),
+                        {"FromState", {}, {::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator>(nullptr, ___internal_method, previous, down, up, current);
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr  UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::operator ::System::Collections::IEnumerator*()  {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::i___System__Collections__IEnumerator()  {
+return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "_mask", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_bit", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::InputManagerProvider_ButtonEventsIterator(uint32_t  _mask, int32_t  _bit) noexcept  {
+this->_mask = _mask;
+this->_bit = _bit;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_ButtonEventsIterator::InputManagerProvider_ButtonEventsIterator()   {
+}
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Configuration.GetDefaultConfiguration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::InputManagerProvider_Configuration (*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Configuration::GetDefaultConfiguration)> {
+  constexpr static std::size_t size = 0x440;
+  constexpr static std::size_t addrs = 0x1822e40a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Configuration>(),
+                        {"GetDefaultConfiguration", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::InputForUI::InputManagerProvider_Configuration UnityEngine::InputForUI::InputManagerProvider_Configuration::GetDefaultConfiguration()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Configuration>(),
+                        {"GetDefaultConfiguration", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::InputManagerProvider_Configuration>(nullptr, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "HorizontalAxis", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "VerticalAxis", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "SubmitButton", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "CancelButton", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "NavigateNextButton", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "NavigatePreviousButton", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "InputActionsPerSecond", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RepeatDelay", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_Configuration::InputManagerProvider_Configuration(::StringW  HorizontalAxis, ::StringW  VerticalAxis, ::StringW  SubmitButton, ::StringW  CancelButton, ::StringW  NavigateNextButton, ::StringW  NavigatePreviousButton, float_t  InputActionsPerSecond, float_t  RepeatDelay) noexcept  {
+this->HorizontalAxis = HorizontalAxis;
+this->VerticalAxis = VerticalAxis;
+this->SubmitButton = SubmitButton;
+this->CancelButton = CancelButton;
+this->NavigateNextButton = NavigateNextButton;
+this->NavigatePreviousButton = NavigatePreviousButton;
+this->InputActionsPerSecond = InputActionsPerSecond;
+this->RepeatDelay = RepeatDelay;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_Configuration::InputManagerProvider_Configuration()   {
+}
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.get_compositionString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::get_compositionString)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.GetKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)(::UnityEngine::KeyCode)>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::GetKey)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.GetButtonDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)(::StringW)>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::GetButtonDown)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.GetAxisRaw
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)(::StringW)>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::GetAxisRaw)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.GetLastPenContactEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PenData (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::GetLastPenContactEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.get_touchSupported
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::get_touchSupported)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.get_touchCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::get_touchCount)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.GetTouch
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Touch (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)(int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::GetTouch)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.get_mousePresent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::get_mousePresent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.GetMouseButton
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)(int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::GetMouseButton)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.GetMouseButtonDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)(int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::GetMouseButtonDown)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.GetMouseButtonUp
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)(int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::GetMouseButtonUp)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.get_mousePosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::get_mousePosition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_IInput.get_mouseScrollDelta
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputForUI::InputManagerProvider_IInput::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_IInput::get_mouseScrollDelta)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::StringW UnityEngine::InputForUI::InputManagerProvider_IInput::get_compositionString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_IInput::GetKey(::UnityEngine::KeyCode  keyCode)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, keyCode);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_IInput::GetButtonDown(::StringW  button)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, button);
+}
+inline float_t UnityEngine::InputForUI::InputManagerProvider_IInput::GetAxisRaw(::StringW  axis)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, axis);
+}
+inline ::UnityEngine::PenData UnityEngine::InputForUI::InputManagerProvider_IInput::GetLastPenContactEvent()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::PenData>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_IInput::get_touchSupported()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline int32_t UnityEngine::InputForUI::InputManagerProvider_IInput::get_touchCount()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::UnityEngine::Touch UnityEngine::InputForUI::InputManagerProvider_IInput::GetTouch(int32_t  index)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Touch>(this, ___internal_method, index);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_IInput::get_mousePresent()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_IInput::GetMouseButton(int32_t  button)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, button);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_IInput::GetMouseButtonDown(int32_t  button)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, button);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_IInput::GetMouseButtonUp(int32_t  button)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, button);
+}
+inline ::UnityEngine::Vector3 UnityEngine::InputForUI::InputManagerProvider_IInput::get_mousePosition()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector2 UnityEngine::InputForUI::InputManagerProvider_IInput::get_mouseScrollDelta()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
+}
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.get_compositionString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::InputManagerProvider_Input::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Input::get_compositionString)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea320;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_compositionString", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.GetKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_Input::*)(::UnityEngine::KeyCode)>(&::UnityEngine::InputForUI::InputManagerProvider_Input::GetKey)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea2c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetKey", {}, {::i2c::type_of<::UnityEngine::KeyCode>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.GetButtonDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_Input::*)(::StringW)>(&::UnityEngine::InputForUI::InputManagerProvider_Input::GetButtonDown)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181abfb30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetButtonDown", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.GetAxisRaw
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputForUI::InputManagerProvider_Input::*)(::StringW)>(&::UnityEngine::InputForUI::InputManagerProvider_Input::GetAxisRaw)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea2b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetAxisRaw", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.GetLastPenContactEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PenData (::UnityEngine::InputForUI::InputManagerProvider_Input::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Input::GetLastPenContactEvent)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1822ea2d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetLastPenContactEvent", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.get_touchSupported
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_Input::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Input::get_touchSupported)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_touchSupported", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.get_touchCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputForUI::InputManagerProvider_Input::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Input::get_touchCount)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181883c50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_touchCount", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.GetTouch
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Touch (::UnityEngine::InputForUI::InputManagerProvider_Input::*)(int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider_Input::GetTouch)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181883c10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetTouch", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.get_mousePresent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_Input::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Input::get_mousePresent)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea330;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_mousePresent", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.GetMouseButton
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_Input::*)(int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider_Input::GetMouseButton)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea310;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetMouseButton", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.GetMouseButtonDown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_Input::*)(int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider_Input::GetMouseButtonDown)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea2f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetMouseButtonDown", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.GetMouseButtonUp
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider_Input::*)(int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider_Input::GetMouseButtonUp)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea300;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetMouseButtonUp", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.get_mousePosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputForUI::InputManagerProvider_Input::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Input::get_mousePosition)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181abfb60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_mousePosition", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input.get_mouseScrollDelta
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputForUI::InputManagerProvider_Input::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Input::get_mouseScrollDelta)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802fb3c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_mouseScrollDelta", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Input._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider_Input::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Input::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::StringW UnityEngine::InputForUI::InputManagerProvider_Input::get_compositionString()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_compositionString", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_Input::GetKey(::UnityEngine::KeyCode  key)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetKey", {}, {::i2c::type_of<::UnityEngine::KeyCode>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_Input::GetButtonDown(::StringW  button)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetButtonDown", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, button);
+}
+inline float_t UnityEngine::InputForUI::InputManagerProvider_Input::GetAxisRaw(::StringW  axis)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetAxisRaw", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, axis);
+}
+inline ::UnityEngine::PenData UnityEngine::InputForUI::InputManagerProvider_Input::GetLastPenContactEvent()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetLastPenContactEvent", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::PenData>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_Input::get_touchSupported()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_touchSupported", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline int32_t UnityEngine::InputForUI::InputManagerProvider_Input::get_touchCount()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_touchCount", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::UnityEngine::Touch UnityEngine::InputForUI::InputManagerProvider_Input::GetTouch(int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetTouch", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Touch>(this, ___internal_method, index);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_Input::get_mousePresent()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_mousePresent", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_Input::GetMouseButton(int32_t  button)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetMouseButton", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, button);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_Input::GetMouseButtonDown(int32_t  button)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetMouseButtonDown", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, button);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider_Input::GetMouseButtonUp(int32_t  button)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"GetMouseButtonUp", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, button);
+}
+inline ::UnityEngine::Vector3 UnityEngine::InputForUI::InputManagerProvider_Input::get_mousePosition()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_mousePosition", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector2 UnityEngine::InputForUI::InputManagerProvider_Input::get_mouseScrollDelta()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {"get_mouseScrollDelta", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider_Input::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Input*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::InputForUI::InputManagerProvider_Input* UnityEngine::InputForUI::InputManagerProvider_Input::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputForUI::InputManagerProvider_Input*>());
+}
+/// @brief Convert operator to "::UnityEngine::InputForUI::InputManagerProvider_IInput"
+constexpr  UnityEngine::InputForUI::InputManagerProvider_Input::operator ::UnityEngine::InputForUI::InputManagerProvider_IInput*() noexcept {
+return static_cast<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::InputForUI::InputManagerProvider_IInput"
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_IInput* UnityEngine::InputForUI::InputManagerProvider_Input::i___UnityEngine__InputForUI__InputManagerProvider_IInput() noexcept {
+return static_cast<::UnityEngine::InputForUI::InputManagerProvider_IInput*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_Input::InputManagerProvider_Input()   {
+}
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_ITime.get_timeAsRational
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::RationalTime (::UnityEngine::InputForUI::InputManagerProvider_ITime::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_ITime::get_timeAsRational)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ITime*>(),
+                    {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ITime*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::Unity::IntegerTime::RationalTime UnityEngine::InputForUI::InputManagerProvider_ITime::get_timeAsRational()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_ITime*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Unity::IntegerTime::RationalTime>(this, ___internal_method);
+}
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Time.get_timeAsRational
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::RationalTime (::UnityEngine::InputForUI::InputManagerProvider_Time::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Time::get_timeAsRational)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1822eb4e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Time*>(),
+                        {"get_timeAsRational", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider_Time._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider_Time::*)()>(&::UnityEngine::InputForUI::InputManagerProvider_Time::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Time*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::Unity::IntegerTime::RationalTime UnityEngine::InputForUI::InputManagerProvider_Time::get_timeAsRational()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Time*>(),
+                        {"get_timeAsRational", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Unity::IntegerTime::RationalTime>(this, ___internal_method);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider_Time::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider_Time*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::InputForUI::InputManagerProvider_Time* UnityEngine::InputForUI::InputManagerProvider_Time::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputForUI::InputManagerProvider_Time*>());
+}
+/// @brief Convert operator to "::UnityEngine::InputForUI::InputManagerProvider_ITime"
+constexpr  UnityEngine::InputForUI::InputManagerProvider_Time::operator ::UnityEngine::InputForUI::InputManagerProvider_ITime*() noexcept {
+return static_cast<::UnityEngine::InputForUI::InputManagerProvider_ITime*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::InputForUI::InputManagerProvider_ITime"
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_ITime* UnityEngine::InputForUI::InputManagerProvider_Time::i___UnityEngine__InputForUI__InputManagerProvider_ITime() noexcept {
+return static_cast<::UnityEngine::InputForUI::InputManagerProvider_ITime*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_Time::InputManagerProvider_Time()   {
+}
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.get__eventModifiers
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventModifiers (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::get__eventModifiers)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1822ea2a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"get__eventModifiers", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::_ctor)> {
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x1822ea0d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.Initialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::Initialize)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x1822e8ca0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"Initialize", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.Shutdown
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::Shutdown)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"Shutdown", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.Update
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::Update)> {
+  constexpr static std::size_t size = 0x7b0;
+  constexpr static std::size_t addrs = 0x1822e9920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"Update", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.CheckTouchEvents
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime)>(&::UnityEngine::InputForUI::InputManagerProvider::CheckTouchEvents)> {
+  constexpr static std::size_t size = 0x5e0;
+  constexpr static std::size_t addrs = 0x1822e8260;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckTouchEvents", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.DetectPen
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::DetectPen)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1822e8840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"DetectPen", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.PenStatusToButton
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::PointerEvent_Button (*)(::UnityEngine::PenStatus)>(&::UnityEngine::InputForUI::InputManagerProvider::PenStatusToButton)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1822e94c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"PenStatusToButton", {}, {::i2c::type_of<::UnityEngine::PenStatus>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.CheckPenEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime, ::by_ref<::UnityEngine::PenData>)>(&::UnityEngine::InputForUI::InputManagerProvider::CheckPenEvent)> {
+  constexpr static std::size_t size = 0x3b0;
+  constexpr static std::size_t addrs = 0x1822e7eb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckPenEvent", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::PenData>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.CheckMouseEvents
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime, bool)>(&::UnityEngine::InputForUI::InputManagerProvider::CheckMouseEvents)> {
+  constexpr static std::size_t size = 0x560;
+  constexpr static std::size_t addrs = 0x1822e7650;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckMouseEvents", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.CheckMouseScroll
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime)>(&::UnityEngine::InputForUI::InputManagerProvider::CheckMouseScroll)> {
+  constexpr static std::size_t size = 0x300;
+  constexpr static std::size_t addrs = 0x1822e7bb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckMouseScroll", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.NextPreviousNavigation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime)>(&::UnityEngine::InputForUI::InputManagerProvider::NextPreviousNavigation)> {
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x1822e9310;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"NextPreviousNavigation", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.SubmitCancelNavigation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime)>(&::UnityEngine::InputForUI::InputManagerProvider::SubmitCancelNavigation)> {
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x1822e96a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"SubmitCancelNavigation", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.DirectionNavigation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime)>(&::UnityEngine::InputForUI::InputManagerProvider::DirectionNavigation)> {
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x1822e88e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"DirectionNavigation", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.CheckIfIMEChanged
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime)>(&::UnityEngine::InputForUI::InputManagerProvider::CheckIfIMEChanged)> {
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x1822e7440;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckIfIMEChanged", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.OnFocusChanged
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::InputManagerProvider::*)(bool)>(&::UnityEngine::InputForUI::InputManagerProvider::OnFocusChanged)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x1822e9490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"OnFocusChanged", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.GetEventSourceFromPressedKey
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::GetEventSourceFromPressedKey)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1822e8c00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"GetEventSourceFromPressedKey", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.InputManagerJoystickWasPressed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::InputManagerJoystickWasPressed)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1822e8fb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"InputManagerJoystickWasPressed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.InputManagerKeyboardWasPressed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::InputManagerKeyboardWasPressed)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1822e9010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"InputManagerKeyboardWasPressed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.InputManagerGetAxisRawOrDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputForUI::InputManagerProvider::*)(::StringW)>(&::UnityEngine::InputForUI::InputManagerProvider::InputManagerGetAxisRawOrDefault)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x1822e8e40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"InputManagerGetAxisRawOrDefault", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.InputManagerGetButtonDownOrDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider::*)(::StringW)>(&::UnityEngine::InputForUI::InputManagerProvider::InputManagerGetButtonDownOrDefault)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x1822e8ef0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"InputManagerGetButtonDownOrDefault", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.ReadCurrentNavigationMoveVector
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::UnityEngine::Vector2,bool> (::UnityEngine::InputForUI::InputManagerProvider::*)()>(&::UnityEngine::InputForUI::InputManagerProvider::ReadCurrentNavigationMoveVector)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x1822e94e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"ReadCurrentNavigationMoveVector", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.ToIMECompositionEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::IMECompositionEvent (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime, ::StringW)>(&::UnityEngine::InputForUI::InputManagerProvider::ToIMECompositionEvent)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x1822e98c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"ToIMECompositionEvent", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.TiltToAzimuth
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector2)>(&::UnityEngine::InputForUI::InputManagerProvider::TiltToAzimuth)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x180cbf630;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"TiltToAzimuth", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.AzimuthAndAlitutudeToTilt
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t)>(&::UnityEngine::InputForUI::InputManagerProvider::AzimuthAndAlitutudeToTilt)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x180cbd580;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"AzimuthAndAlitutudeToTilt", {}, {::i2c::type_of<float_t>(), ::i2c::type_of<float_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.TiltToAltitude
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector2)>(&::UnityEngine::InputForUI::InputManagerProvider::TiltToAltitude)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x180cbf5e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"TiltToAltitude", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.MultiDisplayBottomLeftToPanelPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::by_ref<int32_t>)>(&::UnityEngine::InputForUI::InputManagerProvider::MultiDisplayBottomLeftToPanelPosition)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x1822e9060;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"MultiDisplayBottomLeftToPanelPosition", {}, {::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::by_ref<int32_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.MultiDisplayToLocalScreenPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::by_ref<::System::Nullable_1<int32_t>>)>(&::UnityEngine::InputForUI::InputManagerProvider::MultiDisplayToLocalScreenPosition)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x1822e91f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"MultiDisplayToLocalScreenPosition", {}, {::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::by_ref<::System::Nullable_1<int32_t>>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.ScreenBottomLeftToPanelPosition
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, int32_t)>(&::UnityEngine::InputForUI::InputManagerProvider::ScreenBottomLeftToPanelPosition)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1822e9600;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"ScreenBottomLeftToPanelPosition", {}, {::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.ScreenBottomLeftToPanelDelta
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2)>(&::UnityEngine::InputForUI::InputManagerProvider::ScreenBottomLeftToPanelDelta)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1822e95e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"ScreenBottomLeftToPanelDelta", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::InputForUI::InputEventPartialProvider*& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__inputEventPartialProvider()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____inputEventPartialProvider;
+}
+constexpr ::UnityEngine::InputForUI::InputEventPartialProvider* const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__inputEventPartialProvider() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____inputEventPartialProvider;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__inputEventPartialProvider(::UnityEngine::InputForUI::InputEventPartialProvider*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____inputEventPartialProvider = value;
+}
+constexpr ::StringW& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__compositionString()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____compositionString;
+}
+constexpr ::StringW const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__compositionString() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____compositionString;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__compositionString(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____compositionString = value;
+}
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_Configuration& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__configuration()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____configuration;
+}
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_Configuration const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__configuration() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____configuration;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__configuration(::UnityEngine::InputForUI::InputManagerProvider_Configuration  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____configuration = value;
+}
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_IInput*& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__input()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____input;
+}
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_IInput* const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__input() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____input;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__input(::UnityEngine::InputForUI::InputManagerProvider_IInput*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____input = value;
+}
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_ITime*& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__time()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____time;
+}
+constexpr ::UnityEngine::InputForUI::InputManagerProvider_ITime* const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__time() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____time;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__time(::UnityEngine::InputForUI::InputManagerProvider_ITime*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____time = value;
+}
+constexpr ::UnityEngine::InputForUI::NavigationEventRepeatHelper*& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__navigationEventRepeatHelper()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____navigationEventRepeatHelper;
+}
+constexpr ::UnityEngine::InputForUI::NavigationEventRepeatHelper* const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__navigationEventRepeatHelper() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____navigationEventRepeatHelper;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__navigationEventRepeatHelper(::UnityEngine::InputForUI::NavigationEventRepeatHelper*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____navigationEventRepeatHelper = value;
+}
+constexpr ::UnityEngine::InputForUI::PointerState& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__mouseState()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mouseState;
+}
+constexpr ::UnityEngine::InputForUI::PointerState const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__mouseState() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mouseState;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__mouseState(::UnityEngine::InputForUI::PointerState  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____mouseState = value;
+}
+constexpr bool& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__isPenPresent()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isPenPresent;
+}
+constexpr bool const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__isPenPresent() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isPenPresent;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__isPenPresent(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isPenPresent = value;
+}
+constexpr bool& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__seenAtLeastOnePenPosition()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____seenAtLeastOnePenPosition;
+}
+constexpr bool const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__seenAtLeastOnePenPosition() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____seenAtLeastOnePenPosition;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__seenAtLeastOnePenPosition(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____seenAtLeastOnePenPosition = value;
+}
+constexpr ::UnityEngine::Vector2& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__lastSeenPenPositionForDetection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lastSeenPenPositionForDetection;
+}
+constexpr ::UnityEngine::Vector2 const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__lastSeenPenPositionForDetection() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lastSeenPenPositionForDetection;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__lastSeenPenPositionForDetection(::UnityEngine::Vector2  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____lastSeenPenPositionForDetection = value;
+}
+constexpr ::UnityEngine::InputForUI::PointerState& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__penState()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____penState;
+}
+constexpr ::UnityEngine::InputForUI::PointerState const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__penState() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____penState;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__penState(::UnityEngine::InputForUI::PointerState  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____penState = value;
+}
+constexpr ::UnityEngine::PenData& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__lastPenData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lastPenData;
+}
+constexpr ::UnityEngine::PenData const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__lastPenData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lastPenData;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__lastPenData(::UnityEngine::PenData  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____lastPenData = value;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__touchFingerIdToFingerIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____touchFingerIdToFingerIndex;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>* const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__touchFingerIdToFingerIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____touchFingerIdToFingerIndex;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__touchFingerIdToFingerIndex(::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____touchFingerIdToFingerIndex = value;
+}
+constexpr int32_t& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__touchNextFingerIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____touchNextFingerIndex;
+}
+constexpr int32_t const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__touchNextFingerIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____touchNextFingerIndex;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__touchNextFingerIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____touchNextFingerIndex = value;
+}
+constexpr ::UnityEngine::InputForUI::PointerState& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__touchState()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____touchState;
+}
+constexpr ::UnityEngine::InputForUI::PointerState const& UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_get__touchState() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____touchState;
+}
+constexpr void UnityEngine::InputForUI::InputManagerProvider::__cordl_internal_set__touchState(::UnityEngine::InputForUI::PointerState  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____touchState = value;
+}
+inline ::UnityEngine::InputForUI::EventModifiers UnityEngine::InputForUI::InputManagerProvider::get__eventModifiers()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"get__eventModifiers", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::EventModifiers>(this, ___internal_method);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::Initialize()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"Initialize", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::Shutdown()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"Shutdown", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::Update()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"Update", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider::CheckTouchEvents(::Unity::IntegerTime::DiscreteTime  currentTime)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckTouchEvents", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, currentTime);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::DetectPen()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"DetectPen", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::InputForUI::PointerEvent_Button UnityEngine::InputForUI::InputManagerProvider::PenStatusToButton(::UnityEngine::PenStatus  status)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"PenStatusToButton", {}, {::i2c::type_of<::UnityEngine::PenStatus>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::PointerEvent_Button>(nullptr, ___internal_method, status);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider::CheckPenEvent(::Unity::IntegerTime::DiscreteTime  currentTime, ::by_ref<::UnityEngine::PenData>  currentPenData)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckPenEvent", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::PenData>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, currentTime, currentPenData);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::CheckMouseEvents(::Unity::IntegerTime::DiscreteTime  currentTime, bool  muted)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckMouseEvents", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime, muted);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::CheckMouseScroll(::Unity::IntegerTime::DiscreteTime  currentTime)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckMouseScroll", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::NextPreviousNavigation(::Unity::IntegerTime::DiscreteTime  currentTime)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"NextPreviousNavigation", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::SubmitCancelNavigation(::Unity::IntegerTime::DiscreteTime  currentTime)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"SubmitCancelNavigation", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::DirectionNavigation(::Unity::IntegerTime::DiscreteTime  currentTime)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"DirectionNavigation", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::CheckIfIMEChanged(::Unity::IntegerTime::DiscreteTime  currentTime)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"CheckIfIMEChanged", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentTime);
+}
+inline void UnityEngine::InputForUI::InputManagerProvider::OnFocusChanged(bool  focus)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"OnFocusChanged", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, focus);
+}
+inline ::UnityEngine::InputForUI::EventSource UnityEngine::InputForUI::InputManagerProvider::GetEventSourceFromPressedKey()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"GetEventSourceFromPressedKey", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::EventSource>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider::InputManagerJoystickWasPressed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"InputManagerJoystickWasPressed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider::InputManagerKeyboardWasPressed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"InputManagerKeyboardWasPressed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline float_t UnityEngine::InputForUI::InputManagerProvider::InputManagerGetAxisRawOrDefault(::StringW  axisName)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"InputManagerGetAxisRawOrDefault", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, axisName);
+}
+inline bool UnityEngine::InputForUI::InputManagerProvider::InputManagerGetButtonDownOrDefault(::StringW  axisName)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"InputManagerGetButtonDownOrDefault", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, axisName);
+}
+inline ::System::ValueTuple_2<::UnityEngine::Vector2,bool> UnityEngine::InputForUI::InputManagerProvider::ReadCurrentNavigationMoveVector()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"ReadCurrentNavigationMoveVector", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<::UnityEngine::Vector2,bool>>(this, ___internal_method);
+}
+inline ::UnityEngine::InputForUI::IMECompositionEvent UnityEngine::InputForUI::InputManagerProvider::ToIMECompositionEvent(::Unity::IntegerTime::DiscreteTime  currentTime, ::StringW  compositionString)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"ToIMECompositionEvent", {}, {::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::IMECompositionEvent>(this, ___internal_method, currentTime, compositionString);
+}
+inline float_t UnityEngine::InputForUI::InputManagerProvider::TiltToAzimuth(::UnityEngine::Vector2  tilt)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"TiltToAzimuth", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, tilt);
+}
+inline ::UnityEngine::Vector2 UnityEngine::InputForUI::InputManagerProvider::AzimuthAndAlitutudeToTilt(float_t  altitude, float_t  azimuth)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"AzimuthAndAlitutudeToTilt", {}, {::i2c::type_of<float_t>(), ::i2c::type_of<float_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, altitude, azimuth);
+}
+inline float_t UnityEngine::InputForUI::InputManagerProvider::TiltToAltitude(::UnityEngine::Vector2  tilt)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"TiltToAltitude", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, tilt);
+}
+inline ::UnityEngine::Vector2 UnityEngine::InputForUI::InputManagerProvider::MultiDisplayBottomLeftToPanelPosition(::UnityEngine::Vector2  position, ::by_ref<int32_t>  targetDisplay)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"MultiDisplayBottomLeftToPanelPosition", {}, {::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::by_ref<int32_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, position, targetDisplay);
+}
+inline ::UnityEngine::Vector2 UnityEngine::InputForUI::InputManagerProvider::MultiDisplayToLocalScreenPosition(::UnityEngine::Vector2  position, ::by_ref<::System::Nullable_1<int32_t>>  targetDisplay)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"MultiDisplayToLocalScreenPosition", {}, {::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::by_ref<::System::Nullable_1<int32_t>>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, position, targetDisplay);
+}
+inline ::UnityEngine::Vector2 UnityEngine::InputForUI::InputManagerProvider::ScreenBottomLeftToPanelPosition(::UnityEngine::Vector2  position, int32_t  targetDisplay)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"ScreenBottomLeftToPanelPosition", {}, {::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, position, targetDisplay);
+}
+inline ::UnityEngine::Vector2 UnityEngine::InputForUI::InputManagerProvider::ScreenBottomLeftToPanelDelta(::UnityEngine::Vector2  delta)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                        {"ScreenBottomLeftToPanelDelta", {}, {::i2c::type_of<::UnityEngine::Vector2>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, delta);
+}
+inline ::UnityEngine::InputForUI::InputManagerProvider* UnityEngine::InputForUI::InputManagerProvider::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputForUI::InputManagerProvider*>());
+}
+/// @brief Convert operator to "::UnityEngine::InputForUI::IEventProviderImpl"
+constexpr  UnityEngine::InputForUI::InputManagerProvider::operator ::UnityEngine::InputForUI::IEventProviderImpl*() noexcept {
+return static_cast<::UnityEngine::InputForUI::IEventProviderImpl*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::InputForUI::IEventProviderImpl"
+constexpr ::UnityEngine::InputForUI::IEventProviderImpl* UnityEngine::InputForUI::InputManagerProvider::i___UnityEngine__InputForUI__IEventProviderImpl() noexcept {
+return static_cast<::UnityEngine::InputForUI::IEventProviderImpl*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputForUI::InputManagerProvider::InputManagerProvider()   {
+}

@@ -1,0 +1,78 @@
+#pragma once
+// IWYU pragma private; include "Epic/OnlineServices/RTCAudio/AudioOutputDeviceInfoInternal.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__IntPtr_def.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(AudioOutputDeviceInfoInternal)
+namespace Epic::OnlineServices::RTCAudio {
+struct AudioOutputDeviceInfo;
+}
+namespace Epic::OnlineServices {
+template<typename T>
+class IGettable_1;
+}
+// Forward declare root types
+namespace Epic::OnlineServices::RTCAudio {
+struct AudioOutputDeviceInfoInternal;
+}
+// Write type traits
+MARK_VAL_T(::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfoInternal);
+DEFINE_IL2CPP_CLASS(::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfoInternal, "Epic.OnlineServices.RTCAudio", "AudioOutputDeviceInfoInternal");
+// Dependencies System.IntPtr
+namespace Epic::OnlineServices::RTCAudio {
+// Is value type: true
+// CS Name: Epic.OnlineServices.RTCAudio.AudioOutputDeviceInfoInternal
+struct CORDL_TYPE AudioOutputDeviceInfoInternal {
+public:
+// Declarations
+/// @brief Convert operator to "::Epic::OnlineServices::IGettable_1<::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo>"
+constexpr operator  ::Epic::OnlineServices::IGettable_1<::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo>*() ;
+
+/// @brief Method Get, addr 0x1804e7090, size 0xd0, virtual true, abstract: false, final true
+inline void Get(::by_ref<::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo>  other) ;
+
+/// @brief Convert to "::Epic::OnlineServices::IGettable_1<::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo>"
+constexpr ::Epic::OnlineServices::IGettable_1<::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfo>* i___Epic__OnlineServices__IGettable_1___Epic__OnlineServices__RTCAudio__AudioOutputDeviceInfo_() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioOutputDeviceInfoInternal() ;
+
+// Ctor Parameters [CppParam { name: "m_ApiVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DefaultDevice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DeviceId", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_DeviceName", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+constexpr AudioOutputDeviceInfoInternal(int32_t  m_ApiVersion, int32_t  m_DefaultDevice, ::System::IntPtr  m_DeviceId, ::System::IntPtr  m_DeviceName) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7960};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
+
+/// @brief Field m_ApiVersion, offset: 0x0, size: 0x4, def value: None
+ int32_t  m_ApiVersion;
+
+/// @brief Field m_DefaultDevice, offset: 0x4, size: 0x4, def value: None
+ int32_t  m_DefaultDevice;
+
+/// @brief Field m_DeviceId, offset: 0x8, size: 0x8, def value: None
+ ::System::IntPtr  m_DeviceId;
+
+/// @brief Field m_DeviceName, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  m_DeviceName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfoInternal, m_ApiVersion) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfoInternal, m_DefaultDevice) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfoInternal, m_DeviceId) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfoInternal, m_DeviceName) == 0x10, "Offset mismatch!");
+
+static_assert(sizeof(::Epic::OnlineServices::RTCAudio::AudioOutputDeviceInfoInternal) == 0x18, "Size mismatch!");
+
+} // namespace end def Epic::OnlineServices::RTCAudio

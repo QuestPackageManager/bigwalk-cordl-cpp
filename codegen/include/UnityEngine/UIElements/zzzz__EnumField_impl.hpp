@@ -1,0 +1,728 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/EnumField.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
+#include "UnityEngine/zzzz__EnumData_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__EnumField_def.hpp"
+#include "System/zzzz__Enum_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AbstractGenericMenu_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EnumField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MouseDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlTypeAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField_UxmlFactory._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField_UxmlFactory::*)()>(&::UnityEngine::UIElements::EnumField_UxmlFactory::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18246dac0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlFactory*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::EnumField_UxmlFactory::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlFactory*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::EnumField_UxmlFactory* UnityEngine::UIElements::EnumField_UxmlFactory::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::EnumField_UxmlFactory*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::EnumField_UxmlFactory::EnumField_UxmlFactory()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField_UxmlTraits.Init
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField_UxmlTraits::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::EnumField_UxmlTraits::Init)> {
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x18246e840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlTraits*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlTraits*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField_UxmlTraits._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField_UxmlTraits::*)()>(&::UnityEngine::UIElements::EnumField_UxmlTraits::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x182470720;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlTraits*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<::System::Enum*>*& UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_get_m_Type()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Type;
+}
+constexpr ::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<::System::Enum*>* const& UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_get_m_Type() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Type;
+}
+constexpr void UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_set_m_Type(::UnityEngine::UIElements::UxmlTypeAttributeDescription_1<::System::Enum*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Type = value;
+}
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_get_m_Value()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Value;
+}
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_get_m_Value() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Value;
+}
+constexpr void UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Value = value;
+}
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_get_m_IncludeObsoleteValues()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IncludeObsoleteValues;
+}
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_get_m_IncludeObsoleteValues() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IncludeObsoleteValues;
+}
+constexpr void UnityEngine::UIElements::EnumField_UxmlTraits::__cordl_internal_set_m_IncludeObsoleteValues(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_IncludeObsoleteValues = value;
+}
+inline void UnityEngine::UIElements::EnumField_UxmlTraits::Init(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlTraits*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, bag, cc);
+}
+inline void UnityEngine::UIElements::EnumField_UxmlTraits::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField_UxmlTraits*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::EnumField_UxmlTraits* UnityEngine::UIElements::EnumField_UxmlTraits::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::EnumField_UxmlTraits*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::EnumField_UxmlTraits::EnumField_UxmlTraits()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField___c._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField___c::*)()>(&::UnityEngine::UIElements::EnumField___c::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField___c.__ctor_b__31_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField___c::*)(::UnityEngine::UIElements::MouseDownEvent*)>(&::UnityEngine::UIElements::EnumField___c::__ctor_b__31_0)> {
+  constexpr static std::size_t size = 0x660;
+  constexpr static std::size_t addrs = 0x1809718d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField___c*>(),
+                        {"<.ctor>b__31_0", {}, {::i2c::type_of<::UnityEngine::UIElements::MouseDownEvent*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::EnumField___c::setStaticF___9(::UnityEngine::UIElements::EnumField___c*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::EnumField___c*, "<>9", ::UnityEngine::UIElements::EnumField___c*>(std::forward<::UnityEngine::UIElements::EnumField___c*>(value));
+}
+inline ::UnityEngine::UIElements::EnumField___c* UnityEngine::UIElements::EnumField___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EnumField___c*, "<>9", ::UnityEngine::UIElements::EnumField___c*>();
+}
+inline void UnityEngine::UIElements::EnumField___c::setStaticF___9__31_0(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__31_0", ::UnityEngine::UIElements::EnumField___c*>(std::forward<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*>(value));
+}
+inline ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* UnityEngine::UIElements::EnumField___c::getStaticF___9__31_0()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__31_0", ::UnityEngine::UIElements::EnumField___c*>();
+}
+inline void UnityEngine::UIElements::EnumField___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::EnumField___c::__ctor_b__31_0(::UnityEngine::UIElements::MouseDownEvent*  e)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField___c*>(),
+                        {"<.ctor>b__31_0", {}, {::i2c::type_of<::UnityEngine::UIElements::MouseDownEvent*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
+}
+inline ::UnityEngine::UIElements::EnumField___c* UnityEngine::UIElements::EnumField___c::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::EnumField___c*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::EnumField___c::EnumField___c()   {
+}
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.get_includeObsoleteValues
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::get_includeObsoleteValues)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824609d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"get_includeObsoleteValues", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.get_text
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::get_text)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1824609e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"get_text", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.Initialize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*)>(&::UnityEngine::UIElements::EnumField::Initialize)> {
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x18245fb70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"Initialize", {}, {::i2c::type_of<::System::Enum*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1824609c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::StringW, ::System::Enum*)>(&::UnityEngine::UIElements::EnumField::_ctor)> {
+  constexpr static std::size_t size = 0x380;
+  constexpr static std::size_t addrs = 0x182460640;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Enum*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.Init
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*)>(&::UnityEngine::UIElements::EnumField::Init)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x18245fa30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"Init", {}, {::i2c::type_of<::System::Enum*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.Init
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*, bool)>(&::UnityEngine::UIElements::EnumField::Init)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x18245fad0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"Init", {}, {::i2c::type_of<::System::Enum*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.PopulateDataFromType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Type*)>(&::UnityEngine::UIElements::EnumField::PopulateDataFromType)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x18245ff30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"PopulateDataFromType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.SetValueWithoutNotify
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*)>(&::UnityEngine::UIElements::EnumField::SetValueWithoutNotify)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x182460000;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 159}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.UpdateValueLabel
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Enum*)>(&::UnityEngine::UIElements::EnumField::UpdateValueLabel)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x182460340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"UpdateValueLabel", {}, {::i2c::type_of<::System::Enum*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.OnPointerDownEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::UnityEngine::UIElements::PointerDownEvent*)>(&::UnityEngine::UIElements::EnumField::OnPointerDownEvent)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18245fef0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"OnPointerDownEvent", {}, {::i2c::type_of<::UnityEngine::UIElements::PointerDownEvent*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.OnPointerMoveEvent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(&::UnityEngine::UIElements::EnumField::OnPointerMoveEvent)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18245ff00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"OnPointerMoveEvent", {}, {::i2c::type_of<::UnityEngine::UIElements::PointerMoveEvent*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.ContainsPointer
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::EnumField::*)(int32_t)>(&::UnityEngine::UIElements::EnumField::ContainsPointer)> {
+  constexpr static std::size_t size = 0x2df0;
+  constexpr static std::size_t addrs = 0x1810f4970;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"ContainsPointer", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.OnNavigationSubmit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::UnityEngine::UIElements::NavigationSubmitEvent*)>(&::UnityEngine::UIElements::EnumField::OnNavigationSubmit)> {
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x18245fd30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"OnNavigationSubmit", {}, {::i2c::type_of<::UnityEngine::UIElements::NavigationSubmitEvent*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.ShowMenu
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::ShowMenu)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x182460070;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"ShowMenu", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.ChangeValueFromMenu
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Object*)>(&::UnityEngine::UIElements::EnumField::ChangeValueFromMenu)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18245f9d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"ChangeValueFromMenu", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField.UpdateMixedValueContent
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)()>(&::UnityEngine::UIElements::EnumField::UpdateMixedValueContent)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x182460220;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 158}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EnumField._ShowMenu_b__42_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EnumField::*)(::System::Object*)>(&::UnityEngine::UIElements::EnumField::_ShowMenu_b__42_0)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18245f9d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"<ShowMenu>b__42_0", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Type*& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_EnumType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_EnumType;
+}
+constexpr ::System::Type* const& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_EnumType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_EnumType;
+}
+constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_m_EnumType(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_EnumType = value;
+}
+constexpr bool& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_IncludeObsoleteValues()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IncludeObsoleteValues;
+}
+constexpr bool const& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_IncludeObsoleteValues() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IncludeObsoleteValues;
+}
+constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_m_IncludeObsoleteValues(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_IncludeObsoleteValues = value;
+}
+constexpr ::UnityEngine::UIElements::TextElement*& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_TextElement()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_TextElement;
+}
+constexpr ::UnityEngine::UIElements::TextElement* const& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_TextElement() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_TextElement;
+}
+constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_TextElement = value;
+}
+constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_ArrowElement()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ArrowElement;
+}
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_ArrowElement() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ArrowElement;
+}
+constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_m_ArrowElement(::UnityEngine::UIElements::VisualElement*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ArrowElement = value;
+}
+constexpr ::UnityEngine::EnumData& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_EnumData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_EnumData;
+}
+constexpr ::UnityEngine::EnumData const& UnityEngine::UIElements::EnumField::__cordl_internal_get_m_EnumData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_EnumData;
+}
+constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_m_EnumData(::UnityEngine::EnumData  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_EnumData = value;
+}
+constexpr ::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>*& UnityEngine::UIElements::EnumField::__cordl_internal_get_createMenuCallback()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___createMenuCallback;
+}
+constexpr ::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>* const& UnityEngine::UIElements::EnumField::__cordl_internal_get_createMenuCallback() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___createMenuCallback;
+}
+constexpr void UnityEngine::UIElements::EnumField::__cordl_internal_set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::AbstractGenericMenu*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___createMenuCallback = value;
+}
+inline void UnityEngine::UIElements::EnumField::setStaticF_textProperty(::UnityEngine::UIElements::BindingId  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "textProperty", ::UnityEngine::UIElements::EnumField*>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::EnumField::getStaticF_textProperty()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "textProperty", ::UnityEngine::UIElements::EnumField*>();
+}
+inline void UnityEngine::UIElements::EnumField::setStaticF_ussClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::EnumField*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::EnumField::getStaticF_ussClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::EnumField*>();
+}
+inline void UnityEngine::UIElements::EnumField::setStaticF_textUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "textUssClassName", ::UnityEngine::UIElements::EnumField*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::EnumField::getStaticF_textUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "textUssClassName", ::UnityEngine::UIElements::EnumField*>();
+}
+inline void UnityEngine::UIElements::EnumField::setStaticF_arrowUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "arrowUssClassName", ::UnityEngine::UIElements::EnumField*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::EnumField::getStaticF_arrowUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "arrowUssClassName", ::UnityEngine::UIElements::EnumField*>();
+}
+inline void UnityEngine::UIElements::EnumField::setStaticF_labelUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "labelUssClassName", ::UnityEngine::UIElements::EnumField*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::EnumField::getStaticF_labelUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "labelUssClassName", ::UnityEngine::UIElements::EnumField*>();
+}
+inline void UnityEngine::UIElements::EnumField::setStaticF_inputUssClassName(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "inputUssClassName", ::UnityEngine::UIElements::EnumField*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::EnumField::getStaticF_inputUssClassName()  {
+return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::UnityEngine::UIElements::EnumField*>();
+}
+inline bool UnityEngine::UIElements::EnumField::get_includeObsoleteValues()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"get_includeObsoleteValues", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::StringW UnityEngine::UIElements::EnumField::get_text()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"get_text", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::EnumField::Initialize(::System::Enum*  defaultValue)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"Initialize", {}, {::i2c::type_of<::System::Enum*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, defaultValue);
+}
+inline void UnityEngine::UIElements::EnumField::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::EnumField::_ctor(::StringW  label, ::System::Enum*  defaultValue)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Enum*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, label, defaultValue);
+}
+inline void UnityEngine::UIElements::EnumField::Init(::System::Enum*  defaultValue)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"Init", {}, {::i2c::type_of<::System::Enum*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, defaultValue);
+}
+inline void UnityEngine::UIElements::EnumField::Init(::System::Enum*  defaultValue, bool  includeObsoleteValues)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"Init", {}, {::i2c::type_of<::System::Enum*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, defaultValue, includeObsoleteValues);
+}
+inline void UnityEngine::UIElements::EnumField::PopulateDataFromType(::System::Type*  enumType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"PopulateDataFromType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, enumType);
+}
+inline void UnityEngine::UIElements::EnumField::SetValueWithoutNotify(::System::Enum*  newValue)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 159}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
+}
+inline void UnityEngine::UIElements::EnumField::UpdateValueLabel(::System::Enum*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"UpdateValueLabel", {}, {::i2c::type_of<::System::Enum*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::EnumField::OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"OnPointerDownEvent", {}, {::i2c::type_of<::UnityEngine::UIElements::PointerDownEvent*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::EnumField::OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"OnPointerMoveEvent", {}, {::i2c::type_of<::UnityEngine::UIElements::PointerMoveEvent*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline bool UnityEngine::UIElements::EnumField::ContainsPointer(int32_t  pointerId)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"ContainsPointer", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pointerId);
+}
+template<typename T>
+inline void UnityEngine::UIElements::EnumField::ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>*  evt)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                    {"ProcessPointerDown", {::i2c::class_of<T>()}, {::i2c::type_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<T>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::EnumField::OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent*  evt)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"OnNavigationSubmit", {}, {::i2c::type_of<::UnityEngine::UIElements::NavigationSubmitEvent*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::EnumField::ShowMenu()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"ShowMenu", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::EnumField::ChangeValueFromMenu(::System::Object*  menuItem)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"ChangeValueFromMenu", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, menuItem);
+}
+inline void UnityEngine::UIElements::EnumField::UpdateMixedValueContent()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), 158}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::EnumField::_ShowMenu_b__42_0(::System::Object*  contentView)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
+                        {"<ShowMenu>b__42_0", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, contentView);
+}
+inline ::UnityEngine::UIElements::EnumField* UnityEngine::UIElements::EnumField::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::EnumField*>());
+}
+inline ::UnityEngine::UIElements::EnumField* UnityEngine::UIElements::EnumField::New_ctor(::StringW  label, ::System::Enum*  defaultValue)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::EnumField*>(label, defaultValue));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::EnumField::EnumField()   {
+}

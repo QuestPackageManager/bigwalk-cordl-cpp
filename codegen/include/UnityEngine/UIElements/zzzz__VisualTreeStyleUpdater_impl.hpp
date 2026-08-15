@@ -1,0 +1,288 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeStyleUpdater.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeStyleUpdater_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeStyleUpdaterTraversal_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdater.get_profilerMarker
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualTreeStyleUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeStyleUpdater::get_profilerMarker)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18241def0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdater.OnVersionChanged
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdater::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeStyleUpdater::OnVersionChanged)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18241da70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdater.Update
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeStyleUpdater::Update)> {
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x18241daf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdater.get_disposed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualTreeStyleUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeStyleUpdater::get_disposed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f8060;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                        {"get_disposed", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdater.set_disposed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdater::*)(bool)>(&::UnityEngine::UIElements::VisualTreeStyleUpdater::set_disposed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f8090;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                        {"set_disposed", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdater.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdater::*)(bool)>(&::UnityEngine::UIElements::VisualTreeStyleUpdater::Dispose)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18241da00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                    {::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdater.ApplyStyles
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeStyleUpdater::ApplyStyles)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x18241d930;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                        {"ApplyStyles", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdater._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeStyleUpdater::_ctor)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18241de40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_ApplyStyleUpdateList()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ApplyStyleUpdateList;
+}
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_ApplyStyleUpdateList() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ApplyStyleUpdateList;
+}
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_ApplyStyleUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_ApplyStyleUpdateList = value;
+}
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_TransitionPropertyUpdateList()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_TransitionPropertyUpdateList;
+}
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_TransitionPropertyUpdateList() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_TransitionPropertyUpdateList;
+}
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_TransitionPropertyUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_TransitionPropertyUpdateList = value;
+}
+constexpr bool& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_IsApplyingStyles()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IsApplyingStyles;
+}
+constexpr bool const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_IsApplyingStyles() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IsApplyingStyles;
+}
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_IsApplyingStyles(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_IsApplyingStyles = value;
+}
+constexpr uint32_t& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_Version()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Version;
+}
+constexpr uint32_t const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_Version() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Version;
+}
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_Version(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Version = value;
+}
+constexpr uint32_t& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_LastVersion()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LastVersion;
+}
+constexpr uint32_t const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_LastVersion() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LastVersion;
+}
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_LastVersion(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_LastVersion = value;
+}
+constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_StyleContextHierarchyTraversal()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_StyleContextHierarchyTraversal;
+}
+constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get_m_StyleContextHierarchyTraversal() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_StyleContextHierarchyTraversal;
+}
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set_m_StyleContextHierarchyTraversal(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_StyleContextHierarchyTraversal = value;
+}
+constexpr bool& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get__disposed_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disposed_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_get__disposed_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disposed_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::VisualTreeStyleUpdater::__cordl_internal_set__disposed_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____disposed_k__BackingField = value;
+}
+inline void UnityEngine::UIElements::VisualTreeStyleUpdater::setStaticF_s_Description(::StringW  value)  {
+::cordl_internals::setStaticField<::StringW, "s_Description", ::UnityEngine::UIElements::VisualTreeStyleUpdater*>(std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::VisualTreeStyleUpdater::getStaticF_s_Description()  {
+return ::cordl_internals::getStaticField<::StringW, "s_Description", ::UnityEngine::UIElements::VisualTreeStyleUpdater*>();
+}
+inline void UnityEngine::UIElements::VisualTreeStyleUpdater::setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker  value)  {
+::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "s_ProfilerMarker", ::UnityEngine::UIElements::VisualTreeStyleUpdater*>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::VisualTreeStyleUpdater::getStaticF_s_ProfilerMarker()  {
+return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "s_ProfilerMarker", ::UnityEngine::UIElements::VisualTreeStyleUpdater*>();
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::VisualTreeStyleUpdater::get_profilerMarker()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerMarker>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualTreeStyleUpdater::OnVersionChanged(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, versionChangeType);
+}
+inline void UnityEngine::UIElements::VisualTreeStyleUpdater::Update()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::VisualTreeStyleUpdater::get_disposed()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                        {"get_disposed", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualTreeStyleUpdater::set_disposed(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                        {"set_disposed", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::UIElements::VisualTreeStyleUpdater::Dispose(bool  disposing)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
+}
+inline void UnityEngine::UIElements::VisualTreeStyleUpdater::ApplyStyles()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                        {"ApplyStyles", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualTreeStyleUpdater::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdater*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::VisualTreeStyleUpdater* UnityEngine::UIElements::VisualTreeStyleUpdater::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::VisualTreeStyleUpdater*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdater::VisualTreeStyleUpdater()   {
+}

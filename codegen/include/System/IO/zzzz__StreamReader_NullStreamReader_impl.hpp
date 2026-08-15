@@ -1,0 +1,232 @@
+#pragma once
+// IWYU pragma private; include "System/IO/StreamReader_NullStreamReader.hpp"
+#include "System/IO/zzzz__StreamReader_impl.hpp"
+#include "System/IO/zzzz__StreamReader_NullStreamReader_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1816d8240;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.get_BaseStream
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::get_BaseStream)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1816d82c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.get_CurrentEncoding
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::get_CurrentEncoding)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1816d8300;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 18}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StreamReader_NullStreamReader::*)(bool)>(&::GlobalNamespace::StreamReader_NullStreamReader::Dispose)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.Peek
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::Peek)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180393450;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::Read)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180393450;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.Read
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StreamReader_NullStreamReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::GlobalNamespace::StreamReader_NullStreamReader::Read)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.ReadLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::ReadLine)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.ReadToEnd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::ReadToEnd)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x180393520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::StreamReader_NullStreamReader.ReadBuffer
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::ReadBuffer)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dd520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                    {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::StreamReader_NullStreamReader::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::IO::Stream* GlobalNamespace::StreamReader_NullStreamReader::get_BaseStream()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*>(this, ___internal_method);
+}
+inline ::System::Text::Encoding* GlobalNamespace::StreamReader_NullStreamReader::get_CurrentEncoding()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 18}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Text::Encoding*>(this, ___internal_method);
+}
+inline void GlobalNamespace::StreamReader_NullStreamReader::Dispose(bool  disposing)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
+}
+inline int32_t GlobalNamespace::StreamReader_NullStreamReader::Peek()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t GlobalNamespace::StreamReader_NullStreamReader::Read()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t GlobalNamespace::StreamReader_NullStreamReader::Read(::ArrayW<char16_t>  buffer, int32_t  index, int32_t  count)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, index, count);
+}
+inline ::StringW GlobalNamespace::StreamReader_NullStreamReader::ReadLine()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW GlobalNamespace::StreamReader_NullStreamReader::ReadToEnd()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline int32_t GlobalNamespace::StreamReader_NullStreamReader::ReadBuffer()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::GlobalNamespace::StreamReader_NullStreamReader* GlobalNamespace::StreamReader_NullStreamReader::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::StreamReader_NullStreamReader*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::StreamReader_NullStreamReader::StreamReader_NullStreamReader()   {
+}

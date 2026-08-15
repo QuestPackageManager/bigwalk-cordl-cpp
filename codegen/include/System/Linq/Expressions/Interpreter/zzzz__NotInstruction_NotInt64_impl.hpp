@@ -1,0 +1,55 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotInstruction_NotInt64.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__NotInstruction_impl.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__NotInstruction_NotInt64_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::NotInstruction_NotInt64.Run
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NotInstruction_NotInt64::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::NotInstruction_NotInt64::Run)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181b2e510;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::NotInstruction_NotInt64*>(),
+                    {::i2c::class_of<::GlobalNamespace::NotInstruction_NotInt64*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NotInstruction_NotInt64._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NotInstruction_NotInt64::*)()>(&::GlobalNamespace::NotInstruction_NotInt64::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::NotInstruction_NotInt64*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline int32_t GlobalNamespace::NotInstruction_NotInt64::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::NotInstruction_NotInt64*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
+}
+inline void GlobalNamespace::NotInstruction_NotInt64::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::NotInstruction_NotInt64*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NotInstruction_NotInt64* GlobalNamespace::NotInstruction_NotInt64::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NotInstruction_NotInt64*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::NotInstruction_NotInt64::NotInstruction_NotInt64()   {
+}

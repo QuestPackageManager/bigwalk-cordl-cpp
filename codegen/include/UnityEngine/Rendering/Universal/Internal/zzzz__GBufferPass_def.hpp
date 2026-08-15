@@ -1,0 +1,393 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/GBufferPass.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_def.hpp"
+#include "UnityEngine/Rendering/zzzz__FilteringSettings_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderStateBlock_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(GBufferPass)
+namespace UnityEngine::Rendering::RenderGraphModule {
+template<typename PassData,typename ContextType>
+class BaseRenderFunc_2;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct RasterGraphContext;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+class RenderGraph;
+}
+namespace UnityEngine::Rendering::RenderGraphModule {
+struct TextureHandle;
+}
+namespace UnityEngine::Rendering::Universal::Internal {
+class DeferredLights;
+}
+namespace UnityEngine::Rendering::Universal::Internal {
+class GBufferPass_PassData;
+}
+namespace UnityEngine::Rendering::Universal::Internal {
+class GBufferPass___c;
+}
+namespace UnityEngine::Rendering::Universal {
+struct RenderPassEvent;
+}
+namespace UnityEngine::Rendering::Universal {
+class UniversalCameraData;
+}
+namespace UnityEngine::Rendering::Universal {
+class UniversalLightData;
+}
+namespace UnityEngine::Rendering::Universal {
+class UniversalRenderingData;
+}
+namespace UnityEngine::Rendering {
+class ContextContainer;
+}
+namespace UnityEngine::Rendering {
+class RasterCommandBuffer;
+}
+namespace UnityEngine::Rendering {
+struct RenderQueueRange;
+}
+namespace UnityEngine::Rendering {
+struct RendererList;
+}
+namespace UnityEngine::Rendering {
+struct ScriptableRenderContext;
+}
+namespace UnityEngine::Rendering {
+struct StencilState;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering::Universal::Internal {
+class GBufferPass;
+}
+namespace UnityEngine::Rendering::Universal::Internal {
+class GBufferPass_PassData;
+}
+namespace UnityEngine::Rendering::Universal::Internal {
+class GBufferPass___c;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::Universal::Internal::GBufferPass*);
+MARK_REF_T(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*);
+MARK_REF_T(::UnityEngine::Rendering::Universal::Internal::GBufferPass___c*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::Internal::GBufferPass*, "UnityEngine.Rendering.Universal.Internal", "GBufferPass");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*, "UnityEngine.Rendering.Universal.Internal", "GBufferPass/PassData");
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::Internal::GBufferPass___c*, "UnityEngine.Rendering.Universal.Internal", "GBufferPass/<>c");
+// Dependencies System.Object, UnityEngine.Rendering.RenderGraphModule.RendererListHandle, UnityEngine.Rendering.RenderGraphModule.TextureHandle
+namespace UnityEngine::Rendering::Universal::Internal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.Internal.GBufferPass/PassData
+class CORDL_TYPE GBufferPass_PassData : public ::System::Object {
+public:
+// Declarations
+/// @brief Field deferredLights, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_deferredLights, put=__cordl_internal_set_deferredLights)) ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  deferredLights;
+
+/// @brief Field objectsWithErrorRendererListHdl, offset 0x24, size 0xc 
+ __declspec(property(get=__cordl_internal_get_objectsWithErrorRendererListHdl, put=__cordl_internal_set_objectsWithErrorRendererListHdl)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  objectsWithErrorRendererListHdl;
+
+/// @brief Field rendererListHdl, offset 0x18, size 0xc 
+ __declspec(property(get=__cordl_internal_get_rendererListHdl, put=__cordl_internal_set_rendererListHdl)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  rendererListHdl;
+
+/// @brief Field screenSpaceIrradianceHdl, offset 0x30, size 0x10 
+ __declspec(property(get=__cordl_internal_get_screenSpaceIrradianceHdl, put=__cordl_internal_set_screenSpaceIrradianceHdl)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  screenSpaceIrradianceHdl;
+
+static inline ::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData* New_ctor() ;
+
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights* const& __cordl_internal_get_deferredLights() const;
+
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights*& __cordl_internal_get_deferredLights() ;
+
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_objectsWithErrorRendererListHdl() const;
+
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_objectsWithErrorRendererListHdl() ;
+
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_rendererListHdl() const;
+
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_rendererListHdl() ;
+
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_screenSpaceIrradianceHdl() const;
+
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_screenSpaceIrradianceHdl() ;
+
+constexpr void __cordl_internal_set_deferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights*  value) ;
+
+constexpr void __cordl_internal_set_objectsWithErrorRendererListHdl(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  value) ;
+
+constexpr void __cordl_internal_set_rendererListHdl(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  value) ;
+
+constexpr void __cordl_internal_set_screenSpaceIrradianceHdl(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  value) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr GBufferPass_PassData() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "GBufferPass_PassData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GBufferPass_PassData(GBufferPass_PassData && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "GBufferPass_PassData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GBufferPass_PassData(GBufferPass_PassData const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12735};
+
+/// @brief Field deferredLights, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  ___deferredLights;
+
+/// @brief Field rendererListHdl, offset: 0x18, size: 0xc, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  ___rendererListHdl;
+
+/// @brief Field objectsWithErrorRendererListHdl, offset: 0x24, size: 0xc, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  ___objectsWithErrorRendererListHdl;
+
+/// @brief Field screenSpaceIrradianceHdl, offset: 0x30, size: 0x10, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  ___screenSpaceIrradianceHdl;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData, ___deferredLights) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData, ___rendererListHdl) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData, ___objectsWithErrorRendererListHdl) == 0x24, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData, ___screenSpaceIrradianceHdl) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData) == 0x40, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal::Internal
+// Dependencies System.Object
+namespace UnityEngine::Rendering::Universal::Internal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.Internal.GBufferPass/<>c
+class CORDL_TYPE GBufferPass___c : public ::System::Object {
+public:
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::Universal::Internal::GBufferPass___c*  __9;
+
+/// @brief Field <>9__18_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__18_0, put=setStaticF___9__18_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  __9__18_0;
+
+static inline ::UnityEngine::Rendering::Universal::Internal::GBufferPass___c* New_ctor() ;
+
+/// @brief Method <Render>b__18_0, addr 0x182160470, size 0x210, virtual false, abstract: false, final false
+inline void _Render_b__18_0(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  context) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::UnityEngine::Rendering::Universal::Internal::GBufferPass___c* getStaticF___9() ;
+
+static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* getStaticF___9__18_0() ;
+
+static inline void setStaticF___9(::UnityEngine::Rendering::Universal::Internal::GBufferPass___c*  value) ;
+
+static inline void setStaticF___9__18_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr GBufferPass___c() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "GBufferPass___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GBufferPass___c(GBufferPass___c && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "GBufferPass___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GBufferPass___c(GBufferPass___c const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12736};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::GBufferPass___c) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal::Internal
+// Dependencies UnityEngine.Rendering.FilteringSettings, UnityEngine.Rendering.RenderStateBlock, UnityEngine.Rendering.ShaderTagId, UnityEngine.Rendering.Universal.ScriptableRenderPass
+namespace UnityEngine::Rendering::Universal::Internal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.Internal.GBufferPass
+class CORDL_TYPE GBufferPass : public ::UnityEngine::Rendering::Universal::ScriptableRenderPass {
+public:
+// Declarations
+using PassData = ::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData;
+
+using __c = ::UnityEngine::Rendering::Universal::Internal::GBufferPass___c;
+
+/// @brief Field m_DeferredLights, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_DeferredLights, put=__cordl_internal_set_m_DeferredLights)) ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  m_DeferredLights;
+
+/// @brief Field m_FilteringSettings, offset 0x68, size 0x20 
+ __declspec(property(get=__cordl_internal_get_m_FilteringSettings, put=__cordl_internal_set_m_FilteringSettings)) ::UnityEngine::Rendering::FilteringSettings  m_FilteringSettings;
+
+/// @brief Field m_RenderStateBlock, offset 0x88, size 0x6c 
+ __declspec(property(get=__cordl_internal_get_m_RenderStateBlock, put=__cordl_internal_set_m_RenderStateBlock)) ::UnityEngine::Rendering::RenderStateBlock  m_RenderStateBlock;
+
+/// @brief Field s_CameraNormalsTextureID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_CameraNormalsTextureID, put=setStaticF_s_CameraNormalsTextureID)) int32_t  s_CameraNormalsTextureID;
+
+/// @brief Field s_CameraRenderingLayersTextureID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_CameraRenderingLayersTextureID, put=setStaticF_s_CameraRenderingLayersTextureID)) int32_t  s_CameraRenderingLayersTextureID;
+
+/// @brief Field s_RenderStateBlocks, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_RenderStateBlocks, put=setStaticF_s_RenderStateBlocks)) ::ArrayW<::UnityEngine::Rendering::RenderStateBlock>  s_RenderStateBlocks;
+
+/// @brief Field s_ShaderTagComplexLit, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ShaderTagComplexLit, put=setStaticF_s_ShaderTagComplexLit)) ::UnityEngine::Rendering::ShaderTagId  s_ShaderTagComplexLit;
+
+/// @brief Field s_ShaderTagLit, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ShaderTagLit, put=setStaticF_s_ShaderTagLit)) ::UnityEngine::Rendering::ShaderTagId  s_ShaderTagLit;
+
+/// @brief Field s_ShaderTagSimpleLit, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ShaderTagSimpleLit, put=setStaticF_s_ShaderTagSimpleLit)) ::UnityEngine::Rendering::ShaderTagId  s_ShaderTagSimpleLit;
+
+/// @brief Field s_ShaderTagUniversalGBuffer, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ShaderTagUniversalGBuffer, put=setStaticF_s_ShaderTagUniversalGBuffer)) ::UnityEngine::Rendering::ShaderTagId  s_ShaderTagUniversalGBuffer;
+
+/// @brief Field s_ShaderTagUniversalMaterialType, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ShaderTagUniversalMaterialType, put=setStaticF_s_ShaderTagUniversalMaterialType)) ::UnityEngine::Rendering::ShaderTagId  s_ShaderTagUniversalMaterialType;
+
+/// @brief Field s_ShaderTagUnlit, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_ShaderTagUnlit, put=setStaticF_s_ShaderTagUnlit)) ::UnityEngine::Rendering::ShaderTagId  s_ShaderTagUnlit;
+
+/// @brief Field s_ShaderTagValues, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_ShaderTagValues, put=setStaticF_s_ShaderTagValues)) ::ArrayW<::UnityEngine::Rendering::ShaderTagId>  s_ShaderTagValues;
+
+/// @brief Method Dispose, addr 0x18215dfb0, size 0x20, virtual false, abstract: false, final false
+inline void Dispose() ;
+
+/// @brief Method ExecutePass, addr 0x18215dfd0, size 0x1b0, virtual false, abstract: false, final false
+static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*  data, ::UnityEngine::Rendering::RendererList  rendererList, ::UnityEngine::Rendering::RendererList  errorRendererList) ;
+
+/// @brief Method InitRendererLists, addr 0x18215e180, size 0x410, virtual false, abstract: false, final false
+inline void InitRendererLists(::by_ref<::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*>  passData, ::UnityEngine::Rendering::ScriptableRenderContext  context, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::Universal::UniversalRenderingData*  renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData*  cameraData, ::UnityEngine::Rendering::Universal::UniversalLightData*  lightData, bool  useRenderGraph, uint32_t  batchLayerMask) ;
+
+static inline ::UnityEngine::Rendering::Universal::Internal::GBufferPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, ::UnityEngine::Rendering::RenderQueueRange  renderQueueRange, ::UnityEngine::LayerMask  layerMask, ::UnityEngine::Rendering::StencilState  stencilState, int32_t  stencilReference, ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  deferredLights) ;
+
+/// @brief Method Render, addr 0x18215e590, size 0x7d0, virtual false, abstract: false, final false
+inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  cameraColor, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  cameraDepth, bool  setGlobalTextures, uint32_t  batchLayerMask) ;
+
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights* const& __cordl_internal_get_m_DeferredLights() const;
+
+constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights*& __cordl_internal_get_m_DeferredLights() ;
+
+constexpr ::UnityEngine::Rendering::FilteringSettings const& __cordl_internal_get_m_FilteringSettings() const;
+
+constexpr ::UnityEngine::Rendering::FilteringSettings& __cordl_internal_get_m_FilteringSettings() ;
+
+constexpr ::UnityEngine::Rendering::RenderStateBlock const& __cordl_internal_get_m_RenderStateBlock() const;
+
+constexpr ::UnityEngine::Rendering::RenderStateBlock& __cordl_internal_get_m_RenderStateBlock() ;
+
+constexpr void __cordl_internal_set_m_DeferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights*  value) ;
+
+constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings  value) ;
+
+constexpr void __cordl_internal_set_m_RenderStateBlock(::UnityEngine::Rendering::RenderStateBlock  value) ;
+
+/// @brief Method .ctor, addr 0x18215eec0, size 0x740, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, ::UnityEngine::Rendering::RenderQueueRange  renderQueueRange, ::UnityEngine::LayerMask  layerMask, ::UnityEngine::Rendering::StencilState  stencilState, int32_t  stencilReference, ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  deferredLights) ;
+
+static inline int32_t getStaticF_s_CameraNormalsTextureID() ;
+
+static inline int32_t getStaticF_s_CameraRenderingLayersTextureID() ;
+
+static inline ::ArrayW<::UnityEngine::Rendering::RenderStateBlock> getStaticF_s_RenderStateBlocks() ;
+
+static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_ShaderTagComplexLit() ;
+
+static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_ShaderTagLit() ;
+
+static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_ShaderTagSimpleLit() ;
+
+static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_ShaderTagUniversalGBuffer() ;
+
+static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_ShaderTagUniversalMaterialType() ;
+
+static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_ShaderTagUnlit() ;
+
+static inline ::ArrayW<::UnityEngine::Rendering::ShaderTagId> getStaticF_s_ShaderTagValues() ;
+
+static inline void setStaticF_s_CameraNormalsTextureID(int32_t  value) ;
+
+static inline void setStaticF_s_CameraRenderingLayersTextureID(int32_t  value) ;
+
+static inline void setStaticF_s_RenderStateBlocks(::ArrayW<::UnityEngine::Rendering::RenderStateBlock>  value) ;
+
+static inline void setStaticF_s_ShaderTagComplexLit(::UnityEngine::Rendering::ShaderTagId  value) ;
+
+static inline void setStaticF_s_ShaderTagLit(::UnityEngine::Rendering::ShaderTagId  value) ;
+
+static inline void setStaticF_s_ShaderTagSimpleLit(::UnityEngine::Rendering::ShaderTagId  value) ;
+
+static inline void setStaticF_s_ShaderTagUniversalGBuffer(::UnityEngine::Rendering::ShaderTagId  value) ;
+
+static inline void setStaticF_s_ShaderTagUniversalMaterialType(::UnityEngine::Rendering::ShaderTagId  value) ;
+
+static inline void setStaticF_s_ShaderTagUnlit(::UnityEngine::Rendering::ShaderTagId  value) ;
+
+static inline void setStaticF_s_ShaderTagValues(::ArrayW<::UnityEngine::Rendering::ShaderTagId>  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr GBufferPass() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "GBufferPass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GBufferPass(GBufferPass && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "GBufferPass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GBufferPass(GBufferPass const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12737};
+
+/// @brief Field m_DeferredLights, offset: 0x60, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::Internal::DeferredLights*  ___m_DeferredLights;
+
+/// @brief Field m_FilteringSettings, offset: 0x68, size: 0x20, def value: None
+ ::UnityEngine::Rendering::FilteringSettings  ___m_FilteringSettings;
+
+/// @brief Field m_RenderStateBlock, offset: 0x88, size: 0x6c, def value: None
+ ::UnityEngine::Rendering::RenderStateBlock  ___m_RenderStateBlock;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::GBufferPass, ___m_DeferredLights) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::GBufferPass, ___m_FilteringSettings) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::GBufferPass, ___m_RenderStateBlock) == 0x88, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::GBufferPass) == 0xf8, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal::Internal

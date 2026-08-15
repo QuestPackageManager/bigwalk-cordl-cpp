@@ -1,0 +1,205 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/AnimatorControllerParameter.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__AnimatorControllerParameterType_impl.hpp"
+#include "UnityEngine/zzzz__AnimatorControllerParameter_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__AnimatorControllerParameterType_def.hpp"
+//  Writing Method size for method: ::UnityEngine::AnimatorControllerParameter.get_name
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AnimatorControllerParameter::*)()>(&::UnityEngine::AnimatorControllerParameter::get_name)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                        {"get_name", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AnimatorControllerParameter.get_nameHash
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::AnimatorControllerParameter::*)()>(&::UnityEngine::AnimatorControllerParameter::get_nameHash)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x182231e10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                        {"get_nameHash", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AnimatorControllerParameter.get_type
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AnimatorControllerParameterType (::UnityEngine::AnimatorControllerParameter::*)()>(&::UnityEngine::AnimatorControllerParameter::get_type)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f41a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                        {"get_type", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AnimatorControllerParameter.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AnimatorControllerParameter::*)(::System::Object*)>(&::UnityEngine::AnimatorControllerParameter::Equals)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x182231d70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                    {::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AnimatorControllerParameter.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::AnimatorControllerParameter::*)()>(&::UnityEngine::AnimatorControllerParameter::GetHashCode)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1815e9a20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                    {::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AnimatorControllerParameter._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AnimatorControllerParameter::*)()>(&::UnityEngine::AnimatorControllerParameter::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181acbe10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_Name()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Name;
+}
+constexpr ::StringW const& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_Name() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Name;
+}
+constexpr void UnityEngine::AnimatorControllerParameter::__cordl_internal_set_m_Name(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Name = value;
+}
+constexpr ::UnityEngine::AnimatorControllerParameterType& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_Type()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Type;
+}
+constexpr ::UnityEngine::AnimatorControllerParameterType const& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_Type() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Type;
+}
+constexpr void UnityEngine::AnimatorControllerParameter::__cordl_internal_set_m_Type(::UnityEngine::AnimatorControllerParameterType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Type = value;
+}
+constexpr float_t& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_DefaultFloat()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DefaultFloat;
+}
+constexpr float_t const& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_DefaultFloat() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DefaultFloat;
+}
+constexpr void UnityEngine::AnimatorControllerParameter::__cordl_internal_set_m_DefaultFloat(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_DefaultFloat = value;
+}
+constexpr int32_t& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_DefaultInt()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DefaultInt;
+}
+constexpr int32_t const& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_DefaultInt() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DefaultInt;
+}
+constexpr void UnityEngine::AnimatorControllerParameter::__cordl_internal_set_m_DefaultInt(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_DefaultInt = value;
+}
+constexpr bool& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_DefaultBool()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DefaultBool;
+}
+constexpr bool const& UnityEngine::AnimatorControllerParameter::__cordl_internal_get_m_DefaultBool() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DefaultBool;
+}
+constexpr void UnityEngine::AnimatorControllerParameter::__cordl_internal_set_m_DefaultBool(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_DefaultBool = value;
+}
+inline ::StringW UnityEngine::AnimatorControllerParameter::get_name()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                        {"get_name", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline int32_t UnityEngine::AnimatorControllerParameter::get_nameHash()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                        {"get_nameHash", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::UnityEngine::AnimatorControllerParameterType UnityEngine::AnimatorControllerParameter::get_type()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                        {"get_type", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::AnimatorControllerParameterType>(this, ___internal_method);
+}
+inline bool UnityEngine::AnimatorControllerParameter::Equals(::System::Object*  o)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, o);
+}
+inline int32_t UnityEngine::AnimatorControllerParameter::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline void UnityEngine::AnimatorControllerParameter::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::AnimatorControllerParameter*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::AnimatorControllerParameter* UnityEngine::AnimatorControllerParameter::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AnimatorControllerParameter*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::AnimatorControllerParameter::AnimatorControllerParameter()   {
+}

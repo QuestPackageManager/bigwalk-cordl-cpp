@@ -1,0 +1,115 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CastInstruction_CastInstructionNoT.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__CastInstruction_impl.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__CastInstruction_CastInstructionNoT_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__CastInstruction_CastInstructionNoT_Ref_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__CastInstruction_CastInstructionNoT_Value_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__CastInstruction_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::CastInstruction_CastInstructionNoT._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CastInstruction_CastInstructionNoT::*)(::System::Type*)>(&::GlobalNamespace::CastInstruction_CastInstructionNoT::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x180308500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::CastInstruction_CastInstructionNoT.Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Interpreter::CastInstruction* (*)(::System::Type*)>(&::GlobalNamespace::CastInstruction_CastInstructionNoT::Create)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181b20950;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(),
+                        {"Create", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::CastInstruction_CastInstructionNoT.Run
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CastInstruction_CastInstructionNoT::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::CastInstruction_CastInstructionNoT::Run)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x181b209b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(),
+                    {::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::CastInstruction_CastInstructionNoT.ConvertNull
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CastInstruction_CastInstructionNoT::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::CastInstruction_CastInstructionNoT::ConvertNull)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(),
+                    {::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Type*& GlobalNamespace::CastInstruction_CastInstructionNoT::__cordl_internal_get__t()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____t;
+}
+constexpr ::System::Type* const& GlobalNamespace::CastInstruction_CastInstructionNoT::__cordl_internal_get__t() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____t;
+}
+constexpr void GlobalNamespace::CastInstruction_CastInstructionNoT::__cordl_internal_set__t(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____t = value;
+}
+inline void GlobalNamespace::CastInstruction_CastInstructionNoT::_ctor(::System::Type*  t)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
+}
+inline ::System::Linq::Expressions::Interpreter::CastInstruction* GlobalNamespace::CastInstruction_CastInstructionNoT::Create(::System::Type*  t)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(),
+                        {"Create", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Interpreter::CastInstruction*>(nullptr, ___internal_method, t);
+}
+inline int32_t GlobalNamespace::CastInstruction_CastInstructionNoT::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
+}
+inline void GlobalNamespace::CastInstruction_CastInstructionNoT::ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, frame);
+}
+inline ::GlobalNamespace::CastInstruction_CastInstructionNoT* GlobalNamespace::CastInstruction_CastInstructionNoT::New_ctor(::System::Type*  t)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::CastInstruction_CastInstructionNoT*>(t));
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::CastInstruction_CastInstructionNoT::CastInstruction_CastInstructionNoT()   {
+}

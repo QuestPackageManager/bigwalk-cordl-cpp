@@ -1,0 +1,227 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRendererResources.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(UniversalRendererResources)
+namespace UnityEngine::Rendering {
+class IRenderPipelineGraphicsSettings;
+}
+namespace UnityEngine::Rendering {
+class IRenderPipelineResources;
+}
+namespace UnityEngine {
+class Shader;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering::Universal {
+class UniversalRendererResources;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRendererResources*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRendererResources*, "UnityEngine.Rendering.Universal", "UniversalRendererResources");
+// Dependencies System.Object
+namespace UnityEngine::Rendering::Universal {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.Universal.UniversalRendererResources
+class CORDL_TYPE UniversalRendererResources : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)) bool  UnityEngine_Rendering_IRenderPipelineGraphicsSettings_isAvailableInPlayerBuild;
+
+ __declspec(property(get=get_cameraMotionVector, put=set_cameraMotionVector)) ::UnityW<::UnityEngine::Shader>  cameraMotionVector;
+
+ __declspec(property(get=get_clusterDeferred, put=set_clusterDeferred)) ::UnityW<::UnityEngine::Shader>  clusterDeferred;
+
+ __declspec(property(get=get_copyDepthPS, put=set_copyDepthPS)) ::UnityW<::UnityEngine::Shader>  copyDepthPS;
+
+ __declspec(property(get=get_decalDBufferClear, put=set_decalDBufferClear)) ::UnityW<::UnityEngine::Shader>  decalDBufferClear;
+
+/// @brief Field m_CameraMotionVector, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_CameraMotionVector, put=__cordl_internal_set_m_CameraMotionVector)) ::UnityW<::UnityEngine::Shader>  m_CameraMotionVector;
+
+/// @brief Field m_ClusterDeferred, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ClusterDeferred, put=__cordl_internal_set_m_ClusterDeferred)) ::UnityW<::UnityEngine::Shader>  m_ClusterDeferred;
+
+/// @brief Field m_CopyDepthPS, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_CopyDepthPS, put=__cordl_internal_set_m_CopyDepthPS)) ::UnityW<::UnityEngine::Shader>  m_CopyDepthPS;
+
+/// @brief Field m_DBufferClear, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_DBufferClear, put=__cordl_internal_set_m_DBufferClear)) ::UnityW<::UnityEngine::Shader>  m_DBufferClear;
+
+/// @brief Field m_StencilDeferredPS, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_StencilDeferredPS, put=__cordl_internal_set_m_StencilDeferredPS)) ::UnityW<::UnityEngine::Shader>  m_StencilDeferredPS;
+
+/// @brief Field m_StencilDitherMaskSeedPS, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_StencilDitherMaskSeedPS, put=__cordl_internal_set_m_StencilDitherMaskSeedPS)) ::UnityW<::UnityEngine::Shader>  m_StencilDitherMaskSeedPS;
+
+/// @brief Field m_Version, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Version, put=__cordl_internal_set_m_Version)) int32_t  m_Version;
+
+ __declspec(property(get=get_stencilDeferredPS, put=set_stencilDeferredPS)) ::UnityW<::UnityEngine::Shader>  stencilDeferredPS;
+
+ __declspec(property(get=get_stencilDitherMaskSeedPS, put=set_stencilDitherMaskSeedPS)) ::UnityW<::UnityEngine::Shader>  stencilDitherMaskSeedPS;
+
+ __declspec(property(get=get_version)) int32_t  version;
+
+/// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+constexpr operator  ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept;
+
+/// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineResources"
+constexpr operator  ::UnityEngine::Rendering::IRenderPipelineResources*() noexcept;
+
+static inline ::UnityEngine::Rendering::Universal::UniversalRendererResources* New_ctor() ;
+
+/// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x1802f6470, size 0x10, virtual true, abstract: false, final true
+inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild() ;
+
+constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_CameraMotionVector() const;
+
+constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_CameraMotionVector() ;
+
+constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_ClusterDeferred() const;
+
+constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_ClusterDeferred() ;
+
+constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_CopyDepthPS() const;
+
+constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_CopyDepthPS() ;
+
+constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_DBufferClear() const;
+
+constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_DBufferClear() ;
+
+constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_StencilDeferredPS() const;
+
+constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_StencilDeferredPS() ;
+
+constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_StencilDitherMaskSeedPS() const;
+
+constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_StencilDitherMaskSeedPS() ;
+
+constexpr int32_t const& __cordl_internal_get_m_Version() const;
+
+constexpr int32_t& __cordl_internal_get_m_Version() ;
+
+constexpr void __cordl_internal_set_m_CameraMotionVector(::UnityW<::UnityEngine::Shader>  value) ;
+
+constexpr void __cordl_internal_set_m_ClusterDeferred(::UnityW<::UnityEngine::Shader>  value) ;
+
+constexpr void __cordl_internal_set_m_CopyDepthPS(::UnityW<::UnityEngine::Shader>  value) ;
+
+constexpr void __cordl_internal_set_m_DBufferClear(::UnityW<::UnityEngine::Shader>  value) ;
+
+constexpr void __cordl_internal_set_m_StencilDeferredPS(::UnityW<::UnityEngine::Shader>  value) ;
+
+constexpr void __cordl_internal_set_m_StencilDitherMaskSeedPS(::UnityW<::UnityEngine::Shader>  value) ;
+
+constexpr void __cordl_internal_set_m_Version(int32_t  value) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_cameraMotionVector, addr 0x1802d97e0, size 0x10, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Shader> get_cameraMotionVector() ;
+
+/// @brief Method get_clusterDeferred, addr 0x1802d97f0, size 0x10, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Shader> get_clusterDeferred() ;
+
+/// @brief Method get_copyDepthPS, addr 0x1802ecc10, size 0x10, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Shader> get_copyDepthPS() ;
+
+/// @brief Method get_decalDBufferClear, addr 0x1802e5850, size 0x10, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Shader> get_decalDBufferClear() ;
+
+/// @brief Method get_stencilDeferredPS, addr 0x1802d9810, size 0x10, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Shader> get_stencilDeferredPS() ;
+
+/// @brief Method get_stencilDitherMaskSeedPS, addr 0x1802d9800, size 0x10, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Shader> get_stencilDitherMaskSeedPS() ;
+
+/// @brief Method get_version, addr 0x180303b50, size 0x10, virtual true, abstract: false, final true
+inline int32_t get_version() ;
+
+/// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
+constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
+
+/// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
+constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
+
+/// @brief Method set_cameraMotionVector, addr 0x182123870, size 0x30, virtual false, abstract: false, final false
+inline void set_cameraMotionVector(::UnityEngine::Shader*  value) ;
+
+/// @brief Method set_clusterDeferred, addr 0x1821238a0, size 0x30, virtual false, abstract: false, final false
+inline void set_clusterDeferred(::UnityEngine::Shader*  value) ;
+
+/// @brief Method set_copyDepthPS, addr 0x1821238d0, size 0x30, virtual false, abstract: false, final false
+inline void set_copyDepthPS(::UnityEngine::Shader*  value) ;
+
+/// @brief Method set_decalDBufferClear, addr 0x182123900, size 0x30, virtual false, abstract: false, final false
+inline void set_decalDBufferClear(::UnityEngine::Shader*  value) ;
+
+/// @brief Method set_stencilDeferredPS, addr 0x182123930, size 0x30, virtual false, abstract: false, final false
+inline void set_stencilDeferredPS(::UnityEngine::Shader*  value) ;
+
+/// @brief Method set_stencilDitherMaskSeedPS, addr 0x182123960, size 0x30, virtual false, abstract: false, final false
+inline void set_stencilDitherMaskSeedPS(::UnityEngine::Shader*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr UniversalRendererResources() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "UniversalRendererResources", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UniversalRendererResources(UniversalRendererResources && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "UniversalRendererResources", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UniversalRendererResources(UniversalRendererResources const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12529};
+
+/// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___m_Version;
+
+/// @brief Field m_CopyDepthPS, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  ___m_CopyDepthPS;
+
+/// @brief Field m_CameraMotionVector, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  ___m_CameraMotionVector;
+
+/// @brief Field m_StencilDeferredPS, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  ___m_StencilDeferredPS;
+
+/// @brief Field m_ClusterDeferred, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  ___m_ClusterDeferred;
+
+/// @brief Field m_StencilDitherMaskSeedPS, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  ___m_StencilDitherMaskSeedPS;
+
+/// @brief Field m_DBufferClear, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  ___m_DBufferClear;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRendererResources, ___m_Version) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRendererResources, ___m_CopyDepthPS) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRendererResources, ___m_CameraMotionVector) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRendererResources, ___m_StencilDeferredPS) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRendererResources, ___m_ClusterDeferred) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRendererResources, ___m_StencilDitherMaskSeedPS) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRendererResources, ___m_DBufferClear) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRendererResources) == 0x48, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering::Universal

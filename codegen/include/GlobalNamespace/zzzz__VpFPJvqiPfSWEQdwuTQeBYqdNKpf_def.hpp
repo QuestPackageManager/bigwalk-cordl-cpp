@@ -1,0 +1,52 @@
+#pragma once
+// IWYU pragma private; include "GlobalNamespace/VpFPJvqiPfSWEQdwuTQeBYqdNKpf.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__iSyuPuLuopRnlLMOiTCVxmrQxVgB_def.hpp"
+CORDL_MODULE_EXPORT(VpFPJvqiPfSWEQdwuTQeBYqdNKpf)
+namespace GlobalNamespace {
+struct QQgCXXHlaiqpdBVAfrOUqotXTSRz;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class VpFPJvqiPfSWEQdwuTQeBYqdNKpf;
+}
+// Write type traits
+MARK_REF_T(::GlobalNamespace::VpFPJvqiPfSWEQdwuTQeBYqdNKpf*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::VpFPJvqiPfSWEQdwuTQeBYqdNKpf*, "", "VpFPJvqiPfSWEQdwuTQeBYqdNKpf");
+// Dependencies iSyuPuLuopRnlLMOiTCVxmrQxVgB
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: VpFPJvqiPfSWEQdwuTQeBYqdNKpf
+class CORDL_TYPE VpFPJvqiPfSWEQdwuTQeBYqdNKpf : public ::GlobalNamespace::iSyuPuLuopRnlLMOiTCVxmrQxVgB {
+public:
+// Declarations
+static inline ::GlobalNamespace::VpFPJvqiPfSWEQdwuTQeBYqdNKpf* New_ctor(::GlobalNamespace::QQgCXXHlaiqpdBVAfrOUqotXTSRz  _cordl_fixed_empty_name_whitespace) ;
+
+/// @brief Method .ctor, addr 0x1804bda40, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::QQgCXXHlaiqpdBVAfrOUqotXTSRz  _cordl_fixed_empty_name_whitespace) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr VpFPJvqiPfSWEQdwuTQeBYqdNKpf() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "VpFPJvqiPfSWEQdwuTQeBYqdNKpf", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VpFPJvqiPfSWEQdwuTQeBYqdNKpf(VpFPJvqiPfSWEQdwuTQeBYqdNKpf && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "VpFPJvqiPfSWEQdwuTQeBYqdNKpf", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VpFPJvqiPfSWEQdwuTQeBYqdNKpf(VpFPJvqiPfSWEQdwuTQeBYqdNKpf const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6020};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::GlobalNamespace::VpFPJvqiPfSWEQdwuTQeBYqdNKpf) == 0x20, "Size mismatch!");
+
+} // namespace end def GlobalNamespace

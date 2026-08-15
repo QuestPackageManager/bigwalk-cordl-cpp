@@ -1,0 +1,92 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/IDebugDisplaySettingsQuery.hpp"
+#include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsQuery_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::IDebugDisplaySettingsQuery.get_AreAnySettingsActive
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)()>(&::UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_AreAnySettingsActive)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::IDebugDisplaySettingsQuery.get_IsPostProcessingAllowed
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)()>(&::UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_IsPostProcessingAllowed)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::IDebugDisplaySettingsQuery.get_IsLightingActive
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)()>(&::UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_IsLightingActive)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::IDebugDisplaySettingsQuery.TryGetScreenClearColor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::Rendering::IDebugDisplaySettingsQuery::TryGetScreenClearColor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+inline bool UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_AreAnySettingsActive()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_IsPostProcessingAllowed()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_IsLightingActive()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool UnityEngine::Rendering::IDebugDisplaySettingsQuery::TryGetScreenClearColor(::by_ref<::UnityEngine::Color>  color)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, color);
+}

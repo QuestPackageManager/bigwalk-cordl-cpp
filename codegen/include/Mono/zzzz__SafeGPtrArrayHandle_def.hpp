@@ -1,0 +1,75 @@
+#pragma once
+// IWYU pragma private; include "Mono/SafeGPtrArrayHandle.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Mono/zzzz__RuntimeGPtrArrayHandle_def.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(SafeGPtrArrayHandle)
+namespace System {
+class IDisposable;
+}
+namespace System {
+struct IntPtr;
+}
+// Forward declare root types
+namespace Mono {
+struct SafeGPtrArrayHandle;
+}
+// Write type traits
+MARK_VAL_T(::Mono::SafeGPtrArrayHandle);
+DEFINE_IL2CPP_CLASS(::Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");
+// Dependencies Mono.RuntimeGPtrArrayHandle
+namespace Mono {
+// Is value type: true
+// CS Name: Mono.SafeGPtrArrayHandle
+struct CORDL_TYPE SafeGPtrArrayHandle {
+public:
+// Declarations
+ __declspec(property(get=get_Item)) ::System::IntPtr  Item[];
+
+ __declspec(property(get=get_Length)) int32_t  Length;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() ;
+
+/// @brief Method Dispose, addr 0x1815c8f40, size 0x20, virtual true, abstract: false, final true
+inline void Dispose() ;
+
+/// @brief Method .ctor, addr 0x1804bd910, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  ptr) ;
+
+/// @brief Method get_Item, addr 0x1815c8f70, size 0x40, virtual false, abstract: false, final false
+inline ::System::IntPtr get_Item(int32_t  i) ;
+
+/// @brief Method get_Length, addr 0x1803da390, size 0xb0, virtual false, abstract: false, final false
+inline int32_t get_Length() ;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr SafeGPtrArrayHandle() ;
+
+// Ctor Parameters [CppParam { name: "handle", ty: "::Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: None }]
+constexpr SafeGPtrArrayHandle(::Mono::RuntimeGPtrArrayHandle  handle) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{67};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+
+/// @brief Field handle, offset: 0x0, size: 0x8, def value: None
+ ::Mono::RuntimeGPtrArrayHandle  handle;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::Mono::SafeGPtrArrayHandle, handle) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::Mono::SafeGPtrArrayHandle) == 0x8, "Size mismatch!");
+
+} // namespace end def Mono

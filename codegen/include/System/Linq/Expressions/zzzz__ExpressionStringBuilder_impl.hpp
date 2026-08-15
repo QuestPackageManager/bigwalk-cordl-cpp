@@ -1,0 +1,778 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/ExpressionStringBuilder.hpp"
+#include "System/Linq/Expressions/zzzz__ExpressionVisitor_impl.hpp"
+#include "System/Linq/Expressions/zzzz__ExpressionStringBuilder_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
+#include "System/Linq/Expressions/zzzz__BinaryExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__BlockExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__CatchBlock_def.hpp"
+#include "System/Linq/Expressions/zzzz__ConditionalExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__ConstantExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__DefaultExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__Expression_1_def.hpp"
+#include "System/Linq/Expressions/zzzz__Expression_def.hpp"
+#include "System/Linq/Expressions/zzzz__GotoExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__IndexExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__InvocationExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__LabelExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__LabelTarget_def.hpp"
+#include "System/Linq/Expressions/zzzz__LoopExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__MemberExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__MethodCallExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__NewArrayExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__ParameterExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__TryExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__TypeBinaryExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__UnaryExpression_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::ExpressionStringBuilder::*)()>(&::System::Linq::Expressions::ExpressionStringBuilder::_ctor)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181aff9b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::ExpressionStringBuilder::*)()>(&::System::Linq::Expressions::ExpressionStringBuilder::ToString)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181afe2a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.GetLabelId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::LabelTarget*)>(&::System::Linq::Expressions::ExpressionStringBuilder::GetLabelId)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181afe120;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"GetLabelId", {}, {::i2c::type_of<::System::Linq::Expressions::LabelTarget*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.GetParamId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::ParameterExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::GetParamId)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181afe120;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"GetParamId", {}, {::i2c::type_of<::System::Linq::Expressions::ParameterExpression*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.GetId
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Object*)>(&::System::Linq::Expressions::ExpressionStringBuilder::GetId)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181afe070;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"GetId", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.Out
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::ExpressionStringBuilder::*)(::StringW)>(&::System::Linq::Expressions::ExpressionStringBuilder::Out)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181afe280;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"Out", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.Out
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::ExpressionStringBuilder::*)(char16_t)>(&::System::Linq::Expressions::ExpressionStringBuilder::Out)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181afe290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"Out", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.ExpressionToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::ExpressionToString)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181afdfe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"ExpressionToString", {}, {::i2c::type_of<::System::Linq::Expressions::Expression*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.CatchBlockToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Linq::Expressions::CatchBlock*)>(&::System::Linq::Expressions::ExpressionStringBuilder::CatchBlockToString)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181af6d10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"CatchBlockToString", {}, {::i2c::type_of<::System::Linq::Expressions::CatchBlock*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitBinary
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::BinaryExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitBinary)> {
+  constexpr static std::size_t size = 0x400;
+  constexpr static std::size_t addrs = 0x181afe2c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitParameter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::ParameterExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitParameter)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181aff4e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 21}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitConditional
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::ConditionalExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitConditional)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x181afe990;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitConstant
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::ConstantExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitConstant)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x181afea60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.OutMember
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MemberInfo*)>(&::System::Linq::Expressions::ExpressionStringBuilder::OutMember)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181afe1d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"OutMember", {}, {::i2c::type_of<::System::Linq::Expressions::Expression*>(), ::i2c::type_of<::System::Reflection::MemberInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitMember
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::MemberExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitMember)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181aff190;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 17}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitInvocation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::InvocationExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitInvocation)> {
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x181aff000;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitMethodCall
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::MethodCallExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitMethodCall)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x181aff280;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitNewArray
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::NewArrayExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitNewArray)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x181aff410;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitTypeBinary
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::TypeBinaryExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitTypeBinary)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181aff5d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 24}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitUnary
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::UnaryExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitUnary)> {
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x181aff690;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 25}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitBlock
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::BlockExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitBlock)> {
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x181afe6c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitDefault
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::DefaultExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitDefault)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181afeb90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitLabel
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::LabelExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitLabel)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181aff100;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitGoto
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::GotoExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitGoto)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181afedb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitLoop
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::LoopExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitLoop)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181aff160;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 16}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitCatchBlock
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::CatchBlock* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::CatchBlock*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitCatchBlock)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181afe8e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 22}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitTry
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::TryExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitTry)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181aff5a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 23}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitIndex
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::IndexExpression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitIndex)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x181afee90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 18}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.VisitExtension
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::VisitExtension)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x181afec10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.DumpLabel
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::ExpressionStringBuilder::*)(::System::Linq::Expressions::LabelTarget*)>(&::System::Linq::Expressions::ExpressionStringBuilder::DumpLabel)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181afdf60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"DumpLabel", {}, {::i2c::type_of<::System::Linq::Expressions::LabelTarget*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::ExpressionStringBuilder.IsBool
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::ExpressionStringBuilder::IsBool)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181afe130;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"IsBool", {}, {::i2c::type_of<::System::Linq::Expressions::Expression*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Text::StringBuilder*& System::Linq::Expressions::ExpressionStringBuilder::__cordl_internal_get__out()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____out;
+}
+constexpr ::System::Text::StringBuilder* const& System::Linq::Expressions::ExpressionStringBuilder::__cordl_internal_get__out() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____out;
+}
+constexpr void System::Linq::Expressions::ExpressionStringBuilder::__cordl_internal_set__out(::System::Text::StringBuilder*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____out = value;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*,int32_t>*& System::Linq::Expressions::ExpressionStringBuilder::__cordl_internal_get__ids()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ids;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*,int32_t>* const& System::Linq::Expressions::ExpressionStringBuilder::__cordl_internal_get__ids() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ids;
+}
+constexpr void System::Linq::Expressions::ExpressionStringBuilder::__cordl_internal_set__ids(::System::Collections::Generic::Dictionary_2<::System::Object*,int32_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ids = value;
+}
+inline void System::Linq::Expressions::ExpressionStringBuilder::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::StringW System::Linq::Expressions::ExpressionStringBuilder::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline int32_t System::Linq::Expressions::ExpressionStringBuilder::GetLabelId(::System::Linq::Expressions::LabelTarget*  label)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"GetLabelId", {}, {::i2c::type_of<::System::Linq::Expressions::LabelTarget*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, label);
+}
+inline int32_t System::Linq::Expressions::ExpressionStringBuilder::GetParamId(::System::Linq::Expressions::ParameterExpression*  p)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"GetParamId", {}, {::i2c::type_of<::System::Linq::Expressions::ParameterExpression*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, p);
+}
+inline int32_t System::Linq::Expressions::ExpressionStringBuilder::GetId(::System::Object*  o)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"GetId", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, o);
+}
+inline void System::Linq::Expressions::ExpressionStringBuilder::Out(::StringW  s)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"Out", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, s);
+}
+inline void System::Linq::Expressions::ExpressionStringBuilder::Out(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"Out", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, c);
+}
+inline ::StringW System::Linq::Expressions::ExpressionStringBuilder::ExpressionToString(::System::Linq::Expressions::Expression*  node)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"ExpressionToString", {}, {::i2c::type_of<::System::Linq::Expressions::Expression*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, node);
+}
+inline ::StringW System::Linq::Expressions::ExpressionStringBuilder::CatchBlockToString(::System::Linq::Expressions::CatchBlock*  node)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"CatchBlockToString", {}, {::i2c::type_of<::System::Linq::Expressions::CatchBlock*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, node);
+}
+template<typename T>
+inline void System::Linq::Expressions::ExpressionStringBuilder::VisitExpressions(char16_t  open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*  expressions, char16_t  close)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {"VisitExpressions", {::i2c::class_of<T>()}, {::i2c::type_of<char16_t>(), ::i2c::type_of<::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*>(), ::i2c::type_of<char16_t>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<T>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, open, expressions, close);
+}
+template<typename T>
+inline void System::Linq::Expressions::ExpressionStringBuilder::VisitExpressions(char16_t  open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*  expressions, char16_t  close, ::StringW  seperator)  {
+static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                    {"VisitExpressions", {::i2c::class_of<T>()}, {::i2c::type_of<char16_t>(), ::i2c::type_of<::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*>(), ::i2c::type_of<char16_t>(), ::i2c::type_of<::StringW>()}}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(
+                    ___internal_method_base,
+                    {::i2c::class_of<T>()}
+                )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, open, expressions, close, seperator);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitBinary(::System::Linq::Expressions::BinaryExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitParameter(::System::Linq::Expressions::ParameterExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 21}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+template<typename T>
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitLambda(::System::Linq::Expressions::Expression_1<T>*  node)  {
+auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                                reinterpret_cast<Il2CppObject*>(this)->klass,
+                                {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 15}
+                            )));
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(
+                                ___internal_method_base,
+                                {::i2c::class_of<T>()}
+                            ));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitConditional(::System::Linq::Expressions::ConditionalExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitConstant(::System::Linq::Expressions::ConstantExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline void System::Linq::Expressions::ExpressionStringBuilder::OutMember(::System::Linq::Expressions::Expression*  instance, ::System::Reflection::MemberInfo*  member)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"OutMember", {}, {::i2c::type_of<::System::Linq::Expressions::Expression*>(), ::i2c::type_of<::System::Reflection::MemberInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, instance, member);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitMember(::System::Linq::Expressions::MemberExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 17}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitInvocation(::System::Linq::Expressions::InvocationExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitMethodCall(::System::Linq::Expressions::MethodCallExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitNewArray(::System::Linq::Expressions::NewArrayExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitTypeBinary(::System::Linq::Expressions::TypeBinaryExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 24}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitUnary(::System::Linq::Expressions::UnaryExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 25}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitBlock(::System::Linq::Expressions::BlockExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitDefault(::System::Linq::Expressions::DefaultExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitLabel(::System::Linq::Expressions::LabelExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitGoto(::System::Linq::Expressions::GotoExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitLoop(::System::Linq::Expressions::LoopExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 16}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::CatchBlock* System::Linq::Expressions::ExpressionStringBuilder::VisitCatchBlock(::System::Linq::Expressions::CatchBlock*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 22}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::CatchBlock*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitTry(::System::Linq::Expressions::TryExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 23}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitIndex(::System::Linq::Expressions::IndexExpression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 18}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::ExpressionStringBuilder::VisitExtension(::System::Linq::Expressions::Expression*  node)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*>(this, ___internal_method, node);
+}
+inline void System::Linq::Expressions::ExpressionStringBuilder::DumpLabel(::System::Linq::Expressions::LabelTarget*  target)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"DumpLabel", {}, {::i2c::type_of<::System::Linq::Expressions::LabelTarget*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, target);
+}
+inline bool System::Linq::Expressions::ExpressionStringBuilder::IsBool(::System::Linq::Expressions::Expression*  node)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
+                        {"IsBool", {}, {::i2c::type_of<::System::Linq::Expressions::Expression*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, node);
+}
+inline ::System::Linq::Expressions::ExpressionStringBuilder* System::Linq::Expressions::ExpressionStringBuilder::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::ExpressionStringBuilder*>());
+}
+// Ctor Parameters []
+constexpr ::System::Linq::Expressions::ExpressionStringBuilder::ExpressionStringBuilder()   {
+}

@@ -1,0 +1,273 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Linq/XAttribute.hpp"
+#include "System/Xml/Linq/zzzz__XObject_impl.hpp"
+#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
+#include "System/Xml/Linq/zzzz__XName_def.hpp"
+#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XAttribute::*)(::System::Xml::Linq::XName*, ::System::Object*)>(&::System::Xml::Linq::XAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181c31500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Linq::XName*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XAttribute::*)(::System::Xml::Linq::XAttribute*)>(&::System::Xml::Linq::XAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181c31590;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Linq::XAttribute*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute.get_IsNamespaceDeclaration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Linq::XAttribute::*)()>(&::System::Xml::Linq::XAttribute::get_IsNamespaceDeclaration)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181c315f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"get_IsNamespaceDeclaration", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute.get_Name
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XName* (::System::Xml::Linq::XAttribute::*)()>(&::System::Xml::Linq::XAttribute::get_Name)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9810;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"get_Name", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute.get_NodeType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::System::Xml::Linq::XAttribute::*)()>(&::System::Xml::Linq::XAttribute::get_NodeType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802edfe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                    {::i2c::class_of<::System::Xml::Linq::XAttribute*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute.get_Value
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::XAttribute::*)()>(&::System::Xml::Linq::XAttribute::get_Value)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"get_Value", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute.set_Value
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XAttribute::*)(::StringW)>(&::System::Xml::Linq::XAttribute::set_Value)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181c31630;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"set_Value", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::XAttribute::*)()>(&::System::Xml::Linq::XAttribute::ToString)> {
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x181c31130;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                    {::i2c::class_of<::System::Xml::Linq::XAttribute*>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute.GetPrefixOfNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::XAttribute::*)(::System::Xml::Linq::XNamespace*)>(&::System::Xml::Linq::XAttribute::GetPrefixOfNamespace)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x181c31080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"GetPrefixOfNamespace", {}, {::i2c::type_of<::System::Xml::Linq::XNamespace*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Linq::XAttribute.ValidateAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::Linq::XName*, ::StringW)>(&::System::Xml::Linq::XAttribute::ValidateAttribute)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x181c313a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"ValidateAttribute", {}, {::i2c::type_of<::System::Xml::Linq::XName*>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Xml::Linq::XAttribute*& System::Xml::Linq::XAttribute::__cordl_internal_get_next()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___next;
+}
+constexpr ::System::Xml::Linq::XAttribute* const& System::Xml::Linq::XAttribute::__cordl_internal_get_next() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___next;
+}
+constexpr void System::Xml::Linq::XAttribute::__cordl_internal_set_next(::System::Xml::Linq::XAttribute*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___next = value;
+}
+constexpr ::System::Xml::Linq::XName*& System::Xml::Linq::XAttribute::__cordl_internal_get_name()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___name;
+}
+constexpr ::System::Xml::Linq::XName* const& System::Xml::Linq::XAttribute::__cordl_internal_get_name() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___name;
+}
+constexpr void System::Xml::Linq::XAttribute::__cordl_internal_set_name(::System::Xml::Linq::XName*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___name = value;
+}
+constexpr ::StringW& System::Xml::Linq::XAttribute::__cordl_internal_get_value()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___value;
+}
+constexpr ::StringW const& System::Xml::Linq::XAttribute::__cordl_internal_get_value() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___value;
+}
+constexpr void System::Xml::Linq::XAttribute::__cordl_internal_set_value(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___value = value;
+}
+inline void System::Xml::Linq::XAttribute::_ctor(::System::Xml::Linq::XName*  name, ::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Linq::XName*>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, value);
+}
+inline void System::Xml::Linq::XAttribute::_ctor(::System::Xml::Linq::XAttribute*  other)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Xml::Linq::XAttribute*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, other);
+}
+inline bool System::Xml::Linq::XAttribute::get_IsNamespaceDeclaration()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"get_IsNamespaceDeclaration", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Xml::Linq::XName* System::Xml::Linq::XAttribute::get_Name()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"get_Name", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Linq::XName*>(this, ___internal_method);
+}
+inline ::System::Xml::XmlNodeType System::Xml::Linq::XAttribute::get_NodeType()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Linq::XAttribute*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNodeType>(this, ___internal_method);
+}
+inline ::StringW System::Xml::Linq::XAttribute::get_Value()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"get_Value", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void System::Xml::Linq::XAttribute::set_Value(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"set_Value", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW System::Xml::Linq::XAttribute::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Linq::XAttribute*>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Xml::Linq::XAttribute::GetPrefixOfNamespace(::System::Xml::Linq::XNamespace*  ns)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"GetPrefixOfNamespace", {}, {::i2c::type_of<::System::Xml::Linq::XNamespace*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, ns);
+}
+inline void System::Xml::Linq::XAttribute::ValidateAttribute(::System::Xml::Linq::XName*  name, ::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Linq::XAttribute*>(),
+                        {"ValidateAttribute", {}, {::i2c::type_of<::System::Xml::Linq::XName*>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, name, value);
+}
+inline ::System::Xml::Linq::XAttribute* System::Xml::Linq::XAttribute::New_ctor(::System::Xml::Linq::XName*  name, ::System::Object*  value)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Linq::XAttribute*>(name, value));
+}
+inline ::System::Xml::Linq::XAttribute* System::Xml::Linq::XAttribute::New_ctor(::System::Xml::Linq::XAttribute*  other)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Linq::XAttribute*>(other));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Linq::XAttribute::XAttribute()   {
+}

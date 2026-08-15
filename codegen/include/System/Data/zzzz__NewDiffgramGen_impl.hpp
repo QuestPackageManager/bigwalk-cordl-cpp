@@ -1,0 +1,394 @@
+#pragma once
+// IWYU pragma private; include "System/Data/NewDiffgramGen.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/Data/zzzz__NewDiffgramGen_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Data/zzzz__DataColumn_def.hpp"
+#include "System/Data/zzzz__DataRowVersion_def.hpp"
+#include "System/Data/zzzz__DataRow_def.hpp"
+#include "System/Data/zzzz__DataSet_def.hpp"
+#include "System/Data/zzzz__DataTable_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
+//  Writing Method size for method: ::System::Data::NewDiffgramGen._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataSet*)>(&::System::Data::NewDiffgramGen::_ctor)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x181bc8080;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataSet*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*, bool)>(&::System::Data::NewDiffgramGen::_ctor)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181bc7f90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.CreateTableHierarchy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&::System::Data::NewDiffgramGen::CreateTableHierarchy)> {
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x181bc6370;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"CreateTableHierarchy", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.DoAssignments
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Collections::ArrayList*)>(&::System::Data::NewDiffgramGen::DoAssignments)> {
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x181bc65d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"DoAssignments", {}, {::i2c::type_of<::System::Collections::ArrayList*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.EmptyData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::NewDiffgramGen::*)()>(&::System::Data::NewDiffgramGen::EmptyData)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x181bc6820;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"EmptyData", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.Save
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*)>(&::System::Data::NewDiffgramGen::Save)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bc7f80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"Save", {}, {::i2c::type_of<::System::Xml::XmlWriter*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.Save
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*, ::System::Data::DataTable*)>(&::System::Data::NewDiffgramGen::Save)> {
+  constexpr static std::size_t size = 0x660;
+  constexpr static std::size_t addrs = 0x181bc7920;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"Save", {}, {::i2c::type_of<::System::Xml::XmlWriter*>(), ::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.GenerateTable
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&::System::Data::NewDiffgramGen::GenerateTable)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181bc7880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"GenerateTable", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.GenerateTableErrors
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&::System::Data::NewDiffgramGen::GenerateTableErrors)> {
+  constexpr static std::size_t size = 0x480;
+  constexpr static std::size_t addrs = 0x181bc7400;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"GenerateTableErrors", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.GenerateRow
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataRow*)>(&::System::Data::NewDiffgramGen::GenerateRow)> {
+  constexpr static std::size_t size = 0x490;
+  constexpr static std::size_t addrs = 0x181bc6f70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"GenerateRow", {}, {::i2c::type_of<::System::Data::DataRow*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.GenerateColumn
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::System::Data::DataRowVersion)>(&::System::Data::NewDiffgramGen::GenerateColumn)> {
+  constexpr static std::size_t size = 0x670;
+  constexpr static std::size_t addrs = 0x181bc6900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"GenerateColumn", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Data::DataRowVersion>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::NewDiffgramGen.QualifiedName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Data::NewDiffgramGen::QualifiedName)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bc7900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"QualifiedName", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Xml::XmlDocument*& System::Data::NewDiffgramGen::__cordl_internal_get__doc()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____doc;
+}
+constexpr ::System::Xml::XmlDocument* const& System::Data::NewDiffgramGen::__cordl_internal_get__doc() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____doc;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__doc(::System::Xml::XmlDocument*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____doc = value;
+}
+constexpr ::System::Data::DataSet*& System::Data::NewDiffgramGen::__cordl_internal_get__ds()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ds;
+}
+constexpr ::System::Data::DataSet* const& System::Data::NewDiffgramGen::__cordl_internal_get__ds() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____ds;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__ds(::System::Data::DataSet*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____ds = value;
+}
+constexpr ::System::Data::DataTable*& System::Data::NewDiffgramGen::__cordl_internal_get__dt()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dt;
+}
+constexpr ::System::Data::DataTable* const& System::Data::NewDiffgramGen::__cordl_internal_get__dt() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dt;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__dt(::System::Data::DataTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____dt = value;
+}
+constexpr ::System::Xml::XmlWriter*& System::Data::NewDiffgramGen::__cordl_internal_get__xmlw()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlw;
+}
+constexpr ::System::Xml::XmlWriter* const& System::Data::NewDiffgramGen::__cordl_internal_get__xmlw() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlw;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__xmlw(::System::Xml::XmlWriter*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____xmlw = value;
+}
+constexpr bool& System::Data::NewDiffgramGen::__cordl_internal_get__fBefore()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fBefore;
+}
+constexpr bool const& System::Data::NewDiffgramGen::__cordl_internal_get__fBefore() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fBefore;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__fBefore(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____fBefore = value;
+}
+constexpr bool& System::Data::NewDiffgramGen::__cordl_internal_get__fErrors()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fErrors;
+}
+constexpr bool const& System::Data::NewDiffgramGen::__cordl_internal_get__fErrors() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fErrors;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__fErrors(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____fErrors = value;
+}
+constexpr ::System::Collections::Hashtable*& System::Data::NewDiffgramGen::__cordl_internal_get__rowsOrder()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____rowsOrder;
+}
+constexpr ::System::Collections::Hashtable* const& System::Data::NewDiffgramGen::__cordl_internal_get__rowsOrder() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____rowsOrder;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__rowsOrder(::System::Collections::Hashtable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____rowsOrder = value;
+}
+constexpr ::System::Collections::ArrayList*& System::Data::NewDiffgramGen::__cordl_internal_get__tables()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____tables;
+}
+constexpr ::System::Collections::ArrayList* const& System::Data::NewDiffgramGen::__cordl_internal_get__tables() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____tables;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__tables(::System::Collections::ArrayList*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____tables = value;
+}
+constexpr bool& System::Data::NewDiffgramGen::__cordl_internal_get__writeHierarchy()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____writeHierarchy;
+}
+constexpr bool const& System::Data::NewDiffgramGen::__cordl_internal_get__writeHierarchy() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____writeHierarchy;
+}
+constexpr void System::Data::NewDiffgramGen::__cordl_internal_set__writeHierarchy(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____writeHierarchy = value;
+}
+inline void System::Data::NewDiffgramGen::_ctor(::System::Data::DataSet*  ds)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataSet*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ds);
+}
+inline void System::Data::NewDiffgramGen::_ctor(::System::Data::DataTable*  dt, bool  writeHierarchy)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dt, writeHierarchy);
+}
+inline void System::Data::NewDiffgramGen::CreateTableHierarchy(::System::Data::DataTable*  dt)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"CreateTableHierarchy", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, dt);
+}
+inline void System::Data::NewDiffgramGen::DoAssignments(::System::Collections::ArrayList*  tables)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"DoAssignments", {}, {::i2c::type_of<::System::Collections::ArrayList*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tables);
+}
+inline bool System::Data::NewDiffgramGen::EmptyData()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"EmptyData", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Data::NewDiffgramGen::Save(::System::Xml::XmlWriter*  xmlw)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"Save", {}, {::i2c::type_of<::System::Xml::XmlWriter*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlw);
+}
+inline void System::Data::NewDiffgramGen::Save(::System::Xml::XmlWriter*  xmlw, ::System::Data::DataTable*  table)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"Save", {}, {::i2c::type_of<::System::Xml::XmlWriter*>(), ::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, xmlw, table);
+}
+inline void System::Data::NewDiffgramGen::GenerateTable(::System::Data::DataTable*  table)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"GenerateTable", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table);
+}
+inline void System::Data::NewDiffgramGen::GenerateTableErrors(::System::Data::DataTable*  table)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"GenerateTableErrors", {}, {::i2c::type_of<::System::Data::DataTable*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table);
+}
+inline void System::Data::NewDiffgramGen::GenerateRow(::System::Data::DataRow*  row)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"GenerateRow", {}, {::i2c::type_of<::System::Data::DataRow*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, row);
+}
+inline void System::Data::NewDiffgramGen::GenerateColumn(::System::Data::DataRow*  row, ::System::Data::DataColumn*  col, ::System::Data::DataRowVersion  version)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"GenerateColumn", {}, {::i2c::type_of<::System::Data::DataRow*>(), ::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Data::DataRowVersion>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, row, col, version);
+}
+inline ::StringW System::Data::NewDiffgramGen::QualifiedName(::StringW  prefix, ::StringW  name)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::NewDiffgramGen*>(),
+                        {"QualifiedName", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, prefix, name);
+}
+inline ::System::Data::NewDiffgramGen* System::Data::NewDiffgramGen::New_ctor(::System::Data::DataSet*  ds)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::NewDiffgramGen*>(ds));
+}
+inline ::System::Data::NewDiffgramGen* System::Data::NewDiffgramGen::New_ctor(::System::Data::DataTable*  dt, bool  writeHierarchy)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::NewDiffgramGen*>(dt, writeHierarchy));
+}
+// Ctor Parameters []
+constexpr ::System::Data::NewDiffgramGen::NewDiffgramGen()   {
+}

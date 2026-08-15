@@ -1,0 +1,111 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/MouseCaptureOutEvent.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MouseCaptureEventBase_1_def.hpp"
+CORDL_MODULE_EXPORT(MouseCaptureOutEvent)
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+class MouseCaptureOutEvent___c;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements {
+class MouseCaptureOutEvent;
+}
+namespace UnityEngine::UIElements {
+class MouseCaptureOutEvent___c;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::MouseCaptureOutEvent*);
+MARK_REF_T(::UnityEngine::UIElements::MouseCaptureOutEvent___c*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseCaptureOutEvent*, "UnityEngine.UIElements", "MouseCaptureOutEvent");
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseCaptureOutEvent___c*, "UnityEngine.UIElements", "MouseCaptureOutEvent/<>c");
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.MouseCaptureOutEvent/<>c
+class CORDL_TYPE MouseCaptureOutEvent___c : public ::System::Object {
+public:
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::MouseCaptureOutEvent___c*  __9;
+
+static inline ::UnityEngine::UIElements::MouseCaptureOutEvent___c* New_ctor() ;
+
+/// @brief Method <.cctor>b__0_0, addr 0x1824d7560, size 0x30, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::MouseCaptureOutEvent* __cctor_b__0_0() ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::UnityEngine::UIElements::MouseCaptureOutEvent___c* getStaticF___9() ;
+
+static inline void setStaticF___9(::UnityEngine::UIElements::MouseCaptureOutEvent___c*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr MouseCaptureOutEvent___c() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MouseCaptureOutEvent___c(MouseCaptureOutEvent___c && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MouseCaptureOutEvent___c(MouseCaptureOutEvent___c const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3546};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::MouseCaptureOutEvent___c) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements
+// Dependencies UnityEngine.UIElements.MouseCaptureEventBase`1<T>
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.MouseCaptureOutEvent
+class CORDL_TYPE MouseCaptureOutEvent : public ::UnityEngine::UIElements::MouseCaptureEventBase_1<::UnityEngine::UIElements::MouseCaptureOutEvent*> {
+public:
+// Declarations
+using __c = ::UnityEngine::UIElements::MouseCaptureOutEvent___c;
+
+static inline ::UnityEngine::UIElements::MouseCaptureOutEvent* New_ctor() ;
+
+/// @brief Method PreDispatch, addr 0x1824d3180, size 0x60, virtual true, abstract: false, final false
+inline void PreDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
+
+/// @brief Method .ctor, addr 0x1824d3260, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr MouseCaptureOutEvent() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MouseCaptureOutEvent(MouseCaptureOutEvent && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MouseCaptureOutEvent(MouseCaptureOutEvent const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3547};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::MouseCaptureOutEvent) == 0x78, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements

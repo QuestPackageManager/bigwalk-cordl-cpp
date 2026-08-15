@@ -1,0 +1,126 @@
+#pragma once
+// IWYU pragma private; include "Mono/Net/Security/AsyncProtocolResult.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "Mono/Net/Security/zzzz__AsyncProtocolResult_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+//  Writing Method size for method: ::Mono::Net::Security::AsyncProtocolResult.get_UserResult
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Net::Security::AsyncProtocolResult::*)()>(&::Mono::Net::Security::AsyncProtocolResult::get_UserResult)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),
+                        {"get_UserResult", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::AsyncProtocolResult.get_Error
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::ExceptionServices::ExceptionDispatchInfo* (::Mono::Net::Security::AsyncProtocolResult::*)()>(&::Mono::Net::Security::AsyncProtocolResult::get_Error)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),
+                        {"get_Error", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::AsyncProtocolResult._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::AsyncProtocolResult::*)(int32_t)>(&::Mono::Net::Security::AsyncProtocolResult::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180378ff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Net::Security::AsyncProtocolResult._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::AsyncProtocolResult::*)(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&::Mono::Net::Security::AsyncProtocolResult::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& Mono::Net::Security::AsyncProtocolResult::__cordl_internal_get__UserResult_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____UserResult_k__BackingField;
+}
+constexpr int32_t const& Mono::Net::Security::AsyncProtocolResult::__cordl_internal_get__UserResult_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____UserResult_k__BackingField;
+}
+constexpr void Mono::Net::Security::AsyncProtocolResult::__cordl_internal_set__UserResult_k__BackingField(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____UserResult_k__BackingField = value;
+}
+constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& Mono::Net::Security::AsyncProtocolResult::__cordl_internal_get__Error_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Error_k__BackingField;
+}
+constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* const& Mono::Net::Security::AsyncProtocolResult::__cordl_internal_get__Error_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Error_k__BackingField;
+}
+constexpr void Mono::Net::Security::AsyncProtocolResult::__cordl_internal_set__Error_k__BackingField(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Error_k__BackingField = value;
+}
+inline int32_t Mono::Net::Security::AsyncProtocolResult::get_UserResult()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),
+                        {"get_UserResult", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Mono::Net::Security::AsyncProtocolResult::get_Error()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),
+                        {"get_Error", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>(this, ___internal_method);
+}
+inline void Mono::Net::Security::AsyncProtocolResult::_ctor(int32_t  result)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, result);
+}
+inline void Mono::Net::Security::AsyncProtocolResult::_ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*  error)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, error);
+}
+inline ::Mono::Net::Security::AsyncProtocolResult* Mono::Net::Security::AsyncProtocolResult::New_ctor(int32_t  result)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Net::Security::AsyncProtocolResult*>(result));
+}
+inline ::Mono::Net::Security::AsyncProtocolResult* Mono::Net::Security::AsyncProtocolResult::New_ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*  error)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Net::Security::AsyncProtocolResult*>(error));
+}
+// Ctor Parameters []
+constexpr ::Mono::Net::Security::AsyncProtocolResult::AsyncProtocolResult()   {
+}

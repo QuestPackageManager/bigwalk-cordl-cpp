@@ -1,0 +1,32 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/DelayedAttribute.hpp"
+#include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
+#include "UnityEngine/zzzz__DelayedAttribute_def.hpp"
+//  Writing Method size for method: ::UnityEngine::DelayedAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::DelayedAttribute::*)()>(&::UnityEngine::DelayedAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18159e620;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::DelayedAttribute*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::DelayedAttribute::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::DelayedAttribute*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::DelayedAttribute* UnityEngine::DelayedAttribute::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::DelayedAttribute*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::DelayedAttribute::DelayedAttribute()   {
+}

@@ -1,0 +1,89 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAttributeGroupRef.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaAttributeGroupRef_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaAttributeGroupRef.get_RefName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaAttributeGroupRef::*)()>(&::System::Xml::Schema::XmlSchemaAttributeGroupRef::get_RefName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e0b30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>(),
+                        {"get_RefName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaAttributeGroupRef.set_RefName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaAttributeGroupRef::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlSchemaAttributeGroupRef::set_RefName)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181c971f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>(),
+                        {"set_RefName", {}, {::i2c::type_of<::System::Xml::XmlQualifiedName*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::XmlSchemaAttributeGroupRef._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaAttributeGroupRef::*)()>(&::System::Xml::Schema::XmlSchemaAttributeGroupRef::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181c971a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XmlSchemaAttributeGroupRef::__cordl_internal_get_refName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___refName;
+}
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XmlSchemaAttributeGroupRef::__cordl_internal_get_refName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___refName;
+}
+constexpr void System::Xml::Schema::XmlSchemaAttributeGroupRef::__cordl_internal_set_refName(::System::Xml::XmlQualifiedName*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___refName = value;
+}
+inline ::System::Xml::XmlQualifiedName* System::Xml::Schema::XmlSchemaAttributeGroupRef::get_RefName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>(),
+                        {"get_RefName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*>(this, ___internal_method);
+}
+inline void System::Xml::Schema::XmlSchemaAttributeGroupRef::set_RefName(::System::Xml::XmlQualifiedName*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>(),
+                        {"set_RefName", {}, {::i2c::type_of<::System::Xml::XmlQualifiedName*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void System::Xml::Schema::XmlSchemaAttributeGroupRef::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaAttributeGroupRef* System::Xml::Schema::XmlSchemaAttributeGroupRef::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>());
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::XmlSchemaAttributeGroupRef::XmlSchemaAttributeGroupRef()   {
+}

@@ -1,0 +1,131 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/SurfaceDataAttributes.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__FieldPrecision_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__SurfaceDataAttributes_def.hpp"
+#include "UnityEngine/Rendering/zzzz__FieldPrecision_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::SurfaceDataAttributes._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SurfaceDataAttributes::*)(::StringW, bool, bool, ::UnityEngine::Rendering::FieldPrecision, bool, ::StringW)>(&::UnityEngine::Rendering::SurfaceDataAttributes::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x18203e220;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::SurfaceDataAttributes*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::FieldPrecision>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::SurfaceDataAttributes._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SurfaceDataAttributes::*)(::ArrayW<::StringW>, bool, bool, ::UnityEngine::Rendering::FieldPrecision, bool, ::StringW)>(&::UnityEngine::Rendering::SurfaceDataAttributes::_ctor)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18203e2c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::SurfaceDataAttributes*>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::FieldPrecision>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::ArrayW<::StringW>& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_displayNames()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___displayNames;
+}
+constexpr ::ArrayW<::StringW> const& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_displayNames() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___displayNames;
+}
+constexpr void UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_set_displayNames(::ArrayW<::StringW>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___displayNames = value;
+}
+constexpr bool& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_isDirection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isDirection;
+}
+constexpr bool const& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_isDirection() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___isDirection;
+}
+constexpr void UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_set_isDirection(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___isDirection = value;
+}
+constexpr bool& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_sRGBDisplay()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___sRGBDisplay;
+}
+constexpr bool const& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_sRGBDisplay() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___sRGBDisplay;
+}
+constexpr void UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_set_sRGBDisplay(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___sRGBDisplay = value;
+}
+constexpr ::UnityEngine::Rendering::FieldPrecision& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_precision()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___precision;
+}
+constexpr ::UnityEngine::Rendering::FieldPrecision const& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_precision() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___precision;
+}
+constexpr void UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_set_precision(::UnityEngine::Rendering::FieldPrecision  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___precision = value;
+}
+constexpr bool& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_checkIsNormalized()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___checkIsNormalized;
+}
+constexpr bool const& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_checkIsNormalized() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___checkIsNormalized;
+}
+constexpr void UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_set_checkIsNormalized(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___checkIsNormalized = value;
+}
+constexpr ::StringW& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_preprocessor()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___preprocessor;
+}
+constexpr ::StringW const& UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_get_preprocessor() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___preprocessor;
+}
+constexpr void UnityEngine::Rendering::SurfaceDataAttributes::__cordl_internal_set_preprocessor(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___preprocessor = value;
+}
+inline void UnityEngine::Rendering::SurfaceDataAttributes::_ctor(::StringW  displayName, bool  isDirection, bool  sRGBDisplay, ::UnityEngine::Rendering::FieldPrecision  precision, bool  checkIsNormalized, ::StringW  preprocessor)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::SurfaceDataAttributes*>(),
+                        {".ctor", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::FieldPrecision>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, displayName, isDirection, sRGBDisplay, precision, checkIsNormalized, preprocessor);
+}
+inline void UnityEngine::Rendering::SurfaceDataAttributes::_ctor(::ArrayW<::StringW>  displayNames, bool  isDirection, bool  sRGBDisplay, ::UnityEngine::Rendering::FieldPrecision  precision, bool  checkIsNormalized, ::StringW  preprocessor)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::SurfaceDataAttributes*>(),
+                        {".ctor", {}, {::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Rendering::FieldPrecision>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, displayNames, isDirection, sRGBDisplay, precision, checkIsNormalized, preprocessor);
+}
+inline ::UnityEngine::Rendering::SurfaceDataAttributes* UnityEngine::Rendering::SurfaceDataAttributes::New_ctor(::StringW  displayName, bool  isDirection, bool  sRGBDisplay, ::UnityEngine::Rendering::FieldPrecision  precision, bool  checkIsNormalized, ::StringW  preprocessor)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::SurfaceDataAttributes*>(displayName, isDirection, sRGBDisplay, precision, checkIsNormalized, preprocessor));
+}
+inline ::UnityEngine::Rendering::SurfaceDataAttributes* UnityEngine::Rendering::SurfaceDataAttributes::New_ctor(::ArrayW<::StringW>  displayNames, bool  isDirection, bool  sRGBDisplay, ::UnityEngine::Rendering::FieldPrecision  precision, bool  checkIsNormalized, ::StringW  preprocessor)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::SurfaceDataAttributes*>(displayNames, isDirection, sRGBDisplay, precision, checkIsNormalized, preprocessor));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::SurfaceDataAttributes::SurfaceDataAttributes()   {
+}

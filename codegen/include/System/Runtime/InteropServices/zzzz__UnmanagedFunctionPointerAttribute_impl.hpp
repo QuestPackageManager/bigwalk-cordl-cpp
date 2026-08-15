@@ -1,0 +1,68 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/UnmanagedFunctionPointerAttribute.hpp"
+#include "System/Runtime/InteropServices/zzzz__CallingConvention_impl.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
+#include "System/Runtime/InteropServices/zzzz__UnmanagedFunctionPointerAttribute_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__CallingConvention_def.hpp"
+//  Writing Method size for method: ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::*)(::System::Runtime::InteropServices::CallingConvention)>(&::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180378ff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::InteropServices::CallingConvention>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute.get_CallingConvention
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::CallingConvention (::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::*)()>(&::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::get_CallingConvention)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180303b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>(),
+                        {"get_CallingConvention", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Runtime::InteropServices::CallingConvention& System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::__cordl_internal_get_m_callingConvention()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_callingConvention;
+}
+constexpr ::System::Runtime::InteropServices::CallingConvention const& System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::__cordl_internal_get_m_callingConvention() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_callingConvention;
+}
+constexpr void System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::__cordl_internal_set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_callingConvention = value;
+}
+inline void System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::_ctor(::System::Runtime::InteropServices::CallingConvention  callingConvention)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::InteropServices::CallingConvention>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callingConvention);
+}
+inline ::System::Runtime::InteropServices::CallingConvention System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::get_CallingConvention()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>(),
+                        {"get_CallingConvention", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::InteropServices::CallingConvention>(this, ___internal_method);
+}
+inline ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute* System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::New_ctor(::System::Runtime::InteropServices::CallingConvention  callingConvention)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>(callingConvention));
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::UnmanagedFunctionPointerAttribute()   {
+}

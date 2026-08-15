@@ -1,0 +1,231 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/Schema/LeafRangeNode.hpp"
+#include "System/Xml/Schema/zzzz__LeafNode_impl.hpp"
+#include "System/zzzz__Decimal_impl.hpp"
+#include "System/Xml/Schema/zzzz__LeafRangeNode_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
+#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+//  Writing Method size for method: ::System::Xml::Schema::LeafRangeNode._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(::System::Decimal, ::System::Decimal)>(&::System::Xml::Schema::LeafRangeNode::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181d56b90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Decimal>(), ::i2c::type_of<::System::Decimal>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::LeafRangeNode._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(int32_t, ::System::Decimal, ::System::Decimal)>(&::System::Xml::Schema::LeafRangeNode::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181d56bb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Decimal>(), ::i2c::type_of<::System::Decimal>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::LeafRangeNode.get_Max
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_Max)> {
+  constexpr static std::size_t size = 0x12a0;
+  constexpr static std::size_t addrs = 0x180a26490;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {"get_Max", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::LeafRangeNode.get_Min
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_Min)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e2d70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {"get_Min", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::LeafRangeNode.get_NextIteration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::BitSet* (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_NextIteration)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9800;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {"get_NextIteration", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::LeafRangeNode.set_NextIteration
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(::System::Xml::Schema::BitSet*)>(&::System::Xml::Schema::LeafRangeNode::set_NextIteration)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9840;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {"set_NextIteration", {}, {::i2c::type_of<::System::Xml::Schema::BitSet*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::LeafRangeNode.get_IsRangeNode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_IsRangeNode)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f6470;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                    {::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::Schema::LeafRangeNode.ExpandTree
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::LeafRangeNode::ExpandTree)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181d56b50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                    {::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Decimal& System::Xml::Schema::LeafRangeNode::__cordl_internal_get_min()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___min;
+}
+constexpr ::System::Decimal const& System::Xml::Schema::LeafRangeNode::__cordl_internal_get_min() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___min;
+}
+constexpr void System::Xml::Schema::LeafRangeNode::__cordl_internal_set_min(::System::Decimal  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___min = value;
+}
+constexpr ::System::Decimal& System::Xml::Schema::LeafRangeNode::__cordl_internal_get_max()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___max;
+}
+constexpr ::System::Decimal const& System::Xml::Schema::LeafRangeNode::__cordl_internal_get_max() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___max;
+}
+constexpr void System::Xml::Schema::LeafRangeNode::__cordl_internal_set_max(::System::Decimal  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___max = value;
+}
+constexpr ::System::Xml::Schema::BitSet*& System::Xml::Schema::LeafRangeNode::__cordl_internal_get_nextIteration()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___nextIteration;
+}
+constexpr ::System::Xml::Schema::BitSet* const& System::Xml::Schema::LeafRangeNode::__cordl_internal_get_nextIteration() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___nextIteration;
+}
+constexpr void System::Xml::Schema::LeafRangeNode::__cordl_internal_set_nextIteration(::System::Xml::Schema::BitSet*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___nextIteration = value;
+}
+inline void System::Xml::Schema::LeafRangeNode::_ctor(::System::Decimal  min, ::System::Decimal  max)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Decimal>(), ::i2c::type_of<::System::Decimal>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, min, max);
+}
+inline void System::Xml::Schema::LeafRangeNode::_ctor(int32_t  pos, ::System::Decimal  min, ::System::Decimal  max)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {".ctor", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Decimal>(), ::i2c::type_of<::System::Decimal>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pos, min, max);
+}
+inline ::System::Decimal System::Xml::Schema::LeafRangeNode::get_Max()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {"get_Max", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Decimal>(this, ___internal_method);
+}
+inline ::System::Decimal System::Xml::Schema::LeafRangeNode::get_Min()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {"get_Min", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Decimal>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::BitSet* System::Xml::Schema::LeafRangeNode::get_NextIteration()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {"get_NextIteration", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::BitSet*>(this, ___internal_method);
+}
+inline void System::Xml::Schema::LeafRangeNode::set_NextIteration(::System::Xml::Schema::BitSet*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(),
+                        {"set_NextIteration", {}, {::i2c::type_of<::System::Xml::Schema::BitSet*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool System::Xml::Schema::LeafRangeNode::get_IsRangeNode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Xml::Schema::LeafRangeNode::ExpandTree(::System::Xml::Schema::InteriorNode*  parent, ::System::Xml::Schema::SymbolsDictionary*  symbols, ::System::Xml::Schema::Positions*  positions)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::Schema::LeafRangeNode*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parent, symbols, positions);
+}
+inline ::System::Xml::Schema::LeafRangeNode* System::Xml::Schema::LeafRangeNode::New_ctor(::System::Decimal  min, ::System::Decimal  max)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::LeafRangeNode*>(min, max));
+}
+inline ::System::Xml::Schema::LeafRangeNode* System::Xml::Schema::LeafRangeNode::New_ctor(int32_t  pos, ::System::Decimal  min, ::System::Decimal  max)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Schema::LeafRangeNode*>(pos, min, max));
+}
+// Ctor Parameters []
+constexpr ::System::Xml::Schema::LeafRangeNode::LeafRangeNode()   {
+}

@@ -1,0 +1,49 @@
+#pragma once
+// IWYU pragma private; include "System/Xml/IDtdParser.hpp"
+#include "System/Xml/zzzz__IDtdParser_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
+//  Writing Method size for method: ::System::Xml::IDtdParser.ParseInternalDtd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::IDtdInfo* (::System::Xml::IDtdParser::*)(::System::Xml::IDtdParserAdapter*, bool)>(&::System::Xml::IDtdParser::ParseInternalDtd)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::IDtdParser*>(),
+                    {::i2c::class_of<::System::Xml::IDtdParser*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::IDtdParser.ParseFreeFloatingDtd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::IDtdInfo* (::System::Xml::IDtdParser::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Xml::IDtdParserAdapter*)>(&::System::Xml::IDtdParser::ParseFreeFloatingDtd)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Xml::IDtdParser*>(),
+                    {::i2c::class_of<::System::Xml::IDtdParser*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::System::Xml::IDtdInfo* System::Xml::IDtdParser::ParseInternalDtd(::System::Xml::IDtdParserAdapter*  adapter, bool  saveInternalSubset)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::IDtdParser*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdInfo*>(this, ___internal_method, adapter, saveInternalSubset);
+}
+inline ::System::Xml::IDtdInfo* System::Xml::IDtdParser::ParseFreeFloatingDtd(::StringW  baseUri, ::StringW  docTypeName, ::StringW  publicId, ::StringW  systemId, ::StringW  internalSubset, ::System::Xml::IDtdParserAdapter*  adapter)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Xml::IDtdParser*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdInfo*>(this, ___internal_method, baseUri, docTypeName, publicId, systemId, internalSubset, adapter);
+}

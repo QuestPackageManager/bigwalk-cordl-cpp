@@ -1,0 +1,15 @@
+#ifdef __cpp_modules
+                    module;
+                    #endif
+                
+#pragma once
+#include "UnityEngine/Scripting/AlwaysLinkAssemblyAttribute.hpp"
+#include "UnityEngine/Scripting/PreserveAttribute.hpp"
+#include "UnityEngine/Scripting/RequireAttributeUsagesAttribute.hpp"
+#include "UnityEngine/Scripting/RequiredByNativeCodeAttribute.hpp"
+#include "UnityEngine/Scripting/RequiredMemberAttribute.hpp"
+#include "UnityEngine/Scripting/UsedByNativeCodeAttribute.hpp"
+#ifdef __cpp_modules
+                    export module Scripting;
+                    #endif
+                

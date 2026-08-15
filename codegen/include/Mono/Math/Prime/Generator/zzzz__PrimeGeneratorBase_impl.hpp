@@ -1,0 +1,123 @@
+#pragma once
+// IWYU pragma private; include "Mono/Math/Prime/Generator/PrimeGeneratorBase.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "Mono/Math/Prime/Generator/zzzz__PrimeGeneratorBase_def.hpp"
+#include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
+#include "Mono/Math/Prime/zzzz__PrimalityTest_def.hpp"
+#include "Mono/Math/zzzz__BigInteger_def.hpp"
+//  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.get_Confidence
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::Prime::ConfidenceFactor (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802edfe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(),
+                    {::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.get_PrimalityTest
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::Prime::PrimalityTest* (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x1815bad20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(),
+                    {::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.get_TrialDivisionBounds
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1815bae40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(),
+                    {::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.GenerateNewPrime
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)(int32_t)>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(),
+                    {::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::Mono::Math::Prime::ConfidenceFactor Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Math::Prime::ConfidenceFactor>(this, ___internal_method);
+}
+inline ::Mono::Math::Prime::PrimalityTest* Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Math::Prime::PrimalityTest*>(this, ___internal_method);
+}
+inline int32_t Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::Mono::Math::BigInteger* Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime(int32_t  bits)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*>(this, ___internal_method, bits);
+}
+inline void Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Mono::Math::Prime::Generator::PrimeGeneratorBase* Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>());
+}
+// Ctor Parameters []
+constexpr ::Mono::Math::Prime::Generator::PrimeGeneratorBase::PrimeGeneratorBase()   {
+}

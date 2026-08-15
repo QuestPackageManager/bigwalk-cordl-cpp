@@ -1,0 +1,57 @@
+#pragma once
+// IWYU pragma private; include "System/IValueTupleInternal.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+//  Writing Method size for method: ::System::IValueTupleInternal.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IValueTupleInternal::*)(::System::Collections::IEqualityComparer*)>(&::System::IValueTupleInternal::GetHashCode)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::IValueTupleInternal*>(),
+                    {::i2c::class_of<::System::IValueTupleInternal*>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::IValueTupleInternal.ToStringEnd
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IValueTupleInternal::*)()>(&::System::IValueTupleInternal::ToStringEnd)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::IValueTupleInternal*>(),
+                    {::i2c::class_of<::System::IValueTupleInternal*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+inline int32_t System::IValueTupleInternal::GetHashCode(::System::Collections::IEqualityComparer*  comparer)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::IValueTupleInternal*>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, comparer);
+}
+inline ::StringW System::IValueTupleInternal::ToStringEnd()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::IValueTupleInternal*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
+constexpr  System::IValueTupleInternal::operator ::System::Runtime::CompilerServices::ITuple*() noexcept {
+return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+constexpr ::System::Runtime::CompilerServices::ITuple* System::IValueTupleInternal::i___System__Runtime__CompilerServices__ITuple() noexcept {
+return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(this));
+}

@@ -1,0 +1,78 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenCallbacks.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+CORDL_MODULE_EXPORT(GPUDrivenCallbacks)
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::Rendering {
+class GPUDrivenLODGroupDataCallback;
+}
+namespace UnityEngine::Rendering {
+class GPUDrivenLODGroupDataNativeCallback;
+}
+namespace UnityEngine::Rendering {
+struct GPUDrivenLODGroupDataNative;
+}
+namespace UnityEngine::Rendering {
+class GPUDrivenRendererDataCallback;
+}
+namespace UnityEngine::Rendering {
+class GPUDrivenRendererDataNativeCallback;
+}
+namespace UnityEngine::Rendering {
+struct GPUDrivenRendererGroupDataNative;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Mesh;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering {
+class GPUDrivenCallbacks;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::GPUDrivenCallbacks*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUDrivenCallbacks*, "UnityEngine.Rendering", "GPUDrivenCallbacks");
+// Dependencies System.Object
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.GPUDrivenCallbacks
+class CORDL_TYPE GPUDrivenCallbacks : public ::System::Object {
+public:
+// Declarations
+/// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x1804f6ae0, size 0xc0, virtual false, abstract: false, final false
+static inline void InvokeGPUDrivenLODGroupDataNativeCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*  callback, ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>  lodGroupDataNative, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*  target) ;
+
+/// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x1805522b0, size 0xe0, virtual false, abstract: false, final false
+static inline void InvokeGPUDrivenRendererDataNativeCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*  callback, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>  rendererDataNative, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*  meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*  materials, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*  target) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr GPUDrivenCallbacks() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "GPUDrivenCallbacks", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GPUDrivenCallbacks(GPUDrivenCallbacks && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "GPUDrivenCallbacks", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GPUDrivenCallbacks(GPUDrivenCallbacks const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11214};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Rendering::GPUDrivenCallbacks) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering

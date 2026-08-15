@@ -1,0 +1,861 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenProcessor.hpp"
+#include "System/zzzz__IntPtr_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenProcessor_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenLODGroupDataCallback_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenLODGroupDataNativeCallback_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenLODGroupDataNative_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenPackedMaterialData_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenProcessor_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenRendererDataCallback_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenRendererDataNativeCallback_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GPUDrivenRendererGroupDataNative_def.hpp"
+#include "UnityEngine/zzzz__EntityId_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor_BindingsMarshaller.ConvertToNative
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Rendering::GPUDrivenProcessor*)>(&::UnityEngine::Rendering::GPUDrivenProcessor_BindingsMarshaller::ConvertToNative)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor_BindingsMarshaller*>(),
+                        {"ConvertToNative", {}, {::i2c::type_of<::UnityEngine::Rendering::GPUDrivenProcessor*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline ::System::IntPtr UnityEngine::Rendering::GPUDrivenProcessor_BindingsMarshaller::ConvertToNative(::UnityEngine::Rendering::GPUDrivenProcessor*  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor_BindingsMarshaller*>(),
+                        {"ConvertToNative", {}, {::i2c::type_of<::UnityEngine::Rendering::GPUDrivenProcessor*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUDrivenProcessor_BindingsMarshaller::GPUDrivenProcessor_BindingsMarshaller()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor___c._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor___c::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor___c::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor___c.__cctor_b__34_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor___c::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*)>(&::UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_0)> {
+  constexpr static std::size_t size = 0x680;
+  constexpr static std::size_t addrs = 0x1822a3460;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
+                        {"<.cctor>b__34_0", {}, {::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor___c.__cctor_b__34_1
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor___c::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(&::UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_1)> {
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x1822a3ae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
+                        {"<.cctor>b__34_1", {}, {::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::Rendering::GPUDrivenProcessor___c::setStaticF___9(::UnityEngine::Rendering::GPUDrivenProcessor___c*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Rendering::GPUDrivenProcessor___c*, "<>9", ::UnityEngine::Rendering::GPUDrivenProcessor___c*>(std::forward<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(value));
+}
+inline ::UnityEngine::Rendering::GPUDrivenProcessor___c* UnityEngine::Rendering::GPUDrivenProcessor___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GPUDrivenProcessor___c*, "<>9", ::UnityEngine::Rendering::GPUDrivenProcessor___c*>();
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_0(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>  nativeData, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*  meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*  materials, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*  callback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
+                        {"<.cctor>b__34_0", {}, {::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nativeData, meshes, materials, callback);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor___c::__cctor_b__34_1(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>  nativeData, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*  callback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor___c*>(),
+                        {"<.cctor>b__34_1", {}, {::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nativeData, callback);
+}
+inline ::UnityEngine::Rendering::GPUDrivenProcessor___c* UnityEngine::Rendering::GPUDrivenProcessor___c::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::GPUDrivenProcessor___c*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUDrivenProcessor___c::GPUDrivenProcessor___c()   {
+}
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.get_scratchMeshes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::get_scratchMeshes)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_scratchMeshes", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.set_scratchMeshes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*)>(&::UnityEngine::Rendering::GPUDrivenProcessor::set_scratchMeshes)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802ecc20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_scratchMeshes", {}, {::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.get_scratchMaterials
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::get_scratchMaterials)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_scratchMaterials", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.set_scratchMaterials
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*)>(&::UnityEngine::Rendering::GPUDrivenProcessor::set_scratchMaterials)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9820;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_scratchMaterials", {}, {::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::_ctor)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18229fea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.Finalize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::Finalize)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18229f7a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                    {::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::Dispose)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18229f9d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.Destroy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::Destroy)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18229f7a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"Destroy", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.Internal_Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::Internal_Create)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229fc30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"Internal_Create", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.Internal_Destroy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::GPUDrivenProcessor::Internal_Destroy)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229fc40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"Internal_Destroy", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.EnableGPUDrivenRenderingAndDispatchRendererData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(::System::ReadOnlySpan_1<::UnityEngine::EntityId>, ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*, bool)>(&::UnityEngine::Rendering::GPUDrivenProcessor::EnableGPUDrivenRenderingAndDispatchRendererData)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x18229fb70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"EnableGPUDrivenRenderingAndDispatchRendererData", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.EnableGPUDrivenRenderingAndDispatchRendererData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(::System::ReadOnlySpan_1<::UnityEngine::EntityId>, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*, bool)>(&::UnityEngine::Rendering::GPUDrivenProcessor::EnableGPUDrivenRenderingAndDispatchRendererData)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x18229fa40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"EnableGPUDrivenRenderingAndDispatchRendererData", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.DisableGPUDrivenRendering
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(::System::ReadOnlySpan_1<::UnityEngine::EntityId>)>(&::UnityEngine::Rendering::GPUDrivenProcessor::DisableGPUDrivenRendering)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18229f7e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DisableGPUDrivenRendering", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.DispatchLODGroupData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(::System::ReadOnlySpan_1<::UnityEngine::EntityId>, ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(&::UnityEngine::Rendering::GPUDrivenProcessor::DispatchLODGroupData)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18229f860;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DispatchLODGroupData", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.DispatchLODGroupData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(::System::ReadOnlySpan_1<::UnityEngine::EntityId>, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(&::UnityEngine::Rendering::GPUDrivenProcessor::DispatchLODGroupData)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x18229f8f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DispatchLODGroupData", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.set_enablePartialRendering
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(bool)>(&::UnityEngine::Rendering::GPUDrivenProcessor::set_enablePartialRendering)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18229fff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_enablePartialRendering", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.get_enablePartialRendering
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::get_enablePartialRendering)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18229ff70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_enablePartialRendering", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.set_enableMaterialFilters
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)(bool)>(&::UnityEngine::Rendering::GPUDrivenProcessor::set_enableMaterialFilters)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18229ffb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_enableMaterialFilters", {}, {::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.get_enableMaterialFilters
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::get_enableMaterialFilters)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18229ff30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_enableMaterialFilters", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.ClearMaterialFilters
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenProcessor::*)()>(&::UnityEngine::Rendering::GPUDrivenProcessor::ClearMaterialFilters)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18229f770;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClearMaterialFilters", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.ClassifyMaterialsImpl
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<::UnityEngine::EntityId>, ::System::Span_1<::UnityEngine::EntityId>, ::System::Span_1<::UnityEngine::EntityId>, ::System::Span_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>)>(&::UnityEngine::Rendering::GPUDrivenProcessor::ClassifyMaterialsImpl)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x18229f4f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClassifyMaterialsImpl", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::System::Span_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::System::Span_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::System::Span_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.ClassifyMaterials
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>, ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>, ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>)>(&::UnityEngine::Rendering::GPUDrivenProcessor::ClassifyMaterials)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x18229f600;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClassifyMaterials", {}, {::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.EnableGPUDrivenRenderingAndDispatchRendererData_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*, bool)>(&::UnityEngine::Rendering::GPUDrivenProcessor::EnableGPUDrivenRenderingAndDispatchRendererData_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229fa30;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"EnableGPUDrivenRenderingAndDispatchRendererData_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.DisableGPUDrivenRendering_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Rendering::GPUDrivenProcessor::DisableGPUDrivenRendering_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229f7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DisableGPUDrivenRendering_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.DispatchLODGroupData_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(&::UnityEngine::Rendering::GPUDrivenProcessor::DispatchLODGroupData_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229f850;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DispatchLODGroupData_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.set_enablePartialRendering_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Rendering::GPUDrivenProcessor::set_enablePartialRendering_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229ffe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_enablePartialRendering_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.get_enablePartialRendering_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Rendering::GPUDrivenProcessor::get_enablePartialRendering_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229ff60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_enablePartialRendering_Injected", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.set_enableMaterialFilters_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Rendering::GPUDrivenProcessor::set_enableMaterialFilters_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229ffa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_enableMaterialFilters_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.get_enableMaterialFilters_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Rendering::GPUDrivenProcessor::get_enableMaterialFilters_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229ff20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_enableMaterialFilters_Injected", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.ClearMaterialFilters_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::GPUDrivenProcessor::ClearMaterialFilters_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229f760;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClearMaterialFilters_Injected", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenProcessor.ClassifyMaterialsImpl_Injected
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Rendering::GPUDrivenProcessor::ClassifyMaterialsImpl_Injected)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18229f4e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClassifyMaterialsImpl_Injected", {}, {::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::IntPtr& UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_get_m_Ptr()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Ptr;
+}
+constexpr ::System::IntPtr const& UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_get_m_Ptr() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Ptr;
+}
+constexpr void UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_set_m_Ptr(::System::IntPtr  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Ptr = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*& UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_get__scratchMeshes_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____scratchMeshes_k__BackingField;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* const& UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_get__scratchMeshes_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____scratchMeshes_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_set__scratchMeshes_k__BackingField(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____scratchMeshes_k__BackingField = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*& UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_get__scratchMaterials_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____scratchMaterials_k__BackingField;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* const& UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_get__scratchMaterials_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____scratchMaterials_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::GPUDrivenProcessor::__cordl_internal_set__scratchMaterials_k__BackingField(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____scratchMaterials_k__BackingField = value;
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::setStaticF_s_NativeRendererCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*, "s_NativeRendererCallback", ::UnityEngine::Rendering::GPUDrivenProcessor*>(std::forward<::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*>(value));
+}
+inline ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* UnityEngine::Rendering::GPUDrivenProcessor::getStaticF_s_NativeRendererCallback()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*, "s_NativeRendererCallback", ::UnityEngine::Rendering::GPUDrivenProcessor*>();
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::setStaticF_s_NativeLODGroupCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*, "s_NativeLODGroupCallback", ::UnityEngine::Rendering::GPUDrivenProcessor*>(std::forward<::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*>(value));
+}
+inline ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* UnityEngine::Rendering::GPUDrivenProcessor::getStaticF_s_NativeLODGroupCallback()  {
+return ::cordl_internals::getStaticField<::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*, "s_NativeLODGroupCallback", ::UnityEngine::Rendering::GPUDrivenProcessor*>();
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* UnityEngine::Rendering::GPUDrivenProcessor::get_scratchMeshes()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_scratchMeshes", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::set_scratchMeshes(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_scratchMeshes", {}, {::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* UnityEngine::Rendering::GPUDrivenProcessor::get_scratchMaterials()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_scratchMaterials", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::set_scratchMaterials(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_scratchMaterials", {}, {::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::Finalize()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::Destroy()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"Destroy", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::IntPtr UnityEngine::Rendering::GPUDrivenProcessor::Internal_Create()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"Internal_Create", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::Internal_Destroy(::System::IntPtr  ptr)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"Internal_Destroy", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ptr);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::EnableGPUDrivenRenderingAndDispatchRendererData(::System::ReadOnlySpan_1<::UnityEngine::EntityId>  renderersID, ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*  callback, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*  meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*  materials, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*  param, bool  materialUpdateOnly)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"EnableGPUDrivenRenderingAndDispatchRendererData", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderersID, callback, meshes, materials, param, materialUpdateOnly);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::EnableGPUDrivenRenderingAndDispatchRendererData(::System::ReadOnlySpan_1<::UnityEngine::EntityId>  renderersID, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*  callback, bool  materialUpdateOnly)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"EnableGPUDrivenRenderingAndDispatchRendererData", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderersID, callback, materialUpdateOnly);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::DisableGPUDrivenRendering(::System::ReadOnlySpan_1<::UnityEngine::EntityId>  renderersID)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DisableGPUDrivenRendering", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderersID);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::DispatchLODGroupData(::System::ReadOnlySpan_1<::UnityEngine::EntityId>  lodGroupID, ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*  callback, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*  param)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DispatchLODGroupData", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lodGroupID, callback, param);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::DispatchLODGroupData(::System::ReadOnlySpan_1<::UnityEngine::EntityId>  lodGroupID, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*  callback)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DispatchLODGroupData", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lodGroupID, callback);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::set_enablePartialRendering(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_enablePartialRendering", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::GPUDrivenProcessor::get_enablePartialRendering()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_enablePartialRendering", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::set_enableMaterialFilters(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_enableMaterialFilters", {}, {::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::GPUDrivenProcessor::get_enableMaterialFilters()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_enableMaterialFilters", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::ClearMaterialFilters()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClearMaterialFilters", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline int32_t UnityEngine::Rendering::GPUDrivenProcessor::ClassifyMaterialsImpl(::System::ReadOnlySpan_1<::UnityEngine::EntityId>  materialIDs, ::System::Span_1<::UnityEngine::EntityId>  unsupportedMaterialIDs, ::System::Span_1<::UnityEngine::EntityId>  supportedMaterialIDs, ::System::Span_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>  supportedPackedMaterialDatas)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClassifyMaterialsImpl", {}, {::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::System::Span_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::System::Span_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::System::Span_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, materialIDs, unsupportedMaterialIDs, supportedMaterialIDs, supportedPackedMaterialDatas);
+}
+inline int32_t UnityEngine::Rendering::GPUDrivenProcessor::ClassifyMaterials(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>  materialIDs, ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>  unsupportedMaterialIDs, ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>  supportedMaterialIDs, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>  supportedPackedMaterialDatas)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClassifyMaterials", {}, {::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, materialIDs, unsupportedMaterialIDs, supportedMaterialIDs, supportedPackedMaterialDatas);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::EnableGPUDrivenRenderingAndDispatchRendererData_Injected(::System::IntPtr  _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  renderersID, ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*  callback, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*  meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*  materials, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*  param, bool  materialUpdateOnly)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"EnableGPUDrivenRenderingAndDispatchRendererData_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenRendererDataCallback*>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, renderersID, callback, meshes, materials, param, materialUpdateOnly);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::DisableGPUDrivenRendering_Injected(::System::IntPtr  _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  renderersID)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DisableGPUDrivenRendering_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, renderersID);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::DispatchLODGroupData_Injected(::System::IntPtr  _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  lodGroupID, ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*  callback, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*  param)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"DispatchLODGroupData_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*>(), ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, lodGroupID, callback, param);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::set_enablePartialRendering_Injected(::System::IntPtr  _unity_self, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_enablePartialRendering_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
+}
+inline bool UnityEngine::Rendering::GPUDrivenProcessor::get_enablePartialRendering_Injected(::System::IntPtr  _unity_self)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_enablePartialRendering_Injected", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::set_enableMaterialFilters_Injected(::System::IntPtr  _unity_self, bool  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"set_enableMaterialFilters_Injected", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
+}
+inline bool UnityEngine::Rendering::GPUDrivenProcessor::get_enableMaterialFilters_Injected(::System::IntPtr  _unity_self)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"get_enableMaterialFilters_Injected", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::Rendering::GPUDrivenProcessor::ClearMaterialFilters_Injected(::System::IntPtr  _unity_self)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClearMaterialFilters_Injected", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self);
+}
+inline int32_t UnityEngine::Rendering::GPUDrivenProcessor::ClassifyMaterialsImpl_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  materialIDs, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  unsupportedMaterialIDs, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  supportedMaterialIDs, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  supportedPackedMaterialDatas)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::Rendering::GPUDrivenProcessor*>(),
+                        {"ClassifyMaterialsImpl_Injected", {}, {::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, materialIDs, unsupportedMaterialIDs, supportedMaterialIDs, supportedPackedMaterialDatas);
+}
+inline ::UnityEngine::Rendering::GPUDrivenProcessor* UnityEngine::Rendering::GPUDrivenProcessor::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::GPUDrivenProcessor*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::GPUDrivenProcessor::GPUDrivenProcessor()   {
+}

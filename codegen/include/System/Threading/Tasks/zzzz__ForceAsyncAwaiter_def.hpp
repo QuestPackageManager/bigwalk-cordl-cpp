@@ -1,0 +1,89 @@
+#pragma once
+// IWYU pragma private; include "System/Threading/Tasks/ForceAsyncAwaiter.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+CORDL_MODULE_EXPORT(ForceAsyncAwaiter)
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class Action;
+}
+// Forward declare root types
+namespace System::Threading::Tasks {
+struct ForceAsyncAwaiter;
+}
+// Write type traits
+MARK_VAL_T(::System::Threading::Tasks::ForceAsyncAwaiter);
+DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::ForceAsyncAwaiter, "System.Threading.Tasks", "ForceAsyncAwaiter");
+// Dependencies 
+namespace System::Threading::Tasks {
+// Is value type: true
+// CS Name: System.Threading.Tasks.ForceAsyncAwaiter
+struct CORDL_TYPE ForceAsyncAwaiter {
+public:
+// Declarations
+ __declspec(property(get=get_IsCompleted)) bool  IsCompleted;
+
+/// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+constexpr operator  ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*() ;
+
+/// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+constexpr operator  ::System::Runtime::CompilerServices::INotifyCompletion*() ;
+
+/// @brief Method GetAwaiter, addr 0x1803a88d0, size 0x10, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::ForceAsyncAwaiter GetAwaiter() ;
+
+/// @brief Method GetResult, addr 0x18176d710, size 0x50, virtual false, abstract: false, final false
+inline void GetResult() ;
+
+/// @brief Method OnCompleted, addr 0x18176d760, size 0x60, virtual true, abstract: false, final true
+inline void OnCompleted(::System::Action*  action) ;
+
+/// @brief Method UnsafeOnCompleted, addr 0x18176d7c0, size 0x90, virtual true, abstract: false, final true
+inline void UnsafeOnCompleted(::System::Action*  action) ;
+
+/// @brief Method .ctor, addr 0x180378fd0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::Threading::Tasks::Task*  task) ;
+
+/// @brief Method get_IsCompleted, addr 0x1802e2bd0, size 0x10, virtual false, abstract: false, final false
+inline bool get_IsCompleted() ;
+
+/// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion() ;
+
+/// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr ForceAsyncAwaiter() ;
+
+// Ctor Parameters [CppParam { name: "_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }]
+constexpr ForceAsyncAwaiter(::System::Threading::Tasks::Task*  _task) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{607};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+
+/// @brief Field _task, offset: 0x0, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task*  _task;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Threading::Tasks::ForceAsyncAwaiter, _task) == 0x0, "Offset mismatch!");
+
+static_assert(sizeof(::System::Threading::Tasks::ForceAsyncAwaiter) == 0x8, "Size mismatch!");
+
+} // namespace end def System::Threading::Tasks

@@ -1,0 +1,175 @@
+#pragma once
+// IWYU pragma private; include "TMPro/SpriteAssetUtilities/TexturePacker_JsonArray.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Vector2_impl.hpp"
+#include "TMPro/SpriteAssetUtilities/zzzz__TexturePacker_JsonArray_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "TMPro/SpriteAssetUtilities/zzzz__TexturePacker_JsonArray_def.hpp"
+//  Writing Method size for method: ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::*)()>(&::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::ToString)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x1821fdcf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame>(),
+                    {::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::StringW TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::TexturePacker_JsonArray_SpriteFrame(float_t  x, float_t  y, float_t  w, float_t  h) noexcept  {
+this->x = x;
+this->y = y;
+this->w = w;
+this->h = h;
+}
+// Ctor Parameters []
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::TexturePacker_JsonArray_SpriteFrame()   {
+}
+//  Writing Method size for method: ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::*)()>(&::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::ToString)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x1821fde10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize>(),
+                    {::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+inline ::StringW TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::TexturePacker_JsonArray_SpriteSize(float_t  w, float_t  h) noexcept  {
+this->w = w;
+this->h = h;
+}
+// Ctor Parameters []
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::TexturePacker_JsonArray_SpriteSize()   {
+}
+// Ctor Parameters [CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "frame", ty: "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotated", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "trimmed", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "spriteSourceSize", ty: "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame", modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceSize", ty: "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize", modifiers: "", def_value: Some("{}") }, CppParam { name: "pivot", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame::TexturePacker_JsonArray_Frame(::StringW  filename, ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame  frame, bool  rotated, bool  trimmed, ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame  spriteSourceSize, ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize  sourceSize, ::UnityEngine::Vector2  pivot) noexcept  {
+this->filename = filename;
+this->frame = frame;
+this->rotated = rotated;
+this->trimmed = trimmed;
+this->spriteSourceSize = spriteSourceSize;
+this->sourceSize = sourceSize;
+this->pivot = pivot;
+}
+// Ctor Parameters []
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame::TexturePacker_JsonArray_Frame()   {
+}
+// Ctor Parameters [CppParam { name: "app", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "image", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "size", ty: "::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "smartupdate", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Meta::TexturePacker_JsonArray_Meta(::StringW  app, ::StringW  version, ::StringW  image, ::StringW  format, ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize  size, float_t  scale, ::StringW  smartupdate) noexcept  {
+this->app = app;
+this->version = version;
+this->image = image;
+this->format = format;
+this->size = size;
+this->scale = scale;
+this->smartupdate = smartupdate;
+}
+// Ctor Parameters []
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Meta::TexturePacker_JsonArray_Meta()   {
+}
+//  Writing Method size for method: ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::*)()>(&::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame>*& TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::__cordl_internal_get_frames()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___frames;
+}
+constexpr ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame>* const& TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::__cordl_internal_get_frames() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___frames;
+}
+constexpr void TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::__cordl_internal_set_frames(::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___frames = value;
+}
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Meta& TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::__cordl_internal_get_meta()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___meta;
+}
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Meta const& TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::__cordl_internal_get_meta() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___meta;
+}
+constexpr void TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::__cordl_internal_set_meta(::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Meta  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___meta = value;
+}
+inline void TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject* TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject*>());
+}
+// Ctor Parameters []
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::TexturePacker_JsonArray_SpriteDataObject()   {
+}
+//  Writing Method size for method: ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::*)()>(&::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray* TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>());
+}
+// Ctor Parameters []
+constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::TexturePacker_JsonArray()   {
+}

@@ -1,0 +1,293 @@
+#pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Metadata/SoapTypeAttribute.hpp"
+#include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_impl.hpp"
+#include "System/Runtime/Remoting/Metadata/zzzz__SoapTypeAttribute_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute.get_UseAttribute
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_UseAttribute)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f1be0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                    {::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute.get_XmlElementName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlElementName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d97f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_XmlElementName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute.get_XmlNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlNamespace)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9800;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                    {::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute.get_XmlTypeName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeName)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e5850;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_XmlTypeName", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute.get_XmlTypeNamespace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeNamespace)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802e58c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_XmlTypeNamespace", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute.get_IsInteropXmlElement
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_IsInteropXmlElement)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18164bcd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_IsInteropXmlElement", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute.get_IsInteropXmlType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_IsInteropXmlType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802f8060;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_IsInteropXmlType", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapTypeAttribute.SetReflectionObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)(::System::Object*)>(&::System::Runtime::Remoting::Metadata::SoapTypeAttribute::SetReflectionObject)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x18164bb20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                    {::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr bool& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__useAttribute()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____useAttribute;
+}
+constexpr bool const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__useAttribute() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____useAttribute;
+}
+constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_set__useAttribute(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____useAttribute = value;
+}
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__xmlElementName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlElementName;
+}
+constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__xmlElementName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlElementName;
+}
+constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_set__xmlElementName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____xmlElementName = value;
+}
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__xmlNamespace()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlNamespace;
+}
+constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__xmlNamespace() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlNamespace;
+}
+constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_set__xmlNamespace(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____xmlNamespace = value;
+}
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__xmlTypeName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlTypeName;
+}
+constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__xmlTypeName() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlTypeName;
+}
+constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_set__xmlTypeName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____xmlTypeName = value;
+}
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__xmlTypeNamespace()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlTypeNamespace;
+}
+constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__xmlTypeNamespace() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____xmlTypeNamespace;
+}
+constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_set__xmlTypeNamespace(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____xmlTypeNamespace = value;
+}
+constexpr bool& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__isType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isType;
+}
+constexpr bool const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__isType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isType;
+}
+constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_set__isType(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isType = value;
+}
+constexpr bool& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__isElement()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isElement;
+}
+constexpr bool const& System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_get__isElement() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isElement;
+}
+constexpr void System::Runtime::Remoting::Metadata::SoapTypeAttribute::__cordl_internal_set__isElement(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isElement = value;
+}
+inline void System::Runtime::Remoting::Metadata::SoapTypeAttribute::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_UseAttribute()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::StringW System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlElementName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_XmlElementName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlNamespace()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeName()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_XmlTypeName", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::StringW System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeNamespace()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_XmlTypeNamespace", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline bool System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_IsInteropXmlElement()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_IsInteropXmlElement", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_IsInteropXmlType()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(),
+                        {"get_IsInteropXmlType", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void System::Runtime::Remoting::Metadata::SoapTypeAttribute::SetReflectionObject(::System::Object*  reflectionObject)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reflectionObject);
+}
+inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* System::Runtime::Remoting::Metadata::SoapTypeAttribute::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Remoting::Metadata::SoapTypeAttribute*>());
+}
+// Ctor Parameters []
+constexpr ::System::Runtime::Remoting::Metadata::SoapTypeAttribute::SoapTypeAttribute()   {
+}

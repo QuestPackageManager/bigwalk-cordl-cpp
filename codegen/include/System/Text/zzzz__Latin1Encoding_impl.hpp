@@ -1,0 +1,258 @@
+#pragma once
+// IWYU pragma private; include "System/Text/Latin1Encoding.hpp"
+#include "System/Text/zzzz__EncodingNLS_impl.hpp"
+#include "System/Text/zzzz__Latin1Encoding_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
+//  Writing Method size for method: ::System::Text::Latin1Encoding._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Latin1Encoding::*)()>(&::System::Text::Latin1Encoding::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1815ec250;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Latin1Encoding::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Text::Latin1Encoding::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x1815ec200;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding.System_Runtime_Serialization_ISerializable_GetObjectData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Latin1Encoding::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Text::Latin1Encoding::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x1815ec0c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                        {"System.Runtime.Serialization.ISerializable.GetObjectData", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding.GetByteCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Latin1Encoding::*)(char16_t*, int32_t, ::System::Text::EncoderNLS*)>(&::System::Text::Latin1Encoding::GetByteCount)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x1815eb860;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                    {::i2c::class_of<::System::Text::Latin1Encoding*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding.GetBytes
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Latin1Encoding::*)(char16_t*, int32_t, uint8_t*, int32_t, ::System::Text::EncoderNLS*)>(&::System::Text::Latin1Encoding::GetBytes)> {
+  constexpr static std::size_t size = 0x450;
+  constexpr static std::size_t addrs = 0x1815eba90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                    {::i2c::class_of<::System::Text::Latin1Encoding*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding.GetCharCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Latin1Encoding::*)(uint8_t*, int32_t, ::System::Text::DecoderNLS*)>(&::System::Text::Latin1Encoding::GetCharCount)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1815ebee0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                    {::i2c::class_of<::System::Text::Latin1Encoding*>(), 23}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding.GetChars
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Latin1Encoding::*)(uint8_t*, int32_t, char16_t*, int32_t, ::System::Text::DecoderNLS*)>(&::System::Text::Latin1Encoding::GetChars)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1815ebef0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                    {::i2c::class_of<::System::Text::Latin1Encoding*>(), 27}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding.GetMaxByteCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Latin1Encoding::*)(int32_t)>(&::System::Text::Latin1Encoding::GetMaxByteCount)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x1815ebf70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                    {::i2c::class_of<::System::Text::Latin1Encoding*>(), 31}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding.GetMaxCharCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::Latin1Encoding::*)(int32_t)>(&::System::Text::Latin1Encoding::GetMaxCharCount)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x1815ec010;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                    {::i2c::class_of<::System::Text::Latin1Encoding*>(), 32}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Text::Latin1Encoding.GetBestFitUnicodeToBytesData
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (::System::Text::Latin1Encoding::*)()>(&::System::Text::Latin1Encoding::GetBestFitUnicodeToBytesData)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x1815eb820;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                    {::i2c::class_of<::System::Text::Latin1Encoding*>(), 35}
+                ));
+    return ___internal_method;
+  }
+};
+inline void System::Text::Latin1Encoding::setStaticF_s_default(::System::Text::Latin1Encoding*  value)  {
+::cordl_internals::setStaticField<::System::Text::Latin1Encoding*, "s_default", ::System::Text::Latin1Encoding*>(std::forward<::System::Text::Latin1Encoding*>(value));
+}
+inline ::System::Text::Latin1Encoding* System::Text::Latin1Encoding::getStaticF_s_default()  {
+return ::cordl_internals::getStaticField<::System::Text::Latin1Encoding*, "s_default", ::System::Text::Latin1Encoding*>();
+}
+inline void System::Text::Latin1Encoding::setStaticF_arrayCharBestFit(::ArrayW<char16_t>  value)  {
+::cordl_internals::setStaticField<::ArrayW<char16_t>, "arrayCharBestFit", ::System::Text::Latin1Encoding*>(std::forward<::ArrayW<char16_t>>(value));
+}
+inline ::ArrayW<char16_t> System::Text::Latin1Encoding::getStaticF_arrayCharBestFit()  {
+return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "arrayCharBestFit", ::System::Text::Latin1Encoding*>();
+}
+inline void System::Text::Latin1Encoding::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void System::Text::Latin1Encoding::_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
+}
+inline void System::Text::Latin1Encoding::System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Text::Latin1Encoding*>(),
+                        {"System.Runtime.Serialization.ISerializable.GetObjectData", {}, {::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
+}
+inline int32_t System::Text::Latin1Encoding::GetByteCount(char16_t*  chars, int32_t  charCount, ::System::Text::EncoderNLS*  encoder)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Text::Latin1Encoding*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, chars, charCount, encoder);
+}
+inline int32_t System::Text::Latin1Encoding::GetBytes(char16_t*  chars, int32_t  charCount, uint8_t*  bytes, int32_t  byteCount, ::System::Text::EncoderNLS*  encoder)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Text::Latin1Encoding*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, chars, charCount, bytes, byteCount, encoder);
+}
+inline int32_t System::Text::Latin1Encoding::GetCharCount(uint8_t*  bytes, int32_t  count, ::System::Text::DecoderNLS*  decoder)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Text::Latin1Encoding*>(), 23}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, bytes, count, decoder);
+}
+inline int32_t System::Text::Latin1Encoding::GetChars(uint8_t*  bytes, int32_t  byteCount, char16_t*  chars, int32_t  charCount, ::System::Text::DecoderNLS*  decoder)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Text::Latin1Encoding*>(), 27}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, bytes, byteCount, chars, charCount, decoder);
+}
+inline int32_t System::Text::Latin1Encoding::GetMaxByteCount(int32_t  charCount)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Text::Latin1Encoding*>(), 31}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, charCount);
+}
+inline int32_t System::Text::Latin1Encoding::GetMaxCharCount(int32_t  byteCount)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Text::Latin1Encoding*>(), 32}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, byteCount);
+}
+inline ::ArrayW<char16_t> System::Text::Latin1Encoding::GetBestFitUnicodeToBytesData()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Text::Latin1Encoding*>(), 35}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<char16_t>>(this, ___internal_method);
+}
+inline ::System::Text::Latin1Encoding* System::Text::Latin1Encoding::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Text::Latin1Encoding*>());
+}
+inline ::System::Text::Latin1Encoding* System::Text::Latin1Encoding::New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Text::Latin1Encoding*>(info, context));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr  System::Text::Latin1Encoding::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Text::Latin1Encoding::i___System__Runtime__Serialization__ISerializable() noexcept {
+return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::System::Text::Latin1Encoding::Latin1Encoding()   {
+}

@@ -1,0 +1,32 @@
+#pragma once
+// IWYU pragma private; include "System/ParamArrayAttribute.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
+#include "System/zzzz__ParamArrayAttribute_def.hpp"
+//  Writing Method size for method: ::System::ParamArrayAttribute._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParamArrayAttribute::*)()>(&::System::ParamArrayAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ParamArrayAttribute*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::ParamArrayAttribute::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::ParamArrayAttribute*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::ParamArrayAttribute* System::ParamArrayAttribute::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::ParamArrayAttribute*>());
+}
+// Ctor Parameters []
+constexpr ::System::ParamArrayAttribute::ParamArrayAttribute()   {
+}

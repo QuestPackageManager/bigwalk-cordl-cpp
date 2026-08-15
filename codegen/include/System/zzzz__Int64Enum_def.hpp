@@ -1,0 +1,65 @@
+#pragma once
+// IWYU pragma private; include "System/Int64Enum.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(Int64Enum)
+// Forward declare root types
+namespace System {
+struct Int64Enum;
+}
+// Write type traits
+MARK_VAL_T(::System::Int64Enum);
+DEFINE_IL2CPP_CLASS(::System::Int64Enum, "System", "Int64Enum");
+// Dependencies 
+namespace System {
+// Is value type: true
+// CS Name: System.Int64Enum
+struct CORDL_TYPE Int64Enum {
+public:
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int64_t;
+
+/// @brief Nested struct __Int64Enum_Unwrapped
+enum struct __Int64Enum_Unwrapped : int64_t {
+};
+
+/// @brief Conversion into unwrapped enum value
+constexpr operator __Int64Enum_Unwrapped () const noexcept {
+return static_cast<__Int64Enum_Unwrapped>(this->value__);
+}
+
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int64_t () const noexcept {
+return static_cast<int64_t>(this->value__);
+}
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr Int64Enum() ;
+
+// Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
+constexpr Int64Enum(int64_t  value__) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{433};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
+
+/// @brief Size padding 0x8 - 0x10 = 0x8, packed as 0x8
+ uint8_t  _cordl_size_padding[0x8];
+
+/// @brief Field value__, offset: 0x8, size: 0x8, def value: None
+ int64_t  value__;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Int64Enum, value__) == 0x8, "Offset mismatch!");
+
+static_assert(sizeof(::System::Int64Enum) == 0x8, "Size mismatch!");
+
+} // namespace end def System

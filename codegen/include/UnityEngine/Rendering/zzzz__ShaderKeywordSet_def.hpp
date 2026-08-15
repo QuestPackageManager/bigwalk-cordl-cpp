@@ -1,0 +1,94 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderKeywordSet.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__IntPtr_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(ShaderKeywordSet)
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
+}
+namespace UnityEngine::Rendering {
+struct ShaderKeyword;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering {
+struct ShaderKeywordSet;
+}
+// Write type traits
+MARK_VAL_T(::UnityEngine::Rendering::ShaderKeywordSet);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShaderKeywordSet, "UnityEngine.Rendering", "ShaderKeywordSet");
+// Dependencies System.IntPtr
+namespace UnityEngine::Rendering {
+// Is value type: true
+// CS Name: UnityEngine.Rendering.ShaderKeywordSet
+struct CORDL_TYPE ShaderKeywordSet {
+public:
+// Declarations
+/// @brief Method CheckKeywordCompatible, addr 0x1822b3980, size 0x70, virtual false, abstract: false, final false
+inline void CheckKeywordCompatible(::UnityEngine::Rendering::ShaderKeyword  keyword) ;
+
+/// @brief Method GetEnabledKeywords, addr 0x1822b3a00, size 0x20, virtual false, abstract: false, final false
+static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords(::UnityEngine::Rendering::ShaderKeywordSet  state) ;
+
+/// @brief Method GetEnabledKeywords_Injected, addr 0x1822b39f0, size 0x10, virtual false, abstract: false, final false
+static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>  state) ;
+
+/// @brief Method IsEnabled, addr 0x1822b3a20, size 0xa0, virtual false, abstract: false, final false
+inline bool IsEnabled(::UnityEngine::Rendering::ShaderKeyword  keyword) ;
+
+/// @brief Method IsKeywordNameEnabled, addr 0x1822b3ad0, size 0x120, virtual false, abstract: false, final false
+static inline bool IsKeywordNameEnabled(::UnityEngine::Rendering::ShaderKeywordSet  state, ::StringW  name) ;
+
+/// @brief Method IsKeywordNameEnabled_Injected, addr 0x1822b3ac0, size 0x10, virtual false, abstract: false, final false
+static inline bool IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>  state, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>  name) ;
+
+/// @brief Method ShaderKeywordComparer, addr 0x1822b3bf0, size 0x10, virtual false, abstract: false, final false
+static inline int32_t ShaderKeywordComparer(::UnityEngine::Rendering::ShaderKeyword  kw1, ::UnityEngine::Rendering::ShaderKeyword  kw2) ;
+
+/// @brief Method ToString, addr 0x1822b3c00, size 0x90, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr ShaderKeywordSet() ;
+
+// Ctor Parameters [CppParam { name: "m_KeywordState", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_Shader", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_ComputeShader", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_StateIndex", ty: "uint64_t", modifiers: "", def_value: None }]
+constexpr ShaderKeywordSet(::System::IntPtr  m_KeywordState, ::System::IntPtr  m_Shader, ::System::IntPtr  m_ComputeShader, uint64_t  m_StateIndex) noexcept;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11296};
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
+
+/// @brief Field m_KeywordState, offset: 0x0, size: 0x8, def value: None
+ ::System::IntPtr  m_KeywordState;
+
+/// @brief Field m_Shader, offset: 0x8, size: 0x8, def value: None
+ ::System::IntPtr  m_Shader;
+
+/// @brief Field m_ComputeShader, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  m_ComputeShader;
+
+/// @brief Field m_StateIndex, offset: 0x18, size: 0x8, def value: None
+ uint64_t  m_StateIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::Rendering::ShaderKeywordSet, m_KeywordState) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::ShaderKeywordSet, m_Shader) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::ShaderKeywordSet, m_ComputeShader) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::ShaderKeywordSet, m_StateIndex) == 0x18, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::Rendering::ShaderKeywordSet) == 0x20, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering

@@ -1,0 +1,1468 @@
+#pragma once
+// IWYU pragma private; include "System/Char.hpp"
+#include "System/zzzz__Char_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Char.IsLatin1
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsLatin1)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18169e310;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLatin1", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsAscii
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsAscii)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18169e1f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsAscii", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.GetLatin1UnicodeCategory
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::UnicodeCategory (*)(char16_t)>(&::System::Char::GetLatin1UnicodeCategory)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18169e110;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"GetLatin1UnicodeCategory", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.GetHashCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Char::*)()>(&::System::Char::GetHashCode)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18169e0f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Char>(),
+                    {::i2c::class_of<::System::Char>(), 2}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Char::*)(::System::Object*)>(&::System::Char::Equals)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18169e070;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Char>(),
+                    {::i2c::class_of<::System::Char>(), 0}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.Equals
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Char::*)(char16_t)>(&::System::Char::Equals)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x1805a9cf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"Equals", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.CompareTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Char::*)(::System::Object*)>(&::System::Char::CompareTo)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18169ded0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CompareTo", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.CompareTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Char::*)(char16_t)>(&::System::Char::CompareTo)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18169deb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CompareTo", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Char::*)()>(&::System::Char::ToString)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18169edd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Char>(),
+                    {::i2c::class_of<::System::Char>(), 3}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::ToString)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18169edd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToString", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToString
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(char16_t)>(&::System::Char::ToString)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18169ee00;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToString", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.Parse
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(::StringW)>(&::System::Char::Parse)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18169e880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"Parse", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.TryParse
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<char16_t>)>(&::System::Char::TryParse)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18169ef10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"TryParse", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<char16_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsDigit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsDigit)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18169e250;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsDigit", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.CheckLetter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::UnicodeCategory)>(&::System::Char::CheckLetter)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18169de70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckLetter", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsLetter
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsLetter)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18169e370;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLetter", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsWhiteSpaceLatin1
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsWhiteSpaceLatin1)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18169e760;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsWhiteSpaceLatin1", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsWhiteSpace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsWhiteSpace)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18169e790;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsWhiteSpace", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsUpper
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsUpper)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18169e700;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsUpper", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsLower
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsLower)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18169e400;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLower", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.CheckPunctuation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::UnicodeCategory)>(&::System::Char::CheckPunctuation)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18169de90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckPunctuation", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsPunctuation
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsPunctuation)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18169e5a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsPunctuation", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.CheckLetterOrDigit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::UnicodeCategory)>(&::System::Char::CheckLetterOrDigit)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18169de60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckLetterOrDigit", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsLetterOrDigit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsLetterOrDigit)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18169e320;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLetterOrDigit", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToUpper
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t, ::System::Globalization::CultureInfo*)>(&::System::Char::ToUpper)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18169eeb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToUpper", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<::System::Globalization::CultureInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToUpper
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::System::Char::ToUpper)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18169ee60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToUpper", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToUpperInvariant
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::System::Char::ToUpperInvariant)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18169ee10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToUpperInvariant", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToLower
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t, ::System::Globalization::CultureInfo*)>(&::System::Char::ToLower)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18169ed20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToLower", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<::System::Globalization::CultureInfo*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToLower
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::System::Char::ToLower)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18169ed80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToLower", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ToLowerInvariant
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::System::Char::ToLowerInvariant)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18169ecd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToLowerInvariant", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.GetTypeCode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TypeCode (::System::Char::*)()>(&::System::Char::GetTypeCode)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x180309580;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"GetTypeCode", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToBoolean
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToBoolean)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18169e900;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToBoolean", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToChar
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToChar)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18052ca80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToChar", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToSByte
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToSByte)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18169ebb0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToSByte", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToByte
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToByte)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18169e990;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToByte", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToInt16
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToInt16)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18169eb80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToInt16", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToUInt16
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToUInt16)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18052ca80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToUInt16", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToInt32
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToInt32)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18052ca80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToInt32", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToUInt32
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToUInt32)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18052ca80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToUInt32", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToInt64
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToInt64)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18052ca80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToInt64", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToUInt64
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToUInt64)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18052ca80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToUInt64", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToSingle
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToSingle)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18169ebe0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToSingle", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToDouble
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToDouble)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18169eaf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToDouble", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToDecimal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToDecimal)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18169ea60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToDecimal", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToDateTime
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Char::*)(::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToDateTime)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18169e9d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToDateTime", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.System_IConvertible_ToType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Char::*)(::System::Type*, ::System::IFormatProvider*)>(&::System::Char::System_IConvertible_ToType)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18169ec70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToType", {}, {::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsControl
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsControl)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18169e200;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsControl", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.CheckNumber
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::UnicodeCategory)>(&::System::Char::CheckNumber)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18169de80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckNumber", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsNumber
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsNumber)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x18169e460;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsNumber", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsNumber
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t)>(&::System::Char::IsNumber)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x18169e4d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsNumber", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.CheckSeparator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::UnicodeCategory)>(&::System::Char::CheckSeparator)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18169dea0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckSeparator", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsSeparatorLatin1
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsSeparatorLatin1)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18169e5f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSeparatorLatin1", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsSeparator
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsSeparator)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18169e610;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSeparator", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsSurrogate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsSurrogate)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18169e6e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSurrogate", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsSurrogate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t)>(&::System::Char::IsSurrogate)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18169e680;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSurrogate", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsWhiteSpace
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t)>(&::System::Char::IsWhiteSpace)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x18169e7d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsWhiteSpace", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.GetUnicodeCategory
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::UnicodeCategory (*)(char16_t)>(&::System::Char::GetUnicodeCategory)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18169e130;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"GetUnicodeCategory", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.GetUnicodeCategory
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::UnicodeCategory (*)(::StringW, int32_t)>(&::System::Char::GetUnicodeCategory)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18169e160;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"GetUnicodeCategory", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsHighSurrogate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsHighSurrogate)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18169e2f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsHighSurrogate", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsHighSurrogate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t)>(&::System::Char::IsHighSurrogate)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x18169e290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsHighSurrogate", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsLowSurrogate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Char::IsLowSurrogate)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x18169e3e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLowSurrogate", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.IsSurrogatePair
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t, char16_t)>(&::System::Char::IsSurrogatePair)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x18169e650;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSurrogatePair", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ConvertFromUtf32
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::System::Char::ConvertFromUtf32)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x18169df50;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ConvertFromUtf32", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Char.ConvertToUtf32
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t, char16_t)>(&::System::Char::ConvertToUtf32)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18169dff0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ConvertToUtf32", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<char16_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void System::Char::setStaticF_s_categoryForLatin1(::ArrayW<uint8_t>  value)  {
+::cordl_internals::setStaticField<::ArrayW<uint8_t>, "s_categoryForLatin1", ::System::Char>(std::forward<::ArrayW<uint8_t>>(value));
+}
+inline ::ArrayW<uint8_t> System::Char::getStaticF_s_categoryForLatin1()  {
+return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "s_categoryForLatin1", ::System::Char>();
+}
+inline bool System::Char::IsLatin1(char16_t  ch)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLatin1", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, ch);
+}
+inline bool System::Char::IsAscii(char16_t  ch)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsAscii", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, ch);
+}
+inline ::System::Globalization::UnicodeCategory System::Char::GetLatin1UnicodeCategory(char16_t  ch)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"GetLatin1UnicodeCategory", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Globalization::UnicodeCategory>(nullptr, ___internal_method, ch);
+}
+inline int32_t System::Char::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Char>(), 2}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline bool System::Char::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Char>(), 0}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline bool System::Char::Equals(char16_t  obj)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"Equals", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
+}
+inline int32_t System::Char::CompareTo(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CompareTo", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, value);
+}
+inline int32_t System::Char::CompareTo(char16_t  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CompareTo", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, value);
+}
+inline ::StringW System::Char::ToString()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Char>(), 3}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
+}
+inline ::StringW System::Char::ToString(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToString", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, provider);
+}
+inline ::StringW System::Char::ToString(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToString", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, c);
+}
+inline char16_t System::Char::Parse(::StringW  s)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"Parse", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, s);
+}
+inline bool System::Char::TryParse(::StringW  s, ::by_ref<char16_t>  result)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"TryParse", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<char16_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, result);
+}
+inline bool System::Char::IsDigit(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsDigit", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::CheckLetter(::System::Globalization::UnicodeCategory  uc)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckLetter", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, uc);
+}
+inline bool System::Char::IsLetter(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLetter", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsWhiteSpaceLatin1(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsWhiteSpaceLatin1", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsWhiteSpace(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsWhiteSpace", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsUpper(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsUpper", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsLower(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLower", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::CheckPunctuation(::System::Globalization::UnicodeCategory  uc)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckPunctuation", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, uc);
+}
+inline bool System::Char::IsPunctuation(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsPunctuation", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::CheckLetterOrDigit(::System::Globalization::UnicodeCategory  uc)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckLetterOrDigit", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, uc);
+}
+inline bool System::Char::IsLetterOrDigit(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLetterOrDigit", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline char16_t System::Char::ToUpper(char16_t  c, ::System::Globalization::CultureInfo*  culture)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToUpper", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<::System::Globalization::CultureInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, c, culture);
+}
+inline char16_t System::Char::ToUpper(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToUpper", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, c);
+}
+inline char16_t System::Char::ToUpperInvariant(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToUpperInvariant", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, c);
+}
+inline char16_t System::Char::ToLower(char16_t  c, ::System::Globalization::CultureInfo*  culture)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToLower", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<::System::Globalization::CultureInfo*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, c, culture);
+}
+inline char16_t System::Char::ToLower(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToLower", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, c);
+}
+inline char16_t System::Char::ToLowerInvariant(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ToLowerInvariant", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(nullptr, ___internal_method, c);
+}
+inline ::System::TypeCode System::Char::GetTypeCode()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"GetTypeCode", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::TypeCode>(*this, ___internal_method);
+}
+inline bool System::Char::System_IConvertible_ToBoolean(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToBoolean", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, provider);
+}
+inline char16_t System::Char::System_IConvertible_ToChar(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToChar", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<char16_t>(*this, ___internal_method, provider);
+}
+inline int8_t System::Char::System_IConvertible_ToSByte(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToSByte", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int8_t>(*this, ___internal_method, provider);
+}
+inline uint8_t System::Char::System_IConvertible_ToByte(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToByte", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint8_t>(*this, ___internal_method, provider);
+}
+inline int16_t System::Char::System_IConvertible_ToInt16(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToInt16", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int16_t>(*this, ___internal_method, provider);
+}
+inline uint16_t System::Char::System_IConvertible_ToUInt16(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToUInt16", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint16_t>(*this, ___internal_method, provider);
+}
+inline int32_t System::Char::System_IConvertible_ToInt32(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToInt32", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, provider);
+}
+inline uint32_t System::Char::System_IConvertible_ToUInt32(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToUInt32", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method, provider);
+}
+inline int64_t System::Char::System_IConvertible_ToInt64(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToInt64", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int64_t>(*this, ___internal_method, provider);
+}
+inline uint64_t System::Char::System_IConvertible_ToUInt64(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToUInt64", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint64_t>(*this, ___internal_method, provider);
+}
+inline float_t System::Char::System_IConvertible_ToSingle(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToSingle", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method, provider);
+}
+inline double_t System::Char::System_IConvertible_ToDouble(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToDouble", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<double_t>(*this, ___internal_method, provider);
+}
+inline ::System::Decimal System::Char::System_IConvertible_ToDecimal(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToDecimal", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Decimal>(*this, ___internal_method, provider);
+}
+inline ::System::DateTime System::Char::System_IConvertible_ToDateTime(::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToDateTime", {}, {::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::DateTime>(*this, ___internal_method, provider);
+}
+inline ::System::Object* System::Char::System_IConvertible_ToType(::System::Type*  type, ::System::IFormatProvider*  provider)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"System.IConvertible.ToType", {}, {::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::IFormatProvider*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method, type, provider);
+}
+inline bool System::Char::IsControl(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsControl", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::CheckNumber(::System::Globalization::UnicodeCategory  uc)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckNumber", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, uc);
+}
+inline bool System::Char::IsNumber(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsNumber", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsNumber(::StringW  s, int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsNumber", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, index);
+}
+inline bool System::Char::CheckSeparator(::System::Globalization::UnicodeCategory  uc)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"CheckSeparator", {}, {::i2c::type_of<::System::Globalization::UnicodeCategory>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, uc);
+}
+inline bool System::Char::IsSeparatorLatin1(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSeparatorLatin1", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsSeparator(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSeparator", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsSurrogate(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSurrogate", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsSurrogate(::StringW  s, int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSurrogate", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, index);
+}
+inline bool System::Char::IsWhiteSpace(::StringW  s, int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsWhiteSpace", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, index);
+}
+inline ::System::Globalization::UnicodeCategory System::Char::GetUnicodeCategory(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"GetUnicodeCategory", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Globalization::UnicodeCategory>(nullptr, ___internal_method, c);
+}
+inline ::System::Globalization::UnicodeCategory System::Char::GetUnicodeCategory(::StringW  s, int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"GetUnicodeCategory", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Globalization::UnicodeCategory>(nullptr, ___internal_method, s, index);
+}
+inline bool System::Char::IsHighSurrogate(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsHighSurrogate", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsHighSurrogate(::StringW  s, int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsHighSurrogate", {}, {::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, index);
+}
+inline bool System::Char::IsLowSurrogate(char16_t  c)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsLowSurrogate", {}, {::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c);
+}
+inline bool System::Char::IsSurrogatePair(char16_t  highSurrogate, char16_t  lowSurrogate)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"IsSurrogatePair", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, highSurrogate, lowSurrogate);
+}
+inline ::StringW System::Char::ConvertFromUtf32(int32_t  utf32)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ConvertFromUtf32", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, utf32);
+}
+inline int32_t System::Char::ConvertToUtf32(char16_t  highSurrogate, char16_t  lowSurrogate)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Char>(),
+                        {"ConvertToUtf32", {}, {::i2c::type_of<char16_t>(), ::i2c::type_of<char16_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, highSurrogate, lowSurrogate);
+}
+/// @brief Convert operator to "::System::IComparable"
+constexpr  System::Char::operator ::System::IComparable*()  {
+return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IComparable"
+constexpr ::System::IComparable* System::Char::i___System__IComparable()  {
+return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IComparable_1<char16_t>"
+constexpr  System::Char::operator ::System::IComparable_1<char16_t>*()  {
+return static_cast<::System::IComparable_1<char16_t>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IComparable_1<char16_t>"
+constexpr ::System::IComparable_1<char16_t>* System::Char::i___System__IComparable_1_char16_t_()  {
+return static_cast<::System::IComparable_1<char16_t>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<char16_t>"
+constexpr  System::Char::operator ::System::IEquatable_1<char16_t>*()  {
+return static_cast<::System::IEquatable_1<char16_t>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<char16_t>"
+constexpr ::System::IEquatable_1<char16_t>* System::Char::i___System__IEquatable_1_char16_t_()  {
+return static_cast<::System::IEquatable_1<char16_t>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IConvertible"
+constexpr  System::Char::operator ::System::IConvertible*()  {
+return static_cast<::System::IConvertible*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IConvertible"
+constexpr ::System::IConvertible* System::Char::i___System__IConvertible()  {
+return static_cast<::System::IConvertible*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "m_value", ty: "char16_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Char::Char(char16_t  m_value) noexcept  {
+this->m_value = m_value;
+}
+// Ctor Parameters []
+constexpr ::System::Char::Char()   {
+}

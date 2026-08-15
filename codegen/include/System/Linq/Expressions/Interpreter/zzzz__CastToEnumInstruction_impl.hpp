@@ -1,0 +1,68 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CastToEnumInstruction.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__CastInstruction_impl.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__CastToEnumInstruction_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::CastToEnumInstruction._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::CastToEnumInstruction::*)(::System::Type*)>(&::System::Linq::Expressions::Interpreter::CastToEnumInstruction::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x180308500;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::Interpreter::CastToEnumInstruction*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::CastToEnumInstruction.Run
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CastToEnumInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::CastToEnumInstruction::Run)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181b214b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::Interpreter::CastToEnumInstruction*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::Interpreter::CastToEnumInstruction*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Type*& System::Linq::Expressions::Interpreter::CastToEnumInstruction::__cordl_internal_get__t()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____t;
+}
+constexpr ::System::Type* const& System::Linq::Expressions::Interpreter::CastToEnumInstruction::__cordl_internal_get__t() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____t;
+}
+constexpr void System::Linq::Expressions::Interpreter::CastToEnumInstruction::__cordl_internal_set__t(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____t = value;
+}
+inline void System::Linq::Expressions::Interpreter::CastToEnumInstruction::_ctor(::System::Type*  t)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::Interpreter::CastToEnumInstruction*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
+}
+inline int32_t System::Linq::Expressions::Interpreter::CastToEnumInstruction::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::Interpreter::CastToEnumInstruction*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::CastToEnumInstruction* System::Linq::Expressions::Interpreter::CastToEnumInstruction::New_ctor(::System::Type*  t)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Expressions::Interpreter::CastToEnumInstruction*>(t));
+}
+// Ctor Parameters []
+constexpr ::System::Linq::Expressions::Interpreter::CastToEnumInstruction::CastToEnumInstruction()   {
+}

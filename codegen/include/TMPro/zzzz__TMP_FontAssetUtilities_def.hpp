@@ -1,0 +1,128 @@
+#pragma once
+// IWYU pragma private; include "TMPro/TMP_FontAssetUtilities.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(TMP_FontAssetUtilities)
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace TMPro {
+struct FontStyles;
+}
+namespace TMPro {
+struct FontWeight;
+}
+namespace TMPro {
+class TMP_Asset;
+}
+namespace TMPro {
+class TMP_Character;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_SpriteCharacter;
+}
+namespace TMPro {
+class TMP_TextElement;
+}
+// Forward declare root types
+namespace TMPro {
+class TMP_FontAssetUtilities;
+}
+// Write type traits
+MARK_REF_T(::TMPro::TMP_FontAssetUtilities*);
+DEFINE_IL2CPP_CLASS(::TMPro::TMP_FontAssetUtilities*, "TMPro", "TMP_FontAssetUtilities");
+// Dependencies System.Object
+namespace TMPro {
+// Is value type: false
+// CS Name: TMPro.TMP_FontAssetUtilities
+class CORDL_TYPE TMP_FontAssetUtilities : public ::System::Object {
+public:
+// Declarations
+/// @brief Field k_SearchedAssets, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_SearchedAssets, put=setStaticF_k_SearchedAssets)) ::System::Collections::Generic::HashSet_1<int32_t>*  k_SearchedAssets;
+
+/// @brief Field s_Instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Instance, put=setStaticF_s_Instance)) ::TMPro::TMP_FontAssetUtilities*  s_Instance;
+
+/// @brief Method GetCharacterFromFontAsset, addr 0x1821954c0, size 0x100, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_Character* GetCharacterFromFontAsset(uint32_t  unicode, ::TMPro::TMP_FontAsset*  sourceFontAsset, bool  includeFallbacks, ::TMPro::FontStyles  fontStyle, ::TMPro::FontWeight  fontWeight, ::by_ref<bool>  isAlternativeTypeface) ;
+
+/// @brief Method GetCharacterFromFontAsset_Internal, addr 0x182195160, size 0x360, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_Character* GetCharacterFromFontAsset_Internal(uint32_t  unicode, ::TMPro::TMP_FontAsset*  sourceFontAsset, bool  includeFallbacks, ::TMPro::FontStyles  fontStyle, ::TMPro::FontWeight  fontWeight, ::by_ref<bool>  isAlternativeTypeface) ;
+
+/// @brief Method GetCharacterFromFontAssets, addr 0x1821955c0, size 0x180, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_Character* GetCharacterFromFontAssets(uint32_t  unicode, ::TMPro::TMP_FontAsset*  sourceFontAsset, ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*  fontAssets, bool  includeFallbacks, ::TMPro::FontStyles  fontStyle, ::TMPro::FontWeight  fontWeight, ::by_ref<bool>  isAlternativeTypeface) ;
+
+/// @brief Method GetCodePoint, addr 0x1821957e0, size 0x80, virtual false, abstract: false, final false
+static inline uint32_t GetCodePoint(::ArrayW<uint32_t>  codesPoints, ::by_ref<int32_t>  index) ;
+
+/// @brief Method GetCodePoint, addr 0x182195740, size 0xa0, virtual false, abstract: false, final false
+static inline uint32_t GetCodePoint(::StringW  text, ::by_ref<int32_t>  index) ;
+
+/// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x1821959b0, size 0x210, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset(uint32_t  unicode, ::TMPro::TMP_SpriteAsset*  spriteAsset, bool  includeFallbacks) ;
+
+/// @brief Method GetSpriteCharacterFromSpriteAsset_Internal, addr 0x182195860, size 0x150, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset_Internal(uint32_t  unicode, ::TMPro::TMP_SpriteAsset*  spriteAsset, bool  includeFallbacks) ;
+
+/// @brief Method GetTextElementFromTextAssets, addr 0x182195bc0, size 0x270, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_TextElement* GetTextElementFromTextAssets(uint32_t  unicode, ::TMPro::TMP_FontAsset*  sourceFontAsset, ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Asset>>*  textAssets, bool  includeFallbacks, ::TMPro::FontStyles  fontStyle, ::TMPro::FontWeight  fontWeight, ::by_ref<bool>  isAlternativeTypeface) ;
+
+static inline ::TMPro::TMP_FontAssetUtilities* New_ctor() ;
+
+/// @brief Method SearchFallbacksForCharacter, addr 0x182195e30, size 0x110, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_Character* SearchFallbacksForCharacter(uint32_t  unicode, ::TMPro::TMP_FontAsset*  sourceFontAsset, ::TMPro::FontStyles  fontStyle, ::TMPro::FontWeight  fontWeight, ::by_ref<bool>  isAlternativeTypeface) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_k_SearchedAssets() ;
+
+static inline ::TMPro::TMP_FontAssetUtilities* getStaticF_s_Instance() ;
+
+/// @brief Method get_instance, addr 0x182195f80, size 0x40, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_FontAssetUtilities* get_instance() ;
+
+static inline void setStaticF_k_SearchedAssets(::System::Collections::Generic::HashSet_1<int32_t>*  value) ;
+
+static inline void setStaticF_s_Instance(::TMPro::TMP_FontAssetUtilities*  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_FontAssetUtilities() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "TMP_FontAssetUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TMP_FontAssetUtilities(TMP_FontAssetUtilities && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "TMP_FontAssetUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TMP_FontAssetUtilities(TMP_FontAssetUtilities const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15184};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::TMPro::TMP_FontAssetUtilities) == 0x10, "Size mismatch!");
+
+} // namespace end def TMPro

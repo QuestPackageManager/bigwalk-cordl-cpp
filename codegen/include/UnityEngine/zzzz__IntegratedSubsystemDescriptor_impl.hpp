@@ -1,0 +1,76 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/IntegratedSubsystemDescriptor.hpp"
+#include "System/zzzz__IntPtr_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
+//  Writing Method size for method: ::UnityEngine::IntegratedSubsystemDescriptor.get_id
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::IntegratedSubsystemDescriptor::*)()>(&::UnityEngine::IntegratedSubsystemDescriptor::get_id)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18230d8f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::IntegratedSubsystemDescriptor*>(),
+                        {"get_id", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::IntegratedSubsystemDescriptor._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::IntegratedSubsystemDescriptor::*)()>(&::UnityEngine::IntegratedSubsystemDescriptor::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::IntegratedSubsystemDescriptor*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::IntPtr& UnityEngine::IntegratedSubsystemDescriptor::__cordl_internal_get_m_Ptr()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Ptr;
+}
+constexpr ::System::IntPtr const& UnityEngine::IntegratedSubsystemDescriptor::__cordl_internal_get_m_Ptr() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Ptr;
+}
+constexpr void UnityEngine::IntegratedSubsystemDescriptor::__cordl_internal_set_m_Ptr(::System::IntPtr  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Ptr = value;
+}
+inline ::StringW UnityEngine::IntegratedSubsystemDescriptor::get_id()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::IntegratedSubsystemDescriptor*>(),
+                        {"get_id", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void UnityEngine::IntegratedSubsystemDescriptor::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::IntegratedSubsystemDescriptor*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::IntegratedSubsystemDescriptor* UnityEngine::IntegratedSubsystemDescriptor::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::IntegratedSubsystemDescriptor*>());
+}
+/// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
+constexpr  UnityEngine::IntegratedSubsystemDescriptor::operator ::UnityEngine::ISubsystemDescriptor*() noexcept {
+return static_cast<::UnityEngine::ISubsystemDescriptor*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
+constexpr ::UnityEngine::ISubsystemDescriptor* UnityEngine::IntegratedSubsystemDescriptor::i___UnityEngine__ISubsystemDescriptor() noexcept {
+return static_cast<::UnityEngine::ISubsystemDescriptor*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::IntegratedSubsystemDescriptor::IntegratedSubsystemDescriptor()   {
+}

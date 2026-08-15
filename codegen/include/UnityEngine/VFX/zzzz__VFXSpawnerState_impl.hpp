@@ -1,0 +1,234 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/VFX/VFXSpawnerState.hpp"
+#include "System/zzzz__IntPtr_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/VFX/zzzz__VFXSpawnerState_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/VFX/zzzz__VFXEventAttribute_def.hpp"
+//  Writing Method size for method: ::UnityEngine::VFX::VFXSpawnerState._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)(::System::IntPtr, bool)>(&::UnityEngine::VFX::VFXSpawnerState::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18223df80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::VFXSpawnerState.CreateSpawnerStateWrapper
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXSpawnerState* (*)()>(&::UnityEngine::VFX::VFXSpawnerState::CreateSpawnerStateWrapper)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x18254d270;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"CreateSpawnerStateWrapper", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::VFXSpawnerState.PrepareWrapper
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::PrepareWrapper)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18254d3a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"PrepareWrapper", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::VFXSpawnerState.SetWrapValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::SetWrapValue)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x18254d460;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"SetWrapValue", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::VFXSpawnerState.Release
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::Release)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18254d420;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"Release", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::VFXSpawnerState.Finalize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::Finalize)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x18254d350;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                    {::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), 1}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::VFXSpawnerState.Dispose
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXSpawnerState::*)()>(&::UnityEngine::VFX::VFXSpawnerState::Dispose)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18254d300;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"Dispose", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::VFX::VFXSpawnerState.Internal_Destroy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::VFX::VFXSpawnerState::Internal_Destroy)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x18254d390;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"Internal_Destroy", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::IntPtr& UnityEngine::VFX::VFXSpawnerState::__cordl_internal_get_m_Ptr()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Ptr;
+}
+constexpr ::System::IntPtr const& UnityEngine::VFX::VFXSpawnerState::__cordl_internal_get_m_Ptr() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Ptr;
+}
+constexpr void UnityEngine::VFX::VFXSpawnerState::__cordl_internal_set_m_Ptr(::System::IntPtr  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Ptr = value;
+}
+constexpr bool& UnityEngine::VFX::VFXSpawnerState::__cordl_internal_get_m_Owner()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Owner;
+}
+constexpr bool const& UnityEngine::VFX::VFXSpawnerState::__cordl_internal_get_m_Owner() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Owner;
+}
+constexpr void UnityEngine::VFX::VFXSpawnerState::__cordl_internal_set_m_Owner(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Owner = value;
+}
+constexpr ::UnityEngine::VFX::VFXEventAttribute*& UnityEngine::VFX::VFXSpawnerState::__cordl_internal_get_m_WrapEventAttribute()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_WrapEventAttribute;
+}
+constexpr ::UnityEngine::VFX::VFXEventAttribute* const& UnityEngine::VFX::VFXSpawnerState::__cordl_internal_get_m_WrapEventAttribute() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_WrapEventAttribute;
+}
+constexpr void UnityEngine::VFX::VFXSpawnerState::__cordl_internal_set_m_WrapEventAttribute(::UnityEngine::VFX::VFXEventAttribute*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_WrapEventAttribute = value;
+}
+inline void UnityEngine::VFX::VFXSpawnerState::_ctor(::System::IntPtr  ptr, bool  owner)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ptr, owner);
+}
+inline ::UnityEngine::VFX::VFXSpawnerState* UnityEngine::VFX::VFXSpawnerState::CreateSpawnerStateWrapper()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"CreateSpawnerStateWrapper", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::VFX::VFXSpawnerState*>(nullptr, ___internal_method);
+}
+inline void UnityEngine::VFX::VFXSpawnerState::PrepareWrapper()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"PrepareWrapper", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::VFX::VFXSpawnerState::SetWrapValue(::System::IntPtr  ptrToSpawnerState, ::System::IntPtr  ptrToEventAttribute)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"SetWrapValue", {}, {::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ptrToSpawnerState, ptrToEventAttribute);
+}
+inline void UnityEngine::VFX::VFXSpawnerState::Release()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"Release", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::VFX::VFXSpawnerState::Finalize()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(), 1}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::VFX::VFXSpawnerState::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"Dispose", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::VFX::VFXSpawnerState::Internal_Destroy(::System::IntPtr  ptr)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::VFX::VFXSpawnerState*>(),
+                        {"Internal_Destroy", {}, {::i2c::type_of<::System::IntPtr>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ptr);
+}
+inline ::UnityEngine::VFX::VFXSpawnerState* UnityEngine::VFX::VFXSpawnerState::New_ctor(::System::IntPtr  ptr, bool  owner)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::VFX::VFXSpawnerState*>(ptr, owner));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr  UnityEngine::VFX::VFXSpawnerState::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::VFX::VFXSpawnerState::i___System__IDisposable() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::VFX::VFXSpawnerState::VFXSpawnerState()   {
+}

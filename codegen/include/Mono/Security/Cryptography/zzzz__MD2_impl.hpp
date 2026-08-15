@@ -1,0 +1,54 @@
+#pragma once
+// IWYU pragma private; include "Mono/Security/Cryptography/MD2.hpp"
+#include "System/Security/Cryptography/zzzz__HashAlgorithm_impl.hpp"
+#include "Mono/Security/Cryptography/zzzz__MD2_def.hpp"
+//  Writing Method size for method: ::Mono::Security::Cryptography::MD2._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::MD2::*)()>(&::Mono::Security::Cryptography::MD2::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1815b6c70;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Security::Cryptography::MD2*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Security::Cryptography::MD2.Create
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Cryptography::MD2* (*)()>(&::Mono::Security::Cryptography::MD2::Create)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x1815c5610;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Security::Cryptography::MD2*>(),
+                        {"Create", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void Mono::Security::Cryptography::MD2::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Security::Cryptography::MD2*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::Mono::Security::Cryptography::MD2* Mono::Security::Cryptography::MD2::Create()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::Mono::Security::Cryptography::MD2*>(),
+                        {"Create", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Security::Cryptography::MD2*>(nullptr, ___internal_method);
+}
+inline ::Mono::Security::Cryptography::MD2* Mono::Security::Cryptography::MD2::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Security::Cryptography::MD2*>());
+}
+// Ctor Parameters []
+constexpr ::Mono::Security::Cryptography::MD2::MD2()   {
+}

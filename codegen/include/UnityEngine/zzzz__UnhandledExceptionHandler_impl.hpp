@@ -1,0 +1,95 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UnhandledExceptionHandler.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__UnhandledExceptionHandler_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__UnhandledExceptionEventArgs_def.hpp"
+#include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
+#include "UnityEngine/zzzz__UnhandledExceptionHandler_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UnhandledExceptionHandler___c._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UnhandledExceptionHandler___c::*)()>(&::UnityEngine::UnhandledExceptionHandler___c::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9d80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UnhandledExceptionHandler___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UnhandledExceptionHandler___c._RegisterUECatcher_b__0_0
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UnhandledExceptionHandler___c::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(&::UnityEngine::UnhandledExceptionHandler___c::_RegisterUECatcher_b__0_0)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x18227a800;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UnhandledExceptionHandler___c*>(),
+                        {"<RegisterUECatcher>b__0_0", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::UnhandledExceptionEventArgs*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UnhandledExceptionHandler___c::setStaticF___9(::UnityEngine::UnhandledExceptionHandler___c*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::UnhandledExceptionHandler___c*, "<>9", ::UnityEngine::UnhandledExceptionHandler___c*>(std::forward<::UnityEngine::UnhandledExceptionHandler___c*>(value));
+}
+inline ::UnityEngine::UnhandledExceptionHandler___c* UnityEngine::UnhandledExceptionHandler___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::UnityEngine::UnhandledExceptionHandler___c*, "<>9", ::UnityEngine::UnhandledExceptionHandler___c*>();
+}
+inline void UnityEngine::UnhandledExceptionHandler___c::setStaticF___9__0_0(::System::UnhandledExceptionEventHandler*  value)  {
+::cordl_internals::setStaticField<::System::UnhandledExceptionEventHandler*, "<>9__0_0", ::UnityEngine::UnhandledExceptionHandler___c*>(std::forward<::System::UnhandledExceptionEventHandler*>(value));
+}
+inline ::System::UnhandledExceptionEventHandler* UnityEngine::UnhandledExceptionHandler___c::getStaticF___9__0_0()  {
+return ::cordl_internals::getStaticField<::System::UnhandledExceptionEventHandler*, "<>9__0_0", ::UnityEngine::UnhandledExceptionHandler___c*>();
+}
+inline void UnityEngine::UnhandledExceptionHandler___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UnhandledExceptionHandler___c*>(),
+                        {".ctor", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void UnityEngine::UnhandledExceptionHandler___c::_RegisterUECatcher_b__0_0(::System::Object*  sender, ::System::UnhandledExceptionEventArgs*  e)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UnhandledExceptionHandler___c*>(),
+                        {"<RegisterUECatcher>b__0_0", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::UnhandledExceptionEventArgs*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sender, e);
+}
+inline ::UnityEngine::UnhandledExceptionHandler___c* UnityEngine::UnhandledExceptionHandler___c::New_ctor()  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UnhandledExceptionHandler___c*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UnhandledExceptionHandler___c::UnhandledExceptionHandler___c()   {
+}
+//  Writing Method size for method: ::UnityEngine::UnhandledExceptionHandler.RegisterUECatcher
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UnhandledExceptionHandler::RegisterUECatcher)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x18227ae60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UnhandledExceptionHandler*>(),
+                        {"RegisterUECatcher", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UnhandledExceptionHandler::RegisterUECatcher()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::UnityEngine::UnhandledExceptionHandler*>(),
+                        {"RegisterUECatcher", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UnhandledExceptionHandler::UnhandledExceptionHandler()   {
+}

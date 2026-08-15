@@ -1,0 +1,1217 @@
+#pragma once
+// IWYU pragma private; include "System/Data/Common/DataStorage.hpp"
+#include "System/Data/Common/zzzz__StorageType_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "System/zzzz__Type_impl.hpp"
+#include "System/Data/Common/zzzz__DataStorage_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
+#include "System/Collections/zzzz__BitArray_def.hpp"
+#include "System/Data/Common/zzzz__StorageType_def.hpp"
+#include "System/Data/zzzz__AggregateType_def.hpp"
+#include "System/Data/zzzz__DataColumn_def.hpp"
+#include "System/Data/zzzz__DataSetDateTime_def.hpp"
+#include "System/Data/zzzz__DataTable_def.hpp"
+#include "System/Xml/Serialization/zzzz__XmlRootAttribute_def.hpp"
+#include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Tuple_4_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Data::Common::DataStorage._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Data::DataColumn*, ::System::Type*, ::System::Object*, ::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::_ctor)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181bf34b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Data::DataColumn*, ::System::Type*, ::System::Object*, ::System::Object*, ::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181bf3340;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Data::DataColumn*, ::System::Type*, ::System::Object*, ::System::Object*, bool, ::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::_ctor)> {
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x181bf3370;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.get_DateTimeMode
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataSetDateTime (::System::Data::Common::DataStorage::*)()>(&::System::Data::Common::DataStorage::get_DateTimeMode)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bf3540;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"get_DateTimeMode", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.get_FormatProvider
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IFormatProvider* (::System::Data::Common::DataStorage::*)()>(&::System::Data::Common::DataStorage::get_FormatProvider)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bf3550;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"get_FormatProvider", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.Aggregate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(&::System::Data::Common::DataStorage::Aggregate)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181bf1690;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 4}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.AggregateCount
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::ArrayW<int32_t>)>(&::System::Data::Common::DataStorage::AggregateCount)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181bf1610;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"AggregateCount", {}, {::i2c::type_of<::ArrayW<int32_t>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.CompareBits
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DataStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DataStorage::CompareBits)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181bf1720;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"CompareBits", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.Compare
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DataStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DataStorage::Compare)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.CompareValueTo
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DataStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::DataStorage::CompareValueTo)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::System::Object*)>(&::System::Data::Common::DataStorage::ConvertValue)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802dc680;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.CopyBits
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DataStorage::CopyBits)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181bf1820;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"CopyBits", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.Copy
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DataStorage::Copy)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.Get
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::Get)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.GetBits
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::GetBits)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181bf2520;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetBits", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.GetStringLength
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::GetStringLength)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bf2630;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.HasValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::HasValue)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bf2700;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"HasValue", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.IsNull
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::IsNull)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bf29a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.Set
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::DataStorage::Set)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.SetNullBit
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, bool)>(&::System::Data::Common::DataStorage::SetNullBit)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bf2c90;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"SetNullBit", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<bool>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.SetCapacity
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::SetCapacity)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181bf2c20;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertXmlToObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::StringW)>(&::System::Data::Common::DataStorage::ConvertXmlToObject)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertXmlToObject
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlRootAttribute*)>(&::System::Data::Common::DataStorage::ConvertXmlToObject)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181bf17d0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 15}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertObjectToXml
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::DataStorage::*)(::System::Object*)>(&::System::Data::Common::DataStorage::ConvertObjectToXml)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 16}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertObjectToXml
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Object*, ::System::Xml::XmlWriter*, ::System::Xml::Serialization::XmlRootAttribute*)>(&::System::Data::Common::DataStorage::ConvertObjectToXml)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181bf1790;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 17}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.CreateStorage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Common::DataStorage* (*)(::System::Data::DataColumn*, ::System::Type*, ::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::CreateStorage)> {
+  constexpr static std::size_t size = 0xc20;
+  constexpr static std::size_t addrs = 0x181bf1880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"CreateStorage", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.GetStorageType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Common::StorageType (*)(::System::Type*)>(&::System::Data::Common::DataStorage::GetStorageType)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181bf25a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetStorageType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.GetTypeStorage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::GetTypeStorage)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x181bf2640;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetTypeStorage", {}, {::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.IsTypeCustomType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Data::Common::DataStorage::IsTypeCustomType)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181bf2bf0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsTypeCustomType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.IsTypeCustomType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::IsTypeCustomType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bf2be0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsTypeCustomType", {}, {::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.IsSqlType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::IsSqlType)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x181bf2bd0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsSqlType", {}, {::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.IsSqlType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Data::Common::DataStorage::IsSqlType)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x181bf2b40;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsSqlType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.DetermineIfValueType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType, ::System::Type*)>(&::System::Data::Common::DataStorage::DetermineIfValueType)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181bf24a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"DetermineIfValueType", {}, {::i2c::type_of<::System::Data::Common::StorageType>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.ImplementsInterfaces
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Data::Common::StorageType, ::System::Type*, ::by_ref<bool>, ::by_ref<bool>, ::by_ref<bool>, ::by_ref<bool>, ::by_ref<bool>)>(&::System::Data::Common::DataStorage::ImplementsInterfaces)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181bf2790;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"ImplementsInterfaces", {}, {::i2c::type_of<::System::Data::Common::StorageType>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<bool>>(), ::i2c::type_of<::by_ref<bool>>(), ::i2c::type_of<::by_ref<bool>>(), ::i2c::type_of<::by_ref<bool>>(), ::i2c::type_of<::by_ref<bool>>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.InspectTypeForInterfaces
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Tuple_4<bool,bool,bool,bool>* (*)(::System::Type*)>(&::System::Data::Common::DataStorage::InspectTypeForInterfaces)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x181bf2880;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"InspectTypeForInterfaces", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.ImplementsINullableValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType, ::System::Type*)>(&::System::Data::Common::DataStorage::ImplementsINullableValue)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x181bf2720;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"ImplementsINullableValue", {}, {::i2c::type_of<::System::Data::Common::StorageType>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.IsObjectNull
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::System::Data::Common::DataStorage::IsObjectNull)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x181bf29b0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsObjectNull", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.IsObjectSqlNull
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::System::Data::Common::DataStorage::IsObjectSqlNull)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x181bf2aa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsObjectSqlNull", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.GetEmptyStorageInternal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::GetEmptyStorageInternal)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bf2550;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetEmptyStorageInternal", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.CopyValueInternal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::DataStorage::CopyValueInternal)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bf1860;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"CopyValueInternal", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Collections::BitArray*>(), ::i2c::type_of<int32_t>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.SetStorageInternal
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(&::System::Data::Common::DataStorage::SetStorageInternal)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bf2ca0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"SetStorageInternal", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Collections::BitArray*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.GetEmptyStorage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::GetEmptyStorage)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 18}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.CopyValue
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::DataStorage::CopyValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 19}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.SetStorage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(&::System::Data::Common::DataStorage::SetStorage)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                    {::i2c::class_of<::System::Data::Common::DataStorage*>(), 20}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.SetNullStorage
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Collections::BitArray*)>(&::System::Data::Common::DataStorage::SetNullStorage)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802d9830;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"SetNullStorage", {}, {::i2c::type_of<::System::Collections::BitArray*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.GetType
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::StringW)>(&::System::Data::Common::DataStorage::GetType)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x181bf2680;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetType", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::Common::DataStorage.GetQualifiedName
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*)>(&::System::Data::Common::DataStorage::GetQualifiedName)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x181bf2570;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetQualifiedName", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Data::DataColumn*& System::Data::Common::DataStorage::__cordl_internal_get__column()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____column;
+}
+constexpr ::System::Data::DataColumn* const& System::Data::Common::DataStorage::__cordl_internal_get__column() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____column;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__column(::System::Data::DataColumn*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____column = value;
+}
+constexpr ::System::Data::DataTable*& System::Data::Common::DataStorage::__cordl_internal_get__table()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____table;
+}
+constexpr ::System::Data::DataTable* const& System::Data::Common::DataStorage::__cordl_internal_get__table() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____table;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__table(::System::Data::DataTable*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____table = value;
+}
+constexpr ::System::Type*& System::Data::Common::DataStorage::__cordl_internal_get__dataType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataType;
+}
+constexpr ::System::Type* const& System::Data::Common::DataStorage::__cordl_internal_get__dataType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dataType;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__dataType(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____dataType = value;
+}
+constexpr ::System::Data::Common::StorageType& System::Data::Common::DataStorage::__cordl_internal_get__storageTypeCode()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____storageTypeCode;
+}
+constexpr ::System::Data::Common::StorageType const& System::Data::Common::DataStorage::__cordl_internal_get__storageTypeCode() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____storageTypeCode;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__storageTypeCode(::System::Data::Common::StorageType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____storageTypeCode = value;
+}
+constexpr ::System::Collections::BitArray*& System::Data::Common::DataStorage::__cordl_internal_get__dbNullBits()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dbNullBits;
+}
+constexpr ::System::Collections::BitArray* const& System::Data::Common::DataStorage::__cordl_internal_get__dbNullBits() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____dbNullBits;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__dbNullBits(::System::Collections::BitArray*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____dbNullBits = value;
+}
+constexpr ::System::Object*& System::Data::Common::DataStorage::__cordl_internal_get__defaultValue()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____defaultValue;
+}
+constexpr ::System::Object* const& System::Data::Common::DataStorage::__cordl_internal_get__defaultValue() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____defaultValue;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__defaultValue(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____defaultValue = value;
+}
+constexpr ::System::Object*& System::Data::Common::DataStorage::__cordl_internal_get__nullValue()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nullValue;
+}
+constexpr ::System::Object* const& System::Data::Common::DataStorage::__cordl_internal_get__nullValue() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____nullValue;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__nullValue(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____nullValue = value;
+}
+constexpr bool& System::Data::Common::DataStorage::__cordl_internal_get__isCloneable()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isCloneable;
+}
+constexpr bool const& System::Data::Common::DataStorage::__cordl_internal_get__isCloneable() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isCloneable;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__isCloneable(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isCloneable = value;
+}
+constexpr bool& System::Data::Common::DataStorage::__cordl_internal_get__isCustomDefinedType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isCustomDefinedType;
+}
+constexpr bool const& System::Data::Common::DataStorage::__cordl_internal_get__isCustomDefinedType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isCustomDefinedType;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__isCustomDefinedType(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isCustomDefinedType = value;
+}
+constexpr bool& System::Data::Common::DataStorage::__cordl_internal_get__isStringType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isStringType;
+}
+constexpr bool const& System::Data::Common::DataStorage::__cordl_internal_get__isStringType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isStringType;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__isStringType(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isStringType = value;
+}
+constexpr bool& System::Data::Common::DataStorage::__cordl_internal_get__isValueType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isValueType;
+}
+constexpr bool const& System::Data::Common::DataStorage::__cordl_internal_get__isValueType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____isValueType;
+}
+constexpr void System::Data::Common::DataStorage::__cordl_internal_set__isValueType(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____isValueType = value;
+}
+inline void System::Data::Common::DataStorage::setStaticF_s_storageClassType(::ArrayW<::System::Type*>  value)  {
+::cordl_internals::setStaticField<::ArrayW<::System::Type*>, "s_storageClassType", ::System::Data::Common::DataStorage*>(std::forward<::ArrayW<::System::Type*>>(value));
+}
+inline ::ArrayW<::System::Type*> System::Data::Common::DataStorage::getStaticF_s_storageClassType()  {
+return ::cordl_internals::getStaticField<::ArrayW<::System::Type*>, "s_storageClassType", ::System::Data::Common::DataStorage*>();
+}
+inline void System::Data::Common::DataStorage::setStaticF_s_inspectTypeForInterfaces(::System::Func_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>*, "s_inspectTypeForInterfaces", ::System::Data::Common::DataStorage*>(std::forward<::System::Func_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>*>(value));
+}
+inline ::System::Func_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>* System::Data::Common::DataStorage::getStaticF_s_inspectTypeForInterfaces()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>*, "s_inspectTypeForInterfaces", ::System::Data::Common::DataStorage*>();
+}
+inline void System::Data::Common::DataStorage::setStaticF_s_typeImplementsInterface(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>*, "s_typeImplementsInterface", ::System::Data::Common::DataStorage*>(std::forward<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>*>(value));
+}
+inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>* System::Data::Common::DataStorage::getStaticF_s_typeImplementsInterface()  {
+return ::cordl_internals::getStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*,::System::Tuple_4<bool,bool,bool,bool>*>*, "s_typeImplementsInterface", ::System::Data::Common::DataStorage*>();
+}
+inline void System::Data::Common::DataStorage::_ctor(::System::Data::DataColumn*  column, ::System::Type*  type, ::System::Object*  defaultValue, ::System::Data::Common::StorageType  storageType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column, type, defaultValue, storageType);
+}
+inline void System::Data::Common::DataStorage::_ctor(::System::Data::DataColumn*  column, ::System::Type*  type, ::System::Object*  defaultValue, ::System::Object*  nullValue, ::System::Data::Common::StorageType  storageType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column, type, defaultValue, nullValue, storageType);
+}
+inline void System::Data::Common::DataStorage::_ctor(::System::Data::DataColumn*  column, ::System::Type*  type, ::System::Object*  defaultValue, ::System::Object*  nullValue, bool  isICloneable, ::System::Data::Common::StorageType  storageType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, column, type, defaultValue, nullValue, isICloneable, storageType);
+}
+inline ::System::Data::DataSetDateTime System::Data::Common::DataStorage::get_DateTimeMode()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"get_DateTimeMode", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Data::DataSetDateTime>(this, ___internal_method);
+}
+inline ::System::IFormatProvider* System::Data::Common::DataStorage::get_FormatProvider()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"get_FormatProvider", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::IFormatProvider*>(this, ___internal_method);
+}
+inline ::System::Object* System::Data::Common::DataStorage::Aggregate(::ArrayW<int32_t>  recordNos, ::System::Data::AggregateType  kind)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 4}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, recordNos, kind);
+}
+inline ::System::Object* System::Data::Common::DataStorage::AggregateCount(::ArrayW<int32_t>  recordNos)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"AggregateCount", {}, {::i2c::type_of<::ArrayW<int32_t>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, recordNos);
+}
+inline int32_t System::Data::Common::DataStorage::CompareBits(int32_t  recordNo1, int32_t  recordNo2)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"CompareBits", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, recordNo1, recordNo2);
+}
+inline int32_t System::Data::Common::DataStorage::Compare(int32_t  recordNo1, int32_t  recordNo2)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, recordNo1, recordNo2);
+}
+inline int32_t System::Data::Common::DataStorage::CompareValueTo(int32_t  recordNo1, ::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, recordNo1, value);
+}
+inline ::System::Object* System::Data::Common::DataStorage::ConvertValue(::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, value);
+}
+inline void System::Data::Common::DataStorage::CopyBits(int32_t  srcRecordNo, int32_t  dstRecordNo)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"CopyBits", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, srcRecordNo, dstRecordNo);
+}
+inline void System::Data::Common::DataStorage::Copy(int32_t  recordNo1, int32_t  recordNo2)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, recordNo1, recordNo2);
+}
+inline ::System::Object* System::Data::Common::DataStorage::Get(int32_t  recordNo)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, recordNo);
+}
+inline ::System::Object* System::Data::Common::DataStorage::GetBits(int32_t  recordNo)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetBits", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, recordNo);
+}
+inline int32_t System::Data::Common::DataStorage::GetStringLength(int32_t  record)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, record);
+}
+inline bool System::Data::Common::DataStorage::HasValue(int32_t  recordNo)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"HasValue", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, recordNo);
+}
+inline bool System::Data::Common::DataStorage::IsNull(int32_t  recordNo)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, recordNo);
+}
+inline void System::Data::Common::DataStorage::Set(int32_t  recordNo, ::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, recordNo, value);
+}
+inline void System::Data::Common::DataStorage::SetNullBit(int32_t  recordNo, bool  flag)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"SetNullBit", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<bool>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, recordNo, flag);
+}
+inline void System::Data::Common::DataStorage::SetCapacity(int32_t  capacity)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity);
+}
+inline ::System::Object* System::Data::Common::DataStorage::ConvertXmlToObject(::StringW  s)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, s);
+}
+inline ::System::Object* System::Data::Common::DataStorage::ConvertXmlToObject(::System::Xml::XmlReader*  xmlReader, ::System::Xml::Serialization::XmlRootAttribute*  xmlAttrib)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 15}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, xmlReader, xmlAttrib);
+}
+inline ::StringW System::Data::Common::DataStorage::ConvertObjectToXml(::System::Object*  value)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 16}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
+}
+inline void System::Data::Common::DataStorage::ConvertObjectToXml(::System::Object*  value, ::System::Xml::XmlWriter*  xmlWriter, ::System::Xml::Serialization::XmlRootAttribute*  xmlAttrib)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 17}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, xmlWriter, xmlAttrib);
+}
+inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::CreateStorage(::System::Data::DataColumn*  column, ::System::Type*  dataType, ::System::Data::Common::StorageType  typeCode)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"CreateStorage", {}, {::i2c::type_of<::System::Data::DataColumn*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Data::Common::DataStorage*>(nullptr, ___internal_method, column, dataType, typeCode);
+}
+inline ::System::Data::Common::StorageType System::Data::Common::DataStorage::GetStorageType(::System::Type*  dataType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetStorageType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Data::Common::StorageType>(nullptr, ___internal_method, dataType);
+}
+inline ::System::Type* System::Data::Common::DataStorage::GetTypeStorage(::System::Data::Common::StorageType  storageType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetTypeStorage", {}, {::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, storageType);
+}
+inline bool System::Data::Common::DataStorage::IsTypeCustomType(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsTypeCustomType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
+}
+inline bool System::Data::Common::DataStorage::IsTypeCustomType(::System::Data::Common::StorageType  typeCode)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsTypeCustomType", {}, {::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, typeCode);
+}
+inline bool System::Data::Common::DataStorage::IsSqlType(::System::Data::Common::StorageType  storageType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsSqlType", {}, {::i2c::type_of<::System::Data::Common::StorageType>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, storageType);
+}
+inline bool System::Data::Common::DataStorage::IsSqlType(::System::Type*  dataType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsSqlType", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, dataType);
+}
+inline bool System::Data::Common::DataStorage::DetermineIfValueType(::System::Data::Common::StorageType  typeCode, ::System::Type*  dataType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"DetermineIfValueType", {}, {::i2c::type_of<::System::Data::Common::StorageType>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, typeCode, dataType);
+}
+inline void System::Data::Common::DataStorage::ImplementsInterfaces(::System::Data::Common::StorageType  typeCode, ::System::Type*  dataType, ::by_ref<bool>  sqlType, ::by_ref<bool>  nullable, ::by_ref<bool>  xmlSerializable, ::by_ref<bool>  changeTracking, ::by_ref<bool>  revertibleChangeTracking)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"ImplementsInterfaces", {}, {::i2c::type_of<::System::Data::Common::StorageType>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<bool>>(), ::i2c::type_of<::by_ref<bool>>(), ::i2c::type_of<::by_ref<bool>>(), ::i2c::type_of<::by_ref<bool>>(), ::i2c::type_of<::by_ref<bool>>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, typeCode, dataType, sqlType, nullable, xmlSerializable, changeTracking, revertibleChangeTracking);
+}
+inline ::System::Tuple_4<bool,bool,bool,bool>* System::Data::Common::DataStorage::InspectTypeForInterfaces(::System::Type*  dataType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"InspectTypeForInterfaces", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Tuple_4<bool,bool,bool,bool>*>(nullptr, ___internal_method, dataType);
+}
+inline bool System::Data::Common::DataStorage::ImplementsINullableValue(::System::Data::Common::StorageType  typeCode, ::System::Type*  dataType)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"ImplementsINullableValue", {}, {::i2c::type_of<::System::Data::Common::StorageType>(), ::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, typeCode, dataType);
+}
+inline bool System::Data::Common::DataStorage::IsObjectNull(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsObjectNull", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value);
+}
+inline bool System::Data::Common::DataStorage::IsObjectSqlNull(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"IsObjectSqlNull", {}, {::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value);
+}
+inline ::System::Object* System::Data::Common::DataStorage::GetEmptyStorageInternal(int32_t  recordCount)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetEmptyStorageInternal", {}, {::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, recordCount);
+}
+inline void System::Data::Common::DataStorage::CopyValueInternal(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"CopyValueInternal", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Collections::BitArray*>(), ::i2c::type_of<int32_t>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, record, store, nullbits, storeIndex);
+}
+inline void System::Data::Common::DataStorage::SetStorageInternal(::System::Object*  store, ::System::Collections::BitArray*  nullbits)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"SetStorageInternal", {}, {::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Collections::BitArray*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, store, nullbits);
+}
+inline ::System::Object* System::Data::Common::DataStorage::GetEmptyStorage(int32_t  recordCount)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 18}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, recordCount);
+}
+inline void System::Data::Common::DataStorage::CopyValue(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 19}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, record, store, nullbits, storeIndex);
+}
+inline void System::Data::Common::DataStorage::SetStorage(::System::Object*  store, ::System::Collections::BitArray*  nullbits)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::Common::DataStorage*>(), 20}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, store, nullbits);
+}
+inline void System::Data::Common::DataStorage::SetNullStorage(::System::Collections::BitArray*  nullbits)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"SetNullStorage", {}, {::i2c::type_of<::System::Collections::BitArray*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nullbits);
+}
+inline ::System::Type* System::Data::Common::DataStorage::GetType(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetType", {}, {::i2c::type_of<::StringW>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, value);
+}
+inline ::StringW System::Data::Common::DataStorage::GetQualifiedName(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::Common::DataStorage*>(),
+                        {"GetQualifiedName", {}, {::i2c::type_of<::System::Type*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, type);
+}
+inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn*  column, ::System::Type*  type, ::System::Object*  defaultValue, ::System::Data::Common::StorageType  storageType)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::Common::DataStorage*>(column, type, defaultValue, storageType));
+}
+inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn*  column, ::System::Type*  type, ::System::Object*  defaultValue, ::System::Object*  nullValue, ::System::Data::Common::StorageType  storageType)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::Common::DataStorage*>(column, type, defaultValue, nullValue, storageType));
+}
+inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn*  column, ::System::Type*  type, ::System::Object*  defaultValue, ::System::Object*  nullValue, bool  isICloneable, ::System::Data::Common::StorageType  storageType)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::Common::DataStorage*>(column, type, defaultValue, nullValue, isICloneable, storageType));
+}
+// Ctor Parameters []
+constexpr ::System::Data::Common::DataStorage::DataStorage()   {
+}

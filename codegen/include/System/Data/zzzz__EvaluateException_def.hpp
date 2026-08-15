@@ -1,0 +1,66 @@
+#pragma once
+// IWYU pragma private; include "System/Data/EvaluateException.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/Data/zzzz__InvalidExpressionException_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(EvaluateException)
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+// Forward declare root types
+namespace System::Data {
+class EvaluateException;
+}
+// Write type traits
+MARK_REF_T(::System::Data::EvaluateException*);
+DEFINE_IL2CPP_CLASS(::System::Data::EvaluateException*, "System.Data", "EvaluateException");
+// Dependencies System.Data.InvalidExpressionException
+namespace System::Data {
+// Is value type: false
+// CS Name: System.Data.EvaluateException
+class CORDL_TYPE EvaluateException : public ::System::Data::InvalidExpressionException {
+public:
+// Declarations
+static inline ::System::Data::EvaluateException* New_ctor() ;
+
+static inline ::System::Data::EvaluateException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+
+static inline ::System::Data::EvaluateException* New_ctor(::StringW  s) ;
+
+/// @brief Method .ctor, addr 0x181b9cdd0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method .ctor, addr 0x181662c90, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
+
+/// @brief Method .ctor, addr 0x181b9cde0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::StringW  s) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr EvaluateException() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "EvaluateException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EvaluateException(EvaluateException && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "EvaluateException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EvaluateException(EvaluateException const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14019};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::System::Data::EvaluateException) == 0x90, "Size mismatch!");
+
+} // namespace end def System::Data

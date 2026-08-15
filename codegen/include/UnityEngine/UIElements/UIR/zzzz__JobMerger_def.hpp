@@ -1,0 +1,134 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/JobMerger.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__MemoryLabel_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(JobMerger)
+namespace System {
+class IDisposable;
+}
+namespace Unity::Jobs {
+struct JobHandle;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements::UIR {
+class JobMerger;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::UIR::JobMerger*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::JobMerger*, "UnityEngine.UIElements.UIR", "JobMerger");
+// Dependencies System.Object, Unity.Collections.MemoryLabel, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle
+namespace UnityEngine::UIElements::UIR {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.UIR.JobMerger
+class CORDL_TYPE JobMerger : public ::System::Object {
+public:
+// Declarations
+/// @brief Field <disposed>k__BackingField, offset 0x24, size 0x1 
+ __declspec(property(get=__cordl_internal_get__disposed_k__BackingField, put=__cordl_internal_set__disposed_k__BackingField)) bool  _disposed_k__BackingField;
+
+ __declspec(property(get=get_disposed, put=set_disposed)) bool  disposed;
+
+/// @brief Field k_MemoryLabel, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_k_MemoryLabel, put=setStaticF_k_MemoryLabel)) ::Unity::Collections::MemoryLabel  k_MemoryLabel;
+
+/// @brief Field m_JobCount, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_JobCount, put=__cordl_internal_set_m_JobCount)) int32_t  m_JobCount;
+
+/// @brief Field m_Jobs, offset 0x10, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_Jobs, put=__cordl_internal_set_m_Jobs)) ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>  m_Jobs;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method Add, addr 0x182430200, size 0x80, virtual false, abstract: false, final false
+inline void Add(::Unity::Jobs::JobHandle  job) ;
+
+/// @brief Method Dispose, addr 0x1824302b0, size 0x30, virtual true, abstract: false, final true
+inline void Dispose() ;
+
+/// @brief Method Dispose, addr 0x182430280, size 0x30, virtual false, abstract: false, final false
+inline void Dispose(bool  disposing) ;
+
+/// @brief Method MergeAndReset, addr 0x1824302e0, size 0xa0, virtual false, abstract: false, final false
+inline ::Unity::Jobs::JobHandle MergeAndReset() ;
+
+static inline ::UnityEngine::UIElements::UIR::JobMerger* New_ctor(int32_t  capacity) ;
+
+constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
+
+constexpr bool& __cordl_internal_get__disposed_k__BackingField() ;
+
+constexpr int32_t const& __cordl_internal_get_m_JobCount() const;
+
+constexpr int32_t& __cordl_internal_get_m_JobCount() ;
+
+constexpr ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> const& __cordl_internal_get_m_Jobs() const;
+
+constexpr ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>& __cordl_internal_get_m_Jobs() ;
+
+constexpr void __cordl_internal_set__disposed_k__BackingField(bool  value) ;
+
+constexpr void __cordl_internal_set_m_JobCount(int32_t  value) ;
+
+constexpr void __cordl_internal_set_m_Jobs(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>  value) ;
+
+/// @brief Method .ctor, addr 0x1824303e0, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(int32_t  capacity) ;
+
+static inline ::Unity::Collections::MemoryLabel getStaticF_k_MemoryLabel() ;
+
+/// @brief Method get_disposed, addr 0x1803a7470, size 0x10, virtual false, abstract: false, final false
+inline bool get_disposed() ;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+static inline void setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel  value) ;
+
+/// @brief Method set_disposed, addr 0x1803a74c0, size 0x10, virtual false, abstract: false, final false
+inline void set_disposed(bool  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr JobMerger() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "JobMerger", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JobMerger(JobMerger && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "JobMerger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JobMerger(JobMerger const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4549};
+
+/// @brief Field m_Jobs, offset: 0x10, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>  ___m_Jobs;
+
+/// @brief Field m_JobCount, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___m_JobCount;
+
+/// @brief Field <disposed>k__BackingField, offset: 0x24, size: 0x1, def value: None
+ bool  ____disposed_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::UIElements::UIR::JobMerger, ___m_Jobs) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::JobMerger, ___m_JobCount) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::JobMerger, ____disposed_k__BackingField) == 0x24, "Offset mismatch!");
+
+static_assert(sizeof(::UnityEngine::UIElements::UIR::JobMerger) == 0x28, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements::UIR

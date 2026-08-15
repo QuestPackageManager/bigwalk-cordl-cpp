@@ -1,0 +1,87 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumePositioning.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
+CORDL_MODULE_EXPORT(ProbeVolumePositioning)
+namespace UnityEngine::Rendering {
+struct ProbeReferenceVolume_Volume;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering {
+class ProbeVolumePositioning;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::Rendering::ProbeVolumePositioning*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumePositioning*, "UnityEngine.Rendering", "ProbeVolumePositioning");
+// Dependencies System.Object, UnityEngine.Vector3
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.ProbeVolumePositioning
+class CORDL_TYPE ProbeVolumePositioning : public ::System::Object {
+public:
+// Declarations
+/// @brief Field m_AABBCorners, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_m_AABBCorners, put=setStaticF_m_AABBCorners)) ::ArrayW<::UnityEngine::Vector3>  m_AABBCorners;
+
+/// @brief Field m_Axes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_m_Axes, put=setStaticF_m_Axes)) ::ArrayW<::UnityEngine::Vector3>  m_Axes;
+
+/// @brief Method OBBAABBIntersect, addr 0x182024850, size 0x580, virtual false, abstract: false, final false
+static inline bool OBBAABBIntersect(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>  a, ::by_ref<::UnityEngine::Bounds>  b, ::by_ref<::UnityEngine::Bounds>  aAABB) ;
+
+/// @brief Method OBBContains, addr 0x182024dd0, size 0x170, virtual false, abstract: false, final false
+static inline bool OBBContains(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>  obb, ::UnityEngine::Vector3  point) ;
+
+/// @brief Method OBBIntersect, addr 0x182024f40, size 0x510, virtual false, abstract: false, final false
+static inline bool OBBIntersect(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>  a, ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>  b) ;
+
+/// @brief Method ProjectAABB, addr 0x182025450, size 0xd0, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 ProjectAABB(::by_ref<::ArrayW<::UnityEngine::Vector3>>  corners, ::UnityEngine::Vector3  axis) ;
+
+/// @brief Method ProjectOBB, addr 0x182025520, size 0x240, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 ProjectOBB(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>  a, ::UnityEngine::Vector3  axis) ;
+
+static inline ::ArrayW<::UnityEngine::Vector3> getStaticF_m_AABBCorners() ;
+
+static inline ::ArrayW<::UnityEngine::Vector3> getStaticF_m_Axes() ;
+
+static inline void setStaticF_m_AABBCorners(::ArrayW<::UnityEngine::Vector3>  value) ;
+
+static inline void setStaticF_m_Axes(::ArrayW<::UnityEngine::Vector3>  value) ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProbeVolumePositioning() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePositioning", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProbeVolumePositioning(ProbeVolumePositioning && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePositioning", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProbeVolumePositioning(ProbeVolumePositioning const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6958};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::Rendering::ProbeVolumePositioning) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::Rendering

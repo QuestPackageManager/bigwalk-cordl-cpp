@@ -1,0 +1,85 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BaseElementBuilder.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+CORDL_MODULE_EXPORT(BaseElementBuilder)
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+// Forward declare root types
+namespace UnityEngine::UIElements::UIR {
+class BaseElementBuilder;
+}
+// Write type traits
+MARK_REF_T(::UnityEngine::UIElements::UIR::BaseElementBuilder*);
+DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::BaseElementBuilder*, "UnityEngine.UIElements.UIR", "BaseElementBuilder");
+// Dependencies System.Object
+namespace UnityEngine::UIElements::UIR {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.UIR.BaseElementBuilder
+class CORDL_TYPE BaseElementBuilder : public ::System::Object {
+public:
+// Declarations
+/// @brief Method Build, addr 0x18241fdd0, size 0x30, virtual false, abstract: false, final false
+inline void Build(Il2CppObject*  mgc) ;
+
+/// @brief Method BuildRenderTreeQuadElement, addr 0x18241f2f0, size 0x5c0, virtual false, abstract: false, final false
+inline void BuildRenderTreeQuadElement(Il2CppObject*  mgc) ;
+
+/// @brief Method BuildStandardElement, addr 0x18241f8b0, size 0x520, virtual false, abstract: false, final false
+inline void BuildStandardElement(Il2CppObject*  mgc) ;
+
+/// @brief Method DrawVisualElementBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void DrawVisualElementBackground(Il2CppObject*  mgc) ;
+
+/// @brief Method DrawVisualElementBorder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void DrawVisualElementBorder(Il2CppObject*  mgc) ;
+
+/// @brief Method DrawVisualElementStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void DrawVisualElementStencilMask(Il2CppObject*  mgc) ;
+
+/// @brief Method InvokeGenerateVisualContent, addr 0x18241fe00, size 0xa0, virtual false, abstract: false, final false
+static inline void InvokeGenerateVisualContent(Il2CppObject*  mgc) ;
+
+static inline ::UnityEngine::UIElements::UIR::BaseElementBuilder* New_ctor() ;
+
+/// @brief Method PopVisualElementClipping, addr 0x18241fea0, size 0xb0, virtual false, abstract: false, final false
+static inline void PopVisualElementClipping(Il2CppObject*  mgc) ;
+
+/// @brief Method PushVisualElementClipping, addr 0x18241ff50, size 0xf0, virtual false, abstract: false, final false
+inline void PushVisualElementClipping(Il2CppObject*  mgc) ;
+
+/// @brief Method RequiresStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool RequiresStencilMask(::UnityEngine::UIElements::VisualElement*  ve) ;
+
+/// @brief Method ScheduleMeshGenerationJobs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void ScheduleMeshGenerationJobs(Il2CppObject*  mgc) ;
+
+/// @brief Method .ctor, addr 0x1802d9d80, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr BaseElementBuilder() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BaseElementBuilder(BaseElementBuilder && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BaseElementBuilder(BaseElementBuilder const& ) = delete;
+
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4509};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::UIR::BaseElementBuilder) == 0x10, "Size mismatch!");
+
+} // namespace end def UnityEngine::UIElements::UIR

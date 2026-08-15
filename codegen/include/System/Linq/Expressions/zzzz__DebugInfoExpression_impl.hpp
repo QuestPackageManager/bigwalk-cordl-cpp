@@ -1,0 +1,108 @@
+#pragma once
+// IWYU pragma private; include "System/Linq/Expressions/DebugInfoExpression.hpp"
+#include "System/Linq/Expressions/zzzz__Expression_impl.hpp"
+#include "System/Linq/Expressions/zzzz__DebugInfoExpression_def.hpp"
+#include "System/Linq/Expressions/zzzz__SymbolDocumentInfo_def.hpp"
+//  Writing Method size for method: ::System::Linq::Expressions::DebugInfoExpression.get_StartLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(&::System::Linq::Expressions::DebugInfoExpression::get_StartLine)> {
+  constexpr static std::size_t size = 0x4e0;
+  constexpr static std::size_t addrs = 0x18139c290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::DebugInfoExpression.get_EndLine
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(&::System::Linq::Expressions::DebugInfoExpression::get_EndLine)> {
+  constexpr static std::size_t size = 0x4e0;
+  constexpr static std::size_t addrs = 0x18139c290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::DebugInfoExpression.get_Document
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::SymbolDocumentInfo* (::System::Linq::Expressions::DebugInfoExpression::*)()>(&::System::Linq::Expressions::DebugInfoExpression::get_Document)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x1802db4a0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(),
+                        {"get_Document", {}, {}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Linq::Expressions::DebugInfoExpression.get_IsClear
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::DebugInfoExpression::*)()>(&::System::Linq::Expressions::DebugInfoExpression::get_IsClear)> {
+  constexpr static std::size_t size = 0x4e0;
+  constexpr static std::size_t addrs = 0x18139c290;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(),
+                    {::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Linq::Expressions::SymbolDocumentInfo*& System::Linq::Expressions::DebugInfoExpression::__cordl_internal_get__Document_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Document_k__BackingField;
+}
+constexpr ::System::Linq::Expressions::SymbolDocumentInfo* const& System::Linq::Expressions::DebugInfoExpression::__cordl_internal_get__Document_k__BackingField() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Document_k__BackingField;
+}
+constexpr void System::Linq::Expressions::DebugInfoExpression::__cordl_internal_set__Document_k__BackingField(::System::Linq::Expressions::SymbolDocumentInfo*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____Document_k__BackingField = value;
+}
+inline int32_t System::Linq::Expressions::DebugInfoExpression::get_StartLine()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline int32_t System::Linq::Expressions::DebugInfoExpression::get_EndLine()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::SymbolDocumentInfo* System::Linq::Expressions::DebugInfoExpression::get_Document()  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(),
+                        {"get_Document", {}, {}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::SymbolDocumentInfo*>(this, ___internal_method);
+}
+inline bool System::Linq::Expressions::DebugInfoExpression::get_IsClear()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::System::Linq::Expressions::DebugInfoExpression::DebugInfoExpression()   {
+}

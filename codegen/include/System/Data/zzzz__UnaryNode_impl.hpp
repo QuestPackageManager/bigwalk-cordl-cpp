@@ -1,0 +1,305 @@
+#pragma once
+// IWYU pragma private; include "System/Data/UnaryNode.hpp"
+#include "System/Data/zzzz__ExpressionNode_impl.hpp"
+#include "System/Data/zzzz__UnaryNode_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Data/zzzz__DataColumn_def.hpp"
+#include "System/Data/zzzz__DataRowVersion_def.hpp"
+#include "System/Data/zzzz__DataRow_def.hpp"
+#include "System/Data/zzzz__DataTable_def.hpp"
+#include "System/Data/zzzz__ExpressionNode_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Data::UnaryNode._ctor
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UnaryNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*)>(&::System::Data::UnaryNode::_ctor)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181bacba0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::UnaryNode*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Data::ExpressionNode*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.Bind
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UnaryNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::UnaryNode::Bind)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x181bac160;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 5}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.Eval
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::Eval)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181b7c710;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 6}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.Eval
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&::System::Data::UnaryNode::Eval)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x181baca10;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 7}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.Eval
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(::ArrayW<int32_t>)>(&::System::Data::UnaryNode::Eval)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bac9f0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 8}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.EvalUnaryOp
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(int32_t, ::System::Object*)>(&::System::Data::UnaryNode::EvalUnaryOp)> {
+  constexpr static std::size_t size = 0x810;
+  constexpr static std::size_t addrs = 0x181bac1e0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::UnaryNode*>(),
+                        {"EvalUnaryOp", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.IsConstant
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::IsConstant)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bacaa0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 9}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.IsTableConstant
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::IsTableConstant)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bacac0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 10}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.HasLocalAggregate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::HasLocalAggregate)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181baca60;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 11}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.HasRemoteAggregate
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::HasRemoteAggregate)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181baca80;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 12}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.DependsOn
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)(::System::Data::DataColumn*)>(&::System::Data::UnaryNode::DependsOn)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x181bac1c0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 14}
+                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Data::UnaryNode.Optimize
+template<>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::ExpressionNode* (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::Optimize)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x181bacae0;
+
+  inline static const ::MethodInfo* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(
+                    ::i2c::class_of<::System::Data::UnaryNode*>(),
+                    {::i2c::class_of<::System::Data::UnaryNode*>(), 13}
+                ));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& System::Data::UnaryNode::__cordl_internal_get__op()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____op;
+}
+constexpr int32_t const& System::Data::UnaryNode::__cordl_internal_get__op() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____op;
+}
+constexpr void System::Data::UnaryNode::__cordl_internal_set__op(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____op = value;
+}
+constexpr ::System::Data::ExpressionNode*& System::Data::UnaryNode::__cordl_internal_get__right()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____right;
+}
+constexpr ::System::Data::ExpressionNode* const& System::Data::UnaryNode::__cordl_internal_get__right() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____right;
+}
+constexpr void System::Data::UnaryNode::__cordl_internal_set__right(::System::Data::ExpressionNode*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____right = value;
+}
+inline void System::Data::UnaryNode::_ctor(::System::Data::DataTable*  table, int32_t  op, ::System::Data::ExpressionNode*  right)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::UnaryNode*>(),
+                        {".ctor", {}, {::i2c::type_of<::System::Data::DataTable*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Data::ExpressionNode*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table, op, right);
+}
+inline void System::Data::UnaryNode::Bind(::System::Data::DataTable*  table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*  list)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 5}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, table, list);
+}
+inline ::System::Object* System::Data::UnaryNode::Eval()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 6}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline ::System::Object* System::Data::UnaryNode::Eval(::System::Data::DataRow*  row, ::System::Data::DataRowVersion  version)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 7}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, row, version);
+}
+inline ::System::Object* System::Data::UnaryNode::Eval(::ArrayW<int32_t>  recordNos)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 8}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, recordNos);
+}
+inline ::System::Object* System::Data::UnaryNode::EvalUnaryOp(int32_t  op, ::System::Object*  vl)  {
+static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                        ::i2c::class_of<::System::Data::UnaryNode*>(),
+                        {"EvalUnaryOp", {}, {::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>()}}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, op, vl);
+}
+inline bool System::Data::UnaryNode::IsConstant()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 9}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Data::UnaryNode::IsTableConstant()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 10}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Data::UnaryNode::HasLocalAggregate()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 11}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Data::UnaryNode::HasRemoteAggregate()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 12}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool System::Data::UnaryNode::DependsOn(::System::Data::DataColumn*  column)  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 14}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, column);
+}
+inline ::System::Data::ExpressionNode* System::Data::UnaryNode::Optimize()  {
+auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(
+                            reinterpret_cast<Il2CppObject*>(this)->klass,
+                            {::i2c::class_of<::System::Data::UnaryNode*>(), 13}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Data::ExpressionNode*>(this, ___internal_method);
+}
+inline ::System::Data::UnaryNode* System::Data::UnaryNode::New_ctor(::System::Data::DataTable*  table, int32_t  op, ::System::Data::ExpressionNode*  right)  {
+return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::UnaryNode*>(table, op, right));
+}
+// Ctor Parameters []
+constexpr ::System::Data::UnaryNode::UnaryNode()   {
+}
