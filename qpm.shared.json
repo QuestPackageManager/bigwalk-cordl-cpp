@@ -5,10 +5,10 @@
     "sharedDir": "include",
     "dependenciesDir": "extern",
     "info": {
-      "name": "bs-cordl",
-      "id": "bs-cordl",
+      "name": "bigwalk-cordl-cpp",
+      "id": "bigwalk-cordl-cpp",
       "version": "0.1.0",
-      "url": "https://github.com/QuestPackageManager/bs-cordl",
+      "url": "https://github.com/QuestPackageManager/bigwalk-cordl-cpp",
       "additionalData": {
         "headersOnly": true,
         "compileOptions": {
@@ -19,6 +19,7 @@
           "cppFlags": [
             "-fdeclspec",
             "-DUNITY_6",
+            "-DIL2CPP_V39",
             "-DHAS_CODEGEN",
             "-Wno-invalid-offsetof"
           ]
